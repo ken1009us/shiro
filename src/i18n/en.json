@@ -1,0 +1,77 @@
+{
+  "app": {
+    "title": "ShiroQuest",
+    "subtitle": "Japan Castle Collection"
+  },
+  "nav": {
+    "map": "Map",
+    "list": "List",
+    "collection": "Stamps",
+    "badges": "Badges",
+    "settings": "Settings"
+  },
+  "map": {
+    "title": "Castles of Japan",
+    "back": "Back",
+    "castles": "castles",
+    "visited": "visited"
+  },
+  "castle": {
+    "history": "History",
+    "figures": "Notable Figures",
+    "trivia": "Fun Facts",
+    "highlights": "Must-See",
+    "architecture": "Architecture",
+    "type": "Castle Type",
+    "designation": "Designation",
+    "markVisited": "Mark as Visited",
+    "unmarkVisited": "Remove Visit",
+    "favorite": "Favorite",
+    "unfavorite": "Unfavorite",
+    "visitedOn": "Visited on",
+    "types": {
+      "hirajiro": "Flatland Castle",
+      "hirayama": "Hill Castle",
+      "yamajiro": "Mountain Castle",
+      "fortress": "Fortress",
+      "gusuku": "Gusuku",
+      "palace": "Palace",
+      "mizujiro": "Water Castle",
+      "kodai": "Ancient Fortress",
+      "chashi": "Chashi",
+      "jinya": "Magistrate Office",
+      "yakata": "Manor"
+    }
+  },
+  "collection": {
+    "title": "Stamp Collection",
+    "empty": "No castles visited yet",
+    "emptyHint": "Visit castles from the map to collect stamps",
+    "progress": "{{count}} / {{total}} castles"
+  },
+  "achievement": {
+    "title": "Conquered!",
+    "regionComplete": "All castles in {{region}} visited!"
+  },
+  "badges": {
+    "title": "Badges",
+    "earned": "Earned",
+    "locked": "Locked",
+    "progress": "{{current}} / {{total}}",
+    "categories": {
+      "milestone": "Milestones",
+      "region": "Regions",
+      "type": "Castle Types",
+      "special": "Special"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "resetData": "Reset Data",
+    "resetConfirm": "All visit data and favorites will be deleted. Are you sure?",
+    "reset": "Reset",
+    "cancel": "Cancel"
+  }
+}

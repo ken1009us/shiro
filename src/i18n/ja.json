@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "ShiroQuest",
+    "subtitle": "日本名城コレクション"
+  },
+  "nav": {
+    "map": "地図",
+    "list": "一覧",
+    "collection": "御城印",
+    "badges": "獎章",
+    "settings": "設定"
+  },
+  "map": {
+    "title": "日本の名城",
+    "back": "戻る",
+    "castles": "城",
+    "visited": "訪問済"
+  },
+  "castle": {
+    "history": "歴史",
+    "figures": "関連人物",
+    "trivia": "豆知識",
+    "highlights": "見どころ",
+    "architecture": "建築の特徴",
+    "type": "城の種類",
+    "designation": "指定",
+    "series": "シリーズ",
+    "seriesNames": {
+      "hyaku": "日本100名城",
+      "zoku": "続日本100名城"
+    },
+    "markVisited": "訪問済みにする",
+    "unmarkVisited": "訪問を取り消す",
+    "favorite": "お気に入り",
+    "unfavorite": "お気に入り解除",
+    "visitedOn": "訪問日",
+    "types": {
+      "hirajiro": "平城",
+      "hirayama": "平山城",
+      "yamajiro": "山城",
+      "fortress": "要塞",
+      "gusuku": "グスク",
+      "palace": "御殿",
+      "mizujiro": "水城",
+      "kodai": "古代城柵",
+      "chashi": "チャシ",
+      "jinya": "陣屋",
+      "yakata": "館",
+      "castle-ruin": "城跡",
+      "ancient-fortress": "古代山城",
+      "daiba": "台場",
+      "kodai-sanjo": "古代山城"
+    }
+  },
+  "collection": {
+    "title": "御城印コレクション",
+    "empty": "まだ城を訪問していません",
+    "emptyHint": "地図から城を訪問して御城印を集めよう",
+    "progress": "{{count}} / {{total}} 城"
+  },
+  "achievement": {
+    "title": "制覇！",
+    "regionComplete": "{{region}} 全城訪問達成！"
+  },
+  "badges": {
+    "title": "獎章",
+    "earned": "獲得済み",
+    "locked": "未獲得",
+    "progress": "{{current}} / {{total}}",
+    "categories": {
+      "milestone": "マイルストーン",
+      "region": "地域制覇",
+      "type": "城タイプ",
+      "special": "特別"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "darkMode": "ダークモード",
+    "language": "言語",
+    "resetData": "データをリセット",
+    "resetConfirm": "すべての訪問データとお気に入りが削除されます。よろしいですか？",
+    "reset": "リセット",
+    "cancel": "キャンセル"
+  }
+}

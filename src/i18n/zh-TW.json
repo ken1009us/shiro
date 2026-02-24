@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "ShiroQuest",
+    "subtitle": "日本名城收藏"
+  },
+  "nav": {
+    "map": "地圖",
+    "list": "列表",
+    "collection": "御城印",
+    "badges": "獎章",
+    "settings": "設定"
+  },
+  "map": {
+    "title": "日本名城",
+    "back": "返回",
+    "castles": "城",
+    "visited": "已訪問"
+  },
+  "castle": {
+    "history": "歷史",
+    "figures": "相關人物",
+    "trivia": "冷知識",
+    "highlights": "必看亮點",
+    "architecture": "建築特色",
+    "type": "城的種類",
+    "designation": "指定",
+    "series": "系列",
+    "seriesNames": {
+      "hyaku": "日本100名城",
+      "zoku": "續日本100名城"
+    },
+    "markVisited": "標記為已訪問",
+    "unmarkVisited": "取消訪問記錄",
+    "favorite": "收藏",
+    "unfavorite": "取消收藏",
+    "visitedOn": "訪問日期",
+    "types": {
+      "hirajiro": "平城",
+      "hirayama": "平山城",
+      "yamajiro": "山城",
+      "fortress": "要塞",
+      "gusuku": "城砦",
+      "palace": "御殿",
+      "mizujiro": "水城",
+      "kodai": "古代城柵",
+      "chashi": "碉堡",
+      "jinya": "陣屋",
+      "yakata": "館",
+      "castle-ruin": "城跡",
+      "ancient-fortress": "古代山城",
+      "daiba": "台場",
+      "kodai-sanjo": "古代山城"
+    }
+  },
+  "collection": {
+    "title": "御城印收藏",
+    "empty": "尚未訪問任何城堡",
+    "emptyHint": "從地圖出發，訪問城堡收集御城印吧",
+    "progress": "{{count}} / {{total}} 城"
+  },
+  "achievement": {
+    "title": "制霸！",
+    "regionComplete": "{{region}} 全城訪問達成！"
+  },
+  "badges": {
+    "title": "獎章",
+    "earned": "已獲得",
+    "locked": "未獲得",
+    "progress": "{{current}} / {{total}}",
+    "categories": {
+      "milestone": "里程碑",
+      "region": "地區制霸",
+      "type": "城堡類型",
+      "special": "特別"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "darkMode": "深色模式",
+    "language": "語言",
+    "resetData": "重設資料",
+    "resetConfirm": "所有訪問紀錄與收藏將被刪除。確定嗎？",
+    "reset": "重設",
+    "cancel": "取消"
+  }
+}
