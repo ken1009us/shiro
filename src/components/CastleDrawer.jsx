@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { motion, useDragControls, AnimatePresence } from 'framer-motion';
+import { useState, useRef, useCallback } from 'react';
+import { motion, useMotionValue, useAnimate, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import CastleIllustration from './CastleIllustration';
 import { getLocalizedText, formatJapaneseDate } from '../utils/helpers';
@@ -42,14 +42,70 @@ function Section({ icon, title, defaultOpen = false, children }) {
   );
 }
 
+function toInputDate(isoString) {
+  if (!isoString) return new Date().toISOString().slice(0, 10);
+  return new Date(isoString).toISOString().slice(0, 10);
+}
+
 export default function CastleDrawer({ castle, store, onClose }) {
   const { t, i18n } = useTranslation();
   const lang = i18n.language;
-  const dragControls = useDragControls();
 
   const isVisited = !!store.visited[castle.id];
   const isFavorite = !!store.favorites[castle.id];
   const visitInfo = store.visited[castle.id];
+
+  const [showDatePicker, setShowDatePicker] = useState(false);
+  const [pickedDate, setPickedDate] = useState(new Date().toISOString().slice(0, 10));
+  const [editingDate, setEditingDate] = useState(false);
+
+  // ── Drag-to-dismiss when scrolled to top ──
+  const dragY = useMotionValue(0);
+  const [scope, animate] = useAnimate();
+  const scrollRef = useRef(null);
+  const touchRef = useRef({ startY: 0, dragging: false });
+
+  const onTouchStart = useCallback((e) => {
+    touchRef.current.startY = e.touches[0].clientY;
+    touchRef.current.dragging = false;
+  }, []);
+
+  const onTouchMove = useCallback((e) => {
+    const scrollEl = scrollRef.current;
+    const dy = e.touches[0].clientY - touchRef.current.startY;
+    const atTop = scrollEl && scrollEl.scrollTop <= 0;
+
+    // Start dragging only when at top and pulling down
+    if (!touchRef.current.dragging && atTop && dy > 4) {
+      touchRef.current.dragging = true;
+    }
+
+    if (touchRef.current.dragging) {
+      e.preventDefault();
+      dragY.set(Math.max(0, dy));
+    }
+  }, [dragY]);
+
+  const onTouchEnd = useCallback(() => {
+    if (!touchRef.current.dragging) return;
+    touchRef.current.dragging = false;
+    const current = dragY.get();
+    if (current > 80) {
+      animate(scope.current, { y: '100%' }, { duration: 0.2 }).then(onClose);
+    } else {
+      animate(dragY, 0, { type: 'spring', stiffness: 400, damping: 30 });
+    }
+  }, [dragY, animate, scope, onClose]);
+
+  const handleConfirmVisit = () => {
+    store.markVisited(castle.id, new Date(pickedDate + 'T12:00:00').toISOString());
+    setShowDatePicker(false);
+  };
+
+  const handleDateEdit = (newVal) => {
+    store.updateVisitDate(castle.id, new Date(newVal + 'T12:00:00').toISOString());
+    setEditingDate(false);
+  };
 
   return (
     <motion.div
@@ -69,31 +125,36 @@ export default function CastleDrawer({ castle, store, onClose }) {
 
       {/* Drawer */}
       <motion.div
+        ref={scope}
         className="absolute bottom-0 left-0 right-0 max-w-lg mx-auto bg-gofun dark:bg-[#2a2a2a] rounded-t-3xl flex flex-col"
         initial={{ y: '100%' }}
         animate={{ y: 0 }}
         exit={{ y: '100%' }}
         transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-        drag="y"
-        dragControls={dragControls}
-        dragListener={false}
-        dragConstraints={{ top: 0 }}
-        dragElastic={0.2}
-        onDragEnd={(_, info) => {
-          if (info.offset.y > 100) onClose();
-        }}
-        style={{ maxHeight: '92vh' }}
+        style={{ y: dragY, maxHeight: '92vh' }}
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
       >
-        {/* Drag handle — only this triggers drag */}
-        <div
-          className="flex justify-center pt-3 pb-2 cursor-grab active:cursor-grabbing shrink-0"
-          onPointerDown={(e) => dragControls.start(e)}
-        >
+        {/* Header: drag handle + close button */}
+        <div className="flex items-center justify-between px-4 pt-3 pb-1 shrink-0">
+          <div className="w-8" />
           <div className="w-10 h-1 rounded-full bg-nibi/30" />
+          <button
+            onClick={onClose}
+            className="w-8 h-8 rounded-full bg-black/5 dark:bg-white/10 flex items-center justify-center"
+          >
+            <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="currentColor" strokeWidth={2.5}>
+              <path d="M18 6L6 18M6 6l12 12" strokeLinecap="round" />
+            </svg>
+          </button>
         </div>
 
-        {/* Scrollable content — scroll works freely */}
-        <div className="flex-1 overflow-y-auto no-scrollbar px-4 pb-2 overscroll-contain touch-pan-y">
+        {/* Scrollable content */}
+        <div
+          ref={scrollRef}
+          className="flex-1 overflow-y-auto no-scrollbar px-4 pb-2 overscroll-contain"
+        >
           {/* Castle illustration */}
           <div className="flex justify-center mb-3">
             <CastleIllustration illustration={castle.illustration} size={130} />
@@ -123,19 +184,35 @@ export default function CastleDrawer({ castle, store, onClose }) {
             </div>
             <div className="text-center px-3 py-1.5 rounded-lg bg-black/5 dark:bg-white/5">
               <div className="text-[9px] text-nibi dark:text-[#808080]">{t('castle.designation')}</div>
-              <div className="text-[11px] font-medium">{castle.designation}</div>
+              <div className="text-[11px] font-medium">{t(`castle.designations.${castle.designation}`, castle.designation)}</div>
             </div>
             {isVisited && (
-              <div className="text-center px-3 py-1.5 rounded-lg bg-kincha/10">
-                <div className="text-[9px] text-kincha">{t('castle.visitedOn')}</div>
-                <div className="text-[11px] font-medium text-kincha">{formatJapaneseDate(visitInfo.date)}</div>
-              </div>
+              editingDate ? (
+                <div className="text-center px-3 py-1.5 rounded-lg bg-kincha/10">
+                  <div className="text-[9px] text-kincha">{t('castle.visitedOn')}</div>
+                  <input
+                    type="date"
+                    defaultValue={toInputDate(visitInfo.date)}
+                    onChange={(e) => handleDateEdit(e.target.value)}
+                    onBlur={() => setEditingDate(false)}
+                    autoFocus
+                    className="text-[11px] font-medium text-kincha bg-transparent outline-none w-full text-center"
+                  />
+                </div>
+              ) : (
+                <button
+                  onClick={() => setEditingDate(true)}
+                  className="text-center px-3 py-1.5 rounded-lg bg-kincha/10 active:bg-kincha/20 transition-colors"
+                >
+                  <div className="text-[9px] text-kincha">{t('castle.visitedOn')}</div>
+                  <div className="text-[11px] font-medium text-kincha">{formatJapaneseDate(visitInfo.date)}</div>
+                </button>
+              )
             )}
           </div>
 
           {/* Collapsible sections */}
           <div className="space-y-2 mb-4">
-            {/* Notable figures — above history */}
             {castle.figures && castle.figures.length > 0 && (
               <Section icon="👤" title={t('castle.figures')} defaultOpen={true}>
                 <div className="space-y-2.5">
@@ -158,7 +235,6 @@ export default function CastleDrawer({ castle, store, onClose }) {
               </Section>
             )}
 
-            {/* History timeline */}
             <Section icon="📜" title={t('castle.history')}>
               <div className="space-y-2.5">
                 {castle.history.map((item, i) => {
@@ -181,7 +257,6 @@ export default function CastleDrawer({ castle, store, onClose }) {
               </div>
             </Section>
 
-            {/* Trivia / Fun facts */}
             {castle.trivia && castle.trivia.length > 0 && (
               <Section icon="💡" title={t('castle.trivia')}>
                 <div className="space-y-2">
@@ -195,7 +270,6 @@ export default function CastleDrawer({ castle, store, onClose }) {
               </Section>
             )}
 
-            {/* Highlights / Must-see */}
             {castle.highlights && castle.highlights.length > 0 && (
               <Section icon="🏯" title={t('castle.highlights')}>
                 <div className="space-y-2">
@@ -209,7 +283,6 @@ export default function CastleDrawer({ castle, store, onClose }) {
               </Section>
             )}
 
-            {/* Architecture */}
             {castle.architecture && castle.architecture.length > 0 && (
               <Section icon="🔨" title={t('castle.architecture')}>
                 <div className="space-y-2">
@@ -227,30 +300,71 @@ export default function CastleDrawer({ castle, store, onClose }) {
 
         {/* Sticky action buttons */}
         <div className="shrink-0 px-4 pt-3 pb-6 bg-gofun dark:bg-[#2a2a2a] border-t border-black/5 dark:border-white/5">
-          <div className="flex gap-3">
-            <button
-              onClick={() => isVisited ? store.unmarkVisited(castle.id) : store.markVisited(castle.id)}
-              className={`flex-1 py-3 rounded-2xl text-sm font-medium transition-all ${
-                isVisited
-                  ? 'bg-kincha/10 text-kincha border border-kincha/20'
-                  : 'bg-wakatake text-white'
-              }`}
-            >
-              {isVisited ? t('castle.unmarkVisited') : t('castle.markVisited')}
-            </button>
-            <button
-              onClick={() => store.toggleFavorite(castle.id)}
-              className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all ${
-                isFavorite
-                  ? 'bg-beni/10 text-beni'
-                  : 'bg-black/5 dark:bg-white/5 text-nibi'
-              }`}
-            >
-              <svg viewBox="0 0 24 24" fill={isFavorite ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={2} className="w-5 h-5">
-                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z" />
-              </svg>
-            </button>
-          </div>
+          <AnimatePresence mode="wait">
+            {showDatePicker ? (
+              <motion.div
+                key="datepicker"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                className="space-y-3"
+              >
+                <div className="text-sm font-medium text-center">{t('castle.selectDate')}</div>
+                <input
+                  type="date"
+                  value={pickedDate}
+                  onChange={(e) => setPickedDate(e.target.value)}
+                  max={new Date().toISOString().slice(0, 10)}
+                  className="w-full py-2.5 px-4 rounded-xl border border-black/10 dark:border-white/10 bg-white dark:bg-[#333] text-sm text-center outline-none"
+                />
+                <div className="flex gap-3">
+                  <button
+                    onClick={handleConfirmVisit}
+                    className="flex-1 py-3 rounded-2xl text-sm font-medium bg-wakatake text-white"
+                  >
+                    {t('castle.confirmVisit')}
+                  </button>
+                  <button
+                    onClick={() => setShowDatePicker(false)}
+                    className="px-4 py-3 rounded-2xl text-sm font-medium border border-black/5 dark:border-white/5 text-nibi"
+                  >
+                    {t('settings.cancel')}
+                  </button>
+                </div>
+              </motion.div>
+            ) : (
+              <motion.div
+                key="actions"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                className="flex gap-3"
+              >
+                <button
+                  onClick={() => isVisited ? store.unmarkVisited(castle.id) : setShowDatePicker(true)}
+                  className={`flex-1 py-3 rounded-2xl text-sm font-medium transition-all ${
+                    isVisited
+                      ? 'bg-kincha/10 text-kincha border border-kincha/20'
+                      : 'bg-wakatake text-white'
+                  }`}
+                >
+                  {isVisited ? t('castle.unmarkVisited') : t('castle.markVisited')}
+                </button>
+                <button
+                  onClick={() => store.toggleFavorite(castle.id)}
+                  className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all ${
+                    isFavorite
+                      ? 'bg-beni/10 text-beni'
+                      : 'bg-black/5 dark:bg-white/5 text-nibi'
+                  }`}
+                >
+                  <svg viewBox="0 0 24 24" fill={isFavorite ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={2} className="w-5 h-5">
+                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                </button>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       </motion.div>
     </motion.div>

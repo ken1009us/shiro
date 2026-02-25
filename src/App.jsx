@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <Layout darkMode={store.darkMode}>
-      <div className="pb-20 min-h-screen">
+      <div className="min-h-screen pt-safe" style={{ paddingBottom: 'calc(5rem + var(--sab))' }}>
         <AnimatePresence mode="wait">
           {views[view]}
         </AnimatePresence>

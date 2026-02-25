@@ -1,22 +1,16 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { castles } from '../data/castles';
-import { getCompletionPercent } from '../utils/helpers';
 
 const languages = [
-  { code: 'ja', label: '日本語', flag: '🇯🇵' },
-  { code: 'zh-TW', label: '繁體中文', flag: '🇹🇼' },
-  { code: 'en', label: 'English', flag: '🇬🇧' },
+  { code: 'ja', label: '日本語' },
+  { code: 'zh-TW', label: '繁體中文' },
+  { code: 'en', label: 'English' },
 ];
 
 export default function Settings({ store }) {
   const { t, i18n } = useTranslation();
   const [showReset, setShowReset] = useState(false);
-
-  const visitedCount = Object.keys(store.visited).length;
-  const favCount = Object.keys(store.favorites).length;
-  const pct = getCompletionPercent(store.visited);
 
   const handleLanguageChange = (code) => {
     store.setLanguage(code);
@@ -28,6 +22,22 @@ export default function Settings({ store }) {
     setShowReset(false);
   };
 
+  const handleExport = () => {
+    const data = {
+      visited: store.visited,
+      favorites: store.favorites,
+      achievements: store.achievements,
+    };
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const today = new Date().toISOString().slice(0, 10);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `shiroquest-backup-${today}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <motion.div
       key="settings"
@@ -37,32 +47,6 @@ export default function Settings({ store }) {
       className="px-4 pt-6 pb-4"
     >
       <h1 className="text-lg font-serif font-bold mb-6">{t('settings.title')}</h1>
-
-      {/* Stats card */}
-      <div className="rounded-2xl bg-wakatake/5 dark:bg-wakatake/10 border border-wakatake/10 p-4 mb-6">
-        <div className="flex items-center gap-4">
-          <div className="w-14 h-14 rounded-xl bg-wakatake/10 flex items-center justify-center">
-            <svg viewBox="0 0 24 24" width={28} height={28} fill="none" stroke="#2d4a3e" strokeWidth={1.5}>
-              <path d="M4,20 L4,12 L8,8 L12,5 L16,8 L20,12 L20,20Z" />
-              <rect x="9" y="14" width="6" height="6" rx="0.5" />
-            </svg>
-          </div>
-          <div className="flex-1">
-            <div className="text-2xl font-bold font-serif">{pct}%</div>
-            <div className="text-xs text-nibi dark:text-[#808080]">
-              {visitedCount} / {castles.length} {t('map.castles')} · {favCount} {t('castle.favorite')}
-            </div>
-          </div>
-        </div>
-        <div className="mt-3 h-2 bg-black/5 dark:bg-white/5 rounded-full overflow-hidden">
-          <motion.div
-            className="h-full bg-wakatake rounded-full"
-            initial={{ width: 0 }}
-            animate={{ width: `${pct}%` }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-          />
-        </div>
-      </div>
 
       {/* Settings sections */}
       <div className="space-y-4">
@@ -117,18 +101,40 @@ export default function Settings({ store }) {
                 <button
                   key={lang.code}
                   onClick={() => handleLanguageChange(lang.code)}
-                  className={`py-3 rounded-xl text-sm font-medium transition-all border ${
+                  className={`py-2.5 rounded-xl text-sm font-medium transition-all border ${
                     isActive
                       ? 'bg-wakatake text-white border-wakatake shadow-sm'
                       : 'bg-transparent border-black/5 dark:border-white/5 text-nibi hover:bg-black/5 dark:hover:bg-white/5'
                   }`}
                 >
-                  <div className="text-base mb-0.5">{lang.flag}</div>
-                  <div className="text-xs">{lang.label}</div>
+                  {lang.label}
                 </button>
               );
             })}
           </div>
+        </div>
+
+        {/* Export data */}
+        <div className="rounded-2xl bg-white dark:bg-[#2a2a2a] border border-black/5 dark:border-white/5 p-4">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-9 h-9 rounded-xl bg-sumi/5 dark:bg-white/5 flex items-center justify-center">
+              <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={1.5}>
+                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+            </div>
+            <div>
+              <div className="text-sm font-medium">{t('settings.exportData')}</div>
+              <div className="text-[10px] text-nibi dark:text-[#808080] mt-0.5">{t('settings.exportDesc')}</div>
+            </div>
+          </div>
+          <button
+            onClick={handleExport}
+            className="w-full py-2.5 rounded-xl text-sm font-medium border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
+          >
+            {t('settings.exportData')}
+          </button>
         </div>
 
         {/* Data management */}

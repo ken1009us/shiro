@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import JapanMap from './JapanMap';
@@ -15,38 +15,74 @@ export default function MapView({ store }) {
 
   const region = selectedRegion ? regions.find((r) => r.id === selectedRegion) : null;
 
+  const goBack = useCallback(() => {
+    setSelectedRegion(null);
+    setSelectedCastle(null);
+  }, []);
+
+  // Edge swipe to go back
+  const touchRef = useRef({ startX: 0, startY: 0, active: false });
+
+  const onTouchStart = useCallback((e) => {
+    const x = e.touches[0].clientX;
+    // Only activate if touch starts within 20px of the left edge
+    if (x <= 20) {
+      touchRef.current = { startX: x, startY: e.touches[0].clientY, active: true };
+    } else {
+      touchRef.current.active = false;
+    }
+  }, []);
+
+  const onTouchEnd = useCallback((e) => {
+    if (!touchRef.current.active || !selectedRegion) return;
+    const endX = e.changedTouches[0].clientX;
+    const endY = e.changedTouches[0].clientY;
+    const dx = endX - touchRef.current.startX;
+    const dy = Math.abs(endY - touchRef.current.startY);
+    // Horizontal swipe > 60px and mostly horizontal
+    if (dx > 60 && dx > dy * 1.5) {
+      goBack();
+    }
+    touchRef.current.active = false;
+  }, [selectedRegion, goBack]);
+
   return (
     <motion.div
       key="map"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col h-[calc(100vh-5rem)]"
+      className={`${selectedRegion ? 'overflow-y-auto no-scrollbar' : 'flex flex-col'}`}
+      style={{ height: 'calc(100vh - 5rem - var(--sat) - var(--sab))' }}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
     >
-      {/* Header */}
-      <div className="flex items-center gap-3 px-4 pt-6 pb-2 shrink-0">
-        {selectedRegion && (
-          <button
-            onClick={() => { setSelectedRegion(null); setSelectedCastle(null); }}
-            className="p-2 -ml-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-5 h-5">
-              <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </button>
-        )}
-        <div>
-          <h1 className="text-lg font-serif font-bold">
-            {selectedRegion ? getLocalizedText(region?.name, lang) : t('map.title')}
-          </h1>
-          {!selectedRegion && (
-            <p className="text-xs text-nibi dark:text-[#808080]">{t('app.subtitle')}</p>
+      {/* Sticky header — stays pinned when scrolling the region detail */}
+      <div className={`${selectedRegion ? 'sticky top-0 z-10 bg-gofun/95 dark:bg-[#1a1a1a]/95 backdrop-blur-sm' : 'shrink-0'}`}>
+        <div className="flex items-center gap-2 px-4 pt-6 pb-2">
+          {selectedRegion && (
+            <button
+              onClick={goBack}
+              className="p-2 -ml-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors shrink-0"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-5 h-5">
+                <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
           )}
+          <div className="min-w-0 flex-1">
+            <h1 className="text-lg font-serif font-bold truncate">
+              {selectedRegion ? getLocalizedText(region?.name, lang) : t('map.title')}
+            </h1>
+            {!selectedRegion && (
+              <p className="text-xs text-nibi dark:text-[#808080]">{t('app.subtitle')}</p>
+            )}
+          </div>
         </div>
       </div>
 
       {/* Map or Region Detail */}
-      <div className={`flex-1 px-4 ${selectedRegion ? 'overflow-y-auto no-scrollbar pb-4' : 'flex items-center justify-center'}`}>
+      <div className={`px-4 ${selectedRegion ? 'pb-4' : 'flex-1 flex items-center justify-center'}`}>
         <AnimatePresence mode="wait">
           {selectedRegion ? (
             <RegionDetail

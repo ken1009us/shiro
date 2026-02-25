@@ -1425,7 +1425,7 @@ export const castles = [
       { ja: '中国風の赤漆と龍柱 — 本土の城にはない華やかな朱塗りと龍の装飾が琉球独自の文化を表現。', zhTw: '中國風的紅漆與龍柱 — 本土城郭所沒有的華麗朱漆與龍裝飾，表現琉球獨自的文化。', en: 'Chinese-influenced red lacquer and dragon pillars — vivid vermilion coating and dragon motifs unlike any mainland Japanese castle, expressing Ryukyuan cultural identity.' },
       { ja: '自然の地形に沿って曲線を描く石垣 — 琉球石灰岩を巧みに積んだ曲線美は琉球の石積み技術の粋。', zhTw: '沿自然地形描繪曲線的石垣 — 巧妙堆砌琉球石灰岩的曲線美是琉球石砌技術的精華。', en: 'Curved stone walls following natural topography — the graceful curves of skillfully stacked Ryukyuan limestone represent the pinnacle of Ryukyuan masonry.' },
     ],
-  },,
+  },
 // ── 北海道 ──
   {
     id: 'nemuro-chashi', number: 1, regionId: 'hokkaido',
@@ -3696,7 +3696,7 @@ export const castles = [
     prefecture: { ja: '福岡県', zhTw: '福岡縣', en: 'Fukuoka' },
     type: 'castle-ruin', designation: '特別史跡',
     position: { x: 24, y: 75 },
-    illustration: { style: 'ruins', tiers: 1, color: '#6b8b6b', roofColor: '#3d4a3d' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B8878', roofColor: '#5A5848' },
     goshuin: { bg: '#e8dfd0', ink: '#2d3d2d', seal: '#b83a3a', crest: '#6b5a14' },
     history: [
       { year: 663, event: { ja: '白村江の戦いで唐・新羅連合軍に大敗した大和朝廷が北九州防衛のため築城を決定。', zhTw: '白村江之戰大敗於唐朝與新羅聯軍的大和朝廷，決定為防衛北九州而築城。', en: 'After defeat at the Battle of Baekgang, the Yamato court decided to fortify northern Kyushu.' } },
@@ -4163,7 +4163,7 @@ export const castles = [
     prefecture: { ja: '北海道', zhTw: '北海道', en: 'Hokkaido' },
     type: 'castle-ruin', designation: '国指定史跡',
     position: { x: 77, y: 18 },
-    illustration: { style: 'ruins', tiers: 1, color: '#5b9a8b', roofColor: '#3d5c4a' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B8B7A', roofColor: '#5A5A48' },
     goshuin: { bg: '#e8dfd0', ink: '#2d4a3e', seal: '#b83a3a', crest: '#7a6520' },
     history: [
       { year: 1400, event: { ja: '和人（本州の日本人）が蝦夷地南部に進出し、志苔館を含む道南十二館を築いた。', zhTw: '和人（本州日本人）進入蝦夷地南部，築建包含志苔館在內的道南十二館。', en: 'Japanese settlers expanded into southern Ezo and built the Twelve Tate of Dōnan, including Shinori.' } },
@@ -4194,7 +4194,7 @@ export const castles = [
     prefecture: { ja: '北海道', zhTw: '北海道', en: 'Hokkaido' },
     type: 'castle-ruin', designation: '国指定史跡',
     position: { x: 73, y: 19 },
-    illustration: { style: 'ruins', tiers: 1, color: '#5b9a8b', roofColor: '#3d5c4a' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B8878', roofColor: '#5A5848' },
     goshuin: { bg: '#e8dfd0', ink: '#2d4a3e', seal: '#b83a3a', crest: '#6b5a14' },
     history: [
       { year: 1470, event: { ja: '蠣崎信広（松前氏の祖）が日本海を見下ろす丘陵上に勝山館を築いた。', zhTw: '蠣崎信廣（松前氏之祖）在俯瞰日本海的丘陵上築建勝山館。', en: 'Kakizaki Nobuhiro (ancestor of the Matsumae) built Katsuyama-date on a hill overlooking the Sea of Japan.' } },
@@ -4225,7 +4225,7 @@ export const castles = [
     prefecture: { ja: '青森県', zhTw: '青森縣', en: 'Aomori' },
     type: 'castle-ruin', designation: '国指定史跡',
     position: { x: 76, y: 28 },
-    illustration: { style: 'ruins', tiers: 1, color: '#6b8e7b', roofColor: '#3d5c4a' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B8B7A', roofColor: '#5A5A48' },
     goshuin: { bg: '#e8dfd0', ink: '#2d4a3e', seal: '#b83a3a', crest: '#6b5a14' },
     history: [
       { year: 1460, event: { ja: '北畠氏（南朝の名門）の末裔・浪岡北畠氏が陸奥国に築城した。', zhTw: '北畠氏（南朝名門）末裔浪岡北畠氏在陸奧國築城。', en: 'The Namioka Kitabatake, descendants of the illustrious Southern Court clan, built this castle in Mutsu.' } },
@@ -4281,7 +4281,7 @@ export const castles = [
     ],
   },
   {
-    id: 'wakimoto', number: 105, regionId: 'tohoku',
+    id: 'wakimoto', number: 106, regionId: 'tohoku',
     name: { ja: '脇本城', zhTw: '脇本城', en: 'Wakimoto Castle' },
     city: { ja: '男鹿市', zhTw: '男鹿市', en: 'Oga' },
     prefecture: { ja: '秋田県', zhTw: '秋田縣', en: 'Akita' },
@@ -4311,13 +4311,13 @@ export const castles = [
     ],
   },
   {
-    id: 'akita-castle', number: 106, regionId: 'tohoku',
+    id: 'akita-castle', number: 107, regionId: 'tohoku',
     name: { ja: '秋田城', zhTw: '秋田城', en: 'Akita Castle' },
     city: { ja: '秋田市', zhTw: '秋田市', en: 'Akita' },
     prefecture: { ja: '秋田県', zhTw: '秋田縣', en: 'Akita' },
     type: 'castle-ruin', designation: '国指定史跡',
     position: { x: 74, y: 36 },
-    illustration: { style: 'ruins', tiers: 1, color: '#6b8e7b', roofColor: '#4a5c4a' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#595948' },
     goshuin: { bg: '#e8dfd0', ink: '#2d4a3e', seal: '#b83a3a', crest: '#6b5a14' },
     history: [
       { year: 733, event: { ja: '出羽柵が現在地に移され、奈良時代の東北経営の北限拠点「秋田城」となった。', zhTw: '出羽柵遷移至現址，成為奈良時代東北經營的北限據點「秋田城」。', en: 'The Dewa Stockade was relocated here, becoming "Akita Castle" — the northernmost outpost of Nara-period Tōhoku administration.' } },
@@ -4341,7 +4341,7 @@ export const castles = [
     ],
   },
   {
-    id: 'tsuruoka-jo', number: 107, regionId: 'tohoku',
+    id: 'tsuruoka-jo', number: 108, regionId: 'tohoku',
     name: { ja: '鶴ヶ岡城', zhTw: '鶴岡城', en: 'Tsurugaoka Castle' },
     city: { ja: '鶴岡市', zhTw: '鶴岡市', en: 'Tsuruoka' },
     prefecture: { ja: '山形県', zhTw: '山形縣', en: 'Yamagata' },
@@ -4372,7 +4372,7 @@ export const castles = [
     ],
   },
   {
-    id: 'yonezawa', number: 108, regionId: 'tohoku',
+    id: 'yonezawa', number: 109, regionId: 'tohoku',
     name: { ja: '米沢城', zhTw: '米澤城', en: 'Yonezawa Castle' },
     city: { ja: '米沢市', zhTw: '米澤市', en: 'Yonezawa' },
     prefecture: { ja: '山形県', zhTw: '山形縣', en: 'Yamagata' },
@@ -4410,7 +4410,7 @@ export const castles = [
   // ── 続100名城 東北(続) ──
   {
     id: 'miharu',
-    number: 109,
+    number: 110,
     regionId: 'tohoku',
     name: { ja: '三春城', zhTw: '三春城', en: 'Miharu Castle' },
     city: { ja: '三春町', zhTw: '三春町', en: 'Miharu' },
@@ -4421,10 +4421,35 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8B7355', roofColor: '#4A3728' },
     goshuin: { bg: '#faf5ef', ink: '#3d2b1f', seal: '#c44', crest: '#8B7355' },
     history: [
-      { ja: '戦国時代、田村氏が居城とし、田村地方の政治的中心であった。', zhTw: '戰國時代田村氏以此為居城，為田村地方的政治中心。', en: 'During the Sengoku period, the Tamura clan made this their seat, and it served as the political center of the Tamura region.' },
-      { ja: '田村清顕の娘・愛姫は伊達政宗の正室となり、伊達家との縁を深めた。', zhTw: '田村清顯之女愛姬成為伊達政宗的正室，加深了與伊達家的淵源。', en: 'Tamura Kiyoaki\'s daughter Megohime became Date Masamune\'s wife, deepening ties with the Date clan.' },
-      { ja: '豊臣秀吉の奥州仕置により田村氏は改易、その後蒲生氏・上杉氏・加藤氏を経て秋田氏が藩主となった。', zhTw: '豐臣秀吉奧州處置導致田村氏被改易，之後經蒲生氏、上杉氏、加藤氏，最後由秋田氏擔任藩主。', en: 'After Hideyoshi\'s Ōshū campaign removed the Tamura, the castle passed through the Gamō, Uesugi, and Katō before the Akita clan became lords.' },
-      { ja: '戊辰戦争では三春藩は奥羽越列藩同盟から離脱し、無血開城で新政府軍に降伏した。', zhTw: '戊辰戰爭中三春藩脫離奧羽越列藩同盟，無血開城向新政府軍投降。', en: 'During the Boshin War, Miharu domain broke from the Northern Alliance and surrendered without bloodshed.' },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '田村氏が居城とし、田村地方の政治的中心であった。',
+          zhTw: '田村氏以此為居城，為田村地方的政治中心。',
+          en: 'The Tamura clan made this their seat, and it served as the political center of the Tamura region.',
+        },
+      },
+      {
+        year: 1579, event: {
+          ja: '田村清顕の娘・愛姫は伊達政宗の正室となり、伊達家との縁を深めた。',
+          zhTw: '田村清顯之女愛姬成為伊達政宗的正室，加深了與伊達家的淵源。',
+          en: 'Tamura Kiyoaki\'s daughter Megohime became Date Masamune\'s wife, deepening ties with the Date clan.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '豊臣秀吉の奥州仕置により田村氏は改易、その後蒲生氏・上杉氏・加藤氏を経て秋田氏が藩主となった。',
+          zhTw: '豐臣秀吉奧州處置導致田村氏被改易，之後經蒲生氏、上杉氏、加藤氏，最後由秋田氏擔任藩主。',
+          en: 'After Hideyoshi\'s Ōshū campaign removed the Tamura, the castle passed through the Gamō, Uesugi, and Katō before the Akita clan became lords.',
+        },
+      },
+      {
+        year: 1868, event: {
+          ja: '戊辰戦争では三春藩は奥羽越列藩同盟から離脱し、無血開城で新政府軍に降伏した。',
+          zhTw: '戊辰戰爭中三春藩脫離奧羽越列藩同盟，無血開城向新政府軍投降。',
+          en: 'During the Boshin War, Miharu domain broke from the Northern Alliance and surrendered without bloodshed.',
+        },
+      },
     ],
     figures: [
       { ja: '田村清顕 — 戦国末期の田村氏当主。娘・愛姫を伊達政宗に嫁がせ、伊達との同盟を築いた。', zhTw: '田村清顯 — 戰國末期田村氏當主。將女兒愛姬嫁給伊達政宗，建立與伊達的同盟。', en: 'Tamura Kiyoaki — late Sengoku head of the Tamura; married his daughter Megohime to Date Masamune, forging an alliance.' },
@@ -4449,7 +4474,7 @@ export const castles = [
   },
   {
     id: 'shiroishi',
-    number: 110,
+    number: 105,
     regionId: 'tohoku',
     name: { ja: '白石城', zhTw: '白石城', en: 'Shiroishi Castle' },
     city: { ja: '白石市', zhTw: '白石市', en: 'Shiroishi' },
@@ -4460,11 +4485,45 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#F5F5DC', roofColor: '#2F4F4F' },
     goshuin: { bg: '#f5f0e8', ink: '#2d3436', seal: '#c0392b', crest: '#2F4F4F' },
     history: [
-      { ja: '蒲生氏郷の家臣・蒲生郷成が築城し、その後上杉景勝の支配下に入った。', zhTw: '蒲生氏鄉的家臣蒲生鄉成築城，之後歸入上杉景勝支配。', en: 'Built by Gamō Satoshige, retainer of Gamō Ujisato, the castle later came under Uesugi Kagekatsu.' },
-      { ja: '関ヶ原の戦い直前、伊達政宗が白石城を攻略。以後、片倉氏が城主として幕末まで治めた。', zhTw: '關原之戰前夕伊達政宗攻下白石城，此後片倉氏作為城主治理至幕末。', en: 'Just before Sekigahara, Date Masamune captured Shiroishi; the Katakura clan then governed it until the Bakumatsu.' },
-      { ja: '片倉小十郎景綱は伊達政宗の右腕として知られ、白石城は片倉家の居城となった。', zhTw: '片倉小十郎景綱作為伊達政宗的左右手聞名，白石城成為片倉家的居城。', en: 'Katakura Kojūrō Kagetsuna, Masamune\'s trusted strategist, made Shiroishi the Katakura seat.' },
-      { ja: '戊辰戦争では白石城に奥羽越列藩同盟の会議が開かれ、「白石会議」として歴史に刻まれた。', zhTw: '戊辰戰爭中在白石城召開奧羽越列藩同盟會議，以「白石會議」之名載入史冊。', en: 'During the Boshin War, the Northern Alliance convened here in the historic "Shiroishi Conference."' },
-      { ja: '真田幸村の遺児・阿梅と大八は片倉家に匿われ、白石で真田の血脈が受け継がれた。', zhTw: '真田幸村的遺孤阿梅與大八被片倉家庇護，真田血脈在白石延續。', en: 'Sanada Yukimura\'s orphaned children Ume and Daihachi were sheltered by the Katakura, continuing the Sanada line in Shiroishi.' },
+      {
+        year: 1591,
+        event: {
+          ja: '蒲生氏郷の家臣・蒲生郷成が築城し、その後上杉景勝の支配下に入った。',
+          zhTw: '蒲生氏鄉的家臣蒲生鄉成築城，之後歸入上杉景勝支配。',
+          en: 'Built by Gamō Satoshige, retainer of Gamō Ujisato, the castle later came under Uesugi Kagekatsu.',
+        },
+      },
+      {
+        year: 1600,
+        event: {
+          ja: '関ヶ原の戦い直前、伊達政宗が白石城を攻略。以後、片倉氏が城主として幕末まで治めた。',
+          zhTw: '關原之戰前夕伊達政宗攻下白石城，此後片倉氏作為城主治理至幕末。',
+          en: 'Just before Sekigahara, Date Masamune captured Shiroishi; the Katakura clan then governed it until the Bakumatsu.',
+        },
+      },
+      {
+        year: 1602, event: {
+          ja: '片倉小十郎景綱は伊達政宗の右腕として知られ、白石城は片倉家の居城となった。',
+          zhTw: '片倉小十郎景綱作為伊達政宗的左右手聞名，白石城成為片倉家的居城。',
+          en: 'Katakura Kojūrō Kagetsuna, Masamune\'s trusted strategist, made Shiroishi the Katakura seat.',
+        },
+      },
+      {
+        year: 1868,
+        event: {
+          ja: '戊辰戦争では白石城に奥羽越列藩同盟の会議が開かれ、「白石会議」として歴史に刻まれた。',
+          zhTw: '戊辰戰爭中在白石城召開奧羽越列藩同盟會議，以「白石會議」之名載入史冊。',
+          en: 'During the Boshin War, the Northern Alliance convened here in the historic "Shiroishi Conference."',
+        },
+      },
+      {
+        year: 1615,
+        event: {
+          ja: '真田幸村の遺児・阿梅と大八は片倉家に匿われ、白石で真田の血脈が受け継がれた。',
+          zhTw: '真田幸村的遺孤阿梅與大八被片倉家庇護，真田血脈在白石延續。',
+          en: 'Sanada Yukimura\'s orphaned children Ume and Daihachi were sheltered by the Katakura, continuing the Sanada line in Shiroishi.',
+        },
+      },
     ],
     figures: [
       { ja: '片倉小十郎景綱 — 伊達政宗の軍師として名高い智将。白石城初代城主。', zhTw: '片倉小十郎景綱 — 以伊達政宗軍師聞名的智將。白石城初代城主。', en: 'Katakura Kojūrō Kagetsuna — famed strategist of Date Masamune and first Katakura lord of Shiroishi.' },
@@ -4500,10 +4559,36 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6B8E23', roofColor: '#3B5323' },
     goshuin: { bg: '#f0f5e8', ink: '#2d3d1f', seal: '#8b0000', crest: '#6B8E23' },
     history: [
-      { ja: '1561年、蘆名盛氏が隠居城として築城。東北最大級の山城とされる。', zhTw: '1561年蘆名盛氏作為隱居城築城。被認為是東北最大規模的山城。', en: 'Built in 1561 by Ashina Moriji as his retirement castle; considered one of the largest mountain castles in Tōhoku.' },
-      { ja: '蘆名氏は会津の名門で、全盛期には南奥州に広大な領地を支配した。', zhTw: '蘆名氏是會津的名門，全盛時期支配了南奧州廣大的領地。', en: 'The Ashina were a prestigious Aizu family who at their height controlled vast territories in southern Ōshū.' },
-      { ja: '1589年、摺上原の戦いで伊達政宗に敗れ蘆名氏は滅亡。城は伊達氏の手に渡った。', zhTw: '1589年摺上原之戰敗給伊達政宗，蘆名氏滅亡。城落入伊達氏手中。', en: 'In 1589, the Ashina fell to Date Masamune at the Battle of Suriagehara, and the castle passed to the Date.' },
-      { ja: 'その後、蒲生氏郷が会津に入封すると廃城となり、山城としての役割を終えた。', zhTw: '之後蒲生氏鄉入封會津後廢城，結束了作為山城的角色。', en: 'When Gamō Ujisato took over Aizu, the castle was abandoned, ending its role as a mountain fortress.' },
+      {
+        year: 1561,
+        event: {
+          ja: '蘆名盛氏が隠居城として築城。東北最大級の山城とされる。',
+          zhTw: '蘆名盛氏作為隱居城築城。被認為是東北最大規模的山城。',
+          en: 'Built by Ashina Moriji as his retirement castle; considered one of the largest mountain castles in Tōhoku.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '蘆名氏は会津の名門で、全盛期には南奥州に広大な領地を支配した。',
+          zhTw: '蘆名氏是會津的名門，全盛時期支配了南奧州廣大的領地。',
+          en: 'The Ashina were a prestigious Aizu family who at their height controlled vast territories in southern Ōshū.',
+        },
+      },
+      {
+        year: 1589,
+        event: {
+          ja: '摺上原の戦いで伊達政宗に敗れ蘆名氏は滅亡。城は伊達氏の手に渡った。',
+          zhTw: '摺上原之戰敗給伊達政宗，蘆名氏滅亡。城落入伊達氏手中。',
+          en: 'The Ashina fell to Date Masamune at the Battle of Suriagehara, and the castle passed to the Date.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: 'その後、蒲生氏郷が会津に入封すると廃城となり、山城としての役割を終えた。',
+          zhTw: '之後蒲生氏鄉入封會津後廢城，結束了作為山城的角色。',
+          en: 'When Gamō Ujisato took over Aizu, the castle was abandoned, ending its role as a mountain fortress.',
+        },
+      },
     ],
     figures: [
       { ja: '蘆名盛氏 — 蘆名氏の全盛期を築いた戦国大名。文武に秀で、南奥州の覇者と称された。', zhTw: '蘆名盛氏 — 締造蘆名氏全盛期的戰國大名。文武兼備，被稱為南奧州的霸者。', en: 'Ashina Moriji — Sengoku lord who brought the Ashina to their zenith, hailed as the hegemon of southern Ōshū.' },
@@ -4528,7 +4613,7 @@ export const castles = [
   },
   {
     id: 'hamamatsu',
-    number: 112,
+    number: 148,
     regionId: 'chubu',
     name: { ja: '浜松城', zhTw: '濱松城', en: 'Hamamatsu Castle' },
     city: { ja: '浜松市', zhTw: '濱松市', en: 'Hamamatsu' },
@@ -4539,11 +4624,44 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#D2D2C0', roofColor: '#2C3E2C' },
     goshuin: { bg: '#f5f5ef', ink: '#2c3e2c', seal: '#b22222', crest: '#556B2F' },
     history: [
-      { ja: '1570年、徳川家康が曳馬城を大改修して浜松城と改名。以後17年間を居城とした。', zhTw: '1570年德川家康大幅改建曳馬城並更名為濱松城，此後以此為居城17年。', en: 'In 1570, Tokugawa Ieyasu extensively rebuilt Hikuma Castle, renamed it Hamamatsu, and made it his seat for 17 years.' },
-      { ja: '1572年、三方ヶ原の戦いで武田信玄に大敗。家康は命からがら浜松城に逃げ帰った。', zhTw: '1572年三方原之戰慘敗給武田信玄。家康九死一生逃回濱松城。', en: 'In 1572, Ieyasu suffered a devastating defeat by Takeda Shingen at Mikatagahara and barely escaped back to Hamamatsu.' },
-      { ja: '敗走後、家康は城門を開け篝火を焚く「空城の計」で武田軍の追撃を防いだと伝わる。', zhTw: '敗逃後，家康據傳以打開城門點燃篝火的「空城計」阻止了武田軍追擊。', en: 'Legend says Ieyasu kept the gates open with bonfires burning — an "empty castle" bluff that deterred Takeda pursuit.' },
-      { ja: '家康が浜松から駿府、江戸へと出世したことから「出世城」の異名を持つ。', zhTw: '因家康從濱松到駿府再到江戶的出世歷程，而有「出世城」的別名。', en: 'Because Ieyasu rose from Hamamatsu to Sunpu and then Edo, it is nicknamed the "Castle of Success."' },
-      { ja: '江戸時代には歴代城主の多くが老中など幕府要職に就き、出世城の名を証明した。', zhTw: '江戶時代歷代城主多就任老中等幕府要職，印證了出世城之名。', en: 'Throughout the Edo period, many successive lords went on to hold top Shōgunate posts, living up to the "success" name.' },
+      {
+        year: 1570,
+        event: {
+          ja: '徳川家康が曳馬城を大改修して浜松城と改名。以後17年間を居城とした。',
+          zhTw: '德川家康大幅改建曳馬城並更名為濱松城，此後以此為居城17年。',
+          en: 'Tokugawa Ieyasu extensively rebuilt Hikuma Castle, renamed it Hamamatsu, and made it his seat for 17 years.',
+        },
+      },
+      {
+        year: 1572,
+        event: {
+          ja: '三方ヶ原の戦いで武田信玄に大敗。家康は命からがら浜松城に逃げ帰った。',
+          zhTw: '三方原之戰慘敗給武田信玄。家康九死一生逃回濱松城。',
+          en: 'Ieyasu suffered a devastating defeat by Takeda Shingen at Mikatagahara and barely escaped back to Hamamatsu.',
+        },
+      },
+      {
+        year: 1573, event: {
+          ja: '敗走後、家康は城門を開け篝火を焚く「空城の計」で武田軍の追撃を防いだと伝わる。',
+          zhTw: '敗逃後，家康據傳以打開城門點燃篝火的「空城計」阻止了武田軍追擊。',
+          en: 'Legend says Ieyasu kept the gates open with bonfires burning — an "empty castle" bluff that deterred Takeda pursuit.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '家康が浜松から駿府、江戸へと出世したことから「出世城」の異名を持つ。',
+          zhTw: '因家康從濱松到駿府再到江戶的出世歷程，而有「出世城」的別名。',
+          en: 'Because Ieyasu rose from Hamamatsu to Sunpu and then Edo, it is nicknamed the "Castle of Success."',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '歴代城主の多くが老中など幕府要職に就き、出世城の名を証明した。',
+          zhTw: '歷代城主多就任老中等幕府要職，印證了出世城之名。',
+          en: 'Throughout the Edo period, many successive lords went on to hold top Shōgunate posts, living up to the "success" name.',
+        },
+      },
     ],
     figures: [
       { ja: '徳川家康 — 三方ヶ原の敗北を糧に天下統一を成し遂げた。浜松での17年が家康を鍛えた。', zhTw: '德川家康 — 以三方原之敗為養分成就天下統一。在濱松的17年鍛鍊了家康。', en: 'Tokugawa Ieyasu — the humiliation at Mikatagahara forged the man who would unify Japan; Hamamatsu shaped him over 17 years.' },
@@ -4570,7 +4688,7 @@ export const castles = [
   // ── 続100名城 中部 ──
   {
     id: 'takatenjin',
-    number: 113,
+    number: 147,
     regionId: 'chubu',
     name: { ja: '高天神城', zhTw: '高天神城', en: 'Takatenjin Castle' },
     city: { ja: '掛川市', zhTw: '掛川市', en: 'Kakegawa' },
@@ -4581,10 +4699,36 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#5B7744', roofColor: '#2D3B22' },
     goshuin: { bg: '#f0f5e8', ink: '#2d3b22', seal: '#8b0000', crest: '#5B7744' },
     history: [
-      { ja: '「高天神を制する者は遠州を制す」と言われた戦略的要衝。', zhTw: '被稱為「控制高天神者控制遠州」的戰略要衝。', en: '"He who holds Takatenjin holds Enshū" — a castle of supreme strategic importance.' },
-      { ja: '1574年、武田勝頼が大軍で攻略。徳川家康は後詰めに失敗し、信頼を失いかけた。', zhTw: '1574年武田勝賴以大軍攻下。德川家康救援失敗，幾乎失去信任。', en: 'In 1574, Takeda Katsuyori seized it with a massive army; Ieyasu\'s failure to relieve it nearly cost him his allies\' trust.' },
-      { ja: '1581年、家康は周囲に6つの砦を築いて兵糧攻めを行い、高天神城を奪還した。', zhTw: '1581年家康在周圍築建6座砦進行兵糧攻擊，奪回高天神城。', en: 'In 1581, Ieyasu built six surrounding forts to starve the garrison and retook the castle.' },
-      { ja: '勝頼が援軍を送れなかったことが武田家臣団の離反を招き、武田氏滅亡の一因となった。', zhTw: '勝賴無法派出援軍導致武田家臣團離心，成為武田氏滅亡的原因之一。', en: 'Katsuyori\'s inability to send reinforcements triggered defections among Takeda retainers, hastening the clan\'s downfall.' },
+      {
+        year: '戦国時代', event: {
+          ja: '「高天神を制する者は遠州を制す」と言われた戦略的要衝。',
+          zhTw: '被稱為「控制高天神者控制遠州」的戰略要衝。',
+          en: '"He who holds Takatenjin holds Enshū" — a castle of supreme strategic importance.',
+        },
+      },
+      {
+        year: 1574,
+        event: {
+          ja: '武田勝頼が大軍で攻略。徳川家康は後詰めに失敗し、信頼を失いかけた。',
+          zhTw: '武田勝賴以大軍攻下。德川家康救援失敗，幾乎失去信任。',
+          en: 'Takeda Katsuyori seized it with a massive army; Ieyasu\'s failure to relieve it nearly cost him his allies\' trust.',
+        },
+      },
+      {
+        year: 1581,
+        event: {
+          ja: '家康は周囲に6つの砦を築いて兵糧攻めを行い、高天神城を奪還した。',
+          zhTw: '家康在周圍築建6座砦進行兵糧攻擊，奪回高天神城。',
+          en: 'Ieyasu built six surrounding forts to starve the garrison and retook the castle.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '勝頼が援軍を送れなかったことが武田家臣団の離反を招き、武田氏滅亡の一因となった。',
+          zhTw: '勝賴無法派出援軍導致武田家臣團離心，成為武田氏滅亡的原因之一。',
+          en: 'Katsuyori\'s inability to send reinforcements triggered defections among Takeda retainers, hastening the clan\'s downfall.',
+        },
+      },
     ],
     figures: [
       { ja: '武田勝頼 — 信玄の後継者。高天神城の攻略は勝頼の最大の戦果だったが、奪還を阻止できず威信を失った。', zhTw: '武田勝賴 — 信玄的繼承者。攻下高天神城是勝賴最大戰果，但無法阻止奪還而失去威信。', en: 'Takeda Katsuyori — Shingen\'s heir; taking Takatenjin was his greatest feat, but failing to hold it destroyed his credibility.' },
@@ -4609,7 +4753,7 @@ export const castles = [
   },
   {
     id: 'suwahara',
-    number: 114,
+    number: 146,
     regionId: 'chubu',
     name: { ja: '諏訪原城', zhTw: '諏訪原城', en: 'Suwahara Castle' },
     city: { ja: '島田市', zhTw: '島田市', en: 'Shimada' },
@@ -4620,10 +4764,36 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6B7B3A', roofColor: '#3B4420' },
     goshuin: { bg: '#f2f5e6', ink: '#3b4420', seal: '#a52a2a', crest: '#6B7B3A' },
     history: [
-      { ja: '1573年、武田勝頼が牧之原台地の東端に築城。東海道を抑える戦略拠点とした。', zhTw: '1573年武田勝賴在牧之原台地東端築城，作為控制東海道的戰略據點。', en: 'Built in 1573 by Takeda Katsuyori on the eastern edge of the Makinohara Plateau to control the Tōkaidō road.' },
-      { ja: '城名は城内に諏訪大明神を勧請したことに由来する。', zhTw: '城名源於城內勸請了諏訪大明神。', en: 'The name comes from the enshrinement of Suwa Daimyōjin within the castle.' },
-      { ja: '1575年、長篠の戦い後に徳川家康が攻略。「牧野城」と改名して東海道の防衛に活用した。', zhTw: '1575年長篠之戰後德川家康攻下，更名「牧野城」用於東海道防衛。', en: 'After the 1575 Battle of Nagashino, Ieyasu captured it, renamed it Makino Castle, and used it for Tōkaidō defense.' },
-      { ja: '武田氏滅亡後に廃城となったが、武田流築城術の傑作として評価が高い。', zhTw: '武田氏滅亡後廢城，但作為武田流築城術的傑作而獲高度評價。', en: 'Abandoned after the Takeda fell, it is highly praised as a masterpiece of Takeda-school castle design.' },
+      {
+        year: 1573,
+        event: {
+          ja: '武田勝頼が牧之原台地の東端に築城。東海道を抑える戦略拠点とした。',
+          zhTw: '武田勝賴在牧之原台地東端築城，作為控制東海道的戰略據點。',
+          en: 'Built by Takeda Katsuyori on the eastern edge of the Makinohara Plateau to control the Tōkaidō road.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '城名は城内に諏訪大明神を勧請したことに由来する。',
+          zhTw: '城名源於城內勸請了諏訪大明神。',
+          en: 'The name comes from the enshrinement of Suwa Daimyōjin within the castle.',
+        },
+      },
+      {
+        year: 1575,
+        event: {
+          ja: '長篠の戦い後に徳川家康が攻略。「牧野城」と改名して東海道の防衛に活用した。',
+          zhTw: '長篠之戰後德川家康攻下，更名「牧野城」用於東海道防衛。',
+          en: 'After the 1575 Battle of Nagashino, Ieyasu captured it, renamed it Makino Castle, and used it for Tōkaidō defense.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '武田氏滅亡後に廃城となったが、武田流築城術の傑作として評価が高い。',
+          zhTw: '武田氏滅亡後廢城，但作為武田流築城術的傑作而獲高度評價。',
+          en: 'Abandoned after the Takeda fell, it is highly praised as a masterpiece of Takeda-school castle design.',
+        },
+      },
     ],
     figures: [
       { ja: '武田勝頼 — 信玄亡き後、遠江進出の拠点として諏訪原城を築いた。', zhTw: '武田勝賴 — 信玄去世後，築建諏訪原城作為進出遠江的據點。', en: 'Takeda Katsuyori — built Suwahara as his staging point for expansion into Tōtōmi after Shingen\'s death.' },
@@ -4646,7 +4816,7 @@ export const castles = [
   },
   {
     id: 'kozukue',
-    number: 115,
+    number: 125,
     regionId: 'kanto',
     name: { ja: '小机城', zhTw: '小机城', en: 'Kozukue Castle' },
     city: { ja: '横浜市', zhTw: '橫濱市', en: 'Yokohama' },
@@ -4654,13 +4824,39 @@ export const castles = [
     type: 'hirayama',
     designation: '市指定史跡',
     position: { x: 76, y: 58 },
-    illustration: { style: 'ruins', tiers: 1, color: '#4A7B4A', roofColor: '#2D4A2D' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8C8C7B', roofColor: '#5B5B49' },
     goshuin: { bg: '#eef5ee', ink: '#2d4a2d', seal: '#c44', crest: '#4A7B4A' },
     history: [
-      { ja: '築城時期は不明だが、15世紀前半にはすでに存在していたと考えられる。', zhTw: '築城時期不明，但推測在15世紀前半已存在。', en: 'Its founding date is unknown, but the castle is believed to have existed by the early 15th century.' },
-      { ja: '1478年、太田道灌が長尾景春の乱鎮圧のため小机城を攻撃。激しい攻城戦となった。', zhTw: '1478年太田道灌為鎮壓長尾景春之亂而攻擊小机城，發生激烈攻城戰。', en: 'In 1478, Ōta Dōkan besieged Kozukue to suppress the Nagao Kageharu Rebellion — a fierce engagement.' },
-      { ja: '後北条氏の時代、小机衆の拠点として武蔵国北部の支配に重要な役割を果たした。', zhTw: '後北條氏時代作為小机眾的據點，在武藏國北部支配中發揮重要作用。', en: 'Under the Later Hōjō, it served as the base of the Kozukue-shū, playing a key role in controlling northern Musashi.' },
-      { ja: '1590年、豊臣秀吉の小田原征伐で後北条氏が滅亡すると廃城となった。', zhTw: '1590年豐臣秀吉小田原征伐後北條氏滅亡，隨之廢城。', en: 'When the Later Hōjō fell in Hideyoshi\'s 1590 Odawara campaign, the castle was abandoned.' },
+      {
+        year: '1400年代前半', event: {
+          ja: '築城時期は不明だが、15世紀前半にはすでに存在していたと考えられる。',
+          zhTw: '築城時期不明，但推測在15世紀前半已存在。',
+          en: 'Its founding date is unknown, but the castle is believed to have existed by the early 15th century.',
+        },
+      },
+      {
+        year: 1478,
+        event: {
+          ja: '太田道灌が長尾景春の乱鎮圧のため小机城を攻撃。激しい攻城戦となった。',
+          zhTw: '太田道灌為鎮壓長尾景春之亂而攻擊小机城，發生激烈攻城戰。',
+          en: 'Ōta Dōkan besieged Kozukue to suppress the Nagao Kageharu Rebellion — a fierce engagement.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '後北条氏の時代、小机衆の拠点として武蔵国北部の支配に重要な役割を果たした。',
+          zhTw: '後北條氏時代作為小机眾的據點，在武藏國北部支配中發揮重要作用。',
+          en: 'Under the Later Hōjō, it served as the base of the Kozukue-shū, playing a key role in controlling northern Musashi.',
+        },
+      },
+      {
+        year: 1590,
+        event: {
+          ja: '豊臣秀吉の小田原征伐で後北条氏が滅亡すると廃城となった。',
+          zhTw: '豐臣秀吉小田原征伐後北條氏滅亡，隨之廢城。',
+          en: 'When the Later Hōjō fell in Hideyoshi\'s 1590 Odawara campaign, the castle was abandoned.',
+        },
+      },
     ],
     figures: [
       { ja: '太田道灌 — 江戸城を築いた名将。小机城攻めでは陣中で連歌を詠み士気を高めた逸話が残る。', zhTw: '太田道灌 — 築建江戶城的名將。攻打小机城時在陣中詠連歌鼓舞士氣的軼事留傳至今。', en: 'Ōta Dōkan — the famed builder of Edo Castle; at Kozukue he boosted morale by composing linked verse during the siege.' },
@@ -4683,7 +4879,7 @@ export const castles = [
   },
   {
     id: 'ishigakiyama',
-    number: 116,
+    number: 126,
     regionId: 'kanto',
     name: { ja: '石垣山城', zhTw: '石垣山城', en: 'Ishigakiyama Castle' },
     city: { ja: '小田原市', zhTw: '小田原市', en: 'Odawara' },
@@ -4694,11 +4890,42 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8B8B7A', roofColor: '#4A4A3A' },
     goshuin: { bg: '#f5f5ef', ink: '#3d3d2b', seal: '#daa520', crest: '#8B8B7A' },
     history: [
-      { ja: '1590年、豊臣秀吉が小田原征伐に際し、北条氏の本拠・小田原城を見下ろす山に築いた陣城。', zhTw: '1590年豐臣秀吉為小田原征伐，在可俯瞰北條氏本據小田原城的山上築建的陣城。', en: 'In 1590, Toyotomi Hideyoshi built this siege castle on a mountain overlooking Hōjō\'s stronghold at Odawara.' },
-      { ja: '約4万人を動員し、わずか80日で総石垣の本格的城郭を完成させた。', zhTw: '動員約4萬人，僅80天就完成了全石垣的正式城郭。', en: 'Some 40,000 workers completed a fully stone-walled castle in just 80 days.' },
-      { ja: '完成後に周囲の木を伐採し、一夜にして城が出現したかのように見せた「一夜城」の伝説が残る。', zhTw: '完成後砍伐周圍樹木，使城彷彿一夜之間出現的「一夜城」傳說流傳至今。', en: 'After completion, trees were felled to reveal the castle dramatically — hence the legend of the "overnight castle."' },
-      { ja: 'この威圧により北条氏は戦意を喪失し、小田原開城に至った。秀吉の天下統一最後の戦い。', zhTw: '此威壓使北條氏喪失戰意，最終開城投降。秀吉天下統一的最後一戰。', en: 'The intimidation crushed Hōjō morale, leading to their surrender — Hideyoshi\'s final battle for national unification.' },
-      { ja: '陣中には千利休の茶室や能舞台が設けられ、諸大名を招いた豪華な宴が催された。', zhTw: '陣中設有千利休的茶室和能舞台，舉辦了招待諸大名的豪華宴席。', en: 'The camp featured Sen no Rikyū\'s tea room and a Noh stage, hosting lavish banquets for assembled lords.' },
+      {
+        year: 1590,
+        event: {
+          ja: '豊臣秀吉が小田原征伐に際し、北条氏の本拠・小田原城を見下ろす山に築いた陣城。',
+          zhTw: '豐臣秀吉為小田原征伐，在可俯瞰北條氏本據小田原城的山上築建的陣城。',
+          en: 'Toyotomi Hideyoshi built this siege castle on a mountain overlooking Hōjō\'s stronghold at Odawara.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '約4万人を動員し、わずか80日で総石垣の本格的城郭を完成させた。',
+          zhTw: '動員約4萬人，僅80天就完成了全石垣的正式城郭。',
+          en: 'Some 40,000 workers completed a fully stone-walled castle in just 80 days.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '完成後に周囲の木を伐採し、一夜にして城が出現したかのように見せた「一夜城」の伝説が残る。',
+          zhTw: '完成後砍伐周圍樹木，使城彷彿一夜之間出現的「一夜城」傳說流傳至今。',
+          en: 'After completion, trees were felled to reveal the castle dramatically — hence the legend of the "overnight castle."',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: 'この威圧により北条氏は戦意を喪失し、小田原開城に至った。秀吉の天下統一最後の戦い。',
+          zhTw: '此威壓使北條氏喪失戰意，最終開城投降。秀吉天下統一的最後一戰。',
+          en: 'The intimidation crushed Hōjō morale, leading to their surrender — Hideyoshi\'s final battle for national unification.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '陣中には千利休の茶室や能舞台が設けられ、諸大名を招いた豪華な宴が催された。',
+          zhTw: '陣中設有千利休的茶室和能舞台，舉辦了招待諸大名的豪華宴席。',
+          en: 'The camp featured Sen no Rikyū\'s tea room and a Noh stage, hosting lavish banquets for assembled lords.',
+        },
+      },
     ],
     figures: [
       { ja: '豊臣秀吉 — 「一夜城」の逸話で知られる天下人。石垣山城は秀吉の権力と演出力の象徴。', zhTw: '豐臣秀吉 — 以「一夜城」軼事聞名的天下人。石垣山城是秀吉權力與演出力的象徵。', en: 'Toyotomi Hideyoshi — the "overnight castle" epitomizes the hegemon\'s power and flair for the dramatic.' },
@@ -4725,7 +4952,7 @@ export const castles = [
   // ── 続100名城 #117-120 中部 ──
   {
     id: 'shimpu',
-    number: 117,
+    number: 127,
     regionId: 'chubu',
     name: { ja: '新府城', zhTw: '新府城', en: 'Shimpu Castle' },
     city: { ja: '韮崎市', zhTw: '韮崎市', en: 'Nirasaki' },
@@ -4736,10 +4963,36 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7B6B4B', roofColor: '#3B3020' },
     goshuin: { bg: '#f5f0e5', ink: '#3b3020', seal: '#8b0000', crest: '#7B6B4B' },
     history: [
-      { ja: '1581年、武田勝頼が躑躅ヶ崎館に代わる新たな本拠として築城を開始した。', zhTw: '1581年武田勝賴開始築城，作為取代躑躅崎館的新本據。', en: 'In 1581, Takeda Katsuyori began building Shimpu as a new headquarters to replace Tsutsujigasaki.' },
-      { ja: '七里岩台地の先端に築かれた堅固な城だったが、完成前に織田・徳川連合軍の侵攻が始まった。', zhTw: '建於七里岩台地先端的堅固城郭，但在完成前織田、德川聯軍已開始入侵。', en: 'Built on the tip of the Shichiri-iwa plateau, a formidable site, but the Oda-Tokugawa invasion began before it was finished.' },
-      { ja: '1582年、家臣の相次ぐ離反により籠城を断念。勝頼は自ら城に火を放ち天目山へ落ちた。', zhTw: '1582年因家臣相繼離叛而放棄籠城。勝賴自行放火燒城後逃往天目山。', en: 'In 1582, as retainers defected one after another, Katsuyori set fire to the castle and fled toward Tenmokuzan.' },
-      { ja: '天目山で自刃し、戦国最強と謳われた武田氏は滅亡した。新府城は武田氏終焉の象徴。', zhTw: '在天目山自刃，被譽為戰國最強的武田氏滅亡。新府城是武田氏終焉的象徵。', en: 'Katsuyori took his life at Tenmokuzan, ending the Takeda — once called the mightiest of the Sengoku. Shimpu symbolizes their fall.' },
+      {
+        year: 1581,
+        event: {
+          ja: '武田勝頼が躑躅ヶ崎館に代わる新たな本拠として築城を開始した。',
+          zhTw: '武田勝賴開始築城，作為取代躑躅崎館的新本據。',
+          en: 'Takeda Katsuyori began building Shimpu as a new headquarters to replace Tsutsujigasaki.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '七里岩台地の先端に築かれた堅固な城だったが、完成前に織田・徳川連合軍の侵攻が始まった。',
+          zhTw: '建於七里岩台地先端的堅固城郭，但在完成前織田、德川聯軍已開始入侵。',
+          en: 'Built on the tip of the Shichiri-iwa plateau, a formidable site, but the Oda-Tokugawa invasion began before it was finished.',
+        },
+      },
+      {
+        year: 1582,
+        event: {
+          ja: '家臣の相次ぐ離反により籠城を断念。勝頼は自ら城に火を放ち天目山へ落ちた。',
+          zhTw: '因家臣相繼離叛而放棄籠城。勝賴自行放火燒城後逃往天目山。',
+          en: 'As retainers defected one after another, Katsuyori set fire to the castle and fled toward Tenmokuzan.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '天目山で自刃し、戦国最強と謳われた武田氏は滅亡した。新府城は武田氏終焉の象徴。',
+          zhTw: '在天目山自刃，被譽為戰國最強的武田氏滅亡。新府城是武田氏終焉的象徵。',
+          en: 'Katsuyori took his life at Tenmokuzan, ending the Takeda — once called the mightiest of the Sengoku. Shimpu symbolizes their fall.',
+        },
+      },
     ],
     figures: [
       { ja: '武田勝頼 — 信玄の後継者。長篠の敗北後も再起を図ったが、新府城で最期を迎えた。', zhTw: '武田勝賴 — 信玄的繼承者。長篠敗北後仍圖東山再起，最終在新府城迎來終局。', en: 'Takeda Katsuyori — Shingen\'s heir who sought recovery after Nagashino but met his end at Shimpu.' },
@@ -4763,7 +5016,7 @@ export const castles = [
   },
   {
     id: 'yogaisan',
-    number: 118,
+    number: 128,
     regionId: 'chubu',
     name: { ja: '要害山城', zhTw: '要害山城', en: 'Yōgaisan Castle' },
     city: { ja: '甲府市', zhTw: '甲府市', en: 'Kōfu' },
@@ -4774,9 +5027,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7B4A', roofColor: '#3A4B2A' },
     goshuin: { bg: '#f0f5e8', ink: '#3a4b2a', seal: '#a52a2a', crest: '#6A7B4A' },
     history: [
-      { ja: '武田信虎が躑躅ヶ崎館の詰城（緊急避難用の山城）として築いた。', zhTw: '武田信虎作為躑躅崎館的詰城（緊急避難用山城）而築建。', en: 'Built by Takeda Nobutora as a refuge fortress backing up the Tsutsujigasaki mansion below.' },
-      { ja: '1521年、今川軍の甲斐侵攻時に信虎の夫人が要害山城に避難し、ここで武田信玄（晴信）が誕生した。', zhTw: '1521年今川軍入侵甲斐時，信虎夫人避難至要害山城，武田信玄（晴信）在此誕生。', en: 'In 1521, during an Imagawa invasion, Nobutora\'s wife took refuge here, and Takeda Shingen was born within these walls.' },
-      { ja: '武田氏滅亡後も甲府の防衛拠点として重視されたが、江戸時代初期に廃城となった。', zhTw: '武田氏滅亡後仍作為甲府防衛據點受到重視，但在江戶時代初期廢城。', en: 'After the Takeda fell, it remained a key Kōfu defense point, but was abandoned in early Edo.' },
+      {
+        year: '戦国時代', event: {
+          ja: '武田信虎が躑躅ヶ崎館の詰城（緊急避難用の山城）として築いた。',
+          zhTw: '武田信虎作為躑躅崎館的詰城（緊急避難用山城）而築建。',
+          en: 'Built by Takeda Nobutora as a refuge fortress backing up the Tsutsujigasaki mansion below.',
+        },
+      },
+      {
+        year: 1521,
+        event: {
+          ja: '今川軍の甲斐侵攻時に信虎の夫人が要害山城に避難し、ここで武田信玄（晴信）が誕生した。',
+          zhTw: '今川軍入侵甲斐時，信虎夫人避難至要害山城，武田信玄（晴信）在此誕生。',
+          en: 'During an Imagawa invasion, Nobutora\'s wife took refuge here, and Takeda Shingen was born within these walls.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '武田氏滅亡後も甲府の防衛拠点として重視されたが、江戸時代初期に廃城となった。',
+          zhTw: '武田氏滅亡後仍作為甲府防衛據點受到重視，但在江戶時代初期廢城。',
+          en: 'After the Takeda fell, it remained a key Kōfu defense point, but was abandoned in early Edo.',
+        },
+      },
     ],
     figures: [
       { ja: '武田信虎 — 信玄の父。甲斐統一を成し遂げ、躑躅ヶ崎館と要害山城の防衛体制を築いた。', zhTw: '武田信虎 — 信玄之父。完成甲斐統一，建立躑躅崎館與要害山城的防衛體制。', en: 'Takeda Nobutora — Shingen\'s father who unified Kai and established the dual defense of Tsutsujigasaki and Yōgaisan.' },
@@ -4799,7 +5071,7 @@ export const castles = [
   },
   {
     id: 'tatsuoka',
-    number: 119,
+    number: 129,
     regionId: 'chubu',
     name: { ja: '龍岡城', zhTw: '龍岡城', en: 'Tatsuoka Castle' },
     city: { ja: '佐久市', zhTw: '佐久市', en: 'Saku' },
@@ -4810,10 +5082,35 @@ export const castles = [
     illustration: { style: 'star-fort', tiers: 1, color: '#6B8E6B', roofColor: '#3B5E3B' },
     goshuin: { bg: '#eef5ee', ink: '#2d4a2d', seal: '#b22222', crest: '#6B8E6B' },
     history: [
-      { ja: '1867年、松平乗謨（大給恒）が西洋軍学に基づき稜堡式城郭として築城を開始。', zhTw: '1867年松平乘謨（大給恆）基於西洋軍學開始築建稜堡式城郭。', en: 'In 1867, Matsudaira Norimoto began building this bastion-style fortress based on Western military science.' },
-      { ja: '函館五稜郭と並ぶ日本に二つしかない星形城郭の一つ。', zhTw: '與函館五稜郭並列，是日本僅有的兩座星形城郭之一。', en: 'One of only two star-shaped fortresses in Japan, alongside Goryōkaku in Hakodate.' },
-      { ja: '築城途中で明治維新を迎え、未完成のまま廃城となった。', zhTw: '築城途中迎來明治維新，以未完成之姿廢城。', en: 'The Meiji Restoration arrived mid-construction, and the castle was abandoned unfinished.' },
-      { ja: '松平乗謨は明治政府で日本赤十字社の前身を創設するなど、近代化に貢献した。', zhTw: '松平乘謨在明治政府創設日本紅十字社前身等，為近代化做出貢獻。', en: 'Matsudaira went on to help found the precursor of the Japanese Red Cross, contributing to modernization.' },
+      {
+        year: 1867,
+        event: {
+          ja: '松平乗謨（大給恒）が西洋軍学に基づき稜堡式城郭として築城を開始。',
+          zhTw: '松平乘謨（大給恆）基於西洋軍學開始築建稜堡式城郭。',
+          en: 'Matsudaira Norimoto began building this bastion-style fortress based on Western military science.',
+        },
+      },
+      {
+        year: 1867, event: {
+          ja: '函館五稜郭と並ぶ日本に二つしかない星形城郭の一つ。',
+          zhTw: '與函館五稜郭並列，是日本僅有的兩座星形城郭之一。',
+          en: 'One of only two star-shaped fortresses in Japan, alongside Goryōkaku in Hakodate.',
+        },
+      },
+      {
+        year: 1868, event: {
+          ja: '築城途中で明治維新を迎え、未完成のまま廃城となった。',
+          zhTw: '築城途中迎來明治維新，以未完成之姿廢城。',
+          en: 'The Meiji Restoration arrived mid-construction, and the castle was abandoned unfinished.',
+        },
+      },
+      {
+        year: 1877, event: {
+          ja: '松平乗謨は明治政府で日本赤十字社の前身を創設するなど、近代化に貢献した。',
+          zhTw: '松平乘謨在明治政府創設日本紅十字社前身等，為近代化做出貢獻。',
+          en: 'Matsudaira went on to help found the precursor of the Japanese Red Cross, contributing to modernization.',
+        },
+      },
     ],
     figures: [
       { ja: '松平乗謨（大給恒） — 田野口藩主。蘭学に通じ、西洋式城郭を構想した開明的な大名。', zhTw: '松平乘謨（大給恆） — 田野口藩主。精通蘭學，構想西洋式城郭的開明大名。', en: 'Matsudaira Norimoto — lord of Tanokuchi domain, a progressive daimyō versed in Dutch studies who envisioned a Western-style fort.' },
@@ -4836,7 +5133,7 @@ export const castles = [
   },
   {
     id: 'takada',
-    number: 120,
+    number: 132,
     regionId: 'chubu',
     name: { ja: '高田城', zhTw: '高田城', en: 'Takada Castle' },
     city: { ja: '上越市', zhTw: '上越市', en: 'Jōetsu' },
@@ -4847,10 +5144,36 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#F5F0E8', roofColor: '#2F4F4F' },
     goshuin: { bg: '#f5f5ef', ink: '#2f4f4f', seal: '#c0392b', crest: '#2F4F4F' },
     history: [
-      { ja: '1614年、徳川家康の六男・松平忠輝の居城として天下普請で築城された。', zhTw: '1614年作為德川家康六男松平忠輝的居城，以天下普請方式築城。', en: 'Built in 1614 as a national project for Matsudaira Tadateru, Tokugawa Ieyasu\'s sixth son.' },
-      { ja: '伊達政宗が縄張り（設計）を担当し、わずか4ヶ月で完成させた。', zhTw: '由伊達政宗負責繩張（設計），僅4個月便完成。', en: 'Date Masamune supervised the design, and the castle was completed in just four months.' },
-      { ja: '松平忠輝は大坂夏の陣での不行跡により改易され、その後は譜代大名が城主を務めた。', zhTw: '松平忠輝因大坂夏之陣的不當行為被改易，此後由譜代大名擔任城主。', en: 'Tadateru was stripped of his domain for misconduct during the Summer Siege of Osaka; fudai daimyō governed afterward.' },
-      { ja: '幕末には榊原氏が藩主を務め、戊辰戦争では新政府側につき戦火を免れた。', zhTw: '幕末由榊原氏擔任藩主，戊辰戰爭中站在新政府方倖免於戰火。', en: 'The Sakakibara governed at the end of the Edo period and sided with the new government, sparing the castle from war.' },
+      {
+        year: 1614,
+        event: {
+          ja: '徳川家康の六男・松平忠輝の居城として天下普請で築城された。',
+          zhTw: '作為德川家康六男松平忠輝的居城，以天下普請方式築城。',
+          en: 'As a national project for Matsudaira Tadateru, Tokugawa Ieyasu\'s sixth son.',
+        },
+      },
+      {
+        year: 1614, event: {
+          ja: '伊達政宗が縄張り（設計）を担当し、わずか4ヶ月で完成させた。',
+          zhTw: '由伊達政宗負責繩張（設計），僅4個月便完成。',
+          en: 'Date Masamune supervised the design, and the castle was completed in just four months.',
+        },
+      },
+      {
+        year: 1615, event: {
+          ja: '松平忠輝は大坂夏の陣での不行跡により改易され、その後は譜代大名が城主を務めた。',
+          zhTw: '松平忠輝因大坂夏之陣的不當行為被改易，此後由譜代大名擔任城主。',
+          en: 'Tadateru was stripped of his domain for misconduct during the Summer Siege of Osaka; fudai daimyō governed afterward.',
+        },
+      },
+      {
+        year: '幕末',
+        event: {
+          ja: '榊原氏が藩主を務め、戊辰戦争では新政府側につき戦火を免れた。',
+          zhTw: '由榊原氏擔任藩主，戊辰戰爭中站在新政府方倖免於戰火。',
+          en: 'The Sakakibara governed at the end of the Edo period and sided with the new government, sparing the castle from war.',
+        },
+      },
     ],
     figures: [
       { ja: '松平忠輝 — 家康の六男。五郎八姫（伊達政宗の娘）を正室に迎えたが、後に改易された。', zhTw: '松平忠輝 — 家康六男。迎娶五郎八姬（伊達政宗之女）為正室，後被改易。', en: 'Matsudaira Tadateru — Ieyasu\'s sixth son, married Iroha-hime (Masamune\'s daughter) but was later dispossessed.' },
@@ -4877,7 +5200,7 @@ export const castles = [
   // ── 続100名城 #121-126 中部(続) ──
   {
     id: 'torikoe',
-    number: 121,
+    number: 136,
     regionId: 'chubu',
     name: { ja: '鳥越城', zhTw: '鳥越城', en: 'Torikoe Castle' },
     city: { ja: '白山市', zhTw: '白山市', en: 'Hakusan' },
@@ -4888,10 +5211,36 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A5A', roofColor: '#3A3A2A' },
     goshuin: { bg: '#f5f5e8', ink: '#3a3a2a', seal: '#8b0000', crest: '#7A7A5A' },
     history: [
-      { ja: '加賀一向一揆の最後の拠点となった山城。「百姓の持ちたる国」加賀を象徴する城。', zhTw: '成為加賀一向一揆最後據點的山城。象徵「百姓持有之國」加賀的城。', en: 'The last stronghold of the Kaga Ikkō-ikki — a castle symbolizing Kaga, "the province held by peasants."' },
-      { ja: '一向宗門徒が約100年にわたり加賀国を自治支配した驚異的な時代の砦。', zhTw: '一向宗門徒約100年間自治支配加賀國的驚異時代的堡壘。', en: 'A fortress from the extraordinary century when Ikkō-shū followers self-governed Kaga province.' },
-      { ja: '1580年、織田信長の命を受けた柴田勝家が鳥越城を攻略。門徒は壮絶な最期を遂げた。', zhTw: '1580年受織田信長之命的柴田勝家攻下鳥越城。門徒壯烈犧牲。', en: 'In 1580, Shibata Katsuie captured Torikoe on Nobunaga\'s orders; the defenders met a heroic end.' },
-      { ja: '落城後も残党が蜂起を繰り返し、1582年になってようやく一向一揆は完全に鎮圧された。', zhTw: '落城後殘黨仍反覆起義，直到1582年一向一揆才被完全鎮壓。', en: 'Remnants continued to rise in revolt after the fall; the Ikkō-ikki was not fully suppressed until 1582.' },
+      {
+        year: '戦国時代', event: {
+          ja: '加賀一向一揆の最後の拠点となった山城。「百姓の持ちたる国」加賀を象徴する城。',
+          zhTw: '成為加賀一向一揆最後據點的山城。象徵「百姓持有之國」加賀的城。',
+          en: 'The last stronghold of the Kaga Ikkō-ikki — a castle symbolizing Kaga, "the province held by peasants."',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '一向宗門徒が約100年にわたり加賀国を自治支配した驚異的な時代の砦。',
+          zhTw: '一向宗門徒約100年間自治支配加賀國的驚異時代的堡壘。',
+          en: 'A fortress from the extraordinary century when Ikkō-shū followers self-governed Kaga province.',
+        },
+      },
+      {
+        year: 1580,
+        event: {
+          ja: '織田信長の命を受けた柴田勝家が鳥越城を攻略。門徒は壮絶な最期を遂げた。',
+          zhTw: '受織田信長之命的柴田勝家攻下鳥越城。門徒壯烈犧牲。',
+          en: 'Shibata Katsuie captured Torikoe on Nobunaga\'s orders; the defenders met a heroic end.',
+        },
+      },
+      {
+        year: 1582,
+        event: {
+          ja: '落城後も残党が蜂起を繰り返し、1582年になってようやく一向一揆は完全に鎮圧された。',
+          zhTw: '落城後殘黨仍反覆起義，直到1582年一向一揆才被完全鎮壓。',
+          en: 'Remnants continued to rise in revolt after the fall; the Ikkō-ikki was not fully suppressed until 1582.',
+        },
+      },
     ],
     figures: [
       { ja: '鈴木出羽守 — 鳥越城の城主として一向一揆を率いた指導者。最後まで織田軍に抵抗した。', zhTw: '鈴木出羽守 — 作為鳥越城城主率領一向一揆的領導者。抵抗織田軍至最後。', en: 'Suzuki Dewanokami — leader who commanded the Ikkō-ikki from Torikoe, resisting Oda forces to the end.' },
@@ -4914,7 +5263,7 @@ export const castles = [
   },
   {
     id: 'fukui',
-    number: 122,
+    number: 137,
     regionId: 'chubu',
     name: { ja: '福井城', zhTw: '福井城', en: 'Fukui Castle' },
     city: { ja: '福井市', zhTw: '福井市', en: 'Fukui' },
@@ -4925,10 +5274,37 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8B8878', roofColor: '#5A5848' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#c0392b', crest: '#8B8878' },
     history: [
-      { ja: '1606年、徳川家康の次男・結城秀康が北ノ庄城を大改修して築城。', zhTw: '1606年德川家康次男結城秀康大幅改建北之庄城而築城。', en: 'In 1606, Yūki Hideyasu (Ieyasu\'s second son) extensively rebuilt Kita-no-shō Castle to create Fukui Castle.' },
-      { ja: '結城秀康は関ヶ原の戦いで上杉景勝の南下を抑えた功績で越前68万石を与えられた。', zhTw: '結城秀康因關原之戰中阻止上杉景勝南下的功績獲封越前68萬石。', en: 'Hideyasu received 680,000 koku in Echizen for blocking Uesugi Kagekatsu during the Sekigahara campaign.' },
-      { ja: '1669年の大火で天守を焼失。以後、天守は再建されなかった。', zhTw: '1669年大火燒毀天守。此後天守未再重建。', en: 'The keep burned in the great fire of 1669 and was never rebuilt.' },
-      { ja: '幕末の福井藩主・松平春嶽は幕末四賢侯の一人として明治維新に大きく貢献した。', zhTw: '幕末福井藩主松平春嶽是幕末四賢侯之一，對明治維新做出重大貢獻。', en: 'The Bakumatsu lord Matsudaira Shungaku, one of the "Four Wise Lords," played a major role in the Meiji Restoration.' },
+      {
+        year: 1606,
+        event: {
+          ja: '徳川家康の次男・結城秀康が北ノ庄城を大改修して築城。',
+          zhTw: '德川家康次男結城秀康大幅改建北之庄城而築城。',
+          en: 'Yūki Hideyasu (Ieyasu\'s second son) extensively rebuilt Kita-no-shō Castle to create Fukui Castle.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '結城秀康は関ヶ原の戦いで上杉景勝の南下を抑えた功績で越前68万石を与えられた。',
+          zhTw: '結城秀康因關原之戰中阻止上杉景勝南下的功績獲封越前68萬石。',
+          en: 'Hideyasu received 680,000 koku in Echizen for blocking Uesugi Kagekatsu during the Sekigahara campaign.',
+        },
+      },
+      {
+        year: 1669,
+        event: {
+          ja: '1669年の大火で天守を焼失。以後、天守は再建されなかった。',
+          zhTw: '1669年大火燒毀天守。此後天守未再重建。',
+          en: 'The keep burned in the great fire of 1669 and was never rebuilt.',
+        },
+      },
+      {
+        year: '幕末',
+        event: {
+          ja: '福井藩主・松平春嶽は幕末四賢侯の一人として明治維新に大きく貢献した。',
+          zhTw: '福井藩主松平春嶽是幕末四賢侯之一，對明治維新做出重大貢獻。',
+          en: 'The Bakumatsu lord Matsudaira Shungaku, one of the "Four Wise Lords," played a major role in the Meiji Restoration.',
+        },
+      },
     ],
     figures: [
       { ja: '結城秀康 — 家康の次男だが母の身分が低く後継者になれなかった悲運の名将。', zhTw: '結城秀康 — 家康次男但因母親身分低而無法成為繼承人的悲運名將。', en: 'Yūki Hideyasu — Ieyasu\'s talented second son, denied succession due to his mother\'s low status.' },
@@ -4952,7 +5328,7 @@ export const castles = [
   },
   {
     id: 'echizen-ono',
-    number: 123,
+    number: 138,
     regionId: 'chubu',
     name: { ja: '越前大野城', zhTw: '越前大野城', en: 'Echizen Ōno Castle' },
     city: { ja: '大野市', zhTw: '大野市', en: 'Ōno' },
@@ -4963,9 +5339,29 @@ export const castles = [
     illustration: { style: 'classic', tiers: 2, color: '#F5F0E8', roofColor: '#4A4A3A' },
     goshuin: { bg: '#f5f5ef', ink: '#3d3d2b', seal: '#c44', crest: '#4A4A3A' },
     history: [
-      { ja: '1575年、織田信長から大野郡を与えられた金森長近が亀山に築城。', zhTw: '1575年從織田信長處獲得大野郡的金森長近在龜山築城。', en: 'In 1575, Kanamori Nagachika, granted Ōno county by Nobunaga, built the castle on Kameyama hill.' },
-      { ja: '金森長近は城下町の整備にも力を注ぎ、碁盤の目状の町割りは「北陸の小京都」と呼ばれる。', zhTw: '金森長近也致力於城下町整備，棋盤格狀的町割被稱為「北陸的小京都」。', en: 'Nagachika also developed the castle town in a grid pattern, earning it the nickname "Little Kyoto of Hokuriku."' },
-      { ja: '江戸時代は土井氏が藩主を務め、幕末まで大野藩として存続した。', zhTw: '江戶時代由土井氏擔任藩主，作為大野藩存續至幕末。', en: 'The Doi clan governed throughout the Edo period, maintaining Ōno domain until the Bakumatsu.' },
+      {
+        year: 1575,
+        event: {
+          ja: '織田信長から大野郡を与えられた金森長近が亀山に築城。',
+          zhTw: '從織田信長處獲得大野郡的金森長近在龜山築城。',
+          en: 'Kanamori Nagachika, granted Ōno county by Nobunaga, built the castle on Kameyama hill.',
+        },
+      },
+      {
+        year: 1588, event: {
+          ja: '金森長近は城下町の整備にも力を注ぎ、碁盤の目状の町割りは「北陸の小京都」と呼ばれる。',
+          zhTw: '金森長近也致力於城下町整備，棋盤格狀的町割被稱為「北陸的小京都」。',
+          en: 'Nagachika also developed the castle town in a grid pattern, earning it the nickname "Little Kyoto of Hokuriku."',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '土井氏が藩主を務め、幕末まで大野藩として存続した。',
+          zhTw: '由土井氏擔任藩主，作為大野藩存續至幕末。',
+          en: 'The Doi clan governed throughout the Edo period, maintaining Ōno domain until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '金森長近 — 織田信長の家臣。大野城と城下町を築き、後に飛騨高山も治めた文化人大名。', zhTw: '金森長近 — 織田信長家臣。築建大野城與城下町，後來也治理飛驒高山的文化人大名。', en: 'Kanamori Nagachika — Nobunaga\'s retainer who built Ōno and its town, later also governing Hida-Takayama; a cultured lord.' },
@@ -4988,7 +5384,7 @@ export const castles = [
   },
   {
     id: 'ogaki',
-    number: 124,
+    number: 144,
     regionId: 'chubu',
     name: { ja: '大垣城', zhTw: '大垣城', en: 'Ōgaki Castle' },
     city: { ja: '大垣市', zhTw: '大垣市', en: 'Ōgaki' },
@@ -4999,10 +5395,36 @@ export const castles = [
     illustration: { style: 'classic', tiers: 4, color: '#F5F5F5', roofColor: '#2C3E50' },
     goshuin: { bg: '#f5f5f5', ink: '#2c3e50', seal: '#c0392b', crest: '#2C3E50' },
     history: [
-      { ja: '1535年、宮川安定が築城。美濃国の要衝として戦国時代を通じて争奪の的となった。', zhTw: '1535年宮川安定築城。作為美濃國要衝，整個戰國時代都是爭奪對象。', en: 'Built in 1535 by Miyakawa Yasusada; as a strategic Mino stronghold, it was contested throughout the Sengoku period.' },
-      { ja: '関ヶ原の戦いでは石田三成が本陣を置き、西軍の拠点として重要な役割を果たした。', zhTw: '關原之戰中石田三成在此設本陣，作為西軍據點發揮重要作用。', en: 'At Sekigahara, Ishida Mitsunari made it his headquarters, and it served as a key Western Army base.' },
-      { ja: '三成は当初大垣城での籠城を計画したが、家康の誘いに乗り関ヶ原に出陣して敗北した。', zhTw: '三成原本計畫在大垣城籠城，但中了家康的誘計出陣關原而敗北。', en: 'Mitsunari initially planned to hold up in Ōgaki, but Ieyasu lured him out to Sekigahara, where he was defeated.' },
-      { ja: '戦前は国宝天守だったが、1945年の空襲で焼失。1959年に鉄筋コンクリートで復興された。', zhTw: '戰前為國寶天守，但1945年空襲中燒毀。1959年以鋼筋混凝土復興。', en: 'The keep was a National Treasure before WWII, but burned in the 1945 air raids; rebuilt in concrete in 1959.' },
+      {
+        year: 1535,
+        event: {
+          ja: '宮川安定が築城。美濃国の要衝として戦国時代を通じて争奪の的となった。',
+          zhTw: '宮川安定築城。作為美濃國要衝，整個戰國時代都是爭奪對象。',
+          en: 'Built by Miyakawa Yasusada; as a strategic Mino stronghold, it was contested throughout the Sengoku period.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '関ヶ原の戦いでは石田三成が本陣を置き、西軍の拠点として重要な役割を果たした。',
+          zhTw: '關原之戰中石田三成在此設本陣，作為西軍據點發揮重要作用。',
+          en: 'At Sekigahara, Ishida Mitsunari made it his headquarters, and it served as a key Western Army base.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '三成は当初大垣城での籠城を計画したが、家康の誘いに乗り関ヶ原に出陣して敗北した。',
+          zhTw: '三成原本計畫在大垣城籠城，但中了家康的誘計出陣關原而敗北。',
+          en: 'Mitsunari initially planned to hold up in Ōgaki, but Ieyasu lured him out to Sekigahara, where he was defeated.',
+        },
+      },
+      {
+        year: 1945,
+        event: {
+          ja: '戦前は国宝天守だったが、1945年の空襲で焼失。1959年に鉄筋コンクリートで復興された。',
+          zhTw: '戰前為國寶天守，但1945年空襲中燒毀。1959年以鋼筋混凝土復興。',
+          en: 'The keep was a National Treasure before WWII, but burned in the 1945 air raids; rebuilt in concrete in 1959.',
+        },
+      },
     ],
     figures: [
       { ja: '石田三成 — 豊臣政権の奉行。関ヶ原の戦いで大垣城を西軍の中心拠点とした。', zhTw: '石田三成 — 豐臣政權奉行。關原之戰中以大垣城為西軍中心據點。', en: 'Ishida Mitsunari — Toyotomi administrator who made Ōgaki the Western Army\'s central base at Sekigahara.' },
@@ -5025,7 +5447,7 @@ export const castles = [
   },
   {
     id: 'komakiyama',
-    number: 125,
+    number: 149,
     regionId: 'chubu',
     name: { ja: '小牧山城', zhTw: '小牧山城', en: 'Komakiyama Castle' },
     city: { ja: '小牧市', zhTw: '小牧市', en: 'Komaki' },
@@ -5036,10 +5458,36 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8B8B78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#8B8B78' },
     history: [
-      { ja: '1563年、織田信長が美濃攻略の前線基地として築城。信長が初めて築いた本格的な城。', zhTw: '1563年織田信長作為美濃攻略的前線基地而築城。信長首次築建的正式城郭。', en: 'Built in 1563 by Oda Nobunaga as his forward base for conquering Mino — the first full castle Nobunaga ever built.' },
-      { ja: '信長は小牧山城から岐阜城へ本拠を移すまでの約4年間をここで過ごした。', zhTw: '信長從小牧山城遷移本據至岐阜城前，在此度過了約4年。', en: 'Nobunaga spent about four years here before moving his headquarters to Gifu Castle.' },
-      { ja: '1584年、小牧・長久手の戦いで徳川家康がこの城に陣を構え、豊臣秀吉と対峙した。', zhTw: '1584年小牧、長久手之戰中德川家康在此城駐陣，與豐臣秀吉對峙。', en: 'In 1584, Ieyasu used this castle as his camp during the Battle of Komaki and Nagakute, facing off against Hideyoshi.' },
-      { ja: '近年の発掘で信長時代の石垣が発見され、安土城に先駆けた革新的な築城が判明した。', zhTw: '近年發掘發現了信長時代的石垣，證實了先於安土城的革新性築城。', en: 'Recent excavations uncovered Nobunaga-era stone walls, revealing innovative construction that predated Azuchi Castle.' },
+      {
+        year: 1563,
+        event: {
+          ja: '織田信長が美濃攻略の前線基地として築城。信長が初めて築いた本格的な城。',
+          zhTw: '織田信長作為美濃攻略的前線基地而築城。信長首次築建的正式城郭。',
+          en: 'Built by Oda Nobunaga as his forward base for conquering Mino — the first full castle Nobunaga ever built.',
+        },
+      },
+      {
+        year: 1563, event: {
+          ja: '信長は小牧山城から岐阜城へ本拠を移すまでの約4年間をここで過ごした。',
+          zhTw: '信長從小牧山城遷移本據至岐阜城前，在此度過了約4年。',
+          en: 'Nobunaga spent about four years here before moving his headquarters to Gifu Castle.',
+        },
+      },
+      {
+        year: 1584,
+        event: {
+          ja: '小牧・長久手の戦いで徳川家康がこの城に陣を構え、豊臣秀吉と対峙した。',
+          zhTw: '小牧、長久手之戰中德川家康在此城駐陣，與豐臣秀吉對峙。',
+          en: 'Ieyasu used this castle as his camp during the Battle of Komaki and Nagakute, facing off against Hideyoshi.',
+        },
+      },
+      {
+        year: 2004, event: {
+          ja: '近年の発掘で信長時代の石垣が発見され、安土城に先駆けた革新的な築城が判明した。',
+          zhTw: '近年發掘發現了信長時代的石垣，證實了先於安土城的革新性築城。',
+          en: 'Recent excavations uncovered Nobunaga-era stone walls, revealing innovative construction that predated Azuchi Castle.',
+        },
+      },
     ],
     figures: [
       { ja: '織田信長 — 小牧山城で石垣を本格的に用いた城造りを初めて試み、後の安土城へとつながった。', zhTw: '織田信長 — 在小牧山城首次嘗試正式使用石垣的築城，連接到後來的安土城。', en: 'Oda Nobunaga — first experimented with full stone-wall construction here, foreshadowing Azuchi Castle.' },
@@ -5061,7 +5509,7 @@ export const castles = [
   },
   {
     id: 'furumiya',
-    number: 126,
+    number: 150,
     regionId: 'chubu',
     name: { ja: '古宮城', zhTw: '古宮城', en: 'Furumiya Castle' },
     city: { ja: '新城市', zhTw: '新城市', en: 'Shinshiro' },
@@ -5072,9 +5520,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6B7B4B', roofColor: '#3B4B2B' },
     goshuin: { bg: '#f0f5e6', ink: '#3b4b2b', seal: '#a52a2a', crest: '#6B7B4B' },
     history: [
-      { ja: '1571年頃、武田信玄が奥三河進出の拠点として家臣の馬場信春に命じて築城させた。', zhTw: '1571年左右武田信玄命家臣馬場信春築城，作為進出奧三河的據點。', en: 'Around 1571, Takeda Shingen ordered his retainer Baba Nobuharu to build this castle as a base for advancing into Mikawa.' },
-      { ja: '三河と信濃の境目に位置し、武田と徳川の勢力圏の最前線であった。', zhTw: '位於三河與信濃邊境，是武田與德川勢力圈的最前線。', en: 'Situated on the Mikawa-Shinano border, it stood on the very front line between Takeda and Tokugawa territories.' },
-      { ja: '1573年、武田信玄の死後に徳川方に攻略され、まもなく廃城となった。', zhTw: '1573年武田信玄死後被德川方攻下，不久便廢城。', en: 'After Shingen\'s death in 1573, Tokugawa forces captured it, and it was soon abandoned.' },
+      {
+        year: 'c.1571',
+        event: {
+          ja: '武田信玄が奥三河進出の拠点として家臣の馬場信春に命じて築城させた。',
+          zhTw: '武田信玄命家臣馬場信春築城，作為進出奧三河的據點。',
+          en: 'Takeda Shingen ordered his retainer Baba Nobuharu to build this castle as a base for advancing into Mikawa.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '三河と信濃の境目に位置し、武田と徳川の勢力圏の最前線であった。',
+          zhTw: '位於三河與信濃邊境，是武田與德川勢力圈的最前線。',
+          en: 'Situated on the Mikawa-Shinano border, it stood on the very front line between Takeda and Tokugawa territories.',
+        },
+      },
+      {
+        year: 1573,
+        event: {
+          ja: '武田信玄の死後に徳川方に攻略され、まもなく廃城となった。',
+          zhTw: '武田信玄死後被德川方攻下，不久便廢城。',
+          en: 'After Shingen\'s death in 1573, Tokugawa forces captured it, and it was soon abandoned.',
+        },
+      },
     ],
     figures: [
       { ja: '馬場信春 — 武田四天王の一人。築城の名手として知られ、古宮城の縄張りを担当した。', zhTw: '馬場信春 — 武田四天王之一。以築城名手聞名，負責古宮城的繩張。', en: 'Baba Nobuharu — one of Takeda\'s Four Guardians, a master castle builder who designed Furumiya\'s layout.' },
@@ -5099,7 +5567,7 @@ export const castles = [
   // ── 続100名城 #127-132 中部/近畿 ──
   {
     id: 'yoshida',
-    number: 127,
+    number: 151,
     regionId: 'chubu',
     name: { ja: '吉田城', zhTw: '吉田城', en: 'Yoshida Castle' },
     city: { ja: '豊橋市', zhTw: '豐橋市', en: 'Toyohashi' },
@@ -5110,10 +5578,36 @@ export const castles = [
     illustration: { style: 'tower', tiers: 1, color: '#E8E0D0', roofColor: '#3A4A3A' },
     goshuin: { bg: '#f5f0e8', ink: '#3a4a3a', seal: '#c0392b', crest: '#3A4A3A' },
     history: [
-      { ja: '1505年、牧野古白が今橋城として築城。東三河の要衝として争奪が繰り返された。', zhTw: '1505年牧野古白築建今橋城。作為東三河要衝反覆被爭奪。', en: 'Built in 1505 by Makino Kohaku as Imahashi Castle; repeatedly fought over as the key to eastern Mikawa.' },
-      { ja: '今川・武田・徳川と主が替わり、最終的に徳川家康の支配下で酒井忠次が城主となった。', zhTw: '歷經今川、武田、德川易主，最終在德川家康支配下由酒井忠次擔任城主。', en: 'It changed hands among the Imagawa, Takeda, and Tokugawa; Sakai Tadatsugu became lord under Ieyasu.' },
-      { ja: '酒井忠次は徳川四天王の筆頭として、吉田城を東三河の統治拠点に整備した。', zhTw: '酒井忠次作為德川四天王之首，將吉田城整備為東三河的統治據點。', en: 'Sakai Tadatsugu, foremost of the Four Heavenly Kings, developed Yoshida into the governing center of eastern Mikawa.' },
-      { ja: '江戸時代は譜代大名が次々と入封し、東海道吉田宿の城下町として繁栄した。', zhTw: '江戶時代譜代大名陸續入封，作為東海道吉田宿的城下町而繁榮。', en: 'Fudai lords rotated through in the Edo period, and the castle town prospered as Yoshida-juku on the Tōkaidō.' },
+      {
+        year: 1505,
+        event: {
+          ja: '牧野古白が今橋城として築城。東三河の要衝として争奪が繰り返された。',
+          zhTw: '牧野古白築建今橋城。作為東三河要衝反覆被爭奪。',
+          en: 'Built by Makino Kohaku as Imahashi Castle; repeatedly fought over as the key to eastern Mikawa.',
+        },
+      },
+      {
+        year: 1575, event: {
+          ja: '今川・武田・徳川と主が替わり、最終的に徳川家康の支配下で酒井忠次が城主となった。',
+          zhTw: '歷經今川、武田、德川易主，最終在德川家康支配下由酒井忠次擔任城主。',
+          en: 'It changed hands among the Imagawa, Takeda, and Tokugawa; Sakai Tadatsugu became lord under Ieyasu.',
+        },
+      },
+      {
+        year: 1575, event: {
+          ja: '酒井忠次は徳川四天王の筆頭として、吉田城を東三河の統治拠点に整備した。',
+          zhTw: '酒井忠次作為德川四天王之首，將吉田城整備為東三河的統治據點。',
+          en: 'Sakai Tadatsugu, foremost of the Four Heavenly Kings, developed Yoshida into the governing center of eastern Mikawa.',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '譜代大名が次々と入封し、東海道吉田宿の城下町として繁栄した。',
+          zhTw: '譜代大名陸續入封，作為東海道吉田宿的城下町而繁榮。',
+          en: 'Fudai lords rotated through in the Edo period, and the castle town prospered as Yoshida-juku on the Tōkaidō.',
+        },
+      },
     ],
     figures: [
       { ja: '酒井忠次 — 徳川四天王の筆頭。長篠の戦いで鳶ヶ巣山急襲を成功させた勇将。', zhTw: '酒井忠次 — 德川四天王之首。長篠之戰中成功急襲鳶巢山的勇將。', en: 'Sakai Tadatsugu — head of the Four Heavenly Kings, famed for the surprise attack at Tobigasu at Nagashino.' },
@@ -5134,7 +5628,7 @@ export const castles = [
   },
   {
     id: 'tsu',
-    number: 128,
+    number: 152,
     regionId: 'kinki',
     name: { ja: '津城', zhTw: '津城', en: 'Tsu Castle' },
     city: { ja: '津市', zhTw: '津市', en: 'Tsu' },
@@ -5145,10 +5639,36 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8B8878', roofColor: '#5A5848' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#c44', crest: '#8B8878' },
     history: [
-      { ja: '1558年、織田信長の弟・織田信包が安濃津城として築城を開始。', zhTw: '1558年織田信長之弟織田信包開始築建安濃津城。', en: 'In 1558, Oda Nobukane (Nobunaga\'s brother) began building Anotsu Castle.' },
-      { ja: '関ヶ原の戦い前哨戦として安濃津城の戦いが起こり、西軍に攻められて開城。', zhTw: '作為關原之戰前哨戰發生了安濃津城之戰，被西軍攻陷開城。', en: 'The Battle of Anotsu — a Sekigahara prelude — saw the castle attacked and surrendered to the Western Army.' },
-      { ja: '1608年、藤堂高虎が入封し、大規模な改修で近世城郭として完成させた。', zhTw: '1608年藤堂高虎入封，進行大規模改建使其成為近世城郭。', en: 'In 1608, Tōdō Takatora took over and extensively rebuilt it into a full early-modern castle.' },
-      { ja: '藤堂氏は伊勢・伊賀32万石の大名として幕末まで津藩を治めた。', zhTw: '藤堂氏作為伊勢、伊賀32萬石的大名治理津藩至幕末。', en: 'The Tōdō governed Tsu domain — 320,000 koku across Ise and Iga — until the Bakumatsu.' },
+      {
+        year: 1558,
+        event: {
+          ja: '織田信長の弟・織田信包が安濃津城として築城を開始。',
+          zhTw: '織田信長之弟織田信包開始築建安濃津城。',
+          en: 'Oda Nobukane (Nobunaga\'s brother) began building Anotsu Castle.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '関ヶ原の戦い前哨戦として安濃津城の戦いが起こり、西軍に攻められて開城。',
+          zhTw: '作為關原之戰前哨戰發生了安濃津城之戰，被西軍攻陷開城。',
+          en: 'The Battle of Anotsu — a Sekigahara prelude — saw the castle attacked and surrendered to the Western Army.',
+        },
+      },
+      {
+        year: 1608,
+        event: {
+          ja: '藤堂高虎が入封し、大規模な改修で近世城郭として完成させた。',
+          zhTw: '藤堂高虎入封，進行大規模改建使其成為近世城郭。',
+          en: 'Tōdō Takatora took over and extensively rebuilt it into a full early-modern castle.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '藤堂氏は伊勢・伊賀32万石の大名として幕末まで津藩を治めた。',
+          zhTw: '藤堂氏作為伊勢、伊賀32萬石的大名治理津藩至幕末。',
+          en: 'The Tōdō governed Tsu domain — 320,000 koku across Ise and Iga — until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '藤堂高虎 — 築城の名手。今治城・伊賀上野城なども手がけた城造りの天才。', zhTw: '藤堂高虎 — 築城名手。也負責今治城、伊賀上野城等的築城天才。', en: 'Tōdō Takatora — a genius castle builder who also designed Imabari and Iga-Ueno castles.' },
@@ -5170,7 +5690,7 @@ export const castles = [
   },
   {
     id: 'kitabatake',
-    number: 129,
+    number: 153,
     regionId: 'kinki',
     name: { ja: '多気北畠氏城館', zhTw: '多氣北畠氏城館', en: 'Taki Kitabatake Residence' },
     city: { ja: '津市', zhTw: '津市', en: 'Tsu' },
@@ -5181,10 +5701,37 @@ export const castles = [
     illustration: { style: 'mansion', tiers: 1, color: '#8B7B5B', roofColor: '#4A3B2B' },
     goshuin: { bg: '#f5efe5', ink: '#4a3b2b', seal: '#8b0000', crest: '#8B7B5B' },
     history: [
-      { ja: '南北朝時代、南朝の忠臣・北畠顕能が伊勢国司として多気に館を構えた。', zhTw: '南北朝時代南朝忠臣北畠顯能作為伊勢國司在多氣建立了居館。', en: 'During the Nanboku-chō period, Kitabatake Akinō, loyal to the Southern Court, established his residence in Taki as Ise Governor.' },
-      { ja: '北畠氏は伊勢国司として約240年にわたり伊勢を統治した名族。', zhTw: '北畠氏作為伊勢國司約240年間統治伊勢的名族。', en: 'The Kitabatake governed Ise as provincial governors for about 240 years — a distinguished lineage.' },
-      { ja: '1569年、織田信長の伊勢侵攻により北畠具教は降伏。信長の次男・信雄を養子に迎えた。', zhTw: '1569年織田信長侵攻伊勢，北畠具教投降。迎織田信長次男信雄為養子。', en: 'In 1569, Nobunaga\'s Ise campaign forced Kitabatake Tomonori to surrender; he adopted Nobunaga\'s second son Nobukatsu.' },
-      { ja: '1576年、北畠具教は織田信雄の手の者により暗殺され、北畠氏は実質的に滅亡した。', zhTw: '1576年北畠具教被織田信雄的手下暗殺，北畠氏實質上滅亡。', en: 'In 1576, Tomonori was assassinated by Nobukatsu\'s agents, effectively ending the Kitabatake.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '南朝の忠臣・北畠顕能が伊勢国司として多気に館を構えた。',
+          zhTw: '南朝忠臣北畠顯能作為伊勢國司在多氣建立了居館。',
+          en: 'Kitabatake Akinō, loyal to the Southern Court, established his residence in Taki as Ise Governor.',
+        },
+      },
+      {
+        year: '室町時代', event: {
+          ja: '北畠氏は伊勢国司として約240年にわたり伊勢を統治した名族。',
+          zhTw: '北畠氏作為伊勢國司約240年間統治伊勢的名族。',
+          en: 'The Kitabatake governed Ise as provincial governors for about 240 years — a distinguished lineage.',
+        },
+      },
+      {
+        year: 1569,
+        event: {
+          ja: '織田信長の伊勢侵攻により北畠具教は降伏。信長の次男・信雄を養子に迎えた。',
+          zhTw: '織田信長侵攻伊勢，北畠具教投降。迎織田信長次男信雄為養子。',
+          en: 'Nobunaga\'s Ise campaign forced Kitabatake Tomonori to surrender; he adopted Nobunaga\'s second son Nobukatsu.',
+        },
+      },
+      {
+        year: 1576,
+        event: {
+          ja: '北畠具教は織田信雄の手の者により暗殺され、北畠氏は実質的に滅亡した。',
+          zhTw: '北畠具教被織田信雄的手下暗殺，北畠氏實質上滅亡。',
+          en: 'Tomonori was assassinated by Nobukatsu\'s agents, effectively ending the Kitabatake.',
+        },
+      },
     ],
     figures: [
       { ja: '北畠顕能 — 北畠親房の三男。南朝方として伊勢に入り、北畠氏伊勢支配の祖となった。', zhTw: '北畠顯能 — 北畠親房三男。以南朝方進入伊勢，成為北畠氏伊勢支配之祖。', en: 'Kitabatake Akinō — Chikafusa\'s third son, who entered Ise for the Southern Court and founded Kitabatake rule there.' },
@@ -5206,7 +5753,7 @@ export const castles = [
   },
   {
     id: 'tamaru',
-    number: 130,
+    number: 154,
     regionId: 'kinki',
     name: { ja: '田丸城', zhTw: '田丸城', en: 'Tamaru Castle' },
     city: { ja: '玉城町', zhTw: '玉城町', en: 'Tamaki' },
@@ -5217,9 +5764,30 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#9A9A80', roofColor: '#5A5A40' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c0392b', crest: '#9A9A80' },
     history: [
-      { ja: '南北朝時代の1336年、北畠親房・顕信父子が南朝方の拠点として築城。', zhTw: '南北朝時代1336年北畠親房、顯信父子作為南朝方據點而築城。', en: 'In 1336, Kitabatake Chikafusa and his son Akiaki built it as a Southern Court stronghold.' },
-      { ja: '1569年、織田信長の伊勢平定後に信長の次男・織田信雄が入城し大改修を行った。', zhTw: '1569年織田信長平定伊勢後，信長次男織田信雄入城並進行大改修。', en: 'After Nobunaga\'s 1569 conquest of Ise, his second son Nobukatsu entered and extensively renovated the castle.' },
-      { ja: '信雄は天守を築いたが1580年に失火で焼失。信雄は松ヶ島城に移り、田丸城は衰退した。', zhTw: '信雄築了天守但1580年失火燒毀。信雄遷往松島城，田丸城衰退。', en: 'Nobukatsu built a keep, but it burned accidentally in 1580; he moved to Matsugashima, and Tamaru declined.' },
+      {
+        year: 1336,
+        event: {
+          ja: '北畠親房・顕信父子が南朝方の拠点として築城。',
+          zhTw: '北畠親房、顯信父子作為南朝方據點而築城。',
+          en: 'Kitabatake Chikafusa and his son Akiaki built it as a Southern Court stronghold.',
+        },
+      },
+      {
+        year: 1569,
+        event: {
+          ja: '織田信長の伊勢平定後に信長の次男・織田信雄が入城し大改修を行った。',
+          zhTw: '織田信長平定伊勢後，信長次男織田信雄入城並進行大改修。',
+          en: 'After Nobunaga\'s 1569 conquest of Ise, his second son Nobukatsu entered and extensively renovated the castle.',
+        },
+      },
+      {
+        year: 1580,
+        event: {
+          ja: '信雄は天守を築いたが1580年に失火で焼失。信雄は松ヶ島城に移り、田丸城は衰退した。',
+          zhTw: '信雄築了天守但1580年失火燒毀。信雄遷往松島城，田丸城衰退。',
+          en: 'Nobukatsu built a keep, but it burned accidentally in 1580; he moved to Matsugashima, and Tamaru declined.',
+        },
+      },
     ],
     figures: [
       { ja: '北畠親房 — 南朝の重鎮。「神皇正統記」の著者で、田丸城を南朝の前線基地とした。', zhTw: '北畠親房 — 南朝重臣。《神皇正統記》作者，以田丸城為南朝前線基地。', en: 'Kitabatake Chikafusa — Southern Court pillar and author of "Jinnō Shōtōki," who used Tamaru as his front-line base.' },
@@ -5240,7 +5808,7 @@ export const castles = [
   },
   {
     id: 'akagi',
-    number: 131,
+    number: 155,
     regionId: 'kinki',
     name: { ja: '赤木城', zhTw: '赤木城', en: 'Akagi Castle' },
     city: { ja: '熊野市', zhTw: '熊野市', en: 'Kumano' },
@@ -5251,9 +5819,28 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A70', roofColor: '#5A5A40' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#a52a2a', crest: '#8A8A70' },
     history: [
-      { ja: '1589年頃、藤堂高虎が熊野地方の統治と北山一揆の鎮圧のために築城。', zhTw: '1589年左右藤堂高虎為統治熊野地方及鎮壓北山一揆而築城。', en: 'Around 1589, Tōdō Takatora built this castle to govern the Kumano region and suppress the Kitayama Revolt.' },
-      { ja: '北山一揆は秀吉の政策に反発した紀伊山地の民衆蜂起で、激しい戦いが繰り広げられた。', zhTw: '北山一揆是紀伊山地民眾反抗秀吉政策的起義，發生了激烈的戰鬥。', en: 'The Kitayama Revolt was a fierce popular uprising in the Kii mountains against Hideyoshi\'s policies.' },
-      { ja: '一揆鎮圧後に藤堂高虎は転封となり、赤木城は短期間で廃城となった。', zhTw: '一揆鎮壓後藤堂高虎轉封，赤木城在短期間內廢城。', en: 'After the revolt was crushed, Takatora was transferred, and Akagi was abandoned after only a brief period.' },
+      {
+        year: 'c.1589',
+        event: {
+          ja: '藤堂高虎が熊野地方の統治と北山一揆の鎮圧のために築城。',
+          zhTw: '藤堂高虎為統治熊野地方及鎮壓北山一揆而築城。',
+          en: 'Tōdō Takatora built this castle to govern the Kumano region and suppress the Kitayama Revolt.',
+        },
+      },
+      {
+        year: 1589, event: {
+          ja: '北山一揆は秀吉の政策に反発した紀伊山地の民衆蜂起で、激しい戦いが繰り広げられた。',
+          zhTw: '北山一揆是紀伊山地民眾反抗秀吉政策的起義，發生了激烈的戰鬥。',
+          en: 'The Kitayama Revolt was a fierce popular uprising in the Kii mountains against Hideyoshi\'s policies.',
+        },
+      },
+      {
+        year: 1608, event: {
+          ja: '一揆鎮圧後に藤堂高虎は転封となり、赤木城は短期間で廃城となった。',
+          zhTw: '一揆鎮壓後藤堂高虎轉封，赤木城在短期間內廢城。',
+          en: 'After the revolt was crushed, Takatora was transferred, and Akagi was abandoned after only a brief period.',
+        },
+      },
     ],
     figures: [
       { ja: '藤堂高虎 — 築城名人として知られ、紀伊山中の要害に見事な石垣の城を築いた。', zhTw: '藤堂高虎 — 以築城名人聞名，在紀伊山中要害築建了精美石垣的城。', en: 'Tōdō Takatora — renowned castle builder who raised impressive stone walls deep in the Kii mountains.' },
@@ -5275,7 +5862,7 @@ export const castles = [
   },
   {
     id: 'kamaha',
-    number: 132,
+    number: 156,
     regionId: 'kinki',
     name: { ja: '鎌刃城', zhTw: '鎌刃城', en: 'Kamaha Castle' },
     city: { ja: '米原市', zhTw: '米原市', en: 'Maibara' },
@@ -5286,9 +5873,27 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A5A', roofColor: '#3A3A2A' },
     goshuin: { bg: '#f5f5e8', ink: '#3a3a2a', seal: '#8b0000', crest: '#7A7A5A' },
     history: [
-      { ja: '築城時期は不明だが、鎌倉時代には既に存在していたとされる近江の境目の城。', zhTw: '築城時期不明，但據說鎌倉時代已存在的近江邊境之城。', en: 'Its founding is unknown, but this border castle in Ōmi is believed to have existed since the Kamakura period.' },
-      { ja: '北近江の浅井氏と南近江の六角氏の勢力圏の境に位置し、両者の争奪の的となった。', zhTw: '位於北近江淺井氏與南近江六角氏勢力圈的邊境，成為雙方爭奪的對象。', en: 'Situated on the border between the Azai (north) and Rokkaku (south), it was contested by both clans.' },
-      { ja: '織田信長の近江侵攻時には城主の堀秀村が信長に味方したが、後に浅井方に寝返り改易された。', zhTw: '織田信長侵攻近江時城主堀秀村投靠信長，但後來倒向淺井方被改易。', en: 'During Nobunaga\'s Ōmi invasion, lord Hori Hidemura sided with Nobunaga but later defected to the Azai and was dispossessed.' },
+      {
+        year: '鎌倉時代', event: {
+          ja: '築城時期は不明だが、鎌倉時代には既に存在していたとされる近江の境目の城。',
+          zhTw: '築城時期不明，但據說鎌倉時代已存在的近江邊境之城。',
+          en: 'Its founding is unknown, but this border castle in Ōmi is believed to have existed since the Kamakura period.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '北近江の浅井氏と南近江の六角氏の勢力圏の境に位置し、両者の争奪の的となった。',
+          zhTw: '位於北近江淺井氏與南近江六角氏勢力圈的邊境，成為雙方爭奪的對象。',
+          en: 'Situated on the border between the Azai (north) and Rokkaku (south), it was contested by both clans.',
+        },
+      },
+      {
+        year: 1570, event: {
+          ja: '織田信長の近江侵攻時には城主の堀秀村が信長に味方したが、後に浅井方に寝返り改易された。',
+          zhTw: '織田信長侵攻近江時城主堀秀村投靠信長，但後來倒向淺井方被改易。',
+          en: 'During Nobunaga\'s Ōmi invasion, lord Hori Hidemura sided with Nobunaga but later defected to the Azai and was dispossessed.',
+        },
+      },
     ],
     figures: [
       { ja: '堀秀村 — 鎌刃城最後の城主。樋口直房（後の堀秀政の父とされる）が家老として補佐した。', zhTw: '堀秀村 — 鎌刃城最後的城主。樋口直房（後被認為是堀秀政之父）作為家老輔佐。', en: 'Hori Hidemura — last lord of Kamaha, assisted by his chief retainer Higuchi Naofusa.' },
@@ -5312,7 +5917,7 @@ export const castles = [
   // ── 続100名城 #133-138 近畿(続) ──
   {
     id: 'hachimanyama',
-    number: 133,
+    number: 157,
     regionId: 'kinki',
     name: { ja: '八幡山城', zhTw: '八幡山城', en: 'Hachimanyama Castle' },
     city: { ja: '近江八幡市', zhTw: '近江八幡市', en: 'Ōmi-Hachiman' },
@@ -5323,9 +5928,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#8A8A70', roofColor: '#4A4A30' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c44', crest: '#8A8A70' },
     history: [
-      { ja: '1585年、豊臣秀次が叔父・秀吉の命で安土城の隣に築城。近江支配の新拠点とした。', zhTw: '1585年豐臣秀次奉叔父秀吉之命在安土城旁築城，作為近江支配的新據點。', en: 'In 1585, Toyotomi Hidetsugu built this castle next to Azuchi on Hideyoshi\'s orders as a new base for governing Ōmi.' },
-      { ja: '秀次は城下に楽市楽座を開き、近江商人発祥の地となる商業都市を築いた。', zhTw: '秀次在城下開設樂市樂座，建立了成為近江商人發祥地的商業都市。', en: 'Hidetsugu opened free markets in the castle town, creating the commercial city that birthed the Ōmi merchants.' },
-      { ja: '1595年、秀次が秀吉に疑われ高野山で切腹。八幡山城は廃城となった。', zhTw: '1595年秀次被秀吉猜疑在高野山切腹。八幡山城廢城。', en: 'In 1595, Hidetsugu was suspected by Hideyoshi and forced to commit seppuku at Kōyasan; the castle was abandoned.' },
+      {
+        year: 1585,
+        event: {
+          ja: '豊臣秀次が叔父・秀吉の命で安土城の隣に築城。近江支配の新拠点とした。',
+          zhTw: '豐臣秀次奉叔父秀吉之命在安土城旁築城，作為近江支配的新據點。',
+          en: 'Toyotomi Hidetsugu built this castle next to Azuchi on Hideyoshi\'s orders as a new base for governing Ōmi.',
+        },
+      },
+      {
+        year: 1585, event: {
+          ja: '秀次は城下に楽市楽座を開き、近江商人発祥の地となる商業都市を築いた。',
+          zhTw: '秀次在城下開設樂市樂座，建立了成為近江商人發祥地的商業都市。',
+          en: 'Hidetsugu opened free markets in the castle town, creating the commercial city that birthed the Ōmi merchants.',
+        },
+      },
+      {
+        year: 1595,
+        event: {
+          ja: '秀次が秀吉に疑われ高野山で切腹。八幡山城は廃城となった。',
+          zhTw: '秀次被秀吉猜疑在高野山切腹。八幡山城廢城。',
+          en: 'Hidetsugu was suspected by Hideyoshi and forced to commit seppuku at Kōyasan; the castle was abandoned.',
+        },
+      },
     ],
     figures: [
       { ja: '豊臣秀次 — 秀吉の甥で養嗣子。関白にまで昇りつめたが、秀頼誕生後に悲劇的な最期を遂げた。', zhTw: '豐臣秀次 — 秀吉的姪子兼養嗣子。升至關白但秀賴出生後悲劇性地死去。', en: 'Toyotomi Hidetsugu — Hideyoshi\'s nephew and adopted heir who rose to regent, but met a tragic end after Hideyori\'s birth.' },
@@ -5346,7 +5971,7 @@ export const castles = [
   },
   {
     id: 'fukuchiyama',
-    number: 134,
+    number: 158,
     regionId: 'kinki',
     name: { ja: '福知山城', zhTw: '福知山城', en: 'Fukuchiyama Castle' },
     city: { ja: '福知山市', zhTw: '福知山市', en: 'Fukuchiyama' },
@@ -5357,10 +5982,36 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#F5F0E8', roofColor: '#2C3E50' },
     goshuin: { bg: '#f5f5ef', ink: '#2c3e50', seal: '#c0392b', crest: '#2C3E50' },
     history: [
-      { ja: '1579年、明智光秀が丹波攻略後にこの地に城を築き、城下町を整備した。', zhTw: '1579年明智光秀攻略丹波後在此築城，整備城下町。', en: 'In 1579, Akechi Mitsuhide built the castle after conquering Tamba and developed the castle town.' },
-      { ja: '光秀は善政を敷き、由良川の治水工事を行うなど領民に慕われた。', zhTw: '光秀實施善政，進行由良川治水工程等深受領民愛戴。', en: 'Mitsuhide won the people\'s affection through good governance, including flood-control works on the Yura River.' },
-      { ja: '本能寺の変で信長を討った光秀だが、福知山では名君として今も敬愛されている。', zhTw: '光秀雖在本能寺之變中討伐信長，但在福知山至今仍作為名君受到敬愛。', en: 'Though Mitsuhide slew Nobunaga at Honnō-ji, he is still revered in Fukuchiyama as a wise and beloved lord.' },
-      { ja: '江戸時代は朽木氏が藩主を務め、幕末まで福知山藩として存続した。', zhTw: '江戶時代由朽木氏擔任藩主，作為福知山藩存續至幕末。', en: 'The Kutsuki clan governed throughout the Edo period, maintaining Fukuchiyama domain to the end.' },
+      {
+        year: 1579,
+        event: {
+          ja: '明智光秀が丹波攻略後にこの地に城を築き、城下町を整備した。',
+          zhTw: '明智光秀攻略丹波後在此築城，整備城下町。',
+          en: 'Akechi Mitsuhide built the castle after conquering Tamba and developed the castle town.',
+        },
+      },
+      {
+        year: 1579, event: {
+          ja: '光秀は善政を敷き、由良川の治水工事を行うなど領民に慕われた。',
+          zhTw: '光秀實施善政，進行由良川治水工程等深受領民愛戴。',
+          en: 'Mitsuhide won the people\'s affection through good governance, including flood-control works on the Yura River.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '本能寺の変で信長を討った光秀だが、福知山では名君として今も敬愛されている。',
+          zhTw: '光秀雖在本能寺之變中討伐信長，但在福知山至今仍作為名君受到敬愛。',
+          en: 'Though Mitsuhide slew Nobunaga at Honnō-ji, he is still revered in Fukuchiyama as a wise and beloved lord.',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '朽木氏が藩主を務め、幕末まで福知山藩として存続した。',
+          zhTw: '由朽木氏擔任藩主，作為福知山藩存續至幕末。',
+          en: 'The Kutsuki clan governed throughout the Edo period, maintaining Fukuchiyama domain to the end.',
+        },
+      },
     ],
     figures: [
       { ja: '明智光秀 — 本能寺の変の首謀者として知られるが、福知山では領民思いの名君として評価される。', zhTw: '明智光秀 — 以本能寺之變首謀者聞名，但在福知山被評為體恤領民的名君。', en: 'Akechi Mitsuhide — known as the mastermind of Honnō-ji, but valued in Fukuchiyama as a lord who cared for his people.' },
@@ -5382,7 +6033,7 @@ export const castles = [
   },
   {
     id: 'akutagawayama',
-    number: 135,
+    number: 159,
     regionId: 'kinki',
     name: { ja: '芥川山城', zhTw: '芥川山城', en: 'Akutagawayama Castle' },
     city: { ja: '高槻市', zhTw: '高槻市', en: 'Takatsuki' },
@@ -5393,10 +6044,35 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A8A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e6', ink: '#3a4a2a', seal: '#8b0000', crest: '#7A8A5A' },
     history: [
-      { ja: '戦国時代、摂津国の有力国人・芥川氏が築いた山城。摂津支配の要であった。', zhTw: '戰國時代攝津國有力國人芥川氏築建的山城。是攝津支配的要地。', en: 'Built by the Akutagawa clan, powerful provincial warriors of Settsu, this mountain castle was key to controlling the region.' },
-      { ja: '三好長慶が居城とし、畿内を支配する「天下人」として約10年間ここから政治を行った。', zhTw: '三好長慶以此為居城，作為支配畿內的「天下人」從此處執政約10年。', en: 'Miyoshi Nagayoshi made it his seat, governing the Kinai region as de facto ruler for about ten years.' },
-      { ja: '三好長慶は「最初の天下人」とも評され、信長に先駆けて中央政権を握った戦国大名。', zhTw: '三好長慶也被評為「最初的天下人」，先於信長掌握中央政權的戰國大名。', en: 'Nagayoshi is called "the first unifier" — a Sengoku lord who held central power before Nobunaga.' },
-      { ja: '長慶の死後、三好氏は衰退し、織田信長の上洛により芥川山城は廃城となった。', zhTw: '長慶死後三好氏衰退，織田信長上洛後芥川山城廢城。', en: 'After Nagayoshi\'s death the Miyoshi declined; the castle was abandoned when Nobunaga marched to Kyoto.' },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '摂津国の有力国人・芥川氏が築いた山城。摂津支配の要であった。',
+          zhTw: '攝津國有力國人芥川氏築建的山城。是攝津支配的要地。',
+          en: 'Built by the Akutagawa clan, powerful provincial warriors of Settsu, this mountain castle was key to controlling the region.',
+        },
+      },
+      {
+        year: 1553, event: {
+          ja: '三好長慶が居城とし、畿内を支配する「天下人」として約10年間ここから政治を行った。',
+          zhTw: '三好長慶以此為居城，作為支配畿內的「天下人」從此處執政約10年。',
+          en: 'Miyoshi Nagayoshi made it his seat, governing the Kinai region as de facto ruler for about ten years.',
+        },
+      },
+      {
+        year: 1553, event: {
+          ja: '三好長慶は「最初の天下人」とも評され、信長に先駆けて中央政権を握った戦国大名。',
+          zhTw: '三好長慶也被評為「最初的天下人」，先於信長掌握中央政權的戰國大名。',
+          en: 'Nagayoshi is called "the first unifier" — a Sengoku lord who held central power before Nobunaga.',
+        },
+      },
+      {
+        year: 1568, event: {
+          ja: '長慶の死後、三好氏は衰退し、織田信長の上洛により芥川山城は廃城となった。',
+          zhTw: '長慶死後三好氏衰退，織田信長上洛後芥川山城廢城。',
+          en: 'After Nagayoshi\'s death the Miyoshi declined; the castle was abandoned when Nobunaga marched to Kyoto.',
+        },
+      },
     ],
     figures: [
       { ja: '三好長慶 — 織田信長に先駆けて畿内を統一し、室町幕府を事実上掌握した「最初の天下人」。', zhTw: '三好長慶 — 先於織田信長統一畿內，事實上掌握室町幕府的「最初的天下人」。', en: 'Miyoshi Nagayoshi — "the first unifier" who controlled the Kinai and effectively dominated the Muromachi Shōgunate before Nobunaga.' },
@@ -5417,7 +6093,7 @@ export const castles = [
   },
   {
     id: 'iimori',
-    number: 136,
+    number: 160,
     regionId: 'kinki',
     name: { ja: '飯盛城', zhTw: '飯盛城', en: 'Iimori Castle' },
     city: { ja: '大東市・四條畷市', zhTw: '大東市・四條畷市', en: 'Daitō / Shijōnawate' },
@@ -5428,9 +6104,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6B8B5B', roofColor: '#3B4B2B' },
     goshuin: { bg: '#eef5ee', ink: '#2d4a2d', seal: '#a52a2a', crest: '#6B8B5B' },
     history: [
-      { ja: '南北朝時代に築かれ、四條畷の戦い（1348年）の舞台となった歴史ある山城。', zhTw: '南北朝時代築建，成為四條畷之戰（1348年）舞台的歷史悠久山城。', en: 'Built in the Nanboku-chō period, this castle was the stage for the Battle of Shijōnawate in 1348.' },
-      { ja: '三好長慶が芥川山城から居城を移し、畿内政権の中枢として機能した。', zhTw: '三好長慶從芥川山城遷居此城，作為畿內政權的中樞運作。', en: 'Miyoshi Nagayoshi relocated here from Akutagawayama, making it the center of his Kinai government.' },
-      { ja: '長慶の晩年は弟や嫡男の死が相次ぎ、失意のうちにこの城で没した（1564年）。', zhTw: '長慶晩年弟弟和嫡男相繼去世，在失意中於此城病逝（1564年）。', en: 'In his later years, Nagayoshi lost his brothers and heir in succession, dying in despair at this castle in 1564.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '築かれ、四條畷の戦い（1348年）の舞台となった歴史ある山城。',
+          zhTw: '築建，成為四條畷之戰（1348年）舞台的歷史悠久山城。',
+          en: ', this castle was the stage for the Battle of Shijōnawate in 1348.',
+        },
+      },
+      {
+        year: 1560, event: {
+          ja: '三好長慶が芥川山城から居城を移し、畿内政権の中枢として機能した。',
+          zhTw: '三好長慶從芥川山城遷居此城，作為畿內政權的中樞運作。',
+          en: 'Miyoshi Nagayoshi relocated here from Akutagawayama, making it the center of his Kinai government.',
+        },
+      },
+      {
+        year: 1564,
+        event: {
+          ja: '長慶の晩年は弟や嫡男の死が相次ぎ、失意のうちにこの城で没した（1564年）。',
+          zhTw: '長慶晩年弟弟和嫡男相繼去世，在失意中於此城病逝（1564年）。',
+          en: 'In his later years, Nagayoshi lost his brothers and heir in succession, dying in despair at this castle in 1564.',
+        },
+      },
     ],
     figures: [
       { ja: '三好長慶 — 芥川山城から飯盛城に移り、ここで畿内支配の最盛期と晩年の悲劇を過ごした。', zhTw: '三好長慶 — 從芥川山城遷至飯盛城，在此度過畿內支配的最盛期與晩年的悲劇。', en: 'Miyoshi Nagayoshi — moved here from Akutagawayama, experiencing both his zenith and tragic decline at Iimori.' },
@@ -5451,7 +6147,7 @@ export const castles = [
   },
   {
     id: 'kishiwada',
-    number: 137,
+    number: 161,
     regionId: 'kinki',
     name: { ja: '岸和田城', zhTw: '岸和田城', en: 'Kishiwada Castle' },
     city: { ja: '岸和田市', zhTw: '岸和田市', en: 'Kishiwada' },
@@ -5462,9 +6158,30 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#F5F5F5', roofColor: '#2C3E50' },
     goshuin: { bg: '#f5f5f5', ink: '#2c3e50', seal: '#c0392b', crest: '#2C3E50' },
     history: [
-      { ja: '1334年頃、楠木正成の一族により築城されたと伝わる泉州の要城。', zhTw: '1334年左右據傳由楠木正成一族築城的泉州要城。', en: 'Reportedly built around 1334 by a Kusunoki clan member, this was a key castle of Izumi province.' },
-      { ja: '1585年、豊臣秀吉の紀州攻めの拠点となり、秀吉の叔父・小出秀政が城主となった。', zhTw: '1585年成為豐臣秀吉紀州攻略的據點，秀吉的叔父小出秀政成為城主。', en: 'In 1585 it served as Hideyoshi\'s base for the Kishū campaign; his uncle Koide Hidemasa became lord.' },
-      { ja: '1640年から岡部氏が藩主を務め、13代にわたり幕末まで岸和田藩を治めた。', zhTw: '1640年起岡部氏擔任藩主，歷經13代治理岸和田藩至幕末。', en: 'From 1640, the Okabe clan governed for 13 generations until the Bakumatsu.' },
+      {
+        year: 'c.1334',
+        event: {
+          ja: '楠木正成の一族により築城されたと伝わる泉州の要城。',
+          zhTw: '據傳由楠木正成一族築城的泉州要城。',
+          en: 'Reportedly built around 1334 by a Kusunoki clan member, this was a key castle of Izumi province.',
+        },
+      },
+      {
+        year: 1585,
+        event: {
+          ja: '豊臣秀吉の紀州攻めの拠点となり、秀吉の叔父・小出秀政が城主となった。',
+          zhTw: '成為豐臣秀吉紀州攻略的據點，秀吉的叔父小出秀政成為城主。',
+          en: 'It served as Hideyoshi\'s base for the Kishū campaign; his uncle Koide Hidemasa became lord.',
+        },
+      },
+      {
+        year: 1640,
+        event: {
+          ja: '1640年から岡部氏が藩主を務め、13代にわたり幕末まで岸和田藩を治めた。',
+          zhTw: '1640年起岡部氏擔任藩主，歷經13代治理岸和田藩至幕末。',
+          en: 'From 1640, the Okabe clan governed for 13 generations until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '岡部宣勝 — 岸和田藩初代藩主。大坂の陣で功を立て、岸和田に入封した。', zhTw: '岡部宣勝 — 岸和田藩初代藩主。大坂之陣立功後入封岸和田。', en: 'Okabe Nobukatsu — first Okabe lord, rewarded with Kishiwada for his service at the Osaka campaigns.' },
@@ -5485,7 +6202,7 @@ export const castles = [
   },
   {
     id: 'izushi',
-    number: 138,
+    number: 162,
     regionId: 'kinki',
     name: { ja: '出石城・有子山城', zhTw: '出石城・有子山城', en: 'Izushi & Ariko-yama Castle' },
     city: { ja: '豊岡市', zhTw: '豐岡市', en: 'Toyooka' },
@@ -5496,10 +6213,37 @@ export const castles = [
     illustration: { style: 'classic', tiers: 2, color: '#F5F0E8', roofColor: '#4A3A2A' },
     goshuin: { bg: '#f5f0e8', ink: '#4a3a2a', seal: '#c44', crest: '#4A3A2A' },
     history: [
-      { ja: '有子山城は1574年、但馬の守護・山名祐豊が築いた険しい山城。', zhTw: '有子山城建於1574年，是但馬守護山名祐豐築建的險峻山城。', en: 'Ariko-yama Castle was built in 1574 by Yamana Suketoyo, shugo of Tajima, as a steep mountain fortress.' },
-      { ja: '1604年、小出吉英が山麓に出石城を築き、政庁を移した。出石藩の城下町が形成された。', zhTw: '1604年小出吉英在山麓築建出石城，遷移政廳。形成了出石藩的城下町。', en: 'In 1604, Koide Yoshihide built Izushi Castle at the base and moved government there, forming the castle town.' },
-      { ja: '仙石氏の時代に城下が整備され、「但馬の小京都」と呼ばれる美しい町並みが完成した。', zhTw: '仙石氏時代整備城下，完成被稱為「但馬的小京都」的美麗街道。', en: 'Under the Sengoku clan, the town was refined into the beautiful streetscape known as "Little Kyoto of Tajima."' },
-      { ja: '仙石騒動（1835年）は江戸時代最大のお家騒動として知られ、藩を揺るがした大事件。', zhTw: '仙石騷動（1835年）是江戶時代最大的御家騷動，動搖了藩的大事件。', en: 'The Sengoku Disturbance (1835) was the Edo period\'s greatest succession crisis, shaking the domain.' },
+      {
+        year: 1574,
+        event: {
+          ja: '有子山城は1574年、但馬の守護・山名祐豊が築いた険しい山城。',
+          zhTw: '有子山城建於1574年，是但馬守護山名祐豐築建的險峻山城。',
+          en: 'Ariko-yama Castle was built in 1574 by Yamana Suketoyo, shugo of Tajima, as a steep mountain fortress.',
+        },
+      },
+      {
+        year: 1604,
+        event: {
+          ja: '小出吉英が山麓に出石城を築き、政庁を移した。出石藩の城下町が形成された。',
+          zhTw: '小出吉英在山麓築建出石城，遷移政廳。形成了出石藩的城下町。',
+          en: 'Koide Yoshihide built Izushi Castle at the base and moved government there, forming the castle town.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '仙石氏の時代に城下が整備され、「但馬の小京都」と呼ばれる美しい町並みが完成した。',
+          zhTw: '仙石氏時代整備城下，完成被稱為「但馬的小京都」的美麗街道。',
+          en: 'Under the Sengoku clan, the town was refined into the beautiful streetscape known as "Little Kyoto of Tajima."',
+        },
+      },
+      {
+        year: 1835,
+        event: {
+          ja: '仙石騒動（1835年）は江戸時代最大のお家騒動として知られ、藩を揺るがした大事件。',
+          zhTw: '仙石騷動（1835年）是江戶時代最大的御家騷動，動搖了藩的大事件。',
+          en: 'The Sengoku Disturbance (1835) was the Edo period\'s greatest succession crisis, shaking the domain.',
+        },
+      },
     ],
     figures: [
       { ja: '山名祐豊 — 但馬最後の守護大名。有子山城を築いたが、秀吉の但馬攻めで滅亡した。', zhTw: '山名祐豐 — 但馬最後的守護大名。築建有子山城但因秀吉但馬攻略而滅亡。', en: 'Yamana Suketoyo — last shugo of Tajima, who built Ariko-yama but fell to Hideyoshi\'s campaign.' },
@@ -5523,7 +6267,7 @@ export const castles = [
   // ── 続100名城 #139-144 近畿(続)/中国 ──
   {
     id: 'kuroi',
-    number: 139,
+    number: 163,
     regionId: 'kinki',
     name: { ja: '黒井城', zhTw: '黑井城', en: 'Kuroi Castle' },
     city: { ja: '丹波市', zhTw: '丹波市', en: 'Tamba' },
@@ -5534,9 +6278,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e8', ink: '#3a4a2a', seal: '#8b0000', crest: '#6A7A5A' },
     history: [
-      { ja: '南北朝時代に赤井氏が築城。「丹波の赤鬼」赤井直正の居城として名高い。', zhTw: '南北朝時代赤井氏築城。以「丹波之赤鬼」赤井直正的居城聞名。', en: 'Built by the Akai clan in the Nanboku-chō era; famed as the seat of Akai Naomasa, "the Red Demon of Tamba."' },
-      { ja: '明智光秀の丹波攻めに対し赤井直正は二度にわたって撃退。光秀を大いに苦しめた。', zhTw: '面對明智光秀的丹波攻略，赤井直正兩度擊退。令光秀大為苦惱。', en: 'Akai Naomasa twice repelled Akechi Mitsuhide\'s Tamba campaign, causing the invader great difficulty.' },
-      { ja: '直正の病死後、1579年に光秀がようやく黒井城を攻略。丹波平定を完了した。', zhTw: '直正病逝後，1579年光秀終於攻下黑井城。完成丹波平定。', en: 'After Naomasa\'s death from illness, Mitsuhide finally took Kuroi in 1579, completing the conquest of Tamba.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '赤井氏が築城。「丹波の赤鬼」赤井直正の居城として名高い。',
+          zhTw: '赤井氏築城。以「丹波之赤鬼」赤井直正的居城聞名。',
+          en: 'Built by the Akai clan in the Nanboku-chō era; famed as the seat of Akai Naomasa, "the Red Demon of Tamba."',
+        },
+      },
+      {
+        year: 1576, event: {
+          ja: '明智光秀の丹波攻めに対し赤井直正は二度にわたって撃退。光秀を大いに苦しめた。',
+          zhTw: '面對明智光秀的丹波攻略，赤井直正兩度擊退。令光秀大為苦惱。',
+          en: 'Akai Naomasa twice repelled Akechi Mitsuhide\'s Tamba campaign, causing the invader great difficulty.',
+        },
+      },
+      {
+        year: 1579,
+        event: {
+          ja: '直正の病死後、1579年に光秀がようやく黒井城を攻略。丹波平定を完了した。',
+          zhTw: '直正病逝後，1579年光秀終於攻下黑井城。完成丹波平定。',
+          en: 'After Naomasa\'s death from illness, Mitsuhide finally took Kuroi in 1579, completing the conquest of Tamba.',
+        },
+      },
     ],
     figures: [
       { ja: '赤井直正 — 「丹波の赤鬼」の異名を持つ猛将。光秀の大軍を二度退けた武勇は語り草。', zhTw: '赤井直正 — 有「丹波之赤鬼」異名的猛將。兩度擊退光秀大軍的武勇廣為傳頌。', en: 'Akai Naomasa — "the Red Demon of Tamba," a fierce warrior whose twice repelling Mitsuhide\'s armies became legendary.' },
@@ -5556,7 +6320,7 @@ export const castles = [
   },
   {
     id: 'sumoto',
-    number: 140,
+    number: 164,
     regionId: 'kinki',
     name: { ja: '洲本城', zhTw: '洲本城', en: 'Sumoto Castle' },
     city: { ja: '洲本市', zhTw: '洲本市', en: 'Sumoto' },
@@ -5567,9 +6331,29 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c44', crest: '#8A8A78' },
     history: [
-      { ja: '1526年、三好氏の家臣・安宅治興が淡路島の三熊山に築城。淡路水軍の拠点となった。', zhTw: '1526年三好氏家臣安宅治興在淡路島三熊山築城。成為淡路水軍的據點。', en: 'Built in 1526 by Ataka Haruoki, retainer of the Miyoshi, on Mikuma-yama in Awaji — a naval base.' },
-      { ja: '豊臣政権下では脇坂安治が城主となり、朝鮮出兵では水軍を率いて活躍した。', zhTw: '豐臣政權下脇坂安治成為城主，朝鮮出兵中率領水軍活躍。', en: 'Under the Toyotomi, Wakisaka Yasuharu became lord and led the naval forces in the Korean expeditions.' },
-      { ja: '江戸時代は徳島藩蜂須賀氏の支配下に置かれ、洲本城代が治めた。', zhTw: '江戶時代置於德島藩蜂須賀氏支配下，由洲本城代治理。', en: 'In the Edo period, it was governed by castle deputies under the Tokushima domain\'s Hachisuka clan.' },
+      {
+        year: 1526,
+        event: {
+          ja: '三好氏の家臣・安宅治興が淡路島の三熊山に築城。淡路水軍の拠点となった。',
+          zhTw: '三好氏家臣安宅治興在淡路島三熊山築城。成為淡路水軍的據點。',
+          en: 'Built by Ataka Haruoki, retainer of the Miyoshi, on Mikuma-yama in Awaji — a naval base.',
+        },
+      },
+      {
+        year: 1592, event: {
+          ja: '豊臣政権下では脇坂安治が城主となり、朝鮮出兵では水軍を率いて活躍した。',
+          zhTw: '豐臣政權下脇坂安治成為城主，朝鮮出兵中率領水軍活躍。',
+          en: 'Under the Toyotomi, Wakisaka Yasuharu became lord and led the naval forces in the Korean expeditions.',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '徳島藩蜂須賀氏の支配下に置かれ、洲本城代が治めた。',
+          zhTw: '置於德島藩蜂須賀氏支配下，由洲本城代治理。',
+          en: 'It was governed by castle deputies under the Tokushima domain\'s Hachisuka clan.',
+        },
+      },
     ],
     figures: [
       { ja: '脇坂安治 — 賤ヶ岳七本槍の一人。淡路水軍を率い、関ヶ原では東軍に寝返った。', zhTw: '脇坂安治 — 賤岳七本槍之一。率領淡路水軍，關原之戰中倒向東軍。', en: 'Wakisaka Yasuharu — one of the Seven Spears of Shizugatake, commander of the Awaji navy who defected to the Eastern Army at Sekigahara.' },
@@ -5589,7 +6373,7 @@ export const castles = [
   },
   {
     id: 'yamato-koriyama',
-    number: 141,
+    number: 165,
     regionId: 'kinki',
     name: { ja: '大和郡山城', zhTw: '大和郡山城', en: 'Yamato-Kōriyama Castle' },
     city: { ja: '大和郡山市', zhTw: '大和郡山市', en: 'Yamato-Kōriyama' },
@@ -5600,10 +6384,37 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#9A9080', roofColor: '#5A5040' },
     goshuin: { bg: '#f5efe8', ink: '#3d3828', seal: '#c0392b', crest: '#9A9080' },
     history: [
-      { ja: '1580年、織田信長の命で筒井順慶が大和一国の拠点として大改修。', zhTw: '1580年受織田信長之命，筒井順慶作為大和一國據點進行大改修。', en: 'In 1580, Tsutsui Junkei extensively rebuilt it as Yamato\'s main stronghold on Nobunaga\'s orders.' },
-      { ja: '1585年、豊臣秀長（秀吉の弟）が100万石の大大名として入城し、壮大な城に改修。', zhTw: '1585年豐臣秀長（秀吉之弟）以100萬石大大名入城，改建為壯大之城。', en: 'In 1585, Toyotomi Hidenaga (Hideyoshi\'s brother) entered as a 1-million-koku lord and rebuilt it grandly.' },
-      { ja: '秀長は秀吉政権の屋台骨として大和・紀伊・和泉を治め、郡山城を畿内第二の城とした。', zhTw: '秀長作為秀吉政權的支柱治理大和、紀伊、和泉，使郡山城成為畿內第二大城。', en: 'Hidenaga governed Yamato, Kii, and Izumi as the backbone of Hideyoshi\'s regime, making Kōriyama the Kinai\'s second castle.' },
-      { ja: '江戸時代は柳沢吉保の子・吉里が藩主となり、柳沢氏が幕末まで治めた。', zhTw: '江戶時代由柳澤吉保之子吉里擔任藩主，柳澤氏治理至幕末。', en: 'In the Edo period, Yanagisawa Yoshisato (son of the famous Yoshiyasu) became lord; the Yanagisawa governed to the end.' },
+      {
+        year: 1580,
+        event: {
+          ja: '織田信長の命で筒井順慶が大和一国の拠点として大改修。',
+          zhTw: '受織田信長之命，筒井順慶作為大和一國據點進行大改修。',
+          en: 'Tsutsui Junkei extensively rebuilt it as Yamato\'s main stronghold on Nobunaga\'s orders.',
+        },
+      },
+      {
+        year: 1585,
+        event: {
+          ja: '豊臣秀長（秀吉の弟）が100万石の大大名として入城し、壮大な城に改修。',
+          zhTw: '豐臣秀長（秀吉之弟）以100萬石大大名入城，改建為壯大之城。',
+          en: 'Toyotomi Hidenaga (Hideyoshi\'s brother) entered as a 1-million-koku lord and rebuilt it grandly.',
+        },
+      },
+      {
+        year: 1585, event: {
+          ja: '秀長は秀吉政権の屋台骨として大和・紀伊・和泉を治め、郡山城を畿内第二の城とした。',
+          zhTw: '秀長作為秀吉政權的支柱治理大和、紀伊、和泉，使郡山城成為畿內第二大城。',
+          en: 'Hidenaga governed Yamato, Kii, and Izumi as the backbone of Hideyoshi\'s regime, making Kōriyama the Kinai\'s second castle.',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '柳沢吉保の子・吉里が藩主となり、柳沢氏が幕末まで治めた。',
+          zhTw: '由柳澤吉保之子吉里擔任藩主，柳澤氏治理至幕末。',
+          en: 'Yanagisawa Yoshisato (son of the famous Yoshiyasu) became lord; the Yanagisawa governed to the end.',
+        },
+      },
     ],
     figures: [
       { ja: '豊臣秀長 — 秀吉の弟にして最大の功臣。温厚な人柄で兄を支え、早逝が豊臣政権の命運を変えた。', zhTw: '豐臣秀長 — 秀吉之弟兼最大功臣。以溫厚性格支持兄長，早逝改變了豐臣政權的命運。', en: 'Toyotomi Hidenaga — Hideyoshi\'s brother and greatest supporter; his gentle nature steadied the regime, and his early death changed its fate.' },
@@ -5626,7 +6437,7 @@ export const castles = [
   },
   {
     id: 'uda-matsuyama',
-    number: 142,
+    number: 166,
     regionId: 'kinki',
     name: { ja: '宇陀松山城', zhTw: '宇陀松山城', en: 'Uda-Matsuyama Castle' },
     city: { ja: '宇陀市', zhTw: '宇陀市', en: 'Uda' },
@@ -5637,9 +6448,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A8A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e6', ink: '#3a4a2a', seal: '#a52a2a', crest: '#7A8A5A' },
     history: [
-      { ja: '南北朝時代に秋山氏が築城。宇陀三将の一つとして大和南部を支配した。', zhTw: '南北朝時代秋山氏築城。作為宇陀三將之一支配大和南部。', en: 'Built by the Akiyama in the Nanboku-chō era; one of the "Three Generals of Uda" controlling southern Yamato.' },
-      { ja: '関ヶ原後に福島正則の弟・福島高晴が入封し、近世城郭に改修した。', zhTw: '關原後福島正則之弟福島高晴入封，改建為近世城郭。', en: 'After Sekigahara, Fukushima Takaharu (Masanori\'s brother) took over and modernized the castle.' },
-      { ja: '1615年、大坂夏の陣後の一国一城令により破城。城下の松山地区は宿場町として存続した。', zhTw: '1615年大坂夏之陣後的一國一城令導致破城。城下松山地區作為宿場町存續。', en: 'Demolished under the 1615 one-castle edict after the Osaka campaigns; the Matsuyama district survived as a post town.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '秋山氏が築城。宇陀三将の一つとして大和南部を支配した。',
+          zhTw: '秋山氏築城。作為宇陀三將之一支配大和南部。',
+          en: 'Built by the Akiyama in the Nanboku-chō era; one of the "Three Generals of Uda" controlling southern Yamato.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '関ヶ原後に福島正則の弟・福島高晴が入封し、近世城郭に改修した。',
+          zhTw: '關原後福島正則之弟福島高晴入封，改建為近世城郭。',
+          en: 'After Sekigahara, Fukushima Takaharu (Masanori\'s brother) took over and modernized the castle.',
+        },
+      },
+      {
+        year: 1615,
+        event: {
+          ja: '大坂夏の陣後の一国一城令により破城。城下の松山地区は宿場町として存続した。',
+          zhTw: '大坂夏之陣後的一國一城令導致破城。城下松山地區作為宿場町存續。',
+          en: 'Demolished under the 1615 one-castle edict after the Osaka campaigns; the Matsuyama district survived as a post town.',
+        },
+      },
     ],
     figures: [
       { ja: '福島高晴 — 福島正則の弟。宇陀松山藩主として城を整備したが、大坂の陣で改易された。', zhTw: '福島高晴 — 福島正則之弟。作為宇陀松山藩主整備城郭，但大坂之陣後被改易。', en: 'Fukushima Takaharu — Masanori\'s brother, who developed the castle as domain lord but was dispossessed after Osaka.' },
@@ -5660,7 +6491,7 @@ export const castles = [
   },
   {
     id: 'shingu',
-    number: 143,
+    number: 167,
     regionId: 'kinki',
     name: { ja: '新宮城', zhTw: '新宮城', en: 'Shingū Castle' },
     city: { ja: '新宮市', zhTw: '新宮市', en: 'Shingū' },
@@ -5671,9 +6502,28 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c44', crest: '#8A8A78' },
     history: [
-      { ja: '1618年、浅野忠吉が熊野川河口の丹鶴山に築城。紀伊南部の要として整備された。', zhTw: '1618年淺野忠吉在熊野川河口丹鶴山築城。作為紀伊南部的要地整備。', en: 'Built in 1618 by Asano Tadayoshi on Tankaku-yama at the Kumano River mouth, developed as a key southern Kii stronghold.' },
-      { ja: '紀伊藩の付家老・水野氏が代々城主を務め、新宮領3万5千石を治めた。', zhTw: '紀伊藩附家老水野氏代代擔任城主，治理新宮領3萬5千石。', en: 'The Mizuno, hereditary chief retainers of the Kii domain, served as lords, governing 35,000 koku in Shingū.' },
-      { ja: '熊野川の水運と木材の集積地として新宮は繁栄し、城は物流拠点の役割も担った。', zhTw: '新宮作為熊野川水運與木材集散地而繁榮，城也擔任物流據點的角色。', en: 'Shingū prospered from Kumano River shipping and timber trade, with the castle serving as a logistics hub.' },
+      {
+        year: 1618,
+        event: {
+          ja: '浅野忠吉が熊野川河口の丹鶴山に築城。紀伊南部の要として整備された。',
+          zhTw: '淺野忠吉在熊野川河口丹鶴山築城。作為紀伊南部的要地整備。',
+          en: 'Built by Asano Tadayoshi on Tankaku-yama at the Kumano River mouth, developed as a key southern Kii stronghold.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '紀伊藩の付家老・水野氏が代々城主を務め、新宮領3万5千石を治めた。',
+          zhTw: '紀伊藩附家老水野氏代代擔任城主，治理新宮領3萬5千石。',
+          en: 'The Mizuno, hereditary chief retainers of the Kii domain, served as lords, governing 35,000 koku in Shingū.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '熊野川の水運と木材の集積地として新宮は繁栄し、城は物流拠点の役割も担った。',
+          zhTw: '新宮作為熊野川水運與木材集散地而繁榮，城也擔任物流據點的角色。',
+          en: 'Shingū prospered from Kumano River shipping and timber trade, with the castle serving as a logistics hub.',
+        },
+      },
     ],
     figures: [
       { ja: '水野重仲 — 新宮城主として城と城下町を整備し、新宮の基礎を築いた。', zhTw: '水野重仲 — 作為新宮城主整備城與城下町，奠定新宮的基礎。', en: 'Mizuno Shigenaka — developed the castle and town, laying the foundations of modern Shingū.' },
@@ -5693,7 +6543,7 @@ export const castles = [
   },
   {
     id: 'wakasa-oniga',
-    number: 144,
+    number: 168,
     regionId: 'chugoku',
     name: { ja: '若桜鬼ヶ城', zhTw: '若櫻鬼城', en: 'Wakasa Oniga Castle' },
     city: { ja: '若桜町', zhTw: '若櫻町', en: 'Wakasa' },
@@ -5704,9 +6554,30 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A5A', roofColor: '#3A3A2A' },
     goshuin: { bg: '#f5f5e8', ink: '#3a3a2a', seal: '#8b0000', crest: '#7A7A5A' },
     history: [
-      { ja: '1200年頃、矢部暉種が因幡国と但馬国を結ぶ要衝に築城したと伝わる。', zhTw: '1200年左右據傳矢部暉種在連結因幡國與但馬國的要衝築城。', en: 'Reportedly built around 1200 by Yabe Terutane at a strategic point linking Inaba and Tajima provinces.' },
-      { ja: '戦国時代は山名氏・尼子氏・毛利氏の争奪を経て、最終的に木下重堅が城主となった。', zhTw: '戰國時代經山名氏、尼子氏、毛利氏爭奪，最終由木下重堅擔任城主。', en: 'Contested by the Yamana, Amago, and Mōri in the Sengoku period, it finally came under Kinoshita Shigekata.' },
-      { ja: '関ヶ原後に山崎家盛が入り近世城郭に改修したが、1617年に鳥取城に統合され廃城。', zhTw: '關原後山崎家盛入城改建為近世城郭，但1617年被整合至鳥取城而廢城。', en: 'After Sekigahara, Yamazaki Iemori modernized it, but it was merged into Tottori Castle in 1617 and abandoned.' },
+      {
+        year: 'c.1200',
+        event: {
+          ja: '矢部暉種が因幡国と但馬国を結ぶ要衝に築城したと伝わる。',
+          zhTw: '據傳矢部暉種在連結因幡國與但馬國的要衝築城。',
+          en: 'Reportedly built around 1200 by Yabe Terutane at a strategic point linking Inaba and Tajima provinces.',
+        },
+      },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '山名氏・尼子氏・毛利氏の争奪を経て、最終的に木下重堅が城主となった。',
+          zhTw: '經山名氏、尼子氏、毛利氏爭奪，最終由木下重堅擔任城主。',
+          en: 'Contested by the Yamana, Amago, and Mōri in the Sengoku period, it finally came under Kinoshita Shigekata.',
+        },
+      },
+      {
+        year: 1617,
+        event: {
+          ja: '関ヶ原後に山崎家盛が入り近世城郭に改修したが、1617年に鳥取城に統合され廃城。',
+          zhTw: '關原後山崎家盛入城改建為近世城郭，但1617年被整合至鳥取城而廢城。',
+          en: 'After Sekigahara, Yamazaki Iemori modernized it, but it was merged into Tottori Castle in 1617 and abandoned.',
+        },
+      },
     ],
     figures: [
       { ja: '山崎家盛 — 関ヶ原後に若桜藩主となり、城の石垣を整備した。', zhTw: '山崎家盛 — 關原後成為若櫻藩主，整備了城的石垣。', en: 'Yamazaki Iemori — became lord of Wakasa after Sekigahara and developed the castle\'s stone walls.' },
@@ -5728,7 +6599,7 @@ export const castles = [
   // ── 続100名城 #145-150 中国 ──
   {
     id: 'yonago',
-    number: 145,
+    number: 169,
     regionId: 'chugoku',
     name: { ja: '米子城', zhTw: '米子城', en: 'Yonago Castle' },
     city: { ja: '米子市', zhTw: '米子市', en: 'Yonago' },
@@ -5739,9 +6610,28 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c0392b', crest: '#8A8A78' },
     history: [
-      { ja: '1591年、吉川広家が湊山に築城を開始。山陰道の要衝として整備された。', zhTw: '1591年吉川廣家開始在湊山築城。作為山陰道的要衝整備。', en: 'In 1591, Kikkawa Hiroie began building on Minatoyama, developing it as a key point on the San\'indō road.' },
-      { ja: '関ヶ原後は中村一忠が入封し、四重天守を築いて近世城郭として完成させた。', zhTw: '關原後中村一忠入封，築建四重天守使其成為近世城郭。', en: 'After Sekigahara, Nakamura Kazutada took over, built a four-story keep, and completed its early-modern form.' },
-      { ja: '中村氏断絶後は加藤氏、池田氏と城主が替わり、鳥取藩の支城として幕末まで存続。', zhTw: '中村氏斷絕後歷經加藤氏、池田氏更替城主，作為鳥取藩支城存續至幕末。', en: 'After the Nakamura died out, the Katō and Ikeda followed; it survived as a Tottori domain branch castle.' },
+      {
+        year: 1591,
+        event: {
+          ja: '吉川広家が湊山に築城を開始。山陰道の要衝として整備された。',
+          zhTw: '吉川廣家開始在湊山築城。作為山陰道的要衝整備。',
+          en: 'Kikkawa Hiroie began building on Minatoyama, developing it as a key point on the San\'indō road.',
+        },
+      },
+      {
+        year: 1601, event: {
+          ja: '関ヶ原後は中村一忠が入封し、四重天守を築いて近世城郭として完成させた。',
+          zhTw: '關原後中村一忠入封，築建四重天守使其成為近世城郭。',
+          en: 'After Sekigahara, Nakamura Kazutada took over, built a four-story keep, and completed its early-modern form.',
+        },
+      },
+      {
+        year: 1610, event: {
+          ja: '中村氏断絶後は加藤氏、池田氏と城主が替わり、鳥取藩の支城として幕末まで存続。',
+          zhTw: '中村氏斷絕後歷經加藤氏、池田氏更替城主，作為鳥取藩支城存續至幕末。',
+          en: 'After the Nakamura died out, the Katō and Ikeda followed; it survived as a Tottori domain branch castle.',
+        },
+      },
     ],
     figures: [
       { ja: '吉川広家 — 毛利元就の孫。関ヶ原で毛利本軍を動かさず、毛利家存続の恩人となった。', zhTw: '吉川廣家 — 毛利元就之孫。關原之戰中使毛利本軍不動，成為毛利家存續的恩人。', en: 'Kikkawa Hiroie — Mōri Motonari\'s grandson who kept the Mōri main army from fighting at Sekigahara, saving the clan.' },
@@ -5761,7 +6651,7 @@ export const castles = [
   },
   {
     id: 'hamada',
-    number: 146,
+    number: 170,
     regionId: 'chugoku',
     name: { ja: '浜田城', zhTw: '濱田城', en: 'Hamada Castle' },
     city: { ja: '浜田市', zhTw: '濱田市', en: 'Hamada' },
@@ -5772,9 +6662,29 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8878', roofColor: '#5A5848' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#c44', crest: '#8A8878' },
     history: [
-      { ja: '1620年、古田重治が日本海に面する丘陵に築城。石見国の統治拠点となった。', zhTw: '1620年古田重治在面向日本海的丘陵築城。成為石見國的統治據點。', en: 'Built in 1620 by Furuta Shigeharu on a hill facing the Sea of Japan, serving as the seat of Iwami province.' },
-      { ja: '松平周防守家が藩主を長く務め、竹島（現・鬱陵島）渡海問題にも関わった。', zhTw: '松平周防守家長期擔任藩主，也涉及竹島（現鬱陵島）渡海問題。', en: 'The Matsudaira Suō-no-kami governed for many years, involved in the Takeshima (Ulleungdo) maritime dispute.' },
-      { ja: '1866年、長州征伐（第二次）で長州藩に攻められ、藩主は城に火を放ち退却した。', zhTw: '1866年第二次長州征伐中被長州藩進攻，藩主放火燒城退卻。', en: 'In 1866, during the Second Chōshū Expedition, the lord set fire to the castle and retreated under Chōshū attack.' },
+      {
+        year: 1620,
+        event: {
+          ja: '古田重治が日本海に面する丘陵に築城。石見国の統治拠点となった。',
+          zhTw: '古田重治在面向日本海的丘陵築城。成為石見國的統治據點。',
+          en: 'Built by Furuta Shigeharu on a hill facing the Sea of Japan, serving as the seat of Iwami province.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '松平周防守家が藩主を長く務め、竹島（現・鬱陵島）渡海問題にも関わった。',
+          zhTw: '松平周防守家長期擔任藩主，也涉及竹島（現鬱陵島）渡海問題。',
+          en: 'The Matsudaira Suō-no-kami governed for many years, involved in the Takeshima (Ulleungdo) maritime dispute.',
+        },
+      },
+      {
+        year: 1866,
+        event: {
+          ja: '長州征伐（第二次）で長州藩に攻められ、藩主は城に火を放ち退却した。',
+          zhTw: '第二次長州征伐中被長州藩進攻，藩主放火燒城退卻。',
+          en: 'During the Second Chōshū Expedition, the lord set fire to the castle and retreated under Chōshū attack.',
+        },
+      },
     ],
     figures: [
       { ja: '古田重治 — 浜田藩初代藩主。日本海交易の要衝に城を築き、浜田の基礎を作った。', zhTw: '古田重治 — 濱田藩初代藩主。在日本海交易要衝築城，奠定濱田的基礎。', en: 'Furuta Shigeharu — first lord, who built the castle at a key Sea of Japan trading point and founded Hamada.' },
@@ -5794,7 +6704,7 @@ export const castles = [
   },
   {
     id: 'bitchu-takamatsu',
-    number: 147,
+    number: 171,
     regionId: 'chugoku',
     name: { ja: '備中高松城', zhTw: '備中高松城', en: 'Bitchū-Takamatsu Castle' },
     city: { ja: '岡山市', zhTw: '岡山市', en: 'Okayama' },
@@ -5802,13 +6712,39 @@ export const castles = [
     type: 'hirajiro',
     designation: '国指定史跡',
     position: { x: 42, y: 68 },
-    illustration: { style: 'ruins', tiers: 1, color: '#7A8A6A', roofColor: '#4A5A3A' },
-    goshuin: { bg: '#f0f5e8', ink: '#3a4a2a', seal: '#8b0000', crest: '#7A8A6A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8A8878', roofColor: '#5A5848' },
+    goshuin: { bg: '#f0f5e8', ink: '#3a4a2a', seal: '#8b0000', crest: '#8A8878' },
     history: [
-      { ja: '戦国時代、三村氏の家臣・石川氏が築いた沼城（低湿地の城）。毛利氏の東方防衛拠点となった。', zhTw: '戰國時代三村氏家臣石川氏築建的沼城（低濕地之城）。成為毛利氏的東方防衛據點。', en: 'A marshland castle built by the Ishikawa (retainers of the Mimura); it became Mōri\'s eastern defense point.' },
-      { ja: '1582年、羽柴秀吉が水攻めで攻略。日本三大水攻めの一つとして名高い。', zhTw: '1582年羽柴秀吉以水攻攻下。以日本三大水攻之一聞名。', en: 'In 1582, Hashiba Hideyoshi conquered it by flooding — one of Japan\'s three great water sieges.' },
-      { ja: '秀吉は足守川の水を堰き止め、城を完全に水没させる大規模な土木作戦を敢行した。', zhTw: '秀吉攔截足守川之水，執行使城完全淹沒的大規模土木作戰。', en: 'Hideyoshi dammed the Ashimori River, executing a massive engineering operation to completely submerge the castle.' },
-      { ja: '水攻め最中に本能寺の変の報が届き、秀吉は急いで和睦を結び「中国大返し」で京へ向かった。', zhTw: '水攻期間傳來本能寺之變的消息，秀吉急忙議和後以「中國大返回」趕往京都。', en: 'News of Honnō-ji arrived mid-siege; Hideyoshi hastily made peace and launched his famous "Great Return" march to Kyoto.' },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '三村氏の家臣・石川氏が築いた沼城（低湿地の城）。毛利氏の東方防衛拠点となった。',
+          zhTw: '三村氏家臣石川氏築建的沼城（低濕地之城）。成為毛利氏的東方防衛據點。',
+          en: 'A marshland castle built by the Ishikawa (retainers of the Mimura); it became Mōri\'s eastern defense point.',
+        },
+      },
+      {
+        year: 1582,
+        event: {
+          ja: '羽柴秀吉が水攻めで攻略。日本三大水攻めの一つとして名高い。',
+          zhTw: '羽柴秀吉以水攻攻下。以日本三大水攻之一聞名。',
+          en: 'Hashiba Hideyoshi conquered it by flooding — one of Japan\'s three great water sieges.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '秀吉は足守川の水を堰き止め、城を完全に水没させる大規模な土木作戦を敢行した。',
+          zhTw: '秀吉攔截足守川之水，執行使城完全淹沒的大規模土木作戰。',
+          en: 'Hideyoshi dammed the Ashimori River, executing a massive engineering operation to completely submerge the castle.',
+        },
+      },
+      {
+        year: 1582, event: {
+          ja: '水攻め最中に本能寺の変の報が届き、秀吉は急いで和睦を結び「中国大返し」で京へ向かった。',
+          zhTw: '水攻期間傳來本能寺之變的消息，秀吉急忙議和後以「中國大返回」趕往京都。',
+          en: 'News of Honnō-ji arrived mid-siege; Hideyoshi hastily made peace and launched his famous "Great Return" march to Kyoto.',
+        },
+      },
     ],
     figures: [
       { ja: '清水宗治 — 城主として最後まで籠城し、秀吉の水攻めに屈した後、城兵の助命と引き換えに切腹した義将。', zhTw: '清水宗治 — 作為城主堅守至最後，屈服於秀吉水攻後，以城兵助命為交換而切腹的義將。', en: 'Shimizu Muneharu — held the castle to the end; after yielding to the flood, he took his life to save his garrison.' },
@@ -5832,7 +6768,7 @@ export const castles = [
   },
   {
     id: 'mihara',
-    number: 148,
+    number: 172,
     regionId: 'chugoku',
     name: { ja: '三原城', zhTw: '三原城', en: 'Mihara Castle' },
     city: { ja: '三原市', zhTw: '三原市', en: 'Mihara' },
@@ -5843,9 +6779,28 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8B8B78', roofColor: '#5B5B48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c44', crest: '#8B8B78' },
     history: [
-      { ja: '1567年、小早川隆景が瀬戸内海に面して築城。毛利水軍の重要拠点となった。', zhTw: '1567年小早川隆景在面向瀨戶內海處築城。成為毛利水軍的重要據點。', en: 'Built in 1567 by Kobayakawa Takakage facing the Seto Inland Sea, it became a vital Mōri naval base.' },
-      { ja: '小早川隆景は毛利元就の三男で、「三本の矢」の一人として毛利家を支えた知将。', zhTw: '小早川隆景是毛利元就的三男，作為「三支箭」之一支持毛利家的智將。', en: 'Takakage, Mōri Motonari\'s third son, was one of the "Three Arrows" who upheld the Mōri clan — a brilliant strategist.' },
-      { ja: '関ヶ原後に福島正則の支配下に入り、広島城の支城として維持された。', zhTw: '關原後歸入福島正則支配，作為廣島城的支城維持。', en: 'After Sekigahara, it came under Fukushima Masanori and was maintained as a branch of Hiroshima Castle.' },
+      {
+        year: 1567,
+        event: {
+          ja: '小早川隆景が瀬戸内海に面して築城。毛利水軍の重要拠点となった。',
+          zhTw: '小早川隆景在面向瀨戶內海處築城。成為毛利水軍的重要據點。',
+          en: 'Built by Kobayakawa Takakage facing the Seto Inland Sea, it became a vital Mōri naval base.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '小早川隆景は毛利元就の三男で、「三本の矢」の一人として毛利家を支えた知将。',
+          zhTw: '小早川隆景是毛利元就的三男，作為「三支箭」之一支持毛利家的智將。',
+          en: 'Takakage, Mōri Motonari\'s third son, was one of the "Three Arrows" who upheld the Mōri clan — a brilliant strategist.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '関ヶ原後に福島正則の支配下に入り、広島城の支城として維持された。',
+          zhTw: '關原後歸入福島正則支配，作為廣島城的支城維持。',
+          en: 'After Sekigahara, it came under Fukushima Masanori and was maintained as a branch of Hiroshima Castle.',
+        },
+      },
     ],
     figures: [
       { ja: '小早川隆景 — 毛利元就の三男。知略に優れ、瀬戸内海の水軍を統率した名将。', zhTw: '小早川隆景 — 毛利元就三男。智略優秀，統率瀨戶內海水軍的名將。', en: 'Kobayakawa Takakage — Motonari\'s third son, an acclaimed commander who led the Inland Sea naval forces.' },
@@ -5865,7 +6820,7 @@ export const castles = [
   },
   {
     id: 'niitakayama',
-    number: 149,
+    number: 173,
     regionId: 'chugoku',
     name: { ja: '新高山城', zhTw: '新高山城', en: 'Niitakayama Castle' },
     city: { ja: '三原市', zhTw: '三原市', en: 'Mihara' },
@@ -5876,9 +6831,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e8', ink: '#3a4a2a', seal: '#a52a2a', crest: '#6A7A5A' },
     history: [
-      { ja: '1552年、小早川隆景が高山城から本拠を移して築いた山城。三原城築城前の居城。', zhTw: '1552年小早川隆景從高山城遷移本據而築建的山城。三原城築城前的居城。', en: 'Built in 1552 when Kobayakawa Takakage relocated from Takayama Castle — his seat before building Mihara.' },
-      { ja: '沼田川を天然の堀とし、対岸の高山城と向かい合う位置に築かれた。', zhTw: '以沼田川為天然壕溝，築建在與對岸高山城面對面的位置。', en: 'Using the Nuta River as a natural moat, it was built facing Takayama Castle across the water.' },
-      { ja: '隆景が三原城に移った後に廃城となり、石垣や建材の多くは三原城に転用された。', zhTw: '隆景遷至三原城後廢城，石垣和建材多數被轉用至三原城。', en: 'Abandoned when Takakage moved to Mihara; much of its stone and materials were reused at the new castle.' },
+      {
+        year: 1552,
+        event: {
+          ja: '小早川隆景が高山城から本拠を移して築いた山城。三原城築城前の居城。',
+          zhTw: '小早川隆景從高山城遷移本據而築建的山城。三原城築城前的居城。',
+          en: 'When Kobayakawa Takakage relocated from Takayama Castle — his seat before building Mihara.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '沼田川を天然の堀とし、対岸の高山城と向かい合う位置に築かれた。',
+          zhTw: '以沼田川為天然壕溝，築建在與對岸高山城面對面的位置。',
+          en: 'Using the Nuta River as a natural moat, it was built facing Takayama Castle across the water.',
+        },
+      },
+      {
+        year: 1596, event: {
+          ja: '隆景が三原城に移った後に廃城となり、石垣や建材の多くは三原城に転用された。',
+          zhTw: '隆景遷至三原城後廢城，石垣和建材多數被轉用至三原城。',
+          en: 'Abandoned when Takakage moved to Mihara; much of its stone and materials were reused at the new castle.',
+        },
+      },
     ],
     figures: [
       { ja: '小早川隆景 — 新高山城で約15年を過ごし、毛利家の瀬戸内海支配を確立した。', zhTw: '小早川隆景 — 在新高山城度過約15年，確立了毛利家的瀨戶內海支配。', en: 'Kobayakawa Takakage — spent about 15 years at Niitakayama, establishing Mōri control over the Inland Sea.' },
@@ -5898,7 +6872,7 @@ export const castles = [
   },
   {
     id: 'ouchi-takamine',
-    number: 150,
+    number: 174,
     regionId: 'chugoku',
     name: { ja: '大内氏館・高嶺城', zhTw: '大內氏館・高嶺城', en: 'Ōuchi Residence & Takamine Castle' },
     city: { ja: '山口市', zhTw: '山口市', en: 'Yamaguchi' },
@@ -5909,10 +6883,35 @@ export const castles = [
     illustration: { style: 'mansion', tiers: 1, color: '#8B7B5B', roofColor: '#4A3B2B' },
     goshuin: { bg: '#f5efe5', ink: '#4a3b2b', seal: '#c44', crest: '#8B7B5B' },
     history: [
-      { ja: '大内氏は周防・長門の守護大名で、室町時代に山口を「西の京」として繁栄させた。', zhTw: '大內氏是周防、長門的守護大名，室町時代將山口繁榮為「西之京」。', en: 'The Ōuchi, shugo of Suō and Nagato, made Yamaguchi flourish as "the Kyoto of the West" in the Muromachi period.' },
-      { ja: '大内義隆の時代にはザビエルを迎えてキリスト教布教を許可するなど、国際的な文化が花開いた。', zhTw: '大內義隆時代迎接沙勿略並許可基督教傳教等，國際文化蓬勃發展。', en: 'Under Ōuchi Yoshitaka, Francis Xavier was welcomed and Christianity permitted — international culture blossomed.' },
-      { ja: '1551年、家臣の陶晴賢が謀反（大寧寺の変）。義隆は自刃し、大内氏は事実上滅亡した。', zhTw: '1551年家臣陶晴賢謀反（大寧寺之變）。義隆自刃，大內氏事實上滅亡。', en: 'In 1551, retainer Sue Harukata rebelled (the Daineiji Incident); Yoshitaka took his life, effectively ending the Ōuchi.' },
-      { ja: '高嶺城は大内氏最後の当主・義長が詰城として築いたが、毛利氏に攻められ落城した。', zhTw: '高嶺城是大內氏最後當主義長作為詰城築建，但被毛利氏進攻而落城。', en: 'Takamine Castle was built as a refuge by the last Ōuchi lord Yoshinaga, but fell to the Mōri.' },
+      {
+        year: '室町時代', event: {
+          ja: '大内氏は周防・長門の守護大名で、室町時代に山口を「西の京」として繁栄させた。',
+          zhTw: '大內氏是周防、長門的守護大名，室町時代將山口繁榮為「西之京」。',
+          en: 'The Ōuchi, shugo of Suō and Nagato, made Yamaguchi flourish as "the Kyoto of the West" in the Muromachi period.',
+        },
+      },
+      {
+        year: 1551, event: {
+          ja: '大内義隆の時代にはザビエルを迎えてキリスト教布教を許可するなど、国際的な文化が花開いた。',
+          zhTw: '大內義隆時代迎接沙勿略並許可基督教傳教等，國際文化蓬勃發展。',
+          en: 'Under Ōuchi Yoshitaka, Francis Xavier was welcomed and Christianity permitted — international culture blossomed.',
+        },
+      },
+      {
+        year: 1551,
+        event: {
+          ja: '家臣の陶晴賢が謀反（大寧寺の変）。義隆は自刃し、大内氏は事実上滅亡した。',
+          zhTw: '家臣陶晴賢謀反（大寧寺之變）。義隆自刃，大內氏事實上滅亡。',
+          en: 'Retainer Sue Harukata rebelled (the Daineiji Incident); Yoshitaka took his life, effectively ending the Ōuchi.',
+        },
+      },
+      {
+        year: 1557, event: {
+          ja: '高嶺城は大内氏最後の当主・義長が詰城として築いたが、毛利氏に攻められ落城した。',
+          zhTw: '高嶺城是大內氏最後當主義長作為詰城築建，但被毛利氏進攻而落城。',
+          en: 'Takamine Castle was built as a refuge by the last Ōuchi lord Yoshinaga, but fell to the Mōri.',
+        },
+      },
     ],
     figures: [
       { ja: '大内義隆 — 学問と芸術を愛した文化人大名。しかし政治を疎かにし謀反を招いた。', zhTw: '大內義隆 — 熱愛學問與藝術的文化人大名。但疏忽政治招致謀反。', en: 'Ōuchi Yoshitaka — a cultured lord who loved learning and art, but neglected politics and invited rebellion.' },
@@ -5936,7 +6935,7 @@ export const castles = [
   // ── 続100名城 #151-156 四国 ──
   {
     id: 'shozui',
-    number: 151,
+    number: 175,
     regionId: 'shikoku',
     name: { ja: '勝瑞城', zhTw: '勝瑞城', en: 'Shōzui Castle' },
     city: { ja: '藍住町', zhTw: '藍住町', en: 'Aizumi' },
@@ -5947,9 +6946,29 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c0392b', crest: '#8A8A78' },
     history: [
-      { ja: '室町時代、阿波国守護・細川氏の居城として約240年間阿波の政治中心であった。', zhTw: '室町時代作為阿波國守護細川氏的居城，約240年間為阿波的政治中心。', en: 'For about 240 years in the Muromachi period, this was the seat of the Hosokawa, shugo of Awa, and Awa\'s political center.' },
-      { ja: '三好氏が細川氏に代わって実権を握り、三好長慶はここから畿内に進出して天下人となった。', zhTw: '三好氏取代細川氏掌握實權，三好長慶從此進出畿內成為天下人。', en: 'The Miyoshi supplanted the Hosokawa; Miyoshi Nagayoshi launched his rise to national power from here.' },
-      { ja: '1582年、長宗我部元親の阿波侵攻により落城。勝瑞城の歴史は終わりを迎えた。', zhTw: '1582年長宗我部元親侵攻阿波導致落城。勝瑞城的歷史畫下句點。', en: 'In 1582, Chōsokabe Motochika\'s Awa invasion brought about its fall, ending Shōzui\'s long history.' },
+      {
+        year: '室町時代',
+        event: {
+          ja: '阿波国守護・細川氏の居城として約240年間阿波の政治中心であった。',
+          zhTw: '作為阿波國守護細川氏的居城，約240年間為阿波的政治中心。',
+          en: 'For about 240 years in the Muromachi period, this was the seat of the Hosokawa, shugo of Awa, and Awa\'s political center.',
+        },
+      },
+      {
+        year: 1532, event: {
+          ja: '三好氏が細川氏に代わって実権を握り、三好長慶はここから畿内に進出して天下人となった。',
+          zhTw: '三好氏取代細川氏掌握實權，三好長慶從此進出畿內成為天下人。',
+          en: 'The Miyoshi supplanted the Hosokawa; Miyoshi Nagayoshi launched his rise to national power from here.',
+        },
+      },
+      {
+        year: 1582,
+        event: {
+          ja: '長宗我部元親の阿波侵攻により落城。勝瑞城の歴史は終わりを迎えた。',
+          zhTw: '長宗我部元親侵攻阿波導致落城。勝瑞城的歷史畫下句點。',
+          en: 'Chōsokabe Motochika\'s Awa invasion brought about its fall, ending Shōzui\'s long history.',
+        },
+      },
     ],
     figures: [
       { ja: '三好長慶 — 勝瑞城を拠点に畿内に進出し、室町幕府を凌駕する権力を握った天下人。', zhTw: '三好長慶 — 以勝瑞城為據點進出畿內，掌握凌駕室町幕府權力的天下人。', en: 'Miyoshi Nagayoshi — based at Shōzui, he advanced into the Kinai and seized power surpassing the Muromachi Shōgunate.' },
@@ -5969,7 +6988,7 @@ export const castles = [
   },
   {
     id: 'ichinomiya-awa',
-    number: 152,
+    number: 176,
     regionId: 'shikoku',
     name: { ja: '一宮城', zhTw: '一宮城', en: 'Ichinomiya Castle' },
     city: { ja: '徳島市', zhTw: '德島市', en: 'Tokushima' },
@@ -5980,10 +6999,37 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e8', ink: '#3a4a2a', seal: '#8b0000', crest: '#6A7A5A' },
     history: [
-      { ja: '1338年、小笠原長宗が南北朝の争乱の中で築城。阿波最大の山城となった。', zhTw: '1338年小笠原長宗在南北朝之亂中築城。成為阿波最大的山城。', en: 'Built in 1338 by Ogasawara Nagamune amid the Nanboku-chō wars; it became Awa\'s largest mountain castle.' },
-      { ja: '戦国時代は三好氏の支配下に入り、阿波国の重要な軍事拠点であった。', zhTw: '戰國時代歸入三好氏支配，是阿波國的重要軍事據點。', en: 'Under Miyoshi control in the Sengoku period, it served as a key military stronghold of Awa.' },
-      { ja: '1582年、長宗我部元親の侵攻に対し一宮成助が籠城するも、最終的に降伏した。', zhTw: '1582年面對長宗我部元親的侵攻，一宮成助籠城但最終投降。', en: 'In 1582, Ichinomiya Narisuke held out against Chōsokabe Motochika\'s invasion but eventually surrendered.' },
-      { ja: '蜂須賀家政の阿波入国後に阿波の拠点は徳島城に移り、一宮城は廃城となった。', zhTw: '蜂須賀家政入國阿波後據點移至德島城，一宮城廢城。', en: 'When Hachisuka Iemasa entered Awa, the base shifted to Tokushima Castle and Ichinomiya was abandoned.' },
+      {
+        year: 1338,
+        event: {
+          ja: '小笠原長宗が南北朝の争乱の中で築城。阿波最大の山城となった。',
+          zhTw: '小笠原長宗在南北朝之亂中築城。成為阿波最大的山城。',
+          en: 'Built by Ogasawara Nagamune amid the Nanboku-chō wars; it became Awa\'s largest mountain castle.',
+        },
+      },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '三好氏の支配下に入り、阿波国の重要な軍事拠点であった。',
+          zhTw: '歸入三好氏支配，是阿波國的重要軍事據點。',
+          en: 'Under Miyoshi control in the Sengoku period, it served as a key military stronghold of Awa.',
+        },
+      },
+      {
+        year: 1582,
+        event: {
+          ja: '長宗我部元親の侵攻に対し一宮成助が籠城するも、最終的に降伏した。',
+          zhTw: '面對長宗我部元親的侵攻，一宮成助籠城但最終投降。',
+          en: 'Ichinomiya Narisuke held out against Chōsokabe Motochika\'s invasion but eventually surrendered.',
+        },
+      },
+      {
+        year: 1585, event: {
+          ja: '蜂須賀家政の阿波入国後に阿波の拠点は徳島城に移り、一宮城は廃城となった。',
+          zhTw: '蜂須賀家政入國阿波後據點移至德島城，一宮城廢城。',
+          en: 'When Hachisuka Iemasa entered Awa, the base shifted to Tokushima Castle and Ichinomiya was abandoned.',
+        },
+      },
     ],
     figures: [
       { ja: '一宮成助 — 一宮城最後の城主。長宗我部軍に対し籠城戦を繰り広げた。', zhTw: '一宮成助 — 一宮城最後的城主。與長宗我部軍展開籠城戰。', en: 'Ichinomiya Narisuke — the castle\'s last lord, who waged a siege defense against the Chōsokabe forces.' },
@@ -6003,7 +7049,7 @@ export const castles = [
   },
   {
     id: 'hiketa',
-    number: 153,
+    number: 177,
     regionId: 'shikoku',
     name: { ja: '引田城', zhTw: '引田城', en: 'Hiketa Castle' },
     city: { ja: '東かがわ市', zhTw: '東香川市', en: 'Higashi-Kagawa' },
@@ -6014,9 +7060,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A8A6A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e6', ink: '#3a4a2a', seal: '#a52a2a', crest: '#7A8A6A' },
     history: [
-      { ja: '引田は阿波から讃岐への入口に位置し、古くから軍事的に重要な拠点であった。', zhTw: '引田位於從阿波進入讚岐的入口，自古便是軍事上重要的據點。', en: 'Hiketa sits at the gateway from Awa to Sanuki, a militarily important position since ancient times.' },
-      { ja: '1583年、羽柴秀吉と長宗我部元親が引田で激突（引田の戦い）。秀吉方の仙石秀久が敗北。', zhTw: '1583年羽柴秀吉與長宗我部元親在引田激戰（引田之戰）。秀吉方的仙石秀久敗北。', en: 'In 1583, Hideyoshi and Chōsokabe clashed here (Battle of Hiketa); Hideyoshi\'s man Sengoku Hidehisa was defeated.' },
-      { ja: '讃岐が生駒氏の領地となった後に近世城郭に改修されたが、一国一城令で廃城となった。', zhTw: '讚岐成為生駒氏領地後改建為近世城郭，但因一國一城令而廢城。', en: 'After Sanuki came under the Ikoma, it was modernized but abandoned under the one-castle edict.' },
+      {
+        year: '戦国時代', event: {
+          ja: '引田は阿波から讃岐への入口に位置し、古くから軍事的に重要な拠点であった。',
+          zhTw: '引田位於從阿波進入讚岐的入口，自古便是軍事上重要的據點。',
+          en: 'Hiketa sits at the gateway from Awa to Sanuki, a militarily important position since ancient times.',
+        },
+      },
+      {
+        year: 1583,
+        event: {
+          ja: '羽柴秀吉と長宗我部元親が引田で激突（引田の戦い）。秀吉方の仙石秀久が敗北。',
+          zhTw: '羽柴秀吉與長宗我部元親在引田激戰（引田之戰）。秀吉方的仙石秀久敗北。',
+          en: 'Hideyoshi and Chōsokabe clashed here (Battle of Hiketa); Hideyoshi\'s man Sengoku Hidehisa was defeated.',
+        },
+      },
+      {
+        year: 1615, event: {
+          ja: '讃岐が生駒氏の領地となった後に近世城郭に改修されたが、一国一城令で廃城となった。',
+          zhTw: '讚岐成為生駒氏領地後改建為近世城郭，但因一國一城令而廢城。',
+          en: 'After Sanuki came under the Ikoma, it was modernized but abandoned under the one-castle edict.',
+        },
+      },
     ],
     figures: [
       { ja: '仙石秀久 — 秀吉の四国攻め先鋒。引田の戦いで長宗我部軍に大敗した。', zhTw: '仙石秀久 — 秀吉四國攻略先鋒。引田之戰中慘敗於長宗我部軍。', en: 'Sengoku Hidehisa — Hideyoshi\'s Shikoku vanguard, badly defeated by the Chōsokabe at Hiketa.' },
@@ -6036,7 +7101,7 @@ export const castles = [
   },
   {
     id: 'noshima',
-    number: 154,
+    number: 178,
     regionId: 'shikoku',
     name: { ja: '能島城', zhTw: '能島城', en: 'Noshima Castle' },
     city: { ja: '今治市', zhTw: '今治市', en: 'Imabari' },
@@ -6044,12 +7109,30 @@ export const castles = [
     type: 'castle-ruin',
     designation: '国指定史跡',
     position: { x: 46, y: 74 },
-    illustration: { style: 'ruins', tiers: 1, color: '#7A8A7A', roofColor: '#4A5A4A' },
-    goshuin: { bg: '#eef5ee', ink: '#2d4a2d', seal: '#c44', crest: '#7A8A7A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B897A', roofColor: '#5A5949' },
+    goshuin: { bg: '#eef5ee', ink: '#2d4a2d', seal: '#c44', crest: '#8B897A' },
     history: [
-      { ja: '瀬戸内海の能島に築かれた海城。村上海賊（村上水軍）の拠点として名高い。', zhTw: '建於瀨戶內海能島的海城。以村上海賊（村上水軍）的據點聞名。', en: 'A sea castle on Noshima Island in the Inland Sea, famed as a base of the Murakami pirates (Murakami navy).' },
-      { ja: '村上氏は因島・来島・能島の三家に分かれ、瀬戸内海の海上覇権を握った。', zhTw: '村上氏分為因島、來島、能島三家，掌握瀨戶內海的海上霸權。', en: 'The Murakami split into three branches — Innoshima, Kurushima, Noshima — commanding Inland Sea maritime supremacy.' },
-      { ja: '村上武吉は毛利氏と結び、織田信長の水軍に対抗。第一次木津川口の戦いで織田水軍を撃破した。', zhTw: '村上武吉與毛利氏聯合對抗織田信長水軍。第一次木津川口之戰擊敗織田水軍。', en: 'Murakami Takeyoshi allied with the Mōri and defeated Nobunaga\'s navy at the First Battle of Kizugawaguchi.' },
+      {
+        year: '戦国時代', event: {
+          ja: '瀬戸内海の能島に築かれた海城。村上海賊（村上水軍）の拠点として名高い。',
+          zhTw: '建於瀨戶內海能島的海城。以村上海賊（村上水軍）的據點聞名。',
+          en: 'A sea castle on Noshima Island in the Inland Sea, famed as a base of the Murakami pirates (Murakami navy).',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '村上氏は因島・来島・能島の三家に分かれ、瀬戸内海の海上覇権を握った。',
+          zhTw: '村上氏分為因島、來島、能島三家，掌握瀨戶內海的海上霸權。',
+          en: 'The Murakami split into three branches — Innoshima, Kurushima, Noshima — commanding Inland Sea maritime supremacy.',
+        },
+      },
+      {
+        year: 1576, event: {
+          ja: '村上武吉は毛利氏と結び、織田信長の水軍に対抗。第一次木津川口の戦いで織田水軍を撃破した。',
+          zhTw: '村上武吉與毛利氏聯合對抗織田信長水軍。第一次木津川口之戰擊敗織田水軍。',
+          en: 'Murakami Takeyoshi allied with the Mōri and defeated Nobunaga\'s navy at the First Battle of Kizugawaguchi.',
+        },
+      },
     ],
     figures: [
       { ja: '村上武吉 — 能島村上氏の当主。瀬戸内海最強の海賊大名として恐れられた。', zhTw: '村上武吉 — 能島村上氏當主。作為瀨戶內海最強海賊大名被恐懼。', en: 'Murakami Takeyoshi — head of the Noshima Murakami, feared as the mightiest pirate lord of the Inland Sea.' },
@@ -6070,7 +7153,7 @@ export const castles = [
   },
   {
     id: 'kagomori',
-    number: 155,
+    number: 179,
     regionId: 'shikoku',
     name: { ja: '河後森城', zhTw: '河後森城', en: 'Kagomori Castle' },
     city: { ja: '松野町', zhTw: '松野町', en: 'Matsuno' },
@@ -6081,9 +7164,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6B8B5B', roofColor: '#3B4B2B' },
     goshuin: { bg: '#eef5ee', ink: '#2d4a2d', seal: '#a52a2a', crest: '#6B8B5B' },
     history: [
-      { ja: '築城時期は不明だが、南予地方の土豪・河原渕氏が築いたと伝わる。', zhTw: '築城時期不明，據傳為南予地方土豪河原渕氏所築。', en: 'Its founding is uncertain; traditionally attributed to the Kawarabuchi, local warriors of southern Iyo.' },
-      { ja: '土佐（長宗我部氏）と伊予の勢力圏の境目に位置し、国境の城として機能した。', zhTw: '位於土佐（長宗我部氏）與伊予勢力圈的邊境，作為國境之城運作。', en: 'Situated on the border between Tosa (Chōsokabe) and Iyo, it functioned as a frontier castle.' },
-      { ja: '戦国時代末期には西園寺氏の支配下に入り、最終的に藤堂高虎に攻められ落城した。', zhTw: '戰國時代末期歸入西園寺氏支配，最終被藤堂高虎攻陷。', en: 'In the late Sengoku, it came under the Saionji, and was finally taken by Tōdō Takatora.' },
+      {
+        year: '室町時代', event: {
+          ja: '築城時期は不明だが、南予地方の土豪・河原渕氏が築いたと伝わる。',
+          zhTw: '築城時期不明，據傳為南予地方土豪河原渕氏所築。',
+          en: 'Its founding is uncertain; traditionally attributed to the Kawarabuchi, local warriors of southern Iyo.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '土佐（長宗我部氏）と伊予の勢力圏の境目に位置し、国境の城として機能した。',
+          zhTw: '位於土佐（長宗我部氏）與伊予勢力圈的邊境，作為國境之城運作。',
+          en: 'Situated on the border between Tosa (Chōsokabe) and Iyo, it functioned as a frontier castle.',
+        },
+      },
+      {
+        year: '戦国時代末期',
+        event: {
+          ja: '西園寺氏の支配下に入り、最終的に藤堂高虎に攻められ落城した。',
+          zhTw: '歸入西園寺氏支配，最終被藤堂高虎攻陷。',
+          en: 'It came under the Saionji, and was finally taken by Tōdō Takatora.',
+        },
+      },
     ],
     figures: [
       { ja: '河原渕氏 — 河後森城の築城者とされる南予の土豪。詳細は不明ながら城名に痕跡を残す。', zhTw: '河原渕氏 — 被認為是河後森城築城者的南予土豪。雖詳細不明但在城名留有痕跡。', en: 'The Kawarabuchi — reputed builders of Kagomori, southern Iyo warriors whose legacy survives in the castle\'s name.' },
@@ -6103,7 +7205,7 @@ export const castles = [
   },
   {
     id: 'oko',
-    number: 156,
+    number: 180,
     regionId: 'shikoku',
     name: { ja: '岡豊城', zhTw: '岡豐城', en: 'Okō Castle' },
     city: { ja: '南国市', zhTw: '南國市', en: 'Nankoku' },
@@ -6114,9 +7216,27 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#5A7A4A', roofColor: '#2A4A2A' },
     goshuin: { bg: '#eef5ee', ink: '#2a4a2a', seal: '#8b0000', crest: '#5A7A4A' },
     history: [
-      { ja: '長宗我部氏の本城として約200年間使用された土佐の名城。', zhTw: '作為長宗我部氏本城約200年間使用的土佐名城。', en: 'The Chōsokabe clan\'s main castle for about 200 years — a celebrated fortress of Tosa.' },
-      { ja: '長宗我部国親が岡豊城を拠点に土佐統一を開始し、元親の代で四国統一を目前とした。', zhTw: '長宗我部國親以岡豐城為據點開始土佐統一，元親時代四國統一在即。', en: 'Chōsokabe Kunichika launched the unification of Tosa from here; his son Motochika nearly unified all Shikoku.' },
-      { ja: '元親が大高坂城（後の高知城）に移った後に廃城となった。', zhTw: '元親遷至大高坂城（後來的高知城）後廢城。', en: 'Abandoned after Motochika moved to Ōtakasakayama Castle (later Kōchi Castle).' },
+      {
+        year: '戦国時代', event: {
+          ja: '長宗我部氏の本城として約200年間使用された土佐の名城。',
+          zhTw: '作為長宗我部氏本城約200年間使用的土佐名城。',
+          en: 'The Chōsokabe clan\'s main castle for about 200 years — a celebrated fortress of Tosa.',
+        },
+      },
+      {
+        year: 1560, event: {
+          ja: '長宗我部国親が岡豊城を拠点に土佐統一を開始し、元親の代で四国統一を目前とした。',
+          zhTw: '長宗我部國親以岡豐城為據點開始土佐統一，元親時代四國統一在即。',
+          en: 'Chōsokabe Kunichika launched the unification of Tosa from here; his son Motochika nearly unified all Shikoku.',
+        },
+      },
+      {
+        year: 1588, event: {
+          ja: '元親が大高坂城（後の高知城）に移った後に廃城となった。',
+          zhTw: '元親遷至大高坂城（後來的高知城）後廢城。',
+          en: 'Abandoned after Motochika moved to Ōtakasakayama Castle (later Kōchi Castle).',
+        },
+      },
     ],
     figures: [
       { ja: '長宗我部元親 — 「姫若子」と呼ばれた少年時代から一転、四国統一を目指した土佐の英雄。', zhTw: '長宗我部元親 — 從被稱為「姬若子」的少年時代一轉，目標四國統一的土佐英雄。', en: 'Chōsokabe Motochika — mocked as "the princess boy" in youth, he became Tosa\'s hero who nearly conquered all Shikoku.' },
@@ -6140,7 +7260,7 @@ export const castles = [
   // ── 続100名城 #157-164 九州 ──
   {
     id: 'kokura',
-    number: 157,
+    number: 181,
     regionId: 'kyushu',
     name: { ja: '小倉城', zhTw: '小倉城', en: 'Kokura Castle' },
     city: { ja: '北九州市', zhTw: '北九州市', en: 'Kitakyūshū' },
@@ -6151,10 +7271,36 @@ export const castles = [
     illustration: { style: 'classic', tiers: 4, color: '#F5F5F5', roofColor: '#2C3E50' },
     goshuin: { bg: '#f5f5f5', ink: '#2c3e50', seal: '#c0392b', crest: '#2C3E50' },
     history: [
-      { ja: '1602年、細川忠興が関ヶ原の功績で入封し、本格的な近世城郭として築城。', zhTw: '1602年細川忠興因關原功績入封，築建正式的近世城郭。', en: 'In 1602, Hosokawa Tadaoki, rewarded for Sekigahara, built Kokura as a full-scale early-modern castle.' },
-      { ja: '細川氏の後は小笠原氏が入封し、小笠原氏が幕末まで15万石の城主を務めた。', zhTw: '細川氏之後小笠原氏入封，小笠原氏作為15萬石城主至幕末。', en: 'After the Hosokawa, the Ogasawara took over, governing 150,000 koku until the Bakumatsu.' },
-      { ja: '1866年、長州征伐（第二次）で長州藩に攻められ、小倉藩は自ら城を焼いて退却した。', zhTw: '1866年第二次長州征伐中被長州藩進攻，小倉藩自行燒城退卻。', en: 'In 1866, during the Second Chōshū Expedition, Kokura domain burned the castle and retreated.' },
-      { ja: '宮本武蔵が細川忠興に招かれ小倉で過ごした時期があり、巌流島の決闘はこの地から出発した。', zhTw: '宮本武藏受細川忠興之邀在小倉度過一段時期，嚴流島決鬥從此地出發。', en: 'Miyamoto Musashi was hosted by Tadaoki in Kokura; he departed from here for the legendary duel at Ganryū-jima.' },
+      {
+        year: 1602,
+        event: {
+          ja: '細川忠興が関ヶ原の功績で入封し、本格的な近世城郭として築城。',
+          zhTw: '細川忠興因關原功績入封，築建正式的近世城郭。',
+          en: 'Hosokawa Tadaoki, rewarded for Sekigahara, built Kokura as a full-scale early-modern castle.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '細川氏の後は小笠原氏が入封し、小笠原氏が幕末まで15万石の城主を務めた。',
+          zhTw: '細川氏之後小笠原氏入封，小笠原氏作為15萬石城主至幕末。',
+          en: 'After the Hosokawa, the Ogasawara took over, governing 150,000 koku until the Bakumatsu.',
+        },
+      },
+      {
+        year: 1866,
+        event: {
+          ja: '長州征伐（第二次）で長州藩に攻められ、小倉藩は自ら城を焼いて退却した。',
+          zhTw: '第二次長州征伐中被長州藩進攻，小倉藩自行燒城退卻。',
+          en: 'During the Second Chōshū Expedition, Kokura domain burned the castle and retreated.',
+        },
+      },
+      {
+        year: 1612, event: {
+          ja: '宮本武蔵が細川忠興に招かれ小倉で過ごした時期があり、巌流島の決闘はこの地から出発した。',
+          zhTw: '宮本武藏受細川忠興之邀在小倉度過一段時期，嚴流島決鬥從此地出發。',
+          en: 'Miyamoto Musashi was hosted by Tadaoki in Kokura; he departed from here for the legendary duel at Ganryū-jima.',
+        },
+      },
     ],
     figures: [
       { ja: '細川忠興 — 文武両道の名将。茶道にも通じ、妻・ガラシャとの悲劇的な物語でも知られる。', zhTw: '細川忠興 — 文武雙全的名將。精通茶道，也以妻子加拉莎的悲劇故事聞名。', en: 'Hosokawa Tadaoki — a lord of culture and war, famed in tea ceremony and for his tragic story with wife Gracia.' },
@@ -6174,7 +7320,7 @@ export const castles = [
   },
   {
     id: 'mizuki',
-    number: 158,
+    number: 182,
     regionId: 'kyushu',
     name: { ja: '水城', zhTw: '水城', en: 'Mizuki' },
     city: { ja: '太宰府市', zhTw: '太宰府市', en: 'Dazaifu' },
@@ -6185,9 +7331,27 @@ export const castles = [
     illustration: { style: 'ancient', tiers: 1, color: '#8B7B5B', roofColor: '#5B4B3B' },
     goshuin: { bg: '#f5efe5', ink: '#4a3b2b', seal: '#c44', crest: '#8B7B5B' },
     history: [
-      { ja: '664年、白村江の戦いで唐・新羅連合軍に敗れた大和朝廷が、大宰府防衛のために築いた大土塁。', zhTw: '664年白村江之戰敗給唐、新羅聯軍的大和朝廷，為防衛大宰府而築建的大土壘。', en: 'In 664, after defeat at the Battle of Baekgang, the Yamato court built this massive earthwork to defend Dazaifu.' },
-      { ja: '全長約1.2km、高さ約14m、基底部幅約80mという古代日本最大級の防衛施設。', zhTw: '全長約1.2公里、高約14公尺、基底部寬約80公尺的古代日本最大級防禦設施。', en: 'About 1.2 km long, 14 m high, and 80 m wide at the base — one of ancient Japan\'s largest defense works.' },
-      { ja: '唐・新羅の日本本土侵攻に備えた国家的防衛事業の一環として、大野城・基肄城と連携した。', zhTw: '作為防備唐、新羅入侵日本本土的國家防衛事業一環，與大野城、基肄城聯動。', en: 'Part of a national defense project against possible Tang-Silla invasion, coordinating with Ōno and Kii castles.' },
+      {
+        year: 664, event: {
+          ja: '664年、白村江の戦いで唐・新羅連合軍に敗れた大和朝廷が、大宰府防衛のために築いた大土塁。',
+          zhTw: '664年白村江之戰敗給唐、新羅聯軍的大和朝廷，為防衛大宰府而築建的大土壘。',
+          en: 'In 664, after defeat at the Battle of Baekgang, the Yamato court built this massive earthwork to defend Dazaifu.',
+        },
+      },
+      {
+        year: 664, event: {
+          ja: '全長約1.2km、高さ約14m、基底部幅約80mという古代日本最大級の防衛施設。',
+          zhTw: '全長約1.2公里、高約14公尺、基底部寬約80公尺的古代日本最大級防禦設施。',
+          en: 'About 1.2 km long, 14 m high, and 80 m wide at the base — one of ancient Japan\'s largest defense works.',
+        },
+      },
+      {
+        year: 664, event: {
+          ja: '唐・新羅の日本本土侵攻に備えた国家的防衛事業の一環として、大野城・基肄城と連携した。',
+          zhTw: '作為防備唐、新羅入侵日本本土的國家防衛事業一環，與大野城、基肄城聯動。',
+          en: 'Part of a national defense project against possible Tang-Silla invasion, coordinating with Ōno and Kii castles.',
+        },
+      },
     ],
     figures: [
       { ja: '天智天皇 — 白村江の敗戦後、国防強化を推し進め水城の築造を命じた。', zhTw: '天智天皇 — 白村江敗戰後推進國防強化，命令築造水城。', en: 'Emperor Tenji — after the Baekgang defeat, he drove national defense strengthening and ordered Mizuki\'s construction.' },
@@ -6207,7 +7371,7 @@ export const castles = [
   },
   {
     id: 'kurume',
-    number: 159,
+    number: 183,
     regionId: 'kyushu',
     name: { ja: '久留米城', zhTw: '久留米城', en: 'Kurume Castle' },
     city: { ja: '久留米市', zhTw: '久留米市', en: 'Kurume' },
@@ -6218,9 +7382,29 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#c0392b', crest: '#8A8A78' },
     history: [
-      { ja: '1621年、有馬豊氏が筑後に入封し、篠山城を大改修して久留米城とした。', zhTw: '1621年有馬豐氏入封筑後，大幅改建篠山城為久留米城。', en: 'In 1621, Arima Toyouji entered Chikugo and extensively rebuilt Sasayama Castle as Kurume Castle.' },
-      { ja: '有馬氏は21万石の大名として11代にわたり幕末まで久留米藩を治めた。', zhTw: '有馬氏作為21萬石大名歷經11代治理久留米藩至幕末。', en: 'The Arima governed Kurume domain — 210,000 koku — for 11 generations until the Bakumatsu.' },
-      { ja: '幕末には久留米藩から真木和泉をはじめとする尊王攘夷の志士が輩出した。', zhTw: '幕末久留米藩輩出以真木和泉為首的尊王攘夷志士。', en: 'In the Bakumatsu, Kurume produced sonnō-jōi activists including the notable Maki Izumi.' },
+      {
+        year: 1621,
+        event: {
+          ja: '有馬豊氏が筑後に入封し、篠山城を大改修して久留米城とした。',
+          zhTw: '有馬豐氏入封筑後，大幅改建篠山城為久留米城。',
+          en: 'Arima Toyouji entered Chikugo and extensively rebuilt Sasayama Castle as Kurume Castle.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '有馬氏は21万石の大名として11代にわたり幕末まで久留米藩を治めた。',
+          zhTw: '有馬氏作為21萬石大名歷經11代治理久留米藩至幕末。',
+          en: 'The Arima governed Kurume domain — 210,000 koku — for 11 generations until the Bakumatsu.',
+        },
+      },
+      {
+        year: '幕末',
+        event: {
+          ja: '久留米藩から真木和泉をはじめとする尊王攘夷の志士が輩出した。',
+          zhTw: '久留米藩輩出以真木和泉為首的尊王攘夷志士。',
+          en: 'Kurume produced sonnō-jōi activists including the notable Maki Izumi.',
+        },
+      },
     ],
     figures: [
       { ja: '有馬豊氏 — 久留米藩初代藩主。筑後の基盤を固め、城と城下町を整備した。', zhTw: '有馬豐氏 — 久留米藩初代藩主。鞏固筑後基盤，整備城與城下町。', en: 'Arima Toyouji — first lord of Kurume, who secured Chikugo and developed the castle and town.' },
@@ -6239,7 +7423,7 @@ export const castles = [
   },
   {
     id: 'kii',
-    number: 160,
+    number: 184,
     regionId: 'kyushu',
     name: { ja: '基肄城', zhTw: '基肄城', en: 'Kii Castle' },
     city: { ja: '基山町', zhTw: '基山町', en: 'Kiyama' },
@@ -6250,8 +7434,20 @@ export const castles = [
     illustration: { style: 'ancient', tiers: 1, color: '#7B6B4B', roofColor: '#4B3B2B' },
     goshuin: { bg: '#f5efe5', ink: '#4b3b2b', seal: '#8b0000', crest: '#7B6B4B' },
     history: [
-      { ja: '665年、白村江の敗戦後に大宰府防衛の一環として築かれた古代山城。水城・大野城と連携。', zhTw: '665年白村江敗戰後作為大宰府防衛一環築建的古代山城。與水城、大野城聯動。', en: 'Built in 665 as part of the post-Baekgang Dazaifu defense, coordinating with Mizuki and Ōno Castle.' },
-      { ja: '朝鮮半島の築城技術（朝鮮式山城）を取り入れた国防施設で、日本書紀にも記録がある。', zhTw: '引入朝鮮半島築城技術（朝鮮式山城）的國防設施，在日本書紀中也有記錄。', en: 'A national defense facility using Korean fortification techniques, recorded in the Nihon Shoki.' },
+      {
+        year: 665, event: {
+          ja: '665年、白村江の敗戦後に大宰府防衛の一環として築かれた古代山城。水城・大野城と連携。',
+          zhTw: '665年白村江敗戰後作為大宰府防衛一環築建的古代山城。與水城、大野城聯動。',
+          en: 'Built in 665 as part of the post-Baekgang Dazaifu defense, coordinating with Mizuki and Ōno Castle.',
+        },
+      },
+      {
+        year: 665, event: {
+          ja: '朝鮮半島の築城技術（朝鮮式山城）を取り入れた国防施設で、日本書紀にも記録がある。',
+          zhTw: '引入朝鮮半島築城技術（朝鮮式山城）的國防設施，在日本書紀中也有記錄。',
+          en: 'A national defense facility using Korean fortification techniques, recorded in the Nihon Shoki.',
+        },
+      },
     ],
     figures: [
       { ja: '天智天皇 — 白村江の敗戦後、基肄城を含む西日本の防衛体制を構築した。', zhTw: '天智天皇 — 白村江敗戰後建構包含基肄城的西日本防衛體制。', en: 'Emperor Tenji — constructed western Japan\'s defense system including Kii Castle after the Baekgang defeat.' },
@@ -6271,7 +7467,7 @@ export const castles = [
   },
   {
     id: 'karatsu',
-    number: 161,
+    number: 185,
     regionId: 'kyushu',
     name: { ja: '唐津城', zhTw: '唐津城', en: 'Karatsu Castle' },
     city: { ja: '唐津市', zhTw: '唐津市', en: 'Karatsu' },
@@ -6282,8 +7478,21 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#F5F5F5', roofColor: '#2C3E50' },
     goshuin: { bg: '#f5f5f5', ink: '#2c3e50', seal: '#c0392b', crest: '#2C3E50' },
     history: [
-      { ja: '1608年、寺沢広高が満島山に築城。名護屋城の解体資材を転用したとされる。', zhTw: '1608年寺澤廣高在滿島山築城。據說轉用了名護屋城的拆解建材。', en: 'Built in 1608 by Terazawa Hirotaka on Manjima-yama, reportedly reusing materials from Nagoya Castle.' },
-      { ja: '寺沢氏断絶後は大久保・松平・土井・水野・小笠原と藩主が頻繁に替わった。', zhTw: '寺澤氏斷絕後大久保、松平、土井、水野、小笠原等藩主頻繁更替。', en: 'After the Terazawa died out, lords changed frequently: Ōkubo, Matsudaira, Doi, Mizuno, Ogasawara.' },
+      {
+        year: 1608,
+        event: {
+          ja: '寺沢広高が満島山に築城。名護屋城の解体資材を転用したとされる。',
+          zhTw: '寺澤廣高在滿島山築城。據說轉用了名護屋城的拆解建材。',
+          en: 'Built by Terazawa Hirotaka on Manjima-yama, reportedly reusing materials from Nagoya Castle.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '寺沢氏断絶後は大久保・松平・土井・水野・小笠原と藩主が頻繁に替わった。',
+          zhTw: '寺澤氏斷絕後大久保、松平、土井、水野、小笠原等藩主頻繁更替。',
+          en: 'After the Terazawa died out, lords changed frequently: Ōkubo, Matsudaira, Doi, Mizuno, Ogasawara.',
+        },
+      },
     ],
     figures: [
       { ja: '寺沢広高 — 秀吉の朝鮮出兵で名護屋城の普請奉行を務め、唐津の地に精通していた。', zhTw: '寺澤廣高 — 秀吉朝鮮出兵中擔任名護屋城普請奉行，精通唐津之地。', en: 'Terazawa Hirotaka — served as construction magistrate for Nagoya Castle during Hideyoshi\'s Korean campaigns, knowing Karatsu well.' },
@@ -6302,7 +7511,7 @@ export const castles = [
   },
   {
     id: 'kaneda',
-    number: 162,
+    number: 186,
     regionId: 'kyushu',
     name: { ja: '金田城', zhTw: '金田城', en: 'Kaneda Castle' },
     city: { ja: '対馬市', zhTw: '對馬市', en: 'Tsushima' },
@@ -6313,9 +7522,28 @@ export const castles = [
     illustration: { style: 'ancient', tiers: 1, color: '#7A7A5A', roofColor: '#4A4A3A' },
     goshuin: { bg: '#f5f5e8', ink: '#3a3a2a', seal: '#8b0000', crest: '#7A7A5A' },
     history: [
-      { ja: '667年、白村江の敗戦後に対馬の防衛拠点として築かれた古代山城。国防の最前線。', zhTw: '667年白村江敗戰後作為對馬防衛據點築建的古代山城。國防最前線。', en: 'Built in 667 as a Tsushima defense post after the Baekgang defeat — Japan\'s very front line of national defense.' },
-      { ja: '朝鮮半島に最も近い日本の城として、大陸からの侵攻に備えた国家的防衛施設。', zhTw: '作為最接近朝鮮半島的日本城，防備大陸侵攻的國家防衛設施。', en: 'Japan\'s closest castle to the Korean peninsula, a national defense facility against continental invasion.' },
-      { ja: '1274年の元寇（文永の役）では対馬が最初に攻撃を受け、金田城周辺も戦場となった。', zhTw: '1274年元寇（文永之役）中對馬最先受到攻擊，金田城周邊也成為戰場。', en: 'During the 1274 Mongol invasion, Tsushima was attacked first, and the area around Kaneda became a battlefield.' },
+      {
+        year: 667, event: {
+          ja: '667年、白村江の敗戦後に対馬の防衛拠点として築かれた古代山城。国防の最前線。',
+          zhTw: '667年白村江敗戰後作為對馬防衛據點築建的古代山城。國防最前線。',
+          en: 'Built in 667 as a Tsushima defense post after the Baekgang defeat — Japan\'s very front line of national defense.',
+        },
+      },
+      {
+        year: 667, event: {
+          ja: '朝鮮半島に最も近い日本の城として、大陸からの侵攻に備えた国家的防衛施設。',
+          zhTw: '作為最接近朝鮮半島的日本城，防備大陸侵攻的國家防衛設施。',
+          en: 'Japan\'s closest castle to the Korean peninsula, a national defense facility against continental invasion.',
+        },
+      },
+      {
+        year: 1274,
+        event: {
+          ja: '1274年の元寇（文永の役）では対馬が最初に攻撃を受け、金田城周辺も戦場となった。',
+          zhTw: '1274年元寇（文永之役）中對馬最先受到攻擊，金田城周邊也成為戰場。',
+          en: 'During the 1274 Mongol invasion, Tsushima was attacked first, and the area around Kaneda became a battlefield.',
+        },
+      },
     ],
     figures: [
       { ja: '天智天皇 — 国防体制の一環として対馬に金田城の築造を命じた。', zhTw: '天智天皇 — 作為國防體制一環命令在對馬築造金田城。', en: 'Emperor Tenji — ordered Kaneda\'s construction on Tsushima as part of the national defense system.' },
@@ -6335,7 +7563,7 @@ export const castles = [
   },
   {
     id: 'fukue',
-    number: 163,
+    number: 187,
     regionId: 'kyushu',
     name: { ja: '福江城', zhTw: '福江城', en: 'Fukue Castle' },
     city: { ja: '五島市', zhTw: '五島市', en: 'Gotō' },
@@ -6346,9 +7574,29 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8878', roofColor: '#5A5848' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#c44', crest: '#8A8878' },
     history: [
-      { ja: '1863年、五島藩最後の藩主・五島盛徳が異国船防衛のために築城。日本最後の城。', zhTw: '1863年五島藩最後的藩主五島盛德為防禦異國船而築城。日本最後的城。', en: 'Built in 1863 by Gotō Moritoku, the last lord of Gotō domain, for coastal defense — Japan\'s last castle ever built.' },
-      { ja: '黒船来航に伴う海防強化の一環で、幕府の許可を得て築城された。', zhTw: '作為黑船來航伴隨的海防強化一環，獲幕府許可後築城。', en: 'Built as part of coastal defense strengthening after the arrival of Black Ships, with Shōgunate permission.' },
-      { ja: '完成からわずか9年後の1872年に廃城となった短命の城。', zhTw: '完成後僅9年的1872年就廢城的短命之城。', en: 'Abandoned in 1872, just nine years after completion — an extremely short-lived castle.' },
+      {
+        year: 1863,
+        event: {
+          ja: '五島藩最後の藩主・五島盛徳が異国船防衛のために築城。日本最後の城。',
+          zhTw: '五島藩最後的藩主五島盛德為防禦異國船而築城。日本最後的城。',
+          en: 'Built by Gotō Moritoku, the last lord of Gotō domain, for coastal defense — Japan\'s last castle ever built.',
+        },
+      },
+      {
+        year: 1853, event: {
+          ja: '黒船来航に伴う海防強化の一環で、幕府の許可を得て築城された。',
+          zhTw: '作為黑船來航伴隨的海防強化一環，獲幕府許可後築城。',
+          en: 'Built as part of coastal defense strengthening after the arrival of Black Ships, with Shōgunate permission.',
+        },
+      },
+      {
+        year: 1872,
+        event: {
+          ja: '完成からわずか9年後の1872年に廃城となった短命の城。',
+          zhTw: '完成後僅9年的1872年就廢城的短命之城。',
+          en: 'Abandoned in 1872, just nine years after completion — an extremely short-lived castle.',
+        },
+      },
     ],
     figures: [
       { ja: '五島盛徳 — 五島藩最後の藩主。海防のため幕末に新城を築いた先見の明を持つ藩主。', zhTw: '五島盛德 — 五島藩最後的藩主。為海防於幕末築新城的有先見之明的藩主。', en: 'Gotō Moritoku — last Gotō lord, a forward-thinking daimyō who built a new castle for coastal defense.' },
@@ -6368,7 +7616,7 @@ export const castles = [
   },
   {
     id: 'hara',
-    number: 164,
+    number: 188,
     regionId: 'kyushu',
     name: { ja: '原城', zhTw: '原城', en: 'Hara Castle' },
     city: { ja: '南島原市', zhTw: '南島原市', en: 'Minami-Shimabara' },
@@ -6379,10 +7627,36 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A8A78', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#8A8A78' },
     history: [
-      { ja: '1496年、有馬貴純が築城。有馬氏の居城として島原半島を支配した。', zhTw: '1496年有馬貴純築城。作為有馬氏居城支配島原半島。', en: 'Built in 1496 by Arima Takasumi; the Arima governed the Shimabara Peninsula from here.' },
-      { ja: '一国一城令により1616年に廃城となったが、1637年の島原の乱で一揆軍の最後の砦となった。', zhTw: '因一國一城令1616年廢城，但1637年島原之亂中成為一揆軍最後的堡壘。', en: 'Abandoned under the 1616 one-castle edict, but in 1637 it became the rebels\' last stronghold in the Shimabara Rebellion.' },
-      { ja: '天草四郎を大将とする約3万7千人のキリシタン・農民が籠城し、幕府軍12万と対峙した。', zhTw: '以天草四郎為大將的約3萬7千名基督徒、農民籠城，與幕府軍12萬對峙。', en: 'About 37,000 Christians and peasants under Amakusa Shirō besieged here, facing 120,000 Shōgunate troops.' },
-      { ja: '約3ヶ月の籠城の末、幕府軍の総攻撃で全滅。日本のキリシタン史最大の悲劇となった。', zhTw: '約3個月籠城後幕府軍總攻擊全滅。成為日本基督徒史上最大的悲劇。', en: 'After three months, the Shōgunate\'s final assault annihilated all — the greatest tragedy in Japan\'s Christian history.' },
+      {
+        year: 1496,
+        event: {
+          ja: '有馬貴純が築城。有馬氏の居城として島原半島を支配した。',
+          zhTw: '有馬貴純築城。作為有馬氏居城支配島原半島。',
+          en: 'Built by Arima Takasumi; the Arima governed the Shimabara Peninsula from here.',
+        },
+      },
+      {
+        year: 1616,
+        event: {
+          ja: '一国一城令により1616年に廃城となったが、1637年の島原の乱で一揆軍の最後の砦となった。',
+          zhTw: '因一國一城令1616年廢城，但1637年島原之亂中成為一揆軍最後的堡壘。',
+          en: 'Abandoned under the 1616 one-castle edict, but in 1637 it became the rebels\' last stronghold in the Shimabara Rebellion.',
+        },
+      },
+      {
+        year: 1637, event: {
+          ja: '天草四郎を大将とする約3万7千人のキリシタン・農民が籠城し、幕府軍12万と対峙した。',
+          zhTw: '以天草四郎為大將的約3萬7千名基督徒、農民籠城，與幕府軍12萬對峙。',
+          en: 'About 37,000 Christians and peasants under Amakusa Shirō besieged here, facing 120,000 Shōgunate troops.',
+        },
+      },
+      {
+        year: 1638, event: {
+          ja: '約3ヶ月の籠城の末、幕府軍の総攻撃で全滅。日本のキリシタン史最大の悲劇となった。',
+          zhTw: '約3個月籠城後幕府軍總攻擊全滅。成為日本基督徒史上最大的悲劇。',
+          en: 'After three months, the Shōgunate\'s final assault annihilated all — the greatest tragedy in Japan\'s Christian history.',
+        },
+      },
     ],
     figures: [
       { ja: '天草四郎（益田時貞） — 島原の乱の象徴的指導者。わずか16歳でカリスマ的存在となった少年。', zhTw: '天草四郎（益田時貞） — 島原之亂的象徵性領導者。年僅16歲就成為有魅力的存在的少年。', en: 'Amakusa Shirō (Masuda Tokisada) — iconic leader of the rebellion, a charismatic boy of only 16.' },
@@ -6402,10 +7676,10 @@ export const castles = [
       { ja: '一揆軍は廃城の石垣を急遽修復して籠城。即席の防御施設で12万の大軍と3ヶ月戦った。', zhTw: '一揆軍緊急修復廢城石垣籠城。以臨時防禦設施與12萬大軍戰鬥3個月。', en: 'The rebels hastily repaired the abandoned walls and held off 120,000 troops for three months with makeshift defenses.' },
     ],
   },
-  // #165 笠間城 — Kanto
+  // #112 笠間城 — Kanto
   {
     id: 'kasama',
-    number: 165,
+    number: 112,
     regionId: 'kanto',
     name: { ja: '笠間城', zhTw: '笠間城', en: 'Kasama Castle' },
     city: { ja: '笠間市', zhTw: '笠間市', en: 'Kasama' },
@@ -6416,9 +7690,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A8A6A', roofColor: '#4A5A3A' },
     goshuin: { bg: '#f0f5e8', ink: '#3a4a2a', seal: '#8b0000', crest: '#7A8A6A' },
     history: [
-      { ja: '承久元年(1219年)、笠間時朝が佐白山に築城。鎌倉時代から続く関東有数の山城。', zhTw: '承久元年(1219年)笠間時朝於佐白山築城。從鎌倉時代延續的關東首屈一指的山城。', en: 'Built in 1219 by Kasama Tokitomo on Mt. Sashiro, one of the Kantō region\'s foremost mountain castles since the Kamakura period.' },
-      { ja: '笠間氏が18代約370年間支配した後、蒲生郷成・松平康重ら譜代大名が入城。', zhTw: '笠間氏支配18代約370年後，蒲生鄉成、松平康重等譜代大名入城。', en: 'After 370 years under 18 generations of the Kasama clan, fudai daimyō such as Gamō and Matsudaira took over.' },
-      { ja: '元和の一国一城令でも例外的に存続し、牧野氏が8万石で幕末まで治めた。', zhTw: '元和一國一城令中也例外存續，牧野氏以8萬石統治至幕末。', en: 'Exceptionally allowed to continue under the one-castle edict; the Makino clan governed 80,000 koku until the Bakumatsu.' },
+      {
+        year: 1219,
+        event: {
+          ja: '笠間時朝が佐白山に築城。鎌倉時代から続く関東有数の山城。',
+          zhTw: ')笠間時朝於佐白山築城。從鎌倉時代延續的關東首屈一指的山城。',
+          en: 'Built by Kasama Tokitomo on Mt. Sashiro, one of the Kantō region\'s foremost mountain castles since the Kamakura period.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '笠間氏が18代約370年間支配した後、蒲生郷成・松平康重ら譜代大名が入城。',
+          zhTw: '笠間氏支配18代約370年後，蒲生鄉成、松平康重等譜代大名入城。',
+          en: 'After 370 years under 18 generations of the Kasama clan, fudai daimyō such as Gamō and Matsudaira took over.',
+        },
+      },
+      {
+        year: 1615, event: {
+          ja: '元和の一国一城令でも例外的に存続し、牧野氏が8万石で幕末まで治めた。',
+          zhTw: '元和一國一城令中也例外存續，牧野氏以8萬石統治至幕末。',
+          en: 'Exceptionally allowed to continue under the one-castle edict; the Makino clan governed 80,000 koku until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '笠間時朝 — 佐白山の天然の要害を利用して築城した笠間氏の祖。', zhTw: '笠間時朝 — 利用佐白山天然要害築城的笠間氏之祖。', en: 'Kasama Tokitomo — founder of the Kasama clan, who exploited Mt. Sashiro\'s natural defenses for his castle.' },
@@ -6436,10 +7729,10 @@ export const castles = [
       { ja: '山全体を城域とし、大手門から本丸まで約1kmの登城路に複数の曲輪を配置。', zhTw: '以整座山為城域，從大手門到本丸約1km的登城路上配置多個曲輪。', en: 'The entire mountain served as castle grounds, with multiple baileys along the 1km path from the main gate to the honmaru.' },
     ],
   },
-  // #166 土浦城 — Kanto
+  // #113 土浦城 — Kanto
   {
     id: 'tsuchiura',
-    number: 166,
+    number: 113,
     regionId: 'kanto',
     name: { ja: '土浦城', zhTw: '土浦城', en: 'Tsuchiura Castle' },
     city: { ja: '土浦市', zhTw: '土浦市', en: 'Tsuchiura' },
@@ -6450,9 +7743,29 @@ export const castles = [
     illustration: { style: 'gate', tiers: 1, color: '#8A7A6A', roofColor: '#5A4A3A' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#8b0000', crest: '#8A7A6A' },
     history: [
-      { ja: '永享年間(1429-41年)、若泉三郎が築城したと伝わる。霞ヶ浦に面した水城の性格を持つ。', zhTw: '永享年間(1429-41年)傳為若泉三郎築城。面向霞浦的水城性格。', en: 'Traditionally built by Wakaizumi Saburō in 1429–41; it had the character of a water castle facing Lake Kasumigaura.' },
-      { ja: '戦国時代は小田氏の支城として機能し、佐竹氏との攻防の舞台となった。', zhTw: '戰國時代作為小田氏支城運作，成為與佐竹氏攻防的舞台。', en: 'During the Sengoku period it served as a branch castle of the Oda clan, a stage for battles with the Satake.' },
-      { ja: '江戸時代は土屋氏9万5千石の居城として整備され、「亀城」の別名で親しまれた。', zhTw: '江戶時代作為土屋氏9萬5千石居城整備，以「龜城」別名廣受喜愛。', en: 'In the Edo period the Tsuchiya clan developed it as a 95,000-koku seat, nicknamed "Kijō" (Turtle Castle).' },
+      {
+        year: 1429, event: {
+          ja: '永享年間(1429-41年)、若泉三郎が築城したと伝わる。霞ヶ浦に面した水城の性格を持つ。',
+          zhTw: '永享年間(1429-41年)傳為若泉三郎築城。面向霞浦的水城性格。',
+          en: 'Traditionally built by Wakaizumi Saburō in 1429–41; it had the character of a water castle facing Lake Kasumigaura.',
+        },
+      },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '小田氏の支城として機能し、佐竹氏との攻防の舞台となった。',
+          zhTw: '作為小田氏支城運作，成為與佐竹氏攻防的舞台。',
+          en: 'It served as a branch castle of the Oda clan, a stage for battles with the Satake.',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '土屋氏9万5千石の居城として整備され、「亀城」の別名で親しまれた。',
+          zhTw: '作為土屋氏9萬5千石居城整備，以「龜城」別名廣受喜愛。',
+          en: 'The Tsuchiya clan developed it as a 95,000-koku seat, nicknamed "Kijō" (Turtle Castle).',
+        },
+      },
     ],
     figures: [
       { ja: '土屋数直 — 家光・家綱に仕えた老中で、土浦藩の基盤を築いた名君。', zhTw: '土屋數直 — 侍奉家光、家綱的老中，奠定土浦藩基礎的名君。', en: 'Tsuchiya Kazunao — a rōjū under Iemitsu and Ietsuna who laid the foundations of the Tsuchiura domain.' },
@@ -6469,10 +7782,10 @@ export const castles = [
       { ja: '霞ヶ浦の低湿地に築かれた輪郭式平城。本丸を二重の水堀が囲む。', zhTw: '建於霞浦低濕地的輪郭式平城。本丸被雙重水堀包圍。', en: 'A rinkaku-style flatland castle on Kasumigaura\'s marshes, the honmaru encircled by double water moats.' },
     ],
   },
-  // #167 唐沢山城 — Kanto
+  // #114 唐沢山城 — Kanto
   {
     id: 'karasawayama',
-    number: 167,
+    number: 114,
     regionId: 'kanto',
     name: { ja: '唐沢山城', zhTw: '唐澤山城', en: 'Karasawayama Castle' },
     city: { ja: '佐野市', zhTw: '佐野市', en: 'Sano' },
@@ -6483,10 +7796,34 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#6A7A5A' },
     history: [
-      { ja: '延長5年(927年)、藤原秀郷が築城したと伝わる関東屈指の古城。', zhTw: '延長5年(927年)傳為藤原秀鄉築城的關東首屈一指的古城。', en: 'Traditionally built in 927 by Fujiwara no Hidesato, one of Kantō\'s most venerable castles.' },
-      { ja: '秀郷は俵藤太とも呼ばれ、百足退治伝説で知られる武将。佐野氏の祖となった。', zhTw: '秀鄉又稱俵藤太，以百足退治傳說聞名的武將。成為佐野氏之祖。', en: 'Hidesato, also called Tawara Tōta of centipede-slaying legend, became the ancestor of the Sano clan.' },
-      { ja: '上杉謙信の10度にわたる攻撃を耐え抜いた堅城として名高い。', zhTw: '以承受上杉謙信10次攻擊的堅城而聞名。', en: 'Famous as an impregnable fortress that withstood ten assaults by Uesugi Kenshin.' },
-      { ja: '豊臣秀吉の小田原征伐後、佐野氏は麓の佐野城へ移り唐沢山城は廃城となった。', zhTw: '豐臣秀吉小田原征伐後，佐野氏移至山腳佐野城，唐澤山城廢城。', en: 'After Hideyoshi\'s Odawara campaign, the Sano moved to flatland Sano Castle and Karasawayama was abandoned.' },
+      {
+        year: 927, event: {
+          ja: '延長5年(927年)、藤原秀郷が築城したと伝わる関東屈指の古城。',
+          zhTw: '延長5年(927年)傳為藤原秀鄉築城的關東首屈一指的古城。',
+          en: 'Traditionally built in 927 by Fujiwara no Hidesato, one of Kantō\'s most venerable castles.',
+        },
+      },
+      {
+        year: '平安時代', event: {
+          ja: '秀郷は俵藤太とも呼ばれ、百足退治伝説で知られる武将。佐野氏の祖となった。',
+          zhTw: '秀鄉又稱俵藤太，以百足退治傳說聞名的武將。成為佐野氏之祖。',
+          en: 'Hidesato, also called Tawara Tōta of centipede-slaying legend, became the ancestor of the Sano clan.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '上杉謙信の10度にわたる攻撃を耐え抜いた堅城として名高い。',
+          zhTw: '以承受上杉謙信10次攻擊的堅城而聞名。',
+          en: 'Famous as an impregnable fortress that withstood ten assaults by Uesugi Kenshin.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '豊臣秀吉の小田原征伐後、佐野氏は麓の佐野城へ移り唐沢山城は廃城となった。',
+          zhTw: '豐臣秀吉小田原征伐後，佐野氏移至山腳佐野城，唐澤山城廢城。',
+          en: 'After Hideyoshi\'s Odawara campaign, the Sano moved to flatland Sano Castle and Karasawayama was abandoned.',
+        },
+      },
     ],
     figures: [
       { ja: '藤原秀郷（俵藤太） — 平将門の乱を鎮圧した伝説的武将。大百足を退治した逸話で有名。', zhTw: '藤原秀鄉（俵藤太） — 鎮壓平將門之亂的傳奇武將。以退治大百足的逸話聞名。', en: 'Fujiwara no Hidesato (Tawara Tōta) — legendary warrior who suppressed Taira no Masakado\'s revolt, famed for slaying a giant centipede.' },
@@ -6504,10 +7841,10 @@ export const castles = [
       { ja: '本丸の総石垣は織豊系の技術を導入したもので、関東の中世城郭から近世城郭への過渡期を示す。', zhTw: '本丸全石垣引入織豐系技術，展示關東從中世城郭到近世城郭的過渡期。', en: 'The honmaru\'s full stone walls adopted Oda-Toyotomi techniques, marking the transition from medieval to early-modern fortification.' },
     ],
   },
-  // #168 名胡桃城 — Kanto
+  // #115 名胡桃城 — Kanto
   {
     id: 'nagurumi',
-    number: 168,
+    number: 115,
     regionId: 'kanto',
     name: { ja: '名胡桃城', zhTw: '名胡桃城', en: 'Nagurumi Castle' },
     city: { ja: 'みなかみ町', zhTw: '水上町', en: 'Minakami' },
@@ -6518,10 +7855,36 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#7A7A68', roofColor: '#5A5A48' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#7A7A68' },
     history: [
-      { ja: '明応年間(1492-1501年)、沼田氏の一族が利根川北岸の河岸段丘上に築城。', zhTw: '明應年間(1492-1501年)沼田氏一族於利根川北岸河岸階地上築城。', en: 'Built around 1492–1501 by a branch of the Numata clan on a river terrace above the northern bank of the Tone River.' },
-      { ja: '真田昌幸が沼田領支配の拠点として重視し、城を改修・強化した。', zhTw: '真田昌幸作為沼田領支配據點重視此城，進行改修強化。', en: 'Sanada Masayuki valued it as a key base for controlling the Numata domain, renovating and strengthening it.' },
-      { ja: '天正17年(1589年)、北条氏の家臣・猪俣邦憲が名胡桃城を奪取。これが秀吉の小田原征伐の直接的原因となった。', zhTw: '天正17年(1589年)北條氏家臣豬俣邦憲奪取名胡桃城。此事成為秀吉小田原征伐的直接原因。', en: 'In 1589 Hōjō retainer Inomata Kuninori seized Nagurumi — the direct trigger for Hideyoshi\'s Odawara campaign.' },
-      { ja: 'この事件により北条氏は「惣無事令」違反とされ、天下統一の最後の戦いが始まった。', zhTw: '此事件導致北條氏被視為違反「惣無事令」，天下統一的最後戰役就此展開。', en: 'This incident branded the Hōjō as violators of the "Sōbuji-rei" peace edict, sparking the final war of unification.' },
+      {
+        year: 1501,
+        event: {
+          ja: '明応年間(1492-1501年)、沼田氏の一族が利根川北岸の河岸段丘上に築城。',
+          zhTw: '明應年間(1492-1501年)沼田氏一族於利根川北岸河岸階地上築城。',
+          en: 'Built around 1492–1501 by a branch of the Numata clan on a river terrace above the northern bank of the Tone River.',
+        },
+      },
+      {
+        year: 1580, event: {
+          ja: '真田昌幸が沼田領支配の拠点として重視し、城を改修・強化した。',
+          zhTw: '真田昌幸作為沼田領支配據點重視此城，進行改修強化。',
+          en: 'Sanada Masayuki valued it as a key base for controlling the Numata domain, renovating and strengthening it.',
+        },
+      },
+      {
+        year: 1589,
+        event: {
+          ja: '北条氏の家臣・猪俣邦憲が名胡桃城を奪取。これが秀吉の小田原征伐の直接的原因となった。',
+          zhTw: ')北條氏家臣豬俣邦憲奪取名胡桃城。此事成為秀吉小田原征伐的直接原因。',
+          en: 'Hōjō retainer Inomata Kuninori seized Nagurumi — the direct trigger for Hideyoshi\'s Odawara campaign.',
+        },
+      },
+      {
+        year: 1589, event: {
+          ja: 'この事件により北条氏は「惣無事令」違反とされ、天下統一の最後の戦いが始まった。',
+          zhTw: '此事件導致北條氏被視為違反「惣無事令」，天下統一的最後戰役就此展開。',
+          en: 'This incident branded the Hōjō as violators of the "Sōbuji-rei" peace edict, sparking the final war of unification.',
+        },
+      },
     ],
     figures: [
       { ja: '真田昌幸 — 「表裏比興の者」と評された智将。名胡桃城を沼田支配の要とした。', zhTw: '真田昌幸 — 被評為「表裏比興之者」的智將。以名胡桃城為沼田支配的要衝。', en: 'Sanada Masayuki — the "schemer of dual allegiances," who made Nagurumi the linchpin of Numata control.' },
@@ -6538,10 +7901,10 @@ export const castles = [
       { ja: '利根川北岸の河岸段丘を利用した連郭式崖端城。三方を断崖に守られた天然の要害。', zhTw: '利用利根川北岸河岸階地的連郭式崖端城。三面被斷崖守護的天然要害。', en: 'A renkaku cliff-edge castle on a river terrace above the Tone, naturally defended by cliffs on three sides.' },
     ],
   },
-  // #169 沼田城 — Kanto
+  // #116 沼田城 — Kanto
   {
     id: 'numata',
-    number: 169,
+    number: 116,
     regionId: 'kanto',
     name: { ja: '沼田城', zhTw: '沼田城', en: 'Numata Castle' },
     city: { ja: '沼田市', zhTw: '沼田市', en: 'Numata' },
@@ -6552,10 +7915,35 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#6A7A8A', roofColor: '#3A4A5A' },
     goshuin: { bg: '#e8f0f5', ink: '#283a4a', seal: '#8b0000', crest: '#6A7A8A' },
     history: [
-      { ja: '天文元年(1532年)、沼田顕泰が利根川・薄根川の合流点を見下ろす河岸段丘上に築城。', zhTw: '天文元年(1532年)沼田顯泰於俯瞰利根川、薄根川匯流點的河岸階地上築城。', en: 'Built in 1532 by Numata Akiyasu on a river terrace overlooking the confluence of the Tone and Usune rivers.' },
-      { ja: '真田昌幸・信幸（信之）親子が支配し、真田氏の北関東経営の拠点となった。', zhTw: '真田昌幸、信幸（信之）父子支配，成為真田氏北關東經營的據點。', en: 'Governed by Sanada Masayuki and his son Nobuyuki, it became the Sanada base for northern Kantō operations.' },
-      { ja: '真田信利の時代に5層の天守が築かれたが、改易後に破却された。', zhTw: '真田信利時代築造5層天守，但改易後被拆毀。', en: 'A five-story tenshu was built under Sanada Nobutoshi, but demolished after his attainder.' },
-      { ja: '「真田丸」の舞台の一つとして広く知られ、真田氏と北条氏の領土争いの中心地。', zhTw: '作為「真田丸」的舞台之一廣為人知，是真田氏與北條氏領土爭奪的中心地。', en: 'Widely known as a setting of "Sanada Maru," the focal point of the Sanada-Hōjō territorial dispute.' },
+      {
+        year: 1532,
+        event: {
+          ja: '沼田顕泰が利根川・薄根川の合流点を見下ろす河岸段丘上に築城。',
+          zhTw: ')沼田顯泰於俯瞰利根川、薄根川匯流點的河岸階地上築城。',
+          en: 'Built by Numata Akiyasu on a river terrace overlooking the confluence of the Tone and Usune rivers.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '真田昌幸・信幸（信之）親子が支配し、真田氏の北関東経営の拠点となった。',
+          zhTw: '真田昌幸、信幸（信之）父子支配，成為真田氏北關東經營的據點。',
+          en: 'Governed by Sanada Masayuki and his son Nobuyuki, it became the Sanada base for northern Kantō operations.',
+        },
+      },
+      {
+        year: 1681, event: {
+          ja: '真田信利の時代に5層の天守が築かれたが、改易後に破却された。',
+          zhTw: '真田信利時代築造5層天守，但改易後被拆毀。',
+          en: 'A five-story tenshu was built under Sanada Nobutoshi, but demolished after his attainder.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '「真田丸」の舞台の一つとして広く知られ、真田氏と北条氏の領土争いの中心地。',
+          zhTw: '作為「真田丸」的舞台之一廣為人知，是真田氏與北條氏領土爭奪的中心地。',
+          en: 'Widely known as a setting of "Sanada Maru," the focal point of the Sanada-Hōjō territorial dispute.',
+        },
+      },
     ],
     figures: [
       { ja: '真田信之（信幸） — 昌幸の長男。関ヶ原で東軍につき、沼田藩を幕末まで存続させた。', zhTw: '真田信之（信幸） — 昌幸長子。關原之戰投東軍，使沼田藩存續至幕末。', en: 'Sanada Nobuyuki — Masayuki\'s eldest son, who sided with the Eastern Army at Sekigahara and kept Numata domain alive to the Bakumatsu.' },
@@ -6574,10 +7962,10 @@ export const castles = [
       { ja: '段丘の地形を活かし、本丸・二の丸・三の丸を階段状に配置した梯郭式縄張り。', zhTw: '利用階地地形，將本丸、二之丸、三之丸階梯狀配置的梯郭式繩張。', en: 'A tiered layout exploiting the terrace topography, with honmaru, ni-no-maru, and san-no-maru arranged in steps.' },
     ],
   },
-  // #170 岩櫃城 — Kanto
+  // #117 岩櫃城 — Kanto
   {
     id: 'iwabitsu',
-    number: 170,
+    number: 117,
     regionId: 'kanto',
     name: { ja: '岩櫃城', zhTw: '岩櫃城', en: 'Iwabitsu Castle' },
     city: { ja: '東吾妻町', zhTw: '東吾妻町', en: 'Higashi-Agatsuma' },
@@ -6588,9 +7976,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A6A5A', roofColor: '#3A3A2A' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#6A6A5A' },
     history: [
-      { ja: '南北朝時代、吾妻太郎行盛が築城したと伝わる。岩櫃山(標高802m)の中腹に位置する。', zhTw: '南北朝時代傳為吾妻太郎行盛築城。位於岩櫃山(標高802m)中腹。', en: 'Traditionally built by Agatsuma Tarō Yukimori in the Nanboku-chō period, positioned mid-slope on 802m Mt. Iwabitsu.' },
-      { ja: '真田幸隆が1563年に攻略し、以後真田氏の上州における重要拠点となった。', zhTw: '真田幸隆1563年攻略，此後成為真田氏在上州的重要據點。', en: 'Sanada Yukitaka captured it in 1563, making it a crucial Sanada stronghold in Kōzuke.' },
-      { ja: '武田勝頼が長篠の戦い後に落ち延びる先として昌幸が進言したが、実現しなかった。', zhTw: '武田勝賴長篠之戰後昌幸建議逃至此城，但未能實現。', en: 'Masayuki proposed it as a refuge for Takeda Katsuyori after Nagashino, but the plan was never realized.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '吾妻太郎行盛が築城したと伝わる。岩櫃山(標高802m)の中腹に位置する。',
+          zhTw: '傳為吾妻太郎行盛築城。位於岩櫃山(標高802m)中腹。',
+          en: 'Traditionally built by Agatsuma Tarō Yukimori in the Nanboku-chō period, positioned mid-slope on 802m Mt. Iwabitsu.',
+        },
+      },
+      {
+        year: 1563,
+        event: {
+          ja: '真田幸隆が1563年に攻略し、以後真田氏の上州における重要拠点となった。',
+          zhTw: '真田幸隆1563年攻略，此後成為真田氏在上州的重要據點。',
+          en: 'Sanada Yukitaka captured it in 1563, making it a crucial Sanada stronghold in Kōzuke.',
+        },
+      },
+      {
+        year: 1575, event: {
+          ja: '武田勝頼が長篠の戦い後に落ち延びる先として昌幸が進言したが、実現しなかった。',
+          zhTw: '武田勝賴長篠之戰後昌幸建議逃至此城，但未能實現。',
+          en: 'Masayuki proposed it as a refuge for Takeda Katsuyori after Nagashino, but the plan was never realized.',
+        },
+      },
     ],
     figures: [
       { ja: '真田幸隆 — 真田昌幸の父。武田信玄の家臣として岩櫃城を攻略した。', zhTw: '真田幸隆 — 真田昌幸之父。作為武田信玄家臣攻略岩櫃城。', en: 'Sanada Yukitaka — Masayuki\'s father, who captured Iwabitsu as a vassal of Takeda Shingen.' },
@@ -6608,10 +8016,10 @@ export const castles = [
       { ja: '本丸を中心に多数の曲輪と竪堀を配置し、城域は東西約1.5kmに及ぶ。', zhTw: '以本丸為中心配置多數曲輪與竪堀，城域東西約1.5km。', en: 'Multiple baileys and vertical trenches centered on the honmaru, with grounds stretching 1.5km east to west.' },
     ],
   },
-  // #171 忍城 — Kanto
+  // #118 忍城 — Kanto
   {
     id: 'oshi',
-    number: 171,
+    number: 118,
     regionId: 'kanto',
     name: { ja: '忍城', zhTw: '忍城', en: 'Oshi Castle' },
     city: { ja: '行田市', zhTw: '行田市', en: 'Gyōda' },
@@ -6622,10 +8030,35 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#7A8A7A', roofColor: '#4A5A4A' },
     goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#7A8A7A' },
     history: [
-      { ja: '文明年間(1469-87年)、成田顕泰が築城。利根川と荒川に挟まれた低湿地に浮かぶ水城。', zhTw: '文明年間(1469-87年)成田顯泰築城。浮於利根川與荒川之間低濕地的水城。', en: 'Built around 1469–87 by Narita Akiyasu, a water castle floating on marshlands between the Tone and Ara rivers.' },
-      { ja: '1590年の小田原征伐で石田三成率いる2万の大軍が水攻めを行ったが落城せず。', zhTw: '1590年小田原征伐中石田三成率2萬大軍進行水攻但未能攻克。', en: 'During the 1590 Odawara campaign, Ishida Mitsunari\'s 20,000-strong army attempted a water siege but failed to take it.' },
-      { ja: '成田長親が約500の兵で籠城し、小田原城開城まで持ちこたえた「のぼうの城」として有名。', zhTw: '成田長親以約500兵籠城，堅持到小田原城開城的「傻瓜之城」而聞名。', en: 'Narita Nagachika held out with just 500 troops until Odawara fell — the famous "Castle of the Fool" (Nobō no Shiro).' },
-      { ja: '小田原征伐で最後まで落ちなかった関東唯一の城として歴史に名を刻んだ。', zhTw: '作為小田原征伐中最後仍未陷落的關東唯一城郭而名垂歷史。', en: 'It earned its place in history as the only Kantō castle that never fell during the Odawara campaign.' },
+      {
+        year: 1469, event: {
+          ja: '文明年間(1469-87年)、成田顕泰が築城。利根川と荒川に挟まれた低湿地に浮かぶ水城。',
+          zhTw: '文明年間(1469-87年)成田顯泰築城。浮於利根川與荒川之間低濕地的水城。',
+          en: 'Built around 1469–87 by Narita Akiyasu, a water castle floating on marshlands between the Tone and Ara rivers.',
+        },
+      },
+      {
+        year: 1590,
+        event: {
+          ja: '1590年の小田原征伐で石田三成率いる2万の大軍が水攻めを行ったが落城せず。',
+          zhTw: '1590年小田原征伐中石田三成率2萬大軍進行水攻但未能攻克。',
+          en: 'During the 1590 Odawara campaign, Ishida Mitsunari\'s 20,000-strong army attempted a water siege but failed to take it.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '成田長親が約500の兵で籠城し、小田原城開城まで持ちこたえた「のぼうの城」として有名。',
+          zhTw: '成田長親以約500兵籠城，堅持到小田原城開城的「傻瓜之城」而聞名。',
+          en: 'Narita Nagachika held out with just 500 troops until Odawara fell — the famous "Castle of the Fool" (Nobō no Shiro).',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '小田原征伐で最後まで落ちなかった関東唯一の城として歴史に名を刻んだ。',
+          zhTw: '作為小田原征伐中最後仍未陷落的關東唯一城郭而名垂歷史。',
+          en: 'It earned its place in history as the only Kantō castle that never fell during the Odawara campaign.',
+        },
+      },
     ],
     figures: [
       { ja: '成田長親（のぼう様） — 領民に「でくのぼう」と呼ばれながらも絶大な人望を持ち、城を守り抜いた。', zhTw: '成田長親（傻瓜大人） — 被領民稱為「木偶」卻擁有絕大人望，守住城池。', en: 'Narita Nagachika ("Lord Nobō") — despite being called a "blockhead," he commanded immense popular support and defended the castle.' },
@@ -6644,10 +8077,10 @@ export const castles = [
       { ja: '本丸・二の丸・三の丸が沼の中の島のように点在し、橋で結ばれていた。', zhTw: '本丸、二之丸、三之丸如沼中之島般散布，以橋相連。', en: 'Honmaru, ni-no-maru, and san-no-maru were scattered like islands in the marsh, connected by bridges.' },
     ],
   },
-  // #172 杉山城 — Kanto
+  // #119 杉山城 — Kanto
   {
     id: 'sugiyama',
-    number: 172,
+    number: 119,
     regionId: 'kanto',
     name: { ja: '杉山城', zhTw: '杉山城', en: 'Sugiyama Castle' },
     city: { ja: '嵐山町', zhTw: '嵐山町', en: 'Ranzan' },
@@ -6658,9 +8091,27 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A6A', roofColor: '#4A4A3A' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#7A7A6A' },
     history: [
-      { ja: '築城年代・築城者は不明だが、15世紀後半から16世紀前半に築かれたと推定される。', zhTw: '築城年代、築城者不明，推定15世紀後半至16世紀前半築造。', en: 'The builder and date are unknown, but it is estimated to have been built in the late 15th to early 16th century.' },
-      { ja: '山内上杉氏または扇谷上杉氏に関連する城と考えられている。', zhTw: '被認為是與山內上杉氏或扇谷上杉氏相關的城郭。', en: 'It is thought to be connected to the Yamauchi Uesugi or Ōgigayatsu Uesugi clans.' },
-      { ja: '「築城の教科書」と評されるほど縄張りが精緻で、中世城郭研究の重要資料。', zhTw: '被評為「築城教科書」般繩張精緻，是中世城郭研究的重要資料。', en: 'Called a "textbook of castle-building" for its meticulous layout, a vital resource for medieval castle studies.' },
+      {
+        year: '1450年代', event: {
+          ja: '築城年代・築城者は不明だが、15世紀後半から16世紀前半に築かれたと推定される。',
+          zhTw: '築城年代、築城者不明，推定15世紀後半至16世紀前半築造。',
+          en: 'The builder and date are unknown, but it is estimated to have been built in the late 15th to early 16th century.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '山内上杉氏または扇谷上杉氏に関連する城と考えられている。',
+          zhTw: '被認為是與山內上杉氏或扇谷上杉氏相關的城郭。',
+          en: 'It is thought to be connected to the Yamauchi Uesugi or Ōgigayatsu Uesugi clans.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '「築城の教科書」と評されるほど縄張りが精緻で、中世城郭研究の重要資料。',
+          zhTw: '被評為「築城教科書」般繩張精緻，是中世城郭研究的重要資料。',
+          en: 'Called a "textbook of castle-building" for its meticulous layout, a vital resource for medieval castle studies.',
+        },
+      },
     ],
     figures: [
       { ja: '築城者不詳 — 精緻な縄張りから高度な築城技術を持つ勢力の手によるものと推察される。', zhTw: '築城者不詳 — 從精緻的繩張推測為擁有高度築城技術的勢力所建。', en: 'Builder unknown — the sophisticated layout suggests a force with advanced fortification skills.' },
@@ -6678,10 +8129,10 @@ export const castles = [
       { ja: '各曲輪間を堀切で独立させつつ、全体として有機的に連携する精緻な縄張り。', zhTw: '各曲輪間以堀切獨立，同時整體有機連攜的精緻繩張。', en: 'Each bailey stands independent via moat-cuts yet coordinates organically as a unified whole.' },
     ],
   },
-  // #173 菅谷館 — Kanto
+  // #120 菅谷館 — Kanto
   {
     id: 'sugaya',
-    number: 173,
+    number: 120,
     regionId: 'kanto',
     name: { ja: '菅谷館', zhTw: '菅谷館', en: 'Sugaya-yakata' },
     city: { ja: '嵐山町', zhTw: '嵐山町', en: 'Ranzan' },
@@ -6692,8 +8143,22 @@ export const castles = [
     illustration: { style: 'mansion', tiers: 1, color: '#8A7A6A', roofColor: '#5A4A3A' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#8b0000', crest: '#8A7A6A' },
     history: [
-      { ja: '鎌倉時代、畠山重忠の居館として知られる。重忠は武蔵武士の鑑と称された名将。', zhTw: '鎌倉時代作為畠山重忠居館聞名。重忠被稱為武藏武士之鑑的名將。', en: 'Known as the residence of Hatakeyama Shigetada in the Kamakura period, a paragon of Musashi warriors.' },
-      { ja: '戦国時代に大幅に改修され、堀や土塁が強化された。上杉・北条の争いの中で機能した。', zhTw: '戰國時代大幅改修，護城河與土壘強化。在上杉、北條爭奪中發揮作用。', en: 'Extensively renovated in the Sengoku period with reinforced moats and earthworks, functioning amid the Uesugi-Hōjō conflicts.' },
+      {
+        year: '鎌倉時代',
+        event: {
+          ja: '畠山重忠の居館として知られる。重忠は武蔵武士の鑑と称された名将。',
+          zhTw: '作為畠山重忠居館聞名。重忠被稱為武藏武士之鑑的名將。',
+          en: 'Known as the residence of Hatakeyama Shigetada in the Kamakura period, a paragon of Musashi warriors.',
+        },
+      },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '大幅に改修され、堀や土塁が強化された。上杉・北条の争いの中で機能した。',
+          zhTw: '大幅改修，護城河與土壘強化。在上杉、北條爭奪中發揮作用。',
+          en: 'Extensively renovated in the Sengoku period with reinforced moats and earthworks, functioning amid the Uesugi-Hōjō conflicts.',
+        },
+      },
     ],
     figures: [
       { ja: '畠山重忠 — 源頼朝に仕えた坂東武者の名将。一ノ谷の戦いで馬を背負って崖を下った逸話で有名。', zhTw: '畠山重忠 — 侍奉源賴朝的坂東武者名將。以一之谷戰役中背馬下懸崖的逸話聞名。', en: 'Hatakeyama Shigetada — a celebrated Bandō warrior under Minamoto no Yoritomo, famed for carrying his horse down a cliff at Ichi-no-Tani.' },
@@ -6710,10 +8175,10 @@ export const castles = [
       { ja: '都幾川の段丘上に築かれた方形居館。戦国時代に外郭が増設され約13haの城域に発展。', zhTw: '建於都幾川階地上的方形居館。戰國時代增設外郭發展為約13ha城域。', en: 'A rectangular yakata on a terrace above the Tokigawa, expanded to about 13 hectares with outer defenses in the Sengoku period.' },
     ],
   },
-  // #174 本佐倉城 — Kanto
+  // #121 本佐倉城 — Kanto
   {
     id: 'moto-sakura',
-    number: 174,
+    number: 121,
     regionId: 'kanto',
     name: { ja: '本佐倉城', zhTw: '本佐倉城', en: 'Moto-Sakura Castle' },
     city: { ja: '酒々井町', zhTw: '酒酒井町', en: 'Shisui' },
@@ -6721,12 +8186,31 @@ export const castles = [
     type: 'hirayama',
     designation: '国指定史跡',
     position: { x: 79, y: 56 },
-    illustration: { style: 'ruins', tiers: 1, color: '#6A8A6A', roofColor: '#3A5A3A' },
-    goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#6A8A6A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8C8A7A', roofColor: '#5B5A49' },
+    goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#8C8A7A' },
     history: [
-      { ja: '文明年間(1469-87年)、千葉輔胤が下総千葉氏の本拠として築城。約100年間の居城となった。', zhTw: '文明年間(1469-87年)千葉輔胤作為下總千葉氏本據築城。成為約100年的居城。', en: 'Built around 1469–87 by Chiba Suketane as the headquarters of the Shimōsa Chiba clan for about a century.' },
-      { ja: '関東有数の大豪族・千葉氏の最後の本拠地であり、戦国時代の下総を支配した。', zhTw: '關東首屈一指大豪族千葉氏的最後本據地，支配戰國時代的下總。', en: 'The last headquarters of the Chiba, one of Kantō\'s mightiest clans, who ruled Shimōsa in the Sengoku era.' },
-      { ja: '1590年の小田原征伐で千葉氏が滅亡し、廃城。その後佐倉に新城（佐倉城）が築かれた。', zhTw: '1590年小田原征伐千葉氏滅亡而廢城。其後於佐倉築新城（佐倉城）。', en: 'The Chiba fell in the 1590 Odawara campaign and the castle was abandoned; a new castle (Sakura) was later built nearby.' },
+      {
+        year: 1469, event: {
+          ja: '文明年間(1469-87年)、千葉輔胤が下総千葉氏の本拠として築城。約100年間の居城となった。',
+          zhTw: '文明年間(1469-87年)千葉輔胤作為下總千葉氏本據築城。成為約100年的居城。',
+          en: 'Built around 1469–87 by Chiba Suketane as the headquarters of the Shimōsa Chiba clan for about a century.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '関東有数の大豪族・千葉氏の最後の本拠地であり、戦国時代の下総を支配した。',
+          zhTw: '關東首屈一指大豪族千葉氏的最後本據地，支配戰國時代的下總。',
+          en: 'The last headquarters of the Chiba, one of Kantō\'s mightiest clans, who ruled Shimōsa in the Sengoku era.',
+        },
+      },
+      {
+        year: 1590,
+        event: {
+          ja: '1590年の小田原征伐で千葉氏が滅亡し、廃城。その後佐倉に新城（佐倉城）が築かれた。',
+          zhTw: '1590年小田原征伐千葉氏滅亡而廢城。其後於佐倉築新城（佐倉城）。',
+          en: 'The Chiba fell in the 1590 Odawara campaign and the castle was abandoned; a new castle (Sakura) was later built nearby.',
+        },
+      },
     ],
     figures: [
       { ja: '千葉輔胤 — 千葉氏中興の祖。享徳の乱後に本佐倉城を築き、一族の再起を図った。', zhTw: '千葉輔胤 — 千葉氏中興之祖。享德之亂後築本佐倉城，圖謀一族再起。', en: 'Chiba Suketane — restorer of the Chiba clan, who built Moto-Sakura after the Kyōtoku War to revive his lineage.' },
@@ -6742,10 +8226,10 @@ export const castles = [
       { ja: '印旛沼に面した台地の先端に築かれた平山城。内郭と外郭からなる大規模な城郭。', zhTw: '建於面向印旛沼台地前端的平山城。由內郭與外郭組成的大規模城郭。', en: 'A hilltop castle on a plateau tip facing Lake Inba, a large fortress with inner and outer compounds.' },
     ],
   },
-  // #175 大多喜城 — Kanto
+  // #122 大多喜城 — Kanto
   {
     id: 'otaki',
-    number: 175,
+    number: 122,
     regionId: 'kanto',
     name: { ja: '大多喜城', zhTw: '大多喜城', en: 'Ōtaki Castle' },
     city: { ja: '大多喜町', zhTw: '大多喜町', en: 'Ōtaki' },
@@ -6756,9 +8240,28 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#7A7A8A', roofColor: '#4A4A5A' },
     goshuin: { bg: '#e8e8f5', ink: '#28283d', seal: '#8b0000', crest: '#7A7A8A' },
     history: [
-      { ja: '天正18年(1590年)、本多忠勝が10万石で入封し、近世城郭として整備。', zhTw: '天正18年(1590年)本多忠勝以10萬石入封，整備為近世城郭。', en: 'In 1590 Honda Tadakatsu entered with 100,000 koku and developed it as an early-modern castle.' },
-      { ja: '忠勝は徳川四天王の一人で、戦国最強の武将と讃えられた猛将。', zhTw: '忠勝是德川四天王之一，被讚為戰國最強武將的猛將。', en: 'Tadakatsu, one of the Four Heavenly Kings of Tokugawa, was hailed as the mightiest warrior of the Sengoku era.' },
-      { ja: '本多家の後、阿部・大河内松平氏など譜代大名が歴代藩主を務めた。', zhTw: '本多家之後，阿部、大河內松平氏等譜代大名歷任藩主。', en: 'After the Honda, fudai lords including the Abe and Ōkōchi-Matsudaira clans served as successive domain lords.' },
+      {
+        year: 1590,
+        event: {
+          ja: '本多忠勝が10万石で入封し、近世城郭として整備。',
+          zhTw: ')本多忠勝以10萬石入封，整備為近世城郭。',
+          en: 'Honda Tadakatsu entered with 100,000 koku and developed it as an early-modern castle.',
+        },
+      },
+      {
+        year: 1590, event: {
+          ja: '忠勝は徳川四天王の一人で、戦国最強の武将と讃えられた猛将。',
+          zhTw: '忠勝是德川四天王之一，被讚為戰國最強武將的猛將。',
+          en: 'Tadakatsu, one of the Four Heavenly Kings of Tokugawa, was hailed as the mightiest warrior of the Sengoku era.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '本多家の後、阿部・大河内松平氏など譜代大名が歴代藩主を務めた。',
+          zhTw: '本多家之後，阿部、大河內松平氏等譜代大名歷任藩主。',
+          en: 'After the Honda, fudai lords including the Abe and Ōkōchi-Matsudaira clans served as successive domain lords.',
+        },
+      },
     ],
     figures: [
       { ja: '本多忠勝 — 生涯57度の戦に臨み一度も傷を負わなかったという伝説の猛将。名槍「蜻蛉切」を振るった。', zhTw: '本多忠勝 — 生涯經歷57場戰鬥未曾負傷的傳奇猛將。揮舞名槍「蜻蛉切」。', en: 'Honda Tadakatsu — a legendary warrior who fought 57 battles without a single wound, wielding the famed spear "Tonbogiri."' },
@@ -6775,10 +8278,10 @@ export const castles = [
       { ja: '夷隅川の段丘上に築かれた平山城。本丸・二の丸・三の丸を階段状に配置。', zhTw: '建於夷隅川階地上的平山城。本丸、二之丸、三之丸階梯狀配置。', en: 'A hilltop castle on an Isumi River terrace, with honmaru, ni-no-maru, and san-no-maru in tiered arrangement.' },
     ],
   },
-  // #176 滝山城 — Kanto
+  // #123 滝山城 — Kanto
   {
     id: 'takiyama',
-    number: 176,
+    number: 123,
     regionId: 'kanto',
     name: { ja: '滝山城', zhTw: '瀧山城', en: 'Takiyama Castle' },
     city: { ja: '八王子市', zhTw: '八王子市', en: 'Hachiōji' },
@@ -6786,12 +8289,32 @@ export const castles = [
     type: 'hirayama',
     designation: '国指定史跡',
     position: { x: 74, y: 56 },
-    illustration: { style: 'ruins', tiers: 1, color: '#6A7A6A', roofColor: '#3A4A3A' },
-    goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#6A7A6A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8A8979', roofColor: '#5A5948' },
+    goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#8A8979' },
     history: [
-      { ja: '大永元年(1521年)、大石定重が多摩川南岸の丘陵上に築城。', zhTw: '大永元年(1521年)大石定重於多摩川南岸丘陵上築城。', en: 'Built in 1521 by Ōishi Sadashige on a hill above the southern bank of the Tama River.' },
-      { ja: '北条氏照が入城し、関東最大級の中世城郭に拡張。東京都内最大の城跡。', zhTw: '北條氏照入城，擴張為關東最大級的中世城郭。東京都內最大城跡。', en: 'Hōjō Ujiteru expanded it into one of the largest medieval castles in Kantō — Tokyo\'s biggest castle ruin.' },
-      { ja: '1569年、武田信玄の小田原攻めの際に武田軍の攻撃を受け、激戦の末に凌いだが、氏照は八王子城へ移った。', zhTw: '1569年武田信玄進攻小田原時遭武田軍攻擊，激戰後倖存，但氏照移往八王子城。', en: 'Attacked by Takeda Shingen in 1569, it survived fierce combat, but Ujiteru relocated to Hachiōji Castle afterward.' },
+      {
+        year: 1521,
+        event: {
+          ja: '大石定重が多摩川南岸の丘陵上に築城。',
+          zhTw: ')大石定重於多摩川南岸丘陵上築城。',
+          en: 'Built by Ōishi Sadashige on a hill above the southern bank of the Tama River.',
+        },
+      },
+      {
+        year: 1569, event: {
+          ja: '北条氏照が入城し、関東最大級の中世城郭に拡張。東京都内最大の城跡。',
+          zhTw: '北條氏照入城，擴張為關東最大級的中世城郭。東京都內最大城跡。',
+          en: 'Hōjō Ujiteru expanded it into one of the largest medieval castles in Kantō — Tokyo\'s biggest castle ruin.',
+        },
+      },
+      {
+        year: 1569,
+        event: {
+          ja: '武田信玄の小田原攻めの際に武田軍の攻撃を受け、激戦の末に凌いだが、氏照は八王子城へ移った。',
+          zhTw: '武田信玄進攻小田原時遭武田軍攻擊，激戰後倖存，但氏照移往八王子城。',
+          en: 'Attacked by Takeda Shingen in 1569, it survived fierce combat, but Ujiteru relocated to Hachiōji Castle afterward.',
+        },
+      },
     ],
     figures: [
       { ja: '北条氏照 — 北条氏康の三男。滝山城を関東有数の大城郭に整備した。', zhTw: '北條氏照 — 北條氏康三子。將瀧山城整備為關東首屈一指的大城郭。', en: 'Hōjō Ujiteru — third son of Hōjō Ujiyasu, who developed Takiyama into one of Kantō\'s great fortresses.' },
@@ -6809,10 +8332,10 @@ export const castles = [
       { ja: '馬出し・枡形虎口・横堀など北条氏特有の防御技法が随所に見られる。', zhTw: '馬出、枡形虎口、橫堀等北條氏特有防禦技法隨處可見。', en: 'Hōjō-style defenses — umadashi outworks, masugata gates, and lateral moats — appear throughout.' },
     ],
   },
-  // #177 品川台場 — Kanto
+  // #124 品川台場 — Kanto
   {
     id: 'shinagawa-daiba',
-    number: 177,
+    number: 124,
     regionId: 'kanto',
     name: { ja: '品川台場', zhTw: '品川台場', en: 'Shinagawa Daiba' },
     city: { ja: '港区', zhTw: '港區', en: 'Minato' },
@@ -6823,9 +8346,28 @@ export const castles = [
     illustration: { style: 'star-fort', tiers: 1, color: '#6A7A8A', roofColor: '#3A4A5A' },
     goshuin: { bg: '#e8f0f5', ink: '#283a4a', seal: '#8b0000', crest: '#6A7A8A' },
     history: [
-      { ja: '嘉永6年(1853年)、ペリー来航の脅威を受けて江川英龍の設計で品川沖に築造された海上砲台。', zhTw: '嘉永6年(1853年)因培里來航的威脅，由江川英龍設計在品川沖築造的海上砲台。', en: 'Maritime gun batteries built offshore at Shinagawa in 1853, designed by Egawa Hidetatsu in response to Perry\'s arrival.' },
-      { ja: '当初11基の計画だったが、実際に完成したのは第一～第三、第五、第六の5基。', zhTw: '原計劃11座，實際完成的為第一至第三、第五、第六共5座。', en: 'Eleven were planned, but only five were completed: No. 1 through No. 3, No. 5, and No. 6.' },
-      { ja: '品川台場の存在がペリーの二度目の来航時に江戸湾への直接侵入を思いとどまらせたとされる。', zhTw: '品川台場的存在據說使培里第二次來航時打消直接侵入江戶灣的念頭。', en: 'Their presence reportedly deterred Perry from directly entering Edo Bay during his second visit.' },
+      {
+        year: 1853,
+        event: {
+          ja: 'ペリー来航の脅威を受けて江川英龍の設計で品川沖に築造された海上砲台。',
+          zhTw: ')因培里來航的威脅，由江川英龍設計在品川沖築造的海上砲台。',
+          en: 'Maritime gun batteries built offshore at Shinagawa in 1853, designed by Egawa Hidetatsu in response to Perry\'s arrival.',
+        },
+      },
+      {
+        year: 1854, event: {
+          ja: '当初11基の計画だったが、実際に完成したのは第一～第三、第五、第六の5基。',
+          zhTw: '原計劃11座，實際完成的為第一至第三、第五、第六共5座。',
+          en: 'Eleven were planned, but only five were completed: No. 1 through No. 3, No. 5, and No. 6.',
+        },
+      },
+      {
+        year: 1853, event: {
+          ja: '品川台場の存在がペリーの二度目の来航時に江戸湾への直接侵入を思いとどまらせたとされる。',
+          zhTw: '品川台場的存在據說使培里第二次來航時打消直接侵入江戶灣的念頭。',
+          en: 'Their presence reportedly deterred Perry from directly entering Edo Bay during his second visit.',
+        },
+      },
     ],
     figures: [
       { ja: '江川英龍（太郎左衛門） — 韮山代官。西洋砲術に精通し、台場の設計を担当した幕末の先覚者。', zhTw: '江川英龍（太郎左衛門） — 韮山代官。精通西洋砲術，負責台場設計的幕末先覺者。', en: 'Egawa Hidetatsu — Nirayama magistrate and Bakumatsu visionary, an expert in Western gunnery who designed the batteries.' },
@@ -6844,10 +8386,10 @@ export const castles = [
       { ja: '伊豆石を用いた石垣と内部の煉瓦構造が和洋折衷の軍事建築を示す。', zhTw: '使用伊豆石的石垣與內部磚構造展示和洋折衷的軍事建築。', en: 'Izu-stone walls and internal brick structures represent a Japanese-Western hybrid military architecture.' },
     ],
   },
-  // #178 郡上八幡城 — Chubu
+  // #141 郡上八幡城 — Chubu
   {
     id: 'gujo-hachiman',
-    number: 178,
+    number: 141,
     regionId: 'chubu',
     name: { ja: '郡上八幡城', zhTw: '郡上八幡城', en: 'Gujō Hachiman Castle' },
     city: { ja: '郡上市', zhTw: '郡上市', en: 'Gujō' },
@@ -6858,9 +8400,29 @@ export const castles = [
     illustration: { style: 'classic', tiers: 4, color: '#8A8A7A', roofColor: '#5A5A4A' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#8A8A7A' },
     history: [
-      { ja: '永禄2年(1559年)、遠藤盛数が八幡山山頂に築城。長良川の支流・吉田川沿いの要衝。', zhTw: '永祿2年(1559年)遠藤盛數於八幡山山頂築城。長良川支流吉田川沿岸的要衝。', en: 'Built in 1559 by Endō Morikazu atop Mt. Hachiman, a strategic point along the Yoshida River, a tributary of the Nagara.' },
-      { ja: '稲葉貞通・遠藤慶隆らが城主を務め、美濃と飛驒を結ぶ交通の要として機能した。', zhTw: '稻葉貞通、遠藤慶隆等歷任城主，作為連結美濃與飛驒的交通要衝。', en: 'Lords like Inaba Sadamichi and Endō Yoshitaka governed, the castle functioning as a key link between Mino and Hida.' },
-      { ja: '1933年に木造で再建された天守は、日本最古の木造再建天守として貴重。', zhTw: '1933年以木造再建的天守，作為日本最古老的木造再建天守珍貴。', en: 'The wooden tenshu rebuilt in 1933 is Japan\'s oldest wooden reconstructed keep, a valuable rarity.' },
+      {
+        year: 1559,
+        event: {
+          ja: '遠藤盛数が八幡山山頂に築城。長良川の支流・吉田川沿いの要衝。',
+          zhTw: ')遠藤盛數於八幡山山頂築城。長良川支流吉田川沿岸的要衝。',
+          en: 'Built by Endō Morikazu atop Mt. Hachiman, a strategic point along the Yoshida River, a tributary of the Nagara.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '稲葉貞通・遠藤慶隆らが城主を務め、美濃と飛驒を結ぶ交通の要として機能した。',
+          zhTw: '稻葉貞通、遠藤慶隆等歷任城主，作為連結美濃與飛驒的交通要衝。',
+          en: 'Lords like Inaba Sadamichi and Endō Yoshitaka governed, the castle functioning as a key link between Mino and Hida.',
+        },
+      },
+      {
+        year: 1933,
+        event: {
+          ja: '木造で再建された天守は、日本最古の木造再建天守として貴重。',
+          zhTw: '以木造再建的天守，作為日本最古老的木造再建天守珍貴。',
+          en: 'The wooden tenshu rebuilt in 1933 is Japan\'s oldest wooden reconstructed keep, a valuable rarity.',
+        },
+      },
     ],
     figures: [
       { ja: '遠藤盛数 — 郡上一円を支配した武将で、東氏を滅ぼし八幡山に城を築いた。', zhTw: '遠藤盛數 — 支配郡上一帶的武將，滅東氏後於八幡山築城。', en: 'Endō Morikazu — a warlord who controlled all Gujō, destroyed the Tō clan, and built his castle on Mt. Hachiman.' },
@@ -6878,10 +8440,10 @@ export const castles = [
       { ja: '八幡山(標高354m)山頂に本丸を置く山城。山麓から山頂まで石垣が連なる。', zhTw: '於八幡山(標高354m)山頂設本丸的山城。從山腳到山頂石垣連綿。', en: 'A mountain castle with honmaru atop 354m Mt. Hachiman, stone walls running continuously from base to summit.' },
     ],
   },
-  // #179 苗木城 — Chubu
+  // #142 苗木城 — Chubu
   {
     id: 'naegi',
-    number: 179,
+    number: 142,
     regionId: 'chubu',
     name: { ja: '苗木城', zhTw: '苗木城', en: 'Naegi Castle' },
     city: { ja: '中津川市', zhTw: '中津川市', en: 'Nakatsugawa' },
@@ -6892,9 +8454,27 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A6A5A', roofColor: '#4A3A2A' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#8b0000', crest: '#7A6A5A' },
     history: [
-      { ja: '天文年間(1532-55年)、遠山正廉が木曽川右岸の巨岩の山に築城。', zhTw: '天文年間(1532-55年)遠山正廉於木曾川右岸巨岩之山築城。', en: 'Built around 1532–55 by Tōyama Masanori on a rocky mountain above the right bank of the Kiso River.' },
-      { ja: '遠山氏が12代にわたって治めた1万石の小藩だが、天然の要害で難攻不落を誇った。', zhTw: '遠山氏統治12代的1萬石小藩，但以天然要害自豪難攻不落。', en: 'The Tōyama ruled for 12 generations with just 10,000 koku, but the natural defenses made it impregnable.' },
-      { ja: '巨岩の上に懸造りで建物を建てる独自の建築で、「岩山の城」として知られる。', zhTw: '在巨岩上以懸造建築建造建物的獨自建築，以「岩山之城」聞名。', en: 'Known as the "castle on rocks" for its unique kake-zukuri (overhang) construction atop giant boulders.' },
+      {
+        year: 1532, event: {
+          ja: '天文年間(1532-55年)、遠山正廉が木曽川右岸の巨岩の山に築城。',
+          zhTw: '天文年間(1532-55年)遠山正廉於木曾川右岸巨岩之山築城。',
+          en: 'Built around 1532–55 by Tōyama Masanori on a rocky mountain above the right bank of the Kiso River.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '遠山氏が12代にわたって治めた1万石の小藩だが、天然の要害で難攻不落を誇った。',
+          zhTw: '遠山氏統治12代的1萬石小藩，但以天然要害自豪難攻不落。',
+          en: 'The Tōyama ruled for 12 generations with just 10,000 koku, but the natural defenses made it impregnable.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '巨岩の上に懸造りで建物を建てる独自の建築で、「岩山の城」として知られる。',
+          zhTw: '在巨岩上以懸造建築建造建物的獨自建築，以「岩山之城」聞名。',
+          en: 'Known as the "castle on rocks" for its unique kake-zukuri (overhang) construction atop giant boulders.',
+        },
+      },
     ],
     figures: [
       { ja: '遠山友政 — 関ヶ原の戦い後に苗木領を回復し、苗木藩の基盤を確立した。', zhTw: '遠山友政 — 關原之戰後恢復苗木領，確立苗木藩基礎。', en: 'Tōyama Tomomasa — recovered the Naegi domain after Sekigahara and established the Naegi han foundation.' },
@@ -6913,10 +8493,10 @@ export const castles = [
       { ja: '自然石をそのまま石垣に取り込む「自然石利用石垣」が特徴で、石と一体化した城。', zhTw: '以將自然石直接融入石垣的「自然石利用石垣」為特徵，與石一體化的城。', en: 'Characterized by walls incorporating natural boulders, creating a castle fused with the rock itself.' },
     ],
   },
-  // #180 美濃金山城 — Chubu
+  // #143 美濃金山城 — Chubu
   {
     id: 'mino-kaneyama',
-    number: 180,
+    number: 143,
     regionId: 'chubu',
     name: { ja: '美濃金山城', zhTw: '美濃金山城', en: 'Mino Kaneyama Castle' },
     city: { ja: '可児市', zhTw: '可兒市', en: 'Kani' },
@@ -6927,9 +8507,28 @@ export const castles = [
     illustration: { style: 'ruins', tiers: 1, color: '#8A7A5A', roofColor: '#5A4A2A' },
     goshuin: { bg: '#f5f0e0', ink: '#3d3810', seal: '#8b0000', crest: '#8A7A5A' },
     history: [
-      { ja: '天文6年(1537年)、斎藤正義が古城山(標高276m)に築城。当初は烏峰城と呼ばれた。', zhTw: '天文6年(1537年)齋藤正義於古城山(標高276m)築城。最初稱為烏峰城。', en: 'Built in 1537 by Saitō Masayoshi on 276m Mt. Kojō, originally called Ubō-jō (Crow Peak Castle).' },
-      { ja: '森可成・長可・蘭丸（成利）ら森一族の居城として知られる。織田信長の近習・森蘭丸の故郷。', zhTw: '作為森可成、長可、蘭丸（成利）等森一族居城聞名。織田信長近習森蘭丸的故鄉。', en: 'Known as the seat of the Mori clan — Mori Yoshinari, Nagayoshi, and Ranmaru — the hometown of Oda Nobunaga\'s page Mori Ranmaru.' },
-      { ja: '関ヶ原の戦い後に破城され、石垣や建物は加納城に転用された。', zhTw: '關原之戰後破城，石垣與建物轉用至加納城。', en: 'Demolished after Sekigahara; its stones and structures were repurposed for Kanō Castle.' },
+      {
+        year: 1537,
+        event: {
+          ja: '斎藤正義が古城山(標高276m)に築城。当初は烏峰城と呼ばれた。',
+          zhTw: ')齋藤正義於古城山(標高276m)築城。最初稱為烏峰城。',
+          en: 'Built by Saitō Masayoshi on 276m Mt. Kojō, originally called Ubō-jō (Crow Peak Castle).',
+        },
+      },
+      {
+        year: 1565, event: {
+          ja: '森可成・長可・蘭丸（成利）ら森一族の居城として知られる。織田信長の近習・森蘭丸の故郷。',
+          zhTw: '作為森可成、長可、蘭丸（成利）等森一族居城聞名。織田信長近習森蘭丸的故鄉。',
+          en: 'Known as the seat of the Mori clan — Mori Yoshinari, Nagayoshi, and Ranmaru — the hometown of Oda Nobunaga\'s page Mori Ranmaru.',
+        },
+      },
+      {
+        year: 1600, event: {
+          ja: '関ヶ原の戦い後に破城され、石垣や建物は加納城に転用された。',
+          zhTw: '關原之戰後破城，石垣與建物轉用至加納城。',
+          en: 'Demolished after Sekigahara; its stones and structures were repurposed for Kanō Castle.',
+        },
+      },
     ],
     figures: [
       { ja: '森蘭丸（成利） — 信長の小姓として寵愛を受けた美少年。本能寺の変で信長と共に散った。', zhTw: '森蘭丸（成利） — 作為信長小姓受寵愛的美少年。本能寺之變中與信長一同殞命。', en: 'Mori Ranmaru (Naritoshi) — a beautiful youth favored as Nobunaga\'s page, who perished alongside his lord at Honnō-ji.' },
@@ -6947,10 +8546,10 @@ export const castles = [
       { ja: '古城山山頂に本丸を置く連郭式山城。織豊系城郭の特徴を持つ総石垣の城。', zhTw: '於古城山山頂設本丸的連郭式山城。具有織豐系城郭特徵的全石垣之城。', en: 'A renkaku mountain castle with honmaru on Mt. Kojō summit, a fully stone-walled fortress in the Oda-Toyotomi style.' },
     ],
   },
-  // #181 興国寺城 — Chubu
+  // #145 興国寺城 — Chubu
   {
     id: 'kokokuji',
-    number: 181,
+    number: 145,
     regionId: 'chubu',
     name: { ja: '興国寺城', zhTw: '興國寺城', en: 'Kōkokuji Castle' },
     city: { ja: '沼津市', zhTw: '沼津市', en: 'Numazu' },
@@ -6958,12 +8557,30 @@ export const castles = [
     type: 'hirayama',
     designation: '国指定史跡',
     position: { x: 66, y: 58 },
-    illustration: { style: 'ruins', tiers: 1, color: '#7A8A7A', roofColor: '#4A5A4A' },
-    goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#7A8A7A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B8A7B', roofColor: '#5A5A4A' },
+    goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#8B8A7B' },
     history: [
-      { ja: '北条早雲（伊勢宗瑞）が最初に城主となった城として知られ、後北条氏発祥の地とされる。', zhTw: '以北條早雲（伊勢宗瑞）最初成為城主的城聞名，被視為後北條氏發祥之地。', en: 'Known as the first castle held by Hōjō Sōun (Ise Sōzui), regarded as the birthplace of the Later Hōjō clan.' },
-      { ja: '早雲はここを拠点に伊豆討ち入りを行い、戦国大名への道を切り開いた。', zhTw: '早雲以此為據點進行伊豆討入，開闢戰國大名之路。', en: 'From here Sōun launched his invasion of Izu, blazing the trail to become a Sengoku daimyō.' },
-      { ja: '今川・武田・北条の三者が争奪し、戦国時代を通じて重要な拠点であり続けた。', zhTw: '今川、武田、北條三方爭奪，貫穿戰國時代持續為重要據點。', en: 'Contested by the Imagawa, Takeda, and Hōjō, it remained a vital stronghold throughout the Sengoku period.' },
+      {
+        year: 1493, event: {
+          ja: '北条早雲（伊勢宗瑞）が最初に城主となった城として知られ、後北条氏発祥の地とされる。',
+          zhTw: '以北條早雲（伊勢宗瑞）最初成為城主的城聞名，被視為後北條氏發祥之地。',
+          en: 'Known as the first castle held by Hōjō Sōun (Ise Sōzui), regarded as the birthplace of the Later Hōjō clan.',
+        },
+      },
+      {
+        year: 1493, event: {
+          ja: '早雲はここを拠点に伊豆討ち入りを行い、戦国大名への道を切り開いた。',
+          zhTw: '早雲以此為據點進行伊豆討入，開闢戰國大名之路。',
+          en: 'From here Sōun launched his invasion of Izu, blazing the trail to become a Sengoku daimyō.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '今川・武田・北条の三者が争奪し、戦国時代を通じて重要な拠点であり続けた。',
+          zhTw: '今川、武田、北條三方爭奪，貫穿戰國時代持續為重要據點。',
+          en: 'Contested by the Imagawa, Takeda, and Hōjō, it remained a vital stronghold throughout the Sengoku period.',
+        },
+      },
     ],
     figures: [
       { ja: '北条早雲（伊勢宗瑞） — 戦国時代の幕を開けた先駆者。興国寺城から戦国大名への飛躍を遂げた。', zhTw: '北條早雲（伊勢宗瑞） — 開啟戰國時代的先驅。從興國寺城實現向戰國大名的飛躍。', en: 'Hōjō Sōun (Ise Sōzui) — a pioneer who ushered in the Sengoku era, leaping from Kōkokuji to become a great daimyō.' },
@@ -6981,10 +8598,10 @@ export const castles = [
       { ja: '北側の大土塁と大空堀は戦国時代の城郭防御の典型例として評価が高い。', zhTw: '北側的大土壘與大空堀作為戰國時代城郭防禦的典型範例評價很高。', en: 'The northern earthwork and dry moat are highly regarded as classic examples of Sengoku-era castle defense.' },
     ],
   },
-  // #182 村上城 — Chubu
+  // #131 村上城 — Chubu
   {
     id: 'murakami',
-    number: 182,
+    number: 131,
     regionId: 'chubu',
     name: { ja: '村上城', zhTw: '村上城', en: 'Murakami Castle' },
     city: { ja: '村上市', zhTw: '村上市', en: 'Murakami' },
@@ -6995,9 +8612,29 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A6A', roofColor: '#3A4A3A' },
     goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#6A7A6A' },
     history: [
-      { ja: '戦国時代、本庄繁長が臥牛山(標高135m)に築城。日本海に面した越後北部の要衝。', zhTw: '戰國時代本庄繁長於臥牛山(標高135m)築城。面向日本海的越後北部要衝。', en: 'Built in the Sengoku period by Honjō Shigenaga on 135m Mt. Gagyū, a key stronghold in northern Echigo facing the Sea of Japan.' },
-      { ja: '上杉謙信の家臣・本庄繁長は謙信に反乱を起こすも許され、後に上杉景勝に仕えた。', zhTw: '上杉謙信家臣本庄繁長雖反叛謙信但獲赦免，後侍奉上杉景勝。', en: 'Honjō Shigenaga, Kenshin\'s vassal, rebelled but was pardoned and later served Uesugi Kagekatsu.' },
-      { ja: '江戸時代は堀直奇が近世城郭に改修し、総石垣の見事な山城に生まれ変わった。', zhTw: '江戶時代堀直奇改修為近世城郭，蛻變為全石垣的精美山城。', en: 'In the Edo period Hori Naoyori renovated it into an early-modern castle with magnificent full stone walls.' },
+      {
+        year: '戦国時代',
+        event: {
+          ja: '本庄繁長が臥牛山(標高135m)に築城。日本海に面した越後北部の要衝。',
+          zhTw: '本庄繁長於臥牛山(標高135m)築城。面向日本海的越後北部要衝。',
+          en: 'Built in the Sengoku period by Honjō Shigenaga on 135m Mt. Gagyū, a key stronghold in northern Echigo facing the Sea of Japan.',
+        },
+      },
+      {
+        year: 1568, event: {
+          ja: '上杉謙信の家臣・本庄繁長は謙信に反乱を起こすも許され、後に上杉景勝に仕えた。',
+          zhTw: '上杉謙信家臣本庄繁長雖反叛謙信但獲赦免，後侍奉上杉景勝。',
+          en: 'Honjō Shigenaga, Kenshin\'s vassal, rebelled but was pardoned and later served Uesugi Kagekatsu.',
+        },
+      },
+      {
+        year: '江戸時代',
+        event: {
+          ja: '堀直奇が近世城郭に改修し、総石垣の見事な山城に生まれ変わった。',
+          zhTw: '堀直奇改修為近世城郭，蛻變為全石垣的精美山城。',
+          en: 'Hori Naoyori renovated it into an early-modern castle with magnificent full stone walls.',
+        },
+      },
     ],
     figures: [
       { ja: '堀直奇 — 築城の名手として知られ、村上城の石垣を整備した。', zhTw: '堀直奇 — 以築城名手聞名，整備村上城石垣。', en: 'Hori Naoyori — a renowned castle-builder who developed Murakami\'s stone walls.' },
@@ -7014,10 +8651,10 @@ export const castles = [
       { ja: '臥牛山山頂に本丸を置く平山城。山頂部は総石垣で、山麓には居館を配した。', zhTw: '於臥牛山山頂設本丸的平山城。山頂部全石垣，山腳配置居館。', en: 'A hilltop castle with honmaru atop Mt. Gagyū; the summit is fully stone-walled, with a residence at the base.' },
     ],
   },
-  // #183 高島城 — Chubu
+  // #130 高島城 — Chubu
   {
     id: 'takashima',
-    number: 183,
+    number: 130,
     regionId: 'chubu',
     name: { ja: '高島城', zhTw: '高島城', en: 'Takashima Castle' },
     city: { ja: '諏訪市', zhTw: '諏訪市', en: 'Suwa' },
@@ -7028,8 +8665,21 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#7A8A8A', roofColor: '#4A5A5A' },
     goshuin: { bg: '#e8f0f5', ink: '#283a4a', seal: '#8b0000', crest: '#7A8A8A' },
     history: [
-      { ja: '文禄元年(1592年)、日根野高吉が諏訪湖畔に築城。湖水に浮かぶ姿から「諏訪の浮城」と呼ばれた。', zhTw: '文祿元年(1592年)日根野高吉於諏訪湖畔築城。因浮於湖水的姿態被稱為「諏訪浮城」。', en: 'Built in 1592 by Hineno Takayoshi on the shore of Lake Suwa, called "Suwa\'s Floating Castle" for its lakeside appearance.' },
-      { ja: '諏訪氏が3万石で入封し、幕末まで10代にわたって治めた。', zhTw: '諏訪氏以3萬石入封，歷10代統治至幕末。', en: 'The Suwa clan entered with 30,000 koku and governed for ten generations until the Bakumatsu.' },
+      {
+        year: 1592,
+        event: {
+          ja: '日根野高吉が諏訪湖畔に築城。湖水に浮かぶ姿から「諏訪の浮城」と呼ばれた。',
+          zhTw: ')日根野高吉於諏訪湖畔築城。因浮於湖水的姿態被稱為「諏訪浮城」。',
+          en: 'Built by Hineno Takayoshi on the shore of Lake Suwa, called "Suwa\'s Floating Castle" for its lakeside appearance.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '諏訪氏が3万石で入封し、幕末まで10代にわたって治めた。',
+          zhTw: '諏訪氏以3萬石入封，歷10代統治至幕末。',
+          en: 'The Suwa clan entered with 30,000 koku and governed for ten generations until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '日根野高吉 — 豊臣秀吉の家臣。諏訪湖の地形を活かした水城を設計した築城の名手。', zhTw: '日根野高吉 — 豐臣秀吉家臣。活用諏訪湖地形設計水城的築城名手。', en: 'Hineno Takayoshi — Hideyoshi\'s vassal, a master builder who designed the water castle exploiting Lake Suwa\'s terrain.' },
@@ -7046,10 +8696,10 @@ export const castles = [
       { ja: '諏訪湖畔に築かれた輪郭式平城。本丸を水堀が囲み、三方を湖水が守った。', zhTw: '建於諏訪湖畔的輪郭式平城。本丸被水堀環繞，三面由湖水守護。', en: 'A rinkaku flatland castle on the Lake Suwa shore, its honmaru ringed by water moats, with the lake guarding three sides.' },
     ],
   },
-  // #184 富山城 — Chubu
+  // #134 富山城 — Chubu
   {
     id: 'toyama',
-    number: 184,
+    number: 134,
     regionId: 'chubu',
     name: { ja: '富山城', zhTw: '富山城', en: 'Toyama Castle' },
     city: { ja: '富山市', zhTw: '富山市', en: 'Toyama' },
@@ -7060,9 +8710,28 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#8A8A8A', roofColor: '#5A5A5A' },
     goshuin: { bg: '#f0f0f0', ink: '#3a3a3a', seal: '#8b0000', crest: '#8A8A8A' },
     history: [
-      { ja: '天文12年(1543年)、神保長職が神通川の流れを外堀に利用して築城。', zhTw: '天文12年(1543年)神保長職利用神通川水流為外堀築城。', en: 'Built in 1543 by Jinbō Nagamoto, using the Jinzū River\'s course as an outer moat.' },
-      { ja: '佐々成政が織田信長から越中一国を任され、富山城を大幅に改修・拡張した。', zhTw: '佐佐成政受織田信長託付越中一國，大幅改修擴張富山城。', en: 'Sassa Narimasa, entrusted with Etchū by Oda Nobunaga, extensively renovated and expanded the castle.' },
-      { ja: '前田利次が10万石で入封し、加賀藩の支藩・富山藩の藩庁として幕末まで機能した。', zhTw: '前田利次以10萬石入封，作為加賀藩支藩富山藩的藩廳運作至幕末。', en: 'Maeda Toshitsugu entered with 100,000 koku; it served as the seat of Toyama domain, a branch of Kaga, until the Bakumatsu.' },
+      {
+        year: 1543,
+        event: {
+          ja: '神保長職が神通川の流れを外堀に利用して築城。',
+          zhTw: ')神保長職利用神通川水流為外堀築城。',
+          en: 'Built by Jinbō Nagamoto, using the Jinzū River\'s course as an outer moat.',
+        },
+      },
+      {
+        year: 1581, event: {
+          ja: '佐々成政が織田信長から越中一国を任され、富山城を大幅に改修・拡張した。',
+          zhTw: '佐佐成政受織田信長託付越中一國，大幅改修擴張富山城。',
+          en: 'Sassa Narimasa, entrusted with Etchū by Oda Nobunaga, extensively renovated and expanded the castle.',
+        },
+      },
+      {
+        year: 1639, event: {
+          ja: '前田利次が10万石で入封し、加賀藩の支藩・富山藩の藩庁として幕末まで機能した。',
+          zhTw: '前田利次以10萬石入封，作為加賀藩支藩富山藩的藩廳運作至幕末。',
+          en: 'Maeda Toshitsugu entered with 100,000 koku; it served as the seat of Toyama domain, a branch of Kaga, until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '佐々成政 — 信長に仕えた猛将。秀吉に対抗するため厳冬の立山を越えた「さらさら越え」で知られる。', zhTw: '佐佐成政 — 侍奉信長的猛將。以對抗秀吉而在嚴冬翻越立山的「沙沙越」聞名。', en: 'Sassa Narimasa — a fierce Nobunaga vassal, famed for his "Sarasara-goe" crossing of Mt. Tateyama in deep winter to resist Hideyoshi.' },
@@ -7079,10 +8748,10 @@ export const castles = [
       { ja: '神通川を天然の外堀とした輪郭式平城。本丸を二重の堀で囲む。', zhTw: '以神通川為天然外堀的輪郭式平城。本丸以雙重堀環繞。', en: 'A rinkaku flatland castle using the Jinzū River as a natural outer moat, the honmaru enclosed by double moats.' },
     ],
   },
-  // #185 増山城 — Chubu
+  // #135 増山城 — Chubu
   {
     id: 'masuyama',
-    number: 185,
+    number: 135,
     regionId: 'chubu',
     name: { ja: '増山城', zhTw: '增山城', en: 'Masuyama Castle' },
     city: { ja: '砺波市', zhTw: '礪波市', en: 'Tonami' },
@@ -7093,9 +8762,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#6A7A5A' },
     history: [
-      { ja: '南北朝時代に築城されたと伝わる。越中三大山城の一つに数えられる。', zhTw: '傳為南北朝時代築城。被列為越中三大山城之一。', en: 'Traditionally built in the Nanboku-chō period, counted among the Three Great Mountain Castles of Etchū.' },
-      { ja: '神保長職の居城として越中の政治的中心の一つとなった。', zhTw: '作為神保長職居城成為越中政治中心之一。', en: 'As the seat of Jinbō Nagamoto, it became a political center of Etchū province.' },
-      { ja: '上杉謙信の越中侵攻で幾度も攻防が繰り広げられ、最終的に上杉氏の支配下に入った。', zhTw: '上杉謙信越中侵攻中多次攻防，最終進入上杉氏支配之下。', en: 'Repeatedly contested during Uesugi Kenshin\'s Etchū invasions, it ultimately fell under Uesugi control.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '築城されたと伝わる。越中三大山城の一つに数えられる。',
+          zhTw: '傳為南北朝時代築城。被列為越中三大山城之一。',
+          en: 'Traditionally built in the Nanboku-chō period, counted among the Three Great Mountain Castles of Etchū.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '神保長職の居城として越中の政治的中心の一つとなった。',
+          zhTw: '作為神保長職居城成為越中政治中心之一。',
+          en: 'As the seat of Jinbō Nagamoto, it became a political center of Etchū province.',
+        },
+      },
+      {
+        year: 1576, event: {
+          ja: '上杉謙信の越中侵攻で幾度も攻防が繰り広げられ、最終的に上杉氏の支配下に入った。',
+          zhTw: '上杉謙信越中侵攻中多次攻防，最終進入上杉氏支配之下。',
+          en: 'Repeatedly contested during Uesugi Kenshin\'s Etchū invasions, it ultimately fell under Uesugi control.',
+        },
+      },
     ],
     figures: [
       { ja: '神保長職 — 越中守護代。増山城を拠点に越中の支配を図ったが、上杉謙信に敗れた。', zhTw: '神保長職 — 越中守護代。以增山城為據點圖謀支配越中，但敗於上杉謙信。', en: 'Jinbō Nagamoto — Etchū deputy governor who based his rule at Masuyama but was defeated by Uesugi Kenshin.' },
@@ -7112,10 +8800,10 @@ export const castles = [
       { ja: '和田川右岸の丘陵上に築かれた連郭式山城。東西約1.2kmの広大な城域を持つ。', zhTw: '建於和田川右岸丘陵上的連郭式山城。東西約1.2km的廣大城域。', en: 'A renkaku mountain castle on hills above the Wada River\'s right bank, with grounds spanning 1.2km east to west.' },
     ],
   },
-  // #186 玄蕃尾城 — Chubu
+  // #140 玄蕃尾城 — Chubu
   {
     id: 'genbanoo',
-    number: 186,
+    number: 140,
     regionId: 'chubu',
     name: { ja: '玄蕃尾城', zhTw: '玄蕃尾城', en: 'Genbanoo Castle' },
     city: { ja: '敦賀市', zhTw: '敦賀市', en: 'Tsuruga' },
@@ -7123,12 +8811,31 @@ export const castles = [
     type: 'yamajiro',
     designation: '国指定史跡',
     position: { x: 55, y: 52 },
-    illustration: { style: 'ruins', tiers: 1, color: '#7A8A6A', roofColor: '#4A5A3A' },
-    goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#7A8A6A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8A8A79', roofColor: '#5A5A48' },
+    goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#8A8A79' },
     history: [
-      { ja: '天正11年(1583年)、柴田勝家が賤ヶ岳の戦いに備えて内中尾山に築いた陣城。', zhTw: '天正11年(1583年)柴田勝家為備戰賤岳之戰於內中尾山築造的陣城。', en: 'Built in 1583 by Shibata Katsuie on Mt. Uchinakao as a field fortification for the Battle of Shizugatake.' },
-      { ja: '賤ヶ岳の戦いは柴田勝家と羽柴秀吉の天下を賭けた決戦で、秀吉が勝利した。', zhTw: '賤岳之戰是柴田勝家與羽柴秀吉賭上天下的決戰，秀吉獲勝。', en: 'The Battle of Shizugatake was the decisive showdown between Shibata Katsuie and Hashiba Hideyoshi for supremacy — Hideyoshi won.' },
-      { ja: '勝家は敗戦後、北ノ庄城でお市の方と共に自害した。', zhTw: '勝家戰敗後在北之庄城與阿市一同自害。', en: 'After defeat, Katsuie committed seppuku at Kitanoshō Castle alongside Lady Oichi.' },
+      {
+        year: 1583,
+        event: {
+          ja: '柴田勝家が賤ヶ岳の戦いに備えて内中尾山に築いた陣城。',
+          zhTw: ')柴田勝家為備戰賤岳之戰於內中尾山築造的陣城。',
+          en: 'Built by Shibata Katsuie on Mt. Uchinakao as a field fortification for the Battle of Shizugatake.',
+        },
+      },
+      {
+        year: 1583, event: {
+          ja: '賤ヶ岳の戦いは柴田勝家と羽柴秀吉の天下を賭けた決戦で、秀吉が勝利した。',
+          zhTw: '賤岳之戰是柴田勝家與羽柴秀吉賭上天下的決戰，秀吉獲勝。',
+          en: 'The Battle of Shizugatake was the decisive showdown between Shibata Katsuie and Hashiba Hideyoshi for supremacy — Hideyoshi won.',
+        },
+      },
+      {
+        year: 1583, event: {
+          ja: '勝家は敗戦後、北ノ庄城でお市の方と共に自害した。',
+          zhTw: '勝家戰敗後在北之庄城與阿市一同自害。',
+          en: 'After defeat, Katsuie committed seppuku at Kitanoshō Castle alongside Lady Oichi.',
+        },
+      },
     ],
     figures: [
       { ja: '柴田勝家 — 織田家筆頭家老。「鬼柴田」「かかれ柴田」と恐れられた猛将。', zhTw: '柴田勝家 — 織田家首席家老。被畏懼為「鬼柴田」「衝鋒柴田」的猛將。', en: 'Shibata Katsuie — Oda clan chief retainer, a fierce warrior feared as "Demon Shibata" and "Charging Shibata."' },
@@ -7146,43 +8853,43 @@ export const castles = [
       { ja: '土塁・空堀・馬出しなど織豊系城郭の技法が随所に見られ、勝家の築城技術の高さを示す。', zhTw: '土壘、空堀、馬出等織豐系城郭技法隨處可見，展示勝家築城技術之高。', en: 'Oda-Toyotomi techniques — earthworks, dry moats, and umadashi throughout — attest to Katsuie\'s advanced fortification skills.' },
     ],
   },
-  // #187 鳥羽城 — Kinki
+  // #133 鮫ケ尾城 — Chubu
   {
-    id: 'toba',
-    number: 187,
-    regionId: 'kinki',
-    name: { ja: '鳥羽城', zhTw: '鳥羽城', en: 'Toba Castle' },
-    city: { ja: '鳥羽市', zhTw: '鳥羽市', en: 'Toba' },
-    prefecture: { ja: '三重県', zhTw: '三重縣', en: 'Mie' },
-    type: 'hirayama',
-    designation: '県指定史跡',
-    position: { x: 60, y: 64 },
-    illustration: { style: 'classic', tiers: 3, color: '#6A7A8A', roofColor: '#3A4A5A' },
-    goshuin: { bg: '#e8f0f5', ink: '#283a4a', seal: '#8b0000', crest: '#6A7A8A' },
+    id: 'samegao',
+    number: 133,
+    regionId: 'chubu',
+    name: { ja: '鮫ケ尾城', zhTw: '鮫尾城', en: 'Samegao Castle' },
+    city: { ja: '妙高市', zhTw: '妙高市', en: 'Myōkō' },
+    prefecture: { ja: '新潟県', zhTw: '新潟縣', en: 'Niigata' },
+    type: 'yamajiro',
+    designation: '国指定史跡',
+    position: { x: 70, y: 44 },
+    illustration: { style: 'yamashiro', tiers: 1, color: '#8A8878', roofColor: '#5A5848' },
+    goshuin: { bg: '#e8f0e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#8A8878' },
     history: [
-      { ja: '文禄3年(1594年)、九鬼嘉隆が鳥羽湾に面した小山に築城。大手門が海に向いた海城。', zhTw: '文祿3年(1594年)九鬼嘉隆於面向鳥羽灣的小山築城。大手門朝向海的海城。', en: 'Built in 1594 by Kuki Yoshitaka on a hill facing Toba Bay, a sea castle with its main gate opening toward the ocean.' },
-      { ja: '九鬼嘉隆は織田信長・豊臣秀吉に仕えた日本最強の水軍大将として知られる。', zhTw: '九鬼嘉隆以侍奉織田信長、豐臣秀吉的日本最強水軍大將聞名。', en: 'Kuki Yoshitaka was known as Japan\'s mightiest naval commander, serving both Oda Nobunaga and Toyotomi Hideyoshi.' },
-      { ja: '石田三成が建造を命じた日本最大の軍船「鬼宿丸」(日本丸)の母港でもあった。', zhTw: '也是石田三成下令建造的日本最大軍船「鬼宿丸」（日本丸）的母港。', en: 'It was also the home port of the "Oniyado-maru" (Nihon-maru), Japan\'s largest warship, ordered by Ishida Mitsunari.' },
+      { year: '戦国時代', event: { ja: '上杉氏の家臣・堀江氏が築いたとされる山城で、春日山城の支城として機能した。', zhTw: '據傳為上杉氏家臣堀江氏所築的山城，作為春日山城的支城運作。', en: 'A mountain castle believed built by the Horie clan, vassals of the Uesugi, serving as a satellite of Kasugayama Castle.' } },
+      { year: 1579, event: { ja: '御館の乱で上杉景虎が敗走し、鮫ケ尾城で自刃した。上杉家の内紛の悲劇の舞台。', zhTw: '御館之亂中上杉景虎敗走，在鮫尾城自盡。上杉家內鬥悲劇的舞台。', en: 'During the Otate no Ran, Uesugi Kagetora fled here and took his own life — a tragic stage of the Uesugi civil war.' } },
+      { year: 1579, event: { ja: '乱の終結後、鮫ケ尾城は廃城となり、上杉景勝が越後を統一した。', zhTw: '亂終結後鮫尾城廢城，上杉景勝統一越後。', en: 'After the conflict ended, Samegao was abandoned and Uesugi Kagekatsu unified Echigo.' } },
     ],
     figures: [
-      { ja: '九鬼嘉隆 — 鉄甲船（鉄板装甲の大船）を建造し、木津川口の戦いで毛利水軍を撃破した海の武将。', zhTw: '九鬼嘉隆 — 建造鐵甲船（鐵板裝甲大船），在木津川口之戰擊破毛利水軍的海之武將。', en: 'Kuki Yoshitaka — a naval warrior who built iron-clad ships and crushed the Mōri navy at the Battle of Kizugawaguchi.' },
+      { ja: '上杉景虎 — 北条氏康の七男で上杉謙信の養子。御館の乱で景勝に敗れ鮫ケ尾城で自刃した悲運の武将。', zhTw: '上杉景虎 — 北條氏康七子、上杉謙信養子。御館之亂敗於景勝，在鮫尾城自盡的悲運武將。', en: 'Uesugi Kagetora — seventh son of Hōjō Ujiyasu, adopted by Uesugi Kenshin. A tragic warrior who fell to Kagekatsu and died at Samegao.' },
     ],
     trivia: [
-      { ja: '大手門が海に面する城は日本でも極めて珍しく、水軍城の典型として注目される。', zhTw: '大手門面海的城在日本極為罕見，作為水軍城的典型受到關注。', en: 'A castle with its main gate facing the sea is extremely rare in Japan, drawing attention as a quintessential naval fortress.' },
-      { ja: '鳥羽は真珠養殖発祥の地で、御木本幸吉がこの地で世界初の真珠養殖に成功した。', zhTw: '鳥羽是珍珠養殖發祥地，御木本幸吉在此成功完成世界首次珍珠養殖。', en: 'Toba is the birthplace of pearl cultivation — Mikimoto Kōkichi achieved the world\'s first cultured pearl here.' },
+      { ja: '御館の乱は上杉謙信の死後に養子二人が後継を争った戦国有数の内紛。', zhTw: '御館之亂是上杉謙信死後兩名養子爭奪繼承的戰國著名內鬥。', en: 'The Otate no Ran was one of the Sengoku period\'s most notable civil wars — two adopted sons fighting over Kenshin\'s succession.' },
+      { ja: '城跡一帯はカタクリの群生地として知られ、春には紫色の花が斜面を覆う。', zhTw: '城跡一帶以片栗花群生地聞名，春天紫色花朵覆蓋斜面。', en: 'The castle ruins are known for colonies of dogtooth violets — purple flowers blanket the slopes in spring.' },
     ],
     highlights: [
-      { ja: '石垣と海の眺望 — 本丸跡の石垣から鳥羽湾と離島を望む海城ならではの景観。', zhTw: '石垣與海的眺望 — 從本丸跡石垣眺望鳥羽灣與離島的海城獨有景觀。', en: 'Walls and sea views — a uniquely maritime panorama of Toba Bay and offshore islands from the honmaru walls.' },
-      { ja: '三の丸広場 — 城跡公園として整備され、鳥羽の歴史を学べる。', zhTw: '三之丸廣場 — 整備為城跡公園，可學習鳥羽歷史。', en: 'San-no-maru plaza — maintained as a castle ruin park where visitors can learn Toba\'s history.' },
+      { ja: '堀切と土塁 — 尾根筋に大規模な堀切が連続し、中世山城の防御技術を体感できる。', zhTw: '堀切與土壘 — 稜線上連續大規模堀切，可體驗中世山城的防禦技術。', en: 'Trenches and earthworks — massive continuous trenches along the ridgeline showcase medieval mountain castle defenses.' },
+      { ja: '本丸跡からの眺望 — 妙高山や頸城平野を一望できる絶景ポイント。', zhTw: '本丸跡眺望 — 可一覽妙高山和頸城平野的絕景地點。', en: 'Panoramic views from the honmaru — a stunning vantage point overlooking Mt. Myōkō and the Kubiki Plain.' },
     ],
     architecture: [
-      { ja: '鳥羽湾に突き出た小山全体を城域とする海城。大手門が海側、搦手が陸側に向く。', zhTw: '以突入鳥羽灣的小山整體為城域的海城。大手門朝海側，搦手朝陸側。', en: 'A sea castle encompassing a small hill jutting into Toba Bay, with the main gate seaward and the rear gate landward.' },
+      { ja: '尾根上に本丸・二の丸・三の丸を連ねた連郭式山城。大規模な堀切で各郭を分断している。', zhTw: '於稜線上連接本丸、二之丸、三之丸的連郭式山城。以大規模堀切分隔各郭。', en: 'A renkaku-style mountain castle with honmaru, ni-no-maru, and san-no-maru aligned along a ridge, separated by large trenches.' },
     ],
   },
-  // #188 佐柿国吉城 — Chubu
+  // #139 佐柿国吉城 — Chubu
   {
     id: 'sagaki-kuniyoshi',
-    number: 188,
+    number: 139,
     regionId: 'chubu',
     name: { ja: '佐柿国吉城', zhTw: '佐柿國吉城', en: 'Sagaki Kuniyoshi Castle' },
     city: { ja: '美浜町', zhTw: '美濱町', en: 'Mihama' },
@@ -7193,9 +8900,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A5A', roofColor: '#4A4A2A' },
     goshuin: { bg: '#f5f5e0', ink: '#3d3d10', seal: '#8b0000', crest: '#7A7A5A' },
     history: [
-      { ja: '弘治2年(1556年)、粟屋勝久が若狭国の要衝に築城。', zhTw: '弘治2年(1556年)粟屋勝久於若狹國要衝築城。', en: 'Built in 1556 by Awaya Katsuhisa at a strategic point in Wakasa province.' },
-      { ja: '越前朝倉氏の度重なる侵攻を撃退し続け、「難攻不落の城」として名を馳せた。', zhTw: '持續擊退越前朝倉氏多次侵攻，以「難攻不落之城」揚名。', en: 'It repeatedly repelled invasions by the Echizen Asakura clan, earning fame as an "impregnable castle."' },
-      { ja: '織田信長の越前攻めの際に本陣が置かれ、天下統一への重要な拠点となった。', zhTw: '織田信長越前攻略時設為本陣，成為天下統一的重要據點。', en: 'Oda Nobunaga established his headquarters here during the Echizen campaign, making it a vital base for national unification.' },
+      {
+        year: 1556,
+        event: {
+          ja: '粟屋勝久が若狭国の要衝に築城。',
+          zhTw: ')粟屋勝久於若狹國要衝築城。',
+          en: 'Built by Awaya Katsuhisa at a strategic point in Wakasa province.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '越前朝倉氏の度重なる侵攻を撃退し続け、「難攻不落の城」として名を馳せた。',
+          zhTw: '持續擊退越前朝倉氏多次侵攻，以「難攻不落之城」揚名。',
+          en: 'It repeatedly repelled invasions by the Echizen Asakura clan, earning fame as an "impregnable castle."',
+        },
+      },
+      {
+        year: 1575, event: {
+          ja: '織田信長の越前攻めの際に本陣が置かれ、天下統一への重要な拠点となった。',
+          zhTw: '織田信長越前攻略時設為本陣，成為天下統一的重要據點。',
+          en: 'Oda Nobunaga established his headquarters here during the Echizen campaign, making it a vital base for national unification.',
+        },
+      },
     ],
     figures: [
       { ja: '粟屋勝久 — 若狭武田氏の重臣。朝倉氏の大軍を少数の兵で何度も退けた知勇兼備の武将。', zhTw: '粟屋勝久 — 若狹武田氏重臣。以少數兵力多次擊退朝倉氏大軍的智勇兼備武將。', en: 'Awaya Katsuhisa — a Wakasa Takeda retainer who repelled Asakura armies repeatedly with a small garrison, combining wisdom and valor.' },
@@ -7226,9 +8952,27 @@ export const castles = [
     illustration: { style: 'ancient', tiers: 1, color: '#8A7A5A', roofColor: '#5A4A2A' },
     goshuin: { bg: '#f5f0e0', ink: '#3d3810', seal: '#8b0000', crest: '#8A7A5A' },
     history: [
-      { ja: '7世紀後半、白村江の戦い(663年)の敗戦後に大和朝廷が築いた古代山城。', zhTw: '7世紀後半白村江之戰(663年)戰敗後大和朝廷築造的古代山城。', en: 'An ancient mountain fortress built by the Yamato court in the late 7th century after the defeat at the Battle of Baekgang (663).' },
-      { ja: '大宰府の防衛を支える兵站基地として機能し、食糧・武器の備蓄拠点だった。', zhTw: '作為支援大宰府防衛的後勤基地運作，是糧食、武器的儲備據點。', en: 'It functioned as a logistics base supporting Dazaifu\'s defense, stockpiling food and weapons.' },
-      { ja: '日本書紀に「鞠智城」の名で記載される国家的防衛施設。', zhTw: '以「鞠智城」之名記載於日本書紀的國家防衛設施。', en: 'A state defense facility recorded as "Kikuchi-jō" in the Nihon Shoki chronicle.' },
+      {
+        year: 663, event: {
+          ja: '7世紀後半、白村江の戦い(663年)の敗戦後に大和朝廷が築いた古代山城。',
+          zhTw: '7世紀後半白村江之戰(663年)戰敗後大和朝廷築造的古代山城。',
+          en: 'An ancient mountain fortress built by the Yamato court in the late 7th century after the defeat at the Battle of Baekgang (663).',
+        },
+      },
+      {
+        year: 664, event: {
+          ja: '大宰府の防衛を支える兵站基地として機能し、食糧・武器の備蓄拠点だった。',
+          zhTw: '作為支援大宰府防衛的後勤基地運作，是糧食、武器的儲備據點。',
+          en: 'It functioned as a logistics base supporting Dazaifu\'s defense, stockpiling food and weapons.',
+        },
+      },
+      {
+        year: 664, event: {
+          ja: '日本書紀に「鞠智城」の名で記載される国家的防衛施設。',
+          zhTw: '以「鞠智城」之名記載於日本書紀的國家防衛設施。',
+          en: 'A state defense facility recorded as "Kikuchi-jō" in the Nihon Shoki chronicle.',
+        },
+      },
     ],
     figures: [
       { ja: '天智天皇 — 白村江の敗戦後、唐・新羅の侵攻に備えて西日本各地に古代山城を築いた。', zhTw: '天智天皇 — 白村江戰敗後為防備唐、新羅侵攻在西日本各地築造古代山城。', en: 'Emperor Tenji — after Baekgang, he ordered ancient mountain fortresses across western Japan to guard against Tang and Silla invasion.' },
@@ -7260,8 +9004,21 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#7A8A7A', roofColor: '#4A5A4A' },
     goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#7A8A7A' },
     history: [
-      { ja: '元和8年(1622年)、加藤忠広の命で加藤正方が築城。熊本城に次ぐ肥後の重要拠点。', zhTw: '元和8年(1622年)加藤忠廣之命由加藤正方築城。僅次於熊本城的肥後重要據點。', en: 'Built in 1622 by Katō Masamasa under Katō Tadahiro\'s orders, Higo\'s second most important stronghold after Kumamoto.' },
-      { ja: '一国一城令の例外として存続が認められた稀有な城。細川氏入封後も熊本藩の筆頭家老の居城となった。', zhTw: '作為一國一城令的例外被允許存續的罕見城郭。細川氏入封後也成為熊本藩首席家老的居城。', en: 'A rare exception to the one-castle edict, it remained the seat of the Kumamoto domain\'s chief retainer even after the Hosokawa took over.' },
+      {
+        year: 1622,
+        event: {
+          ja: '加藤忠広の命で加藤正方が築城。熊本城に次ぐ肥後の重要拠点。',
+          zhTw: ')加藤忠廣之命由加藤正方築城。僅次於熊本城的肥後重要據點。',
+          en: 'Built by Katō Masamasa under Katō Tadahiro\'s orders, Higo\'s second most important stronghold after Kumamoto.',
+        },
+      },
+      {
+        year: 1615, event: {
+          ja: '一国一城令の例外として存続が認められた稀有な城。細川氏入封後も熊本藩の筆頭家老の居城となった。',
+          zhTw: '作為一國一城令的例外被允許存續的罕見城郭。細川氏入封後也成為熊本藩首席家老的居城。',
+          en: 'A rare exception to the one-castle edict, it remained the seat of the Kumamoto domain\'s chief retainer even after the Hosokawa took over.',
+        },
+      },
     ],
     figures: [
       { ja: '松井興長 — 細川氏の筆頭家老として八代城を預かり、名君として治世を行った。', zhTw: '松井興長 — 作為細川氏首席家老掌管八代城，以名君進行治世。', en: 'Matsui Okinaga — as chief retainer of the Hosokawa, he governed Yatsushiro Castle wisely and justly.' },
@@ -7292,9 +9049,28 @@ export const castles = [
     illustration: { style: 'classic', tiers: 3, color: '#8A8A7A', roofColor: '#5A5A4A' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#8A8A7A' },
     history: [
-      { ja: '天正16年(1588年)、黒田孝高（官兵衛/如水）が中津川河口に築城。黒田氏の豊前国経営の拠点。', zhTw: '天正16年(1588年)黑田孝高（官兵衛/如水）於中津川河口築城。黑田氏的豐前國經營據點。', en: 'Built in 1588 by Kuroda Yoshitaka (Kanbei/Josui) at the Nakatsu River mouth, the Kuroda base for governing Buzen.' },
-      { ja: '日本三大水城の一つに数えられ、中津川の水を引き込んだ堀が城を守った。', zhTw: '被列為日本三大水城之一，引入中津川之水的護城河守護城郭。', en: 'Counted among Japan\'s Three Great Water Castles, its moats were fed by the Nakatsu River.' },
-      { ja: '細川忠興・小笠原長次・奥平昌成と城主が変わり、奥平氏が幕末まで治めた。', zhTw: '細川忠興、小笠原長次、奧平昌成等城主更迭，奧平氏統治至幕末。', en: 'Lords changed from Hosokawa Tadaoki to Ogasawara Nagatsugu to Okudaira Masanari, with the Okudaira ruling until the Bakumatsu.' },
+      {
+        year: 1588,
+        event: {
+          ja: '黒田孝高（官兵衛/如水）が中津川河口に築城。黒田氏の豊前国経営の拠点。',
+          zhTw: ')黑田孝高（官兵衛/如水）於中津川河口築城。黑田氏的豐前國經營據點。',
+          en: 'Built by Kuroda Yoshitaka (Kanbei/Josui) at the Nakatsu River mouth, the Kuroda base for governing Buzen.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '日本三大水城の一つに数えられ、中津川の水を引き込んだ堀が城を守った。',
+          zhTw: '被列為日本三大水城之一，引入中津川之水的護城河守護城郭。',
+          en: 'Counted among Japan\'s Three Great Water Castles, its moats were fed by the Nakatsu River.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '細川忠興・小笠原長次・奥平昌成と城主が変わり、奥平氏が幕末まで治めた。',
+          zhTw: '細川忠興、小笠原長次、奧平昌成等城主更迭，奧平氏統治至幕末。',
+          en: 'Lords changed from Hosokawa Tadaoki to Ogasawara Nagatsugu to Okudaira Masanari, with the Okudaira ruling until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '黒田官兵衛（孝高/如水） — 秀吉の天下取りを支えた稀代の軍師。中津城を自ら設計した。', zhTw: '黑田官兵衛（孝高/如水） — 支撐秀吉奪天下的稀代軍師。親自設計中津城。', en: 'Kuroda Kanbei (Yoshitaka/Josui) — the peerless strategist behind Hideyoshi\'s rise, who designed Nakatsu Castle himself.' },
@@ -7326,9 +9102,27 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A6A', roofColor: '#4A4A3A' },
     goshuin: { bg: '#f5f5e8', ink: '#3d3d28', seal: '#8b0000', crest: '#7A7A6A' },
     history: [
-      { ja: '弘安年間(1278-88年)、森朝通が角埋山(標高577m)に築城したと伝わる。', zhTw: '弘安年間(1278-88年)傳為森朝通於角埋山(標高577m)築城。', en: 'Traditionally built by Mori Tomomichi on 577m Mt. Tsunomure in the 1278–88 period.' },
-      { ja: '豊臣秀吉の九州征伐に際し、島津軍の猛攻に耐えた難攻不落の城として知られる。', zhTw: '豐臣秀吉九州征伐之際，以承受島津軍猛攻的難攻不落之城聞名。', en: 'During Hideyoshi\'s Kyūshū campaign, it withstood fierce Shimazu attacks, earning fame as an impregnable fortress.' },
-      { ja: '久留島氏（来島氏）が入封し、玖珠地方を幕末まで治めた。', zhTw: '久留島氏（來島氏）入封，統治玖珠地方至幕末。', en: 'The Kurushima (Kurushima/Kijima) clan entered and governed the Kusu area until the Bakumatsu.' },
+      {
+        year: 1278, event: {
+          ja: '弘安年間(1278-88年)、森朝通が角埋山(標高577m)に築城したと伝わる。',
+          zhTw: '弘安年間(1278-88年)傳為森朝通於角埋山(標高577m)築城。',
+          en: 'Traditionally built by Mori Tomomichi on 577m Mt. Tsunomure in the 1278–88 period.',
+        },
+      },
+      {
+        year: 1586, event: {
+          ja: '豊臣秀吉の九州征伐に際し、島津軍の猛攻に耐えた難攻不落の城として知られる。',
+          zhTw: '豐臣秀吉九州征伐之際，以承受島津軍猛攻的難攻不落之城聞名。',
+          en: 'During Hideyoshi\'s Kyūshū campaign, it withstood fierce Shimazu attacks, earning fame as an impregnable fortress.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '久留島氏（来島氏）が入封し、玖珠地方を幕末まで治めた。',
+          zhTw: '久留島氏（來島氏）入封，統治玖珠地方至幕末。',
+          en: 'The Kurushima (Kurushima/Kijima) clan entered and governed the Kusu area until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '久留島通嘉 — 久留島氏の藩主。玖珠の発展に尽力し、童話の里づくりの基盤を築いた。', zhTw: '久留島通嘉 — 久留島氏藩主。致力於玖珠的發展，奠定童話之里建設的基礎。', en: 'Kurushima Michiyoshi — a Kurushima lord who developed Kusu and laid the groundwork for its "Fairy Tale Village."' },
@@ -7359,9 +9153,28 @@ export const castles = [
     illustration: { style: 'classic', tiers: 2, color: '#8A7A6A', roofColor: '#5A4A3A' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#8b0000', crest: '#8A7A6A' },
     history: [
-      { ja: '永禄5年(1562年)、大友宗麟が臼杵湾の丹生島（海に浮かぶ岩山）に築城。', zhTw: '永祿5年(1562年)大友宗麟於臼杵灣的丹生島（浮於海上的岩山）築城。', en: 'Built in 1562 by Ōtomo Sōrin on Niujima, a rocky island floating in Usuki Bay.' },
-      { ja: '大友宗麟はキリシタン大名の代表格で、臼杵はキリスト教文化の中心地となった。', zhTw: '大友宗麟為基督徒大名的代表，臼杵成為基督教文化的中心地。', en: 'Ōtomo Sōrin was the quintessential Christian daimyō, and Usuki became a center of Christian culture.' },
-      { ja: '島津軍の侵攻に際し、ポルトガルから入手した大砲「国崩し」で応戦した逸話が有名。', zhTw: '島津軍侵攻之際以從葡萄牙入手的大砲「國崩」應戰的逸話聞名。', en: 'Famous for using "Kunizushi" — a cannon acquired from Portugal — to repel a Shimazu invasion.' },
+      {
+        year: 1562,
+        event: {
+          ja: '大友宗麟が臼杵湾の丹生島（海に浮かぶ岩山）に築城。',
+          zhTw: ')大友宗麟於臼杵灣的丹生島（浮於海上的岩山）築城。',
+          en: 'Built by Ōtomo Sōrin on Niujima, a rocky island floating in Usuki Bay.',
+        },
+      },
+      {
+        year: 1562, event: {
+          ja: '大友宗麟はキリシタン大名の代表格で、臼杵はキリスト教文化の中心地となった。',
+          zhTw: '大友宗麟為基督徒大名的代表，臼杵成為基督教文化的中心地。',
+          en: 'Ōtomo Sōrin was the quintessential Christian daimyō, and Usuki became a center of Christian culture.',
+        },
+      },
+      {
+        year: 1586, event: {
+          ja: '島津軍の侵攻に際し、ポルトガルから入手した大砲「国崩し」で応戦した逸話が有名。',
+          zhTw: '島津軍侵攻之際以從葡萄牙入手的大砲「國崩」應戰的逸話聞名。',
+          en: 'Famous for using "Kunizushi" — a cannon acquired from Portugal — to repel a Shimazu invasion.',
+        },
+      },
     ],
     figures: [
       { ja: '大友宗麟 — 豊後の王として九州に覇を唱えたキリシタン大名。洗礼名フランシスコ。', zhTw: '大友宗麟 — 作為豐後之王稱霸九州的基督徒大名。洗禮名法蘭西斯科。', en: 'Ōtomo Sōrin — a Christian daimyō who reigned over Kyūshū as the "King of Bungo," baptized as Francisco.' },
@@ -7392,9 +9205,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A6A', roofColor: '#3A4A3A' },
     goshuin: { bg: '#e8f5e8', ink: '#2a4a2a', seal: '#8b0000', crest: '#6A7A6A' },
     history: [
-      { ja: '慶長7年(1602年)、毛利高政が番匠川を見下ろす城山(標高144m)に築城。', zhTw: '慶長7年(1602年)毛利高政於俯瞰番匠川的城山(標高144m)築城。', en: 'Built in 1602 by Mōri Takamasa on 144m Castle Hill overlooking the Banshō River.' },
-      { ja: '毛利氏が12代にわたって佐伯2万石を治め、幕末まで続いた。', zhTw: '毛利氏12代統治佐伯2萬石，延續至幕末。', en: 'The Mōri governed Saiki\'s 20,000 koku for 12 generations until the Bakumatsu.' },
-      { ja: '山上に本丸、山麓に御殿（三の丸）を持つ山城と平城を組み合わせた構造。', zhTw: '山上有本丸、山腳有御殿（三之丸），結合山城與平城的構造。', en: 'A hybrid structure combining a mountain fortress (honmaru on the summit) with a flatland palace (san-no-maru at the base).' },
+      {
+        year: 1602,
+        event: {
+          ja: '毛利高政が番匠川を見下ろす城山(標高144m)に築城。',
+          zhTw: ')毛利高政於俯瞰番匠川的城山(標高144m)築城。',
+          en: 'Built by Mōri Takamasa on 144m Castle Hill overlooking the Banshō River.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '毛利氏が12代にわたって佐伯2万石を治め、幕末まで続いた。',
+          zhTw: '毛利氏12代統治佐伯2萬石，延續至幕末。',
+          en: 'The Mōri governed Saiki\'s 20,000 koku for 12 generations until the Bakumatsu.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '山上に本丸、山麓に御殿（三の丸）を持つ山城と平城を組み合わせた構造。',
+          zhTw: '山上有本丸、山腳有御殿（三之丸），結合山城與平城的構造。',
+          en: 'A hybrid structure combining a mountain fortress (honmaru on the summit) with a flatland palace (san-no-maru at the base).',
+        },
+      },
     ],
     figures: [
       { ja: '毛利高政 — 豊臣秀吉・徳川家康に仕え、佐伯藩の基盤を築いた初代藩主。', zhTw: '毛利高政 — 侍奉豐臣秀吉、德川家康，奠定佐伯藩基礎的初代藩主。', en: 'Mōri Takamasa — serving both Hideyoshi and Ieyasu, the first lord who laid Saiki domain\'s foundations.' },
@@ -7423,12 +9255,31 @@ export const castles = [
     type: 'hirayama',
     designation: '県指定史跡',
     position: { x: 27, y: 82 },
-    illustration: { style: 'ruins', tiers: 1, color: '#7A8A6A', roofColor: '#4A5A3A' },
-    goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#7A8A6A' },
+    illustration: { style: 'ruins', tiers: 1, color: '#8B8979', roofColor: '#5B5948' },
+    goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#8B8979' },
     history: [
-      { ja: '慶長8年(1603年)、高橋元種が五ヶ瀬川と大瀬川の合流点に築城。', zhTw: '慶長8年(1603年)高橋元種於五瀨川與大瀨川匯流點築城。', en: 'Built in 1603 by Takahashi Mototane at the confluence of the Gokase and Ōse rivers.' },
-      { ja: '有馬直純・三浦明敬・牧野貞成と城主が変わり、内藤氏が7万石で幕末まで治めた。', zhTw: '有馬直純、三浦明敬、牧野貞成等城主更迭，內藤氏以7萬石統治至幕末。', en: 'Lords changed from Arima to Miura to Makino, with the Naitō clan governing 70,000 koku until the Bakumatsu.' },
-      { ja: '西南戦争の激戦地となり、西郷軍と政府軍が城下で激突した。', zhTw: '成為西南戰爭激戰地，西鄉軍與政府軍在城下激烈交戰。', en: 'A fierce battleground during the Satsuma Rebellion, where Saigō\'s forces clashed with government troops below the castle.' },
+      {
+        year: 1603,
+        event: {
+          ja: '高橋元種が五ヶ瀬川と大瀬川の合流点に築城。',
+          zhTw: ')高橋元種於五瀨川與大瀨川匯流點築城。',
+          en: 'Built by Takahashi Mototane at the confluence of the Gokase and Ōse rivers.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '有馬直純・三浦明敬・牧野貞成と城主が変わり、内藤氏が7万石で幕末まで治めた。',
+          zhTw: '有馬直純、三浦明敬、牧野貞成等城主更迭，內藤氏以7萬石統治至幕末。',
+          en: 'Lords changed from Arima to Miura to Makino, with the Naitō clan governing 70,000 koku until the Bakumatsu.',
+        },
+      },
+      {
+        year: 1877, event: {
+          ja: '西南戦争の激戦地となり、西郷軍と政府軍が城下で激突した。',
+          zhTw: '成為西南戰爭激戰地，西鄉軍與政府軍在城下激烈交戰。',
+          en: 'A fierce battleground during the Satsuma Rebellion, where Saigō\'s forces clashed with government troops below the castle.',
+        },
+      },
     ],
     figures: [
       { ja: '内藤政挙 — 最後の延岡藩主。廃藩後も延岡の教育・産業振興に尽力した名君。', zhTw: '內藤政舉 — 最後的延岡藩主。廢藩後也致力於延岡的教育、產業振興的名君。', en: 'Naitō Masataka — the last Nobeoka lord, who devoted himself to education and industry even after the domain was abolished.' },
@@ -7460,9 +9311,27 @@ export const castles = [
     illustration: { style: 'mansion', tiers: 1, color: '#8A7A6A', roofColor: '#5A4A3A' },
     goshuin: { bg: '#f5f0e8', ink: '#3d3828', seal: '#8b0000', crest: '#8A7A6A' },
     history: [
-      { ja: '建武年間(1334-38年)、田島氏が築城したと伝わる。後に伊東氏の居城となった。', zhTw: '建武年間(1334-38年)傳為田島氏築城。後成為伊東氏居城。', en: 'Traditionally built by the Tajima clan in 1334–38; it later became the seat of the Itō clan.' },
-      { ja: '島津氏の日向侵攻で島津の手に渡り、島津家久が入城して佐土原藩の基盤を築いた。', zhTw: '島津氏日向侵攻中轉入島津手中，島津家久入城奠定佐土原藩基礎。', en: 'It fell to the Shimazu during their Hyūga invasion; Shimazu Iehisa entered and laid the foundations of Sadowara domain.' },
-      { ja: '島津氏の支藩として幕末まで存続し、山上の城と山麓の御殿で構成された。', zhTw: '作為島津氏支藩存續至幕末，由山上的城與山腳的御殿構成。', en: 'It survived as a Shimazu branch domain until the Bakumatsu, composed of a hilltop castle and a base palace.' },
+      {
+        year: 1334, event: {
+          ja: '建武年間(1334-38年)、田島氏が築城したと伝わる。後に伊東氏の居城となった。',
+          zhTw: '建武年間(1334-38年)傳為田島氏築城。後成為伊東氏居城。',
+          en: 'Traditionally built by the Tajima clan in 1334–38; it later became the seat of the Itō clan.',
+        },
+      },
+      {
+        year: 1577, event: {
+          ja: '島津氏の日向侵攻で島津の手に渡り、島津家久が入城して佐土原藩の基盤を築いた。',
+          zhTw: '島津氏日向侵攻中轉入島津手中，島津家久入城奠定佐土原藩基礎。',
+          en: 'It fell to the Shimazu during their Hyūga invasion; Shimazu Iehisa entered and laid the foundations of Sadowara domain.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '島津氏の支藩として幕末まで存続し、山上の城と山麓の御殿で構成された。',
+          zhTw: '作為島津氏支藩存續至幕末，由山上的城與山腳的御殿構成。',
+          en: 'It survived as a Shimazu branch domain until the Bakumatsu, composed of a hilltop castle and a base palace.',
+        },
+      },
     ],
     figures: [
       { ja: '島津家久 — 島津四兄弟の末弟。耳川の戦い・沖田畷の戦いで軍功を挙げた名将。', zhTw: '島津家久 — 島津四兄弟的么弟。在耳川之戰、沖田畷之戰中立下軍功的名將。', en: 'Shimazu Iehisa — the youngest of four Shimazu brothers, distinguished at the Battles of Mimigawa and Okitanawate.' },
@@ -7493,9 +9362,28 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#6A7A5A', roofColor: '#3A4A2A' },
     goshuin: { bg: '#f0f5e8', ink: '#2a3a1a', seal: '#8b0000', crest: '#6A7A5A' },
     history: [
-      { ja: '南北朝時代に築城されたと推定される。志布志湾を見下ろす複合的な山城群。', zhTw: '推定築於南北朝時代。俯瞰志布志灣的複合山城群。', en: 'Estimated to have been built in the Nanboku-chō period, a complex of mountain fortresses overlooking Shibushi Bay.' },
-      { ja: '楡井氏・畠山氏・新納氏・肝付氏と領主が変わり、最終的に島津氏の支配下に入った。', zhTw: '楡井氏、畠山氏、新納氏、肝付氏等領主更迭，最終進入島津氏支配。', en: 'Lords changed from Nirei to Hatakeyama to Niiro to Kimotsuki, ultimately falling under Shimazu control.' },
-      { ja: '内城・松尾城・高城・新城の4つの城が連結した大規模な城郭群。', zhTw: '內城、松尾城、高城、新城4座城連結的大規模城郭群。', en: 'A large-scale castle complex linking four forts: Uchi-jō, Matsuo-jō, Taka-jō, and Shin-jō.' },
+      {
+        year: '南北朝時代',
+        event: {
+          ja: '築城されたと推定される。志布志湾を見下ろす複合的な山城群。',
+          zhTw: '推定築於南北朝時代。俯瞰志布志灣的複合山城群。',
+          en: 'Estimated to have been built in the Nanboku-chō period, a complex of mountain fortresses overlooking Shibushi Bay.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '楡井氏・畠山氏・新納氏・肝付氏と領主が変わり、最終的に島津氏の支配下に入った。',
+          zhTw: '楡井氏、畠山氏、新納氏、肝付氏等領主更迭，最終進入島津氏支配。',
+          en: 'Lords changed from Nirei to Hatakeyama to Niiro to Kimotsuki, ultimately falling under Shimazu control.',
+        },
+      },
+      {
+        year: '戦国時代', event: {
+          ja: '内城・松尾城・高城・新城の4つの城が連結した大規模な城郭群。',
+          zhTw: '內城、松尾城、高城、新城4座城連結的大規模城郭群。',
+          en: 'A large-scale castle complex linking four forts: Uchi-jō, Matsuo-jō, Taka-jō, and Shin-jō.',
+        },
+      },
     ],
     figures: [
       { ja: '新納忠元 — 「鬼武蔵」と呼ばれた島津氏の猛将。志布志を拠点に大隅を支配した。', zhTw: '新納忠元 — 被稱為「鬼武藏」的島津氏猛將。以志布志為據點支配大隅。', en: 'Niiro Tadamoto — the fierce "Demon of Musashi" of the Shimazu, who controlled Ōsumi from Shibushi.' },
@@ -7527,8 +9415,21 @@ export const castles = [
     illustration: { style: 'yamashiro', tiers: 1, color: '#7A7A5A', roofColor: '#4A4A2A' },
     goshuin: { bg: '#f5f5e0', ink: '#3d3d10', seal: '#8b0000', crest: '#7A7A5A' },
     history: [
-      { ja: '鎌倉時代、知覧忠信が築城したと伝わる。シラス台地を利用した南九州の典型的山城。', zhTw: '鎌倉時代傳為知覽忠信築城。利用白砂台地的南九州典型山城。', en: 'Traditionally built by Chiran Tadanobu in the Kamakura period, a typical southern Kyūshū mountain castle exploiting Shirasu plateaus.' },
-      { ja: '佐多氏（島津氏の分家）が代々支配し、薩摩藩の外城制度の下で幕末まで続いた。', zhTw: '佐多氏（島津氏分家）代代支配，在薩摩藩外城制度下延續至幕末。', en: 'The Sata (a Shimazu branch) governed for generations under the Satsuma domain\'s outer-castle system until the Bakumatsu.' },
+      {
+        year: '鎌倉時代',
+        event: {
+          ja: '知覧忠信が築城したと伝わる。シラス台地を利用した南九州の典型的山城。',
+          zhTw: '傳為知覽忠信築城。利用白砂台地的南九州典型山城。',
+          en: 'Traditionally built by Chiran Tadanobu in the Kamakura period, a typical southern Kyūshū mountain castle exploiting Shirasu plateaus.',
+        },
+      },
+      {
+        year: '江戸時代', event: {
+          ja: '佐多氏（島津氏の分家）が代々支配し、薩摩藩の外城制度の下で幕末まで続いた。',
+          zhTw: '佐多氏（島津氏分家）代代支配，在薩摩藩外城制度下延續至幕末。',
+          en: 'The Sata (a Shimazu branch) governed for generations under the Satsuma domain\'s outer-castle system until the Bakumatsu.',
+        },
+      },
     ],
     figures: [
       { ja: '佐多氏 — 知覧を代々治めた島津分家。武家屋敷群の美しい庭園を造営した。', zhTw: '佐多氏 — 代代治理知覽的島津分家。營造武家屋敷群的優美庭園。', en: 'The Sata clan — a Shimazu branch that ruled Chiran for generations, building the beautiful samurai residence gardens.' },
@@ -7560,9 +9461,28 @@ export const castles = [
     illustration: { style: 'gusuku', tiers: 1, color: '#C8B896', roofColor: '#A09070' },
     goshuin: { bg: '#f5f0e0', ink: '#3d3810', seal: '#8b0000', crest: '#C8B896' },
     history: [
-      { ja: '15世紀初頭、護佐丸が築城。琉球王国の築城名人として名高い按司の傑作。', zhTw: '15世紀初護佐丸築城。琉球王國築城名人、享有盛名的按司的傑作。', en: 'Built in the early 15th century by Gosamaru, a masterpiece of the aji (lord) famed as Ryūkyū\'s greatest castle-builder.' },
-      { ja: '護佐丸は座喜味城を築いた後、中城城へ移り、座喜味城は廃城となった。', zhTw: '護佐丸築座喜味城後移往中城城，座喜味城廢城。', en: 'Gosamaru later moved to Nakagusuku Castle, and Zakimi was abandoned.' },
-      { ja: '2000年に「琉球王国のグスク及び関連遺産群」の一つとしてユネスコ世界遺産に登録。', zhTw: '2000年以「琉球王國城堡及相關遺產群」之一登錄為聯合國教科文組織世界遺產。', en: 'Inscribed as a UNESCO World Heritage Site in 2000 as part of "Gusuku Sites and Related Properties of the Kingdom of Ryūkyū."' },
+      {
+        year: '1400年代前半', event: {
+          ja: '15世紀初頭、護佐丸が築城。琉球王国の築城名人として名高い按司の傑作。',
+          zhTw: '15世紀初護佐丸築城。琉球王國築城名人、享有盛名的按司的傑作。',
+          en: 'Built in the early 15th century by Gosamaru, a masterpiece of the aji (lord) famed as Ryūkyū\'s greatest castle-builder.',
+        },
+      },
+      {
+        year: 1440, event: {
+          ja: '護佐丸は座喜味城を築いた後、中城城へ移り、座喜味城は廃城となった。',
+          zhTw: '護佐丸築座喜味城後移往中城城，座喜味城廢城。',
+          en: 'Gosamaru later moved to Nakagusuku Castle, and Zakimi was abandoned.',
+        },
+      },
+      {
+        year: 2000,
+        event: {
+          ja: '「琉球王国のグスク及び関連遺産群」の一つとしてユネスコ世界遺産に登録。',
+          zhTw: '以「琉球王國城堡及相關遺產群」之一登錄為聯合國教科文組織世界遺產。',
+          en: 'Inscribed as a UNESCO World Heritage Site in 2000 as part of "Gusuku Sites and Related Properties of the Kingdom of Ryūkyū."',
+        },
+      },
     ],
     figures: [
       { ja: '護佐丸 — 琉球王国随一の築城名人。座喜味城・中城城を築いた伝説的按司。', zhTw: '護佐丸 — 琉球王國首屈一指的築城名人。築造座喜味城、中城城的傳奇按司。', en: 'Gosamaru — Ryūkyū\'s foremost castle-builder, the legendary aji who constructed both Zakimi and Nakagusuku.' },
@@ -7596,9 +9516,28 @@ export const castles = [
     illustration: { style: 'gusuku', tiers: 1, color: '#D0C8A0', roofColor: '#B0A880' },
     goshuin: { bg: '#f5f0e0', ink: '#3d3810', seal: '#8b0000', crest: '#D0C8A0' },
     history: [
-      { ja: '13世紀頃に築城されたと推定される。勝連半島の丘陵上に築かれた壮大なグスク。', zhTw: '推定13世紀左右築城。建於勝連半島丘陵上的壯大城堡。', en: 'Estimated to have been built around the 13th century, a magnificent gusuku on a hill of the Katsuren Peninsula.' },
-      { ja: '阿麻和利が最後の城主として繁栄を極めたが、琉球王府に滅ぼされた。', zhTw: '阿麻和利作為最後城主極盡繁榮，但被琉球王府所滅。', en: 'Amawari, the last lord, brought the castle to its zenith, but was destroyed by the Ryūkyū royal court.' },
-      { ja: '2000年にユネスコ世界遺産に登録。琉球の歴史を語る上で欠かせないグスク。', zhTw: '2000年登錄為聯合國教科文組織世界遺產。述說琉球歷史不可或缺的城堡。', en: 'A UNESCO World Heritage Site since 2000, an indispensable gusuku for understanding Ryūkyūan history.' },
+      {
+        year: '1200年代', event: {
+          ja: '13世紀頃に築城されたと推定される。勝連半島の丘陵上に築かれた壮大なグスク。',
+          zhTw: '推定13世紀左右築城。建於勝連半島丘陵上的壯大城堡。',
+          en: 'Estimated to have been built around the 13th century, a magnificent gusuku on a hill of the Katsuren Peninsula.',
+        },
+      },
+      {
+        year: 1458, event: {
+          ja: '阿麻和利が最後の城主として繁栄を極めたが、琉球王府に滅ぼされた。',
+          zhTw: '阿麻和利作為最後城主極盡繁榮，但被琉球王府所滅。',
+          en: 'Amawari, the last lord, brought the castle to its zenith, but was destroyed by the Ryūkyū royal court.',
+        },
+      },
+      {
+        year: 2000,
+        event: {
+          ja: 'ユネスコ世界遺産に登録。琉球の歴史を語る上で欠かせないグスク。',
+          zhTw: '登錄為聯合國教科文組織世界遺產。述說琉球歷史不可或缺的城堡。',
+          en: 'A UNESCO World Heritage Site since 2000, an indispensable gusuku for understanding Ryūkyūan history.',
+        },
+      },
     ],
     figures: [
       { ja: '阿麻和利 — 勝連按司。海外貿易で財力を蓄え、琉球王府に反旗を翻した野心的な按司。', zhTw: '阿麻和利 — 勝連按司。以海外貿易積蓄財力，對琉球王府叛旗的野心按司。', en: 'Amawari — the Katsuren aji who amassed wealth through overseas trade and raised a rebellion against the Ryūkyū court.' },

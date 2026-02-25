@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: gofun cream with rounded rect for app icon -->
+  <rect width="512" height="512" rx="108" fill="#f5f0e8"/>
+
+  <!-- Castle silhouette - Japanese tenshu minimalist style -->
+  <g transform="translate(256, 260)">
+    <!-- Stone base (ishigaki) -->
+    <path d="M-120,100 Q-130,60 -100,40 L100,40 Q130,60 120,100 Z" fill="#2d4a3e" opacity="0.2"/>
+    <path d="M-110,90 Q-118,58 -92,42 L92,42 Q118,58 110,90 Z" fill="#2d4a3e" opacity="0.35"/>
+
+    <!-- Main body - 1st tier -->
+    <rect x="-80" y="-20" width="160" height="62" rx="2" fill="#2d4a3e"/>
+    <!-- 1st tier roof -->
+    <path d="M-110,-20 L0,-42 L110,-20" fill="none" stroke="#2d4a3e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 2nd tier body -->
+    <rect x="-52" y="-76" width="104" height="56" rx="2" fill="#2d4a3e"/>
+    <!-- 2nd tier roof -->
+    <path d="M-78,-76 L0,-96 L78,-76" fill="none" stroke="#2d4a3e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 3rd tier (top) body -->
+    <rect x="-30" y="-124" width="60" height="48" rx="2" fill="#2d4a3e"/>
+    <!-- Top roof -->
+    <path d="M-50,-124 L0,-144 L50,-124" fill="none" stroke="#2d4a3e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Shachi (finial) - simplified -->
+    <line x1="0" y1="-144" x2="0" y2="-158" stroke="#2d4a3e" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-162" r="5" fill="#2d4a3e"/>
+
+    <!-- Windows - 1st tier -->
+    <rect x="-50" y="-4" width="14" height="22" rx="2" fill="#f5f0e8" opacity="0.85"/>
+    <rect x="-7" y="-4" width="14" height="22" rx="2" fill="#f5f0e8" opacity="0.85"/>
+    <rect x="36" y="-4" width="14" height="22" rx="2" fill="#f5f0e8" opacity="0.85"/>
+
+    <!-- Windows - 2nd tier -->
+    <rect x="-30" y="-62" width="12" height="18" rx="2" fill="#f5f0e8" opacity="0.85"/>
+    <rect x="-6" y="-62" width="12" height="18" rx="2" fill="#f5f0e8" opacity="0.85"/>
+    <rect x="18" y="-62" width="12" height="18" rx="2" fill="#f5f0e8" opacity="0.85"/>
+
+    <!-- Window - 3rd tier -->
+    <rect x="-8" y="-112" width="16" height="20" rx="2" fill="#f5f0e8" opacity="0.85"/>
+  </g>
+</svg>

@@ -60,7 +60,7 @@ export default function BottomNav({ active, onChange }) {
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50">
       <div className="max-w-lg mx-auto bg-white/80 dark:bg-[#2a2a2a]/80 backdrop-blur-xl border-t border-black/5 dark:border-white/5">
-        <div className="flex items-center justify-around h-16 px-2 pb-safe">
+        <div className="flex items-center justify-around h-16 px-2">
           {tabs.map((tab) => {
             const isActive = active === tab.id;
             return (
@@ -86,6 +86,7 @@ export default function BottomNav({ active, onChange }) {
             );
           })}
         </div>
+        <div className="pb-safe" />
       </div>
     </nav>
   );

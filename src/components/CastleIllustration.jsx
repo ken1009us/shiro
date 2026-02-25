@@ -167,8 +167,6 @@ export default function CastleIllustration({ illustration, size = 160 }) {
 
       // ━━━ Ruins (城跡 — 石垣遺構) ━━━
       case 'ruins': {
-        // No StoneBase — the ruins ARE the main feature
-        const grassG = dk ? '#6a9a6a' : '#5a8a5a';
         return (
           <g>
             {/* Ground / hill shape */}
@@ -200,15 +198,6 @@ export default function CastleIllustration({ illustration, size = 160 }) {
             {[0.48, 0.56, 0.64, 0.72, 0.80].map((yR, i) => (
               <line key={`sr${i}`} x1={w * 0.58} y1={h * yR} x2={w * 0.78} y2={h * yR}
                 stroke={roofColor} strokeWidth={0.4} strokeOpacity={0.35} />
-            ))}
-
-            {/* Grass patches on top of walls */}
-            {[[0.26, 0.33], [0.33, 0.31], [0.37, 0.33], [0.62, 0.38], [0.72, 0.36]].map(([xr, yr], i) => (
-              <g key={`g${i}`}>
-                <path d={`M${w * xr - 3},${h * yr} Q${w * xr - 1},${h * yr - 5} ${w * xr},${h * yr - 7}
-                  Q${w * xr + 1},${h * yr - 5} ${w * xr + 3},${h * yr}`}
-                  fill={grassG} fillOpacity={0.7} />
-              </g>
             ))}
 
             {/* Tree growing beside the ruins */}
@@ -375,8 +364,6 @@ export default function CastleIllustration({ illustration, size = 160 }) {
       case 'palace': {
         return (
           <g>
-            <StoneBase topY={h * 0.60} topW={0.60} botW={0.72} />
-
             {/* Main hall — wide and low */}
             <rect x={cx - w * 0.30} y={h * 0.34} width={w * 0.60} height={h * 0.26}
               fill={white} stroke={roofColor} strokeWidth={0.4} />
@@ -401,8 +388,6 @@ export default function CastleIllustration({ illustration, size = 160 }) {
 
             {/* Gold decorative elements */}
             <rect x={cx - 2} y={h * 0.20} width={4} height={4} fill="#c48a2a" rx={1} />
-
-            <Ground />
           </g>
         );
       }

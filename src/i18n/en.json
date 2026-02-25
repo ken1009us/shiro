@@ -24,11 +24,31 @@
     "architecture": "Architecture",
     "type": "Castle Type",
     "designation": "Designation",
+    "series": "Series",
+    "seriesNames": {
+      "hyaku": "100 Famous Castles",
+      "zoku": "Continued 100 Castles"
+    },
     "markVisited": "Mark as Visited",
     "unmarkVisited": "Remove Visit",
     "favorite": "Favorite",
     "unfavorite": "Unfavorite",
     "visitedOn": "Visited on",
+    "selectDate": "Select visit date",
+    "confirmVisit": "Confirm",
+    "designations": {
+      "世界遺産": "World Heritage Site",
+      "国宝": "National Treasure",
+      "国宝・世界遺産": "National Treasure / World Heritage",
+      "国指定史跡": "National Historic Site",
+      "国指定特別史跡": "National Special Historic Site",
+      "市指定史跡": "City Historic Site",
+      "府指定史跡": "Prefectural Historic Site",
+      "特別史跡": "Special Historic Site",
+      "県指定史跡": "Prefectural Historic Site",
+      "県指定文化財": "Prefectural Cultural Property",
+      "重要文化財": "Important Cultural Property"
+    },
     "types": {
       "hirajiro": "Flatland Castle",
       "hirayama": "Hill Castle",
@@ -40,7 +60,11 @@
       "kodai": "Ancient Fortress",
       "chashi": "Chashi",
       "jinya": "Magistrate Office",
-      "yakata": "Manor"
+      "yakata": "Manor",
+      "castle-ruin": "Castle Ruin",
+      "ancient-fortress": "Ancient Mountain Fort",
+      "daiba": "Battery Fort",
+      "kodai-sanjo": "Ancient Mountain Fort"
     }
   },
   "collection": {
@@ -69,6 +93,8 @@
     "title": "Settings",
     "darkMode": "Dark Mode",
     "language": "Language",
+    "exportData": "Export Data",
+    "exportDesc": "Export your visit records and favorites to a file",
     "resetData": "Reset Data",
     "resetConfirm": "All visit data and favorites will be deleted. Are you sure?",
     "reset": "Reset",

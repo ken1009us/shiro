@@ -25,13 +25,20 @@ export function useCastleStore() {
     });
   }, []);
 
-  const markVisited = useCallback((castleId, notes = '') => {
+  const markVisited = useCallback((castleId, date) => {
     update((s) => ({
       ...s,
       visited: {
         ...s.visited,
-        [castleId]: { date: new Date().toISOString(), notes },
+        [castleId]: { date: date || new Date().toISOString(), notes: '' },
       },
+    }));
+  }, [update]);
+
+  const updateVisitDate = useCallback((castleId, newDate) => {
+    update((s) => ({
+      ...s,
+      visited: { ...s.visited, [castleId]: { ...s.visited[castleId], date: newDate } },
     }));
   }, [update]);
 
@@ -75,6 +82,7 @@ export function useCastleStore() {
   return {
     ...state,
     markVisited,
+    updateVisitDate,
     unmarkVisited,
     toggleFavorite,
     addAchievement,
