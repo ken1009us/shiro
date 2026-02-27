@@ -90,12 +90,33 @@ export const castles = [
       { ja: '蝦夷共和国は日本初の民主的選挙で指導者を選んだ政権とされ、わずか数ヶ月で終わった幻の共和国であった。', zhTw: '蝦夷共和國被視為日本首個以民主選舉選出領導者的政權，僅持續數月便成為幻之共和國。', en: 'The Republic of Ezo is considered the first government in Japan to elect its leader democratically, though the short-lived republic lasted only a few months.' },
     ],
     highlights: [
-      { ja: '五稜郭タワー展望台 — 星形の全景を見渡せる最高のビューポイント。', zhTw: '五稜郭塔展望台 — 俯瞰星形全景的最佳觀景點。', en: 'Goryōkaku Tower observation deck — the best vantage point to see the complete star shape from above.' },
-      { ja: '復元された箱館奉行所 — 幕末の行政機関を忠実に再現した歴史的建造物。', zhTw: '復原的箱館奉行所 — 忠實再現幕末行政機關的歷史建築。', en: 'Reconstructed Hakodate Magistrate\'s Office — a faithful recreation of the Bakumatsu-era administrative building.' },
+      {
+        ja: '五稜郭タワー展望台', zhTw: '五稜郭塔展望台', en: 'Goryōkaku Tower observation deck',
+        desc: {
+          ja: '星形の全景を見渡せる最高のビューポイント。',
+          zhTw: '俯瞰星形全景的最佳觀景點。',
+          en: 'the best vantage point to see the complete star shape from above.',
+        },
+      },
+      {
+        ja: '復元された箱館奉行所', zhTw: '復原的箱館奉行所', en: 'Reconstructed Hakodate Magistrate\'s Office',
+        desc: {
+          ja: '幕末の行政機関を忠実に再現した歴史的建造物。',
+          zhTw: '忠實再現幕末行政機關的歷史建築。',
+          en: 'a faithful recreation of the Bakumatsu-era administrative building.',
+        },
+      },
       { ja: '桜の季節（4月下旬〜5月）— 堀に映る桜と星形城郭が織りなす絶景。', zhTw: '櫻花季（4月下旬至5月）— 映照在護城河中的櫻花與星形城郭交織出的絕景。', en: 'Cherry blossom season (late April–May) — stunning views of sakura reflected in the moat around the star-shaped fort.' },
     ],
     architecture: [
-      { ja: 'ヴォーバン式星形要塞 — フランスの軍事技術者ヴォーバンが確立した稜堡式築城術に基づく日本唯一の本格的西洋式城郭。', zhTw: '沃邦式星形要塞 — 基於法國軍事工程師沃邦所確立的稜堡式築城術，日本唯一的正統西式城郭。', en: 'Vauban-style star fort — Japan\'s only authentic Western-style fortress based on the bastion fortification system established by French military engineer Vauban.' },
+      {
+        ja: 'ヴォーバン式星形要塞', zhTw: '沃邦式星形要塞', en: 'Vauban-style star fort',
+        desc: {
+          ja: 'フランスの軍事技術者ヴォーバンが確立した稜堡式築城術に基づく日本唯一の本格的西洋式城郭。',
+          zhTw: '基於法國軍事工程師沃邦所確立的稜堡式築城術，日本唯一的正統西式城郭。',
+          en: 'Japan\'s only authentic Western-style fortress based on the bastion fortification system established by French military engineer Vauban.',
+        },
+      },
       { ja: '半月堡（ラヴリン）— 大手口に設けられた三角形の外郭防御施設で、日本の城郭では極めて珍しい構造。', zhTw: '半月堡（ravelin）— 設於大手口的三角形外郭防禦設施，在日本城郭中極為罕見。', en: 'Half-moon ravelin at the main gate — a triangular outwork defense structure extremely rare among Japanese fortifications.' },
       { ja: '石垣は函館近郊の安山岩を使用し、稜堡の各角度が精密に計算された砲撃陣地を形成している。', zhTw: '石垣使用函館近郊的安山岩，稜堡各角度經精密計算形成砲擊陣地。', en: 'Stone walls built with local andesite, with each bastion angle precisely calculated to create interlocking fields of fire.' },
     ],
@@ -181,8 +202,22 @@ export const castles = [
     ],
     highlights: [
       { ja: '桜まつり（4月〜5月）— 日本三大桜名所の一つに数えられる圧巻の花見スポット。', zhTw: '櫻花祭（4月至5月）— 被列為日本三大櫻花名所之一的壯觀賞櫻景點。', en: 'Cherry blossom festival (April–May) — counted among Japan\'s top three cherry blossom viewing spots.' },
-      { ja: 'レールで移動中の天守 — 石垣修復が完了するまでの期間限定の珍しい光景。', zhTw: '正在軌道上移動的天守 — 石垣修復完成前的期間限定珍貴景象。', en: 'The keep on rails — a rare, limited-time sight until the stone wall restoration is complete.' },
-      { ja: '岩木山をバックにした雪景色の天守 — 冬の弘前城の代表的な風景。', zhTw: '以岩木山為背景的雪景天守 — 冬季弘前城的代表性風景。', en: 'Snow-covered keep with Mt. Iwaki in the background — the iconic winter view of Hirosaki Castle.' },
+      {
+        ja: 'レールで移動中の天守', zhTw: '正在軌道上移動的天守', en: 'The keep on rails',
+        desc: {
+          ja: '石垣修復が完了するまでの期間限定の珍しい光景。',
+          zhTw: '石垣修復完成前的期間限定珍貴景象。',
+          en: 'a rare, limited-time sight until the stone wall restoration is complete.',
+        },
+      },
+      {
+        ja: '岩木山をバックにした雪景色の天守', zhTw: '以岩木山為背景的雪景天守', en: 'Snow-covered keep with Mt. Iwaki in the background',
+        desc: {
+          ja: '冬の弘前城の代表的な風景。',
+          zhTw: '冬季弘前城的代表性風景。',
+          en: 'the iconic winter view of Hirosaki Castle.',
+        },
+      },
     ],
     architecture: [
       { ja: '三重三階の御三階櫓が天守の役割を担う。元の五重天守は落雷で焼失し、代わりに櫓を改築して天守とした珍しい事例。', zhTw: '三重三階的御三階櫓擔任天守角色。原本的五重天守因雷擊焚毀，改建櫓為天守的罕見案例。', en: 'A three-story turret (gosankai yagura) serves as the castle keep — a rare case where a turret was converted to replace the original five-story keep destroyed by lightning.' },
@@ -269,8 +304,22 @@ export const castles = [
     ],
     highlights: [
       { ja: '伊達政宗騎馬像と仙台市街のパノラマビュー。', zhTw: '伊達政宗騎馬像與仙台市區全景。', en: 'Equestrian statue of Date Masamune with panoramic views of downtown Sendai.' },
-      { ja: '復元された大手門と隅櫓 — 往時の威容を偲ばせる建造物。', zhTw: '復原的大手門與隅櫓 — 令人追想往昔威嚴的建築。', en: 'Reconstructed Ōtemon gate and corner turret — structures evoking the castle\'s former grandeur.' },
-      { ja: '夜間ライトアップされた石垣と城跡 — 幻想的な雰囲気を楽しめる。', zhTw: '夜間燈光照射的石垣與城址 — 可享受夢幻般的氛圍。', en: 'Night illumination of the stone walls and castle ruins — creating a magical atmosphere.' },
+      {
+        ja: '復元された大手門と隅櫓', zhTw: '復原的大手門與隅櫓', en: 'Reconstructed Ōtemon gate and corner turret',
+        desc: {
+          ja: '往時の威容を偲ばせる建造物。',
+          zhTw: '令人追想往昔威嚴的建築。',
+          en: 'structures evoking the castle\'s former grandeur.',
+        },
+      },
+      {
+        ja: '夜間ライトアップされた石垣と城跡', zhTw: '夜間燈光照射的石垣與城址', en: 'Night illumination of the stone walls and castle ruins',
+        desc: {
+          ja: '幻想的な雰囲気を楽しめる。',
+          zhTw: '可享受夢幻般的氛圍。',
+          en: 'creating a magical atmosphere.',
+        },
+      },
     ],
     architecture: [
       { ja: '高さ17mに及ぶ巨大な石垣は接合材なしで積み上げられ、自然の崖を活かした堅固な防御を実現。', zhTw: '高達17公尺的巨大石垣不使用接合材料堆砌而成，利用天然懸崖實現堅固防禦。', en: 'Massive stone walls up to 17 meters tall built without mortar, utilizing natural cliffs for formidable defense.' },
@@ -374,9 +423,30 @@ export const castles = [
       { ja: '外堀一周は約5kmのランニングコースとして人気があり、東京の象徴的なジョギングスポット。', zhTw: '外堀一圈約5公里的跑步路線廣受歡迎，是東京標誌性的慢跑景點。', en: 'The outer moat circuit is a popular 5km running route — one of Tokyo\'s most iconic jogging spots.' },
     ],
     highlights: [
-      { ja: '天守台 — かつて日本最大の天守がそびえた巨大な石垣の台座。', zhTw: '天守台 — 曾矗立日本最大天守的巨大石垣基座。', en: 'Tenshudai (keep base) — the massive stone platform where Japan\'s largest castle keep once stood.' },
-      { ja: '二の丸庭園 — 日本庭園の美しさを堪能できる静かな空間。', zhTw: '二之丸庭園 — 可品味日本庭園之美的寧靜空間。', en: 'Ninomaru Garden — a serene space to enjoy the beauty of traditional Japanese landscaping.' },
-      { ja: '大手門 — 城の正面玄関にあたる重厚な城門。', zhTw: '大手門 — 相當於城的正面入口的莊重城門。', en: 'Ōte-mon gate — the imposing main entrance to the castle.' },
+      {
+        ja: '天守台', zhTw: '天守台', en: 'Tenshudai (keep base)',
+        desc: {
+          ja: 'かつて日本最大の天守がそびえた巨大な石垣の台座。',
+          zhTw: '曾矗立日本最大天守的巨大石垣基座。',
+          en: 'the massive stone platform where Japan\'s largest castle keep once stood.',
+        },
+      },
+      {
+        ja: '二の丸庭園', zhTw: '二之丸庭園', en: 'Ninomaru Garden',
+        desc: {
+          ja: '日本庭園の美しさを堪能できる静かな空間。',
+          zhTw: '可品味日本庭園之美的寧靜空間。',
+          en: 'a serene space to enjoy the beauty of traditional Japanese landscaping.',
+        },
+      },
+      {
+        ja: '大手門', zhTw: '大手門', en: 'Ōte-mon gate',
+        desc: {
+          ja: '城の正面玄関にあたる重厚な城門。',
+          zhTw: '相當於城的正面入口的莊重城門。',
+          en: 'the imposing main entrance to the castle.',
+        },
+      },
     ],
     architecture: [
       { ja: '日本史上最大の城郭で、本丸・二の丸・三の丸を含む元の敷地は約233ヘクタールに及んだ。', zhTw: '日本史上最大的城郭，包含本丸、二之丸、三之丸的原始面積達約233公頃。', en: 'The largest castle complex ever built in Japan — the original compound including all baileys spanned approximately 233 hectares.' },
@@ -462,9 +532,30 @@ export const castles = [
       { ja: '現在の天守は1960年に鉄筋コンクリートで再建されたもので、内部は博物館と展望台になっている。', zhTw: '現在的天守是1960年以鋼筋混凝土重建的，內部為博物館與展望台。', en: 'The current keep is a 1960 reinforced concrete reconstruction housing a museum and observation deck.' },
     ],
     highlights: [
-      { ja: '再建天守と相模湾のパノラマビュー — 天守最上階からの眺望は絶景。', zhTw: '重建天守與相模灣全景 — 天守最上層的眺望堪稱絕景。', en: 'Reconstructed keep with panoramic views of Sagami Bay — the view from the top floor is spectacular.' },
-      { ja: '復元された銅門と常盤木門 — 往時の城郭の雰囲気を忠実に再現。', zhTw: '復原的銅門與常盤木門 — 忠實重現往昔城郭的氛圍。', en: 'Faithfully reconstructed Copper Gate (Akagane-mon) and Tokiwagi Gate — evoking the castle\'s historic atmosphere.' },
-      { ja: '梅と桜の季節 — 城址公園は花の名所としても人気が高い。', zhTw: '梅花與櫻花季 — 城址公園作為賞花名所也廣受歡迎。', en: 'Plum and cherry blossom seasons — the castle grounds are popular as a flower-viewing destination.' },
+      {
+        ja: '再建天守と相模湾のパノラマビュー', zhTw: '重建天守與相模灣全景', en: 'Reconstructed keep with panoramic views of Sagami Bay',
+        desc: {
+          ja: '天守最上階からの眺望は絶景。',
+          zhTw: '天守最上層的眺望堪稱絕景。',
+          en: 'the view from the top floor is spectacular.',
+        },
+      },
+      {
+        ja: '復元された銅門と常盤木門', zhTw: '復原的銅門與常盤木門', en: 'Faithfully reconstructed Copper Gate (Akagane-mon) and Tokiwagi Gate',
+        desc: {
+          ja: '往時の城郭の雰囲気を忠実に再現。',
+          zhTw: '忠實重現往昔城郭的氛圍。',
+          en: 'evoking the castle\'s historic atmosphere.',
+        },
+      },
+      {
+        ja: '梅と桜の季節', zhTw: '梅花與櫻花季', en: 'Plum and cherry blossom seasons',
+        desc: {
+          ja: '城址公園は花の名所としても人気が高い。',
+          zhTw: '城址公園作為賞花名所也廣受歡迎。',
+          en: 'the castle grounds are popular as a flower-viewing destination.',
+        },
+      },
     ],
     architecture: [
       { ja: '総構え（惣構え）— 城だけでなく城下町全体を囲む大規模な土塁と堀による防御線は戦国時代最大級。', zhTw: '總構（惣構）— 不僅城堡，整個城下町都被大規模土壘與護城河包圍的防禦線，為戰國時代最大級。', en: 'Sōgamae — massive earthwork walls and moats encircling not just the castle but the entire castle town, the largest such fortification of the Sengoku period.' },
@@ -560,13 +651,48 @@ export const castles = [
       { ja: '天守は若干傾いており「日本のピサの斜塔」と呼ばれることもある。', zhTw: '天守略微傾斜，有時被稱為「日本的比薩斜塔」。', en: 'The keep leans slightly, sometimes earning it the nickname "Japan\'s Leaning Tower of Pisa."' },
     ],
     highlights: [
-      { ja: '五重六階の天守 — 日本最古の六階建て木造天守として国宝に指定。', zhTw: '五重六階天守 — 作為日本最古老的六層木造天守被指定為國寶。', en: 'Five-story, six-floor keep — designated a National Treasure as Japan\'s oldest surviving six-floor wooden castle keep.' },
-      { ja: '月見櫓と朱塗りの欄干 — 戦国の城に風雅さを添える唯一無二の空間。', zhTw: '月見櫓與朱漆欄杆 — 為戰國城堡增添風雅的獨一無二空間。', en: 'Moon-viewing turret with red-lacquered railings — a uniquely elegant addition to a Sengoku-era castle.' },
-      { ja: '北アルプスを背景にした天守の眺め — 四季を通じて壮大な風景を楽しめる。', zhTw: '以北阿爾卑斯山為背景的天守景色 — 四季皆可享受壯闘風景。', en: 'View of the keep against the Japanese Alps — a magnificent landscape to enjoy throughout all four seasons.' },
+      {
+        ja: '五重六階の天守', zhTw: '五重六階天守', en: 'Five-story, six-floor keep',
+        desc: {
+          ja: '日本最古の六階建て木造天守として国宝に指定。',
+          zhTw: '作為日本最古老的六層木造天守被指定為國寶。',
+          en: 'designated a National Treasure as Japan\'s oldest surviving six-floor wooden castle keep.',
+        },
+      },
+      {
+        ja: '月見櫓と朱塗りの欄干', zhTw: '月見櫓與朱漆欄杆', en: 'Moon-viewing turret with red-lacquered railings',
+        desc: {
+          ja: '戦国の城に風雅さを添える唯一無二の空間。',
+          zhTw: '為戰國城堡增添風雅的獨一無二空間。',
+          en: 'a uniquely elegant addition to a Sengoku-era castle.',
+        },
+      },
+      {
+        ja: '北アルプスを背景にした天守の眺め', zhTw: '以北阿爾卑斯山為背景的天守景色', en: 'View of the keep against the Japanese Alps',
+        desc: {
+          ja: '四季を通じて壮大な風景を楽しめる。',
+          zhTw: '四季皆可享受壯闘風景。',
+          en: 'a magnificent landscape to enjoy throughout all four seasons.',
+        },
+      },
     ],
     architecture: [
-      { ja: '連結複合式天守 — 大天守・乾小天守・渡櫓・辰巳附櫓・月見櫓が一体化した複雑な構造。', zhTw: '連結複合式天守 — 大天守、乾小天守、渡櫓、辰巳附櫓、月見櫓一體化的複雜結構。', en: 'Connected compound keep complex — main keep, secondary keep, connecting turret, attached turret, and moon-viewing turret integrated into a complex structure.' },
-      { ja: '下見板張りの黒漆塗り外壁 — 下層部分を覆う黒い板は防水性と威厳を兼ね備えた意匠。', zhTw: '下見板張的黑漆塗外牆 — 覆蓋下層部分的黑板兼具防水性與威嚴的設計。', en: 'Black-lacquered weatherboard exterior (shitami-itabari) — the dark cladding on lower stories combines waterproofing with an imposing appearance.' },
+      {
+        ja: '連結複合式天守', zhTw: '連結複合式天守', en: 'Connected compound keep complex',
+        desc: {
+          ja: '大天守・乾小天守・渡櫓・辰巳附櫓・月見櫓が一体化した複雑な構造。',
+          zhTw: '大天守、乾小天守、渡櫓、辰巳附櫓、月見櫓一體化的複雜結構。',
+          en: 'main keep, secondary keep, connecting turret, attached turret, and moon-viewing turret integrated into a complex structure.',
+        },
+      },
+      {
+        ja: '下見板張りの黒漆塗り外壁', zhTw: '下見板張的黑漆塗外牆', en: 'Black-lacquered weatherboard exterior (shitami-itabari)',
+        desc: {
+          ja: '下層部分を覆う黒い板は防水性と威厳を兼ね備えた意匠。',
+          zhTw: '覆蓋下層部分的黑板兼具防水性與威嚴的設計。',
+          en: 'the dark cladding on lower stories combines waterproofing with an imposing appearance.',
+        },
+      },
       { ja: '狭間（銃眼）と石落としが各階に配され、優美な外観と実戦的な防御機能を両立させている。', zhTw: '各層配置狹間（銃眼）與石落，兼顧優美外觀與實戰防禦功能。', en: 'Gun ports (sama) and stone-dropping windows on every floor combine elegant aesthetics with practical defensive capabilities.' },
     ],
   },
@@ -648,9 +774,30 @@ export const castles = [
       { ja: '城内の復元建物は釘を一切使わない伝統工法で建てられている。', zhTw: '城內的復原建築完全使用不用釘子的傳統工法建造。', en: 'Reconstructed buildings in the castle were built using traditional techniques with no nails.' },
     ],
     highlights: [
-      { ja: '石川門 — 重要文化財に指定された城の象徴的な門。白壁と海鼠壁の美しいコントラスト。', zhTw: '石川門 — 被指定為重要文化財的城的象徵性城門。白牆與海鼠壁的美麗對比。', en: 'Ishikawa Gate — an Important Cultural Property and the castle\'s iconic entrance, featuring beautiful contrasts of white plaster and namako (sea cucumber) walls.' },
-      { ja: '隣接する兼六園 — 日本三名園の一つで、城と一体となった景観を楽しめる。', zhTw: '鄰接的兼六園 — 日本三名園之一，可欣賞與城一體化的景觀。', en: 'Adjacent Kenrokuen — one of Japan\'s three great gardens, offering scenery integrated with the castle.' },
-      { ja: '復元された菱櫓・五十間長屋・橋爪門続櫓 — 伝統工法の粋を集めた壮大な建築群。', zhTw: '復原的菱櫓、五十間長屋、橋爪門續櫓 — 匯集傳統工法精華的壯觀建築群。', en: 'Reconstructed Hishi turret, Gojukkenbori storehouse, and Hashizume-mon turret — magnificent structures showcasing the finest traditional construction methods.' },
+      {
+        ja: '石川門', zhTw: '石川門', en: 'Ishikawa Gate',
+        desc: {
+          ja: '重要文化財に指定された城の象徴的な門。白壁と海鼠壁の美しいコントラスト。',
+          zhTw: '被指定為重要文化財的城的象徵性城門。白牆與海鼠壁的美麗對比。',
+          en: 'an Important Cultural Property and the castle\'s iconic entrance, featuring beautiful contrasts of white plaster and namako (sea cucumber) walls.',
+        },
+      },
+      {
+        ja: '隣接する兼六園', zhTw: '鄰接的兼六園', en: 'Adjacent Kenrokuen',
+        desc: {
+          ja: '日本三名園の一つで、城と一体となった景観を楽しめる。',
+          zhTw: '日本三名園之一，可欣賞與城一體化的景觀。',
+          en: 'one of Japan\'s three great gardens, offering scenery integrated with the castle.',
+        },
+      },
+      {
+        ja: '復元された菱櫓・五十間長屋・橋爪門続櫓', zhTw: '復原的菱櫓、五十間長屋、橋爪門續櫓', en: 'Reconstructed Hishi turret, Gojukkenbori storehouse, and Hashizume-mon turret',
+        desc: {
+          ja: '伝統工法の粋を集めた壮大な建築群。',
+          zhTw: '匯集傳統工法精華的壯觀建築群。',
+          en: 'magnificent structures showcasing the finest traditional construction methods.',
+        },
+      },
     ],
     architecture: [
       { ja: '鉛瓦（なまりがわら）— 日本の城郭唯一の鉛製屋根瓦。防水性に優れ、雪国の気候に適応した独特の建材。', zhTw: '鉛瓦 — 日本城郭唯一的鉛製屋頂瓦。防水性優異，適應雪國氣候的獨特建材。', en: 'Lead roof tiles (namari-gawara) — unique among Japanese castles, excellent for waterproofing and adapted to the snowy climate.' },
@@ -754,13 +901,48 @@ export const castles = [
       { ja: '1871年に23円50銭で売りに出されたが、解体費が高すぎて誰も買わず、結果的に保存された。', zhTw: '1871年以23圓50錢出售，但因拆除費太高無人購買，反而因此被保存下來。', en: 'In 1871 it was put up for sale for ¥23.50, but nobody bought it because demolition costs were too high — accidentally saving it for posterity.' },
     ],
     highlights: [
-      { ja: '大天守 — 日本最大の現存天守。内部の急な階段を上り、最上階からの播磨平野の大パノラマは必見。', zhTw: '大天守 — 日本最大的現存天守。攀登內部陡峭階梯，最上層的播磨平原大全景不容錯過。', en: 'The main keep — Japan\'s largest surviving castle keep. Climb the steep interior stairs for an unmissable panoramic view of the Harima Plain from the top floor.' },
-      { ja: '西の丸と百間廊下 — 千姫の物語と結びついた長大な渡り廊下。', zhTw: '西之丸與百間廊下 — 與千姬故事相連的長廊。', en: 'West Bailey and Long Corridor (Hyakkenbori) — the extensive connecting corridor linked to Princess Sen\'s story.' },
-      { ja: '白鷺の美しい白漆喰の外壁 — 朝日・夕日に照らされた姿は息をのむ美しさ。', zhTw: '白鷺般美麗的白灰泥外牆 — 在朝陽與夕陽照耀下的姿態令人屏息。', en: 'The beautiful white plaster exterior evoking a white heron — breathtaking when illuminated by the morning or evening sun.' },
+      {
+        ja: '大天守', zhTw: '大天守', en: 'The main keep',
+        desc: {
+          ja: '日本最大の現存天守。内部の急な階段を上り、最上階からの播磨平野の大パノラマは必見。',
+          zhTw: '日本最大的現存天守。攀登內部陡峭階梯，最上層的播磨平原大全景不容錯過。',
+          en: 'Japan\'s largest surviving castle keep. Climb the steep interior stairs for an unmissable panoramic view of the Harima Plain from the top floor.',
+        },
+      },
+      {
+        ja: '西の丸と百間廊下', zhTw: '西之丸與百間廊下', en: 'West Bailey and Long Corridor (Hyakkenbori)',
+        desc: {
+          ja: '千姫の物語と結びついた長大な渡り廊下。',
+          zhTw: '與千姬故事相連的長廊。',
+          en: 'the extensive connecting corridor linked to Princess Sen\'s story.',
+        },
+      },
+      {
+        ja: '白鷺の美しい白漆喰の外壁', zhTw: '白鷺般美麗的白灰泥外牆', en: 'The beautiful white plaster exterior evoking a white heron',
+        desc: {
+          ja: '朝日・夕日に照らされた姿は息をのむ美しさ。',
+          zhTw: '在朝陽與夕陽照耀下的姿態令人屏息。',
+          en: 'breathtaking when illuminated by the morning or evening sun.',
+        },
+      },
     ],
     architecture: [
-      { ja: '連立式天守 — 大天守と三つの小天守を渡櫓で結んだ壮大な複合体で、日本の城郭建築の最高傑作。', zhTw: '連立式天守 — 大天守與三座小天守以渡櫓連結的壯大複合體，日本城郭建築的最高傑作。', en: 'Connected keep complex (renritsu-shiki) — the main keep linked to three smaller keeps via connecting turrets, the supreme masterpiece of Japanese castle architecture.' },
-      { ja: '白漆喰総塗籠 — 全面を白漆喰で塗り固めた壁は美観だけでなく優れた防火性能を持つ。', zhTw: '白灰泥總塗籠 — 全面以白灰泥塗固的牆壁不僅美觀，還具有優異的防火性能。', en: 'White plaster coating (shiro-shikkui sō-nurigome) — walls entirely covered in white plaster provide both beauty and excellent fire resistance.' },
+      {
+        ja: '連立式天守', zhTw: '連立式天守', en: 'Connected keep complex (renritsu-shiki)',
+        desc: {
+          ja: '大天守と三つの小天守を渡櫓で結んだ壮大な複合体で、日本の城郭建築の最高傑作。',
+          zhTw: '大天守與三座小天守以渡櫓連結的壯大複合體，日本城郭建築的最高傑作。',
+          en: 'the main keep linked to three smaller keeps via connecting turrets, the supreme masterpiece of Japanese castle architecture.',
+        },
+      },
+      {
+        ja: '白漆喰総塗籠', zhTw: '白灰泥總塗籠', en: 'White plaster coating (shiro-shikkui sō-nurigome)',
+        desc: {
+          ja: '全面を白漆喰で塗り固めた壁は美観だけでなく優れた防火性能を持つ。',
+          zhTw: '全面以白灰泥塗固的牆壁不僅美觀，還具有優異的防火性能。',
+          en: 'walls entirely covered in white plaster provide both beauty and excellent fire resistance.',
+        },
+      },
       { ja: '84の門と複雑な折れ曲がりの登城路、石落とし・狭間を随所に配した精密な防御ネットワーク。', zhTw: '84道門與複雜蜿蜒的登城路，各處配置石落與狹間的精密防禦網絡。', en: 'A precise defensive network with 84 gates, winding approach paths, and stone-dropping ports and gun loops positioned throughout.' },
     ],
   },
@@ -851,12 +1033,40 @@ export const castles = [
     ],
     highlights: [
       { ja: '天守閣博物館 — 豊臣・徳川時代の歴史を詳しく展示。最上階からの大阪市街のパノラマビュー。', zhTw: '天守閣博物館 — 詳細展示豐臣與德川時代的歷史。最上層的大阪市區全景。', en: 'Keep museum chronicling the Toyotomi and Tokugawa eras, with panoramic views of Osaka from the top floor.' },
-      { ja: '大手門と巨大石垣 — 蛸石をはじめとする巨石が並ぶ圧巻の石垣。', zhTw: '大手門與巨大石垣 — 以蛸石為首的巨石排列的壯觀石垣。', en: 'Ōtemon gate and massive stone walls — featuring the Octopus Stone and other enormous boulders.' },
-      { ja: '西の丸庭園の桜 — 天守を背景にした大阪随一の花見スポット。', zhTw: '西之丸庭園的櫻花 — 以天守為背景的大阪首屈一指賞櫻景點。', en: 'Cherry blossoms in Nishinomaru Garden — Osaka\'s premier hanami spot with the castle keep as backdrop.' },
+      {
+        ja: '大手門と巨大石垣', zhTw: '大手門與巨大石垣', en: 'Ōtemon gate and massive stone walls',
+        desc: {
+          ja: '蛸石をはじめとする巨石が並ぶ圧巻の石垣。',
+          zhTw: '以蛸石為首的巨石排列的壯觀石垣。',
+          en: 'featuring the Octopus Stone and other enormous boulders.',
+        },
+      },
+      {
+        ja: '西の丸庭園の桜', zhTw: '西之丸庭園的櫻花', en: 'Cherry blossoms in Nishinomaru Garden',
+        desc: {
+          ja: '天守を背景にした大阪随一の花見スポット。',
+          zhTw: '以天守為背景的大阪首屈一指賞櫻景點。',
+          en: 'Osaka\'s premier hanami spot with the castle keep as backdrop.',
+        },
+      },
     ],
     architecture: [
-      { ja: '巨大な花崗岩の石垣 — 一部の石は100トンを超え、日本の城郭で最大級の石材が使われている。', zhTw: '巨大花崗岩石垣 — 部分石材超過100噸，使用了日本城郭中最大級的石材。', en: 'Massive granite stone walls — some stones exceed 100 tons, among the largest building materials used in any Japanese castle.' },
-      { ja: '内堀・外堀の二重堀システム — 広大な水堀が城の各郭を分離し、強固な防御を実現。', zhTw: '內堀、外堀的雙重護城河系統 — 廣大的水堀分隔城的各郭，實現堅固防禦。', en: 'Double moat system (inner and outer) — extensive water moats separate each bailey, creating formidable defenses.' },
+      {
+        ja: '巨大な花崗岩の石垣', zhTw: '巨大花崗岩石垣', en: 'Massive granite stone walls',
+        desc: {
+          ja: '一部の石は100トンを超え、日本の城郭で最大級の石材が使われている。',
+          zhTw: '部分石材超過100噸，使用了日本城郭中最大級的石材。',
+          en: 'some stones exceed 100 tons, among the largest building materials used in any Japanese castle.',
+        },
+      },
+      {
+        ja: '内堀・外堀の二重堀システム', zhTw: '內堀、外堀的雙重護城河系統', en: 'Double moat system (inner and outer)',
+        desc: {
+          ja: '広大な水堀が城の各郭を分離し、強固な防御を実現。',
+          zhTw: '廣大的水堀分隔城的各郭，實現堅固防禦。',
+          en: 'extensive water moats separate each bailey, creating formidable defenses.',
+        },
+      },
       { ja: '現在の天守（1931年）は日本初の鉄筋コンクリート製復興天守で、近代建築技術による城郭再建の先駆け。', zhTw: '現在的天守（1931年）是日本首座鋼筋混凝土復興天守，是近代建築技術重建城郭的先驅。', en: 'The current keep (1931) was Japan\'s first reinforced concrete castle reconstruction, pioneering the use of modern materials for castle restoration.' },
     ],
   },
@@ -938,14 +1148,56 @@ export const castles = [
       { ja: '庭園は四季折々の花が楽しめ、梅・桜・躑躅・紅葉と年間を通じて美しい景色が広がる。', zhTw: '庭園四季都可欣賞不同花卉，梅花、櫻花、杜鵑、紅葉，一年到頭都有美麗景色。', en: 'The gardens offer flowers for every season — plum blossoms, cherry blossoms, azaleas, and autumn leaves create beautiful scenery year-round.' },
     ],
     highlights: [
-      { ja: '二の丸御殿 — 鶯張りの廊下と狩野派による3,000点以上の障壁画が圧巻の桃山時代建築。', zhTw: '二之丸御殿 — 鶯張之廊與狩野派3,000幅以上障壁畫令人嘆為觀止的桃山時代建築。', en: 'Ninomaru Palace — stunning Momoyama-era architecture featuring nightingale floors and over 3,000 paintings by the Kanō school.' },
-      { ja: '唐門 — 精緻な彫刻が施された華麗な中国風の門。', zhTw: '唐門 — 施以精緻雕刻的華麗中國風門。', en: 'Karamon Gate — an ornately carved Chinese-style gate of extraordinary craftsmanship.' },
-      { ja: '二の丸庭園 — 小堀遠州作と伝わる名園で、池泉回遊式の美しい日本庭園。', zhTw: '二之丸庭園 — 相傳為小堀遠州所作的名園，美麗的池泉迴游式日本庭園。', en: 'Ninomaru Garden — a beautiful strolling pond garden attributed to the famous garden designer Kobori Enshū.' },
+      {
+        ja: '二の丸御殿', zhTw: '二之丸御殿', en: 'Ninomaru Palace',
+        desc: {
+          ja: '鶯張りの廊下と狩野派による3,000点以上の障壁画が圧巻の桃山時代建築。',
+          zhTw: '鶯張之廊與狩野派3,000幅以上障壁畫令人嘆為觀止的桃山時代建築。',
+          en: 'stunning Momoyama-era architecture featuring nightingale floors and over 3,000 paintings by the Kanō school.',
+        },
+      },
+      {
+        ja: '唐門', zhTw: '唐門', en: 'Karamon Gate',
+        desc: {
+          ja: '精緻な彫刻が施された華麗な中国風の門。',
+          zhTw: '施以精緻雕刻的華麗中國風門。',
+          en: 'an ornately carved Chinese-style gate of extraordinary craftsmanship.',
+        },
+      },
+      {
+        ja: '二の丸庭園', zhTw: '二之丸庭園', en: 'Ninomaru Garden',
+        desc: {
+          ja: '小堀遠州作と伝わる名園で、池泉回遊式の美しい日本庭園。',
+          zhTw: '相傳為小堀遠州所作的名園，美麗的池泉迴游式日本庭園。',
+          en: 'a beautiful strolling pond garden attributed to the famous garden designer Kobori Enshū.',
+        },
+      },
     ],
     architecture: [
-      { ja: '二の丸御殿 — 現存する数少ない桃山時代の御殿建築で、大広間など6棟33室から成る国宝建造物群。', zhTw: '二之丸御殿 — 現存少數的桃山時代御殿建築，由大廣間等6棟33室構成的國寶建築群。', en: 'Ninomaru Palace — one of the few surviving Momoyama-period palace complexes, a National Treasure comprising six buildings with 33 rooms.' },
-      { ja: '黒書院・大広間 — 狩野派の豪華な襖絵で飾られた謁見の間。将軍の権威を示す壮麗な空間。', zhTw: '黑書院、大廣間 — 以狩野派豪華襖繪裝飾的謁見之間。展現將軍權威的壯麗空間。', en: 'Kuroshoin and Ōhiroma audience halls — adorned with magnificent Kanō school sliding door paintings, grand spaces displaying shogunal authority.' },
-      { ja: '唐門の精緻な木彫り — 鶴や龍などの彫刻が施され、桃山文化の華やかさを今に伝える装飾芸術の粋。', zhTw: '唐門的精緻木雕 — 施以鶴與龍等雕刻，傳達桃山文化華麗的裝飾藝術精華。', en: 'Intricate wood carvings on the Karamon gate — featuring cranes, dragons, and other motifs that convey the splendor of Momoyama-era decorative arts.' },
+      {
+        ja: '二の丸御殿', zhTw: '二之丸御殿', en: 'Ninomaru Palace',
+        desc: {
+          ja: '現存する数少ない桃山時代の御殿建築で、大広間など6棟33室から成る国宝建造物群。',
+          zhTw: '現存少數的桃山時代御殿建築，由大廣間等6棟33室構成的國寶建築群。',
+          en: 'one of the few surviving Momoyama-period palace complexes, a National Treasure comprising six buildings with 33 rooms.',
+        },
+      },
+      {
+        ja: '黒書院・大広間', zhTw: '黑書院、大廣間', en: 'Kuroshoin and Ōhiroma audience halls',
+        desc: {
+          ja: '狩野派の豪華な襖絵で飾られた謁見の間。将軍の権威を示す壮麗な空間。',
+          zhTw: '以狩野派豪華襖繪裝飾的謁見之間。展現將軍權威的壯麗空間。',
+          en: 'adorned with magnificent Kanō school sliding door paintings, grand spaces displaying shogunal authority.',
+        },
+      },
+      {
+        ja: '唐門の精緻な木彫り', zhTw: '唐門的精緻木雕', en: 'Intricate wood carvings on the Karamon gate',
+        desc: {
+          ja: '鶴や龍などの彫刻が施され、桃山文化の華やかさを今に伝える装飾芸術の粋。',
+          zhTw: '施以鶴與龍等雕刻，傳達桃山文化華麗的裝飾藝術精華。',
+          en: 'featuring cranes, dragons, and other motifs that convey the splendor of Momoyama-era decorative arts.',
+        },
+      },
     ],
   },
 
@@ -1037,8 +1289,22 @@ export const castles = [
     ],
     highlights: [
       { ja: '復元された五重天守 — 城の博物館として広島の歴史を展示。', zhTw: '復原的五重天守 — 作為城的博物館展示廣島的歷史。', en: 'Reconstructed five-story keep housing a castle museum showcasing Hiroshima\'s history.' },
-      { ja: '二の丸の復元された櫓と門 — 伝統工法で1994年に再建された建造物群。', zhTw: '二之丸復原的櫓與門 — 1994年以傳統工法重建的建築群。', en: 'Reconstructed turrets and gate in the Ninomaru — built in 1994 using traditional construction methods.' },
-      { ja: '天守最上階からの眺望 — 平和記念公園方面を見渡せるパノラマビュー。', zhTw: '天守最上層的眺望 — 可俯瞰和平紀念公園方向的全景。', en: 'View from the top floor — panoramic views overlooking the Peace Memorial Park area.' },
+      {
+        ja: '二の丸の復元された櫓と門', zhTw: '二之丸復原的櫓與門', en: 'Reconstructed turrets and gate in the Ninomaru',
+        desc: {
+          ja: '伝統工法で1994年に再建された建造物群。',
+          zhTw: '1994年以傳統工法重建的建築群。',
+          en: 'built in 1994 using traditional construction methods.',
+        },
+      },
+      {
+        ja: '天守最上階からの眺望', zhTw: '天守最上層的眺望', en: 'View from the top floor',
+        desc: {
+          ja: '平和記念公園方面を見渡せるパノラマビュー。',
+          zhTw: '可俯瞰和平紀念公園方向的全景。',
+          en: 'panoramic views overlooking the Peace Memorial Park area.',
+        },
+      },
     ],
     architecture: [
       { ja: '河川デルタ上に築かれた平城で、太田川の複数の河川を天然の堀として活用した革新的な立地。', zhTw: '建於河川三角洲上的平城，創新地利用太田川的多條河川作為天然護城河。', en: 'A flatland castle built on a river delta, innovatively utilizing multiple channels of the Ōta River as natural moats.' },
@@ -1124,14 +1390,56 @@ export const castles = [
       { ja: '宍道湖畔に建つため、夕陽に染まる湖と天守のシルエットが「日本一の夕日」と称される絶景を生む。', zhTw: '因建於宍道湖畔，夕陽映照湖面與天守剪影，被譽為「日本第一夕陽」的絕景。', en: 'Built on the shore of Lake Shinji, the silhouette of the keep against the sunset-painted lake creates a view celebrated as one of Japan\'s finest sunsets.' },
     ],
     highlights: [
-      { ja: '現存天守 — 日本に12しかない現存天守の一つで、重厚な外観が特徴的。', zhTw: '現存天守 — 日本僅存12座現存天守之一，以厚重外觀為特色。', en: 'Original surviving keep — one of only 12 remaining original castle keeps in Japan, characterized by its imposing appearance.' },
-      { ja: '堀川遊覧船 — 城の堀を小舟で巡る風情ある遊覧。低い橋をくぐる際に屋根が下がるユニークな体験。', zhTw: '堀川遊覽船 — 搭小船遊覽城的護城河的風情體驗。經過低矮橋樑時船頂會下降的獨特經歷。', en: 'Horikawa pleasure boat ride through the castle moats — a charming cruise where the boat\'s roof lowers to pass under low bridges.' },
-      { ja: '宍道湖の夕日 — 城址から見る宍道湖に沈む夕日は日本屈指の絶景。', zhTw: '宍道湖的夕陽 — 從城址眺望宍道湖落日是日本首屈一指的絕景。', en: 'Lake Shinji sunset — watching the sun sink into the lake from the castle grounds is one of Japan\'s most spectacular views.' },
+      {
+        ja: '現存天守', zhTw: '現存天守', en: 'Original surviving keep',
+        desc: {
+          ja: '日本に12しかない現存天守の一つで、重厚な外観が特徴的。',
+          zhTw: '日本僅存12座現存天守之一，以厚重外觀為特色。',
+          en: 'one of only 12 remaining original castle keeps in Japan, characterized by its imposing appearance.',
+        },
+      },
+      {
+        ja: '堀川遊覧船', zhTw: '堀川遊覽船', en: 'Horikawa pleasure boat ride through the castle moats',
+        desc: {
+          ja: '城の堀を小舟で巡る風情ある遊覧。低い橋をくぐる際に屋根が下がるユニークな体験。',
+          zhTw: '搭小船遊覽城的護城河的風情體驗。經過低矮橋樑時船頂會下降的獨特經歷。',
+          en: 'a charming cruise where the boat\'s roof lowers to pass under low bridges.',
+        },
+      },
+      {
+        ja: '宍道湖の夕日', zhTw: '宍道湖的夕陽', en: 'Lake Shinji sunset',
+        desc: {
+          ja: '城址から見る宍道湖に沈む夕日は日本屈指の絶景。',
+          zhTw: '從城址眺望宍道湖落日是日本首屈一指的絕景。',
+          en: 'watching the sun sink into the lake from the castle grounds is one of Japan\'s most spectacular views.',
+        },
+      },
     ],
     architecture: [
-      { ja: '複合式天守 — 附櫓を備えた堅固な構造で、木と石を巧みに組み合わせた独特の建築。', zhTw: '複合式天守 — 配備附櫓的堅固結構，巧妙結合木與石的獨特建築。', en: 'Composite keep — a robust structure with attached turrets, uniquely combining wood and stone construction.' },
-      { ja: '下見板張りの外壁 — 厳しい山陰の気候から城を守るための実用的な板張り。', zhTw: '下見板張外牆 — 為抵禦嚴酷山陰氣候而設的實用板牆。', en: 'Weatherboard exterior walls — practical cladding designed to protect the castle from the harsh San\'in coastal climate.' },
-      { ja: '天守内部に設けられた井戸 — 籠城戦に備えた珍しい設備で、水の確保を可能にした。', zhTw: '天守內部設置的井 — 為籠城戰準備的罕見設備，確保水源供應。', en: 'A well inside the keep — an unusual feature providing water supply during siege warfare.' },
+      {
+        ja: '複合式天守', zhTw: '複合式天守', en: 'Composite keep',
+        desc: {
+          ja: '附櫓を備えた堅固な構造で、木と石を巧みに組み合わせた独特の建築。',
+          zhTw: '配備附櫓的堅固結構，巧妙結合木與石的獨特建築。',
+          en: 'a robust structure with attached turrets, uniquely combining wood and stone construction.',
+        },
+      },
+      {
+        ja: '下見板張りの外壁', zhTw: '下見板張外牆', en: 'Weatherboard exterior walls',
+        desc: {
+          ja: '厳しい山陰の気候から城を守るための実用的な板張り。',
+          zhTw: '為抵禦嚴酷山陰氣候而設的實用板牆。',
+          en: 'practical cladding designed to protect the castle from the harsh San\'in coastal climate.',
+        },
+      },
+      {
+        ja: '天守内部に設けられた井戸', zhTw: '天守內部設置的井', en: 'A well inside the keep',
+        desc: {
+          ja: '籠城戦に備えた珍しい設備で、水の確保を可能にした。',
+          zhTw: '為籠城戰準備的罕見設備，確保水源供應。',
+          en: 'an unusual feature providing water supply during siege warfare.',
+        },
+      },
     ],
   },
 
@@ -1222,13 +1530,48 @@ export const castles = [
       { ja: '夏目漱石が松山で英語教師をしていた時代があり、小説「坊っちゃん」に城下町の雰囲気が描かれている。', zhTw: '夏目漱石曾在松山擔任英語教師，小說《少爺》中描繪了城下町的氛圍。', en: 'Natsume Sōseki taught English in Matsuyama; his novel "Botchan" captures the atmosphere of the castle town.' },
     ],
     highlights: [
-      { ja: '現存する連立式天守 — 大天守・小天守・櫓が渡り廊下で繋がった希少な構造。', zhTw: '現存的連立式天守 — 大天守、小天守、櫓以走廊連結的稀有結構。', en: 'Surviving connected keep complex — main keep, sub-keep, and turrets linked by corridors, a rare surviving structure.' },
-      { ja: 'ロープウェイとリフトからの瀬戸内海ビュー — 登城途中に楽しめる絶景。', zhTw: '從纜車與升降椅眺望瀨戶內海 — 登城途中可享受的絕景。', en: 'Seto Inland Sea views from the ropeway and chairlift — stunning scenery enjoyed during the ascent.' },
-      { ja: '山頂からの道後温泉方面のパノラマ — 城と温泉街を一望できる。', zhTw: '從山頂眺望道後溫泉方向的全景 — 可一覽城與溫泉街。', en: 'Panoramic view toward Dōgo Onsen from the hilltop — overlooking both the castle and the hot spring district.' },
+      {
+        ja: '現存する連立式天守', zhTw: '現存的連立式天守', en: 'Surviving connected keep complex',
+        desc: {
+          ja: '大天守・小天守・櫓が渡り廊下で繋がった希少な構造。',
+          zhTw: '大天守、小天守、櫓以走廊連結的稀有結構。',
+          en: 'main keep, sub-keep, and turrets linked by corridors, a rare surviving structure.',
+        },
+      },
+      {
+        ja: 'ロープウェイとリフトからの瀬戸内海ビュー', zhTw: '從纜車與升降椅眺望瀨戶內海', en: 'Seto Inland Sea views from the ropeway and chairlift',
+        desc: {
+          ja: '登城途中に楽しめる絶景。',
+          zhTw: '登城途中可享受的絕景。',
+          en: 'stunning scenery enjoyed during the ascent.',
+        },
+      },
+      {
+        ja: '山頂からの道後温泉方面のパノラマ', zhTw: '從山頂眺望道後溫泉方向的全景', en: 'Panoramic view toward Dōgo Onsen from the hilltop',
+        desc: {
+          ja: '城と温泉街を一望できる。',
+          zhTw: '可一覽城與溫泉街。',
+          en: 'overlooking both the castle and the hot spring district.',
+        },
+      },
     ],
     architecture: [
-      { ja: '連立式天守 — 大天守・小天守・南隅櫓・北隅櫓が渡り廊下で結ばれた複合的な防御構造。', zhTw: '連立式天守 — 大天守、小天守、南隅櫓、北隅櫓以走廊連結的複合防禦結構。', en: 'Connected keep complex — main keep, sub-keep, south corner turret, and north corner turret linked by connecting corridors into a compound defensive structure.' },
-      { ja: '各アプローチに配された狭間（銃眼）と石落とし — 登城路のあらゆる角度から射撃可能な精密な配置。', zhTw: '各通道配置的狹間（銃眼）與石落 — 從登城路各角度皆可射擊的精密配置。', en: 'Gun ports and stone-dropping windows at every approach — precisely positioned to enable fire from all angles along the ascending paths.' },
+      {
+        ja: '連立式天守', zhTw: '連立式天守', en: 'Connected keep complex',
+        desc: {
+          ja: '大天守・小天守・南隅櫓・北隅櫓が渡り廊下で結ばれた複合的な防御構造。',
+          zhTw: '大天守、小天守、南隅櫓、北隅櫓以走廊連結的複合防禦結構。',
+          en: 'main keep, sub-keep, south corner turret, and north corner turret linked by connecting corridors into a compound defensive structure.',
+        },
+      },
+      {
+        ja: '各アプローチに配された狭間（銃眼）と石落とし', zhTw: '各通道配置的狹間（銃眼）與石落', en: 'Gun ports and stone-dropping windows at every approach',
+        desc: {
+          ja: '登城路のあらゆる角度から射撃可能な精密な配置。',
+          zhTw: '從登城路各角度皆可射擊的精密配置。',
+          en: 'precisely positioned to enable fire from all angles along the ascending paths.',
+        },
+      },
       { ja: '複数の枡形門（升形門）が攻め手を狭い空間に閉じ込め、四方から攻撃できるキルゾーンを形成。', zhTw: '多個枡形門將進攻者困在狹小空間，形成可從四面攻擊的殲滅區。', en: 'Multiple compound gates (masugata-mon) funnel attackers into confined spaces, creating kill zones with crossfire from all directions.' },
     ],
   },
@@ -1320,13 +1663,41 @@ export const castles = [
       { ja: '2016年の熊本地震からの復旧工事は2037年の完了を目指しており、総費用は約634億円と見込まれている。', zhTw: '2016年熊本地震的復舊工程預計2037年完成，總費用估計約634億日圓。', en: 'Recovery from the 2016 Kumamoto earthquake is targeted for completion by 2037, with total costs estimated at approximately ¥63.4 billion.' },
     ],
     highlights: [
-      { ja: '武者返しの石垣 — 城の最も象徴的な特徴である美しいカーブを描く石垣。', zhTw: '武者返石垣 — 城最具象徵性特徵的美麗弧線石垣。', en: 'Musha-gaeshi stone walls — the castle\'s most iconic feature, with their beautifully curved defensive walls.' },
-      { ja: '宇土櫓 — 江戸時代から現存する貴重な建造物で、「第三の天守」とも呼ばれる。', zhTw: '宇土櫓 — 江戶時代留存至今的珍貴建築，又被稱為「第三天守」。', en: 'Uto turret — a precious original structure surviving from the Edo period, sometimes called "the third keep."' },
-      { ja: '復旧工事の現場 — 伝統的な石垣修復技術を間近で見られる貴重な機会。', zhTw: '復舊工程現場 — 近距離觀察傳統石垣修復技術的珍貴機會。', en: 'Ongoing earthquake recovery site — a rare chance to observe traditional stone wall restoration techniques up close.' },
+      {
+        ja: '武者返しの石垣', zhTw: '武者返石垣', en: 'Musha-gaeshi stone walls',
+        desc: {
+          ja: '城の最も象徴的な特徴である美しいカーブを描く石垣。',
+          zhTw: '城最具象徵性特徵的美麗弧線石垣。',
+          en: 'the castle\'s most iconic feature, with their beautifully curved defensive walls.',
+        },
+      },
+      {
+        ja: '宇土櫓', zhTw: '宇土櫓', en: 'Uto turret',
+        desc: {
+          ja: '江戸時代から現存する貴重な建造物で、「第三の天守」とも呼ばれる。',
+          zhTw: '江戶時代留存至今的珍貴建築，又被稱為「第三天守」。',
+          en: 'a precious original structure surviving from the Edo period, sometimes called "the third keep."',
+        },
+      },
+      {
+        ja: '復旧工事の現場', zhTw: '復舊工程現場', en: 'Ongoing earthquake recovery site',
+        desc: {
+          ja: '伝統的な石垣修復技術を間近で見られる貴重な機会。',
+          zhTw: '近距離觀察傳統石垣修復技術的珍貴機會。',
+          en: 'a rare chance to observe traditional stone wall restoration techniques up close.',
+        },
+      },
     ],
     architecture: [
       { ja: '武者返し（むしゃがえし）— 石垣の上部が急角度で反り返る独特の曲線は登攀を不可能にし、熊本城最大の特徴。', zhTw: '武者返 — 石垣上部以急角度反曲的獨特曲線使攀登成為不可能，是熊本城最大的特徵。', en: 'Musha-gaeshi — the distinctive curve where the upper stone walls angle steeply outward, making climbing impossible and defining Kumamoto Castle\'s character.' },
-      { ja: '江戸時代から残る13棟の現存建造物 — 宇土櫓をはじめ、多くの重要文化財が現存。', zhTw: '從江戶時代留存的13棟現存建築 — 以宇土櫓為首，多處重要文化財現存。', en: 'Thirteen original structures surviving from the Edo period — including the Uto turret and multiple Important Cultural Properties.' },
+      {
+        ja: '江戸時代から残る13棟の現存建造物', zhTw: '從江戶時代留存的13棟現存建築', en: 'Thirteen original structures surviving from the Edo period',
+        desc: {
+          ja: '宇土櫓をはじめ、多くの重要文化財が現存。',
+          zhTw: '以宇土櫓為首，多處重要文化財現存。',
+          en: 'including the Uto turret and multiple Important Cultural Properties.',
+        },
+      },
       { ja: '1960年に再建された天守は歴史資料に基づく忠実な外観で、鉄筋コンクリート造ながら往時の威容を再現。', zhTw: '1960年重建的天守基於歷史資料忠實再現外觀，雖為鋼筋混凝土結構仍重現往昔威嚴。', en: 'The keep rebuilt in 1960 faithfully recreates the historical exterior based on archival records, reproducing the castle\'s former grandeur despite reinforced concrete construction.' },
     ],
   },
@@ -1416,14 +1787,49 @@ export const castles = [
       { ja: '現在進行中の再建では伝統的な琉球赤漆が使われ、木材はフィリピンから調達されている。', zhTw: '目前進行中的重建使用傳統琉球紅漆，木材從菲律賓採購。', en: 'The current reconstruction uses traditional Ryukyuan red lacquer, with timber sourced from the Philippines.' },
     ],
     highlights: [
-      { ja: '守礼門 — 沖縄のシンボルであり、二千円札にも描かれた象徴的な門。', zhTw: '守禮門 — 沖繩的象徵，也描繪在兩千日圓紙幣上的標誌性門。', en: 'Shureimon Gate — the symbol of Okinawa, famously featured on the ¥2,000 banknote.' },
+      {
+        ja: '守礼門', zhTw: '守禮門', en: 'Shureimon Gate',
+        desc: {
+          ja: '沖縄のシンボルであり、二千円札にも描かれた象徴的な門。',
+          zhTw: '沖繩的象徵，也描繪在兩千日圓紙幣上的標誌性門。',
+          en: 'the symbol of Okinawa, famously featured on the ¥2,000 banknote.',
+        },
+      },
       { ja: '正殿（復元中）— 2019年の火災後、再建が進められている琉球王国の心臓部。', zhTw: '正殿（復原中）— 2019年火災後正在推進重建的琉球王國核心。', en: 'Main hall (under reconstruction) — the heart of the Ryukyu Kingdom, being rebuilt after the 2019 fire.' },
-      { ja: '園比屋武御嶽石門 — 世界遺産に登録された神聖な拝所。', zhTw: '園比屋武御嶽石門 — 被登錄為世界遺產的神聖拜所。', en: 'Sonohyan Utaki stone gate — a sacred World Heritage worship site.' },
+      {
+        ja: '園比屋武御嶽石門', zhTw: '園比屋武御嶽石門', en: 'Sonohyan Utaki stone gate',
+        desc: {
+          ja: '世界遺産に登録された神聖な拝所。',
+          zhTw: '被登錄為世界遺產的神聖拜所。',
+          en: 'a sacred World Heritage worship site.',
+        },
+      },
     ],
     architecture: [
-      { ja: 'グスク様式 — 沖縄特有のサンゴ石灰岩を使った城壁で、本土の城郭とは全く異なる建築文化。', zhTw: '城（gusuku）樣式 — 使用沖繩特有珊瑚石灰岩的城牆，與本土城郭截然不同的建築文化。', en: 'Gusuku-style castle using coral limestone walls unique to Okinawa — an entirely different architectural tradition from mainland Japanese castles.' },
-      { ja: '中国風の赤漆と龍柱 — 本土の城にはない華やかな朱塗りと龍の装飾が琉球独自の文化を表現。', zhTw: '中國風的紅漆與龍柱 — 本土城郭所沒有的華麗朱漆與龍裝飾，表現琉球獨自的文化。', en: 'Chinese-influenced red lacquer and dragon pillars — vivid vermilion coating and dragon motifs unlike any mainland Japanese castle, expressing Ryukyuan cultural identity.' },
-      { ja: '自然の地形に沿って曲線を描く石垣 — 琉球石灰岩を巧みに積んだ曲線美は琉球の石積み技術の粋。', zhTw: '沿自然地形描繪曲線的石垣 — 巧妙堆砌琉球石灰岩的曲線美是琉球石砌技術的精華。', en: 'Curved stone walls following natural topography — the graceful curves of skillfully stacked Ryukyuan limestone represent the pinnacle of Ryukyuan masonry.' },
+      {
+        ja: 'グスク様式', zhTw: '城（gusuku）樣式', en: 'Gusuku-style castle using coral limestone walls unique to Okinawa',
+        desc: {
+          ja: '沖縄特有のサンゴ石灰岩を使った城壁で、本土の城郭とは全く異なる建築文化。',
+          zhTw: '使用沖繩特有珊瑚石灰岩的城牆，與本土城郭截然不同的建築文化。',
+          en: 'an entirely different architectural tradition from mainland Japanese castles.',
+        },
+      },
+      {
+        ja: '中国風の赤漆と龍柱', zhTw: '中國風的紅漆與龍柱', en: 'Chinese-influenced red lacquer and dragon pillars',
+        desc: {
+          ja: '本土の城にはない華やかな朱塗りと龍の装飾が琉球独自の文化を表現。',
+          zhTw: '本土城郭所沒有的華麗朱漆與龍裝飾，表現琉球獨自的文化。',
+          en: 'vivid vermilion coating and dragon motifs unlike any mainland Japanese castle, expressing Ryukyuan cultural identity.',
+        },
+      },
+      {
+        ja: '自然の地形に沿って曲線を描く石垣', zhTw: '沿自然地形描繪曲線的石垣', en: 'Curved stone walls following natural topography',
+        desc: {
+          ja: '琉球石灰岩を巧みに積んだ曲線美は琉球の石積み技術の粋。',
+          zhTw: '巧妙堆砌琉球石灰岩的曲線美是琉球石砌技術的精華。',
+          en: 'the graceful curves of skillfully stacked Ryukyuan limestone represent the pinnacle of Ryukyuan masonry.',
+        },
+      },
     ],
   },
 // ── 北海道 ──
@@ -1450,8 +1856,22 @@ export const castles = [
       { ja: 'チャシはアイヌ語で「柵囲い」を意味し、砦・祭祀・見張りに使われた。', zhTw: 'チャシ在愛努語中意為「柵欄」，用於堡壘、祭祀與瞭望。', en: '"Chashi" means "palisade" in Ainu; sites served as forts, ceremonial grounds, and lookouts.' },
     ],
     highlights: [
-      { ja: 'ヲンネモトチャシ — 最も保存状態が良く海を見渡す絶景のチャシ跡。', zhTw: 'ヲンネモトチャシ — 保存最完好、可俯瞰大海的チャシ遺跡。', en: 'Onnemoto Chashi — the best-preserved site with stunning ocean panoramas.' },
-      { ja: '納沙布岬と北方領土の眺望 — 日本最東端の岬から国後島を望む。', zhTw: '納沙布岬與北方領土眺望 — 從日本最東端海岬遠眺國後島。', en: 'Cape Nosappu views — see Kunashiri Island from Japan\'s easternmost point.' },
+      {
+        ja: 'ヲンネモトチャシ', zhTw: 'ヲンネモトチャシ', en: 'Onnemoto Chashi',
+        desc: {
+          ja: '最も保存状態が良く海を見渡す絶景のチャシ跡。',
+          zhTw: '保存最完好、可俯瞰大海的チャシ遺跡。',
+          en: 'the best-preserved site with stunning ocean panoramas.',
+        },
+      },
+      {
+        ja: '納沙布岬と北方領土の眺望', zhTw: '納沙布岬與北方領土眺望', en: 'Cape Nosappu views',
+        desc: {
+          ja: '日本最東端の岬から国後島を望む。',
+          zhTw: '從日本最東端海岬遠眺國後島。',
+          en: 'see Kunashiri Island from Japan\'s easternmost point.',
+        },
+      },
     ],
     architecture: [
       { ja: '半円形や方形の壕と土塁で構成されるアイヌ独自の築城様式。', zhTw: '由半圓形或方形壕溝與土壘構成的愛努族獨特築城樣式。', en: 'Unique Ainu fortification featuring semicircular or rectangular moats and earthworks.' },
@@ -1482,7 +1902,14 @@ export const castles = [
     ],
     highlights: [
       { ja: '桜まつり（4〜5月）— 北海道随一の桜の名所として賑わう。', zhTw: '櫻花祭（4至5月）— 北海道首屈一指的賞櫻名所。', en: 'Cherry blossom festival (April–May) — Hokkaido\'s premier hanami destination.' },
-      { ja: '松前藩屋敷 — 城下町を再現したテーマパーク。', zhTw: '松前藩屋敷 — 重現城下町的主題園區。', en: 'Matsumae Clan Mansion — a theme park recreating the castle town.' },
+      {
+        ja: '松前藩屋敷', zhTw: '松前藩屋敷', en: 'Matsumae Clan Mansion',
+        desc: {
+          ja: '城下町を再現したテーマパーク。',
+          zhTw: '重現城下町的主題園區。',
+          en: 'a theme park recreating the castle town.',
+        },
+      },
     ],
     architecture: [
       { ja: '幕末に築かれた日本最後の日本式天守を持つ城。天守は1949年に焼失し1961年に再建。', zhTw: '幕末築建的日本最後一座日式天守城郭。天守於1949年燒毀，1961年重建。', en: 'Japan\'s last traditional castle keep, built in the Bakumatsu; the keep burned in 1949 and was rebuilt in 1961.' },
@@ -1513,8 +1940,22 @@ export const castles = [
       { ja: '復原された中世の主殿や工房で当時の生活が体感できる。', zhTw: '在復原的中世主殿與工坊可以體驗當時的生活。', en: 'Reconstructed medieval halls and workshops let visitors experience life in the Muromachi period.' },
     ],
     highlights: [
-      { ja: '復原された本丸主殿 — 中世武士の居館を忠実に再現。', zhTw: '復原的本丸主殿 — 忠實再現中世武士居館。', en: 'Reconstructed main hall — a faithful recreation of a medieval samurai residence.' },
-      { ja: '広大な城跡公園 — 八戸市民の憩いの場として四季折々の景色を楽しめる。', zhTw: '廣闊的城跡公園 — 八戶市民休憩之地，可享四季景色。', en: 'Spacious castle park — a beloved local retreat with beautiful seasonal scenery.' },
+      {
+        ja: '復原された本丸主殿', zhTw: '復原的本丸主殿', en: 'Reconstructed main hall',
+        desc: {
+          ja: '中世武士の居館を忠実に再現。',
+          zhTw: '忠實再現中世武士居館。',
+          en: 'a faithful recreation of a medieval samurai residence.',
+        },
+      },
+      {
+        ja: '広大な城跡公園', zhTw: '廣闊的城跡公園', en: 'Spacious castle park',
+        desc: {
+          ja: '八戸市民の憩いの場として四季折々の景色を楽しめる。',
+          zhTw: '八戶市民休憩之地，可享四季景色。',
+          en: 'a beloved local retreat with beautiful seasonal scenery.',
+        },
+      },
     ],
     architecture: [
       { ja: '中世の城館形式で、堀と土塁に囲まれた曲輪群で構成される。', zhTw: '中世城館形式，由壕溝與土壘環繞的曲輪群構成。', en: 'Medieval fortified residence style, with compounds surrounded by moats and earthen ramparts.' },
@@ -1544,8 +1985,22 @@ export const castles = [
       { ja: '石垣の割れ目から生えた「石割桜」は盛岡のシンボルとして天然記念物に指定されている。', zhTw: '從石垣裂縫中生長的「石割櫻」是盛岡的象徵，被指定為天然紀念物。', en: 'A cherry tree growing from a crack in the stone wall — the "Stone-splitting Cherry" — is a designated Natural Monument.' },
     ],
     highlights: [
-      { ja: '三段に積まれた花崗岩の石垣 — 東北随一の美しさを誇る。', zhTw: '三層堆疊的花崗岩石垣 — 以東北第一的美麗著稱。', en: 'Three-tiered granite stone walls — considered the finest in the Tōhoku region.' },
-      { ja: '岩手公園の紅葉 — 秋は石垣と紅葉のコントラストが見事。', zhTw: '岩手公園的紅葉 — 秋季石垣與紅葉的對比十分壯觀。', en: 'Autumn foliage in Iwate Park — stunning contrast of stone walls and red leaves.' },
+      {
+        ja: '三段に積まれた花崗岩の石垣', zhTw: '三層堆疊的花崗岩石垣', en: 'Three-tiered granite stone walls',
+        desc: {
+          ja: '東北随一の美しさを誇る。',
+          zhTw: '以東北第一的美麗著稱。',
+          en: 'considered the finest in the Tōhoku region.',
+        },
+      },
+      {
+        ja: '岩手公園の紅葉', zhTw: '岩手公園的紅葉', en: 'Autumn foliage in Iwate Park',
+        desc: {
+          ja: '秋は石垣と紅葉のコントラストが見事。',
+          zhTw: '秋季石垣與紅葉的對比十分壯觀。',
+          en: 'stunning contrast of stone walls and red leaves.',
+        },
+      },
     ],
     architecture: [
       { ja: '花崗岩を用いた総石垣の城で、東北では珍しい本格的な近世城郭。', zhTw: '使用花崗岩的全石垣城郭，在東北是罕見的正統近世城郭。', en: 'A fully stone-walled castle using granite — a rare, full-scale early-modern fortification in Tōhoku.' },
@@ -1575,7 +2030,14 @@ export const castles = [
       { ja: '762年に建てられた「多賀城碑」は日本三古碑の一つとして重要文化財に指定。', zhTw: '762年建立的「多賀城碑」為日本三古碑之一，被指定為重要文化財。', en: 'The 762 Taga Castle stele is one of Japan\'s three oldest stone inscriptions, designated an Important Cultural Property.' },
     ],
     highlights: [
-      { ja: '政庁跡 — 復元された礎石と広大な跡地が古代の威容を偲ばせる。', zhTw: '政廳遺跡 — 復原的礎石與廣闊遺址令人遙想古代的威容。', en: 'Government hall ruins — restored foundation stones evoke the grandeur of the ancient capital.' },
+      {
+        ja: '政庁跡', zhTw: '政廳遺跡', en: 'Government hall ruins',
+        desc: {
+          ja: '復元された礎石と広大な跡地が古代の威容を偲ばせる。',
+          zhTw: '復原的礎石與廣闊遺址令人遙想古代的威容。',
+          en: 'restored foundation stones evoke the grandeur of the ancient capital.',
+        },
+      },
       { ja: '多賀城碑（壺碑）— 松尾芭蕉も訪れた歴史的石碑。', zhTw: '多賀城碑（壺碑）— 松尾芭蕉也曾造訪的歷史石碑。', en: 'Taga Castle stele — the historic inscription that moved even Matsuo Bashō to tears.' },
     ],
     architecture: [
@@ -1606,8 +2068,22 @@ export const castles = [
       { ja: '千秋公園の桜とツツジは秋田を代表する花の名所。', zhTw: '千秋公園的櫻花與杜鵑花是秋田代表性的賞花名所。', en: 'Senshu Park\'s cherry blossoms and azaleas are Akita\'s most famous floral attractions.' },
     ],
     highlights: [
-      { ja: '御隅櫓 — 再建された三階の物見櫓から秋田市街を一望。', zhTw: '御隅櫓 — 從重建的三層瞭望櫓俯瞰秋田市區。', en: 'Reconstructed corner turret — panoramic views of Akita city from three stories up.' },
-      { ja: '千秋公園の四季 — 桜・蓮・紅葉・雪景色と四季を通じて楽しめる。', zhTw: '千秋公園四季 — 櫻花、蓮花、紅葉、雪景，四季皆可欣賞。', en: 'Four seasons in Senshu Park — cherry blossoms, lotus, autumn leaves, and snow scenes.' },
+      {
+        ja: '御隅櫓', zhTw: '御隅櫓', en: 'Reconstructed corner turret',
+        desc: {
+          ja: '再建された三階の物見櫓から秋田市街を一望。',
+          zhTw: '從重建的三層瞭望櫓俯瞰秋田市區。',
+          en: 'panoramic views of Akita city from three stories up.',
+        },
+      },
+      {
+        ja: '千秋公園の四季', zhTw: '千秋公園四季', en: 'Four seasons in Senshu Park',
+        desc: {
+          ja: '桜・蓮・紅葉・雪景色と四季を通じて楽しめる。',
+          zhTw: '櫻花、蓮花、紅葉、雪景，四季皆可欣賞。',
+          en: 'cherry blossoms, lotus, autumn leaves, and snow scenes.',
+        },
+      },
     ],
     architecture: [
       { ja: '石垣を使わず土塁と水堀で防御する東北特有の築城方式。', zhTw: '不使用石垣，以土壘與水堀防禦的東北特有築城方式。', en: 'Tōhoku-style fortification using earthen ramparts and water moats instead of stone walls.' },
@@ -1637,8 +2113,22 @@ export const castles = [
       { ja: '面積では東北最大、全国でも5番目の規模を持つ広大な城跡。', zhTw: '面積為東北最大，全國第5大規模的廣闊城跡。', en: 'The largest castle site in Tōhoku by area and fifth largest in all of Japan.' },
     ],
     highlights: [
-      { ja: '復原された二の丸東大手門 — 木造で忠実に再建された壮大な櫓門。', zhTw: '復原的二之丸東大手門 — 以木造忠實重建的壯觀櫓門。', en: 'Reconstructed ninomaru east gate — a grand turret gate faithfully rebuilt in wood.' },
-      { ja: '霞城公園の桜 — 堀沿いに約1,500本の桜が咲き誇る。', zhTw: '霞城公園的櫻花 — 沿護城河約1,500棵櫻花盛開。', en: 'Kajō Park cherry blossoms — 1,500 trees bloom along the moats.' },
+      {
+        ja: '復原された二の丸東大手門', zhTw: '復原的二之丸東大手門', en: 'Reconstructed ninomaru east gate',
+        desc: {
+          ja: '木造で忠実に再建された壮大な櫓門。',
+          zhTw: '以木造忠實重建的壯觀櫓門。',
+          en: 'a grand turret gate faithfully rebuilt in wood.',
+        },
+      },
+      {
+        ja: '霞城公園の桜', zhTw: '霞城公園的櫻花', en: 'Kajō Park cherry blossoms',
+        desc: {
+          ja: '堀沿いに約1,500本の桜が咲き誇る。',
+          zhTw: '沿護城河約1,500棵櫻花盛開。',
+          en: '1,500 trees bloom along the moats.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸・二の丸・三の丸の三重の堀と土塁を持つ輪郭式の縄張り。', zhTw: '擁有本丸、二之丸、三之丸三重護城河與土壘的輪郭式配置。', en: 'Concentric layout with triple moats and earthworks around honmaru, ninomaru, and sannomaru.' },
@@ -1669,7 +2159,14 @@ export const castles = [
     ],
     highlights: [
       { ja: '本丸石垣からの眺望 — 安達太良山と阿武隈川の絶景。', zhTw: '從本丸石垣眺望安達太良山與阿武隈川的絕景。', en: 'Views from the honmaru walls — Mt. Adatara and the Abukuma River panorama.' },
-      { ja: '箕輪門 — 復元された壮大な櫓門は城のシンボル。', zhTw: '箕輪門 — 復原的壯觀櫓門為城的象徵。', en: 'Minowa Gate — the reconstructed turret gate serves as the castle\'s symbol.' },
+      {
+        ja: '箕輪門', zhTw: '箕輪門', en: 'Minowa Gate',
+        desc: {
+          ja: '復元された壮大な櫓門は城のシンボル。',
+          zhTw: '復原的壯觀櫓門為城的象徵。',
+          en: 'the reconstructed turret gate serves as the castle\'s symbol.',
+        },
+      },
     ],
     architecture: [
       { ja: '山頂の本丸と山麓の居館を組み合わせた典型的な平山城。', zhTw: '結合山頂本丸與山麓居館的典型平山城。', en: 'A classic hilltop castle combining a mountaintop honmaru with a foothill residence.' },
@@ -1699,8 +2196,22 @@ export const castles = [
       { ja: '白虎隊は飯盛山から城が燃えていると誤認し、19名が自刃した悲劇で知られる。', zhTw: '白虎隊從飯盛山誤認城池失火，19名隊員自刃的悲劇廣為人知。', en: 'The Byakkotai (White Tiger Brigade) mistakenly thought the castle was burning and 19 members took their own lives on Iimoriyama.' },
     ],
     highlights: [
-      { ja: '赤瓦の天守 — 全国唯一の赤瓦天守は他に類を見ない美しさ。', zhTw: '紅瓦天守 — 全國唯一的紅瓦天守，美麗獨一無二。', en: 'Red-tiled keep — Japan\'s only castle with red roof tiles, strikingly beautiful.' },
-      { ja: '飯盛山と白虎隊記念館 — 城から見える悲劇の地。', zhTw: '飯盛山與白虎隊紀念館 — 從城可見的悲劇之地。', en: 'Iimoriyama and Byakkotai Memorial — the tragic site visible from the castle.' },
+      {
+        ja: '赤瓦の天守', zhTw: '紅瓦天守', en: 'Red-tiled keep',
+        desc: {
+          ja: '全国唯一の赤瓦天守は他に類を見ない美しさ。',
+          zhTw: '全國唯一的紅瓦天守，美麗獨一無二。',
+          en: 'Japan\'s only castle with red roof tiles, strikingly beautiful.',
+        },
+      },
+      {
+        ja: '飯盛山と白虎隊記念館', zhTw: '飯盛山與白虎隊紀念館', en: 'Iimoriyama and Byakkotai Memorial',
+        desc: {
+          ja: '城から見える悲劇の地。',
+          zhTw: '從城可見的悲劇之地。',
+          en: 'the tragic site visible from the castle.',
+        },
+      },
     ],
     architecture: [
       { ja: '五層の天守は1965年にRC造で再建。2011年に赤瓦に復元された。', zhTw: '五層天守於1965年以鋼筋混凝土重建，2011年復原紅瓦。', en: 'The five-story keep was rebuilt in reinforced concrete in 1965; red tiles were restored in 2011.' },
@@ -1730,8 +2241,22 @@ export const castles = [
       { ja: '2011年の東日本大震災で石垣が大きく崩落し、10年かけて修復された。', zhTw: '2011年東日本大震災中石垣大規模崩塌，歷經十年修復。', en: 'Stone walls collapsed severely in the 2011 earthquake and took ten years to repair.' },
     ],
     highlights: [
-      { ja: '木造復元の三重櫓 — 杉材を使い江戸時代の工法で再建。', zhTw: '木造復原的三重櫓 — 使用杉木以江戶時代工法重建。', en: 'Wooden three-story turret — rebuilt using cedar and Edo-period construction techniques.' },
-      { ja: '桜と石垣の競演 — 春には約200本の桜が石垣を彩る。', zhTw: '櫻花與石垣的競演 — 春天約200棵櫻花裝點石垣。', en: 'Cherry blossoms and stone walls — 200 cherry trees adorn the walls each spring.' },
+      {
+        ja: '木造復元の三重櫓', zhTw: '木造復原的三重櫓', en: 'Wooden three-story turret',
+        desc: {
+          ja: '杉材を使い江戸時代の工法で再建。',
+          zhTw: '使用杉木以江戶時代工法重建。',
+          en: 'rebuilt using cedar and Edo-period construction techniques.',
+        },
+      },
+      {
+        ja: '桜と石垣の競演', zhTw: '櫻花與石垣的競演', en: 'Cherry blossoms and stone walls',
+        desc: {
+          ja: '春には約200本の桜が石垣を彩る。',
+          zhTw: '春天約200棵櫻花裝點石垣。',
+          en: '200 cherry trees adorn the walls each spring.',
+        },
+      },
     ],
     architecture: [
       { ja: '総石垣造りの東北では珍しい本格的近世城郭。', zhTw: '全石垣建造，在東北罕見的正統近世城郭。', en: 'A rare fully stone-walled early-modern castle in the Tōhoku region.' },
@@ -1762,8 +2287,22 @@ export const castles = [
       { ja: '城域内に水戸一高・水戸三高など学校が建ち並ぶ全国でも珍しい城跡。', zhTw: '城域內建有水戶一高等學校的全國罕見城跡。', en: 'Unusually, the castle grounds are occupied by several high schools.' },
     ],
     highlights: [
-      { ja: '復元された大手門 — 2020年に木造で復元された壮大な門。', zhTw: '復原的大手門 — 2020年以木造復原的壯觀城門。', en: 'Reconstructed main gate — a grand wooden gate restored in 2020.' },
-      { ja: '弘道館 — 水戸藩の藩校で国の特別史跡。', zhTw: '弘道館 — 水戶藩的藩校，為國家特別史跡。', en: 'Kōdōkan — the domain school designated a Special Historic Site.' },
+      {
+        ja: '復元された大手門', zhTw: '復原的大手門', en: 'Reconstructed main gate',
+        desc: {
+          ja: '2020年に木造で復元された壮大な門。',
+          zhTw: '2020年以木造復原的壯觀城門。',
+          en: 'a grand wooden gate restored in 2020.',
+        },
+      },
+      {
+        ja: '弘道館', zhTw: '弘道館', en: 'Kōdōkan',
+        desc: {
+          ja: '水戸藩の藩校で国の特別史跡。',
+          zhTw: '水戶藩的藩校，為國家特別史跡。',
+          en: 'the domain school designated a Special Historic Site.',
+        },
+      },
     ],
     architecture: [
       { ja: '台地の地形を活かした連郭式の縄張りで、三の丸から本丸まで一直線に配置。', zhTw: '利用台地地形的連郭式配置，從三之丸到本丸一直線排列。', en: 'A linear layout exploiting the plateau terrain, with sannomaru through honmaru arranged in a straight line.' },
@@ -1793,8 +2332,22 @@ export const castles = [
       { ja: '足利学校と合わせて日本中世文化の発信地として栄えた。', zhTw: '與足利學校共同作為日本中世文化的發信地而繁榮。', en: 'Flourished alongside the Ashikaga School as a center of medieval Japanese culture.' },
     ],
     highlights: [
-      { ja: '国宝の本堂 — 鎌倉時代の建築美を今に伝える。', zhTw: '國寶本堂 — 傳承鎌倉時代建築之美。', en: 'National Treasure main hall — preserving the beauty of Kamakura-period architecture.' },
-      { ja: '堀と土塁 — 中世武家居館の原型をよく残す。', zhTw: '壕溝與土壘 — 完好保留中世武家居館的原型。', en: 'Moat and earthworks — well-preserved examples of a medieval warrior compound.' },
+      {
+        ja: '国宝の本堂', zhTw: '國寶本堂', en: 'National Treasure main hall',
+        desc: {
+          ja: '鎌倉時代の建築美を今に伝える。',
+          zhTw: '傳承鎌倉時代建築之美。',
+          en: 'preserving the beauty of Kamakura-period architecture.',
+        },
+      },
+      {
+        ja: '堀と土塁', zhTw: '壕溝與土壘', en: 'Moat and earthworks',
+        desc: {
+          ja: '中世武家居館の原型をよく残す。',
+          zhTw: '完好保留中世武家居館的原型。',
+          en: 'well-preserved examples of a medieval warrior compound.',
+        },
+      },
     ],
     architecture: [
       { ja: '方形の堀と土塁に囲まれた中世武家居館の典型的な形態。', zhTw: '由方形壕溝與土壘環繞的中世武家居館典型形態。', en: 'A classic medieval warrior residence enclosed by a square moat and earthen ramparts.' },
@@ -1824,8 +2377,22 @@ export const castles = [
       { ja: '大堀切は深さ約20mで、戦国城郭の中でも屈指の規模。', zhTw: '大堀切深約20公尺，在戰國城郭中規模數一數二。', en: 'The great moat cut is about 20 meters deep — among the largest of any Sengoku-period castle.' },
     ],
     highlights: [
-      { ja: '大堀切 — 圧倒的な規模を誇る戦国期の巨大空堀。', zhTw: '大堀切 — 規模壓倒性的戰國時期巨大空壕。', en: 'Great Moat Cut — a massive Sengoku-era dry moat of overwhelming scale.' },
-      { ja: '復元された郭馬出西虎口門 — 戦国の城門が蘇る。', zhTw: '復原的郭馬出西虎口門 — 戰國城門重現。', en: 'Reconstructed western entrance gate — bringing a Sengoku-period castle gate back to life.' },
+      {
+        ja: '大堀切', zhTw: '大堀切', en: 'Great Moat Cut',
+        desc: {
+          ja: '圧倒的な規模を誇る戦国期の巨大空堀。',
+          zhTw: '規模壓倒性的戰國時期巨大空壕。',
+          en: 'a massive Sengoku-era dry moat of overwhelming scale.',
+        },
+      },
+      {
+        ja: '復元された郭馬出西虎口門', zhTw: '復原的郭馬出西虎口門', en: 'Reconstructed western entrance gate',
+        desc: {
+          ja: '戦国の城門が蘇る。',
+          zhTw: '戰國城門重現。',
+          en: 'bringing a Sengoku-period castle gate back to life.',
+        },
+      },
     ],
     architecture: [
       { ja: '丘陵の尾根を利用した連郭式の山城で、大規模な堀切で各曲輪を分断。', zhTw: '利用丘陵山脊的連郭式山城，以大規模堀切分隔各曲輪。', en: 'A ridge-top castle with linked compounds separated by massive moat cuts.' },
@@ -1855,8 +2422,22 @@ export const castles = [
       { ja: '山頂に石造りの日ノ池・月ノ池が残り、神聖な水の祭祀が行われていた。', zhTw: '山頂留有石造的日之池與月之池，曾舉行神聖的水祭祀。', en: 'Stone-lined Sun Pool and Moon Pool survive atop the mountain, where sacred water rituals were performed.' },
     ],
     highlights: [
-      { ja: '復元された石垣と大手虎口 — 関東では貴重な石造りの城門跡。', zhTw: '復原的石垣與大手虎口 — 在關東極為珍貴的石造城門遺跡。', en: 'Restored stone walls and main entrance — a rare stone-built castle gate in the Kantō region.' },
-      { ja: '日ノ池 — 石積みの貯水池は祭祀の場だったとされる。', zhTw: '日之池 — 石砌蓄水池據傳為祭祀場所。', en: 'Sun Pool — a stone-lined reservoir believed to have been a ritual site.' },
+      {
+        ja: '復元された石垣と大手虎口', zhTw: '復原的石垣與大手虎口', en: 'Restored stone walls and main entrance',
+        desc: {
+          ja: '関東では貴重な石造りの城門跡。',
+          zhTw: '在關東極為珍貴的石造城門遺跡。',
+          en: 'a rare stone-built castle gate in the Kantō region.',
+        },
+      },
+      {
+        ja: '日ノ池', zhTw: '日之池', en: 'Sun Pool',
+        desc: {
+          ja: '石積みの貯水池は祭祀の場だったとされる。',
+          zhTw: '石砌蓄水池據傳為祭祀場所。',
+          en: 'a stone-lined reservoir believed to have been a ritual site.',
+        },
+      },
     ],
     architecture: [
       { ja: '関東では例外的に石垣を多用した山城で、大手道に精巧な石畳が敷かれている。', zhTw: '在關東例外地大量使用石垣的山城，大手道鋪設精巧石板。', en: 'Exceptionally for Kantō, this mountain castle uses extensive stonework with a finely paved main approach.' },
@@ -1886,8 +2467,22 @@ export const castles = [
       { ja: '北条氏の北関東支配の拠点で、上野・信濃方面への前線基地だった。', zhTw: '北條氏北關東統治的據點，是面向上野、信濃方面的前線基地。', en: 'The Hōjō clan\'s base for controlling northern Kantō and a frontline against Kōzuke and Shinano.' },
     ],
     highlights: [
-      { ja: '復元された四脚門と石積み土塁 — 戦国期の姿を伝える。', zhTw: '復原的四腳門與石積土壘 — 傳達戰國時期的樣貌。', en: 'Reconstructed four-legged gate and stone-lined earthworks — evoking the Sengoku era.' },
-      { ja: '荒川の渓谷美 — 城跡からの眺望は四季を通じて美しい。', zhTw: '荒川的溪谷之美 — 從城跡眺望四季皆美。', en: 'Arakawa gorge views — beautiful scenery from the castle ruins in all seasons.' },
+      {
+        ja: '復元された四脚門と石積み土塁', zhTw: '復原的四腳門與石積土壘', en: 'Reconstructed four-legged gate and stone-lined earthworks',
+        desc: {
+          ja: '戦国期の姿を伝える。',
+          zhTw: '傳達戰國時期的樣貌。',
+          en: 'evoking the Sengoku era.',
+        },
+      },
+      {
+        ja: '荒川の渓谷美', zhTw: '荒川的溪谷之美', en: 'Arakawa gorge views',
+        desc: {
+          ja: '城跡からの眺望は四季を通じて美しい。',
+          zhTw: '從城跡眺望四季皆美。',
+          en: 'beautiful scenery from the castle ruins in all seasons.',
+        },
+      },
     ],
     architecture: [
       { ja: '荒川の断崖を天然の堀とし、台地上に複数の曲輪を配置した戦国城郭。', zhTw: '以荒川斷崖為天然壕溝，在台地上配置多個曲輪的戰國城郭。', en: 'A Sengoku castle using Arakawa River cliffs as a natural moat with multiple compounds on the plateau.' },
@@ -1917,8 +2512,22 @@ export const castles = [
       { ja: '河越夜戦は日本三大夜戦の一つに数えられる。', zhTw: '河越夜戰被列為日本三大夜戰之一。', en: 'The Night Battle of Kawagoe is counted among Japan\'s three great night battles.' },
     ],
     highlights: [
-      { ja: '本丸御殿 — 嘉永元年築の貴重な現存御殿建築。', zhTw: '本丸御殿 — 嘉永元年建造的珍貴現存御殿建築。', en: 'Honmaru Palace — a precious surviving palace building from 1848.' },
-      { ja: '小江戸川越の町並み — 蔵造りの町並みと時の鐘。', zhTw: '小江戶川越的街景 — 藏造建築街道與時之鐘。', en: 'Little Edo Kawagoe — traditional warehouse-style streets and the iconic Bell Tower.' },
+      {
+        ja: '本丸御殿', zhTw: '本丸御殿', en: 'Honmaru Palace',
+        desc: {
+          ja: '嘉永元年築の貴重な現存御殿建築。',
+          zhTw: '嘉永元年建造的珍貴現存御殿建築。',
+          en: 'a precious surviving palace building from 1848.',
+        },
+      },
+      {
+        ja: '小江戸川越の町並み', zhTw: '小江戶川越的街景', en: 'Little Edo Kawagoe',
+        desc: {
+          ja: '蔵造りの町並みと時の鐘。',
+          zhTw: '藏造建築街道與時之鐘。',
+          en: 'traditional warehouse-style streets and the iconic Bell Tower.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸御殿は入母屋造の書院建築で、36畳の大広間が圧巻。', zhTw: '本丸御殿為入母屋造的書院建築，36疊大廣間令人驚嘆。', en: 'The honmaru palace is a shoin-style building with an impressive 36-tatami grand hall.' },
@@ -1948,8 +2557,22 @@ export const castles = [
       { ja: '国立歴史民俗博物館が城跡に建てられ、日本有数の歴史博物館として知られる。', zhTw: '國立歷史民俗博物館建於城跡，為日本首屈一指的歷史博物館。', en: 'The National Museum of Japanese History stands on the castle grounds — one of Japan\'s premier history museums.' },
     ],
     highlights: [
-      { ja: '空堀と土塁の遺構 — 石垣なしの防御体系がよく残る。', zhTw: '空壕與土壘的遺構 — 完好保留無石垣的防禦體系。', en: 'Dry moats and earthworks — the stone-free defense system is well preserved.' },
-      { ja: '国立歴史民俗博物館 — 日本の歴史と文化を網羅する大規模博物館。', zhTw: '國立歷史民俗博物館 — 涵蓋日本歷史與文化的大型博物館。', en: 'National Museum of Japanese History — a comprehensive museum of Japanese history and culture.' },
+      {
+        ja: '空堀と土塁の遺構', zhTw: '空壕與土壘的遺構', en: 'Dry moats and earthworks',
+        desc: {
+          ja: '石垣なしの防御体系がよく残る。',
+          zhTw: '完好保留無石垣的防禦體系。',
+          en: 'the stone-free defense system is well preserved.',
+        },
+      },
+      {
+        ja: '国立歴史民俗博物館', zhTw: '國立歷史民俗博物館', en: 'National Museum of Japanese History',
+        desc: {
+          ja: '日本の歴史と文化を網羅する大規模博物館。',
+          zhTw: '涵蓋日本歷史與文化的大型博物館。',
+          en: 'a comprehensive museum of Japanese history and culture.',
+        },
+      },
     ],
     architecture: [
       { ja: '馬出し空堀と角馬出しを多用した戦略的な縄張り。', zhTw: '大量運用馬出空壕與角馬出的戰略性配置。', en: 'A strategic layout making extensive use of horse-launching barbican moats.' },
@@ -1979,8 +2602,22 @@ export const castles = [
       { ja: '東京都内で唯一の日本100名城。', zhTw: '東京都內唯一的日本100名城。', en: 'The only one of the 100 Famous Castles located within Tokyo.' },
     ],
     highlights: [
-      { ja: '御主殿跡と御主殿の滝 — 復元された石垣と悲劇の伝承地。', zhTw: '御主殿遺跡與御主殿之瀑 — 復原的石垣與悲劇傳說之地。', en: 'Lord\'s palace ruins and waterfall — restored stone walls and the site of the castle\'s tragic fall.' },
-      { ja: '山頂本丸からの眺望 — 関東平野を一望できる。', zhTw: '從山頂本丸眺望 — 可一覽關東平原。', en: 'Summit honmaru views — panoramic vistas of the Kantō Plain.' },
+      {
+        ja: '御主殿跡と御主殿の滝', zhTw: '御主殿遺跡與御主殿之瀑', en: 'Lord\'s palace ruins and waterfall',
+        desc: {
+          ja: '復元された石垣と悲劇の伝承地。',
+          zhTw: '復原的石垣與悲劇傳說之地。',
+          en: 'restored stone walls and the site of the castle\'s tragic fall.',
+        },
+      },
+      {
+        ja: '山頂本丸からの眺望', zhTw: '從山頂本丸眺望', en: 'Summit honmaru views',
+        desc: {
+          ja: '関東平野を一望できる。',
+          zhTw: '可一覽關東平原。',
+          en: 'panoramic vistas of the Kantō Plain.',
+        },
+      },
     ],
     architecture: [
       { ja: '山頂の要害地区と山腹の居館地区に分かれる本格的な戦国山城。', zhTw: '分為山頂要害地區與山腹居館地區的正統戰國山城。', en: 'A full-scale Sengoku mountain castle divided into a summit fortress zone and a hillside residential zone.' },
@@ -2011,8 +2648,22 @@ export const castles = [
       { ja: '武田神社は初詣や勝運祈願の名所として年間を通じて参拝者が多い。', zhTw: '武田神社是新年參拜及祈求勝運的名所，全年參拜者眾多。', en: 'Takeda Shrine draws visitors year-round for prayers of victory and New Year visits.' },
     ],
     highlights: [
-      { ja: '武田神社 — 信玄を祭神とする神社で勝運のパワースポット。', zhTw: '武田神社 — 以信玄為祭神的神社，勝運能量景點。', en: 'Takeda Shrine — dedicated to Shingen, a popular power spot for victory prayers.' },
-      { ja: '堀と土塁の遺構 — 中世武家居館の姿を今に伝える。', zhTw: '壕溝與土壘遺構 — 傳承中世武家居館的樣貌。', en: 'Moat and earthwork remains — preserving the form of a medieval warrior compound.' },
+      {
+        ja: '武田神社', zhTw: '武田神社', en: 'Takeda Shrine',
+        desc: {
+          ja: '信玄を祭神とする神社で勝運のパワースポット。',
+          zhTw: '以信玄為祭神的神社，勝運能量景點。',
+          en: 'dedicated to Shingen, a popular power spot for victory prayers.',
+        },
+      },
+      {
+        ja: '堀と土塁の遺構', zhTw: '壕溝與土壘遺構', en: 'Moat and earthwork remains',
+        desc: {
+          ja: '中世武家居館の姿を今に伝える。',
+          zhTw: '傳承中世武家居館的樣貌。',
+          en: 'preserving the form of a medieval warrior compound.',
+        },
+      },
     ],
     architecture: [
       { ja: '方形の堀と土塁に囲まれた典型的な中世武家居館形式。', zhTw: '由方形壕溝與土壘環繞的典型中世武家居館形式。', en: 'A classic medieval warrior residence surrounded by a square moat and earthen walls.' },
@@ -2042,8 +2693,22 @@ export const castles = [
       { ja: '別名「舞鶴城」は城の縄張りが鶴が舞う姿に見えることに由来する。', zhTw: '別名「舞鶴城」源於城的配置看似鶴舞之姿。', en: 'Its alias "Maizuru Castle" (Dancing Crane) comes from the castle layout resembling a crane in flight.' },
     ],
     highlights: [
-      { ja: '天守台からの眺望 — 富士山と甲府盆地を一望。', zhTw: '從天守台眺望 — 一覽富士山與甲府盆地。', en: 'Views from the keep platform — panoramic vistas of Mt. Fuji and the Kōfu Basin.' },
-      { ja: '復元された稲荷櫓 — 木造で忠実に再建された隅櫓。', zhTw: '復原的稻荷櫓 — 以木造忠實重建的角櫓。', en: 'Reconstructed Inari Turret — a corner turret faithfully rebuilt in wood.' },
+      {
+        ja: '天守台からの眺望', zhTw: '從天守台眺望', en: 'Views from the keep platform',
+        desc: {
+          ja: '富士山と甲府盆地を一望。',
+          zhTw: '一覽富士山與甲府盆地。',
+          en: 'panoramic vistas of Mt. Fuji and the Kōfu Basin.',
+        },
+      },
+      {
+        ja: '復元された稲荷櫓', zhTw: '復原的稻荷櫓', en: 'Reconstructed Inari Turret',
+        desc: {
+          ja: '木造で忠実に再建された隅櫓。',
+          zhTw: '以木造忠實重建的角櫓。',
+          en: 'a corner turret faithfully rebuilt in wood.',
+        },
+      },
     ],
     architecture: [
       { ja: '野面積み・切込接ぎ・打込接ぎの三種の石垣技法が見られる貴重な城。', zhTw: '可見野面積、切込接、打込接三種石垣技法的珍貴城郭。', en: 'A rare castle showcasing three types of stone-wall techniques: rough-stacked, cut-and-fitted, and hammered.' },
@@ -2073,8 +2738,22 @@ export const castles = [
       { ja: '真田宝物館には真田家伝来の甲冑や書状が多数展示されている。', zhTw: '真田寶物館展示大量真田家傳承的甲冑與書信。', en: 'The Sanada Treasure Museum displays armor, letters, and artifacts passed down through the Sanada clan.' },
     ],
     highlights: [
-      { ja: '復元された太鼓門 — 松代城のシンボル。', zhTw: '復原的太鼓門 — 松代城的象徵。', en: 'Restored Drum Gate — the symbol of Matsushiro Castle.' },
-      { ja: '真田邸と文武学校 — 藩士の暮らしと教育を伝える。', zhTw: '真田邸與文武學校 — 傳達藩士的生活與教育。', en: 'Sanada Residence and Bunbu School — preserving samurai life and education.' },
+      {
+        ja: '復元された太鼓門', zhTw: '復原的太鼓門', en: 'Restored Drum Gate',
+        desc: {
+          ja: '松代城のシンボル。',
+          zhTw: '松代城的象徵。',
+          en: 'the symbol of Matsushiro Castle.',
+        },
+      },
+      {
+        ja: '真田邸と文武学校', zhTw: '真田邸與文武學校', en: 'Sanada Residence and Bunbu School',
+        desc: {
+          ja: '藩士の暮らしと教育を伝える。',
+          zhTw: '傳達藩士的生活與教育。',
+          en: 'preserving samurai life and education.',
+        },
+      },
     ],
     architecture: [
       { ja: '千曲川の水を引き入れた水堀に囲まれた平城。', zhTw: '引千曲川之水的水堀環繞的平城。', en: 'A flatland castle surrounded by water moats fed from the Chikuma River.' },
@@ -2104,8 +2783,22 @@ export const castles = [
       { ja: '上田城の桜は約1,000本で、千本桜まつりは市最大のイベント。', zhTw: '上田城約有1,000棵櫻花，千本櫻祭是全市最大活動。', en: 'Ueda Castle has about 1,000 cherry trees; the Senbon Sakura Festival is the city\'s biggest event.' },
     ],
     highlights: [
-      { ja: '真田石 — 城内最大の巨石は真田氏の権威の象徴。', zhTw: '真田石 — 城內最大的巨石是真田氏權威的象徵。', en: 'Sanada Stone — the largest boulder in the castle symbolizes Sanada authority.' },
-      { ja: '西櫓・南櫓・北櫓 — 江戸時代から現存する貴重な建造物。', zhTw: '西櫓、南櫓、北櫓 — 江戶時代留存至今的珍貴建築。', en: 'Three surviving Edo-period turrets — rare original castle structures.' },
+      {
+        ja: '真田石', zhTw: '真田石', en: 'Sanada Stone',
+        desc: {
+          ja: '城内最大の巨石は真田氏の権威の象徴。',
+          zhTw: '城內最大的巨石是真田氏權威的象徵。',
+          en: 'the largest boulder in the castle symbolizes Sanada authority.',
+        },
+      },
+      {
+        ja: '西櫓・南櫓・北櫓', zhTw: '西櫓、南櫓、北櫓', en: 'Three surviving Edo-period turrets',
+        desc: {
+          ja: '江戸時代から現存する貴重な建造物。',
+          zhTw: '江戶時代留存至今的珍貴建築。',
+          en: 'rare original castle structures.',
+        },
+      },
     ],
     architecture: [
       { ja: '千曲川の河岸段丘上に築かれ、尼ヶ淵の崖を天然の要害とした。', zhTw: '築於千曲川河岸段丘上，以尼崎淵的懸崖為天然要害。', en: 'Built on river terraces above the Chikuma River, using Amagafuchi cliffs as a natural defense.' },
@@ -2135,8 +2828,22 @@ export const castles = [
       { ja: '島崎藤村の「小諸なる古城のほとり」は懐古園の情景を詠んだ名作。', zhTw: '島崎藤村的「小諸古城畔」是詠嘆懷古園情景的名作。', en: 'Shimazaki Tōson\'s poem "By the Old Castle of Komoro" immortalized the park\'s scenery.' },
     ],
     highlights: [
-      { ja: '三の門と大手門 — 共に重要文化財に指定された現存建造物。', zhTw: '三之門與大手門 — 均被指定為重要文化財的現存建築。', en: 'Third Gate and Main Gate — both surviving structures designated Important Cultural Properties.' },
-      { ja: '懐古園からの千曲川の眺望 — 断崖上から望む渓谷美。', zhTw: '從懷古園眺望千曲川 — 從斷崖上遠眺溪谷之美。', en: 'Chikuma River views from Kaikoen — gorge scenery from the clifftop.' },
+      {
+        ja: '三の門と大手門', zhTw: '三之門與大手門', en: 'Third Gate and Main Gate',
+        desc: {
+          ja: '共に重要文化財に指定された現存建造物。',
+          zhTw: '均被指定為重要文化財的現存建築。',
+          en: 'both surviving structures designated Important Cultural Properties.',
+        },
+      },
+      {
+        ja: '懐古園からの千曲川の眺望', zhTw: '從懷古園眺望千曲川', en: 'Chikuma River views from Kaikoen',
+        desc: {
+          ja: '断崖上から望む渓谷美。',
+          zhTw: '從斷崖上遠眺溪谷之美。',
+          en: 'gorge scenery from the clifftop.',
+        },
+      },
     ],
     architecture: [
       { ja: '千曲川の河岸段丘の崖を利用した天然の要害で、城下町より低い穴城。', zhTw: '利用千曲川河岸段丘崖壁的天然要害，低於城下町的穴城。', en: 'A natural fortress on Chikuma River terraces — uniquely, the castle sits below the town level.' },
@@ -2167,7 +2874,14 @@ export const castles = [
     ],
     highlights: [
       { ja: '高遠の桜（4月）— 天下第一と謳われる圧巻の桜景色。', zhTw: '高遠之櫻（4月）— 被譽為天下第一的壯觀櫻花景色。', en: 'Takato cherry blossoms (April) — the breathtaking "finest cherry blossoms under heaven."' },
-      { ja: '空堀と土塁の遺構 — よく残る戦国山城の防御構造。', zhTw: '空壕與土壘遺構 — 保存完好的戰國山城防禦結構。', en: 'Dry moats and earthwork remains — well-preserved Sengoku-era defenses.' },
+      {
+        ja: '空堀と土塁の遺構', zhTw: '空壕與土壘遺構', en: 'Dry moats and earthwork remains',
+        desc: {
+          ja: 'よく残る戦国山城の防御構造。',
+          zhTw: '保存完好的戰國山城防禦結構。',
+          en: 'well-preserved Sengoku-era defenses.',
+        },
+      },
     ],
     architecture: [
       { ja: '三峰川と藤沢川の合流点の河岸段丘上に築かれた天然の要害。', zhTw: '築於三峰川與藤澤川匯流處河岸段丘上的天然要害。', en: 'A natural fortress on river terraces at the confluence of the Mibu and Fujisawa rivers.' },
@@ -2197,8 +2911,22 @@ export const castles = [
       { ja: '本丸の大部分が陸上自衛隊の駐屯地となっており、一般公開は限定的。', zhTw: '本丸大部分為陸上自衛隊駐屯地，一般公開範圍有限。', en: 'Most of the honmaru is a JSDF garrison, so public access is limited.' },
     ],
     highlights: [
-      { ja: '三階櫓 — 全国唯一のT字型屋根と3匹の鯱を持つ独特の櫓。', zhTw: '三階櫓 — 擁有全國唯一T字型屋頂與3隻鯱的獨特櫓。', en: 'Three-story turret — unique T-shaped roof topped with three shachihoko ornaments.' },
-      { ja: '辰巳櫓と表門 — 江戸時代から現存する重要文化財。', zhTw: '辰巳櫓與表門 — 江戶時代留存至今的重要文化財。', en: 'Tatsumi Turret and front gate — surviving Edo-period Important Cultural Properties.' },
+      {
+        ja: '三階櫓', zhTw: '三階櫓', en: 'Three-story turret',
+        desc: {
+          ja: '全国唯一のT字型屋根と3匹の鯱を持つ独特の櫓。',
+          zhTw: '擁有全國唯一T字型屋頂與3隻鯱的獨特櫓。',
+          en: 'unique T-shaped roof topped with three shachihoko ornaments.',
+        },
+      },
+      {
+        ja: '辰巳櫓と表門', zhTw: '辰巳櫓與表門', en: 'Tatsumi Turret and front gate',
+        desc: {
+          ja: '江戸時代から現存する重要文化財。',
+          zhTw: '江戶時代留存至今的重要文化財。',
+          en: 'surviving Edo-period Important Cultural Properties.',
+        },
+      },
     ],
     architecture: [
       { ja: '辰巳櫓は現存する二重二階の隅櫓で重要文化財に指定。', zhTw: '辰巳櫓為現存二重二階角櫓，被指定為重要文化財。', en: 'The Tatsumi corner turret is an original two-story structure designated an Important Cultural Property.' },
@@ -2228,8 +2956,22 @@ export const castles = [
       { ja: '標高約180mの山頂に本丸を持つ大規模な山城で、曲輪の数は70以上。', zhTw: '在標高約180公尺的山頂設本丸的大規模山城，曲輪數超過70個。', en: 'A massive mountain castle with the honmaru at about 180m elevation and over 70 compounds.' },
     ],
     highlights: [
-      { ja: '本丸跡からの日本海の眺望 — 謙信が見た景色を体感。', zhTw: '從本丸遺跡眺望日本海 — 體驗謙信所見的景色。', en: 'Sea of Japan views from the honmaru — experience the landscape Kenshin once surveyed.' },
-      { ja: '毘沙門堂跡 — 謙信の信仰の場として知られる。', zhTw: '毘沙門堂遺跡 — 以謙信信仰之地聞名。', en: 'Bishamonten Hall ruins — the sacred site of Kenshin\'s devotion.' },
+      {
+        ja: '本丸跡からの日本海の眺望', zhTw: '從本丸遺跡眺望日本海', en: 'Sea of Japan views from the honmaru',
+        desc: {
+          ja: '謙信が見た景色を体感。',
+          zhTw: '體驗謙信所見的景色。',
+          en: 'experience the landscape Kenshin once surveyed.',
+        },
+      },
+      {
+        ja: '毘沙門堂跡', zhTw: '毘沙門堂遺跡', en: 'Bishamonten Hall ruins',
+        desc: {
+          ja: '謙信の信仰の場として知られる。',
+          zhTw: '以謙信信仰之地聞名。',
+          en: 'the sacred site of Kenshin\'s devotion.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高180mの山全体を要塞化した巨大山城で、70以上の曲輪を持つ。', zhTw: '將標高180公尺的整座山要塞化的巨大山城，擁有70個以上曲輪。', en: 'A massive mountain fortress covering an entire 180m peak with over 70 compounds.' },
@@ -2259,8 +3001,22 @@ export const castles = [
       { ja: '日本さくら名所100選に選ばれた桜の名所でもある。', zhTw: '入選日本櫻花名所100選的賞櫻勝地。', en: 'Selected as one of Japan\'s 100 Best Cherry Blossom Spots.' },
     ],
     highlights: [
-      { ja: '広大な水堀 — 春は桜、夏は蓮、秋は紅葉、冬は雪景色。', zhTw: '廣闊水堀 — 春櫻、夏蓮、秋紅葉、冬雪景。', en: 'Expansive water moats — cherry blossoms in spring, lotus in summer, foliage in autumn, snow in winter.' },
-      { ja: '前田利長公の銅像 — 高岡開祖への敬意を表す。', zhTw: '前田利長公銅像 — 表達對高岡開祖的敬意。', en: 'Bronze statue of Maeda Toshinaga — honoring the city\'s founder.' },
+      {
+        ja: '広大な水堀', zhTw: '廣闊水堀', en: 'Expansive water moats',
+        desc: {
+          ja: '春は桜、夏は蓮、秋は紅葉、冬は雪景色。',
+          zhTw: '春櫻、夏蓮、秋紅葉、冬雪景。',
+          en: 'cherry blossoms in spring, lotus in summer, foliage in autumn, snow in winter.',
+        },
+      },
+      {
+        ja: '前田利長公の銅像', zhTw: '前田利長公銅像', en: 'Bronze statue of Maeda Toshinaga',
+        desc: {
+          ja: '高岡開祖への敬意を表す。',
+          zhTw: '表達對高岡開祖的敬意。',
+          en: 'honoring the city\'s founder.',
+        },
+      },
     ],
     architecture: [
       { ja: '水堀に囲まれた本丸・二の丸・三の丸からなる輪郭式の平城。', zhTw: '由水堀環繞的本丸、二之丸、三之丸構成的輪郭式平城。', en: 'A concentric flatland castle with honmaru, ninomaru, and sannomaru surrounded by water moats.' },
@@ -2290,8 +3046,22 @@ export const castles = [
       { ja: '謙信が詠んだとされる漢詩は七尾城の絶景を象徴する名句として知られる。', zhTw: '據傳謙信所作的漢詩是象徵七尾城絕景的名句。', en: 'Kenshin\'s poem symbolizes Nanao Castle\'s spectacular scenery and is widely known.' },
     ],
     highlights: [
-      { ja: '本丸からの七尾湾の大パノラマ — 謙信も感動した絶景。', zhTw: '從本丸眺望七尾灣的大全景 — 連謙信也為之感動的絕景。', en: 'Panoramic views of Nanao Bay from the honmaru — the same vista that moved Kenshin.' },
-      { ja: '野面積みの石垣群 — 北陸では珍しい中世の石垣が残る。', zhTw: '野面積石垣群 — 在北陸罕見的中世石垣遺存。', en: 'Rough-stacked stone walls — rare medieval stonework surviving in the Hokuriku region.' },
+      {
+        ja: '本丸からの七尾湾の大パノラマ', zhTw: '從本丸眺望七尾灣的大全景', en: 'Panoramic views of Nanao Bay from the honmaru',
+        desc: {
+          ja: '謙信も感動した絶景。',
+          zhTw: '連謙信也為之感動的絕景。',
+          en: 'the same vista that moved Kenshin.',
+        },
+      },
+      {
+        ja: '野面積みの石垣群', zhTw: '野面積石垣群', en: 'Rough-stacked stone walls',
+        desc: {
+          ja: '北陸では珍しい中世の石垣が残る。',
+          zhTw: '在北陸罕見的中世石垣遺存。',
+          en: 'rare medieval stonework surviving in the Hokuriku region.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高約300mの山頂から山腹にかけて無数の曲輪が展開する大規模山城。', zhTw: '從標高約300公尺的山頂至山腰展開無數曲輪的大規模山城。', en: 'A vast mountain castle with countless compounds spreading from the 300m summit down the slopes.' },
@@ -2321,8 +3091,22 @@ export const castles = [
       { ja: '「お静慰霊碑」は人柱伝説にまつわる悲しい物語を伝える。', zhTw: '「阿靜慰靈碑」傳述與人柱傳說相關的悲傷故事。', en: 'The "Oshizu Memorial" tells the sad legend of a human pillar sacrifice during construction.' },
     ],
     highlights: [
-      { ja: '現存天守 — 笏谷石の石瓦が独特の風格を醸す。', zhTw: '現存天守 — 笏谷石瓦散發獨特風格。', en: 'Original surviving keep — stone-tile roof creates a distinctive atmosphere.' },
-      { ja: '日本さくら名所100選 — 約400本のソメイヨシノが城を彩る。', zhTw: '日本櫻花名所100選 — 約400棵染井吉野櫻裝點城郭。', en: 'One of Japan\'s 100 Best Cherry Blossom Spots — 400 Somei Yoshino trees adorn the castle.' },
+      {
+        ja: '現存天守', zhTw: '現存天守', en: 'Original surviving keep',
+        desc: {
+          ja: '笏谷石の石瓦が独特の風格を醸す。',
+          zhTw: '笏谷石瓦散發獨特風格。',
+          en: 'stone-tile roof creates a distinctive atmosphere.',
+        },
+      },
+      {
+        ja: '日本さくら名所100選', zhTw: '日本櫻花名所100選', en: 'One of Japan\'s 100 Best Cherry Blossom Spots',
+        desc: {
+          ja: '約400本のソメイヨシノが城を彩る。',
+          zhTw: '約400棵染井吉野櫻裝點城郭。',
+          en: '400 Somei Yoshino trees adorn the castle.',
+        },
+      },
     ],
     architecture: [
       { ja: '二重三階の独立式望楼型天守で、現存天守の中では最も古い様式とされる。', zhTw: '二重三階獨立式望樓型天守，被視為現存天守中最古老的樣式。', en: 'A two-layer, three-story independent watchtower-style keep — considered the oldest surviving keep style.' },
@@ -2352,8 +3136,22 @@ export const castles = [
       { ja: '復原された町並みでは戦国時代の武家屋敷や商人の暮らしを体感できる。', zhTw: '在復原的街景中可以體驗戰國時代武家宅邸與商人的生活。', en: 'The reconstructed streets let visitors experience samurai residences and merchant life of the Sengoku era.' },
     ],
     highlights: [
-      { ja: '復原町並 — 発掘成果に基づき忠実に再現された戦国の城下町。', zhTw: '復原町並 — 根據發掘成果忠實再現的戰國城下町。', en: 'Reconstructed townscape — a Sengoku castle town faithfully recreated from excavation findings.' },
-      { ja: '朝倉氏庭園群 — 4つの庭園遺構は特別名勝に指定。', zhTw: '朝倉氏庭園群 — 4處庭園遺構被指定為特別名勝。', en: 'Asakura clan gardens — four garden ruins designated Special Places of Scenic Beauty.' },
+      {
+        ja: '復原町並', zhTw: '復原町並', en: 'Reconstructed townscape',
+        desc: {
+          ja: '発掘成果に基づき忠実に再現された戦国の城下町。',
+          zhTw: '根據發掘成果忠實再現的戰國城下町。',
+          en: 'a Sengoku castle town faithfully recreated from excavation findings.',
+        },
+      },
+      {
+        ja: '朝倉氏庭園群', zhTw: '朝倉氏庭園群', en: 'Asakura clan gardens',
+        desc: {
+          ja: '4つの庭園遺構は特別名勝に指定。',
+          zhTw: '4處庭園遺構被指定為特別名勝。',
+          en: 'four garden ruins designated Special Places of Scenic Beauty.',
+        },
+      },
     ],
     architecture: [
       { ja: '谷の両側の山に城砦群を配し、谷底に城下町を発展させた独特の構造。', zhTw: '在谷地兩側山上配置城砦群，在谷底發展城下町的獨特結構。', en: 'A unique layout with mountain fortresses on both sides of the valley and a town at its base.' },
@@ -2383,8 +3181,22 @@ export const castles = [
       { ja: '「女城主の里」として知られ、おつやの方の物語は小説やドラマの題材に。', zhTw: '以「女城主之里」聞名，阿艷之方的故事成為小說與戲劇題材。', en: 'Known as the "Village of the Female Castle Lord"; Lady Otsuya\'s story has inspired novels and dramas.' },
     ],
     highlights: [
-      { ja: '六段壁の石垣 — 山頂に築かれた圧巻の六段の石垣群。', zhTw: '六段壁石垣 — 築於山頂的壯觀六段石垣群。', en: 'Six-tier stone walls — a stunning series of six stone wall steps at the summit.' },
-      { ja: '岩村城下町 — 重要伝統的建造物群保存地区に指定された古い町並み。', zhTw: '岩村城下町 — 被指定為重要傳統建造物群保存地區的古老街景。', en: 'Iwamura castle town — a traditional streetscape designated an Important Preservation District.' },
+      {
+        ja: '六段壁の石垣', zhTw: '六段壁石垣', en: 'Six-tier stone walls',
+        desc: {
+          ja: '山頂に築かれた圧巻の六段の石垣群。',
+          zhTw: '築於山頂的壯觀六段石垣群。',
+          en: 'a stunning series of six stone wall steps at the summit.',
+        },
+      },
+      {
+        ja: '岩村城下町', zhTw: '岩村城下町', en: 'Iwamura castle town',
+        desc: {
+          ja: '重要伝統的建造物群保存地区に指定された古い町並み。',
+          zhTw: '被指定為重要傳統建造物群保存地區的古老街景。',
+          en: 'a traditional streetscape designated an Important Preservation District.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高717mの山頂に本丸を置く日本最高所の山城で、六段壁の石垣が特徴。', zhTw: '在標高717公尺山頂設本丸的日本最高處山城，以六段壁石垣為特徵。', en: 'Japan\'s highest mountain castle at 717m, featuring distinctive six-tiered stone walls at the summit.' },
@@ -2414,8 +3226,22 @@ export const castles = [
       { ja: '金華山ロープウェーで山頂まで行ける観光名所としても人気。', zhTw: '可搭乘金華山纜車前往山頂的人氣觀光名所。', en: 'A popular tourist attraction accessible by the Kinka-zan Ropeway to the summit.' },
     ],
     highlights: [
-      { ja: '天守からの360度パノラマ — 長良川と濃尾平野を一望。', zhTw: '從天守360度全景 — 一覽長良川與濃尾平原。', en: '360-degree views from the keep — sweeping vistas of the Nagara River and Nōbi Plain.' },
-      { ja: '長良川鵜飼 — 1,300年以上の歴史を持つ伝統漁法。', zhTw: '長良川鵜飼 — 擁有1,300年以上歷史的傳統漁法。', en: 'Nagara River cormorant fishing — a tradition spanning over 1,300 years.' },
+      {
+        ja: '天守からの360度パノラマ', zhTw: '從天守360度全景', en: '360-degree views from the keep',
+        desc: {
+          ja: '長良川と濃尾平野を一望。',
+          zhTw: '一覽長良川與濃尾平原。',
+          en: 'sweeping vistas of the Nagara River and Nōbi Plain.',
+        },
+      },
+      {
+        ja: '長良川鵜飼', zhTw: '長良川鵜飼', en: 'Nagara River cormorant fishing',
+        desc: {
+          ja: '1,300年以上の歴史を持つ伝統漁法。',
+          zhTw: '擁有1,300年以上歷史的傳統漁法。',
+          en: 'a tradition spanning over 1,300 years.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高329mの金華山山頂に築かれた典型的な山城。現在の天守は1956年のRC造再建。', zhTw: '築於標高329公尺金華山山頂的典型山城。現天守為1956年鋼筋混凝土重建。', en: 'A classic mountain castle atop 329m Mt. Kinka; the current keep is a 1956 concrete reconstruction.' },
@@ -2445,8 +3271,22 @@ export const castles = [
       { ja: '富士山を背景にした障子堀の景観は日本の城の中でも屈指の美しさ。', zhTw: '以富士山為背景的障子壕景觀在日本城郭中美不勝收。', en: 'The shōji-bori moats with Mt. Fuji in the background are among the most beautiful castle views in Japan.' },
     ],
     highlights: [
-      { ja: '障子堀 — ワッフル型に区切られた堀底は日本の城郭の中でも独特。', zhTw: '障子壕 — 如鬆餅般分隔的壕底在日本城郭中獨樹一格。', en: 'Shōji-bori moats — waffle-like partitioned moat bottoms unique among Japanese castles.' },
-      { ja: '富士山の絶景 — 城跡各所から富士山を望む贅沢な景色。', zhTw: '富士山絕景 — 從城跡各處可望富士山的奢華景色。', en: 'Mt. Fuji views — luxurious scenery with Fuji visible from throughout the castle ruins.' },
+      {
+        ja: '障子堀', zhTw: '障子壕', en: 'Shōji-bori moats',
+        desc: {
+          ja: 'ワッフル型に区切られた堀底は日本の城郭の中でも独特。',
+          zhTw: '如鬆餅般分隔的壕底在日本城郭中獨樹一格。',
+          en: 'waffle-like partitioned moat bottoms unique among Japanese castles.',
+        },
+      },
+      {
+        ja: '富士山の絶景', zhTw: '富士山絕景', en: 'Mt. Fuji views',
+        desc: {
+          ja: '城跡各所から富士山を望む贅沢な景色。',
+          zhTw: '從城跡各處可望富士山的奢華景色。',
+          en: 'luxurious scenery with Fuji visible from throughout the castle ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '障子堀と畝堀を多用した北条流築城術の最高傑作。石垣は一切使わない。', zhTw: '大量運用障子壕與畝壕的北條流築城術最高傑作。完全不使用石垣。', en: 'The supreme example of Hōjō-style fortification with shōji and une moats; no stone walls used.' },
@@ -2477,8 +3317,22 @@ export const castles = [
       { ja: '家康が駿府で没した際、遺言により久能山東照宮に葬られた。', zhTw: '家康在駿府去世時，依遺囑葬於久能山東照宮。', en: 'When Ieyasu died at Sunpu, he was buried at Kunōzan Tōshōgū per his will.' },
     ],
     highlights: [
-      { ja: '天守台発掘現場 — 日本最大級の天守台跡を間近に見学できる。', zhTw: '天守台發掘現場 — 可近距離參觀日本最大級天守台遺跡。', en: 'Keep platform excavation site — see one of Japan\'s largest keep foundations up close.' },
-      { ja: '復元された巽櫓と東御門 — 壮大な枡形門。', zhTw: '復原的巽櫓與東御門 — 壯觀的枡形門。', en: 'Reconstructed Tatsumi turret and east gate — an impressive masugata gate complex.' },
+      {
+        ja: '天守台発掘現場', zhTw: '天守台發掘現場', en: 'Keep platform excavation site',
+        desc: {
+          ja: '日本最大級の天守台跡を間近に見学できる。',
+          zhTw: '可近距離參觀日本最大級天守台遺跡。',
+          en: 'see one of Japan\'s largest keep foundations up close.',
+        },
+      },
+      {
+        ja: '復元された巽櫓と東御門', zhTw: '復原的巽櫓與東御門', en: 'Reconstructed Tatsumi turret and east gate',
+        desc: {
+          ja: '壮大な枡形門。',
+          zhTw: '壯觀的枡形門。',
+          en: 'an impressive masugata gate complex.',
+        },
+      },
     ],
     architecture: [
       { ja: '三重の堀に囲まれた広大な平城で、天守台は南北約68m×東西約61mの日本最大規模。', zhTw: '三重護城河環繞的廣闊平城，天守台南北約68m×東西約61m為日本最大規模。', en: 'A vast flatland castle with triple moats; the keep platform measures 68m×61m — Japan\'s largest.' },
@@ -2508,8 +3362,22 @@ export const castles = [
       { ja: '二の丸御殿は現存する数少ない城郭御殿の一つで重要文化財。', zhTw: '二之丸御殿是現存少數城郭御殿之一，為重要文化財。', en: 'The ninomaru palace is one of few surviving castle palaces, designated an Important Cultural Property.' },
     ],
     highlights: [
-      { ja: '木造復元天守 — 高知城を模して忠実に再建された白亜の天守。', zhTw: '木造復原天守 — 仿高知城忠實重建的白堊天守。', en: 'Wooden reconstructed keep — faithfully rebuilt in white plaster modeled on Kōchi Castle.' },
-      { ja: '二の丸御殿 — 江戸時代から残る貴重な御殿建築。', zhTw: '二之丸御殿 — 江戶時代留存的珍貴御殿建築。', en: 'Ninomaru Palace — a precious palace building surviving from the Edo period.' },
+      {
+        ja: '木造復元天守', zhTw: '木造復原天守', en: 'Wooden reconstructed keep',
+        desc: {
+          ja: '高知城を模して忠実に再建された白亜の天守。',
+          zhTw: '仿高知城忠實重建的白堊天守。',
+          en: 'faithfully rebuilt in white plaster modeled on Kōchi Castle.',
+        },
+      },
+      {
+        ja: '二の丸御殿', zhTw: '二之丸御殿', en: 'Ninomaru Palace',
+        desc: {
+          ja: '江戸時代から残る貴重な御殿建築。',
+          zhTw: '江戶時代留存的珍貴御殿建築。',
+          en: 'a precious palace building surviving from the Edo period.',
+        },
+      },
     ],
     architecture: [
       { ja: '三層四階の天守は木造で復元され、望楼型の優美な姿を見せる。', zhTw: '三層四階天守以木造復原，展現望樓型的優美姿態。', en: 'The three-layer, four-story keep was rebuilt in wood, displaying an elegant watchtower style.' },
@@ -2539,8 +3407,22 @@ export const castles = [
       { ja: '2018年まで成瀬家が個人で所有する全国唯一の城だった。', zhTw: '至2018年為成瀨家個人所有的全國唯一城郭。', en: 'Until 2018, it was Japan\'s only castle still privately owned by the Naruse family.' },
     ],
     highlights: [
-      { ja: '国宝天守の最上階回廊 — 木曽川と犬山の町を見渡す絶景。', zhTw: '國寶天守最上層迴廊 — 俯瞰木曾川與犬山町的絕景。', en: 'The top-floor balcony of the National Treasure keep — stunning views of the Kiso River and Inuyama.' },
-      { ja: '犬山祭の車山 — ユネスコ無形文化遺産に登録された祭り。', zhTw: '犬山祭的車山 — 登錄為聯合國教科文組織無形文化遺產的祭典。', en: 'Inuyama Festival floats — a UNESCO Intangible Cultural Heritage celebration.' },
+      {
+        ja: '国宝天守の最上階回廊', zhTw: '國寶天守最上層迴廊', en: 'The top-floor balcony of the National Treasure keep',
+        desc: {
+          ja: '木曽川と犬山の町を見渡す絶景。',
+          zhTw: '俯瞰木曾川與犬山町的絕景。',
+          en: 'stunning views of the Kiso River and Inuyama.',
+        },
+      },
+      {
+        ja: '犬山祭の車山', zhTw: '犬山祭的車山', en: 'Inuyama Festival floats',
+        desc: {
+          ja: 'ユネスコ無形文化遺産に登録された祭り。',
+          zhTw: '登錄為聯合國教科文組織無形文化遺產的祭典。',
+          en: 'a UNESCO Intangible Cultural Heritage celebration.',
+        },
+      },
     ],
     architecture: [
       { ja: '三層四階地下二階の望楼型天守で国宝に指定。木曽川を天然の堀とする。', zhTw: '三層四階地下二階望樓型天守被指定為國寶。以木曾川為天然護城河。', en: 'A three-layer, four-story watchtower-style keep (National Treasure) using the Kiso River as a natural moat.' },
@@ -2570,8 +3452,22 @@ export const castles = [
       { ja: '本丸御殿は2018年に完全復元され、近世城郭御殿の最高傑作と称される。', zhTw: '本丸御殿於2018年完全復原，被譽為近世城郭御殿的最高傑作。', en: 'The honmaru palace was fully restored in 2018 and is called the greatest masterpiece of early-modern castle palaces.' },
     ],
     highlights: [
-      { ja: '本丸御殿 — 狩野派の障壁画で飾られた豪華絢爛な復元御殿。', zhTw: '本丸御殿 — 以狩野派障壁畫裝飾的豪華絢爛復原御殿。', en: 'Honmaru Palace — a magnificent restored palace adorned with Kanō school wall paintings.' },
-      { ja: '金鯱 — 天守の大棟で輝く名古屋のシンボル。', zhTw: '金鯱 — 在天守大棟上閃耀的名古屋象徵。', en: 'Golden shachihoko — Nagoya\'s gleaming symbol atop the keep.' },
+      {
+        ja: '本丸御殿', zhTw: '本丸御殿', en: 'Honmaru Palace',
+        desc: {
+          ja: '狩野派の障壁画で飾られた豪華絢爛な復元御殿。',
+          zhTw: '以狩野派障壁畫裝飾的豪華絢爛復原御殿。',
+          en: 'a magnificent restored palace adorned with Kanō school wall paintings.',
+        },
+      },
+      {
+        ja: '金鯱', zhTw: '金鯱', en: 'Golden shachihoko',
+        desc: {
+          ja: '天守の大棟で輝く名古屋のシンボル。',
+          zhTw: '在天守大棟上閃耀的名古屋象徵。',
+          en: 'Nagoya\'s gleaming symbol atop the keep.',
+        },
+      },
     ],
     architecture: [
       { ja: '五層五階地下一階の層塔型天守は日本最大級。戦災焼失前は国宝だった。', zhTw: '五層五階地下一階的層塔型天守為日本最大級。戰災燒毀前為國寶。', en: 'The five-story layered keep was among Japan\'s largest; a former National Treasure before wartime destruction.' },
@@ -2601,8 +3497,22 @@ export const castles = [
       { ja: '城内には家康の産湯の井戸やえな塚など家康ゆかりの史跡が多い。', zhTw: '城內有家康的產湯井與胎衣塚等眾多家康相關史跡。', en: 'The grounds feature Ieyasu\'s birth-bath well and placenta burial mound among other historical sites.' },
     ],
     highlights: [
-      { ja: '徳川家康公像 — 城内に立つ若き家康の銅像。', zhTw: '德川家康公像 — 城內矗立的年輕家康銅像。', en: 'Tokugawa Ieyasu statue — a bronze figure of the young Ieyasu within the castle grounds.' },
-      { ja: '岡崎公園の桜 — 約800本の桜がライトアップされる夜桜が見事。', zhTw: '岡崎公園的櫻花 — 約800棵櫻花點燈的夜櫻極為壯觀。', en: 'Okazaki Park cherry blossoms — 800 illuminated trees create stunning night-time scenes.' },
+      {
+        ja: '徳川家康公像', zhTw: '德川家康公像', en: 'Tokugawa Ieyasu statue',
+        desc: {
+          ja: '城内に立つ若き家康の銅像。',
+          zhTw: '城內矗立的年輕家康銅像。',
+          en: 'a bronze figure of the young Ieyasu within the castle grounds.',
+        },
+      },
+      {
+        ja: '岡崎公園の桜', zhTw: '岡崎公園的櫻花', en: 'Okazaki Park cherry blossoms',
+        desc: {
+          ja: '約800本の桜がライトアップされる夜桜が見事。',
+          zhTw: '約800棵櫻花點燈的夜櫻極為壯觀。',
+          en: '800 illuminated trees create stunning night-time scenes.',
+        },
+      },
     ],
     architecture: [
       { ja: '菅生川と伊賀川の合流点に築かれ、川を天然の堀とした平城。', zhTw: '築於菅生川與伊賀川匯流處，以河川為天然護城河的平城。', en: 'Built at the confluence of the Sugō and Iga rivers, using them as natural moats.' },
@@ -2632,8 +3542,22 @@ export const castles = [
       { ja: '長篠の戦いは鉄砲の大量使用で知られ、戦国の戦術に革命をもたらした。', zhTw: '長篠之戰以大量使用火繩槍聞名，為戰國戰術帶來革命。', en: 'The Battle of Nagashino is famous for the mass use of firearms, revolutionizing Sengoku-era tactics.' },
     ],
     highlights: [
-      { ja: '長篠城址史跡保存館 — 戦いの詳細を学べる資料館。', zhTw: '長篠城址史跡保存館 — 可了解戰役詳情的資料館。', en: 'Nagashino Castle Museum — learn the details of the historic battle.' },
-      { ja: '鳥居強右衛門の磔死之碑 — 忠義の武士を偲ぶ碑。', zhTw: '鳥居強右衛門磔死之碑 — 緬懷忠義武士的石碑。', en: 'Torii Suneemon\'s memorial — a monument honoring the loyal warrior.' },
+      {
+        ja: '長篠城址史跡保存館', zhTw: '長篠城址史跡保存館', en: 'Nagashino Castle Museum',
+        desc: {
+          ja: '戦いの詳細を学べる資料館。',
+          zhTw: '可了解戰役詳情的資料館。',
+          en: 'learn the details of the historic battle.',
+        },
+      },
+      {
+        ja: '鳥居強右衛門の磔死之碑', zhTw: '鳥居強右衛門磔死之碑', en: 'Torii Suneemon\'s memorial',
+        desc: {
+          ja: '忠義の武士を偲ぶ碑。',
+          zhTw: '緬懷忠義武士的石碑。',
+          en: 'a monument honoring the loyal warrior.',
+        },
+      },
     ],
     architecture: [
       { ja: '豊川と宇連川の合流する断崖上に築かれた天然の要害。', zhTw: '築於豐川與宇連川匯流處斷崖上的天然要害。', en: 'A natural fortress built on cliffs at the confluence of the Toyokawa and Ure rivers.' },
@@ -2663,8 +3587,22 @@ export const castles = [
       { ja: '忍者の里としても有名で、城内に伊賀流忍者博物館がある。', zhTw: '亦以忍者之鄉聞名，城內設有伊賀流忍者博物館。', en: 'Also famous as the home of ninja; the Iga-ryū Ninja Museum stands within the castle grounds.' },
     ],
     highlights: [
-      { ja: '日本一の高石垣 — 約30mの圧巻の石垣。', zhTw: '日本第一高石垣 — 約30公尺的壯觀石垣。', en: 'Japan\'s tallest stone walls — an awe-inspiring 30-meter wall.' },
-      { ja: '伊賀流忍者博物館 — 忍者文化を体験できる施設。', zhTw: '伊賀流忍者博物館 — 可體驗忍者文化的設施。', en: 'Iga Ninja Museum — experience authentic ninja culture.' },
+      {
+        ja: '日本一の高石垣', zhTw: '日本第一高石垣', en: 'Japan\'s tallest stone walls',
+        desc: {
+          ja: '約30mの圧巻の石垣。',
+          zhTw: '約30公尺的壯觀石垣。',
+          en: 'an awe-inspiring 30-meter wall.',
+        },
+      },
+      {
+        ja: '伊賀流忍者博物館', zhTw: '伊賀流忍者博物館', en: 'Iga Ninja Museum',
+        desc: {
+          ja: '忍者文化を体験できる施設。',
+          zhTw: '可體驗忍者文化的設施。',
+          en: 'experience authentic ninja culture.',
+        },
+      },
     ],
     architecture: [
       { ja: '藤堂高虎が築いた約30mの高石垣は日本の城郭で最も高い。', zhTw: '藤堂高虎築建的約30公尺高石垣為日本城郭中最高。', en: 'Tōdō Takatora\'s 30-meter stone walls are the tallest of any Japanese castle.' },
@@ -2694,8 +3632,22 @@ export const castles = [
       { ja: '石垣は高く壮大で「石垣の名城」として高い評価を受けている。', zhTw: '石垣高聳壯觀，作為「石垣名城」受到高度評價。', en: 'Its tall, imposing stone walls are highly acclaimed — earning it recognition as a "castle of stone walls."' },
     ],
     highlights: [
-      { ja: '壮大な石垣群 — 野面積みの美しい石垣が多段に連なる。', zhTw: '壯觀石垣群 — 野面積砌法的美麗石垣多段相連。', en: 'Magnificent stone walls — beautiful rough-stacked stonework in multiple tiers.' },
-      { ja: '御城番屋敷 — 現存する武家長屋で、今も人が暮らしている。', zhTw: '御城番屋敷 — 至今仍有人居住的現存武家長屋。', en: 'Gojōban Yashiki — surviving samurai row houses still inhabited today.' },
+      {
+        ja: '壮大な石垣群', zhTw: '壯觀石垣群', en: 'Magnificent stone walls',
+        desc: {
+          ja: '野面積みの美しい石垣が多段に連なる。',
+          zhTw: '野面積砌法的美麗石垣多段相連。',
+          en: 'beautiful rough-stacked stonework in multiple tiers.',
+        },
+      },
+      {
+        ja: '御城番屋敷', zhTw: '御城番屋敷', en: 'Gojōban Yashiki',
+        desc: {
+          ja: '現存する武家長屋で、今も人が暮らしている。',
+          zhTw: '至今仍有人居住的現存武家長屋。',
+          en: 'surviving samurai row houses still inhabited today.',
+        },
+      },
     ],
     architecture: [
       { ja: '蒲生氏郷が安土城に倣い壮大な石垣を築いた。天守台・二の丸跡の石垣が見事。', zhTw: '蒲生氏鄉仿安土城築建壯觀石垣。天守台與二之丸遺跡的石垣壯觀。', en: 'Gamō modeled the walls on Azuchi Castle; the keep platform and ninomaru stonework are impressive.' },
@@ -2725,8 +3677,22 @@ export const castles = [
       { ja: '長政とお市の悲恋はドラマや映画で繰り返し描かれている。', zhTw: '長政與阿市的悲戀在戲劇和電影中反覆被描述。', en: 'The tragic love of Nagamasa and Oichi has been depicted repeatedly in dramas and films.' },
     ],
     highlights: [
-      { ja: '大嶽・山王丸の石垣 — 山頂に残る中世の石垣群。', zhTw: '大嶽、山王丸的石垣 — 殘存於山頂的中世石垣群。', en: 'Stone walls at Ōdake and Sannō-maru — medieval stonework surviving on the mountaintop.' },
-      { ja: '琵琶湖と伊吹山の眺望 — 城跡からの壮大な景色。', zhTw: '琵琶湖與伊吹山的眺望 — 從城跡遠眺的壯闊景色。', en: 'Views of Lake Biwa and Mt. Ibuki — grand scenery from the castle ruins.' },
+      {
+        ja: '大嶽・山王丸の石垣', zhTw: '大嶽、山王丸的石垣', en: 'Stone walls at Ōdake and Sannō-maru',
+        desc: {
+          ja: '山頂に残る中世の石垣群。',
+          zhTw: '殘存於山頂的中世石垣群。',
+          en: 'medieval stonework surviving on the mountaintop.',
+        },
+      },
+      {
+        ja: '琵琶湖と伊吹山の眺望', zhTw: '琵琶湖與伊吹山的眺望', en: 'Views of Lake Biwa and Mt. Ibuki',
+        desc: {
+          ja: '城跡からの壮大な景色。',
+          zhTw: '從城跡遠眺的壯闊景色。',
+          en: 'grand scenery from the castle ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '小谷山の尾根上に大嶽から清水谷まで約800mにわたり曲輪が連なる大規模山城。', zhTw: '在小谷山脊上從大嶽到清水谷約800公尺曲輪相連的大規模山城。', en: 'A large mountain castle with compounds stretching 800m along the ridge from Ōdake to Shimizu Valley.' },
@@ -2756,8 +3722,22 @@ export const castles = [
       { ja: 'ゆるキャラ「ひこにゃん」は彦根城のマスコットとして全国的な人気を持つ。', zhTw: '吉祥物「彥喵」作為彥根城的吉祥物在全國享有高人氣。', en: 'Mascot "Hikonyan" is nationally famous as Hikone Castle\'s beloved character.' },
     ],
     highlights: [
-      { ja: '国宝天守 — 華やかな破風装飾を持つ美しい三重天守。', zhTw: '國寶天守 — 擁有華麗破風裝飾的美麗三重天守。', en: 'National Treasure keep — a beautiful three-story tower with ornate gable decorations.' },
-      { ja: '玄宮楽々園 — 天守を借景にした大名庭園の傑作。', zhTw: '玄宮樂樂園 — 以天守為借景的大名庭園傑作。', en: 'Genkyu-en Garden — a masterpiece daimyō garden using the keep as borrowed scenery.' },
+      {
+        ja: '国宝天守', zhTw: '國寶天守', en: 'National Treasure keep',
+        desc: {
+          ja: '華やかな破風装飾を持つ美しい三重天守。',
+          zhTw: '擁有華麗破風裝飾的美麗三重天守。',
+          en: 'a beautiful three-story tower with ornate gable decorations.',
+        },
+      },
+      {
+        ja: '玄宮楽々園', zhTw: '玄宮樂樂園', en: 'Genkyu-en Garden',
+        desc: {
+          ja: '天守を借景にした大名庭園の傑作。',
+          zhTw: '以天守為借景的大名庭園傑作。',
+          en: 'a masterpiece daimyō garden using the keep as borrowed scenery.',
+        },
+      },
     ],
     architecture: [
       { ja: '三重三階の天守は国宝に指定。切妻破風・入母屋破風・唐破風を巧みに組み合わせた華やかな外観。', zhTw: '三重三階天守被指定為國寶。巧妙組合切妻破風、入母屋破風與唐破風的華麗外觀。', en: 'The three-story National Treasure keep features an ornate exterior combining multiple gable styles.' },
@@ -2787,8 +3767,22 @@ export const castles = [
       { ja: '安土城は日本の城郭建築の革命的転換点とされ、以後の天守建築に多大な影響を与えた。', zhTw: '安土城被視為日本城郭建築的革命性轉捩點，對此後的天守建築影響深遠。', en: 'Azuchi Castle marked a revolutionary turning point in Japanese castle architecture, influencing all subsequent keeps.' },
     ],
     highlights: [
-      { ja: '大手道の石段 — 幅6mの壮大な直線的石段が山頂へ導く。', zhTw: '大手道的石階 — 寬6公尺的壯闊直線石階通往山頂。', en: 'The main approach stone steps — a grand 6m-wide stairway leading to the summit.' },
-      { ja: '天主台跡 — 信長の天主が建っていた礎石群が残る。', zhTw: '天主台遺跡 — 信長天主所在位置的礎石群殘存。', en: 'Keep platform ruins — foundation stones where Nobunaga\'s tower once stood.' },
+      {
+        ja: '大手道の石段', zhTw: '大手道的石階', en: 'The main approach stone steps',
+        desc: {
+          ja: '幅6mの壮大な直線的石段が山頂へ導く。',
+          zhTw: '寬6公尺的壯闊直線石階通往山頂。',
+          en: 'a grand 6m-wide stairway leading to the summit.',
+        },
+      },
+      {
+        ja: '天主台跡', zhTw: '天主台遺跡', en: 'Keep platform ruins',
+        desc: {
+          ja: '信長の天主が建っていた礎石群が残る。',
+          zhTw: '信長天主所在位置的礎石群殘存。',
+          en: 'foundation stones where Nobunaga\'s tower once stood.',
+        },
+      },
     ],
     architecture: [
       { ja: '五層七階（地上6階・地下1階）の天主は日本初の本格的高層建築。金箔瓦や金碧画で装飾された。', zhTw: '五層七階（地上6階・地下1階）的天主為日本首座正式高層建築。以金箔瓦與金碧畫裝飾。', en: 'The five-layer, seven-floor tower was Japan\'s first true high-rise, decorated with gold-leaf tiles and paintings.' },
@@ -2818,8 +3812,22 @@ export const castles = [
       { ja: '城域は極めて広大で、1,000以上の曲輪があったとされる。', zhTw: '城域極為廣大，據說有1,000個以上的曲輪。', en: 'The castle domain was immense, said to have contained over 1,000 compounds.' },
     ],
     highlights: [
-      { ja: '石垣群 — 山中に点在する中世の石垣が神秘的な雰囲気を醸す。', zhTw: '石垣群 — 散布山中的中世石垣營造出神祕氛圍。', en: 'Stone wall clusters — medieval walls scattered through the mountains create a mystical atmosphere.' },
-      { ja: '観音正寺 — 西国三十三所の札所で城の守護寺だった古刹。', zhTw: '觀音正寺 — 西國三十三所札所，曾為城的守護寺的古剎。', en: 'Kannonshō-ji Temple — a pilgrimage temple that served as the castle\'s guardian shrine.' },
+      {
+        ja: '石垣群', zhTw: '石垣群', en: 'Stone wall clusters',
+        desc: {
+          ja: '山中に点在する中世の石垣が神秘的な雰囲気を醸す。',
+          zhTw: '散布山中的中世石垣營造出神祕氛圍。',
+          en: 'medieval walls scattered through the mountains create a mystical atmosphere.',
+        },
+      },
+      {
+        ja: '観音正寺', zhTw: '觀音正寺', en: 'Kannonshō-ji Temple',
+        desc: {
+          ja: '西国三十三所の札所で城の守護寺だった古刹。',
+          zhTw: '西國三十三所札所，曾為城的守護寺的古剎。',
+          en: 'a pilgrimage temple that served as the castle\'s guardian shrine.',
+        },
+      },
     ],
     architecture: [
       { ja: '繖山全体を城郭化した日本最大級の中世山城。曲輪数は1,000以上とも。', zhTw: '將繖山整座山城郭化的日本最大級中世山城。曲輪數據說超過1,000。', en: 'One of Japan\'s largest medieval mountain castles, fortifying the entire mountain with over 1,000 compounds.' },
@@ -2850,8 +3858,22 @@ export const castles = [
       { ja: '千早城の戦いは日本史上最も有名な籠城戦の一つ。', zhTw: '千早城之戰是日本史上最著名的籠城戰之一。', en: 'The Siege of Chihaya is one of the most famous castle sieges in Japanese history.' },
     ],
     highlights: [
-      { ja: '千早神社 — 楠木正成を祀る神社が本丸跡に鎮座。', zhTw: '千早神社 — 祭祀楠木正成的神社座落於本丸遺跡。', en: 'Chihaya Shrine — a shrine dedicated to Kusunoki Masashige stands on the honmaru site.' },
-      { ja: '金剛山の自然 — 大阪最高峰への登山と合わせて楽しめる。', zhTw: '金剛山的自然 — 可與攀登大阪最高峰一同享受。', en: 'Mt. Kongō nature — combine a visit with a hike up Osaka\'s highest peak.' },
+      {
+        ja: '千早神社', zhTw: '千早神社', en: 'Chihaya Shrine',
+        desc: {
+          ja: '楠木正成を祀る神社が本丸跡に鎮座。',
+          zhTw: '祭祀楠木正成的神社座落於本丸遺跡。',
+          en: 'a shrine dedicated to Kusunoki Masashige stands on the honmaru site.',
+        },
+      },
+      {
+        ja: '金剛山の自然', zhTw: '金剛山的自然', en: 'Mt. Kongō nature',
+        desc: {
+          ja: '大阪最高峰への登山と合わせて楽しめる。',
+          zhTw: '可與攀登大阪最高峰一同享受。',
+          en: 'combine a visit with a hike up Osaka\'s highest peak.',
+        },
+      },
     ],
     architecture: [
       { ja: '金剛山の急峻な尾根上に築かれた天然の要害。攻め手は狭い山道からしか接近できなかった。', zhTw: '築於金剛山陡峭山脊上的天然要害。攻方只能從狹窄山道接近。', en: 'A natural fortress on steep ridges of Mt. Kongō; attackers could only approach via narrow mountain paths.' },
@@ -2881,8 +3903,22 @@ export const castles = [
       { ja: '近年のSNSブームで年間観光客が急増し、入場制限が設けられた。', zhTw: '近年因社群媒體熱潮年觀光客急增，實施入場限制。', en: 'Social media fame caused a visitor surge, leading to admission restrictions.' },
     ],
     highlights: [
-      { ja: '雲海に浮かぶ石垣 — 秋の早朝、城が雲海から突き出す幻想的な光景。', zhTw: '浮於雲海中的石垣 — 秋季清晨城從雲海中突出的夢幻光景。', en: 'Stone walls above the sea of clouds — a dreamlike autumn morning sight of the castle emerging from mist.' },
-      { ja: '南千畳からの全景 — 石垣の全体像を一望できる絶好のビューポイント。', zhTw: '從南千疊的全景 — 可一覽石垣全貌的絕佳觀景點。', en: 'Panorama from Minami-Senjō — the best viewpoint to see the complete stone wall ruins.' },
+      {
+        ja: '雲海に浮かぶ石垣', zhTw: '浮於雲海中的石垣', en: 'Stone walls above the sea of clouds',
+        desc: {
+          ja: '秋の早朝、城が雲海から突き出す幻想的な光景。',
+          zhTw: '秋季清晨城從雲海中突出的夢幻光景。',
+          en: 'a dreamlike autumn morning sight of the castle emerging from mist.',
+        },
+      },
+      {
+        ja: '南千畳からの全景', zhTw: '從南千疊的全景', en: 'Panorama from Minami-Senjō',
+        desc: {
+          ja: '石垣の全体像を一望できる絶好のビューポイント。',
+          zhTw: '可一覽石垣全貌的絕佳觀景點。',
+          en: 'the best viewpoint to see the complete stone wall ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高354mの山頂に東西約100m×南北約400mにわたり石垣が展開する壮大な山城。', zhTw: '在標高354公尺山頂東西約100m×南北約400m展開石垣的壯闊山城。', en: 'Stone walls span 100m east-west and 400m north-south atop a 354m peak — a magnificent mountain castle.' },
@@ -2911,8 +3947,22 @@ export const castles = [
       { ja: '丹波篠山は黒豆やボタン鍋（猪肉）の名産地としても有名。', zhTw: '丹波篠山亦以黑豆和牡丹鍋（山豬肉）的名產地聞名。', en: 'Tanbasasayama is also famous for black soybeans and botan-nabe (wild boar hot pot).' },
     ],
     highlights: [
-      { ja: '復元大書院 — 木造で忠実に再建された藩の政庁。', zhTw: '復原大書院 — 以木造忠實重建的藩政廳。', en: 'Restored Grand Hall — faithfully rebuilt in wood as the domain\'s administrative center.' },
-      { ja: '篠山城下町 — 武家屋敷や商家が残る風情ある町並み。', zhTw: '篠山城下町 — 保留武家宅邸與商家的風情街景。', en: 'Sasayama castle town — atmospheric streets with samurai and merchant residences.' },
+      {
+        ja: '復元大書院', zhTw: '復原大書院', en: 'Restored Grand Hall',
+        desc: {
+          ja: '木造で忠実に再建された藩の政庁。',
+          zhTw: '以木造忠實重建的藩政廳。',
+          en: 'faithfully rebuilt in wood as the domain\'s administrative center.',
+        },
+      },
+      {
+        ja: '篠山城下町', zhTw: '篠山城下町', en: 'Sasayama castle town',
+        desc: {
+          ja: '武家屋敷や商家が残る風情ある町並み。',
+          zhTw: '保留武家宅邸與商家的風情街景。',
+          en: 'atmospheric streets with samurai and merchant residences.',
+        },
+      },
     ],
     architecture: [
       { ja: '藤堂高虎設計の壮大な高石垣と馬出しを持つ近世城郭。', zhTw: '藤堂高虎設計的壯闊高石垣與馬出的近世城郭。', en: 'An early-modern castle with imposing stone walls and barbicans designed by Tōdō Takatora.' },
@@ -2941,8 +3991,22 @@ export const castles = [
       { ja: 'JR明石駅のホームから石垣と櫓が見える立地の良さ。', zhTw: '從JR明石站月台即可看到石垣與櫓的優良位置。', en: 'Stone walls and turrets are visible directly from the JR Akashi Station platform.' },
     ],
     highlights: [
-      { ja: '坤櫓と巽櫓 — 共に現存する重要文化財の櫓。', zhTw: '坤櫓與巽櫓 — 均為現存的重要文化財櫓。', en: 'Hitsujisaru and Tatsumi turrets — both surviving Important Cultural Properties.' },
-      { ja: '明石公園の桜 — 約1,000本の桜が石垣と共演。', zhTw: '明石公園的櫻花 — 約1,000棵櫻花與石垣共演。', en: 'Akashi Park cherry blossoms — 1,000 trees alongside the stone walls.' },
+      {
+        ja: '坤櫓と巽櫓', zhTw: '坤櫓與巽櫓', en: 'Hitsujisaru and Tatsumi turrets',
+        desc: {
+          ja: '共に現存する重要文化財の櫓。',
+          zhTw: '均為現存的重要文化財櫓。',
+          en: 'both surviving Important Cultural Properties.',
+        },
+      },
+      {
+        ja: '明石公園の桜', zhTw: '明石公園的櫻花', en: 'Akashi Park cherry blossoms',
+        desc: {
+          ja: '約1,000本の桜が石垣と共演。',
+          zhTw: '約1,000棵櫻花與石垣共演。',
+          en: '1,000 trees alongside the stone walls.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸に4基の三重櫓を配置する計画だったが、うち2基（坤櫓・巽櫓）のみ現存。', zhTw: '本丸計畫配置4座三重櫓，僅2座（坤櫓、巽櫓）現存。', en: 'Four three-story turrets were planned for the honmaru; only two (Hitsujisaru and Tatsumi) survive.' },
@@ -2972,8 +4036,22 @@ export const castles = [
       { ja: '赤穂の塩は古くから高品質で知られ、赤穂藩の財政を支えた。', zhTw: '赤穗之鹽自古以高品質聞名，支撐赤穗藩的財政。', en: 'Akō salt has been prized since ancient times and supported the domain\'s finances.' },
     ],
     highlights: [
-      { ja: '大石神社 — 四十七士を祀る神社。義士の像が参道に並ぶ。', zhTw: '大石神社 — 祭祀四十七士的神社。義士像排列於參道。', en: 'Ōishi Shrine — dedicated to the 47 Rōnin, with statues lining the approach.' },
-      { ja: '復元された本丸門と庭園 — 往時の雰囲気を伝える。', zhTw: '復原的本丸門與庭園 — 傳達昔日氛圍。', en: 'Restored honmaru gate and garden — evoking the castle\'s former atmosphere.' },
+      {
+        ja: '大石神社', zhTw: '大石神社', en: 'Ōishi Shrine',
+        desc: {
+          ja: '四十七士を祀る神社。義士の像が参道に並ぶ。',
+          zhTw: '祭祀四十七士的神社。義士像排列於參道。',
+          en: 'dedicated to the 47 Rōnin, with statues lining the approach.',
+        },
+      },
+      {
+        ja: '復元された本丸門と庭園', zhTw: '復原的本丸門與庭園', en: 'Restored honmaru gate and garden',
+        desc: {
+          ja: '往時の雰囲気を伝える。',
+          zhTw: '傳達昔日氛圍。',
+          en: 'evoking the castle\'s former atmosphere.',
+        },
+      },
     ],
     architecture: [
       { ja: '甲州流軍学に基づく変形輪郭式の縄張りは全国的にも珍しい。', zhTw: '基於甲州流軍學的變形輪郭式配置在全國極為罕見。', en: 'An unusual modified-concentric layout based on Kōshū military science — rare nationwide.' },
@@ -3003,8 +4081,22 @@ export const castles = [
       { ja: '11月の「たかとり城まつり」では城跡への登山イベントが人気。', zhTw: '11月的「高取城祭」中登山城跡的活動極受歡迎。', en: 'The November "Takatori Castle Festival" features popular hiking events to the castle ruins.' },
     ],
     highlights: [
-      { ja: '山中に残る壮大な石垣群 — 深い山林の中に突然現れる石垣は感動的。', zhTw: '殘存山中的壯觀石垣群 — 在深山林中突然出現的石垣令人感動。', en: 'Magnificent stone walls deep in the mountains — breathtaking when they suddenly appear through the forest.' },
-      { ja: '紅葉と石垣 — 秋の高取城は石垣と紅葉の絶景。', zhTw: '紅葉與石垣 — 秋天的高取城是石垣與紅葉的絕景。', en: 'Autumn foliage and stone walls — fall at Takatori offers stunning wall-and-leaf scenery.' },
+      {
+        ja: '山中に残る壮大な石垣群', zhTw: '殘存山中的壯觀石垣群', en: 'Magnificent stone walls deep in the mountains',
+        desc: {
+          ja: '深い山林の中に突然現れる石垣は感動的。',
+          zhTw: '在深山林中突然出現的石垣令人感動。',
+          en: 'breathtaking when they suddenly appear through the forest.',
+        },
+      },
+      {
+        ja: '紅葉と石垣', zhTw: '紅葉與石垣', en: 'Autumn foliage and stone walls',
+        desc: {
+          ja: '秋の高取城は石垣と紅葉の絶景。',
+          zhTw: '秋天的高取城是石垣與紅葉的絕景。',
+          en: 'fall at Takatori offers stunning wall-and-leaf scenery.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高584mに三重天守を含む壮大な石垣群を築いた日本三大山城の一つ。', zhTw: '在標高584公尺築建含三重天守壯觀石垣群的日本三大山城之一。', en: 'One of Japan\'s three great mountain castles with a three-story keep atop stone walls at 584m.' },
@@ -3034,8 +4126,22 @@ export const castles = [
       { ja: '城内の動物園は入園無料で、和歌山市民に親しまれている。', zhTw: '城內動物園免費入園，深受和歌山市民喜愛。', en: 'The castle grounds include a free zoo beloved by Wakayama citizens.' },
     ],
     highlights: [
-      { ja: '連立式天守群 — 大天守と小天守が渡り櫓で連結された壮麗な構成。', zhTw: '連立式天守群 — 大天守與小天守以渡櫓連結的壯麗構成。', en: 'Connected keep complex — grand and small keeps linked by connecting turrets.' },
-      { ja: '西之丸庭園 — 紅葉の名所として知られる名勝庭園。', zhTw: '西之丸庭園 — 以紅葉名所聞名的名勝庭園。', en: 'Nishinomaru Garden — a scenic garden famous for autumn foliage.' },
+      {
+        ja: '連立式天守群', zhTw: '連立式天守群', en: 'Connected keep complex',
+        desc: {
+          ja: '大天守と小天守が渡り櫓で連結された壮麗な構成。',
+          zhTw: '大天守與小天守以渡櫓連結的壯麗構成。',
+          en: 'grand and small keeps linked by connecting turrets.',
+        },
+      },
+      {
+        ja: '西之丸庭園', zhTw: '西之丸庭園', en: 'Nishinomaru Garden',
+        desc: {
+          ja: '紅葉の名所として知られる名勝庭園。',
+          zhTw: '以紅葉名所聞名的名勝庭園。',
+          en: 'a scenic garden famous for autumn foliage.',
+        },
+      },
     ],
     architecture: [
       { ja: '大天守・小天守・乾櫓・二の門櫓が渡り櫓で結ばれた連立式天守群。', zhTw: '大天守、小天守、乾櫓、二之門櫓以渡櫓連結的連立式天守群。', en: 'A complex of linked keeps with grand keep, small keep, and turrets connected by corridors.' },
@@ -3065,8 +4171,22 @@ export const castles = [
       { ja: '巻石垣（球面石垣）は全国でも例のない珍しい石垣技法。', zhTw: '卷石垣（球面石垣）是全國罕見的石垣技法。', en: 'The spherical "rolling stone wall" is an extremely rare masonry technique found almost nowhere else.' },
     ],
     highlights: [
-      { ja: '山頂からの鳥取砂丘と日本海の眺望 — 壮大な景色が広がる。', zhTw: '從山頂眺望鳥取砂丘與日本海 — 壯闊景色展開。', en: 'Views of Tottori Sand Dunes and the Sea of Japan from the summit — vast, breathtaking scenery.' },
-      { ja: '巻石垣 — 全国唯一の球面石垣は必見。', zhTw: '卷石垣 — 全國唯一的球面石垣必看。', en: 'Spherical stone wall — a must-see, one-of-a-kind masonry technique.' },
+      {
+        ja: '山頂からの鳥取砂丘と日本海の眺望', zhTw: '從山頂眺望鳥取砂丘與日本海', en: 'Views of Tottori Sand Dunes and the Sea of Japan from the summit',
+        desc: {
+          ja: '壮大な景色が広がる。',
+          zhTw: '壯闊景色展開。',
+          en: 'vast, breathtaking scenery.',
+        },
+      },
+      {
+        ja: '巻石垣', zhTw: '卷石垣', en: 'Spherical stone wall',
+        desc: {
+          ja: '全国唯一の球面石垣は必見。',
+          zhTw: '全國唯一的球面石垣必看。',
+          en: 'a must-see, one-of-a-kind masonry technique.',
+        },
+      },
     ],
     architecture: [
       { ja: '山頂の中世山城と山麓の近世城郭が共存する「城郭の博物館」。', zhTw: '山頂的中世山城與山麓的近世城郭共存的「城郭博物館」。', en: 'A "castle museum" where a medieval mountaintop fortress and early-modern foothill castle coexist.' },
@@ -3096,8 +4216,22 @@ export const castles = [
       { ja: '山中鹿介の「七難八苦」の逸話は忠義の象徴として語り継がれている。', zhTw: '山中鹿介的「七難八苦」逸事作為忠義的象徵流傳至今。', en: 'Yamanaka Shikanosuke\'s "seven trials" prayer remains a symbol of unwavering loyalty.' },
     ],
     highlights: [
-      { ja: '山頂本丸からの中海の眺望 — 尼子氏が見た景色を体感。', zhTw: '從山頂本丸眺望中海 — 體驗尼子氏所見的景色。', en: 'Views of Lake Nakaumi from the summit honmaru — see the same landscape the Amago clan surveyed.' },
-      { ja: '山中鹿介の像 — 月に向かって祈る鹿介の銅像。', zhTw: '山中鹿介之像 — 向月祈禱的鹿介銅像。', en: 'Yamanaka Shikanosuke\'s statue — a bronze figure praying to the moon.' },
+      {
+        ja: '山頂本丸からの中海の眺望', zhTw: '從山頂本丸眺望中海', en: 'Views of Lake Nakaumi from the summit honmaru',
+        desc: {
+          ja: '尼子氏が見た景色を体感。',
+          zhTw: '體驗尼子氏所見的景色。',
+          en: 'see the same landscape the Amago clan surveyed.',
+        },
+      },
+      {
+        ja: '山中鹿介の像', zhTw: '山中鹿介之像', en: 'Yamanaka Shikanosuke\'s statue',
+        desc: {
+          ja: '月に向かって祈る鹿介の銅像。',
+          zhTw: '向月祈禱的鹿介銅像。',
+          en: 'a bronze figure praying to the moon.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高190mの月山に本丸を置き、山全体に多数の曲輪を展開する巨大山城。', zhTw: '在標高190公尺的月山設本丸，整座山展開多數曲輪的巨大山城。', en: 'A massive mountain castle with the honmaru at 190m and compounds spread across the entire mountain.' },
@@ -3129,7 +4263,14 @@ export const castles = [
     ],
     highlights: [
       { ja: '天守台からの津和野盆地の絶景 — 赤い石州瓦の家並みが一望できる。', zhTw: '從天守台眺望津和野盆地絕景 — 可一覽紅色石州瓦屋頂的街景。', en: 'Panoramic views of the Tsuwano basin with its distinctive red Sekishū roof tiles.' },
-      { ja: '殿町通りの掘割 — 色鮮やかな錦鯉が泳ぐ水路は津和野の象徴。', zhTw: '殿町通的水渠 — 色彩繽紛的錦鯉悠游於水道中，是津和野的象徵。', en: 'Tonomachi canal with colorful koi — an iconic symbol of Tsuwano.' },
+      {
+        ja: '殿町通りの掘割', zhTw: '殿町通的水渠', en: 'Tonomachi canal with colorful koi',
+        desc: {
+          ja: '色鮮やかな錦鯉が泳ぐ水路は津和野の象徴。',
+          zhTw: '色彩繽紛的錦鯉悠游於水道中，是津和野的象徵。',
+          en: 'an iconic symbol of Tsuwano.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高367mの霊亀山に築かれた連郭式山城で、三段の石垣が残る。', zhTw: '築於標高367公尺的靈龜山上的連郭式山城，留存三段石垣。', en: 'A linked-compound mountain castle at 367m with three tiers of surviving stone walls.' },
@@ -3159,8 +4300,22 @@ export const castles = [
       { ja: '往時は77棟の櫓を擁し、これは広島城の76棟を上回る西日本最大級の規模だった。', zhTw: '昔日擁有77棟櫓，超過廣島城的76棟，為西日本最大規模。', en: 'Its 77 turrets once exceeded even Hiroshima Castle\'s 76, making it western Japan\'s largest.' },
     ],
     highlights: [
-      { ja: '備中櫓 — 2005年に復元された御殿風の珍しい櫓建築。', zhTw: '備中櫓 — 2005年復原的御殿風格珍貴櫓建築。', en: 'Bitchū Turret — a rare palace-style turret reconstructed in 2005.' },
-      { ja: '石垣の圧倒的スケール — 高さ10m超の石垣が幾重にも連なる。', zhTw: '石垣的壓倒性規模 — 高逾10公尺的石垣層層相連。', en: 'Overwhelming stone walls — multiple tiers exceeding 10m in height.' },
+      {
+        ja: '備中櫓', zhTw: '備中櫓', en: 'Bitchū Turret',
+        desc: {
+          ja: '2005年に復元された御殿風の珍しい櫓建築。',
+          zhTw: '2005年復原的御殿風格珍貴櫓建築。',
+          en: 'a rare palace-style turret reconstructed in 2005.',
+        },
+      },
+      {
+        ja: '石垣の圧倒的スケール', zhTw: '石垣的壓倒性規模', en: 'Overwhelming stone walls',
+        desc: {
+          ja: '高さ10m超の石垣が幾重にも連なる。',
+          zhTw: '高逾10公尺的石垣層層相連。',
+          en: 'multiple tiers exceeding 10m in height.',
+        },
+      },
     ],
     architecture: [
       { ja: '鶴山の地形を活かした一二三段と呼ばれる三段構えの縄張り。', zhTw: '利用鶴山地形的「一二三段」三段構造配置。', en: 'A three-tiered layout called "Hi-Fu-Mi-Dan" exploiting Tsuruyama hill\'s terrain.' },
@@ -3190,7 +4345,14 @@ export const castles = [
       { ja: '城番猫の「さんじゅーろー」が城の人気観光大使として活躍。', zhTw: '守城貓「三十郎」作為城的人氣觀光大使活躍中。', en: 'A resident cat named "Sanjūrō" serves as the castle\'s beloved tourism ambassador.' },
     ],
     highlights: [
-      { ja: '雲海に浮かぶ天空の城 — 秋冬早朝に備中松山城が雲海の上に浮かぶ幻想的な風景。', zhTw: '漂浮於雲海中的天空之城 — 秋冬清晨備中松山城浮現於雲海之上的夢幻風景。', en: 'Castle in the sky — on autumn/winter mornings the castle floats above a sea of clouds.' },
+      {
+        ja: '雲海に浮かぶ天空の城', zhTw: '漂浮於雲海中的天空之城', en: 'Castle in the sky',
+        desc: {
+          ja: '秋冬早朝に備中松山城が雲海の上に浮かぶ幻想的な風景。',
+          zhTw: '秋冬清晨備中松山城浮現於雲海之上的夢幻風景。',
+          en: 'on autumn/winter mornings the castle floats above a sea of clouds.',
+        },
+      },
       { ja: '現存天守の二層二階の小ぶりながら凛とした佇まい。', zhTw: '現存天守二層二階雖小巧卻凜然佇立的姿態。', en: 'The surviving two-story keep — compact yet dignified in its mountain setting.' },
     ],
     architecture: [
@@ -3221,8 +4383,22 @@ export const castles = [
       { ja: '日本書紀に記録がなく「謎の古代山城」と呼ばれる。', zhTw: '在日本書紀中無記載，被稱為「謎之古代山城」。', en: 'Unmentioned in the Nihon Shoki, earning it the title "mysterious ancient mountain castle."' },
     ],
     highlights: [
-      { ja: '復元西門 — 古代山城の門を忠実に復元した圧巻の建築。', zhTw: '復原西門 — 忠實復原古代山城城門的壯觀建築。', en: 'Reconstructed West Gate — a faithful recreation of the ancient fortress gate.' },
-      { ja: '城壁遊歩道 — 全長約2.8kmの城壁跡を巡るハイキングコース。', zhTw: '城牆步道 — 沿約2.8公里城牆遺跡的健行路線。', en: 'Rampart trail — a 2.8km hiking course tracing the ancient fortress walls.' },
+      {
+        ja: '復元西門', zhTw: '復原西門', en: 'Reconstructed West Gate',
+        desc: {
+          ja: '古代山城の門を忠実に復元した圧巻の建築。',
+          zhTw: '忠實復原古代山城城門的壯觀建築。',
+          en: 'a faithful recreation of the ancient fortress gate.',
+        },
+      },
+      {
+        ja: '城壁遊歩道', zhTw: '城牆步道', en: 'Rampart trail',
+        desc: {
+          ja: '全長約2.8kmの城壁跡を巡るハイキングコース。',
+          zhTw: '沿約2.8公里城牆遺跡的健行路線。',
+          en: 'a 2.8km hiking course tracing the ancient fortress walls.',
+        },
+      },
     ],
     architecture: [
       { ja: '鬼城山の山頂を取り囲む全長約2.8kmの版築土塁と列石からなる古代山城。', zhTw: '環繞鬼城山山頂、全長約2.8公里由版築土壘與列石構成的古代山城。', en: 'An ancient fortress encircling the summit with 2.8km of rammed-earth walls and stone alignments.' },
@@ -3252,8 +4428,22 @@ export const castles = [
       { ja: '隣接する後楽園は日本三名園の一つで、城と庭園の調和が見事。', zhTw: '鄰接的後樂園為日本三名園之一，城與庭園的和諧令人讚嘆。', en: 'Adjacent Kōrakuen is one of Japan\'s Three Great Gardens; the castle-garden harmony is stunning.' },
     ],
     highlights: [
-      { ja: '後楽園から望む天守 — 日本三名園の庭園越しに見る烏城は格別の風情。', zhTw: '從後樂園眺望天守 — 透過日本三名園的庭園望見的烏城別具風情。', en: 'The keep viewed from Kōrakuen — seeing "Crow Castle" beyond one of Japan\'s Three Great Gardens.' },
-      { ja: '天守内の体験コーナー — 着付け体験や備前焼作りが楽しめる。', zhTw: '天守內的體驗區 — 可享受和服穿著體驗及備前燒製作。', en: 'Hands-on experiences inside the keep — try on armor or make Bizen pottery.' },
+      {
+        ja: '後楽園から望む天守', zhTw: '從後樂園眺望天守', en: 'The keep viewed from Kōrakuen',
+        desc: {
+          ja: '日本三名園の庭園越しに見る烏城は格別の風情。',
+          zhTw: '透過日本三名園的庭園望見的烏城別具風情。',
+          en: 'seeing "Crow Castle" beyond one of Japan\'s Three Great Gardens.',
+        },
+      },
+      {
+        ja: '天守内の体験コーナー', zhTw: '天守內的體驗區', en: 'Hands-on experiences inside the keep',
+        desc: {
+          ja: '着付け体験や備前焼作りが楽しめる。',
+          zhTw: '可享受和服穿著體驗及備前燒製作。',
+          en: 'try on armor or make Bizen pottery.',
+        },
+      },
     ],
     architecture: [
       { ja: '不等辺五角形の天守台は全国でも珍しく、宇喜多秀家の独創的な設計。', zhTw: '不等邊五角形的天守台在全國罕見，為宇喜多秀家獨創的設計。', en: 'The irregular pentagonal keep base is rare nationwide — a creative design by Ukita Hideie.' },
@@ -3283,8 +4473,22 @@ export const castles = [
       { ja: '北側の鉄板張りは大坂方面からの攻撃に備えた全国唯一の防御構造。', zhTw: '北側的鐵板外牆是為防備大坂方面攻擊的全國唯一防禦結構。', en: 'The iron-plated north face is a unique nationwide defense against attack from the Osaka direction.' },
     ],
     highlights: [
-      { ja: '伏見櫓 — 伏見城から移築された現存する貴重な江戸初期の櫓。', zhTw: '伏見櫓 — 從伏見城移建的珍貴現存江戶初期櫓。', en: 'Fushimi Turret — a precious surviving early-Edo turret relocated from Fushimi Castle.' },
-      { ja: '天守北面の鉄板張り — 2022年の復元で蘇った全国唯一の鉄壁。', zhTw: '天守北面鐵板外牆 — 2022年復原重現的全國唯一鐵壁。', en: 'Iron-plated north face — Japan\'s only iron-walled keep face, restored in 2022.' },
+      {
+        ja: '伏見櫓', zhTw: '伏見櫓', en: 'Fushimi Turret',
+        desc: {
+          ja: '伏見城から移築された現存する貴重な江戸初期の櫓。',
+          zhTw: '從伏見城移建的珍貴現存江戶初期櫓。',
+          en: 'a precious surviving early-Edo turret relocated from Fushimi Castle.',
+        },
+      },
+      {
+        ja: '天守北面の鉄板張り', zhTw: '天守北面鐵板外牆', en: 'Iron-plated north face',
+        desc: {
+          ja: '2022年の復元で蘇った全国唯一の鉄壁。',
+          zhTw: '2022年復原重現的全國唯一鐵壁。',
+          en: 'Japan\'s only iron-walled keep face, restored in 2022.',
+        },
+      },
     ],
     architecture: [
       { ja: '五重六階の天守は伏見城の遺材を多く転用して築かれた。', zhTw: '五重六階的天守大量轉用伏見城的遺材築建。', en: 'The five-story, six-floor keep was built largely with materials salvaged from Fushimi Castle.' },
@@ -3346,7 +4550,14 @@ export const castles = [
       { ja: '復元天守は元の位置から約50m移動して建てられ、錦帯橋からよく見える。', zhTw: '復原天守從原位置移動約50公尺建造，從錦帶橋清晰可見。', en: 'The reconstructed keep was shifted ~50m from its original site for better visibility from Kintai Bridge.' },
     ],
     highlights: [
-      { ja: '錦帯橋と天守の競演 — 5連アーチの名橋越しに山上の天守を仰ぐ絶景。', zhTw: '錦帶橋與天守的競演 — 透過5連拱名橋仰望山上天守的絕景。', en: 'Kintai Bridge and keep together — the mountain keep framed by the famous five-arch bridge.' },
+      {
+        ja: '錦帯橋と天守の競演', zhTw: '錦帶橋與天守的競演', en: 'Kintai Bridge and keep together',
+        desc: {
+          ja: '5連アーチの名橋越しに山上の天守を仰ぐ絶景。',
+          zhTw: '透過5連拱名橋仰望山上天守的絕景。',
+          en: 'the mountain keep framed by the famous five-arch bridge.',
+        },
+      },
       { ja: '天守からの錦川と城下町の眺め — 蛇行する錦川が美しい。', zhTw: '從天守眺望錦川與城下町 — 蜿蜒的錦川美不勝收。', en: 'Views of the winding Nishiki River and castle town from the keep.' },
     ],
     architecture: [
@@ -3377,8 +4588,22 @@ export const castles = [
       { ja: '城跡は桜の名所で、指月公園には約600本のソメイヨシノが咲く。', zhTw: '城跡為櫻花名所，指月公園約有600棵染井吉野櫻。', en: 'The ruins are a cherry blossom hotspot with around 600 Somei Yoshino trees in Shizuki Park.' },
     ],
     highlights: [
-      { ja: '指月山の石垣と堀 — 日本海に面した美しい海城の遺構。', zhTw: '指月山的石垣與護城河 — 面向日本海的美麗海城遺構。', en: 'Shizuki stone walls and moats — beautiful remains of a castle facing the Sea of Japan.' },
-      { ja: '萩城下町の武家屋敷群 — 幕末の志士たちが歩いた町並みがそのまま残る。', zhTw: '萩城下町的武家屋敷群 — 幕末志士們走過的街道完好保存。', en: 'Samurai district — the streets walked by Bakumatsu revolutionaries survive intact.' },
+      {
+        ja: '指月山の石垣と堀', zhTw: '指月山的石垣與護城河', en: 'Shizuki stone walls and moats',
+        desc: {
+          ja: '日本海に面した美しい海城の遺構。',
+          zhTw: '面向日本海的美麗海城遺構。',
+          en: 'beautiful remains of a castle facing the Sea of Japan.',
+        },
+      },
+      {
+        ja: '萩城下町の武家屋敷群', zhTw: '萩城下町的武家屋敷群', en: 'Samurai district',
+        desc: {
+          ja: '幕末の志士たちが歩いた町並みがそのまま残る。',
+          zhTw: '幕末志士們走過的街道完好保存。',
+          en: 'the streets walked by Bakumatsu revolutionaries survive intact.',
+        },
+      },
     ],
     architecture: [
       { ja: '指月山の山頂に詰丸、麓に本丸を置く山城と平城の複合型城郭。', zhTw: '指月山山頂設詰丸、山麓設本丸的山城與平城複合型城郭。', en: 'A composite castle with a mountain-top retreat and flatland honmaru at the foot of Mt. Shizuki.' },
@@ -3409,8 +4634,22 @@ export const castles = [
       { ja: '阿波踊りの本場で、毎年8月に城下町が踊り一色に染まる。', zhTw: '阿波舞的發源地，每年8月城下町被舞蹈氛圍所染。', en: 'Home of the Awa Odori dance festival — every August the castle town pulses with dance.' },
     ],
     highlights: [
-      { ja: '表御殿庭園 — 大名庭園として国の名勝に指定された枯山水庭園。', zhTw: '表御殿庭園 — 作為大名庭園被指定為國家名勝的枯山水庭園。', en: 'Omote Goten Garden — a dry landscape garden designated a National Place of Scenic Beauty.' },
-      { ja: '緑色片岩の石垣 — 阿波特産の青石が積まれた独特の美しい石垣。', zhTw: '綠色片岩石垣 — 以阿波特產的青石堆砌的獨特美麗石垣。', en: 'Greenstone schist walls — uniquely beautiful walls of locally quarried blue-green stone.' },
+      {
+        ja: '表御殿庭園', zhTw: '表御殿庭園', en: 'Omote Goten Garden',
+        desc: {
+          ja: '大名庭園として国の名勝に指定された枯山水庭園。',
+          zhTw: '作為大名庭園被指定為國家名勝的枯山水庭園。',
+          en: 'a dry landscape garden designated a National Place of Scenic Beauty.',
+        },
+      },
+      {
+        ja: '緑色片岩の石垣', zhTw: '綠色片岩石垣', en: 'Greenstone schist walls',
+        desc: {
+          ja: '阿波特産の青石が積まれた独特の美しい石垣。',
+          zhTw: '以阿波特產的青石堆砌的獨特美麗石垣。',
+          en: 'uniquely beautiful walls of locally quarried blue-green stone.',
+        },
+      },
     ],
     architecture: [
       { ja: '渭山山頂に本丸、東二の丸、西二の丸を配した連郭式の縄張り。', zhTw: '在渭山山頂配置本丸、東二之丸、西二之丸的連郭式配置。', en: 'A linked-compound layout with honmaru, east and west ni-no-maru atop Mt. Inoyama.' },
@@ -3440,8 +4679,22 @@ export const castles = [
       { ja: '堀で「鯛願成就」の鯛のエサやり体験ができるユニークな城。', zhTw: '可在護城河體驗「鯛願成就」餵鯛魚的獨特城郭。', en: 'Visitors can feed sea bream in the moat for a "Tai-gan Jōju" (wish-granting) experience.' },
     ],
     highlights: [
-      { ja: '月見櫓 — 瀬戸内海を望む現存する美しい三重櫓（重要文化財）。', zhTw: '月見櫓 — 可望瀨戶內海的美麗現存三重櫓（重要文化財）。', en: 'Moon-viewing Turret — a beautiful surviving three-story turret (Important Cultural Property) overlooking the Inland Sea.' },
-      { ja: '海水の堀 — 瀬戸内海の海水が満ちる全国屈指の水城遺構。', zhTw: '海水護城河 — 充滿瀨戶內海海水的全國屈指水城遺構。', en: 'Seawater moats — outstanding water castle remains fed directly by the Seto Inland Sea.' },
+      {
+        ja: '月見櫓', zhTw: '月見櫓', en: 'Moon-viewing Turret',
+        desc: {
+          ja: '瀬戸内海を望む現存する美しい三重櫓（重要文化財）。',
+          zhTw: '可望瀨戶內海的美麗現存三重櫓（重要文化財）。',
+          en: 'a beautiful surviving three-story turret (Important Cultural Property) overlooking the Inland Sea.',
+        },
+      },
+      {
+        ja: '海水の堀', zhTw: '海水護城河', en: 'Seawater moats',
+        desc: {
+          ja: '瀬戸内海の海水が満ちる全国屈指の水城遺構。',
+          zhTw: '充滿瀨戶內海海水的全國屈指水城遺構。',
+          en: 'outstanding water castle remains fed directly by the Seto Inland Sea.',
+        },
+      },
     ],
     architecture: [
       { ja: '瀬戸内海の海水を堀に引き込んだ日本最大級の海城。', zhTw: '將瀨戶內海海水引入護城河的日本最大級海城。', en: 'One of Japan\'s largest sea castles with moats drawing water directly from the Seto Inland Sea.' },
@@ -3471,7 +4724,14 @@ export const castles = [
       { ja: '現存天守は日本一小さく、三重三階でわずか約15mの高さ。', zhTw: '現存天守為日本最小，三重三階僅約15公尺高。', en: 'The surviving keep is Japan\'s smallest — just about 15m tall across three stories.' },
     ],
     highlights: [
-      { ja: '日本一の石垣 — 「石の城」と称される壮大な四段の高石垣。', zhTw: '日本第一石垣 — 被稱為「石之城」的壯大四段高石垣。', en: 'Japan\'s tallest walls — the grand four-tier stone walls earning the nickname "Stone Castle."' },
+      {
+        ja: '日本一の石垣', zhTw: '日本第一石垣', en: 'Japan\'s tallest walls',
+        desc: {
+          ja: '「石の城」と称される壮大な四段の高石垣。',
+          zhTw: '被稱為「石之城」的壯大四段高石垣。',
+          en: 'the grand four-tier stone walls earning the nickname "Stone Castle."',
+        },
+      },
       { ja: '現存天守からの讃岐平野と瀬戸内海の眺望。', zhTw: '從現存天守眺望讚岐平原與瀨戶內海。', en: 'Views of the Sanuki Plain and Seto Inland Sea from the surviving keep.' },
     ],
     architecture: [
@@ -3534,7 +4794,14 @@ export const castles = [
     ],
     highlights: [
       { ja: '復元武家屋敷 — 発掘成果に基づき忠実に再現された中世の武家屋敷群。', zhTw: '復原武家屋敷 — 基於考古成果忠實再現的中世武家屋敷群。', en: 'Restored samurai residences faithfully recreated from archaeological findings.' },
-      { ja: '道後温泉との散策 — 城跡から徒歩圏内の日本最古の温泉を合わせて楽しめる。', zhTw: '道後溫泉散步 — 從城跡步行即可到達日本最古老的溫泉。', en: 'Walk to Dōgo Onsen — Japan\'s oldest hot spring is just steps from the castle ruins.' },
+      {
+        ja: '道後温泉との散策', zhTw: '道後溫泉散步', en: 'Walk to Dōgo Onsen',
+        desc: {
+          ja: '城跡から徒歩圏内の日本最古の温泉を合わせて楽しめる。',
+          zhTw: '從城跡步行即可到達日本最古老的溫泉。',
+          en: 'Japan\'s oldest hot spring is just steps from the castle ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '二重の堀と土塁で囲まれた中世平山城の典型的な構造。', zhTw: '以雙重護城河與土壘環繞的中世平山城典型結構。', en: 'A classic medieval hilltop castle with double moats and earthen ramparts.' },
@@ -3569,8 +4836,22 @@ export const castles = [
     ],
     highlights: [
       { ja: '木造復元天守 — 伝統工法で再建された日本初の本格的な木造復元天守。', zhTw: '木造復原天守 — 以傳統工法重建的日本首座正式木造復原天守。', en: 'Japan\'s first authentically rebuilt wooden keep using traditional construction methods.' },
-      { ja: '肱川と天守の風景 — 川面に映る天守は大洲を代表する絶景。', zhTw: '肱川與天守的風景 — 倒映在河面的天守是大洲代表性絕景。', en: 'The keep reflected in the Hiji River — Ōzu\'s signature scenic view.' },
-      { ja: '大洲城キャッスルステイ — 天守に宿泊できる日本唯一の城泊体験。', zhTw: '大洲城住城體驗 — 可住宿在天守內的日本唯一城堡住宿體驗。', en: 'Castle Stay — the only place in Japan where you can sleep inside a castle keep.' },
+      {
+        ja: '肱川と天守の風景', zhTw: '肱川與天守的風景', en: 'The keep reflected in the Hiji River',
+        desc: {
+          ja: '川面に映る天守は大洲を代表する絶景。',
+          zhTw: '倒映在河面的天守是大洲代表性絕景。',
+          en: 'Ōzu\'s signature scenic view.',
+        },
+      },
+      {
+        ja: '大洲城キャッスルステイ', zhTw: '大洲城住城體驗', en: 'Castle Stay',
+        desc: {
+          ja: '天守に宿泊できる日本唯一の城泊体験。',
+          zhTw: '可住宿在天守內的日本唯一城堡住宿體驗。',
+          en: 'the only place in Japan where you can sleep inside a castle keep.',
+        },
+      },
     ],
     architecture: [
       { ja: '四重四階の木造復元天守は、明治期の古写真と江戸期の木組み模型を基に忠実に再現。', zhTw: '四重四階的木造復原天守，依據明治古照片與江戶時期木組模型忠實再現。', en: 'The four-story wooden keep was faithfully recreated from Meiji photographs and an Edo-era wooden model.' },
@@ -3604,9 +4885,23 @@ export const castles = [
       { ja: '城山の登り道には石段が続き、野生の猿に出会えることもある。', zhTw: '城山的登山路石階連綿，有時還能遇到野生猴子。', en: 'Stone steps lead up the castle hill where wild monkeys are sometimes spotted.' },
     ],
     highlights: [
-      { ja: '現存天守 — 千鳥破風と唐破風を巧みに配した優美な三重天守。', zhTw: '現存天守 — 巧妙配置千鳥破風與唐破風的優美三重天守。', en: 'The surviving keep — an elegant three-story tower with artfully placed chidori and kara gables.' },
+      {
+        ja: '現存天守', zhTw: '現存天守', en: 'The surviving keep',
+        desc: {
+          ja: '千鳥破風と唐破風を巧みに配した優美な三重天守。',
+          zhTw: '巧妙配置千鳥破風與唐破風的優美三重天守。',
+          en: 'an elegant three-story tower with artfully placed chidori and kara gables.',
+        },
+      },
       { ja: '天守からの宇和海の眺望 — リアス式海岸の宇和海を一望。', zhTw: '從天守眺望宇和海 — 一覽谷灣式海岸的宇和海。', en: 'Views of the Uwa Sea\'s ria coastline from the keep.' },
-      { ja: '天赦園 — 七代藩主が造営した池泉回遊式の大名庭園（国の名勝）。', zhTw: '天赦園 — 第七代藩主營造的池泉回遊式大名庭園（國家名勝）。', en: 'Tenshaen — a strolling garden built by the 7th lord, designated a National Place of Scenic Beauty.' },
+      {
+        ja: '天赦園', zhTw: '天赦園', en: 'Tenshaen',
+        desc: {
+          ja: '七代藩主が造営した池泉回遊式の大名庭園（国の名勝）。',
+          zhTw: '第七代藩主營造的池泉回遊式大名庭園（國家名勝）。',
+          en: 'a strolling garden built by the 7th lord, designated a National Place of Scenic Beauty.',
+        },
+      },
     ],
     architecture: [
       { ja: '藤堂高虎が設計した不等辺五角形の独特な縄張りは全国的にも珍しい。', zhTw: '藤堂高虎設計的不等邊五角形獨特配置在全國也很罕見。', en: 'Takatora\'s unique irregular pentagonal layout is rare among Japanese castles.' },
@@ -3679,9 +4974,30 @@ export const castles = [
       { ja: '黒田家の家紋「藤巴」は福岡市の市章にもなっている。', zhTw: '黑田家的家紋「藤巴」也成為福岡市的市徽。', en: 'The Kuroda clan crest "Fujitomoe" became the emblem of Fukuoka city.' },
     ],
     highlights: [
-      { ja: '多聞櫓 — 現存する唯一の櫓で重要文化財に指定（通常非公開）。', zhTw: '多聞櫓 — 唯一現存的櫓，被指定為重要文化財（通常不公開）。', en: 'Tamon Turret — the only surviving turret, designated an Important Cultural Property (usually closed).' },
-      { ja: '天守台からの福岡市街の大パノラマ — 都会の真ん中にある城の醍醐味。', zhTw: '從天守台眺望福岡市街的大全景 — 都會正中心之城的絕妙之處。', en: 'Panoramic city views from the keep platform — a castle in the heart of a modern metropolis.' },
-      { ja: '桜まつり — 約千本の桜が咲き誇る福岡随一の花見スポット。', zhTw: '櫻花祭 — 約千棵櫻花盛開的福岡首屈一指賞花景點。', en: 'Cherry blossom festival — about 1,000 trees make it Fukuoka\'s top hanami destination.' },
+      {
+        ja: '多聞櫓', zhTw: '多聞櫓', en: 'Tamon Turret',
+        desc: {
+          ja: '現存する唯一の櫓で重要文化財に指定（通常非公開）。',
+          zhTw: '唯一現存的櫓，被指定為重要文化財（通常不公開）。',
+          en: 'the only surviving turret, designated an Important Cultural Property (usually closed).',
+        },
+      },
+      {
+        ja: '天守台からの福岡市街の大パノラマ', zhTw: '從天守台眺望福岡市街的大全景', en: 'Panoramic city views from the keep platform',
+        desc: {
+          ja: '都会の真ん中にある城の醍醐味。',
+          zhTw: '都會正中心之城的絕妙之處。',
+          en: 'a castle in the heart of a modern metropolis.',
+        },
+      },
+      {
+        ja: '桜まつり', zhTw: '櫻花祭', en: 'Cherry blossom festival',
+        desc: {
+          ja: '約千本の桜が咲き誇る福岡随一の花見スポット。',
+          zhTw: '約千棵櫻花盛開的福岡首屈一指賞花景點。',
+          en: 'about 1,000 trees make it Fukuoka\'s top hanami destination.',
+        },
+      },
     ],
     architecture: [
       { ja: '総面積約25万㎡は九州最大で、47の櫓と10以上の門を擁した巨大城郭。', zhTw: '總面積約25萬平方公尺為九州最大，擁有47座櫓與10座以上城門的巨大城郭。', en: 'Kyushu\'s largest at about 250,000㎡ with 47 turrets and over 10 gates.' },
@@ -3713,8 +5029,22 @@ export const castles = [
       { ja: '全長約8kmの土塁と石垣が山を取り囲む、日本最大級の古代山城。', zhTw: '全長約8公里的土壘與石垣環繞山體，為日本最大級的古代山城。', en: 'One of Japan\'s largest ancient fortresses with about 8km of earthen and stone walls encircling the mountain.' },
     ],
     highlights: [
-      { ja: '百間石垣 — 約180mにわたる壮大な古代の石垣遺構。', zhTw: '百間石垣 — 約180公尺壯大的古代石垣遺構。', en: 'Hyakken Stone Wall — a grand 180m stretch of ancient stone fortification.' },
-      { ja: '四王寺山ハイキング — 城壁跡を辿りながら古代の防衛ラインを体感。', zhTw: '四王寺山健行 — 沿城牆遺跡感受古代防禦線。', en: 'Mt. Shiōji hiking trail — walk the ancient defense line along fortress wall remains.' },
+      {
+        ja: '百間石垣', zhTw: '百間石垣', en: 'Hyakken Stone Wall',
+        desc: {
+          ja: '約180mにわたる壮大な古代の石垣遺構。',
+          zhTw: '約180公尺壯大的古代石垣遺構。',
+          en: 'a grand 180m stretch of ancient stone fortification.',
+        },
+      },
+      {
+        ja: '四王寺山ハイキング', zhTw: '四王寺山健行', en: 'Mt. Shiōji hiking trail',
+        desc: {
+          ja: '城壁跡を辿りながら古代の防衛ラインを体感。',
+          zhTw: '沿城牆遺跡感受古代防禦線。',
+          en: 'walk the ancient defense line along fortress wall remains.',
+        },
+      },
       { ja: '太宰府天満宮との組み合わせ — 近隣の太宰府天満宮と合わせて歴史散策。', zhTw: '與太宰府天滿宮組合 — 可與鄰近太宰府天滿宮一起歷史散步。', en: 'Combine with nearby Dazaifu Tenmangu shrine for a full historical excursion.' },
     ],
     architecture: [
@@ -3750,9 +5080,30 @@ export const castles = [
       { ja: '秀吉は名護屋で茶会や能楽会を催し、戦地とは思えない文化的な生活を送った。', zhTw: '秀吉在名護屋舉辦茶會與能樂會，過著不像戰地的文化生活。', en: 'Hideyoshi held tea ceremonies and Noh performances at Nagoya — an unexpectedly cultured life in a war zone.' },
     ],
     highlights: [
-      { ja: '名護屋城博物館 — 日朝交流史を学べる充実した展示施設（入場無料）。', zhTw: '名護屋城博物館 — 可學習日朝交流史的充實展示設施（免費入場）。', en: 'Nagoya Castle Museum — a comprehensive exhibition on Japan-Korea history (free admission).' },
-      { ja: '本丸からの玄界灘の眺望 — 晴れた日には壱岐・対馬まで見渡せる絶景。', zhTw: '從本丸眺望玄界灘 — 晴天時可遠望壹岐、對馬的絕景。', en: 'Views of the Genkai Sea from the honmaru — on clear days Iki and Tsushima islands are visible.' },
-      { ja: '大名陣跡群 — 城の周囲に点在する家康・政宗らの陣跡を巡る散策。', zhTw: '大名陣跡群 — 散布在城周圍的家康、政宗等陣跡散步巡禮。', en: 'Daimyo camp ruins — walk among the remains of camps used by Ieyasu, Masamune, and other lords.' },
+      {
+        ja: '名護屋城博物館', zhTw: '名護屋城博物館', en: 'Nagoya Castle Museum',
+        desc: {
+          ja: '日朝交流史を学べる充実した展示施設（入場無料）。',
+          zhTw: '可學習日朝交流史的充實展示設施（免費入場）。',
+          en: 'a comprehensive exhibition on Japan-Korea history (free admission).',
+        },
+      },
+      {
+        ja: '本丸からの玄界灘の眺望', zhTw: '從本丸眺望玄界灘', en: 'Views of the Genkai Sea from the honmaru',
+        desc: {
+          ja: '晴れた日には壱岐・対馬まで見渡せる絶景。',
+          zhTw: '晴天時可遠望壹岐、對馬的絕景。',
+          en: 'on clear days Iki and Tsushima islands are visible.',
+        },
+      },
+      {
+        ja: '大名陣跡群', zhTw: '大名陣跡群', en: 'Daimyo camp ruins',
+        desc: {
+          ja: '城の周囲に点在する家康・政宗らの陣跡を巡る散策。',
+          zhTw: '散布在城周圍的家康、政宗等陣跡散步巡禮。',
+          en: 'walk among the remains of camps used by Ieyasu, Masamune, and other lords.',
+        },
+      },
     ],
     architecture: [
       { ja: '五重天守を中心に本丸・二の丸・三の丸・山里丸を配した壮大な縄張り。', zhTw: '以五重天守為中心配置本丸、二之丸、三之丸、山里丸的壯大配置。', en: 'A grand layout centered on a five-story keep with honmaru, ni-no-maru, san-no-maru, and Yamazato-maru.' },
@@ -3785,9 +5136,30 @@ export const castles = [
       { ja: '日本100名城に選ばれた中で最も古い「城」で、約2,300年前に遡る。', zhTw: '日本100名城中被選為最古老的「城」，可追溯至約2,300年前。', en: 'The oldest "castle" in the 100 Famous Castles list, dating back some 2,300 years.' },
     ],
     highlights: [
-      { ja: '復元された物見櫓と主祭殿 — 弥生時代の建築を再現した圧巻の復元建物群。', zhTw: '復原的瞭望櫓與主祭殿 — 再現彌生時代建築的壯觀復原建築群。', en: 'Reconstructed watchtower and ceremonial hall — impressive recreations of Yayoi architecture.' },
-      { ja: '北墳丘墓 — 甕棺が出土した王墓級の大型墳丘墓。', zhTw: '北墳丘墓 — 出土甕棺的王墓級大型墳丘墓。', en: 'North Mound Tomb — a royal-class burial mound where jar coffins were unearthed.' },
-      { ja: '環濠と逆茂木 — 二重の濠と防御柵が弥生時代の戦いの痕跡を伝える。', zhTw: '環壕與逆茂木 — 雙重壕溝與防禦柵欄傳達彌生時代戰鬥的痕跡。', en: 'Double moats and abatis fences — vivid traces of Yayoi-era warfare.' },
+      {
+        ja: '復元された物見櫓と主祭殿', zhTw: '復原的瞭望櫓與主祭殿', en: 'Reconstructed watchtower and ceremonial hall',
+        desc: {
+          ja: '弥生時代の建築を再現した圧巻の復元建物群。',
+          zhTw: '再現彌生時代建築的壯觀復原建築群。',
+          en: 'impressive recreations of Yayoi architecture.',
+        },
+      },
+      {
+        ja: '北墳丘墓', zhTw: '北墳丘墓', en: 'North Mound Tomb',
+        desc: {
+          ja: '甕棺が出土した王墓級の大型墳丘墓。',
+          zhTw: '出土甕棺的王墓級大型墳丘墓。',
+          en: 'a royal-class burial mound where jar coffins were unearthed.',
+        },
+      },
+      {
+        ja: '環濠と逆茂木', zhTw: '環壕與逆茂木', en: 'Double moats and abatis fences',
+        desc: {
+          ja: '二重の濠と防御柵が弥生時代の戦いの痕跡を伝える。',
+          zhTw: '雙重壕溝與防禦柵欄傳達彌生時代戰鬥的痕跡。',
+          en: 'vivid traces of Yayoi-era warfare.',
+        },
+      },
     ],
     architecture: [
       { ja: '内濠と外濠の二重環濠構造で居住区域・祭祀区域・墳墓区域を明確に区分。', zhTw: '以內壕與外壕的雙重環壕結構明確區分居住區、祭祀區與墳墓區。', en: 'A double-moat structure clearly separating residential, ritual, and burial zones.' },
@@ -3821,9 +5193,30 @@ export const castles = [
       { ja: '「葉隠」は佐賀藩士・山本常朝の口述をまとめた武士道書で「武士道とは死ぬことと見つけたり」で有名。', zhTw: '「葉隱」是佐賀藩士山本常朝口述彙整的武士道書，以「武士道即覺悟赴死」聞名。', en: '"Hagakure," dictated by Saga samurai Yamamoto Tsunetomo, is famous for "the way of the warrior is death."' },
     ],
     highlights: [
-      { ja: '佐賀城本丸歴史館 — 本丸御殿を忠実に復元した木造建築（入場無料）。', zhTw: '佐賀城本丸歷史館 — 忠實復原本丸御殿的木造建築（免費入場）。', en: 'Saga Castle Honmaru History Museum — a faithfully restored wooden palace (free admission).' },
-      { ja: '鯱の門 — 佐賀の乱の弾痕が残る現存の城門（重要文化財）。', zhTw: '鯱之門 — 留有佐賀之亂彈痕的現存城門（重要文化財）。', en: 'Shachi Gate — a surviving gate with bullet holes from the Saga Rebellion (Important Cultural Property).' },
-      { ja: '復元本丸御殿の320畳の大広間 — 日本最大級の木造復元建築空間。', zhTw: '復原本丸御殿的320疊大廣間 — 日本最大級的木造復原建築空間。', en: 'The 320-tatami great hall — one of Japan\'s largest reconstructed wooden interior spaces.' },
+      {
+        ja: '佐賀城本丸歴史館', zhTw: '佐賀城本丸歷史館', en: 'Saga Castle Honmaru History Museum',
+        desc: {
+          ja: '本丸御殿を忠実に復元した木造建築（入場無料）。',
+          zhTw: '忠實復原本丸御殿的木造建築（免費入場）。',
+          en: 'a faithfully restored wooden palace (free admission).',
+        },
+      },
+      {
+        ja: '鯱の門', zhTw: '鯱之門', en: 'Shachi Gate',
+        desc: {
+          ja: '佐賀の乱の弾痕が残る現存の城門（重要文化財）。',
+          zhTw: '留有佐賀之亂彈痕的現存城門（重要文化財）。',
+          en: 'a surviving gate with bullet holes from the Saga Rebellion (Important Cultural Property).',
+        },
+      },
+      {
+        ja: '復元本丸御殿の320畳の大広間', zhTw: '復原本丸御殿的320疊大廣間', en: 'The 320-tatami great hall',
+        desc: {
+          ja: '日本最大級の木造復元建築空間。',
+          zhTw: '日本最大級的木造復原建築空間。',
+          en: 'one of Japan\'s largest reconstructed wooden interior spaces.',
+        },
+      },
     ],
     architecture: [
       { ja: '幾重もの水堀に囲まれた平城で、総構えの規模は九州有数。', zhTw: '被多重水壕環繞的平城，總構規模在九州數一數二。', en: 'A flatland castle surrounded by multiple water moats — one of Kyushu\'s largest total defense systems.' },
@@ -3857,9 +5250,30 @@ export const castles = [
       { ja: '「山鹿流」軍学に基づく縄張りは全国的にも珍しい。', zhTw: '基於「山鹿流」軍學的配置在全國也很罕見。', en: 'The castle\'s layout based on Yamaga-ryū military studies is rare nationwide.' },
     ],
     highlights: [
-      { ja: '天守からの平戸海峡の絶景 — 海と島々が織りなす西海の美しい風景。', zhTw: '從天守眺望平戶海峽的絕景 — 海與島嶼交織的西海美景。', en: 'Stunning views of the Hirado Strait — a beautiful seascape of islands and ocean.' },
-      { ja: 'オランダ商館跡 — 復元されたオランダ商館で日蘭交流の歴史を学ぶ。', zhTw: '荷蘭商館遺址 — 在復原的荷蘭商館學習日荷交流歷史。', en: 'Dutch Trading Post — learn about Japan-Netherlands exchange at the reconstructed warehouse.' },
-      { ja: '平戸城キャッスルステイ — 天守に泊まれるユニークな宿泊体験。', zhTw: '平戶城住城體驗 — 可住宿天守的獨特住宿體驗。', en: 'Castle Stay — a unique experience spending the night inside the castle keep.' },
+      {
+        ja: '天守からの平戸海峡の絶景', zhTw: '從天守眺望平戶海峽的絕景', en: 'Stunning views of the Hirado Strait',
+        desc: {
+          ja: '海と島々が織りなす西海の美しい風景。',
+          zhTw: '海與島嶼交織的西海美景。',
+          en: 'a beautiful seascape of islands and ocean.',
+        },
+      },
+      {
+        ja: 'オランダ商館跡', zhTw: '荷蘭商館遺址', en: 'Dutch Trading Post',
+        desc: {
+          ja: '復元されたオランダ商館で日蘭交流の歴史を学ぶ。',
+          zhTw: '在復原的荷蘭商館學習日荷交流歷史。',
+          en: 'learn about Japan-Netherlands exchange at the reconstructed warehouse.',
+        },
+      },
+      {
+        ja: '平戸城キャッスルステイ', zhTw: '平戶城住城體驗', en: 'Castle Stay',
+        desc: {
+          ja: '天守に泊まれるユニークな宿泊体験。',
+          zhTw: '可住宿天守的獨特住宿體驗。',
+          en: 'a unique experience spending the night inside the castle keep.',
+        },
+      },
     ],
     architecture: [
       { ja: '山鹿流軍学に基づく縄張りは理論的な防御配置が特徴。', zhTw: '基於山鹿流軍學的配置以理論性防禦佈局為特徵。', en: 'The layout follows Yamaga-ryū military theory with a rationalized defensive arrangement.' },
@@ -3894,9 +5308,30 @@ export const castles = [
       { ja: '「島原大変肥後迷惑」は1792年の大災害を表す言葉で、津波が対岸の肥後にも甚大な被害をもたらした。', zhTw: '「島原大變肥後迷惑」是形容1792年大災害的詞語，海嘯對岸的肥後也造成甚大災害。', en: '"Shimabara Calamity, Higo Misery" — the 1792 tsunami devastated both Shimabara and the Higo coast across the bay.' },
     ],
     highlights: [
-      { ja: '天守閣内のキリシタン資料館 — 島原の乱やキリシタン弾圧の歴史を展示。', zhTw: '天守閣內的基督徒資料館 — 展示島原之亂與基督徒迫害的歷史。', en: 'Christian History Museum in the keep — exhibitions on the Shimabara Rebellion and persecution.' },
-      { ja: '壮大な石垣と堀 — 小藩の分を超えた規模の石垣は島原の悲劇の象徴でもある。', zhTw: '壯大的石垣與護城河 — 超越小藩規模的石垣也是島原悲劇的象徵。', en: 'Grand stone walls and moats — their excessive scale for a small domain symbolizes Shimabara\'s tragedy.' },
-      { ja: '武家屋敷通り — 清流が流れる水路沿いに武家屋敷が並ぶ風情ある町並み。', zhTw: '武家屋敷通 — 清流水渠沿岸排列武家屋敷的風情街景。', en: 'Samurai district — elegant residences lining a canal of clear spring water.' },
+      {
+        ja: '天守閣内のキリシタン資料館', zhTw: '天守閣內的基督徒資料館', en: 'Christian History Museum in the keep',
+        desc: {
+          ja: '島原の乱やキリシタン弾圧の歴史を展示。',
+          zhTw: '展示島原之亂與基督徒迫害的歷史。',
+          en: 'exhibitions on the Shimabara Rebellion and persecution.',
+        },
+      },
+      {
+        ja: '壮大な石垣と堀', zhTw: '壯大的石垣與護城河', en: 'Grand stone walls and moats',
+        desc: {
+          ja: '小藩の分を超えた規模の石垣は島原の悲劇の象徴でもある。',
+          zhTw: '超越小藩規模的石垣也是島原悲劇的象徵。',
+          en: 'their excessive scale for a small domain symbolizes Shimabara\'s tragedy.',
+        },
+      },
+      {
+        ja: '武家屋敷通り', zhTw: '武家屋敷通', en: 'Samurai district',
+        desc: {
+          ja: '清流が流れる水路沿いに武家屋敷が並ぶ風情ある町並み。',
+          zhTw: '清流水渠沿岸排列武家屋敷的風情街景。',
+          en: 'elegant residences lining a canal of clear spring water.',
+        },
+      },
     ],
     architecture: [
       { ja: '五重五階の層塔型天守を中心に、三重の櫓を3基配した壮大な構え。', zhTw: '以五重五階層塔型天守為中心，配置3座三重櫓的壯大構造。', en: 'A grand complex with a five-story layered keep and three triple-story corner turrets.' },
@@ -3931,8 +5366,22 @@ export const castles = [
       { ja: '球磨川下りと合わせて楽しめる「日本三大急流」の景勝地。', zhTw: '可搭配球磨川泛舟一起享受的「日本三大急流」景勝地。', en: 'Enjoy the castle alongside Kuma River rafting — one of Japan\'s Three Great Rapid Rivers.' },
     ],
     highlights: [
-      { ja: '球磨川沿いの石垣 — 清流と石垣が織りなす美しい風景。', zhTw: '球磨川沿岸石垣 — 清流與石垣交織的美麗風景。', en: 'Stone walls along the Kuma River — a beautiful landscape of clear water and stone.' },
-      { ja: '地下室遺構 — 用途不明の謎に包まれた全国唯一の遺構。', zhTw: '地下室遺構 — 用途不明、充滿謎團的全國唯一遺構。', en: 'The underground chamber — a mysterious, purpose-unknown structure found nowhere else in Japan.' },
+      {
+        ja: '球磨川沿いの石垣', zhTw: '球磨川沿岸石垣', en: 'Stone walls along the Kuma River',
+        desc: {
+          ja: '清流と石垣が織りなす美しい風景。',
+          zhTw: '清流與石垣交織的美麗風景。',
+          en: 'a beautiful landscape of clear water and stone.',
+        },
+      },
+      {
+        ja: '地下室遺構', zhTw: '地下室遺構', en: 'The underground chamber',
+        desc: {
+          ja: '用途不明の謎に包まれた全国唯一の遺構。',
+          zhTw: '用途不明、充滿謎團的全國唯一遺構。',
+          en: 'a mysterious, purpose-unknown structure found nowhere else in Japan.',
+        },
+      },
       { ja: '復元多門櫓と角櫓 — 武者返しの石垣の上に建つ復元建築。', zhTw: '復原多門櫓與角櫓 — 建於武者返石垣之上的復原建築。', en: 'Restored Tamon and corner turrets atop the "musha-gaeshi" (warrior-repelling) stone walls.' },
     ],
     architecture: [
@@ -3966,9 +5415,30 @@ export const castles = [
       { ja: '「宗門櫓」の名はキリシタン取締りに関連した使用に由来するとされる。', zhTw: '「宗門櫓」之名據說源於與基督徒取締相關的用途。', en: 'The "Religion Turret" is named for its alleged use in monitoring Christians.' },
     ],
     highlights: [
-      { ja: '人質櫓と宗門櫓 — 空襲を免れた2棟の現存櫓。', zhTw: '人質櫓與宗門櫓 — 倖免於空襲的2棟現存櫓。', en: 'Hostage Turret and Religion Turret — two turrets that survived the air raids.' },
-      { ja: '堀と石垣のライトアップ — 大分駅から徒歩圏内で夜の城散策が楽しめる。', zhTw: '護城河與石垣的夜間點燈 — 從大分站步行可達，可享受夜間城郭散步。', en: 'Illuminated moats and walls — enjoy an evening castle stroll just minutes from Ōita Station.' },
-      { ja: '大友氏館跡 — 近年発掘が進む大友宗麟時代の館跡も近隣にある。', zhTw: '大友氏館遺跡 — 近年持續發掘的大友宗麟時代館遺跡也在附近。', en: 'The Ōtomo clan mansion ruins — an ongoing excavation site from Sōrin\'s era nearby.' },
+      {
+        ja: '人質櫓と宗門櫓', zhTw: '人質櫓與宗門櫓', en: 'Hostage Turret and Religion Turret',
+        desc: {
+          ja: '空襲を免れた2棟の現存櫓。',
+          zhTw: '倖免於空襲的2棟現存櫓。',
+          en: 'two turrets that survived the air raids.',
+        },
+      },
+      {
+        ja: '堀と石垣のライトアップ', zhTw: '護城河與石垣的夜間點燈', en: 'Illuminated moats and walls',
+        desc: {
+          ja: '大分駅から徒歩圏内で夜の城散策が楽しめる。',
+          zhTw: '從大分站步行可達，可享受夜間城郭散步。',
+          en: 'enjoy an evening castle stroll just minutes from Ōita Station.',
+        },
+      },
+      {
+        ja: '大友氏館跡', zhTw: '大友氏館遺跡', en: 'The Ōtomo clan mansion ruins',
+        desc: {
+          ja: '近年発掘が進む大友宗麟時代の館跡も近隣にある。',
+          zhTw: '近年持續發掘的大友宗麟時代館遺跡也在附近。',
+          en: 'an ongoing excavation site from Sōrin\'s era nearby.',
+        },
+      },
     ],
     architecture: [
       { ja: '大分川河口の三角州を利用した輪郭式の海城で、堀には海水が引き込まれていた。', zhTw: '利用大分川河口三角洲的輪郭式海城，護城河引入海水。', en: 'A concentric sea castle on the river delta — seawater once filled the moats.' },
@@ -4001,9 +5471,30 @@ export const castles = [
       { ja: '入城時にもらえる巻物型の登城手形がユニークで城ファンに人気。', zhTw: '入城時獲得的卷軸型登城手形獨特且受城迷歡迎。', en: 'The scroll-shaped entry pass given at the gate is a unique and popular souvenir among castle fans.' },
     ],
     highlights: [
-      { ja: '断崖上の壮大な石垣 — 阿蘇の凝灰岩を用いた石垣が断崖に沿って連なる絶景。', zhTw: '斷崖上壯大的石垣 — 使用阿蘇凝灰岩的石垣沿斷崖連綿的絕景。', en: 'Grand stone walls on sheer cliffs — volcanic tuff walls tracing the precipice in a stunning panorama.' },
-      { ja: '滝廉太郎像 — 「荒城の月」の作曲者を偲ぶ銅像と楽曲が流れるスポット。', zhTw: '瀧廉太郎像 — 緬懷「荒城之月」作曲者的銅像與播放樂曲的景點。', en: 'Taki Rentarō statue — a bronze figure with "Moon over the Ruined Castle" playing nearby.' },
-      { ja: '秋の紅葉 — 石垣と紅葉のコントラストは日本屈指の城址紅葉スポット。', zhTw: '秋天紅葉 — 石垣與紅葉的對比是日本屈指可數的城址紅葉景點。', en: 'Autumn foliage — the contrast of stone walls and red leaves makes this a top castle-ruin viewing spot.' },
+      {
+        ja: '断崖上の壮大な石垣', zhTw: '斷崖上壯大的石垣', en: 'Grand stone walls on sheer cliffs',
+        desc: {
+          ja: '阿蘇の凝灰岩を用いた石垣が断崖に沿って連なる絶景。',
+          zhTw: '使用阿蘇凝灰岩的石垣沿斷崖連綿的絕景。',
+          en: 'volcanic tuff walls tracing the precipice in a stunning panorama.',
+        },
+      },
+      {
+        ja: '滝廉太郎像', zhTw: '瀧廉太郎像', en: 'Taki Rentarō statue',
+        desc: {
+          ja: '「荒城の月」の作曲者を偲ぶ銅像と楽曲が流れるスポット。',
+          zhTw: '緬懷「荒城之月」作曲者的銅像與播放樂曲的景點。',
+          en: 'a bronze figure with "Moon over the Ruined Castle" playing nearby.',
+        },
+      },
+      {
+        ja: '秋の紅葉', zhTw: '秋天紅葉', en: 'Autumn foliage',
+        desc: {
+          ja: '石垣と紅葉のコントラストは日本屈指の城址紅葉スポット。',
+          zhTw: '石垣與紅葉的對比是日本屈指可數的城址紅葉景點。',
+          en: 'the contrast of stone walls and red leaves makes this a top castle-ruin viewing spot.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高325mの断崖上に本丸・二の丸・三の丸・西の丸を配した壮大な山城。', zhTw: '在標高325公尺斷崖上配置本丸、二之丸、三之丸、西之丸的壯大山城。', en: 'A grand mountain castle at 325m with honmaru, ni-no-maru, san-no-maru, and nishi-no-maru on cliff tops.' },
@@ -4035,9 +5526,30 @@ export const castles = [
       { ja: '食べ歩きマップで有名な「飫肥天ぷら」は城下町の名物グルメ。', zhTw: '以美食地圖聞名的「飫肥天婦羅」是城下町的名物美食。', en: '"Obi tempura" on the food-walking map is the castle town\'s signature snack.' },
     ],
     highlights: [
-      { ja: '復元大手門と飫肥杉の苔むした石段 — 静かな佇まいが美しい城の入口。', zhTw: '復原大手門與長滿青苔的飫肥杉石階 — 寧靜佇立的美麗城之入口。', en: 'Restored main gate and mossy stone steps among Obi cedars — a serene and beautiful castle entrance.' },
-      { ja: '松尾の丸 — 復元された藩主の御殿で、当時の暮らしぶりを体感。', zhTw: '松尾之丸 — 復原的藩主御殿，可體驗當時的生活。', en: 'Matsuo-no-maru — the restored lord\'s palace offering a glimpse of feudal life.' },
-      { ja: '飫肥城下町の武家屋敷散策 — 食べ歩きチケットで名物料理も楽しめる。', zhTw: '飫肥城下町武家屋敷散步 — 可用美食券享受名物料理。', en: 'Castle town stroll through samurai residences — use a food-walking ticket to sample local dishes.' },
+      {
+        ja: '復元大手門と飫肥杉の苔むした石段', zhTw: '復原大手門與長滿青苔的飫肥杉石階', en: 'Restored main gate and mossy stone steps among Obi cedars',
+        desc: {
+          ja: '静かな佇まいが美しい城の入口。',
+          zhTw: '寧靜佇立的美麗城之入口。',
+          en: 'a serene and beautiful castle entrance.',
+        },
+      },
+      {
+        ja: '松尾の丸', zhTw: '松尾之丸', en: 'Matsuo-no-maru',
+        desc: {
+          ja: '復元された藩主の御殿で、当時の暮らしぶりを体感。',
+          zhTw: '復原的藩主御殿，可體驗當時的生活。',
+          en: 'the restored lord\'s palace offering a glimpse of feudal life.',
+        },
+      },
+      {
+        ja: '飫肥城下町の武家屋敷散策', zhTw: '飫肥城下町武家屋敷散步', en: 'Castle town stroll through samurai residences',
+        desc: {
+          ja: '食べ歩きチケットで名物料理も楽しめる。',
+          zhTw: '可用美食券享受名物料理。',
+          en: 'use a food-walking ticket to sample local dishes.',
+        },
+      },
     ],
     architecture: [
       { ja: '天守を持たず、旧本丸には飫肥杉が植林され独特の景観を形成。', zhTw: '不設天守，舊本丸種植飫肥杉形成獨特景觀。', en: 'No keep was built; Obi cedars planted in the former honmaru create a unique landscape.' },
@@ -4070,9 +5582,30 @@ export const castles = [
       { ja: '背後の城山は西郷隆盛が最期を迎えた地で、展望台から桜島が一望できる。', zhTw: '後方城山是西鄉隆盛迎來最後一刻之地，從展望台可一覽櫻島。', en: 'Shiroyama behind the castle is where Saigō fell; the lookout offers panoramic views of Sakurajima.' },
     ],
     highlights: [
-      { ja: '御楼門 — 2020年に木造復元された日本最大級の城門。', zhTw: '御樓門 — 2020年木造復原的日本最大級城門。', en: 'Gorōmon Gate — one of Japan\'s largest castle gates, rebuilt in wood in 2020.' },
-      { ja: '城山展望台 — 西郷最期の地から望む桜島と錦江湾の絶景。', zhTw: '城山展望台 — 從西鄉最後之地眺望櫻島與錦江灣的絕景。', en: 'Shiroyama lookout — stunning views of Sakurajima and Kinko Bay from where Saigō made his last stand.' },
-      { ja: '黎明館 — 城跡に建つ鹿児島県の総合歴史博物館。', zhTw: '黎明館 — 建於城跡的鹿兒島縣綜合歷史博物館。', en: 'Reimeikan Museum — Kagoshima\'s comprehensive history museum built on the castle grounds.' },
+      {
+        ja: '御楼門', zhTw: '御樓門', en: 'Gorōmon Gate',
+        desc: {
+          ja: '2020年に木造復元された日本最大級の城門。',
+          zhTw: '2020年木造復原的日本最大級城門。',
+          en: 'one of Japan\'s largest castle gates, rebuilt in wood in 2020.',
+        },
+      },
+      {
+        ja: '城山展望台', zhTw: '城山展望台', en: 'Shiroyama lookout',
+        desc: {
+          ja: '西郷最期の地から望む桜島と錦江湾の絶景。',
+          zhTw: '從西鄉最後之地眺望櫻島與錦江灣的絕景。',
+          en: 'stunning views of Sakurajima and Kinko Bay from where Saigō made his last stand.',
+        },
+      },
+      {
+        ja: '黎明館', zhTw: '黎明館', en: 'Reimeikan Museum',
+        desc: {
+          ja: '城跡に建つ鹿児島県の総合歴史博物館。',
+          zhTw: '建於城跡的鹿兒島縣綜合歷史博物館。',
+          en: 'Kagoshima\'s comprehensive history museum built on the castle grounds.',
+        },
+      },
     ],
     architecture: [
       { ja: '天守を持たず、本丸と二の丸を水堀で囲んだ簡素な居館形式の城。', zhTw: '不設天守，以水壕環繞本丸與二之丸的簡素居館形式城郭。', en: 'A simple residential-style castle with no keep — just honmaru and ni-no-maru enclosed by water moats.' },
@@ -4106,9 +5639,30 @@ export const castles = [
       { ja: '城壁の曲線美は「万里の長城」に例えられることもある。', zhTw: '城牆的曲線美有時被比喻為「萬里長城」。', en: 'The curved beauty of the walls is sometimes compared to the Great Wall of China.' },
     ],
     highlights: [
-      { ja: '全長1.5kmの美しい石垣群 — 琉球石灰岩の曲線が美しい。', zhTw: '全長1.5公里的美麗石垣群 — 琉球石灰岩的曲線優美。', en: 'Beautiful 1.5km stone walls — elegant curves of Ryūkyū limestone.' },
-      { ja: '平郎門 — 今帰仁城の正門で、アーチ型の石門が琉球建築の美を伝える。', zhTw: '平郎門 — 今歸仁城正門，拱型石門傳達琉球建築之美。', en: 'Heiroomon gate — the main entrance with an arched stone gate showcasing Ryūkyūan architecture.' },
-      { ja: '寒緋桜のライトアップ — 1月のカンヒザクラと城壁のライトアップは幻想的。', zhTw: '寒緋櫻的夜間點燈 — 1月寒緋櫻與城牆的燈光夢幻。', en: 'Illuminated cherry blossoms — the January Taiwan cherry and castle wall lighting is magical.' },
+      {
+        ja: '全長1.5kmの美しい石垣群', zhTw: '全長1.5公里的美麗石垣群', en: 'Beautiful 1.5km stone walls',
+        desc: {
+          ja: '琉球石灰岩の曲線が美しい。',
+          zhTw: '琉球石灰岩的曲線優美。',
+          en: 'elegant curves of Ryūkyū limestone.',
+        },
+      },
+      {
+        ja: '平郎門', zhTw: '平郎門', en: 'Heiroomon gate',
+        desc: {
+          ja: '今帰仁城の正門で、アーチ型の石門が琉球建築の美を伝える。',
+          zhTw: '今歸仁城正門，拱型石門傳達琉球建築之美。',
+          en: 'the main entrance with an arched stone gate showcasing Ryūkyūan architecture.',
+        },
+      },
+      {
+        ja: '寒緋桜のライトアップ', zhTw: '寒緋櫻的夜間點燈', en: 'Illuminated cherry blossoms',
+        desc: {
+          ja: '1月のカンヒザクラと城壁のライトアップは幻想的。',
+          zhTw: '1月寒緋櫻與城牆的燈光夢幻。',
+          en: 'the January Taiwan cherry and castle wall lighting is magical.',
+        },
+      },
     ],
     architecture: [
       { ja: '琉球石灰岩を用いた曲線的な城壁は「野面積み」と「切石積み」を組み合わせた独自の工法。', zhTw: '使用琉球石灰岩的曲線型城牆結合「野面積」與「切石積」的獨特工法。', en: 'Curved walls of Ryūkyū limestone combining rough-stone and dressed-stone masonry techniques.' },
@@ -4142,9 +5696,23 @@ export const castles = [
       { ja: '城からは太平洋と東シナ海の両方を見渡せる絶好のロケーション。', zhTw: '從城可同時眺望太平洋與東海的絕佳位置。', en: 'A superb location with views of both the Pacific Ocean and the East China Sea.' },
     ],
     highlights: [
-      { ja: '六つの郭からなる壮大な石垣群 — 護佐丸の築城技術の粋が結集。', zhTw: '由六個郭構成的壯大石垣群 — 集護佐丸築城技術之大成。', en: 'Grand stone walls across six enclosures — the pinnacle of Gosamaru\'s castle-building art.' },
+      {
+        ja: '六つの郭からなる壮大な石垣群', zhTw: '由六個郭構成的壯大石垣群', en: 'Grand stone walls across six enclosures',
+        desc: {
+          ja: '護佐丸の築城技術の粋が結集。',
+          zhTw: '集護佐丸築城技術之大成。',
+          en: 'the pinnacle of Gosamaru\'s castle-building art.',
+        },
+      },
       { ja: '一の郭からの太平洋と東シナ海の大パノラマ。', zhTw: '從一之郭眺望太平洋與東海的大全景。', en: 'Panoramic views of both the Pacific and East China Sea from the first enclosure.' },
-      { ja: 'アーチ門の精巧な石組み — 琉球独自の精密な石造アーチ。', zhTw: '拱門的精巧石砌 — 琉球獨特的精密石造拱門。', en: 'Exquisitely fitted stone arched gates — uniquely precise Ryūkyūan masonry.' },
+      {
+        ja: 'アーチ門の精巧な石組み', zhTw: '拱門的精巧石砌', en: 'Exquisitely fitted stone arched gates',
+        desc: {
+          ja: '琉球独自の精密な石造アーチ。',
+          zhTw: '琉球獨特的精密石造拱門。',
+          en: 'uniquely precise Ryūkyūan masonry.',
+        },
+      },
     ],
     architecture: [
       { ja: '六つの郭が東西に連なる連郭式の縄張りで、標高約160mの丘陵上に築かれた。', zhTw: '六個郭東西相連的連郭式配置，築於標高約160公尺的丘陵上。', en: 'Six enclosures linked east to west in a linear layout atop a ~160m hilltop.' },
@@ -4179,8 +5747,22 @@ export const castles = [
       { ja: '道南十二館の中で最も東に位置し、蝦夷地の和人社会の東端を示す。', zhTw: '位於道南十二館最東端，標示蝦夷地和人社會的東界。', en: 'The easternmost of the Twelve Tate, marking the eastern edge of Japanese settlement in Ezo.' },
     ],
     highlights: [
-      { ja: '館跡からの津軽海峡の眺望 — 対岸の下北半島が見渡せる。', zhTw: '從館遺跡眺望津輕海峽 — 可遠望對岸下北半島。', en: 'Views of the Tsugaru Strait from the ruins — the Shimokita Peninsula is visible across the water.' },
-      { ja: '空堀と土塁 — 中世の防御構造が良好な状態で残存。', zhTw: '空壕與土壘 — 中世防禦結構保存良好。', en: 'Dry moats and earthworks — medieval defenses in excellent condition.' },
+      {
+        ja: '館跡からの津軽海峡の眺望', zhTw: '從館遺跡眺望津輕海峽', en: 'Views of the Tsugaru Strait from the ruins',
+        desc: {
+          ja: '対岸の下北半島が見渡せる。',
+          zhTw: '可遠望對岸下北半島。',
+          en: 'the Shimokita Peninsula is visible across the water.',
+        },
+      },
+      {
+        ja: '空堀と土塁', zhTw: '空壕與土壘', en: 'Dry moats and earthworks',
+        desc: {
+          ja: '中世の防御構造が良好な状態で残存。',
+          zhTw: '中世防禦結構保存良好。',
+          en: 'medieval defenses in excellent condition.',
+        },
+      },
     ],
     architecture: [
       { ja: '方形の曲輪を空堀と土塁で囲む道南十二館に共通する中世館の形式。', zhTw: '以空壕與土壘環繞方形曲輪的道南十二館共通中世館形式。', en: 'A square compound enclosed by dry moats and earthworks — the typical Dōnan Tate style.' },
@@ -4210,7 +5792,14 @@ export const castles = [
     ],
     highlights: [
       { ja: '日本海の絶景 — 館跡から望む日本海と夕日の眺望。', zhTw: '日本海絕景 — 從館遺跡眺望日本海與夕陽。', en: 'Stunning Sea of Japan views and sunsets from the ruins.' },
-      { ja: '発掘現場の見学 — アイヌと和人の共生を物語る遺跡群。', zhTw: '參觀考古現場 — 訴說愛努與和人共生的遺跡群。', en: 'Tour the excavation site — ruins that tell the story of Ainu-Japanese coexistence.' },
+      {
+        ja: '発掘現場の見学', zhTw: '參觀考古現場', en: 'Tour the excavation site',
+        desc: {
+          ja: 'アイヌと和人の共生を物語る遺跡群。',
+          zhTw: '訴說愛努與和人共生的遺跡群。',
+          en: 'ruins that tell the story of Ainu-Japanese coexistence.',
+        },
+      },
     ],
     architecture: [
       { ja: '日本海を望む標高約100mの丘陵に築かれた中世の山城式館。', zhTw: '築於面向日本海、標高約100公尺丘陵上的中世山城式館。', en: 'A medieval mountain-fort style tate on a ~100m hill overlooking the Sea of Japan.' },
@@ -4272,8 +5861,22 @@ export const castles = [
       { ja: '降伏した政実は和議を信じて城を出たが、だまし討ちにされたという悲劇の武将。', zhTw: '投降的政實信任和議出城，卻被詐殺的悲劇武將。', en: 'Masazane surrendered trusting peace terms but was betrayed and executed — a tragic warrior.' },
     ],
     highlights: [
-      { ja: '本丸跡と石垣 — 豊臣軍をも手こずらせた堅固な城の遺構。', zhTw: '本丸遺跡與石垣 — 連豐臣軍也難以攻破的堅固城遺構。', en: 'Honmaru ruins and stone walls — remains of the fortress that stymied even Toyotomi\'s army.' },
-      { ja: '九戸城ガイダンス施設 — 九戸の乱と東北の戦国史を紹介。', zhTw: '九戶城導覽設施 — 介紹九戶之亂與東北戰國史。', en: 'Kunohe Castle guidance center — exhibitions on the rebellion and Tōhoku\'s Sengoku history.' },
+      {
+        ja: '本丸跡と石垣', zhTw: '本丸遺跡與石垣', en: 'Honmaru ruins and stone walls',
+        desc: {
+          ja: '豊臣軍をも手こずらせた堅固な城の遺構。',
+          zhTw: '連豐臣軍也難以攻破的堅固城遺構。',
+          en: 'remains of the fortress that stymied even Toyotomi\'s army.',
+        },
+      },
+      {
+        ja: '九戸城ガイダンス施設', zhTw: '九戶城導覽設施', en: 'Kunohe Castle guidance center',
+        desc: {
+          ja: '九戸の乱と東北の戦国史を紹介。',
+          zhTw: '介紹九戶之亂與東北戰國史。',
+          en: 'exhibitions on the rebellion and Tōhoku\'s Sengoku history.',
+        },
+      },
     ],
     architecture: [
       { ja: '馬淵川と白鳥川に挟まれた天然の要害に、本丸・二の丸・若狭館を配置。', zhTw: '在馬淵川與白鳥川夾攻的天然要害上配置本丸、二之丸、若狹館。', en: 'Natural strongpoint between the Mabuchi and Shiratori Rivers with honmaru, ni-no-maru, and Wakasa enclosure.' },
@@ -4302,7 +5905,14 @@ export const castles = [
       { ja: '安東氏は「蝦夷管領」を称し北方交易を掌握した海の豪族。', zhTw: '安東氏自稱「蝦夷管領」掌握北方貿易的海上豪族。', en: 'The Andō, self-styled "Ezo Governors," were sea lords who controlled northern maritime trade.' },
     ],
     highlights: [
-      { ja: '内館からの日本海一望 — 男鹿半島と日本海の壮大な眺望。', zhTw: '從內館一望日本海 — 男鹿半島與日本海的壯大眺望。', en: 'Panoramic Sea of Japan views from the inner enclosure — the Oga Peninsula stretching below.' },
+      {
+        ja: '内館からの日本海一望', zhTw: '從內館一望日本海', en: 'Panoramic Sea of Japan views from the inner enclosure',
+        desc: {
+          ja: '男鹿半島と日本海の壮大な眺望。',
+          zhTw: '男鹿半島與日本海的壯大眺望。',
+          en: 'the Oga Peninsula stretching below.',
+        },
+      },
       { ja: '整備された散策路 — 中世山城の縄張りを巡る歩きやすいコース。', zhTw: '整備完善的散步路 — 巡遊中世山城配置的好走路線。', en: 'Well-maintained walking trails through the medieval mountain castle layout.' },
     ],
     architecture: [
@@ -4332,8 +5942,22 @@ export const castles = [
       { ja: '大陸との交易品が出土し、秋田城が国際交流の窓口でもあったことがわかる。', zhTw: '出土大陸貿易品，可知秋田城也是國際交流的窗口。', en: 'Continental trade goods were unearthed, revealing Akita Castle as a gateway for international exchange.' },
     ],
     highlights: [
-      { ja: '復元された古代水洗トイレ — 日本最古とされる水洗式トイレの復元展示。', zhTw: '復原的古代沖水廁所 — 被認為是日本最古老沖水式廁所的復原展示。', en: 'Reconstructed ancient flush toilet — a display of what may be Japan\'s oldest flushing lavatory.' },
-      { ja: '復元東門と築地塀 — 古代城柵の威容を今に伝える復元建築。', zhTw: '復原東門與築地塀 — 傳達古代城柵威容的復原建築。', en: 'Reconstructed East Gate and rammed-earth wall — evoking the grandeur of the ancient fortress.' },
+      {
+        ja: '復元された古代水洗トイレ', zhTw: '復原的古代沖水廁所', en: 'Reconstructed ancient flush toilet',
+        desc: {
+          ja: '日本最古とされる水洗式トイレの復元展示。',
+          zhTw: '被認為是日本最古老沖水式廁所的復原展示。',
+          en: 'a display of what may be Japan\'s oldest flushing lavatory.',
+        },
+      },
+      {
+        ja: '復元東門と築地塀', zhTw: '復原東門與築地塀', en: 'Reconstructed East Gate and rammed-earth wall',
+        desc: {
+          ja: '古代城柵の威容を今に伝える復元建築。',
+          zhTw: '傳達古代城柵威容的復原建築。',
+          en: 'evoking the grandeur of the ancient fortress.',
+        },
+      },
     ],
     architecture: [
       { ja: '方約550mの外郭と内郭からなる古代城柵。政庁・倉庫群・兵舎が整然と配置。', zhTw: '約550公尺見方的外郭與內郭構成的古代城柵。政廳、倉庫群、兵舍整齊配置。', en: 'An ancient palisaded fortress ~550m square with organized government offices, storehouses, and barracks.' },
@@ -4363,8 +5987,22 @@ export const castles = [
       { ja: '城跡は現在「鶴岡公園」として整備され、桜の名所として知られる。', zhTw: '城跡現整備為「鶴岡公園」，以櫻花名所聞名。', en: 'The ruins are now Tsuruoka Park, known for cherry blossoms.' },
     ],
     highlights: [
-      { ja: '致道博物館 — 旧藩校致道館など庄内の歴史文化を集めた博物館群。', zhTw: '致道博物館 — 匯集舊藩校致道館等莊內歷史文化的博物館群。', en: 'Chidō Museum — a museum complex featuring the former domain school and Shōnai cultural heritage.' },
-      { ja: '荘内神社 — 城の本丸跡に建つ酒井家を祀る神社。', zhTw: '莊內神社 — 建於城本丸遺跡上祭祀酒井家的神社。', en: 'Shōnai Shrine — dedicated to the Sakai lords, built on the honmaru site.' },
+      {
+        ja: '致道博物館', zhTw: '致道博物館', en: 'Chidō Museum',
+        desc: {
+          ja: '旧藩校致道館など庄内の歴史文化を集めた博物館群。',
+          zhTw: '匯集舊藩校致道館等莊內歷史文化的博物館群。',
+          en: 'a museum complex featuring the former domain school and Shōnai cultural heritage.',
+        },
+      },
+      {
+        ja: '荘内神社', zhTw: '莊內神社', en: 'Shōnai Shrine',
+        desc: {
+          ja: '城の本丸跡に建つ酒井家を祀る神社。',
+          zhTw: '建於城本丸遺跡上祭祀酒井家的神社。',
+          en: 'dedicated to the Sakai lords, built on the honmaru site.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸を二重の水堀で囲む典型的な平城で、天守は築かれなかった。', zhTw: '以雙重水壕環繞本丸的典型平城，未築天守。', en: 'A typical flatland castle with double water moats around the honmaru; no keep was built.' },
@@ -4397,9 +6035,30 @@ export const castles = [
       { ja: '米沢牛は鷹山が藩政改革で導入した畜産事業がルーツとされる。', zhTw: '米澤牛據說源於鷹山藩政改革中引入的畜產事業。', en: 'Yonezawa beef traces its origins to the livestock industry Yōzan introduced in his domain reforms.' },
     ],
     highlights: [
-      { ja: '上杉神社 — 上杉謙信を祀る城跡に建つ神社。', zhTw: '上杉神社 — 祭祀上杉謙信、建於城跡上的神社。', en: 'Uesugi Shrine — dedicated to Uesugi Kenshin, built on the castle grounds.' },
-      { ja: '上杉博物館 — 国宝「上杉本洛中洛外図屏風」など上杉家の宝物を収蔵。', zhTw: '上杉博物館 — 收藏國寶「上杉本洛中洛外圖屏風」等上杉家寶物。', en: 'Uesugi Museum — housing National Treasure "Rakuchū Rakugai-zu" screens and Uesugi heirlooms.' },
-      { ja: '米沢上杉まつり — 毎年5月に川中島の戦いを再現する壮大な武者行列。', zhTw: '米澤上杉祭 — 每年5月重現川中島之戰的壯大武者遊行。', en: 'Yonezawa Uesugi Festival — a grand May reenactment of the Battle of Kawanakajima.' },
+      {
+        ja: '上杉神社', zhTw: '上杉神社', en: 'Uesugi Shrine',
+        desc: {
+          ja: '上杉謙信を祀る城跡に建つ神社。',
+          zhTw: '祭祀上杉謙信、建於城跡上的神社。',
+          en: 'dedicated to Uesugi Kenshin, built on the castle grounds.',
+        },
+      },
+      {
+        ja: '上杉博物館', zhTw: '上杉博物館', en: 'Uesugi Museum',
+        desc: {
+          ja: '国宝「上杉本洛中洛外図屏風」など上杉家の宝物を収蔵。',
+          zhTw: '收藏國寶「上杉本洛中洛外圖屏風」等上杉家寶物。',
+          en: 'housing National Treasure "Rakuchū Rakugai-zu" screens and Uesugi heirlooms.',
+        },
+      },
+      {
+        ja: '米沢上杉まつり', zhTw: '米澤上杉祭', en: 'Yonezawa Uesugi Festival',
+        desc: {
+          ja: '毎年5月に川中島の戦いを再現する壮大な武者行列。',
+          zhTw: '每年5月重現川中島之戰的壯大武者遊行。',
+          en: 'a grand May reenactment of the Battle of Kawanakajima.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸を二重の水堀で囲む平城で、天守は築かれず御三階櫓が代用された。', zhTw: '以雙重水壕環繞本丸的平城，未築天守而以御三階櫓代替。', en: 'A flatland castle with double water moats; a three-story turret served in place of a keep.' },
@@ -4452,9 +6111,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '田村清顕 — 戦国末期の田村氏当主。娘・愛姫を伊達政宗に嫁がせ、伊達との同盟を築いた。', zhTw: '田村清顯 — 戰國末期田村氏當主。將女兒愛姬嫁給伊達政宗，建立與伊達的同盟。', en: 'Tamura Kiyoaki — late Sengoku head of the Tamura; married his daughter Megohime to Date Masamune, forging an alliance.' },
-      { ja: '愛姫 — 田村清顕の娘で伊達政宗の正室。波乱の戦国を生き抜いた才女。', zhTw: '愛姬 — 田村清顯之女、伊達政宗正室。歷經戰國動亂的才女。', en: 'Megohime — Kiyoaki\'s daughter and Masamune\'s wife; a resourceful woman who survived the turbulent Sengoku era.' },
-      { ja: '秋田映季 — 三春藩最後の藩主。戊辰戦争で無血開城を決断し、藩を戦火から救った。', zhTw: '秋田映季 — 三春藩最後的藩主。戊辰戰爭中決定無血開城，拯救了藩免於戰火。', en: 'Akita Akisue — last lord of Miharu domain; his decision to surrender without a fight saved the domain from destruction.' },
+      {
+        ja: '田村清顕', zhTw: '田村清顯', en: 'Tamura Kiyoaki',
+        desc: {
+          ja: '戦国末期の田村氏当主。娘・愛姫を伊達政宗に嫁がせ、伊達との同盟を築いた。',
+          zhTw: '戰國末期田村氏當主。將女兒愛姬嫁給伊達政宗，建立與伊達的同盟。',
+          en: 'late Sengoku head of the Tamura; married his daughter Megohime to Date Masamune, forging an alliance.',
+        },
+      },
+      {
+        ja: '愛姫', zhTw: '愛姬', en: 'Megohime',
+        desc: {
+          ja: '田村清顕の娘で伊達政宗の正室。波乱の戦国を生き抜いた才女。',
+          zhTw: '田村清顯之女、伊達政宗正室。歷經戰國動亂的才女。',
+          en: 'Kiyoaki\'s daughter and Masamune\'s wife; a resourceful woman who survived the turbulent Sengoku era.',
+        },
+      },
+      {
+        ja: '秋田映季', zhTw: '秋田映季', en: 'Akita Akisue',
+        desc: {
+          ja: '三春藩最後の藩主。戊辰戦争で無血開城を決断し、藩を戦火から救った。',
+          zhTw: '三春藩最後的藩主。戊辰戰爭中決定無血開城，拯救了藩免於戰火。',
+          en: 'last lord of Miharu domain; his decision to surrender without a fight saved the domain from destruction.',
+        },
+      },
     ],
     trivia: [
       { ja: '「三春」の名は梅・桃・桜が一度に咲くことに由来し、城下町は花の名所として名高い。', zhTw: '「三春」之名源於梅花、桃花、櫻花同時盛開，城下町以花之名所聞名。', en: 'The name "Miharu" (Three Springs) comes from plum, peach, and cherry blossoming simultaneously; the castle town is famed for flowers.' },
@@ -4462,9 +6142,30 @@ export const castles = [
       { ja: '三春駒と三春張子人形は江戸時代から続く郷土玩具で、全国的に知られている。', zhTw: '三春駒和三春張子人偶是從江戶時代延續至今的鄉土玩具，在全國享有盛名。', en: 'Miharu-goma wooden horses and papier-mâché dolls are Edo-era folk toys known nationwide.' },
     ],
     highlights: [
-      { ja: '本丸跡 — 石垣と土塁が残り、町を一望できる絶景ポイント。', zhTw: '本丸跡 — 留有石垣與土壘，可一覽全町的絕景地點。', en: 'Honmaru ruins — remaining stone walls and earthworks offer panoramic views of the town.' },
-      { ja: '三春滝桜 — 城から車で10分、日本三大桜に数えられる国天然記念物。', zhTw: '三春瀧櫻 — 從城開車10分鐘，被列為日本三大櫻的國家天然紀念物。', en: 'Miharu Takizakura — a 10-minute drive away, a National Natural Monument and one of Japan\'s three great cherry trees.' },
-      { ja: '三春城下町 — 藩政時代の面影を残す街並みと歴史民俗資料館。', zhTw: '三春城下町 — 保留藩政時代風貌的街道與歷史民俗資料館。', en: 'Miharu castle town — streets retaining their domain-era character, plus the local history museum.' },
+      {
+        ja: '本丸跡', zhTw: '本丸跡', en: 'Honmaru ruins',
+        desc: {
+          ja: '石垣と土塁が残り、町を一望できる絶景ポイント。',
+          zhTw: '留有石垣與土壘，可一覽全町的絕景地點。',
+          en: 'remaining stone walls and earthworks offer panoramic views of the town.',
+        },
+      },
+      {
+        ja: '三春滝桜', zhTw: '三春瀧櫻', en: 'Miharu Takizakura',
+        desc: {
+          ja: '城から車で10分、日本三大桜に数えられる国天然記念物。',
+          zhTw: '從城開車10分鐘，被列為日本三大櫻的國家天然紀念物。',
+          en: 'a 10-minute drive away, a National Natural Monument and one of Japan\'s three great cherry trees.',
+        },
+      },
+      {
+        ja: '三春城下町', zhTw: '三春城下町', en: 'Miharu castle town',
+        desc: {
+          ja: '藩政時代の面影を残す街並みと歴史民俗資料館。',
+          zhTw: '保留藩政時代風貌的街道與歷史民俗資料館。',
+          en: 'streets retaining their domain-era character, plus the local history museum.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高407mの丘陵に築かれた梯郭式の平山城で、本丸・二の丸・三の丸を階段状に配置。', zhTw: '建於標高407公尺丘陵上的梯郭式平山城，本丸、二之丸、三之丸呈階梯狀配置。', en: 'A tiered-enclosure hilltop castle at 407 m elevation, with honmaru, ni-no-maru, and san-no-maru arranged in steps.' },
@@ -4526,9 +6227,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '片倉小十郎景綱 — 伊達政宗の軍師として名高い智将。白石城初代城主。', zhTw: '片倉小十郎景綱 — 以伊達政宗軍師聞名的智將。白石城初代城主。', en: 'Katakura Kojūrō Kagetsuna — famed strategist of Date Masamune and first Katakura lord of Shiroishi.' },
-      { ja: '片倉重長 — 二代目片倉小十郎。大坂夏の陣で真田幸村と激戦し、「鬼の小十郎」と呼ばれた。', zhTw: '片倉重長 — 第二代片倉小十郎。大坂夏之陣與真田幸村激戰，被稱為「鬼之小十郎」。', en: 'Katakura Shigenaga — second Kojūrō; his fierce clash with Sanada Yukimura at Osaka earned him the name "Demon Kojūrō."' },
-      { ja: '阿梅 — 真田幸村の娘。片倉重長の後妻となり、真田と片倉の縁を結んだ。', zhTw: '阿梅 — 真田幸村之女。成為片倉重長的後妻，結合了真田與片倉的緣分。', en: 'Ume — Sanada Yukimura\'s daughter who married Katakura Shigenaga, joining the Sanada and Katakura bloodlines.' },
+      {
+        ja: '片倉小十郎景綱', zhTw: '片倉小十郎景綱', en: 'Katakura Kojūrō Kagetsuna',
+        desc: {
+          ja: '伊達政宗の軍師として名高い智将。白石城初代城主。',
+          zhTw: '以伊達政宗軍師聞名的智將。白石城初代城主。',
+          en: 'famed strategist of Date Masamune and first Katakura lord of Shiroishi.',
+        },
+      },
+      {
+        ja: '片倉重長', zhTw: '片倉重長', en: 'Katakura Shigenaga',
+        desc: {
+          ja: '二代目片倉小十郎。大坂夏の陣で真田幸村と激戦し、「鬼の小十郎」と呼ばれた。',
+          zhTw: '第二代片倉小十郎。大坂夏之陣與真田幸村激戰，被稱為「鬼之小十郎」。',
+          en: 'second Kojūrō; his fierce clash with Sanada Yukimura at Osaka earned him the name "Demon Kojūrō."',
+        },
+      },
+      {
+        ja: '阿梅', zhTw: '阿梅', en: 'Ume',
+        desc: {
+          ja: '真田幸村の娘。片倉重長の後妻となり、真田と片倉の縁を結んだ。',
+          zhTw: '真田幸村之女。成為片倉重長的後妻，結合了真田與片倉的緣分。',
+          en: 'Sanada Yukimura\'s daughter who married Katakura Shigenaga, joining the Sanada and Katakura bloodlines.',
+        },
+      },
     ],
     trivia: [
       { ja: '1995年に木造で復元された三階櫓は、戦後に木造復元された城郭建築として東北初。', zhTw: '1995年以木造復原的三階櫓，是東北地區戰後首座木造復原的城郭建築。', en: 'The wooden three-story turret rebuilt in 1995 was the first postwar wooden castle reconstruction in Tōhoku.' },
@@ -4536,9 +6258,30 @@ export const castles = [
       { ja: '毎年10月の「鬼小十郎まつり」では大坂夏の陣を再現した合戦劇が行われる。', zhTw: '每年10月的「鬼小十郎祭」會上演重現大坂夏之陣的合戰劇。', en: 'Each October, the "Demon Kojūrō Festival" stages a dramatic reenactment of the Summer Siege of Osaka.' },
     ],
     highlights: [
-      { ja: '三階櫓（復元天守） — 木造復元の美しい三重櫓。内部見学で城下を一望できる。', zhTw: '三階櫓（復原天守） — 木造復原的美麗三重櫓。可入內參觀一覽城下。', en: 'Three-story turret (reconstructed keep) — a beautiful wooden reconstruction with panoramic interior views.' },
-      { ja: '大手門 — 復元された堂々たる城門。武家屋敷の風格を伝える。', zhTw: '大手門 — 復原的壯麗城門。傳達武家屋敷的風格。', en: 'Main gate — a reconstructed grand castle gate conveying samurai-era dignity.' },
-      { ja: '武家屋敷 — 片倉家中の武家屋敷が現存し、当時の暮らしを偲ばせる。', zhTw: '武家屋敷 — 現存片倉家中的武家宅邸，令人追憶當時的生活。', en: 'Samurai residences — surviving Katakura retainer houses that evoke life in the domain era.' },
+      {
+        ja: '三階櫓（復元天守）', zhTw: '三階櫓（復原天守）', en: 'Three-story turret (reconstructed keep)',
+        desc: {
+          ja: '木造復元の美しい三重櫓。内部見学で城下を一望できる。',
+          zhTw: '木造復原的美麗三重櫓。可入內參觀一覽城下。',
+          en: 'a beautiful wooden reconstruction with panoramic interior views.',
+        },
+      },
+      {
+        ja: '大手門', zhTw: '大手門', en: 'Main gate',
+        desc: {
+          ja: '復元された堂々たる城門。武家屋敷の風格を伝える。',
+          zhTw: '復原的壯麗城門。傳達武家屋敷的風格。',
+          en: 'a reconstructed grand castle gate conveying samurai-era dignity.',
+        },
+      },
+      {
+        ja: '武家屋敷', zhTw: '武家屋敷', en: 'Samurai residences',
+        desc: {
+          ja: '片倉家中の武家屋敷が現存し、当時の暮らしを偲ばせる。',
+          zhTw: '現存片倉家中的武家宅邸，令人追憶當時的生活。',
+          en: 'surviving Katakura retainer houses that evoke life in the domain era.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸に三階櫓を据えた梯郭式平山城。一国一城令の例外として存続を許された。', zhTw: '本丸設置三階櫓的梯郭式平山城。作為一國一城令的例外被允許存續。', en: 'A tiered hilltop castle with a three-story turret; uniquely exempted from the one-castle-per-domain rule.' },
@@ -4591,9 +6334,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '蘆名盛氏 — 蘆名氏の全盛期を築いた戦国大名。文武に秀で、南奥州の覇者と称された。', zhTw: '蘆名盛氏 — 締造蘆名氏全盛期的戰國大名。文武兼備，被稱為南奧州的霸者。', en: 'Ashina Moriji — Sengoku lord who brought the Ashina to their zenith, hailed as the hegemon of southern Ōshū.' },
-      { ja: '蘆名義広 — 蘆名氏最後の当主。摺上原の戦いで伊達政宗に敗れ、会津を失った。', zhTw: '蘆名義廣 — 蘆名氏最後的當主。摺上原之戰敗給伊達政宗，失去會津。', en: 'Ashina Yoshihiro — the last Ashina lord, who lost Aizu to Date Masamune at Suriagehara.' },
-      { ja: '伊達政宗 — 摺上原の勝利で会津を手中に収めたが、秀吉の奥州仕置で会津を失った。', zhTw: '伊達政宗 — 摺上原之勝取得會津，但因秀吉奧州處置而失去會津。', en: 'Date Masamune — won Aizu at Suriagehara but lost it when Hideyoshi\'s Ōshū campaign reassigned territories.' },
+      {
+        ja: '蘆名盛氏', zhTw: '蘆名盛氏', en: 'Ashina Moriji',
+        desc: {
+          ja: '蘆名氏の全盛期を築いた戦国大名。文武に秀で、南奥州の覇者と称された。',
+          zhTw: '締造蘆名氏全盛期的戰國大名。文武兼備，被稱為南奧州的霸者。',
+          en: 'Sengoku lord who brought the Ashina to their zenith, hailed as the hegemon of southern Ōshū.',
+        },
+      },
+      {
+        ja: '蘆名義広', zhTw: '蘆名義廣', en: 'Ashina Yoshihiro',
+        desc: {
+          ja: '蘆名氏最後の当主。摺上原の戦いで伊達政宗に敗れ、会津を失った。',
+          zhTw: '蘆名氏最後的當主。摺上原之戰敗給伊達政宗，失去會津。',
+          en: 'the last Ashina lord, who lost Aizu to Date Masamune at Suriagehara.',
+        },
+      },
+      {
+        ja: '伊達政宗', zhTw: '伊達政宗', en: 'Date Masamune',
+        desc: {
+          ja: '摺上原の勝利で会津を手中に収めたが、秀吉の奥州仕置で会津を失った。',
+          zhTw: '摺上原之勝取得會津，但因秀吉奧州處置而失去會津。',
+          en: 'won Aizu at Suriagehara but lost it when Hideyoshi\'s Ōshū campaign reassigned territories.',
+        },
+      },
     ],
     trivia: [
       { ja: '城域は東京ドーム約35個分に及び、東北地方最大級の中世山城。', zhTw: '城域達東京巨蛋約35個大，是東北地方最大規模的中世山城。', en: 'The castle grounds span roughly 35 Tokyo Domes, making it one of Tōhoku\'s largest medieval mountain castles.' },
@@ -4601,9 +6365,30 @@ export const castles = [
       { ja: '現在も大規模な竪堀・横堀・曲輪が良好な状態で残り、山城ファンの聖地とされる。', zhTw: '至今仍保留大規模的豎壕、橫壕、曲輪，被視為山城愛好者的聖地。', en: 'Its large-scale dry moats, trenches, and baileys survive in excellent condition, making it a pilgrimage site for castle enthusiasts.' },
     ],
     highlights: [
-      { ja: '一曲輪（本丸） — 山頂の主郭から会津盆地を一望する大パノラマ。', zhTw: '一曲輪（本丸） — 從山頂主郭一覽會津盆地的大全景。', en: 'First bailey (honmaru) — sweeping panoramic views of the Aizu basin from the mountaintop.' },
-      { ja: '二曲輪の大竪堀 — 山の斜面を切り裂く巨大な竪堀は圧巻。', zhTw: '二曲輪的大豎壕 — 切割山坡的巨大豎壕令人震撼。', en: 'Great vertical moat at the second bailey — a massive trench slicing down the mountainside.' },
-      { ja: '白鳳三山 — 城跡を含む三つの峰を巡るハイキングコース。', zhTw: '白鳳三山 — 巡遊包含城跡在內的三座山峰的健行路線。', en: 'Hakuhō Three Peaks — a hiking trail through the three summits including the castle ruins.' },
+      {
+        ja: '一曲輪（本丸）', zhTw: '一曲輪（本丸）', en: 'First bailey (honmaru)',
+        desc: {
+          ja: '山頂の主郭から会津盆地を一望する大パノラマ。',
+          zhTw: '從山頂主郭一覽會津盆地的大全景。',
+          en: 'sweeping panoramic views of the Aizu basin from the mountaintop.',
+        },
+      },
+      {
+        ja: '二曲輪の大竪堀', zhTw: '二曲輪的大豎壕', en: 'Great vertical moat at the second bailey',
+        desc: {
+          ja: '山の斜面を切り裂く巨大な竪堀は圧巻。',
+          zhTw: '切割山坡的巨大豎壕令人震撼。',
+          en: 'a massive trench slicing down the mountainside.',
+        },
+      },
+      {
+        ja: '白鳳三山', zhTw: '白鳳三山', en: 'Hakuhō Three Peaks',
+        desc: {
+          ja: '城跡を含む三つの峰を巡るハイキングコース。',
+          zhTw: '巡遊包含城跡在內的三座山峰的健行路線。',
+          en: 'a hiking trail through the three summits including the castle ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高408mの向羽黒山に三つの曲輪群を配した大規模山城。', zhTw: '在標高408公尺的向羽黑山上配置三組曲輪群的大規模山城。', en: 'A massive mountain castle with three bailey groups spread across 408 m Mt. Mukaihagoroyama.' },
@@ -4664,9 +6449,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '徳川家康 — 三方ヶ原の敗北を糧に天下統一を成し遂げた。浜松での17年が家康を鍛えた。', zhTw: '德川家康 — 以三方原之敗為養分成就天下統一。在濱松的17年鍛鍊了家康。', en: 'Tokugawa Ieyasu — the humiliation at Mikatagahara forged the man who would unify Japan; Hamamatsu shaped him over 17 years.' },
-      { ja: '武田信玄 — 三方ヶ原で家康を破った甲斐の虎。上洛途中に浜松近くで病に倒れた。', zhTw: '武田信玄 — 三方原擊敗家康的甲斐之虎。上洛途中在濱松附近病倒。', en: 'Takeda Shingen — the Tiger of Kai who crushed Ieyasu at Mikatagahara but fell ill near Hamamatsu during his march to Kyoto.' },
-      { ja: '堀尾吉晴 — 秀吉の三中老の一人。浜松城主時代に城を近世城郭として整備した。', zhTw: '堀尾吉晴 — 秀吉三中老之一。擔任濱松城主期間將城整備為近世城郭。', en: 'Horio Yoshiharu — one of Hideyoshi\'s Three Middle Elders, who modernized Hamamatsu into an early-modern castle.' },
+      {
+        ja: '徳川家康', zhTw: '德川家康', en: 'Tokugawa Ieyasu',
+        desc: {
+          ja: '三方ヶ原の敗北を糧に天下統一を成し遂げた。浜松での17年が家康を鍛えた。',
+          zhTw: '以三方原之敗為養分成就天下統一。在濱松的17年鍛鍊了家康。',
+          en: 'the humiliation at Mikatagahara forged the man who would unify Japan; Hamamatsu shaped him over 17 years.',
+        },
+      },
+      {
+        ja: '武田信玄', zhTw: '武田信玄', en: 'Takeda Shingen',
+        desc: {
+          ja: '三方ヶ原で家康を破った甲斐の虎。上洛途中に浜松近くで病に倒れた。',
+          zhTw: '三方原擊敗家康的甲斐之虎。上洛途中在濱松附近病倒。',
+          en: 'the Tiger of Kai who crushed Ieyasu at Mikatagahara but fell ill near Hamamatsu during his march to Kyoto.',
+        },
+      },
+      {
+        ja: '堀尾吉晴', zhTw: '堀尾吉晴', en: 'Horio Yoshiharu',
+        desc: {
+          ja: '秀吉の三中老の一人。浜松城主時代に城を近世城郭として整備した。',
+          zhTw: '秀吉三中老之一。擔任濱松城主期間將城整備為近世城郭。',
+          en: 'one of Hideyoshi\'s Three Middle Elders, who modernized Hamamatsu into an early-modern castle.',
+        },
+      },
     ],
     trivia: [
       { ja: '三方ヶ原の敗北後、家康は自らの苦渋の表情を描かせた「しかみ像」を戒めとした。', zhTw: '三方原敗北後，家康讓人畫下自己痛苦表情的「顰像」作為警惕。', en: 'After Mikatagahara, Ieyasu had his anguished face painted in the famous "scowling portrait" as a lifelong reminder.' },
@@ -4674,9 +6480,30 @@ export const castles = [
       { ja: '浜松は楽器の街としても知られ、ヤマハ・カワイ・ローランドの本拠地。', zhTw: '濱松也以樂器之城聞名，是YAMAHA、KAWAI、Roland的總部所在地。', en: 'Hamamatsu is also known as Japan\'s instrument city, home to Yamaha, Kawai, and Roland headquarters.' },
     ],
     highlights: [
-      { ja: '天守台と復興天守 — 野面積みの天守台は家康時代のもの。コンクリート復興天守から市街を一望。', zhTw: '天守台與復興天守 — 野面積的天守台為家康時代遺構。從混凝土復興天守可一覽市區。', en: 'Keep platform and reconstructed tower — the rough-stone platform dates from Ieyasu\'s time; the concrete tower offers city views.' },
-      { ja: '浜松城公園 — 日本庭園や美術館を含む広大な緑地。桜や紅葉の名所。', zhTw: '濱松城公園 — 包含日本庭園和美術館的廣大綠地。櫻花和紅葉名所。', en: 'Hamamatsu Castle Park — spacious grounds with a Japanese garden, art museum, and famous cherry blossoms and autumn foliage.' },
-      { ja: '家康の散歩道 — 浜松城から家康ゆかりの史跡を巡るウォーキングコース。', zhTw: '家康散步道 — 從濱松城巡遊家康相關史跡的步行路線。', en: 'Ieyasu\'s Walking Trail — a route linking Ieyasu-related historical sites from Hamamatsu Castle.' },
+      {
+        ja: '天守台と復興天守', zhTw: '天守台與復興天守', en: 'Keep platform and reconstructed tower',
+        desc: {
+          ja: '野面積みの天守台は家康時代のもの。コンクリート復興天守から市街を一望。',
+          zhTw: '野面積的天守台為家康時代遺構。從混凝土復興天守可一覽市區。',
+          en: 'the rough-stone platform dates from Ieyasu\'s time; the concrete tower offers city views.',
+        },
+      },
+      {
+        ja: '浜松城公園', zhTw: '濱松城公園', en: 'Hamamatsu Castle Park',
+        desc: {
+          ja: '日本庭園や美術館を含む広大な緑地。桜や紅葉の名所。',
+          zhTw: '包含日本庭園和美術館的廣大綠地。櫻花和紅葉名所。',
+          en: 'spacious grounds with a Japanese garden, art museum, and famous cherry blossoms and autumn foliage.',
+        },
+      },
+      {
+        ja: '家康の散歩道', zhTw: '家康散步道', en: 'Ieyasu\'s Walking Trail',
+        desc: {
+          ja: '浜松城から家康ゆかりの史跡を巡るウォーキングコース。',
+          zhTw: '從濱松城巡遊家康相關史跡的步行路線。',
+          en: 'a route linking Ieyasu-related historical sites from Hamamatsu Castle.',
+        },
+      },
     ],
     architecture: [
       { ja: '天守台の野面積み石垣は浜松最古の石垣で、400年以上崩れず現存する。', zhTw: '天守台的野面積石垣是濱松最古老的石垣，400多年未崩塌保存至今。', en: 'The keep platform\'s rough-stacked walls are Hamamatsu\'s oldest, standing unbroken for over 400 years.' },
@@ -4731,9 +6558,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '武田勝頼 — 信玄の後継者。高天神城の攻略は勝頼の最大の戦果だったが、奪還を阻止できず威信を失った。', zhTw: '武田勝賴 — 信玄的繼承者。攻下高天神城是勝賴最大戰果，但無法阻止奪還而失去威信。', en: 'Takeda Katsuyori — Shingen\'s heir; taking Takatenjin was his greatest feat, but failing to hold it destroyed his credibility.' },
-      { ja: '岡部元信 — 高天神城の武田方守将。最後まで奮戦し、壮絶な討死を遂げた。', zhTw: '岡部元信 — 高天神城武田方守將。奮戰到底，壯烈戰死。', en: 'Okabe Motonobu — Takeda\'s garrison commander who fought valiantly to the end and died in battle.' },
-      { ja: '徳川家康 — 6砦包囲戦で高天神を奪還し、武田氏の衰退を決定的にした。', zhTw: '德川家康 — 以6砦包圍戰奪回高天神，決定性地加速武田氏衰退。', en: 'Tokugawa Ieyasu — his six-fort siege strategy recaptured Takatenjin and sealed the Takeda decline.' },
+      {
+        ja: '武田勝頼', zhTw: '武田勝賴', en: 'Takeda Katsuyori',
+        desc: {
+          ja: '信玄の後継者。高天神城の攻略は勝頼の最大の戦果だったが、奪還を阻止できず威信を失った。',
+          zhTw: '信玄的繼承者。攻下高天神城是勝賴最大戰果，但無法阻止奪還而失去威信。',
+          en: 'Shingen\'s heir; taking Takatenjin was his greatest feat, but failing to hold it destroyed his credibility.',
+        },
+      },
+      {
+        ja: '岡部元信', zhTw: '岡部元信', en: 'Okabe Motonobu',
+        desc: {
+          ja: '高天神城の武田方守将。最後まで奮戦し、壮絶な討死を遂げた。',
+          zhTw: '高天神城武田方守將。奮戰到底，壯烈戰死。',
+          en: 'Takeda\'s garrison commander who fought valiantly to the end and died in battle.',
+        },
+      },
+      {
+        ja: '徳川家康', zhTw: '德川家康', en: 'Tokugawa Ieyasu',
+        desc: {
+          ja: '6砦包囲戦で高天神を奪還し、武田氏の衰退を決定的にした。',
+          zhTw: '以6砦包圍戰奪回高天神，決定性地加速武田氏衰退。',
+          en: 'his six-fort siege strategy recaptured Takatenjin and sealed the Takeda decline.',
+        },
+      },
     ],
     trivia: [
       { ja: '高天神の名は「神の住む高い山」を意味し、古来より霊山として崇められてきた。', zhTw: '高天神之名意為「神居住的高山」，自古便被崇為靈山。', en: 'The name means "High Heavenly God," and the mountain has been revered as sacred since ancient times.' },
@@ -4741,9 +6589,30 @@ export const castles = [
       { ja: '現在も山道には「犬戻り猿戻り」と呼ばれる険しい箇所があり、天然の要害を体感できる。', zhTw: '至今山路上仍有被稱為「犬返猿返」的險峻處，可體驗天然要害。', en: 'The trail still has a treacherous section called "dog-turn, monkey-turn" — so steep even animals turn back.' },
     ],
     highlights: [
-      { ja: '本丸跡 — 東峰と西峰に分かれた主郭群。断崖絶壁に囲まれた天然の要塞。', zhTw: '本丸跡 — 分為東峰和西峰的主郭群。被斷崖絕壁環繞的天然要塞。', en: 'Honmaru ruins — main enclosures split between east and west peaks, a natural fortress surrounded by sheer cliffs.' },
-      { ja: '搦手門跡 — 武田軍が攻めた急峻な裏口。戦いの激しさを想像させる。', zhTw: '搦手門跡 — 武田軍進攻的急峻後門。令人想像戰鬥的激烈。', en: 'Rear gate ruins — the steep back entrance where Takeda forces attacked, evoking the battle\'s ferocity.' },
-      { ja: '六砦跡 — 家康が築いた包囲網の砦群。周辺にその遺構が点在する。', zhTw: '六砦跡 — 家康築建的包圍網砦群。遺構散布於周邊。', en: 'Six fort ruins — remnants of Ieyasu\'s encirclement network dotting the surrounding hills.' },
+      {
+        ja: '本丸跡', zhTw: '本丸跡', en: 'Honmaru ruins',
+        desc: {
+          ja: '東峰と西峰に分かれた主郭群。断崖絶壁に囲まれた天然の要塞。',
+          zhTw: '分為東峰和西峰的主郭群。被斷崖絕壁環繞的天然要塞。',
+          en: 'main enclosures split between east and west peaks, a natural fortress surrounded by sheer cliffs.',
+        },
+      },
+      {
+        ja: '搦手門跡', zhTw: '搦手門跡', en: 'Rear gate ruins',
+        desc: {
+          ja: '武田軍が攻めた急峻な裏口。戦いの激しさを想像させる。',
+          zhTw: '武田軍進攻的急峻後門。令人想像戰鬥的激烈。',
+          en: 'the steep back entrance where Takeda forces attacked, evoking the battle\'s ferocity.',
+        },
+      },
+      {
+        ja: '六砦跡', zhTw: '六砦跡', en: 'Six fort ruins',
+        desc: {
+          ja: '家康が築いた包囲網の砦群。周辺にその遺構が点在する。',
+          zhTw: '家康築建的包圍網砦群。遺構散布於周邊。',
+          en: 'remnants of Ieyasu\'s encirclement network dotting the surrounding hills.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高132mの鶴翁山に築かれ、東峰（本丸）と西峰（西の丸）を堀切で区画する連郭式山城。', zhTw: '建於標高132公尺的鶴翁山，以堀切區隔東峰（本丸）與西峰（西之丸）的連郭式山城。', en: 'A linked-enclosure mountain castle on 132 m Mt. Kakuō, with ridge-cuts separating the east peak (honmaru) and west peak.' },
@@ -4796,8 +6665,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '武田勝頼 — 信玄亡き後、遠江進出の拠点として諏訪原城を築いた。', zhTw: '武田勝賴 — 信玄去世後，築建諏訪原城作為進出遠江的據點。', en: 'Takeda Katsuyori — built Suwahara as his staging point for expansion into Tōtōmi after Shingen\'s death.' },
-      { ja: '松平家忠 — 徳川方として城を守り、詳細な「家忠日記」に城の様子を記した。', zhTw: '松平家忠 — 以德川方守城，在詳細的「家忠日記」中記錄了城的狀況。', en: 'Matsudaira Ietada — defended the castle for the Tokugawa and recorded its details in his famous diary.' },
+      {
+        ja: '武田勝頼', zhTw: '武田勝賴', en: 'Takeda Katsuyori',
+        desc: {
+          ja: '信玄亡き後、遠江進出の拠点として諏訪原城を築いた。',
+          zhTw: '信玄去世後，築建諏訪原城作為進出遠江的據點。',
+          en: 'built Suwahara as his staging point for expansion into Tōtōmi after Shingen\'s death.',
+        },
+      },
+      {
+        ja: '松平家忠', zhTw: '松平家忠', en: 'Matsudaira Ietada',
+        desc: {
+          ja: '徳川方として城を守り、詳細な「家忠日記」に城の様子を記した。',
+          zhTw: '以德川方守城，在詳細的「家忠日記」中記錄了城的狀況。',
+          en: 'defended the castle for the Tokugawa and recorded its details in his famous diary.',
+        },
+      },
     ],
     trivia: [
       { ja: '丸馬出しが5基も残る日本唯一の城で、武田流築城術の教科書と呼ばれる。', zhTw: '日本唯一留存5座丸馬出的城，被稱為武田流築城術的教科書。', en: 'The only castle in Japan with five surviving crescent outworks — called a "textbook" of Takeda fortification.' },
@@ -4805,9 +6688,30 @@ export const castles = [
       { ja: '2017年の発掘調査で三日月堀の全容が明らかになり、全国ニュースで報じられた。', zhTw: '2017年發掘調查揭示了三日月壕的全貌，在全國新聞中報導。', en: 'A 2017 excavation revealed the complete crescent moat, making national news.' },
     ],
     highlights: [
-      { ja: '丸馬出し群 — 5基の武田式丸馬出しは全国随一の保存状態。', zhTw: '丸馬出群 — 5座武田式丸馬出為全國最佳保存狀態。', en: 'Crescent outworks — five Takeda-style outworks in the best preservation state in all of Japan.' },
-      { ja: '三日月堀 — 馬出しの前面に設けられた美しい三日月形の堀。', zhTw: '三日月壕 — 設置在馬出前方的美麗三日月形壕溝。', en: 'Crescent moats — elegant half-moon-shaped moats placed in front of the outworks.' },
-      { ja: '茶畑越しの眺望 — 城跡から駿河湾と富士山を望む絶景。', zhTw: '茶園越景 — 從城跡可眺望駿河灣與富士山的絕景。', en: 'Tea-field panorama — stunning views of Suruga Bay and Mt. Fuji from the castle ruins.' },
+      {
+        ja: '丸馬出し群', zhTw: '丸馬出群', en: 'Crescent outworks',
+        desc: {
+          ja: '5基の武田式丸馬出しは全国随一の保存状態。',
+          zhTw: '5座武田式丸馬出為全國最佳保存狀態。',
+          en: 'five Takeda-style outworks in the best preservation state in all of Japan.',
+        },
+      },
+      {
+        ja: '三日月堀', zhTw: '三日月壕', en: 'Crescent moats',
+        desc: {
+          ja: '馬出しの前面に設けられた美しい三日月形の堀。',
+          zhTw: '設置在馬出前方的美麗三日月形壕溝。',
+          en: 'elegant half-moon-shaped moats placed in front of the outworks.',
+        },
+      },
+      {
+        ja: '茶畑越しの眺望', zhTw: '茶園越景', en: 'Tea-field panorama',
+        desc: {
+          ja: '城跡から駿河湾と富士山を望む絶景。',
+          zhTw: '從城跡可眺望駿河灣與富士山的絕景。',
+          en: 'stunning views of Suruga Bay and Mt. Fuji from the castle ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '牧之原台地の舌状台地先端を利用した要害で、三方を急崖に守られる。', zhTw: '利用牧之原台地舌狀台地先端的要害，三面被急崖守護。', en: 'A stronghold on a tongue-shaped plateau tip, protected by steep drops on three sides.' },
@@ -4859,8 +6763,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '太田道灌 — 江戸城を築いた名将。小机城攻めでは陣中で連歌を詠み士気を高めた逸話が残る。', zhTw: '太田道灌 — 築建江戶城的名將。攻打小机城時在陣中詠連歌鼓舞士氣的軼事留傳至今。', en: 'Ōta Dōkan — the famed builder of Edo Castle; at Kozukue he boosted morale by composing linked verse during the siege.' },
-      { ja: '笠原信為 — 後北条氏の家臣で小机城主。小机衆を率いて武蔵国の統治に当たった。', zhTw: '笠原信為 — 後北條氏家臣、小机城主。率領小机眾治理武藏國。', en: 'Kasahara Nobushige — Hōjō retainer and Kozukue lord who led the Kozukue forces in governing Musashi.' },
+      {
+        ja: '太田道灌', zhTw: '太田道灌', en: 'Ōta Dōkan',
+        desc: {
+          ja: '江戸城を築いた名将。小机城攻めでは陣中で連歌を詠み士気を高めた逸話が残る。',
+          zhTw: '築建江戶城的名將。攻打小机城時在陣中詠連歌鼓舞士氣的軼事留傳至今。',
+          en: 'the famed builder of Edo Castle; at Kozukue he boosted morale by composing linked verse during the siege.',
+        },
+      },
+      {
+        ja: '笠原信為', zhTw: '笠原信為', en: 'Kasahara Nobushige',
+        desc: {
+          ja: '後北条氏の家臣で小机城主。小机衆を率いて武蔵国の統治に当たった。',
+          zhTw: '後北條氏家臣、小机城主。率領小机眾治理武藏國。',
+          en: 'Hōjō retainer and Kozukue lord who led the Kozukue forces in governing Musashi.',
+        },
+      },
     ],
     trivia: [
       { ja: '城跡は日産スタジアム（横浜国際総合競技場）のすぐ裏手にある。', zhTw: '城跡就在日產體育場（橫濱國際綜合競技場）後方。', en: 'The ruins sit right behind Nissan Stadium (Yokohama International Stadium).' },
@@ -4868,9 +6786,30 @@ export const castles = [
       { ja: '太田道灌が攻城時に詠んだとされる連歌は、中世武将の教養の高さを示す逸話として有名。', zhTw: '太田道灌攻城時所詠的連歌，是展示中世武將教養之高的著名軼事。', en: 'Dōkan\'s linked verse composed during the siege is a famous anecdote of medieval warriors\' cultural refinement.' },
     ],
     highlights: [
-      { ja: '竹林の空堀 — 美しい竹に覆われた深い空堀は城跡最大の見どころ。', zhTw: '竹林空壕 — 被美麗竹林覆蓋的深空壕是城跡最大看點。', en: 'Bamboo-covered dry moats — deep moats shrouded in beautiful bamboo, the site\'s top attraction.' },
-      { ja: '東郭・西郭 — よく残る二つの曲輪は土塁に囲まれ、中世の城の姿を伝える。', zhTw: '東郭、西郭 — 保存良好的兩座曲輪被土壘環繞，傳達中世城郭的樣貌。', en: 'East and west enclosures — two well-preserved baileys ringed by earthworks, conveying the medieval castle\'s form.' },
-      { ja: '小机城址市民の森 — 城跡を含む散策路で、四季折々の自然が楽しめる。', zhTw: '小机城址市民之森 — 包含城跡的散步路，可享受四季自然。', en: 'Kozukue Castle Ruins Citizens\' Forest — a walking trail through the ruins with seasonal nature.' },
+      {
+        ja: '竹林の空堀', zhTw: '竹林空壕', en: 'Bamboo-covered dry moats',
+        desc: {
+          ja: '美しい竹に覆われた深い空堀は城跡最大の見どころ。',
+          zhTw: '被美麗竹林覆蓋的深空壕是城跡最大看點。',
+          en: 'deep moats shrouded in beautiful bamboo, the site\'s top attraction.',
+        },
+      },
+      {
+        ja: '東郭・西郭', zhTw: '東郭、西郭', en: 'East and west enclosures',
+        desc: {
+          ja: 'よく残る二つの曲輪は土塁に囲まれ、中世の城の姿を伝える。',
+          zhTw: '保存良好的兩座曲輪被土壘環繞，傳達中世城郭的樣貌。',
+          en: 'two well-preserved baileys ringed by earthworks, conveying the medieval castle\'s form.',
+        },
+      },
+      {
+        ja: '小机城址市民の森', zhTw: '小机城址市民之森', en: 'Kozukue Castle Ruins Citizens\' Forest',
+        desc: {
+          ja: '城跡を含む散策路で、四季折々の自然が楽しめる。',
+          zhTw: '包含城跡的散步路，可享受四季自然。',
+          en: 'a walking trail through the ruins with seasonal nature.',
+        },
+      },
     ],
     architecture: [
       { ja: '鶴見川沿いの丘陵に築かれた中世の土の城。東郭と西郭を堀切で分断する構造。', zhTw: '建於鶴見川沿岸丘陵的中世土城。以堀切分隔東郭與西郭的結構。', en: 'A medieval earthen castle on hills along the Tsurumi River, with east and west enclosures divided by ridge-cuts.' },
@@ -4928,9 +6867,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '豊臣秀吉 — 「一夜城」の逸話で知られる天下人。石垣山城は秀吉の権力と演出力の象徴。', zhTw: '豐臣秀吉 — 以「一夜城」軼事聞名的天下人。石垣山城是秀吉權力與演出力的象徵。', en: 'Toyotomi Hideyoshi — the "overnight castle" epitomizes the hegemon\'s power and flair for the dramatic.' },
-      { ja: '千利休 — 小田原陣中で秀吉に茶を点てた。開城後まもなく秀吉と対立し切腹を命じられる。', zhTw: '千利休 — 在小田原陣中為秀吉點茶。開城後不久與秀吉對立被命切腹。', en: 'Sen no Rikyū — served tea to Hideyoshi at the siege camp; soon after, their rift led to Rikyū\'s forced suicide.' },
-      { ja: '北条氏直 — 北条氏最後の当主。石垣山城の威容を見て降伏を決意したとされる。', zhTw: '北條氏直 — 北條氏最後的當主。據說見到石垣山城的威容後決意投降。', en: 'Hōjō Ujinao — the last Hōjō lord, said to have resolved to surrender upon seeing Ishigakiyama\'s imposing form.' },
+      {
+        ja: '豊臣秀吉', zhTw: '豐臣秀吉', en: 'Toyotomi Hideyoshi',
+        desc: {
+          ja: '「一夜城」の逸話で知られる天下人。石垣山城は秀吉の権力と演出力の象徴。',
+          zhTw: '以「一夜城」軼事聞名的天下人。石垣山城是秀吉權力與演出力的象徵。',
+          en: 'the "overnight castle" epitomizes the hegemon\'s power and flair for the dramatic.',
+        },
+      },
+      {
+        ja: '千利休', zhTw: '千利休', en: 'Sen no Rikyū',
+        desc: {
+          ja: '小田原陣中で秀吉に茶を点てた。開城後まもなく秀吉と対立し切腹を命じられる。',
+          zhTw: '在小田原陣中為秀吉點茶。開城後不久與秀吉對立被命切腹。',
+          en: 'served tea to Hideyoshi at the siege camp; soon after, their rift led to Rikyū\'s forced suicide.',
+        },
+      },
+      {
+        ja: '北条氏直', zhTw: '北條氏直', en: 'Hōjō Ujinao',
+        desc: {
+          ja: '北条氏最後の当主。石垣山城の威容を見て降伏を決意したとされる。',
+          zhTw: '北條氏最後的當主。據說見到石垣山城的威容後決意投降。',
+          en: 'the last Hōjō lord, said to have resolved to surrender upon seeing Ishigakiyama\'s imposing form.',
+        },
+      },
     ],
     trivia: [
       { ja: '関東で最初の総石垣の城とされ、西国の築城技術が関東に持ち込まれた画期的な事例。', zhTw: '被認為是關東第一座全石垣城，是西國築城技術傳入關東的劃時代事例。', en: 'Considered Kantō\'s first fully stone-walled castle, a landmark introduction of western Japan\'s fortification technology.' },
@@ -4938,9 +6898,30 @@ export const castles = [
       { ja: '「太閤の石垣」と呼ばれる野面積みの石垣は430年以上経った今も堂々と残る。', zhTw: '被稱為「太閤石垣」的野面積石垣歷經430年以上至今仍堂堂殘存。', en: 'The "Taikō\'s stone walls" of rough-stacked masonry have stood proudly for over 430 years.' },
     ],
     highlights: [
-      { ja: '本丸跡 — 小田原市街と相模湾を一望する壮大な眺望。秀吉が見た景色そのもの。', zhTw: '本丸跡 — 一覽小田原市區與相模灣的壯大眺望。正是秀吉所見的景色。', en: 'Honmaru ruins — sweeping views of Odawara and Sagami Bay; the very sight Hideyoshi beheld.' },
-      { ja: '井戸曲輪 — 巨石を積んだ壮大な石垣に囲まれた井戸。城の水源として重要だった。', zhTw: '井戶曲輪 — 被巨石堆砌的壯大石垣環繞的井戶。作為城的水源至關重要。', en: 'Well enclosure — a well surrounded by massive stone walls; the castle\'s vital water source.' },
-      { ja: '南曲輪の石垣 — 高さ10m近い野面積みの石垣は迫力満点。', zhTw: '南曲輪石垣 — 近10公尺高的野面積石垣氣勢十足。', en: 'South enclosure walls — rough-stacked stone walls nearly 10 m high, immensely impressive.' },
+      {
+        ja: '本丸跡', zhTw: '本丸跡', en: 'Honmaru ruins',
+        desc: {
+          ja: '小田原市街と相模湾を一望する壮大な眺望。秀吉が見た景色そのもの。',
+          zhTw: '一覽小田原市區與相模灣的壯大眺望。正是秀吉所見的景色。',
+          en: 'sweeping views of Odawara and Sagami Bay; the very sight Hideyoshi beheld.',
+        },
+      },
+      {
+        ja: '井戸曲輪', zhTw: '井戶曲輪', en: 'Well enclosure',
+        desc: {
+          ja: '巨石を積んだ壮大な石垣に囲まれた井戸。城の水源として重要だった。',
+          zhTw: '被巨石堆砌的壯大石垣環繞的井戶。作為城的水源至關重要。',
+          en: 'a well surrounded by massive stone walls; the castle\'s vital water source.',
+        },
+      },
+      {
+        ja: '南曲輪の石垣', zhTw: '南曲輪石垣', en: 'South enclosure walls',
+        desc: {
+          ja: '高さ10m近い野面積みの石垣は迫力満点。',
+          zhTw: '近10公尺高的野面積石垣氣勢十足。',
+          en: 'rough-stacked stone walls nearly 10 m high, immensely impressive.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高257mの山頂に本丸・二の丸・井戸曲輪・南曲輪を配した総石垣の山城。', zhTw: '在標高257公尺的山頂配置本丸、二之丸、井戶曲輪、南曲輪的全石垣山城。', en: 'A fully stone-walled mountain castle at 257 m with honmaru, ni-no-maru, well enclosure, and south enclosure.' },
@@ -4995,9 +6976,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '武田勝頼 — 信玄の後継者。長篠の敗北後も再起を図ったが、新府城で最期を迎えた。', zhTw: '武田勝賴 — 信玄的繼承者。長篠敗北後仍圖東山再起，最終在新府城迎來終局。', en: 'Takeda Katsuyori — Shingen\'s heir who sought recovery after Nagashino but met his end at Shimpu.' },
-      { ja: '真田昌幸 — 勝頼に新府城への撤退を勧めた知将。後に真田家を独立勢力として存続させた。', zhTw: '真田昌幸 — 勸勝賴撤退至新府城的智將。後來使真田家作為獨立勢力存續。', en: 'Sanada Masayuki — the strategist who advised Katsuyori to retreat to Shimpu, later preserving the Sanada as an independent force.' },
-      { ja: '北条夫人 — 勝頼の正室。夫と運命を共にし、天目山で19歳の若さで自刃した。', zhTw: '北條夫人 — 勝賴的正室。與夫共命運，在天目山以19歲之齡自刃。', en: 'Lady Hōjō — Katsuyori\'s wife who chose to die with her husband at Tenmokuzan, aged only 19.' },
+      {
+        ja: '武田勝頼', zhTw: '武田勝賴', en: 'Takeda Katsuyori',
+        desc: {
+          ja: '信玄の後継者。長篠の敗北後も再起を図ったが、新府城で最期を迎えた。',
+          zhTw: '信玄的繼承者。長篠敗北後仍圖東山再起，最終在新府城迎來終局。',
+          en: 'Shingen\'s heir who sought recovery after Nagashino but met his end at Shimpu.',
+        },
+      },
+      {
+        ja: '真田昌幸', zhTw: '真田昌幸', en: 'Sanada Masayuki',
+        desc: {
+          ja: '勝頼に新府城への撤退を勧めた知将。後に真田家を独立勢力として存続させた。',
+          zhTw: '勸勝賴撤退至新府城的智將。後來使真田家作為獨立勢力存續。',
+          en: 'the strategist who advised Katsuyori to retreat to Shimpu, later preserving the Sanada as an independent force.',
+        },
+      },
+      {
+        ja: '北条夫人', zhTw: '北條夫人', en: 'Lady Hōjō',
+        desc: {
+          ja: '勝頼の正室。夫と運命を共にし、天目山で19歳の若さで自刃した。',
+          zhTw: '勝賴的正室。與夫共命運，在天目山以19歲之齡自刃。',
+          en: 'Katsuyori\'s wife who chose to die with her husband at Tenmokuzan, aged only 19.',
+        },
+      },
     ],
     trivia: [
       { ja: '「新府」は「新しい府中」の意味で、甲斐国の新たな政治中心地を目指した名称。', zhTw: '「新府」意為「新的府中」，是以甲斐國新政治中心為目標的名稱。', en: '"Shimpu" means "New Capital," signifying Katsuyori\'s ambition to build a new political center for Kai.' },
@@ -5005,9 +7007,30 @@ export const castles = [
       { ja: '未完成の城でありながら、丸馬出し・三日月堀など武田流築城術の粋が残る。', zhTw: '雖是未完成之城，卻留有丸馬出、三日月壕等武田流築城術的精華。', en: 'Though never completed, it preserves the finest Takeda fortification features: crescent outworks and half-moon moats.' },
     ],
     highlights: [
-      { ja: '大手丸馬出し — 武田流の巨大な丸馬出しと三日月堀が見事に残る。', zhTw: '大手丸馬出 — 武田流的巨大丸馬出與三日月壕保存完好。', en: 'Main-gate crescent outwork — a massive Takeda-style outwork with half-moon moat survives beautifully.' },
-      { ja: '本丸跡と藤武神社 — 勝頼を祀る神社から八ヶ岳・南アルプスを望む。', zhTw: '本丸跡與藤武神社 — 從祭祀勝賴的神社可眺望八岳、南阿爾卑斯山。', en: 'Honmaru and Fujitake Shrine — views of Yatsugatake and the Southern Alps from the shrine honoring Katsuyori.' },
-      { ja: '七里岩の断崖 — 城の東西を守る天然の断崖は圧巻の迫力。', zhTw: '七里岩斷崖 — 守護城東西兩側的天然斷崖氣勢驚人。', en: 'Shichiri-iwa cliffs — natural precipices guarding the castle\'s flanks, breathtakingly steep.' },
+      {
+        ja: '大手丸馬出し', zhTw: '大手丸馬出', en: 'Main-gate crescent outwork',
+        desc: {
+          ja: '武田流の巨大な丸馬出しと三日月堀が見事に残る。',
+          zhTw: '武田流的巨大丸馬出與三日月壕保存完好。',
+          en: 'a massive Takeda-style outwork with half-moon moat survives beautifully.',
+        },
+      },
+      {
+        ja: '本丸跡と藤武神社', zhTw: '本丸跡與藤武神社', en: 'Honmaru and Fujitake Shrine',
+        desc: {
+          ja: '勝頼を祀る神社から八ヶ岳・南アルプスを望む。',
+          zhTw: '從祭祀勝賴的神社可眺望八岳、南阿爾卑斯山。',
+          en: 'views of Yatsugatake and the Southern Alps from the shrine honoring Katsuyori.',
+        },
+      },
+      {
+        ja: '七里岩の断崖', zhTw: '七里岩斷崖', en: 'Shichiri-iwa cliffs',
+        desc: {
+          ja: '城の東西を守る天然の断崖は圧巻の迫力。',
+          zhTw: '守護城東西兩側的天然斷崖氣勢驚人。',
+          en: 'natural precipices guarding the castle\'s flanks, breathtakingly steep.',
+        },
+      },
     ],
     architecture: [
       { ja: '七里岩台地の舌状先端部に築かれ、東西は断崖、南北を人工の堀で防御する。', zhTw: '建於七里岩台地舌狀先端，東西為斷崖，南北以人工壕溝防禦。', en: 'Built on the tongue-tip of the Shichiri-iwa plateau, with cliffs east and west and artificial moats north and south.' },
@@ -5051,8 +7074,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '武田信虎 — 信玄の父。甲斐統一を成し遂げ、躑躅ヶ崎館と要害山城の防衛体制を築いた。', zhTw: '武田信虎 — 信玄之父。完成甲斐統一，建立躑躅崎館與要害山城的防衛體制。', en: 'Takeda Nobutora — Shingen\'s father who unified Kai and established the dual defense of Tsutsujigasaki and Yōgaisan.' },
-      { ja: '武田信玄 — 甲斐の虎。この城で生まれ、戦国最強の武将の一人に成長した。', zhTw: '武田信玄 — 甲斐之虎。在此城出生，成長為戰國最強武將之一。', en: 'Takeda Shingen — the Tiger of Kai, born in this very castle, who grew into one of the Sengoku\'s mightiest warlords.' },
+      {
+        ja: '武田信虎', zhTw: '武田信虎', en: 'Takeda Nobutora',
+        desc: {
+          ja: '信玄の父。甲斐統一を成し遂げ、躑躅ヶ崎館と要害山城の防衛体制を築いた。',
+          zhTw: '信玄之父。完成甲斐統一，建立躑躅崎館與要害山城的防衛體制。',
+          en: 'Shingen\'s father who unified Kai and established the dual defense of Tsutsujigasaki and Yōgaisan.',
+        },
+      },
+      {
+        ja: '武田信玄', zhTw: '武田信玄', en: 'Takeda Shingen',
+        desc: {
+          ja: '甲斐の虎。この城で生まれ、戦国最強の武将の一人に成長した。',
+          zhTw: '甲斐之虎。在此城出生，成長為戰國最強武將之一。',
+          en: 'the Tiger of Kai, born in this very castle, who grew into one of the Sengoku\'s mightiest warlords.',
+        },
+      },
     ],
     trivia: [
       { ja: '信玄誕生の地として「武田信玄公誕生之地」の碑が城跡に建てられている。', zhTw: '作為信玄誕生之地，城跡立有「武田信玄公誕生之地」碑。', en: 'A monument reading "Birthplace of Lord Takeda Shingen" stands on the castle grounds.' },
@@ -5060,9 +7097,30 @@ export const castles = [
       { ja: '標高780mの登山道には石垣・竪堀・曲輪が連続し、山城ハイキングの名所。', zhTw: '標高780公尺的登山道上連續分布石垣、豎壕、曲輪，是山城健行名所。', en: 'At 780 m, the trail features continuous stone walls, vertical moats, and baileys — a top mountain-castle hike.' },
     ],
     highlights: [
-      { ja: '武田信玄公誕生之地碑 — 本丸近くに建つ信玄誕生を記念する石碑。', zhTw: '武田信玄公誕生之地碑 — 建於本丸附近紀念信玄誕生的石碑。', en: 'Shingen Birthplace Monument — a stone marker near the honmaru commemorating the great lord\'s birth.' },
-      { ja: '不動曲輪の石垣 — 見事な石垣が山中に残り、武田の築城力を物語る。', zhTw: '不動曲輪石垣 — 殘存於山中的精美石垣，訴說武田的築城能力。', en: 'Fudō bailey stone walls — impressive stonework surviving in the mountain, testament to Takeda engineering.' },
-      { ja: '山頂からの甲府盆地の眺望 — 信玄が見たであろう甲斐国の絶景。', zhTw: '從山頂眺望甲府盆地 — 信玄應曾見過的甲斐國絕景。', en: 'Summit views of the Kōfu Basin — the stunning vista of Kai that Shingen himself must have gazed upon.' },
+      {
+        ja: '武田信玄公誕生之地碑', zhTw: '武田信玄公誕生之地碑', en: 'Shingen Birthplace Monument',
+        desc: {
+          ja: '本丸近くに建つ信玄誕生を記念する石碑。',
+          zhTw: '建於本丸附近紀念信玄誕生的石碑。',
+          en: 'a stone marker near the honmaru commemorating the great lord\'s birth.',
+        },
+      },
+      {
+        ja: '不動曲輪の石垣', zhTw: '不動曲輪石垣', en: 'Fudō bailey stone walls',
+        desc: {
+          ja: '見事な石垣が山中に残り、武田の築城力を物語る。',
+          zhTw: '殘存於山中的精美石垣，訴說武田的築城能力。',
+          en: 'impressive stonework surviving in the mountain, testament to Takeda engineering.',
+        },
+      },
+      {
+        ja: '山頂からの甲府盆地の眺望', zhTw: '從山頂眺望甲府盆地', en: 'Summit views of the Kōfu Basin',
+        desc: {
+          ja: '信玄が見たであろう甲斐国の絶景。',
+          zhTw: '信玄應曾見過的甲斐國絕景。',
+          en: 'the stunning vista of Kai that Shingen himself must have gazed upon.',
+        },
+      },
     ],
     architecture: [
       { ja: '躑躅ヶ崎館の北東、積翠寺山に築かれた詰城。急峻な地形を活かした典型的な山城。', zhTw: '建於躑躅崎館東北方積翠寺山的詰城。活用急峻地形的典型山城。', en: 'A refuge castle on Sekisuijiyama northeast of Tsutsujigasaki, a classic mountain castle exploiting steep terrain.' },
@@ -5113,7 +7171,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '松平乗謨（大給恒） — 田野口藩主。蘭学に通じ、西洋式城郭を構想した開明的な大名。', zhTw: '松平乘謨（大給恆） — 田野口藩主。精通蘭學，構想西洋式城郭的開明大名。', en: 'Matsudaira Norimoto — lord of Tanokuchi domain, a progressive daimyō versed in Dutch studies who envisioned a Western-style fort.' },
+      {
+        ja: '松平乗謨（大給恒）', zhTw: '松平乘謨（大給恆）', en: 'Matsudaira Norimoto',
+        desc: {
+          ja: '田野口藩主。蘭学に通じ、西洋式城郭を構想した開明的な大名。',
+          zhTw: '田野口藩主。精通蘭學，構想西洋式城郭的開明大名。',
+          en: 'lord of Tanokuchi domain, a progressive daimyō versed in Dutch studies who envisioned a Western-style fort.',
+        },
+      },
     ],
     trivia: [
       { ja: '五稜郭よりかなり小さく「三稜郭」と揶揄されることもあるが、稜堡の形は正確。', zhTw: '比五稜郭小得多，有時被戲稱為「三稜郭」，但稜堡形狀是正確的。', en: 'Much smaller than Goryōkaku — sometimes jokingly called "Sanryōkaku" — but its bastion geometry is precise.' },
@@ -5121,9 +7186,30 @@ export const castles = [
       { ja: '近くの田口城跡の展望台から龍岡城の星形を上から見ることができる。', zhTw: '從附近田口城跡的展望台可以從上方看到龍岡城的星形。', en: 'The star shape can be viewed from above at the observation point on nearby Taguchi Castle ruins.' },
     ],
     highlights: [
-      { ja: '星形の水堀 — 五角形の堀が美しく残り、堀沿いの散策が楽しめる。', zhTw: '星形水壕 — 五角形壕溝保存完好，可沿壕散步。', en: 'Star-shaped moat — the pentagonal water moat survives beautifully, with a pleasant walking path along it.' },
-      { ja: '御台所（大広間） — 現存する唯一の建物で、藩主の居室として使われた。', zhTw: '御台所（大廣間） — 唯一現存的建築，曾作為藩主居室。', en: 'Odaidokoro hall — the sole surviving building, once the lord\'s living quarters.' },
-      { ja: '田口城跡展望台 — 龍岡城の星形全体を俯瞰できる絶好のビューポイント。', zhTw: '田口城跡展望台 — 可俯瞰龍岡城星形全貌的絕佳觀景點。', en: 'Taguchi Castle observation deck — the perfect vantage point to see the entire star shape from above.' },
+      {
+        ja: '星形の水堀', zhTw: '星形水壕', en: 'Star-shaped moat',
+        desc: {
+          ja: '五角形の堀が美しく残り、堀沿いの散策が楽しめる。',
+          zhTw: '五角形壕溝保存完好，可沿壕散步。',
+          en: 'the pentagonal water moat survives beautifully, with a pleasant walking path along it.',
+        },
+      },
+      {
+        ja: '御台所（大広間）', zhTw: '御台所（大廣間）', en: 'Odaidokoro hall',
+        desc: {
+          ja: '現存する唯一の建物で、藩主の居室として使われた。',
+          zhTw: '唯一現存的建築，曾作為藩主居室。',
+          en: 'the sole surviving building, once the lord\'s living quarters.',
+        },
+      },
+      {
+        ja: '田口城跡展望台', zhTw: '田口城跡展望台', en: 'Taguchi Castle observation deck',
+        desc: {
+          ja: '龍岡城の星形全体を俯瞰できる絶好のビューポイント。',
+          zhTw: '可俯瞰龍岡城星形全貌的絕佳觀景點。',
+          en: 'the perfect vantage point to see the entire star shape from above.',
+        },
+      },
     ],
     architecture: [
       { ja: 'フランスのヴォーバン式築城術を参考にした五角形の稜堡式城郭。', zhTw: '參考法國沃邦式築城術的五角形稜堡式城郭。', en: 'A pentagonal bastion fortress inspired by French Vauban-style fortification.' },
@@ -5176,9 +7262,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '松平忠輝 — 家康の六男。五郎八姫（伊達政宗の娘）を正室に迎えたが、後に改易された。', zhTw: '松平忠輝 — 家康六男。迎娶五郎八姬（伊達政宗之女）為正室，後被改易。', en: 'Matsudaira Tadateru — Ieyasu\'s sixth son, married Iroha-hime (Masamune\'s daughter) but was later dispossessed.' },
-      { ja: '伊達政宗 — 娘婿・忠輝のために高田城の縄張りを設計した。', zhTw: '伊達政宗 — 為女婿忠輝設計了高田城的繩張。', en: 'Date Masamune — designed the castle layout for his son-in-law Tadateru.' },
-      { ja: '榊原康政の子孫 — 徳川四天王の一人の血脈が幕末まで高田藩を治めた。', zhTw: '榊原康政的子孫 — 德川四天王之一的血脈治理高田藩至幕末。', en: 'Descendants of Sakakibara Yasumasa — the bloodline of one of Ieyasu\'s Four Heavenly Kings governed Takada until the Bakumatsu.' },
+      {
+        ja: '松平忠輝', zhTw: '松平忠輝', en: 'Matsudaira Tadateru',
+        desc: {
+          ja: '家康の六男。五郎八姫（伊達政宗の娘）を正室に迎えたが、後に改易された。',
+          zhTw: '家康六男。迎娶五郎八姬（伊達政宗之女）為正室，後被改易。',
+          en: 'Ieyasu\'s sixth son, married Iroha-hime (Masamune\'s daughter) but was later dispossessed.',
+        },
+      },
+      {
+        ja: '伊達政宗', zhTw: '伊達政宗', en: 'Date Masamune',
+        desc: {
+          ja: '娘婿・忠輝のために高田城の縄張りを設計した。',
+          zhTw: '為女婿忠輝設計了高田城的繩張。',
+          en: 'designed the castle layout for his son-in-law Tadateru.',
+        },
+      },
+      {
+        ja: '榊原康政の子孫', zhTw: '榊原康政的子孫', en: 'Descendants of Sakakibara Yasumasa',
+        desc: {
+          ja: '徳川四天王の一人の血脈が幕末まで高田藩を治めた。',
+          zhTw: '德川四天王之一的血脈治理高田藩至幕末。',
+          en: 'the bloodline of one of Ieyasu\'s Four Heavenly Kings governed Takada until the Bakumatsu.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守の代わりに三重櫓が建てられたのは、天下普請でありながら幕府への遠慮とされる。', zhTw: '以三重櫓代替天守，被認為是雖為天下普請卻對幕府表示謙讓。', en: 'A three-story turret replaced a keep — seen as a diplomatic gesture of deference to the Shōgunate.' },
@@ -5186,9 +7293,30 @@ export const castles = [
       { ja: '石垣を使わず土塁のみで築かれたのは、越後の豊富な土と急速な築城のため。', zhTw: '不使用石垣僅以土壘築建，是因越後豐富的土壤與快速築城的需要。', en: 'Built entirely with earthworks and no stone — due to Echigo\'s abundant soil and the need for speed.' },
     ],
     highlights: [
-      { ja: '三重櫓（復元） — 2004年に木造復元。内部は展示施設として公開。', zhTw: '三重櫓（復原） — 2004年木造復原。內部作為展示設施公開。', en: 'Three-story turret (reconstructed) — rebuilt in wood in 2004, now open as an exhibition space.' },
-      { ja: '日本三大夜桜 — 春には4,000本の桜がライトアップされ、堀に映る姿が幻想的。', zhTw: '日本三大夜櫻 — 春天4000棵櫻花點燈，映照在壕溝中的姿態夢幻。', en: 'Three Great Night Cherry Blossoms — 4,000 lit cherry trees reflected in the moats create a dreamlike scene.' },
-      { ja: '極楽橋 — 内堀に架かる朱塗りの橋。桜の季節は特に美しい。', zhTw: '極樂橋 — 架於內壕上的朱漆橋。櫻花季節特別美麗。', en: 'Gokuraku Bridge — a vermilion bridge spanning the inner moat, especially stunning during cherry blossom season.' },
+      {
+        ja: '三重櫓（復元）', zhTw: '三重櫓（復原）', en: 'Three-story turret (reconstructed)',
+        desc: {
+          ja: '2004年に木造復元。内部は展示施設として公開。',
+          zhTw: '2004年木造復原。內部作為展示設施公開。',
+          en: 'rebuilt in wood in 2004, now open as an exhibition space.',
+        },
+      },
+      {
+        ja: '日本三大夜桜', zhTw: '日本三大夜櫻', en: 'Three Great Night Cherry Blossoms',
+        desc: {
+          ja: '春には4,000本の桜がライトアップされ、堀に映る姿が幻想的。',
+          zhTw: '春天4000棵櫻花點燈，映照在壕溝中的姿態夢幻。',
+          en: '4,000 lit cherry trees reflected in the moats create a dreamlike scene.',
+        },
+      },
+      {
+        ja: '極楽橋', zhTw: '極樂橋', en: 'Gokuraku Bridge',
+        desc: {
+          ja: '内堀に架かる朱塗りの橋。桜の季節は特に美しい。',
+          zhTw: '架於內壕上的朱漆橋。櫻花季節特別美麗。',
+          en: 'a vermilion bridge spanning the inner moat, especially stunning during cherry blossom season.',
+        },
+      },
     ],
     architecture: [
       { ja: '石垣を一切使わず、広大な水堀と高い土塁で防御する平城。', zhTw: '完全不使用石垣，以廣大水壕與高土壘防禦的平城。', en: 'A flatland castle defended entirely by vast water moats and tall earthworks, with no stone walls whatsoever.' },
@@ -5243,8 +7371,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '鈴木出羽守 — 鳥越城の城主として一向一揆を率いた指導者。最後まで織田軍に抵抗した。', zhTw: '鈴木出羽守 — 作為鳥越城城主率領一向一揆的領導者。抵抗織田軍至最後。', en: 'Suzuki Dewanokami — leader who commanded the Ikkō-ikki from Torikoe, resisting Oda forces to the end.' },
-      { ja: '柴田勝家 — 信長の筆頭家老。加賀一向一揆の鎮圧を任され、鳥越城を攻め落とした。', zhTw: '柴田勝家 — 信長的首席家老。受命鎮壓加賀一向一揆，攻下鳥越城。', en: 'Shibata Katsuie — Nobunaga\'s chief retainer, tasked with crushing the Kaga revolt, who stormed Torikoe.' },
+      {
+        ja: '鈴木出羽守', zhTw: '鈴木出羽守', en: 'Suzuki Dewanokami',
+        desc: {
+          ja: '鳥越城の城主として一向一揆を率いた指導者。最後まで織田軍に抵抗した。',
+          zhTw: '作為鳥越城城主率領一向一揆的領導者。抵抗織田軍至最後。',
+          en: 'leader who commanded the Ikkō-ikki from Torikoe, resisting Oda forces to the end.',
+        },
+      },
+      {
+        ja: '柴田勝家', zhTw: '柴田勝家', en: 'Shibata Katsuie',
+        desc: {
+          ja: '信長の筆頭家老。加賀一向一揆の鎮圧を任され、鳥越城を攻め落とした。',
+          zhTw: '信長的首席家老。受命鎮壓加賀一向一揆，攻下鳥越城。',
+          en: 'Nobunaga\'s chief retainer, tasked with crushing the Kaga revolt, who stormed Torikoe.',
+        },
+      },
     ],
     trivia: [
       { ja: '加賀一向一揆は1488年から約100年間、守護大名を追放して自治を行った日本史上稀有の出来事。', zhTw: '加賀一向一揆從1488年起約100年間驅逐守護大名實行自治，是日本史上罕見的事件。', en: 'The Kaga Ikkō-ikki expelled the shugo daimyō from 1488 and self-governed for about 100 years — unique in Japanese history.' },
@@ -5252,9 +7394,30 @@ export const castles = [
       { ja: '鳥越一向一揆歴史館が城麓にあり、一揆の歴史を詳しく学べる。', zhTw: '鳥越一向一揆歷史館位於城腳，可詳細了解一揆的歷史。', en: 'The Torikoe Ikkō-ikki History Museum at the base offers detailed exhibits on the revolt.' },
     ],
     highlights: [
-      { ja: '本丸跡 — 復元された門と土塁。白山連峰を背景にした山城の絶景。', zhTw: '本丸跡 — 復原的門與土壘。以白山連峰為背景的山城絕景。', en: 'Honmaru ruins — reconstructed gate and earthworks with the Hakusan mountain range as a stunning backdrop.' },
-      { ja: '後二の丸 — 門徒たちの最後の抵抗の場。発掘調査で戦闘の痕跡が多数出土。', zhTw: '後二之丸 — 門徒們最後抵抗之地。發掘調查出土大量戰鬥痕跡。', en: 'Rear second bailey — site of the defenders\' last stand, where excavations found extensive battle evidence.' },
-      { ja: '鳥越一向一揆歴史館 — 一揆の100年を映像や遺物で体験できる資料館。', zhTw: '鳥越一向一揆歷史館 — 以影像和遺物體驗一揆百年歷史的資料館。', en: 'Ikkō-ikki History Museum — experience a century of revolt through videos and artifacts.' },
+      {
+        ja: '本丸跡', zhTw: '本丸跡', en: 'Honmaru ruins',
+        desc: {
+          ja: '復元された門と土塁。白山連峰を背景にした山城の絶景。',
+          zhTw: '復原的門與土壘。以白山連峰為背景的山城絕景。',
+          en: 'reconstructed gate and earthworks with the Hakusan mountain range as a stunning backdrop.',
+        },
+      },
+      {
+        ja: '後二の丸', zhTw: '後二之丸', en: 'Rear second bailey',
+        desc: {
+          ja: '門徒たちの最後の抵抗の場。発掘調査で戦闘の痕跡が多数出土。',
+          zhTw: '門徒們最後抵抗之地。發掘調查出土大量戰鬥痕跡。',
+          en: 'site of the defenders\' last stand, where excavations found extensive battle evidence.',
+        },
+      },
+      {
+        ja: '鳥越一向一揆歴史館', zhTw: '鳥越一向一揆歷史館', en: 'Ikkō-ikki History Museum',
+        desc: {
+          ja: '一揆の100年を映像や遺物で体験できる資料館。',
+          zhTw: '以影像和遺物體驗一揆百年歷史的資料館。',
+          en: 'experience a century of revolt through videos and artifacts.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高312mの山頂に本丸・二の丸・三の丸を連ねた連郭式山城。', zhTw: '在標高312公尺的山頂連接本丸、二之丸、三之丸的連郭式山城。', en: 'A linked-enclosure mountain castle with honmaru, ni-no-maru, and san-no-maru along a 312 m ridgeline.' },
@@ -5307,9 +7470,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '結城秀康 — 家康の次男だが母の身分が低く後継者になれなかった悲運の名将。', zhTw: '結城秀康 — 家康次男但因母親身分低而無法成為繼承人的悲運名將。', en: 'Yūki Hideyasu — Ieyasu\'s talented second son, denied succession due to his mother\'s low status.' },
-      { ja: '松平春嶽 — 幕末四賢侯。横井小楠を招いて藩政改革を行い、明治維新の立役者となった。', zhTw: '松平春嶽 — 幕末四賢侯。招聘橫井小楠進行藩政改革，成為明治維新的功臣。', en: 'Matsudaira Shungaku — one of the Four Wise Lords, recruited Yokoi Shōnan for reforms and shaped the Restoration.' },
-      { ja: '橫井小楠 — 春嶽に招かれた熊本出身の思想家。「国是三論」で開国論を唱えた。', zhTw: '橫井小楠 — 受春嶽招聘的熊本出身思想家。以「國是三論」倡導開國論。', en: 'Yokoi Shōnan — a Kumamoto thinker recruited by Shungaku, who advocated opening Japan in his "Three National Policies."' },
+      {
+        ja: '結城秀康', zhTw: '結城秀康', en: 'Yūki Hideyasu',
+        desc: {
+          ja: '家康の次男だが母の身分が低く後継者になれなかった悲運の名将。',
+          zhTw: '家康次男但因母親身分低而無法成為繼承人的悲運名將。',
+          en: 'Ieyasu\'s talented second son, denied succession due to his mother\'s low status.',
+        },
+      },
+      {
+        ja: '松平春嶽', zhTw: '松平春嶽', en: 'Matsudaira Shungaku',
+        desc: {
+          ja: '幕末四賢侯。横井小楠を招いて藩政改革を行い、明治維新の立役者となった。',
+          zhTw: '幕末四賢侯。招聘橫井小楠進行藩政改革，成為明治維新的功臣。',
+          en: 'one of the Four Wise Lords, recruited Yokoi Shōnan for reforms and shaped the Restoration.',
+        },
+      },
+      {
+        ja: '橫井小楠', zhTw: '橫井小楠', en: 'Yokoi Shōnan',
+        desc: {
+          ja: '春嶽に招かれた熊本出身の思想家。「国是三論」で開国論を唱えた。',
+          zhTw: '受春嶽招聘的熊本出身思想家。以「國是三論」倡導開國論。',
+          en: 'a Kumamoto thinker recruited by Shungaku, who advocated opening Japan in his "Three National Policies."',
+        },
+      },
     ],
     trivia: [
       { ja: '現在の福井県庁が本丸跡に建っており、石垣と堀に囲まれた県庁は全国的にも珍しい。', zhTw: '現在的福井縣廳建於本丸跡上，被石垣和壕溝環繞的縣廳在全國也很罕見。', en: 'The Fukui prefectural office sits on the honmaru — a rare government building surrounded by castle walls and moats.' },
@@ -5317,9 +7501,30 @@ export const castles = [
       { ja: '1948年の福井地震で石垣が大きく崩壊し、その痕跡が今も一部で見られる。', zhTw: '1948年福井地震導致石垣大幅崩塌，部分痕跡至今可見。', en: 'The 1948 Fukui Earthquake caused massive stone-wall collapse; traces of the damage are still visible.' },
     ],
     highlights: [
-      { ja: '本丸石垣と内堀 — 県庁を囲む立派な石垣と水堀が城の面影を伝える。', zhTw: '本丸石垣與內壕 — 環繞縣廳的壯觀石垣與水壕傳達城的風貌。', en: 'Honmaru walls and inner moat — magnificent stone walls and water moats ringing the prefectural office.' },
-      { ja: '御廊下橋 — 復元された屋根付きの橋。藩主が本丸と御座所を行き来した。', zhTw: '御廊下橋 — 復原的有屋頂走廊橋。藩主用來往返本丸與御座所。', en: 'Orōka Bridge — a reconstructed covered walkway bridge the lord used between honmaru and his chambers.' },
-      { ja: '福の井 — 城名の由来となった井戸。復元された石組みが公開されている。', zhTw: '福之井 — 城名由來的水井。復原的石砌已公開。', en: 'Fuku-no-i Well — the well that gave the castle its name, with restored stonework on display.' },
+      {
+        ja: '本丸石垣と内堀', zhTw: '本丸石垣與內壕', en: 'Honmaru walls and inner moat',
+        desc: {
+          ja: '県庁を囲む立派な石垣と水堀が城の面影を伝える。',
+          zhTw: '環繞縣廳的壯觀石垣與水壕傳達城的風貌。',
+          en: 'magnificent stone walls and water moats ringing the prefectural office.',
+        },
+      },
+      {
+        ja: '御廊下橋', zhTw: '御廊下橋', en: 'Orōka Bridge',
+        desc: {
+          ja: '復元された屋根付きの橋。藩主が本丸と御座所を行き来した。',
+          zhTw: '復原的有屋頂走廊橋。藩主用來往返本丸與御座所。',
+          en: 'a reconstructed covered walkway bridge the lord used between honmaru and his chambers.',
+        },
+      },
+      {
+        ja: '福の井', zhTw: '福之井', en: 'Fuku-no-i Well',
+        desc: {
+          ja: '城名の由来となった井戸。復元された石組みが公開されている。',
+          zhTw: '城名由來的水井。復原的石砌已公開。',
+          en: 'the well that gave the castle its name, with restored stonework on display.',
+        },
+      },
     ],
     architecture: [
       { ja: '約270m四方の広大な本丸を水堀で囲む平城。天守台は現存するが天守は焼失後未再建。', zhTw: '以水壕環繞約270公尺見方的廣大本丸的平城。天守台現存但天守燒毀後未重建。', en: 'A flatland castle with a vast 270 m-square honmaru ringed by water moats; the keep platform survives but the keep does not.' },
@@ -5364,8 +7569,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '金森長近 — 織田信長の家臣。大野城と城下町を築き、後に飛騨高山も治めた文化人大名。', zhTw: '金森長近 — 織田信長家臣。築建大野城與城下町，後來也治理飛驒高山的文化人大名。', en: 'Kanamori Nagachika — Nobunaga\'s retainer who built Ōno and its town, later also governing Hida-Takayama; a cultured lord.' },
-      { ja: '土井利忠 — 幕末の大野藩主。藩校明倫館を設立し、洋学を奨励した開明的藩主。', zhTw: '土井利忠 — 幕末大野藩主。設立藩校明倫館，獎勵洋學的開明藩主。', en: 'Doi Toshitada — Bakumatsu lord who founded the Meirinkan academy and promoted Western learning.' },
+      {
+        ja: '金森長近', zhTw: '金森長近', en: 'Kanamori Nagachika',
+        desc: {
+          ja: '織田信長の家臣。大野城と城下町を築き、後に飛騨高山も治めた文化人大名。',
+          zhTw: '織田信長家臣。築建大野城與城下町，後來也治理飛驒高山的文化人大名。',
+          en: 'Nobunaga\'s retainer who built Ōno and its town, later also governing Hida-Takayama; a cultured lord.',
+        },
+      },
+      {
+        ja: '土井利忠', zhTw: '土井利忠', en: 'Doi Toshitada',
+        desc: {
+          ja: '幕末の大野藩主。藩校明倫館を設立し、洋学を奨励した開明的藩主。',
+          zhTw: '幕末大野藩主。設立藩校明倫館，獎勵洋學的開明藩主。',
+          en: 'Bakumatsu lord who founded the Meirinkan academy and promoted Western learning.',
+        },
+      },
     ],
     trivia: [
       { ja: '秋から冬にかけて雲海に包まれる姿から「天空の城」と呼ばれ、竹田城と並ぶ人気スポット。', zhTw: '因秋冬被雲海包圍的姿態而被稱為「天空之城」，與竹田城並列的人氣景點。', en: 'Wrapped in sea-of-clouds from autumn to winter, earning the name "Castle in the Sky" — rivaling Takeda Castle in popularity.' },
@@ -5373,8 +7592,22 @@ export const castles = [
       { ja: '復興天守は1968年に建てられた鉄筋コンクリート造だが、外観は江戸期の姿を再現。', zhTw: '復興天守建於1968年，為鋼筋混凝土造，但外觀再現了江戶時期的樣貌。', en: 'The 1968 reconstructed keep is reinforced concrete but faithfully reproduces the Edo-era exterior.' },
     ],
     highlights: [
-      { ja: '天空の城 — 10月～4月の早朝、雲海に浮かぶ幻想的な城の姿が見られる。', zhTw: '天空之城 — 10月至4月清晨可見漂浮在雲海中的夢幻城景。', en: 'Castle in the Sky — from October to April, early risers can see the castle floating above a sea of clouds.' },
-      { ja: '復興天守 — 亀山山頂に建つ二層三階の天守。大野盆地を360度見渡せる。', zhTw: '復興天守 — 建於龜山山頂的二層三階天守。可360度俯瞰大野盆地。', en: 'Reconstructed keep — a two-layer, three-story tower atop Kameyama with 360-degree views of the Ōno basin.' },
+      {
+        ja: '天空の城', zhTw: '天空之城', en: 'Castle in the Sky',
+        desc: {
+          ja: '10月～4月の早朝、雲海に浮かぶ幻想的な城の姿が見られる。',
+          zhTw: '10月至4月清晨可見漂浮在雲海中的夢幻城景。',
+          en: 'from October to April, early risers can see the castle floating above a sea of clouds.',
+        },
+      },
+      {
+        ja: '復興天守', zhTw: '復興天守', en: 'Reconstructed keep',
+        desc: {
+          ja: '亀山山頂に建つ二層三階の天守。大野盆地を360度見渡せる。',
+          zhTw: '建於龜山山頂的二層三階天守。可360度俯瞰大野盆地。',
+          en: 'a two-layer, three-story tower atop Kameyama with 360-degree views of the Ōno basin.',
+        },
+      },
       { ja: '野面積み石垣 — 金森長近時代の石垣が残り、築城当時の技術を伝える。', zhTw: '野面積石垣 — 金森長近時代的石垣殘存，傳承築城當時的技術。', en: 'Rough-stacked stone walls from Nagachika\'s era survive, conveying original construction techniques.' },
     ],
     architecture: [
@@ -5427,8 +7660,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '石田三成 — 豊臣政権の奉行。関ヶ原の戦いで大垣城を西軍の中心拠点とした。', zhTw: '石田三成 — 豐臣政權奉行。關原之戰中以大垣城為西軍中心據點。', en: 'Ishida Mitsunari — Toyotomi administrator who made Ōgaki the Western Army\'s central base at Sekigahara.' },
-      { ja: '戸田氏鉄 — 関ヶ原後に入封した譜代大名。戸田氏が幕末まで10代にわたり治めた。', zhTw: '戶田氏鐵 — 關原後入封的譜代大名。戶田氏治理了十代直到幕末。', en: 'Toda Ujikane — the fudai lord installed after Sekigahara; the Toda governed for ten generations to the Bakumatsu.' },
+      {
+        ja: '石田三成', zhTw: '石田三成', en: 'Ishida Mitsunari',
+        desc: {
+          ja: '豊臣政権の奉行。関ヶ原の戦いで大垣城を西軍の中心拠点とした。',
+          zhTw: '豐臣政權奉行。關原之戰中以大垣城為西軍中心據點。',
+          en: 'Toyotomi administrator who made Ōgaki the Western Army\'s central base at Sekigahara.',
+        },
+      },
+      {
+        ja: '戸田氏鉄', zhTw: '戶田氏鐵', en: 'Toda Ujikane',
+        desc: {
+          ja: '関ヶ原後に入封した譜代大名。戸田氏が幕末まで10代にわたり治めた。',
+          zhTw: '關原後入封的譜代大名。戶田氏治理了十代直到幕末。',
+          en: 'the fudai lord installed after Sekigahara; the Toda governed for ten generations to the Bakumatsu.',
+        },
+      },
     ],
     trivia: [
       { ja: '松尾芭蕉「奥の細道」の結びの地が大垣で、城近くに芭蕉の句碑がある。', zhTw: '松尾芭蕉「奧之細道」的終點在大垣，城附近有芭蕉的句碑。', en: 'Ōgaki is where Matsuo Bashō ended his "Narrow Road to the Deep North"; a haiku monument stands near the castle.' },
@@ -5436,9 +7683,30 @@ export const castles = [
       { ja: '戦前の国宝天守の写真が残っており、復興天守はその姿を忠実に再現している。', zhTw: '戰前國寶天守的照片留存，復興天守忠實再現了其樣貌。', en: 'Prewar photos of the National Treasure keep survive, and the reconstruction faithfully reproduces its form.' },
     ],
     highlights: [
-      { ja: '復興天守 — 四層四階の白壁の天守。関ヶ原合戦の展示が充実。', zhTw: '復興天守 — 四層四階白壁天守。關原合戰展示充實。', en: 'Reconstructed keep — a four-layer white-walled tower with extensive Sekigahara battle exhibits.' },
-      { ja: '戸田氏鉄公騎馬像 — 城前に立つ初代藩主の騎馬像。', zhTw: '戶田氏鐵公騎馬像 — 立於城前的初代藩主騎馬像。', en: 'Toda Ujikane equestrian statue — a mounted figure of the first domain lord standing before the castle.' },
-      { ja: '大垣城公園 — 堀と石垣に囲まれた憩いの場。春は桜の名所。', zhTw: '大垣城公園 — 被壕溝和石垣環繞的休憩之地。春天是賞櫻名所。', en: 'Ōgaki Castle Park — a peaceful spot enclosed by moats and walls, famous for spring cherry blossoms.' },
+      {
+        ja: '復興天守', zhTw: '復興天守', en: 'Reconstructed keep',
+        desc: {
+          ja: '四層四階の白壁の天守。関ヶ原合戦の展示が充実。',
+          zhTw: '四層四階白壁天守。關原合戰展示充實。',
+          en: 'a four-layer white-walled tower with extensive Sekigahara battle exhibits.',
+        },
+      },
+      {
+        ja: '戸田氏鉄公騎馬像', zhTw: '戶田氏鐵公騎馬像', en: 'Toda Ujikane equestrian statue',
+        desc: {
+          ja: '城前に立つ初代藩主の騎馬像。',
+          zhTw: '立於城前的初代藩主騎馬像。',
+          en: 'a mounted figure of the first domain lord standing before the castle.',
+        },
+      },
+      {
+        ja: '大垣城公園', zhTw: '大垣城公園', en: 'Ōgaki Castle Park',
+        desc: {
+          ja: '堀と石垣に囲まれた憩いの場。春は桜の名所。',
+          zhTw: '被壕溝和石垣環繞的休憩之地。春天是賞櫻名所。',
+          en: 'a peaceful spot enclosed by moats and walls, famous for spring cherry blossoms.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸・二の丸・三の丸を水堀で囲む輪郭式の平城。天守は四層四階の望楼型。', zhTw: '以水壕環繞本丸、二之丸、三之丸的輪郭式平城。天守為四層四階望樓型。', en: 'A concentric flatland castle with water moats ringing honmaru, ni-no-maru, and san-no-maru; the keep is a four-story watchtower type.' },
@@ -5490,17 +7758,52 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '織田信長 — 小牧山城で石垣を本格的に用いた城造りを初めて試み、後の安土城へとつながった。', zhTw: '織田信長 — 在小牧山城首次嘗試正式使用石垣的築城，連接到後來的安土城。', en: 'Oda Nobunaga — first experimented with full stone-wall construction here, foreshadowing Azuchi Castle.' },
-      { ja: '徳川家康 — 小牧・長久手の戦いでこの城を本陣とし、秀吉の大軍を相手に善戦した。', zhTw: '德川家康 — 小牧、長久手之戰中以此城為本陣，善戰對抗秀吉大軍。', en: 'Tokugawa Ieyasu — made this his headquarters at Komaki-Nagakute, holding his own against Hideyoshi\'s vast army.' },
+      {
+        ja: '織田信長', zhTw: '織田信長', en: 'Oda Nobunaga',
+        desc: {
+          ja: '小牧山城で石垣を本格的に用いた城造りを初めて試み、後の安土城へとつながった。',
+          zhTw: '在小牧山城首次嘗試正式使用石垣的築城，連接到後來的安土城。',
+          en: 'first experimented with full stone-wall construction here, foreshadowing Azuchi Castle.',
+        },
+      },
+      {
+        ja: '徳川家康', zhTw: '德川家康', en: 'Tokugawa Ieyasu',
+        desc: {
+          ja: '小牧・長久手の戦いでこの城を本陣とし、秀吉の大軍を相手に善戦した。',
+          zhTw: '小牧、長久手之戰中以此城為本陣，善戰對抗秀吉大軍。',
+          en: 'made this his headquarters at Komaki-Nagakute, holding his own against Hideyoshi\'s vast army.',
+        },
+      },
     ],
     trivia: [
       { ja: '2018年の発掘で信長時代の石垣が発見され、「石垣の城は安土城が最初」という定説が覆された。', zhTw: '2018年發掘發現信長時代的石垣，推翻了「石垣城始於安土城」的定論。', en: 'A 2018 excavation found Nobunaga-era walls, overturning the belief that Azuchi was the first stone-walled castle.' },
       { ja: '信長が城下町の原型を小牧山で試みたとされ、後の城下町設計の先駆けと評価される。', zhTw: '信長被認為在小牧山嘗試了城下町的原型，被評為後來城下町設計的先驅。', en: 'Nobunaga is believed to have prototyped the castle-town concept here, pioneering later jōkamachi design.' },
     ],
     highlights: [
-      { ja: '信長時代の石垣 — 近年発見された主郭の石垣。安土城以前の革新的遺構。', zhTw: '信長時代石垣 — 近年發現的主郭石垣。安土城之前的革新性遺構。', en: 'Nobunaga-era stone walls — recently discovered main-enclosure walls, a groundbreaking pre-Azuchi relic.' },
-      { ja: '小牧山歴史館 — 山頂の模擬天守内。信長と小牧・長久手の戦いの展示。', zhTw: '小牧山歷史館 — 山頂模擬天守內。信長與小牧、長久手之戰的展示。', en: 'Komakiyama History Museum — inside the hilltop mock keep, with exhibits on Nobunaga and the 1584 battle.' },
-      { ja: '山頂からの濃尾平野の眺望 — 信長が美濃を見据えた視点を追体験できる。', zhTw: '從山頂眺望濃尾平野 — 可追體驗信長注視美濃的視角。', en: 'Summit views of the Nōbi Plain — experience Nobunaga\'s vantage point as he planned the Mino campaign.' },
+      {
+        ja: '信長時代の石垣', zhTw: '信長時代石垣', en: 'Nobunaga-era stone walls',
+        desc: {
+          ja: '近年発見された主郭の石垣。安土城以前の革新的遺構。',
+          zhTw: '近年發現的主郭石垣。安土城之前的革新性遺構。',
+          en: 'recently discovered main-enclosure walls, a groundbreaking pre-Azuchi relic.',
+        },
+      },
+      {
+        ja: '小牧山歴史館', zhTw: '小牧山歷史館', en: 'Komakiyama History Museum',
+        desc: {
+          ja: '山頂の模擬天守内。信長と小牧・長久手の戦いの展示。',
+          zhTw: '山頂模擬天守內。信長與小牧、長久手之戰的展示。',
+          en: 'inside the hilltop mock keep, with exhibits on Nobunaga and the 1584 battle.',
+        },
+      },
+      {
+        ja: '山頂からの濃尾平野の眺望', zhTw: '從山頂眺望濃尾平野', en: 'Summit views of the Nōbi Plain',
+        desc: {
+          ja: '信長が美濃を見据えた視点を追体験できる。',
+          zhTw: '可追體驗信長注視美濃的視角。',
+          en: 'experience Nobunaga\'s vantage point as he planned the Mino campaign.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高86mの小牧山に築かれた平山城。主郭を中心に放射状に曲輪を配置。', zhTw: '建於標高86公尺小牧山的平山城。以主郭為中心放射狀配置曲輪。', en: 'A hilltop castle on 86 m Komakiyama, with baileys radiating from the main enclosure.' },
@@ -5545,8 +7848,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '馬場信春 — 武田四天王の一人。築城の名手として知られ、古宮城の縄張りを担当した。', zhTw: '馬場信春 — 武田四天王之一。以築城名手聞名，負責古宮城的繩張。', en: 'Baba Nobuharu — one of Takeda\'s Four Guardians, a master castle builder who designed Furumiya\'s layout.' },
-      { ja: '武田信玄 — 三河侵攻の野望をもち、古宮城を前線基地として築かせた。', zhTw: '武田信玄 — 懷有三河侵攻的野心，命人築建古宮城作為前線基地。', en: 'Takeda Shingen — driven by ambitions in Mikawa, he had Furumiya built as his forward operating base.' },
+      {
+        ja: '馬場信春', zhTw: '馬場信春', en: 'Baba Nobuharu',
+        desc: {
+          ja: '武田四天王の一人。築城の名手として知られ、古宮城の縄張りを担当した。',
+          zhTw: '武田四天王之一。以築城名手聞名，負責古宮城的繩張。',
+          en: 'one of Takeda\'s Four Guardians, a master castle builder who designed Furumiya\'s layout.',
+        },
+      },
+      {
+        ja: '武田信玄', zhTw: '武田信玄', en: 'Takeda Shingen',
+        desc: {
+          ja: '三河侵攻の野望をもち、古宮城を前線基地として築かせた。',
+          zhTw: '懷有三河侵攻的野心，命人築建古宮城作為前線基地。',
+          en: 'driven by ambitions in Mikawa, he had Furumiya built as his forward operating base.',
+        },
+      },
     ],
     trivia: [
       { ja: '白鳥神社の境内に城跡があり、神社の杉の巨木が城跡の雰囲気を一層引き立てる。', zhTw: '城跡位於白鳥神社境內，神社的巨杉更襯托出城跡的氛圍。', en: 'The ruins sit within Shiratori Shrine grounds, where giant cedars enhance the atmospheric setting.' },
@@ -5554,9 +7871,30 @@ export const castles = [
       { ja: '奥三河の山間部にひっそりと佇む隠れた名城で、訪れる人は少ないが評価は高い。', zhTw: '靜靜佇立於奧三河山間的隱藏名城，訪客雖少但評價甚高。', en: 'A hidden gem in the Oku-Mikawa mountains — few visitors, but highly regarded by experts.' },
     ],
     highlights: [
-      { ja: '主郭の堀切 — 尾根を断ち切る大堀切は圧巻の規模。', zhTw: '主郭堀切 — 切斷山脊的大堀切規模壯觀。', en: 'Main enclosure ridge-cut — a massive trench severing the ridgeline, impressive in scale.' },
-      { ja: '横堀群 — 山腹を巡る複数の横堀は武田流築城術の精華。', zhTw: '橫壕群 — 環繞山腹的多條橫壕是武田流築城術的精華。', en: 'Lateral moat system — multiple trenches ringing the hillside, showcasing Takeda fortification at its best.' },
-      { ja: '白鳥神社の巨杉 — 城跡を守るかのように立つ樹齢数百年の御神木。', zhTw: '白鳥神社巨杉 — 如守護城跡般矗立的數百年御神木。', en: 'Shiratori Shrine giant cedars — centuries-old sacred trees standing as if guarding the ruins.' },
+      {
+        ja: '主郭の堀切', zhTw: '主郭堀切', en: 'Main enclosure ridge-cut',
+        desc: {
+          ja: '尾根を断ち切る大堀切は圧巻の規模。',
+          zhTw: '切斷山脊的大堀切規模壯觀。',
+          en: 'a massive trench severing the ridgeline, impressive in scale.',
+        },
+      },
+      {
+        ja: '横堀群', zhTw: '橫壕群', en: 'Lateral moat system',
+        desc: {
+          ja: '山腹を巡る複数の横堀は武田流築城術の精華。',
+          zhTw: '環繞山腹的多條橫壕是武田流築城術的精華。',
+          en: 'multiple trenches ringing the hillside, showcasing Takeda fortification at its best.',
+        },
+      },
+      {
+        ja: '白鳥神社の巨杉', zhTw: '白鳥神社巨杉', en: 'Shiratori Shrine giant cedars',
+        desc: {
+          ja: '城跡を守るかのように立つ樹齢数百年の御神木。',
+          zhTw: '如守護城跡般矗立的數百年御神木。',
+          en: 'centuries-old sacred trees standing as if guarding the ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高301mの丘に築かれた小規模ながら精緻な縄張りの山城。', zhTw: '建於標高301公尺丘陵上，規模雖小但繩張精緻的山城。', en: 'A compact but meticulously designed mountain castle on a 301 m hill.' },
@@ -5610,16 +7948,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '酒井忠次 — 徳川四天王の筆頭。長篠の戦いで鳶ヶ巣山急襲を成功させた勇将。', zhTw: '酒井忠次 — 德川四天王之首。長篠之戰中成功急襲鳶巢山的勇將。', en: 'Sakai Tadatsugu — head of the Four Heavenly Kings, famed for the surprise attack at Tobigasu at Nagashino.' },
-      { ja: '池田輝政 — 吉田城を大改修した名城主。後に姫路城を築いた「姫路宰相」。', zhTw: '池田輝政 — 大幅改建吉田城的名城主。後來築建姫路城的「姫路宰相」。', en: 'Ikeda Terumasa — the lord who extensively renovated Yoshida, later known as the "Chancellor of Himeji" for building Himeji Castle.' },
+      {
+        ja: '酒井忠次', zhTw: '酒井忠次', en: 'Sakai Tadatsugu',
+        desc: {
+          ja: '徳川四天王の筆頭。長篠の戦いで鳶ヶ巣山急襲を成功させた勇将。',
+          zhTw: '德川四天王之首。長篠之戰中成功急襲鳶巢山的勇將。',
+          en: 'head of the Four Heavenly Kings, famed for the surprise attack at Tobigasu at Nagashino.',
+        },
+      },
+      {
+        ja: '池田輝政', zhTw: '池田輝政', en: 'Ikeda Terumasa',
+        desc: {
+          ja: '吉田城を大改修した名城主。後に姫路城を築いた「姫路宰相」。',
+          zhTw: '大幅改建吉田城的名城主。後來築建姫路城的「姫路宰相」。',
+          en: 'the lord who extensively renovated Yoshida, later known as the "Chancellor of Himeji" for building Himeji Castle.',
+        },
+      },
     ],
     trivia: [
       { ja: '歌川広重の東海道五十三次「吉田」には吉田城の櫓と城下の賑わいが描かれている。', zhTw: '歌川廣重的東海道五十三次「吉田」描繪了吉田城的櫓與城下的熱鬧景象。', en: 'Hiroshige\'s "Yoshida" in the Fifty-Three Stations of the Tōkaidō depicts the castle turret and bustling town.' },
       { ja: '豊橋の手筒花火は吉田神社の祭礼が起源で、城下町の伝統文化として受け継がれている。', zhTw: '豐橋的手筒煙火起源於吉田神社的祭禮，作為城下町的傳統文化傳承至今。', en: 'Toyohashi\'s hand-held fireworks originated from Yoshida Shrine festivals, a castle-town tradition still alive today.' },
     ],
     highlights: [
-      { ja: '鉄櫓（復元） — 豊川を背にそびえる吉田城のシンボル。川面に映る姿が美しい。', zhTw: '鐵櫓（復原） — 背對豐川聳立的吉田城象徵。映照在河面的姿態很美。', en: 'Iron turret (reconstructed) — Yoshida\'s symbol towering above the Toyo River, beautifully reflected in the water.' },
-      { ja: '豊川越しの眺望 — 鉄櫓から豊川と東三河の平野を一望する。', zhTw: '豐川越景 — 從鐵櫓可一覽豐川與東三河平野。', en: 'Toyo River panorama — sweeping views from the turret across the river and the eastern Mikawa plain.' },
+      {
+        ja: '鉄櫓（復元）', zhTw: '鐵櫓（復原）', en: 'Iron turret (reconstructed)',
+        desc: {
+          ja: '豊川を背にそびえる吉田城のシンボル。川面に映る姿が美しい。',
+          zhTw: '背對豐川聳立的吉田城象徵。映照在河面的姿態很美。',
+          en: 'Yoshida\'s symbol towering above the Toyo River, beautifully reflected in the water.',
+        },
+      },
+      {
+        ja: '豊川越しの眺望', zhTw: '豐川越景', en: 'Toyo River panorama',
+        desc: {
+          ja: '鉄櫓から豊川と東三河の平野を一望する。',
+          zhTw: '從鐵櫓可一覽豐川與東三河平野。',
+          en: 'sweeping views from the turret across the river and the eastern Mikawa plain.',
+        },
+      },
     ],
     architecture: [
       { ja: '豊川に面した断崖を天然の堀とする平城。北は川、三方を水堀で囲む。', zhTw: '以面向豐川的斷崖為天然壕溝的平城。北面為河，三面以水壕環繞。', en: 'A flatland castle using the Toyo River cliff as a natural moat; the river guards the north, water moats the other sides.' },
@@ -5671,17 +8037,52 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '藤堂高虎 — 築城の名手。今治城・伊賀上野城なども手がけた城造りの天才。', zhTw: '藤堂高虎 — 築城名手。也負責今治城、伊賀上野城等的築城天才。', en: 'Tōdō Takatora — a genius castle builder who also designed Imabari and Iga-Ueno castles.' },
-      { ja: '織田信包 — 信長の弟。本能寺の変後も生き延び、津の基礎を築いた。', zhTw: '織田信包 — 信長之弟。本能寺之變後仍存活，奠定了津的基礎。', en: 'Oda Nobukane — Nobunaga\'s brother who survived Honnō-ji and laid Tsu\'s foundations.' },
+      {
+        ja: '藤堂高虎', zhTw: '藤堂高虎', en: 'Tōdō Takatora',
+        desc: {
+          ja: '築城の名手。今治城・伊賀上野城なども手がけた城造りの天才。',
+          zhTw: '築城名手。也負責今治城、伊賀上野城等的築城天才。',
+          en: 'a genius castle builder who also designed Imabari and Iga-Ueno castles.',
+        },
+      },
+      {
+        ja: '織田信包', zhTw: '織田信包', en: 'Oda Nobukane',
+        desc: {
+          ja: '信長の弟。本能寺の変後も生き延び、津の基礎を築いた。',
+          zhTw: '信長之弟。本能寺之變後仍存活，奠定了津的基礎。',
+          en: 'Nobunaga\'s brother who survived Honnō-ji and laid Tsu\'s foundations.',
+        },
+      },
     ],
     trivia: [
       { ja: '「津」は日本一短い地名で、城名も「津城」の二文字と最短クラス。', zhTw: '「津」是日本最短的地名，城名「津城」兩字也是最短等級。', en: '"Tsu" is Japan\'s shortest place name, and "Tsu Castle" is among the shortest castle names.' },
       { ja: '藤堂高虎は生涯で主君を7度替えた異色の経歴を持つが、築城技術は天下一と称された。', zhTw: '藤堂高虎一生更換了7次主君的異色經歷，但築城技術被稱為天下第一。', en: 'Takatora served seven masters in his career — unusual — but his castle-building skill was called the finest in Japan.' },
     ],
     highlights: [
-      { ja: '本丸石垣 — 藤堂高虎が築いた高石垣が内堀沿いに残り、築城技術を堪能できる。', zhTw: '本丸石垣 — 藤堂高虎築建的高石垣沿內壕殘存，可欣賞築城技術。', en: 'Honmaru stone walls — Takatora\'s tall walls along the inner moat, showcasing his engineering mastery.' },
-      { ja: '内堀と丑寅櫓台 — 復元された三重の丑寅櫓台から城の規模が偲ばれる。', zhTw: '內壕與丑寅櫓台 — 從復原的三重丑寅櫓台可追憶城的規模。', en: 'Inner moat and northeast turret platform — the reconstructed platform hints at the castle\'s former scale.' },
-      { ja: '高山神社 — 藤堂高虎を祀る城内の神社。', zhTw: '高山神社 — 祭祀藤堂高虎的城內神社。', en: 'Takayama Shrine — dedicated to Tōdō Takatora within the castle grounds.' },
+      {
+        ja: '本丸石垣', zhTw: '本丸石垣', en: 'Honmaru stone walls',
+        desc: {
+          ja: '藤堂高虎が築いた高石垣が内堀沿いに残り、築城技術を堪能できる。',
+          zhTw: '藤堂高虎築建的高石垣沿內壕殘存，可欣賞築城技術。',
+          en: 'Takatora\'s tall walls along the inner moat, showcasing his engineering mastery.',
+        },
+      },
+      {
+        ja: '内堀と丑寅櫓台', zhTw: '內壕與丑寅櫓台', en: 'Inner moat and northeast turret platform',
+        desc: {
+          ja: '復元された三重の丑寅櫓台から城の規模が偲ばれる。',
+          zhTw: '從復原的三重丑寅櫓台可追憶城的規模。',
+          en: 'the reconstructed platform hints at the castle\'s former scale.',
+        },
+      },
+      {
+        ja: '高山神社', zhTw: '高山神社', en: 'Takayama Shrine',
+        desc: {
+          ja: '藤堂高虎を祀る城内の神社。',
+          zhTw: '祭祀藤堂高虎的城內神社。',
+          en: 'dedicated to Tōdō Takatora within the castle grounds.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸を二重の水堀で囲む輪郭式平城。藤堂高虎が得意とする高石垣と広い堀が特徴。', zhTw: '以雙重水壕環繞本丸的輪郭式平城。以藤堂高虎擅長的高石垣和寬壕溝為特色。', en: 'A concentric flatland castle with double water moats; tall stone walls and wide moats — Takatora\'s signature style.' },
@@ -5734,17 +8135,52 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '北畠顕能 — 北畠親房の三男。南朝方として伊勢に入り、北畠氏伊勢支配の祖となった。', zhTw: '北畠顯能 — 北畠親房三男。以南朝方進入伊勢，成為北畠氏伊勢支配之祖。', en: 'Kitabatake Akinō — Chikafusa\'s third son, who entered Ise for the Southern Court and founded Kitabatake rule there.' },
-      { ja: '北畠具教 — 剣豪としても知られた最後の国司。塚原卜伝に師事した達人。', zhTw: '北畠具教 — 作為劍豪也聞名的最後國司。師從塚原卜傳的達人。', en: 'Kitabatake Tomonori — the last governor, also renowned as a swordsman who trained under Tsukahara Bokuden.' },
+      {
+        ja: '北畠顕能', zhTw: '北畠顯能', en: 'Kitabatake Akinō',
+        desc: {
+          ja: '北畠親房の三男。南朝方として伊勢に入り、北畠氏伊勢支配の祖となった。',
+          zhTw: '北畠親房三男。以南朝方進入伊勢，成為北畠氏伊勢支配之祖。',
+          en: 'Chikafusa\'s third son, who entered Ise for the Southern Court and founded Kitabatake rule there.',
+        },
+      },
+      {
+        ja: '北畠具教', zhTw: '北畠具教', en: 'Kitabatake Tomonori',
+        desc: {
+          ja: '剣豪としても知られた最後の国司。塚原卜伝に師事した達人。',
+          zhTw: '作為劍豪也聞名的最後國司。師從塚原卜傳的達人。',
+          en: 'the last governor, also renowned as a swordsman who trained under Tsukahara Bokuden.',
+        },
+      },
     ],
     trivia: [
       { ja: '北畠神社の境内にある庭園は室町時代の作庭で、国の名勝・史跡に指定されている。', zhTw: '北畠神社境內的庭園為室町時代的造園，被指定為國家名勝、史跡。', en: 'The garden within Kitabatake Shrine dates to the Muromachi period and is designated a National Place of Scenic Beauty.' },
       { ja: '北畠親房の「神皇正統記」は南朝の正統性を主張した日本思想史の重要書。', zhTw: '北畠親房的《神皇正統記》是主張南朝正統性的日本思想史重要著作。', en: 'Chikafusa\'s "Jinnō Shōtōki" is a seminal text asserting the Southern Court\'s legitimacy in Japanese intellectual history.' },
     ],
     highlights: [
-      { ja: '北畠氏館跡庭園 — 室町期の池泉回遊式庭園。国の名勝に指定。', zhTw: '北畠氏館跡庭園 — 室町時期的池泉回遊式庭園。指定為國家名勝。', en: 'Kitabatake Residence Garden — a Muromachi-period strolling pond garden, a designated National Scenic Site.' },
-      { ja: '北畠神社 — 館跡に建つ北畠氏を祀る神社。', zhTw: '北畠神社 — 建於館跡的北畠氏神社。', en: 'Kitabatake Shrine — a shrine on the residence site dedicated to the Kitabatake clan.' },
-      { ja: '詰城・霧山城跡 — 館の背後の山にある詰城からの眺望。', zhTw: '詰城、霧山城跡 — 從館背後山上的詰城眺望。', en: 'Kiriyama Castle ruins — the refuge castle on the mountain behind the residence, with sweeping views.' },
+      {
+        ja: '北畠氏館跡庭園', zhTw: '北畠氏館跡庭園', en: 'Kitabatake Residence Garden',
+        desc: {
+          ja: '室町期の池泉回遊式庭園。国の名勝に指定。',
+          zhTw: '室町時期的池泉回遊式庭園。指定為國家名勝。',
+          en: 'a Muromachi-period strolling pond garden, a designated National Scenic Site.',
+        },
+      },
+      {
+        ja: '北畠神社', zhTw: '北畠神社', en: 'Kitabatake Shrine',
+        desc: {
+          ja: '館跡に建つ北畠氏を祀る神社。',
+          zhTw: '建於館跡的北畠氏神社。',
+          en: 'a shrine on the residence site dedicated to the Kitabatake clan.',
+        },
+      },
+      {
+        ja: '詰城・霧山城跡', zhTw: '詰城、霧山城跡', en: 'Kiriyama Castle ruins',
+        desc: {
+          ja: '館の背後の山にある詰城からの眺望。',
+          zhTw: '從館背後山上的詰城眺望。',
+          en: 'the refuge castle on the mountain behind the residence, with sweeping views.',
+        },
+      },
     ],
     architecture: [
       { ja: '平地の居館と背後の山に詰城（霧山城）を配した中世武家居館の典型的な構成。', zhTw: '平地居館與背後山上配置詰城（霧山城）的中世武家居館典型構成。', en: 'A classic medieval warrior-residence layout: a flatland mansion with a refuge castle (Kiriyama) on the mountain behind.' },
@@ -5790,16 +8226,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '北畠親房 — 南朝の重鎮。「神皇正統記」の著者で、田丸城を南朝の前線基地とした。', zhTw: '北畠親房 — 南朝重臣。《神皇正統記》作者，以田丸城為南朝前線基地。', en: 'Kitabatake Chikafusa — Southern Court pillar and author of "Jinnō Shōtōki," who used Tamaru as his front-line base.' },
-      { ja: '織田信雄 — 信長の次男。北畠氏を継いだが、本能寺の変後は秀吉と対立した。', zhTw: '織田信雄 — 信長次男。繼承北畠氏，但本能寺之變後與秀吉對立。', en: 'Oda Nobukatsu — Nobunaga\'s second son who inherited the Kitabatake name, later clashing with Hideyoshi.' },
+      {
+        ja: '北畠親房', zhTw: '北畠親房', en: 'Kitabatake Chikafusa',
+        desc: {
+          ja: '南朝の重鎮。「神皇正統記」の著者で、田丸城を南朝の前線基地とした。',
+          zhTw: '南朝重臣。《神皇正統記》作者，以田丸城為南朝前線基地。',
+          en: 'Southern Court pillar and author of "Jinnō Shōtōki," who used Tamaru as his front-line base.',
+        },
+      },
+      {
+        ja: '織田信雄', zhTw: '織田信雄', en: 'Oda Nobukatsu',
+        desc: {
+          ja: '信長の次男。北畠氏を継いだが、本能寺の変後は秀吉と対立した。',
+          zhTw: '信長次男。繼承北畠氏，但本能寺之變後與秀吉對立。',
+          en: 'Nobunaga\'s second son who inherited the Kitabatake name, later clashing with Hideyoshi.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守台の石垣が美しく残り、三重県内で天守台が残る数少ない城の一つ。', zhTw: '天守台石垣保存完好，是三重縣內少數殘存天守台的城之一。', en: 'The keep platform\'s stone walls survive beautifully — one of few castles in Mie with an intact keep platform.' },
       { ja: '玉城町の町名は田丸城に由来し、城は地域のアイデンティティの中心。', zhTw: '玉城町的町名源自田丸城，城是地區認同的中心。', en: 'The town name Tamaki derives from Tamaru Castle — the castle remains central to the community\'s identity.' },
     ],
     highlights: [
-      { ja: '天守台石垣 — 織田信雄時代の石垣が見事に残る。城跡最大の見どころ。', zhTw: '天守台石垣 — 織田信雄時代的石垣保存完好。城跡最大看點。', en: 'Keep platform walls — splendidly preserved stonework from Nobukatsu\'s era, the site\'s top attraction.' },
-      { ja: '本丸からの伊勢平野の眺望 — お伊勢参りの街道を見下ろす景色。', zhTw: '從本丸眺望伊勢平野 — 俯瞰伊勢參拜街道的景色。', en: 'Honmaru views of the Ise Plain — overlooking the pilgrimage road to Ise Grand Shrine.' },
+      {
+        ja: '天守台石垣', zhTw: '天守台石垣', en: 'Keep platform walls',
+        desc: {
+          ja: '織田信雄時代の石垣が見事に残る。城跡最大の見どころ。',
+          zhTw: '織田信雄時代的石垣保存完好。城跡最大看點。',
+          en: 'splendidly preserved stonework from Nobukatsu\'s era, the site\'s top attraction.',
+        },
+      },
+      {
+        ja: '本丸からの伊勢平野の眺望', zhTw: '從本丸眺望伊勢平野', en: 'Honmaru views of the Ise Plain',
+        desc: {
+          ja: 'お伊勢参りの街道を見下ろす景色。',
+          zhTw: '俯瞰伊勢參拜街道的景色。',
+          en: 'overlooking the pilgrimage road to Ise Grand Shrine.',
+        },
+      },
     ],
     architecture: [
       { ja: '丘陵に本丸・二の丸・北の丸を配した梯郭式の平山城。', zhTw: '在丘陵上配置本丸、二之丸、北之丸的梯郭式平山城。', en: 'A tiered hilltop castle with honmaru, ni-no-maru, and kita-no-maru on the hill.' },
@@ -5843,7 +8307,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '藤堂高虎 — 築城名人として知られ、紀伊山中の要害に見事な石垣の城を築いた。', zhTw: '藤堂高虎 — 以築城名人聞名，在紀伊山中要害築建了精美石垣的城。', en: 'Tōdō Takatora — renowned castle builder who raised impressive stone walls deep in the Kii mountains.' },
+      {
+        ja: '藤堂高虎', zhTw: '藤堂高虎', en: 'Tōdō Takatora',
+        desc: {
+          ja: '築城名人として知られ、紀伊山中の要害に見事な石垣の城を築いた。',
+          zhTw: '以築城名人聞名，在紀伊山中要害築建了精美石垣的城。',
+          en: 'renowned castle builder who raised impressive stone walls deep in the Kii mountains.',
+        },
+      },
     ],
     trivia: [
       { ja: '「藤堂高虎の築城術を最もよく伝える城」として専門家から高く評価されている。', zhTw: '被專家高度評價為「最能傳達藤堂高虎築城術的城」。', en: 'Experts consider it "the castle that best conveys Tōdō Takatora\'s fortification art."' },
@@ -5851,9 +8322,30 @@ export const castles = [
       { ja: '秋の早朝には雲海に浮かぶ姿が見られ、「もう一つの天空の城」と呼ばれることも。', zhTw: '秋天清晨可見漂浮在雲海中的姿態，有時被稱為「另一座天空之城」。', en: 'On autumn mornings it floats in a sea of clouds, sometimes called "another castle in the sky."' },
     ],
     highlights: [
-      { ja: '本丸石垣 — 藤堂高虎の初期の築城技術を伝える精緻な石垣群。', zhTw: '本丸石垣 — 傳達藤堂高虎初期築城技術的精緻石垣群。', en: 'Honmaru stone walls — refined stonework conveying Takatora\'s early fortification techniques.' },
-      { ja: '虎口（枡形） — 巧みに設計された城の入口。高虎の防御思想が凝縮されている。', zhTw: '虎口（枡形） — 巧妙設計的城入口。凝縮了高虎的防禦思想。', en: 'Bent entrance (masugata) — an ingeniously designed gateway embodying Takatora\'s defensive philosophy.' },
-      { ja: '紀伊山地の絶景 — 山深い場所ならではの雄大な自然の眺望。', zhTw: '紀伊山地絕景 — 深山獨有的壯闊自然眺望。', en: 'Kii mountain panorama — majestic natural scenery unique to this remote mountain location.' },
+      {
+        ja: '本丸石垣', zhTw: '本丸石垣', en: 'Honmaru stone walls',
+        desc: {
+          ja: '藤堂高虎の初期の築城技術を伝える精緻な石垣群。',
+          zhTw: '傳達藤堂高虎初期築城技術的精緻石垣群。',
+          en: 'refined stonework conveying Takatora\'s early fortification techniques.',
+        },
+      },
+      {
+        ja: '虎口（枡形）', zhTw: '虎口（枡形）', en: 'Bent entrance (masugata)',
+        desc: {
+          ja: '巧みに設計された城の入口。高虎の防御思想が凝縮されている。',
+          zhTw: '巧妙設計的城入口。凝縮了高虎的防禦思想。',
+          en: 'an ingeniously designed gateway embodying Takatora\'s defensive philosophy.',
+        },
+      },
+      {
+        ja: '紀伊山地の絶景', zhTw: '紀伊山地絕景', en: 'Kii mountain panorama',
+        desc: {
+          ja: '山深い場所ならではの雄大な自然の眺望。',
+          zhTw: '深山獨有的壯闊自然眺望。',
+          en: 'majestic natural scenery unique to this remote mountain location.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高230mの丘陵に築かれた石垣造りの平山城。主郭を中心に東郭・北郭を配す。', zhTw: '建於標高230公尺丘陵的石垣造平山城。以主郭為中心配置東郭、北郭。', en: 'A stone-walled hilltop castle at 230 m, with east and north enclosures around the main bailey.' },
@@ -5896,7 +8388,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '堀秀村 — 鎌刃城最後の城主。樋口直房（後の堀秀政の父とされる）が家老として補佐した。', zhTw: '堀秀村 — 鎌刃城最後的城主。樋口直房（後被認為是堀秀政之父）作為家老輔佐。', en: 'Hori Hidemura — last lord of Kamaha, assisted by his chief retainer Higuchi Naofusa.' },
+      {
+        ja: '堀秀村', zhTw: '堀秀村', en: 'Hori Hidemura',
+        desc: {
+          ja: '鎌刃城最後の城主。樋口直房（後の堀秀政の父とされる）が家老として補佐した。',
+          zhTw: '鎌刃城最後的城主。樋口直房（後被認為是堀秀政之父）作為家老輔佐。',
+          en: 'last lord of Kamaha, assisted by his chief retainer Higuchi Naofusa.',
+        },
+      },
     ],
     trivia: [
       { ja: '中山道の番場宿に隣接し、交通の要衝を押さえる国境の城として重要だった。', zhTw: '鄰接中山道番場宿，作為控制交通要衝的國境之城而重要。', en: 'Adjacent to Banba-juku on the Nakasendō, it was vital as a border castle commanding a major road.' },
@@ -5904,9 +8403,30 @@ export const castles = [
       { ja: '2017年に国史跡に指定され、近年は整備が進み訪問しやすくなっている。', zhTw: '2017年被指定為國史跡，近年整備進展使訪問更加便利。', en: 'Designated a National Historic Site in 2017, recent improvements have made it more accessible.' },
     ],
     highlights: [
-      { ja: '大堀切 — 南北の曲輪を分断する巨大な堀切は必見。', zhTw: '大堀切 — 分隔南北曲輪的巨大堀切必看。', en: 'Great ridge-cut — the massive trench dividing the north and south enclosures is a must-see.' },
-      { ja: '主郭の石垣 — 戦国時代の山城としては珍しい本格的な石垣が残る。', zhTw: '主郭石垣 — 作為戰國時代山城罕見的正式石垣殘存。', en: 'Main enclosure stone walls — unusually sophisticated stonework for a Sengoku mountain castle.' },
-      { ja: '枡形虎口 — 折れ曲がった城門の構造が良好に残る。', zhTw: '枡形虎口 — 彎折的城門結構保存良好。', en: 'Bent entrance — the zigzag gateway structure is well preserved.' },
+      {
+        ja: '大堀切', zhTw: '大堀切', en: 'Great ridge-cut',
+        desc: {
+          ja: '南北の曲輪を分断する巨大な堀切は必見。',
+          zhTw: '分隔南北曲輪的巨大堀切必看。',
+          en: 'the massive trench dividing the north and south enclosures is a must-see.',
+        },
+      },
+      {
+        ja: '主郭の石垣', zhTw: '主郭石垣', en: 'Main enclosure stone walls',
+        desc: {
+          ja: '戦国時代の山城としては珍しい本格的な石垣が残る。',
+          zhTw: '作為戰國時代山城罕見的正式石垣殘存。',
+          en: 'unusually sophisticated stonework for a Sengoku mountain castle.',
+        },
+      },
+      {
+        ja: '枡形虎口', zhTw: '枡形虎口', en: 'Bent entrance',
+        desc: {
+          ja: '折れ曲がった城門の構造が良好に残る。',
+          zhTw: '彎折的城門結構保存良好。',
+          en: 'the zigzag gateway structure is well preserved.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高384mの山頂に南北に曲輪を連ねた連郭式山城。大堀切で南北を明確に分断。', zhTw: '在標高384公尺的山頂南北連接曲輪的連郭式山城。以大堀切明確分隔南北。', en: 'A linked-enclosure mountain castle at 384 m, with a great ridge-cut clearly dividing north and south.' },
@@ -5953,16 +8473,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '豊臣秀次 — 秀吉の甥で養嗣子。関白にまで昇りつめたが、秀頼誕生後に悲劇的な最期を遂げた。', zhTw: '豐臣秀次 — 秀吉的姪子兼養嗣子。升至關白但秀賴出生後悲劇性地死去。', en: 'Toyotomi Hidetsugu — Hideyoshi\'s nephew and adopted heir who rose to regent, but met a tragic end after Hideyori\'s birth.' },
+      {
+        ja: '豊臣秀次', zhTw: '豐臣秀次', en: 'Toyotomi Hidetsugu',
+        desc: {
+          ja: '秀吉の甥で養嗣子。関白にまで昇りつめたが、秀頼誕生後に悲劇的な最期を遂げた。',
+          zhTw: '秀吉的姪子兼養嗣子。升至關白但秀賴出生後悲劇性地死去。',
+          en: 'Hideyoshi\'s nephew and adopted heir who rose to regent, but met a tragic end after Hideyori\'s birth.',
+        },
+      },
     ],
     trivia: [
       { ja: '近江八幡の水郷と町並みは重要文化的景観に選定され、城下町の面影を今に伝える。', zhTw: '近江八幡的水鄉與街道被選定為重要文化景觀，傳承城下町的風貌至今。', en: 'Ōmi-Hachiman\'s canals and streetscapes are a designated Important Cultural Landscape, preserving the castle-town atmosphere.' },
       { ja: 'ロープウェーで山頂まで登れ、琵琶湖と近江平野の大パノラマが楽しめる。', zhTw: '可搭纜車登上山頂，享受琵琶湖與近江平野的大全景。', en: 'A ropeway ascends to the summit, offering grand panoramic views of Lake Biwa and the Ōmi plain.' },
     ],
     highlights: [
-      { ja: '石垣と眺望 — 山頂に残る石垣から琵琶湖を一望。安土城跡も遠望できる。', zhTw: '石垣與眺望 — 從山頂殘存的石垣一覽琵琶湖。也可遠眺安土城跡。', en: 'Stone walls and views — Lake Biwa panorama from the summit walls, with distant views of Azuchi Castle ruins.' },
-      { ja: '近江八幡の水郷めぐり — 城下に残る水路を船で巡る風情ある体験。', zhTw: '近江八幡水鄉巡遊 — 搭船巡遊城下殘存水路的風情體驗。', en: 'Ōmi-Hachiman canal cruise — an atmospheric boat ride through the castle town\'s historic waterways.' },
-      { ja: '八幡堀 — 秀次が築いた城下の堀。時代劇のロケ地としても有名。', zhTw: '八幡堀 — 秀次築建的城下壕溝。也以時代劇外景地聞名。', en: 'Hachiman-bori moat — Hidetsugu\'s castle-town canal, famous as a filming location for period dramas.' },
+      {
+        ja: '石垣と眺望', zhTw: '石垣與眺望', en: 'Stone walls and views',
+        desc: {
+          ja: '山頂に残る石垣から琵琶湖を一望。安土城跡も遠望できる。',
+          zhTw: '從山頂殘存的石垣一覽琵琶湖。也可遠眺安土城跡。',
+          en: 'Lake Biwa panorama from the summit walls, with distant views of Azuchi Castle ruins.',
+        },
+      },
+      {
+        ja: '近江八幡の水郷めぐり', zhTw: '近江八幡水鄉巡遊', en: 'Ōmi-Hachiman canal cruise',
+        desc: {
+          ja: '城下に残る水路を船で巡る風情ある体験。',
+          zhTw: '搭船巡遊城下殘存水路的風情體驗。',
+          en: 'an atmospheric boat ride through the castle town\'s historic waterways.',
+        },
+      },
+      {
+        ja: '八幡堀', zhTw: '八幡堀', en: 'Hachiman-bori moat',
+        desc: {
+          ja: '秀次が築いた城下の堀。時代劇のロケ地としても有名。',
+          zhTw: '秀次築建的城下壕溝。也以時代劇外景地聞名。',
+          en: 'Hidetsugu\'s castle-town canal, famous as a filming location for period dramas.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高271mの八幡山に築かれた山城。山頂に本丸、中腹に居館を配した。', zhTw: '建於標高271公尺八幡山的山城。山頂配置本丸，山腰配置居館。', en: 'A mountain castle on 271 m Hachimanyama, with the honmaru on the summit and residence quarters midway.' },
@@ -6014,7 +8562,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '明智光秀 — 本能寺の変の首謀者として知られるが、福知山では領民思いの名君として評価される。', zhTw: '明智光秀 — 以本能寺之變首謀者聞名，但在福知山被評為體恤領民的名君。', en: 'Akechi Mitsuhide — known as the mastermind of Honnō-ji, but valued in Fukuchiyama as a lord who cared for his people.' },
+      {
+        ja: '明智光秀', zhTw: '明智光秀', en: 'Akechi Mitsuhide',
+        desc: {
+          ja: '本能寺の変の首謀者として知られるが、福知山では領民思いの名君として評価される。',
+          zhTw: '以本能寺之變首謀者聞名，但在福知山被評為體恤領民的名君。',
+          en: 'known as the mastermind of Honnō-ji, but valued in Fukuchiyama as a lord who cared for his people.',
+        },
+      },
     ],
     trivia: [
       { ja: '2020年のNHK大河ドラマ「麒麟がくる」で光秀が主人公となり、福知山城への注目が高まった。', zhTw: '2020年NHK大河劇「麒麟來了」以光秀為主角，福知山城受到更多關注。', en: 'The 2020 NHK taiga drama "Kirin ga Kuru" featured Mitsuhide as protagonist, raising Fukuchiyama\'s profile.' },
@@ -6022,9 +8577,30 @@ export const castles = [
       { ja: '福知山では毎年「光秀まつり」が行われ、「謀反人」ではなく「名君」として顕彰される。', zhTw: '福知山每年舉辦「光秀祭」，不是作為「叛臣」而是作為「名君」被表彰。', en: 'Fukuchiyama holds an annual "Mitsuhide Festival," honoring him not as a traitor but as a wise ruler.' },
     ],
     highlights: [
-      { ja: '復興天守 — 1986年に復興された望楼型天守。光秀と福知山の歴史展示。', zhTw: '復興天守 — 1986年復興的望樓型天守。光秀與福知山的歷史展示。', en: 'Reconstructed keep — a 1986 watchtower-type keep with exhibits on Mitsuhide and Fukuchiyama\'s history.' },
-      { ja: '転用石の石垣 — 墓石や石仏が石垣に組み込まれた独特の遺構。', zhTw: '轉用石石垣 — 墓石和石佛被嵌入石垣的獨特遺構。', en: 'Repurposed-stone walls — tombstones and Buddhist statues built into the walls, a unique feature.' },
-      { ja: '御霊神社 — 光秀を祀る城下の神社。地元の光秀敬愛を物語る。', zhTw: '御靈神社 — 祭祀光秀的城下神社。訴說當地對光秀的敬愛。', en: 'Goryō Shrine — a castle-town shrine dedicated to Mitsuhide, reflecting local devotion.' },
+      {
+        ja: '復興天守', zhTw: '復興天守', en: 'Reconstructed keep',
+        desc: {
+          ja: '1986年に復興された望楼型天守。光秀と福知山の歴史展示。',
+          zhTw: '1986年復興的望樓型天守。光秀與福知山的歷史展示。',
+          en: 'a 1986 watchtower-type keep with exhibits on Mitsuhide and Fukuchiyama\'s history.',
+        },
+      },
+      {
+        ja: '転用石の石垣', zhTw: '轉用石石垣', en: 'Repurposed-stone walls',
+        desc: {
+          ja: '墓石や石仏が石垣に組み込まれた独特の遺構。',
+          zhTw: '墓石和石佛被嵌入石垣的獨特遺構。',
+          en: 'tombstones and Buddhist statues built into the walls, a unique feature.',
+        },
+      },
+      {
+        ja: '御霊神社', zhTw: '御靈神社', en: 'Goryō Shrine',
+        desc: {
+          ja: '光秀を祀る城下の神社。地元の光秀敬愛を物語る。',
+          zhTw: '祭祀光秀的城下神社。訴說當地對光秀的敬愛。',
+          en: 'a castle-town shrine dedicated to Mitsuhide, reflecting local devotion.',
+        },
+      },
     ],
     architecture: [
       { ja: '横山丘陵に築かれた平山城。本丸・二の丸を石垣で固め、水堀で囲む。', zhTw: '建於横山丘陵的平山城。以石垣鞏固本丸、二之丸，以水壕環繞。', en: 'A hilltop castle on Yokoyama hill, with stone-walled honmaru and ni-no-maru encircled by water moats.' },
@@ -6075,16 +8651,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '三好長慶 — 織田信長に先駆けて畿内を統一し、室町幕府を事実上掌握した「最初の天下人」。', zhTw: '三好長慶 — 先於織田信長統一畿內，事實上掌握室町幕府的「最初的天下人」。', en: 'Miyoshi Nagayoshi — "the first unifier" who controlled the Kinai and effectively dominated the Muromachi Shōgunate before Nobunaga.' },
-      { ja: '足利義輝 — 室町幕府第13代将軍。三好長慶との権力闘争の末に芥川山城に幽閉されたこともある。', zhTw: '足利義輝 — 室町幕府第13代將軍。與三好長慶權力鬥爭中曾被幽禁於芥川山城。', en: 'Ashikaga Yoshiteru — 13th Muromachi shōgun, once confined at Akutagawayama in his power struggle with Nagayoshi.' },
+      {
+        ja: '三好長慶', zhTw: '三好長慶', en: 'Miyoshi Nagayoshi',
+        desc: {
+          ja: '織田信長に先駆けて畿内を統一し、室町幕府を事実上掌握した「最初の天下人」。',
+          zhTw: '先於織田信長統一畿內，事實上掌握室町幕府的「最初的天下人」。',
+          en: '"the first unifier" who controlled the Kinai and effectively dominated the Muromachi Shōgunate before Nobunaga.',
+        },
+      },
+      {
+        ja: '足利義輝', zhTw: '足利義輝', en: 'Ashikaga Yoshiteru',
+        desc: {
+          ja: '室町幕府第13代将軍。三好長慶との権力闘争の末に芥川山城に幽閉されたこともある。',
+          zhTw: '室町幕府第13代將軍。與三好長慶權力鬥爭中曾被幽禁於芥川山城。',
+          en: '13th Muromachi shōgun, once confined at Akutagawayama in his power struggle with Nagayoshi.',
+        },
+      },
     ],
     trivia: [
       { ja: '三好長慶は連歌・茶道にも通じた文化人で、芥川山城では文化サロンが開かれていた。', zhTw: '三好長慶也是精通連歌、茶道的文化人，芥川山城曾舉辦文化沙龍。', en: 'Nagayoshi was a cultured man versed in linked verse and tea ceremony, hosting cultural salons at the castle.' },
       { ja: '大阪市中心部から電車で30分の高槻市内にありながら、深い山城の雰囲気が味わえる。', zhTw: '雖在距大阪市中心搭電車30分鐘的高槻市內，卻能感受深山城的氛圍。', en: 'Just 30 minutes by train from central Osaka, yet it offers the atmosphere of a deep mountain castle.' },
     ],
     highlights: [
-      { ja: '主郭からの眺望 — 大阪平野から京都方面まで一望できる壮大な景色。', zhTw: '從主郭眺望 — 從大阪平野到京都方面一覽無遺的壯大景色。', en: 'Main enclosure views — sweeping vistas from the Osaka plain to the direction of Kyoto.' },
-      { ja: '大手道の石垣 — 登城路に残る石垣が往時の城の威容を偲ばせる。', zhTw: '大手道石垣 — 登城路上殘存的石垣令人追憶往昔城的威容。', en: 'Main approach stonework — walls along the climbing path evoke the castle\'s former grandeur.' },
+      {
+        ja: '主郭からの眺望', zhTw: '從主郭眺望', en: 'Main enclosure views',
+        desc: {
+          ja: '大阪平野から京都方面まで一望できる壮大な景色。',
+          zhTw: '從大阪平野到京都方面一覽無遺的壯大景色。',
+          en: 'sweeping vistas from the Osaka plain to the direction of Kyoto.',
+        },
+      },
+      {
+        ja: '大手道の石垣', zhTw: '大手道石垣', en: 'Main approach stonework',
+        desc: {
+          ja: '登城路に残る石垣が往時の城の威容を偲ばせる。',
+          zhTw: '登城路上殘存的石垣令人追憶往昔城的威容。',
+          en: 'walls along the climbing path evoke the castle\'s former grandeur.',
+        },
+      },
     ],
     architecture: [
       { ja: '三好山（標高182m）に築かれた大規模な山城。主郭を中心に複数の曲輪を配置。', zhTw: '建於三好山（標高182公尺）的大規模山城。以主郭為中心配置多座曲輪。', en: 'A large-scale mountain castle on 182 m Miyoshi-yama, with multiple enclosures around the main bailey.' },
@@ -6129,16 +8733,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '三好長慶 — 芥川山城から飯盛城に移り、ここで畿内支配の最盛期と晩年の悲劇を過ごした。', zhTw: '三好長慶 — 從芥川山城遷至飯盛城，在此度過畿內支配的最盛期與晩年的悲劇。', en: 'Miyoshi Nagayoshi — moved here from Akutagawayama, experiencing both his zenith and tragic decline at Iimori.' },
-      { ja: '楠木正行 — 四條畷の戦いで足利軍と戦い討死した南朝の忠臣。楠木正成の嫡男。', zhTw: '楠木正行 — 四條畷之戰中與足利軍交戰戰死的南朝忠臣。楠木正成的嫡男。', en: 'Kusunoki Masatsura — Southern Court loyalist and Masashige\'s son, who fell fighting the Ashikaga at Shijōnawate.' },
+      {
+        ja: '三好長慶', zhTw: '三好長慶', en: 'Miyoshi Nagayoshi',
+        desc: {
+          ja: '芥川山城から飯盛城に移り、ここで畿内支配の最盛期と晩年の悲劇を過ごした。',
+          zhTw: '從芥川山城遷至飯盛城，在此度過畿內支配的最盛期與晩年的悲劇。',
+          en: 'moved here from Akutagawayama, experiencing both his zenith and tragic decline at Iimori.',
+        },
+      },
+      {
+        ja: '楠木正行', zhTw: '楠木正行', en: 'Kusunoki Masatsura',
+        desc: {
+          ja: '四條畷の戦いで足利軍と戦い討死した南朝の忠臣。楠木正成の嫡男。',
+          zhTw: '四條畷之戰中與足利軍交戰戰死的南朝忠臣。楠木正成的嫡男。',
+          en: 'Southern Court loyalist and Masashige\'s son, who fell fighting the Ashikaga at Shijōnawate.',
+        },
+      },
     ],
     trivia: [
       { ja: '2021年に国史跡に指定。飯盛城は大阪府内最大級の山城で、約700mの尾根に曲輪が連なる。', zhTw: '2021年被指定為國史跡。飯盛城是大阪府內最大規模的山城，約700公尺的山脊上連接曲輪。', en: 'Designated a National Historic Site in 2021; it is Osaka\'s largest mountain castle, with baileys along a 700 m ridge.' },
       { ja: '三好長慶の飯盛城時代には、キリスト教の布教も許可され、城内に礼拝堂があったとされる。', zhTw: '三好長慶的飯盛城時代也允許基督教傳教，城內據說有禮拜堂。', en: 'During Nagayoshi\'s time, Christian preaching was permitted, and a chapel reportedly stood within the castle.' },
     ],
     highlights: [
-      { ja: '山頂からの大阪平野の大パノラマ — 大阪湾から奈良方面まで一望。', zhTw: '從山頂一覽大阪平野的大全景 — 從大阪灣到奈良方面盡收眼底。', en: 'Mountaintop panorama — from Osaka Bay to the direction of Nara, a sweeping view of the entire Osaka plain.' },
-      { ja: '石垣群 — 近年の発掘で多数の石垣が確認され、三好政権の城としての格式が判明。', zhTw: '石垣群 — 近年發掘確認了大量石垣，揭示三好政權之城的格式。', en: 'Stone wall clusters — recent excavations revealed extensive walls, confirming the castle\'s status under the Miyoshi regime.' },
+      {
+        ja: '山頂からの大阪平野の大パノラマ', zhTw: '從山頂一覽大阪平野的大全景', en: 'Mountaintop panorama',
+        desc: {
+          ja: '大阪湾から奈良方面まで一望。',
+          zhTw: '從大阪灣到奈良方面盡收眼底。',
+          en: 'from Osaka Bay to the direction of Nara, a sweeping view of the entire Osaka plain.',
+        },
+      },
+      {
+        ja: '石垣群', zhTw: '石垣群', en: 'Stone wall clusters',
+        desc: {
+          ja: '近年の発掘で多数の石垣が確認され、三好政権の城としての格式が判明。',
+          zhTw: '近年發掘確認了大量石垣，揭示三好政權之城的格式。',
+          en: 'recent excavations revealed extensive walls, confirming the castle\'s status under the Miyoshi regime.',
+        },
+      },
     ],
     architecture: [
       { ja: '飯盛山（標高314m）の尾根に沿って南北約700mに曲輪群を配した大規模山城。', zhTw: '沿飯盛山（標高314公尺）山脊南北約700公尺配置曲輪群的大規模山城。', en: 'A massive mountain castle with baileys spanning 700 m north-south along the 314 m Iimori-yama ridge.' },
@@ -6184,16 +8816,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '岡部宣勝 — 岸和田藩初代藩主。大坂の陣で功を立て、岸和田に入封した。', zhTw: '岡部宣勝 — 岸和田藩初代藩主。大坂之陣立功後入封岸和田。', en: 'Okabe Nobukatsu — first Okabe lord, rewarded with Kishiwada for his service at the Osaka campaigns.' },
+      {
+        ja: '岡部宣勝', zhTw: '岡部宣勝', en: 'Okabe Nobukatsu',
+        desc: {
+          ja: '岸和田藩初代藩主。大坂の陣で功を立て、岸和田に入封した。',
+          zhTw: '岸和田藩初代藩主。大坂之陣立功後入封岸和田。',
+          en: 'first Okabe lord, rewarded with Kishiwada for his service at the Osaka campaigns.',
+        },
+      },
     ],
     trivia: [
       { ja: '岸和田だんじり祭は日本三大祭の一つとも称され、城下町の伝統として300年以上続く。', zhTw: '岸和田彈珠祭也被稱為日本三大祭之一，作為城下町傳統延續300年以上。', en: 'The Kishiwada Danjiri Festival, one of Japan\'s great festivals, has continued as a castle-town tradition for over 300 years.' },
       { ja: '八陣の庭は重森三玲による枯山水庭園で、諸葛孔明の八陣図をモチーフにしている。', zhTw: '八陣之庭是重森三玲設計的枯山水庭園，以諸葛孔明的八陣圖為主題。', en: 'The "Eight Formations Garden" by Mirei Shigemori is a rock garden inspired by Zhuge Liang\'s battle formations.' },
     ],
     highlights: [
-      { ja: '復興天守 — 1954年に再建された三層の天守。城と祭りの展示。', zhTw: '復興天守 — 1954年重建的三層天守。城與祭典的展示。', en: 'Reconstructed keep — a three-layer tower rebuilt in 1954, with exhibits on the castle and festivals.' },
-      { ja: '八陣の庭 — 重森三玲が設計した国名勝の枯山水庭園。', zhTw: '八陣之庭 — 重森三玲設計的國家名勝枯山水庭園。', en: 'Eight Formations Garden — Mirei Shigemori\'s dry-landscape garden, a designated National Place of Scenic Beauty.' },
-      { ja: 'だんじり祭 — 毎年9月、重さ4トンのだんじりが城下を疾走する勇壮な祭り。', zhTw: '彈珠祭 — 每年9月重達4噸的彈珠車在城下疾馳的勇壯祭典。', en: 'Danjiri Festival — every September, 4-ton wooden floats race through the castle town in a thrilling spectacle.' },
+      {
+        ja: '復興天守', zhTw: '復興天守', en: 'Reconstructed keep',
+        desc: {
+          ja: '1954年に再建された三層の天守。城と祭りの展示。',
+          zhTw: '1954年重建的三層天守。城與祭典的展示。',
+          en: 'a three-layer tower rebuilt in 1954, with exhibits on the castle and festivals.',
+        },
+      },
+      {
+        ja: '八陣の庭', zhTw: '八陣之庭', en: 'Eight Formations Garden',
+        desc: {
+          ja: '重森三玲が設計した国名勝の枯山水庭園。',
+          zhTw: '重森三玲設計的國家名勝枯山水庭園。',
+          en: 'Mirei Shigemori\'s dry-landscape garden, a designated National Place of Scenic Beauty.',
+        },
+      },
+      {
+        ja: 'だんじり祭', zhTw: '彈珠祭', en: 'Danjiri Festival',
+        desc: {
+          ja: '毎年9月、重さ4トンのだんじりが城下を疾走する勇壮な祭り。',
+          zhTw: '每年9月重達4噸的彈珠車在城下疾馳的勇壯祭典。',
+          en: 'every September, 4-ton wooden floats race through the castle town in a thrilling spectacle.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸を二重の堀で囲む平城。天守台は元和の改修時のものが残る。', zhTw: '以雙重壕溝環繞本丸的平城。天守台為元和改建時的遺構。', en: 'A flatland castle with double moats around the honmaru; the keep platform dates from Genna-era renovations.' },
@@ -6246,17 +8906,52 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '山名祐豊 — 但馬最後の守護大名。有子山城を築いたが、秀吉の但馬攻めで滅亡した。', zhTw: '山名祐豐 — 但馬最後的守護大名。築建有子山城但因秀吉但馬攻略而滅亡。', en: 'Yamana Suketoyo — last shugo of Tajima, who built Ariko-yama but fell to Hideyoshi\'s campaign.' },
-      { ja: '仙石秀久 — 出石藩仙石氏の祖。真田丸でも知られる仙石権兵衛の子孫が藩を治めた。', zhTw: '仙石秀久 — 出石藩仙石氏之祖。以真田丸聞名的仙石權兵衛的子孫治理藩。', en: 'Sengoku Hidehisa — founder of the Izushi Sengoku line; descendants of the famous Gonbei governed the domain.' },
+      {
+        ja: '山名祐豊', zhTw: '山名祐豐', en: 'Yamana Suketoyo',
+        desc: {
+          ja: '但馬最後の守護大名。有子山城を築いたが、秀吉の但馬攻めで滅亡した。',
+          zhTw: '但馬最後的守護大名。築建有子山城但因秀吉但馬攻略而滅亡。',
+          en: 'last shugo of Tajima, who built Ariko-yama but fell to Hideyoshi\'s campaign.',
+        },
+      },
+      {
+        ja: '仙石秀久', zhTw: '仙石秀久', en: 'Sengoku Hidehisa',
+        desc: {
+          ja: '出石藩仙石氏の祖。真田丸でも知られる仙石権兵衛の子孫が藩を治めた。',
+          zhTw: '出石藩仙石氏之祖。以真田丸聞名的仙石權兵衛的子孫治理藩。',
+          en: 'founder of the Izushi Sengoku line; descendants of the famous Gonbei governed the domain.',
+        },
+      },
     ],
     trivia: [
       { ja: '出石そばは兵庫県を代表するご当地グルメで、城下町に50軒以上のそば屋が並ぶ。', zhTw: '出石蕎麥是代表兵庫縣的地方美食，城下町有50家以上的蕎麥店。', en: 'Izushi soba is Hyōgo\'s signature dish, with over 50 soba shops lining the castle town.' },
       { ja: '辰鼓楼は日本最古の時計台の一つで、出石城下のシンボルとなっている。', zhTw: '辰鼓樓是日本最古老的鐘樓之一，是出石城下的象徵。', en: 'The Shinkoro clock tower is one of Japan\'s oldest, serving as the symbol of Izushi\'s castle town.' },
     ],
     highlights: [
-      { ja: '出石城の石垣と櫓 — 山麓に復元された隅櫓と美しい石垣が城下を見守る。', zhTw: '出石城的石垣與櫓 — 山麓復原的隅櫓與美麗石垣守望城下。', en: 'Izushi stone walls and turrets — reconstructed corner turrets and fine walls overlooking the town.' },
-      { ja: '有子山城跡 — 標高321mへの本格的な登山。山頂には壮大な石垣が残る。', zhTw: '有子山城跡 — 前往標高321公尺的正式登山。山頂殘存壯大石垣。', en: 'Ariko-yama ruins — a proper climb to 321 m, with imposing stone walls remaining at the summit.' },
-      { ja: '出石の城下町 — そば屋と白壁の町並みが美しい「但馬の小京都」。', zhTw: '出石城下町 — 蕎麥店與白壁街道美麗的「但馬的小京都」。', en: 'Izushi castle town — "Little Kyoto of Tajima" with its soba shops and white-walled streetscapes.' },
+      {
+        ja: '出石城の石垣と櫓', zhTw: '出石城的石垣與櫓', en: 'Izushi stone walls and turrets',
+        desc: {
+          ja: '山麓に復元された隅櫓と美しい石垣が城下を見守る。',
+          zhTw: '山麓復原的隅櫓與美麗石垣守望城下。',
+          en: 'reconstructed corner turrets and fine walls overlooking the town.',
+        },
+      },
+      {
+        ja: '有子山城跡', zhTw: '有子山城跡', en: 'Ariko-yama ruins',
+        desc: {
+          ja: '標高321mへの本格的な登山。山頂には壮大な石垣が残る。',
+          zhTw: '前往標高321公尺的正式登山。山頂殘存壯大石垣。',
+          en: 'a proper climb to 321 m, with imposing stone walls remaining at the summit.',
+        },
+      },
+      {
+        ja: '出石の城下町', zhTw: '出石城下町', en: 'Izushi castle town',
+        desc: {
+          ja: 'そば屋と白壁の町並みが美しい「但馬の小京都」。',
+          zhTw: '蕎麥店與白壁街道美麗的「但馬的小京都」。',
+          en: '"Little Kyoto of Tajima" with its soba shops and white-walled streetscapes.',
+        },
+      },
     ],
     architecture: [
       { ja: '有子山城は標高321mの急峻な山城で、主郭には見事な石垣が残る。', zhTw: '有子山城是標高321公尺的急峻山城，主郭殘存精美石垣。', en: 'Ariko-yama is a steep mountain castle at 321 m, with splendid stone walls surviving at the main enclosure.' },
@@ -6303,15 +8998,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '赤井直正 — 「丹波の赤鬼」の異名を持つ猛将。光秀の大軍を二度退けた武勇は語り草。', zhTw: '赤井直正 — 有「丹波之赤鬼」異名的猛將。兩度擊退光秀大軍的武勇廣為傳頌。', en: 'Akai Naomasa — "the Red Demon of Tamba," a fierce warrior whose twice repelling Mitsuhide\'s armies became legendary.' },
+      {
+        ja: '赤井直正', zhTw: '赤井直正', en: 'Akai Naomasa',
+        desc: {
+          ja: '「丹波の赤鬼」の異名を持つ猛将。光秀の大軍を二度退けた武勇は語り草。',
+          zhTw: '有「丹波之赤鬼」異名的猛將。兩度擊退光秀大軍的武勇廣為傳頌。',
+          en: '"the Red Demon of Tamba," a fierce warrior whose twice repelling Mitsuhide\'s armies became legendary.',
+        },
+      },
     ],
     trivia: [
       { ja: '秋の早朝には雲海が発生し、「丹波の天空の城」として近年注目を集めている。', zhTw: '秋天清晨會出現雲海，近年作為「丹波的天空之城」受到關注。', en: 'A sea of clouds forms on autumn mornings, drawing attention as "Tamba\'s Castle in the Sky."' },
       { ja: '赤井直正の赤鬼伝説は丹波地方に深く根付き、地元では英雄として語り継がれている。', zhTw: '赤井直正的赤鬼傳說深植丹波地方，在當地作為英雄傳頌。', en: 'Naomasa\'s "Red Demon" legend is deeply rooted in Tamba, where he is celebrated as a local hero.' },
     ],
     highlights: [
-      { ja: '本丸跡と石垣 — 山頂に残る石垣から丹波の山々を360度見渡す絶景。', zhTw: '本丸跡與石垣 — 從山頂殘存的石垣360度環望丹波群山的絕景。', en: 'Honmaru and stone walls — 360-degree views of the Tamba mountains from the surviving summit walls.' },
-      { ja: '雲海 — 10月～12月の早朝、城跡が雲海に浮かぶ幻想的な光景。', zhTw: '雲海 — 10月至12月清晨城跡浮於雲海的夢幻光景。', en: 'Sea of clouds — from October to December, the castle ruins float above the clouds in an ethereal scene.' },
+      {
+        ja: '本丸跡と石垣', zhTw: '本丸跡與石垣', en: 'Honmaru and stone walls',
+        desc: {
+          ja: '山頂に残る石垣から丹波の山々を360度見渡す絶景。',
+          zhTw: '從山頂殘存的石垣360度環望丹波群山的絕景。',
+          en: '360-degree views of the Tamba mountains from the surviving summit walls.',
+        },
+      },
+      {
+        ja: '雲海', zhTw: '雲海', en: 'Sea of clouds',
+        desc: {
+          ja: '10月～12月の早朝、城跡が雲海に浮かぶ幻想的な光景。',
+          zhTw: '10月至12月清晨城跡浮於雲海的夢幻光景。',
+          en: 'from October to December, the castle ruins float above the clouds in an ethereal scene.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高356mの猪ノ口山に築かれた大規模山城。三段の曲輪を石垣で固めた堅固な構造。', zhTw: '建於標高356公尺豬之口山的大規模山城。以石垣鞏固三段曲輪的堅固結構。', en: 'A large mountain castle on 356 m Inokuchiyama, with three tiers of stone-walled enclosures.' },
@@ -6356,15 +9072,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '脇坂安治 — 賤ヶ岳七本槍の一人。淡路水軍を率い、関ヶ原では東軍に寝返った。', zhTw: '脇坂安治 — 賤岳七本槍之一。率領淡路水軍，關原之戰中倒向東軍。', en: 'Wakisaka Yasuharu — one of the Seven Spears of Shizugatake, commander of the Awaji navy who defected to the Eastern Army at Sekigahara.' },
+      {
+        ja: '脇坂安治', zhTw: '脇坂安治', en: 'Wakisaka Yasuharu',
+        desc: {
+          ja: '賤ヶ岳七本槍の一人。淡路水軍を率い、関ヶ原では東軍に寝返った。',
+          zhTw: '賤岳七本槍之一。率領淡路水軍，關原之戰中倒向東軍。',
+          en: 'one of the Seven Spears of Shizugatake, commander of the Awaji navy who defected to the Eastern Army at Sekigahara.',
+        },
+      },
     ],
     trivia: [
       { ja: '山上にある模擬天守は1928年に造られた日本最古の鉄筋コンクリート模擬天守。', zhTw: '山上的模擬天守建於1928年，是日本最古老的鋼筋混凝土模擬天守。', en: 'The hilltop mock keep, built in 1928, is Japan\'s oldest reinforced-concrete imitation keep.' },
       { ja: '洲本城からは大阪湾・紀淡海峡・友ヶ島を一望でき、水軍拠点の立地が実感できる。', zhTw: '從洲本城可一覽大阪灣、紀淡海峽、友島，可體會水軍據點的選址。', en: 'Views span Osaka Bay, the Ki Channel, and Tomogashima — you can feel why it was chosen as a naval stronghold.' },
     ],
     highlights: [
-      { ja: '登り石垣 — 山上と山麓を結ぶ「登り石垣」は全国でも珍しい遺構。', zhTw: '登石垣 — 連接山上與山麓的「登石垣」是全國罕見的遺構。', en: 'Climbing stone walls — "nobori-ishigaki" connecting summit and base are a rare feature nationally.' },
-      { ja: '山上からの大パノラマ — 大阪湾と紀淡海峡の絶景。天気の良い日は関空も見える。', zhTw: '從山上俯瞰大全景 — 大阪灣與紀淡海峽的絕景。天氣好時可見關西機場。', en: 'Summit panorama — stunning views of Osaka Bay and the Ki Channel; Kansai Airport is visible on clear days.' },
+      {
+        ja: '登り石垣', zhTw: '登石垣', en: 'Climbing stone walls',
+        desc: {
+          ja: '山上と山麓を結ぶ「登り石垣」は全国でも珍しい遺構。',
+          zhTw: '連接山上與山麓的「登石垣」是全國罕見的遺構。',
+          en: '"nobori-ishigaki" connecting summit and base are a rare feature nationally.',
+        },
+      },
+      {
+        ja: '山上からの大パノラマ', zhTw: '從山上俯瞰大全景', en: 'Summit panorama',
+        desc: {
+          ja: '大阪湾と紀淡海峡の絶景。天気の良い日は関空も見える。',
+          zhTw: '大阪灣與紀淡海峽的絕景。天氣好時可見關西機場。',
+          en: 'stunning views of Osaka Bay and the Ki Channel; Kansai Airport is visible on clear days.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高133mの三熊山に上の城（山城）と下の城（平城）を配した珍しい二段構造。', zhTw: '在標高133公尺的三熊山配置上城（山城）與下城（平城）的罕見雙段結構。', en: 'An unusual two-tier layout with an upper mountain castle and lower flatland castle on 133 m Mikumayama.' },
@@ -6417,8 +9154,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '豊臣秀長 — 秀吉の弟にして最大の功臣。温厚な人柄で兄を支え、早逝が豊臣政権の命運を変えた。', zhTw: '豐臣秀長 — 秀吉之弟兼最大功臣。以溫厚性格支持兄長，早逝改變了豐臣政權的命運。', en: 'Toyotomi Hidenaga — Hideyoshi\'s brother and greatest supporter; his gentle nature steadied the regime, and his early death changed its fate.' },
-      { ja: '筒井順慶 — 松永久秀と大和の覇権を争った戦国大名。「洞ヶ峠」の逸話でも知られる。', zhTw: '筒井順慶 — 與松永久秀爭奪大和霸權的戰國大名。也以「洞峠」軼事聞名。', en: 'Tsutsui Junkei — Sengoku lord who vied with Matsunaga Hisahide for Yamato; also known for the "Horagatōge" indecision legend.' },
+      {
+        ja: '豊臣秀長', zhTw: '豐臣秀長', en: 'Toyotomi Hidenaga',
+        desc: {
+          ja: '秀吉の弟にして最大の功臣。温厚な人柄で兄を支え、早逝が豊臣政権の命運を変えた。',
+          zhTw: '秀吉之弟兼最大功臣。以溫厚性格支持兄長，早逝改變了豐臣政權的命運。',
+          en: 'Hideyoshi\'s brother and greatest supporter; his gentle nature steadied the regime, and his early death changed its fate.',
+        },
+      },
+      {
+        ja: '筒井順慶', zhTw: '筒井順慶', en: 'Tsutsui Junkei',
+        desc: {
+          ja: '松永久秀と大和の覇権を争った戦国大名。「洞ヶ峠」の逸話でも知られる。',
+          zhTw: '與松永久秀爭奪大和霸權的戰國大名。也以「洞峠」軼事聞名。',
+          en: 'Sengoku lord who vied with Matsunaga Hisahide for Yamato; also known for the "Horagatōge" indecision legend.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守台の石垣には「さかさ地蔵」と呼ばれる逆さまに積まれた地蔵石仏がある。', zhTw: '天守台石垣中有被稱為「倒地藏」的倒置地藏石佛。', en: 'The keep platform contains an upside-down Jizō statue called "Sakasa Jizō," built into the walls inverted.' },
@@ -6426,9 +9177,30 @@ export const castles = [
       { ja: '桜の名所としても知られ、「日本さくら名所100選」に選定されている。', zhTw: '也以櫻花名所聞名，入選「日本櫻花名所100選」。', en: 'Also famed for cherry blossoms, selected as one of Japan\'s Top 100 Cherry Blossom Sites.' },
     ],
     highlights: [
-      { ja: '天守台と「さかさ地蔵」 — 転用石が多用された天守台。逆さ地蔵は必見。', zhTw: '天守台與「倒地藏」 — 大量使用轉用石的天守台。倒置地藏必看。', en: 'Keep platform and "Upside-down Jizō" — repurposed stones fill the platform; the inverted Jizō is a must-see.' },
-      { ja: '追手門・追手向櫓 — 復元された城の正面。堂々たる石垣と門構え。', zhTw: '追手門、追手向櫓 — 復原的城正面。壯觀的石垣與門構。', en: 'Main gate and turret — the restored castle entrance with imposing stone walls and gate structure.' },
-      { ja: '桜と堀 — 春には堀端の桜が満開となり、城跡が華やかに彩られる。', zhTw: '櫻花與壕溝 — 春天壕邊櫻花盛開，城跡華麗繽紛。', en: 'Cherry blossoms and moats — in spring, cherry trees along the moats paint the ruins in glorious color.' },
+      {
+        ja: '天守台と「さかさ地蔵」', zhTw: '天守台與「倒地藏」', en: 'Keep platform and "Upside-down Jizō"',
+        desc: {
+          ja: '転用石が多用された天守台。逆さ地蔵は必見。',
+          zhTw: '大量使用轉用石的天守台。倒置地藏必看。',
+          en: 'repurposed stones fill the platform; the inverted Jizō is a must-see.',
+        },
+      },
+      {
+        ja: '追手門・追手向櫓', zhTw: '追手門、追手向櫓', en: 'Main gate and turret',
+        desc: {
+          ja: '復元された城の正面。堂々たる石垣と門構え。',
+          zhTw: '復原的城正面。壯觀的石垣與門構。',
+          en: 'the restored castle entrance with imposing stone walls and gate structure.',
+        },
+      },
+      {
+        ja: '桜と堀', zhTw: '櫻花與壕溝', en: 'Cherry blossoms and moats',
+        desc: {
+          ja: '春には堀端の桜が満開となり、城跡が華やかに彩られる。',
+          zhTw: '春天壕邊櫻花盛開，城跡華麗繽紛。',
+          en: 'in spring, cherry trees along the moats paint the ruins in glorious color.',
+        },
+      },
     ],
     architecture: [
       { ja: '本丸を中心に二の丸・三の丸を輪郭式に配した大規模な平城。', zhTw: '以本丸為中心輪郭式配置二之丸、三之丸的大規模平城。', en: 'A large flatland castle with honmaru at the center and concentric ni-no-maru and san-no-maru.' },
@@ -6473,16 +9245,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '福島高晴 — 福島正則の弟。宇陀松山藩主として城を整備したが、大坂の陣で改易された。', zhTw: '福島高晴 — 福島正則之弟。作為宇陀松山藩主整備城郭，但大坂之陣後被改易。', en: 'Fukushima Takaharu — Masanori\'s brother, who developed the castle as domain lord but was dispossessed after Osaka.' },
+      {
+        ja: '福島高晴', zhTw: '福島高晴', en: 'Fukushima Takaharu',
+        desc: {
+          ja: '福島正則の弟。宇陀松山藩主として城を整備したが、大坂の陣で改易された。',
+          zhTw: '福島正則之弟。作為宇陀松山藩主整備城郭，但大坂之陣後被改易。',
+          en: 'Masanori\'s brother, who developed the castle as domain lord but was dispossessed after Osaka.',
+        },
+      },
     ],
     trivia: [
       { ja: '城下の松山地区は重要伝統的建造物群保存地区に選定された美しい街並みが残る。', zhTw: '城下松山地區被選定為重要傳統建造物群保存地區，保留美麗的街道。', en: 'The Matsuyama district is a designated Preservation District for Groups of Traditional Buildings, with beautiful streetscapes.' },
       { ja: '破城の痕跡として、石垣が意図的に崩された跡が明確に残っている。', zhTw: '作為破城的痕跡，石垣被刻意破壞的痕跡清晰殘存。', en: 'Traces of deliberate demolition remain — stone walls clearly torn down as part of the castle\'s destruction.' },
     ],
     highlights: [
-      { ja: '天守台の破城痕跡 — 意図的に崩された石垣が歴史の転換点を物語る。', zhTw: '天守台破城痕跡 — 被刻意破壞的石垣訴說歷史轉捩點。', en: 'Keep platform demolition traces — deliberately toppled walls tell the story of a historical turning point.' },
-      { ja: '松山西口関門 — 現存する城下町の関門。国史跡に指定。', zhTw: '松山西口關門 — 現存的城下町關門。指定為國史跡。', en: 'Matsuyama West Gate — a surviving castle-town checkpoint, designated a National Historic Site.' },
-      { ja: '松山地区の町並み — 薬問屋の街並みが残る重伝建地区。', zhTw: '松山地區街道 — 保留藥問屋街道的重傳建地區。', en: 'Matsuyama streetscapes — a preservation district retaining its old medicine-merchant atmosphere.' },
+      {
+        ja: '天守台の破城痕跡', zhTw: '天守台破城痕跡', en: 'Keep platform demolition traces',
+        desc: {
+          ja: '意図的に崩された石垣が歴史の転換点を物語る。',
+          zhTw: '被刻意破壞的石垣訴說歷史轉捩點。',
+          en: 'deliberately toppled walls tell the story of a historical turning point.',
+        },
+      },
+      {
+        ja: '松山西口関門', zhTw: '松山西口關門', en: 'Matsuyama West Gate',
+        desc: {
+          ja: '現存する城下町の関門。国史跡に指定。',
+          zhTw: '現存的城下町關門。指定為國史跡。',
+          en: 'a surviving castle-town checkpoint, designated a National Historic Site.',
+        },
+      },
+      {
+        ja: '松山地区の町並み', zhTw: '松山地區街道', en: 'Matsuyama streetscapes',
+        desc: {
+          ja: '薬問屋の街並みが残る重伝建地区。',
+          zhTw: '保留藥問屋街道的重傳建地區。',
+          en: 'a preservation district retaining its old medicine-merchant atmosphere.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高473mの古城山に築かれた山城。主郭に天守台を配し、石垣で曲輪を固めた。', zhTw: '建於標高473公尺古城山的山城。主郭配置天守台，以石垣鞏固曲輪。', en: 'A mountain castle on 473 m Kojōyama, with a keep platform in the main enclosure and stone-walled baileys.' },
@@ -6526,15 +9326,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '水野重仲 — 新宮城主として城と城下町を整備し、新宮の基礎を築いた。', zhTw: '水野重仲 — 作為新宮城主整備城與城下町，奠定新宮的基礎。', en: 'Mizuno Shigenaka — developed the castle and town, laying the foundations of modern Shingū.' },
+      {
+        ja: '水野重仲', zhTw: '水野重仲', en: 'Mizuno Shigenaka',
+        desc: {
+          ja: '新宮城主として城と城下町を整備し、新宮の基礎を築いた。',
+          zhTw: '作為新宮城主整備城與城下町，奠定新宮的基礎。',
+          en: 'developed the castle and town, laying the foundations of modern Shingū.',
+        },
+      },
     ],
     trivia: [
       { ja: '城跡から熊野川と太平洋が見渡せ、熊野三山の入口に位置する景勝地。', zhTw: '從城跡可眺望熊野川與太平洋，位於熊野三山入口的景勝地。', en: 'The ruins overlook the Kumano River and the Pacific, a scenic spot at the gateway to the Kumano Sanzan.' },
       { ja: '石垣に紀州特産の那智黒石（黒色頁岩）が一部使用されており、独特の色合いを持つ。', zhTw: '石垣部分使用紀州特產那智黑石（黑色頁岩），具有獨特色調。', en: 'Some walls incorporate Nachi black stone (dark shale), a Kishū specialty, giving them a distinctive hue.' },
     ],
     highlights: [
-      { ja: '本丸石垣 — 熊野川を見下ろす崖上の壮大な石垣。打込み接ぎの美しい技法。', zhTw: '本丸石垣 — 俯瞰熊野川的懸崖上壯大石垣。打込接的美麗技法。', en: 'Honmaru walls — grand stonework on a cliff above the Kumano River, with beautifully fitted masonry.' },
-      { ja: '水ノ手 — 熊野川に面した船着場跡。城の水上輸送の要だった。', zhTw: '水之手 — 面向熊野川的船著場遺跡。是城的水上運輸要地。', en: 'Mizunote — the river-facing wharf ruins, once the castle\'s vital waterborne transport hub.' },
+      {
+        ja: '本丸石垣', zhTw: '本丸石垣', en: 'Honmaru walls',
+        desc: {
+          ja: '熊野川を見下ろす崖上の壮大な石垣。打込み接ぎの美しい技法。',
+          zhTw: '俯瞰熊野川的懸崖上壯大石垣。打込接的美麗技法。',
+          en: 'grand stonework on a cliff above the Kumano River, with beautifully fitted masonry.',
+        },
+      },
+      {
+        ja: '水ノ手', zhTw: '水之手', en: 'Mizunote',
+        desc: {
+          ja: '熊野川に面した船着場跡。城の水上輸送の要だった。',
+          zhTw: '面向熊野川的船著場遺跡。是城的水上運輸要地。',
+          en: 'the river-facing wharf ruins, once the castle\'s vital waterborne transport hub.',
+        },
+      },
     ],
     architecture: [
       { ja: '熊野川河口の丹鶴山に築かれた平山城。本丸・鐘ノ丸・松ノ丸を石垣で固める。', zhTw: '建於熊野川河口丹鶴山的平山城。以石垣鞏固本丸、鐘之丸、松之丸。', en: 'A hilltop castle on Tankakuyama at the Kumano River mouth, with stone-walled honmaru, Kane-no-maru, and Matsu-no-maru.' },
@@ -6580,15 +9401,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '山崎家盛 — 関ヶ原後に若桜藩主となり、城の石垣を整備した。', zhTw: '山崎家盛 — 關原後成為若櫻藩主，整備了城的石垣。', en: 'Yamazaki Iemori — became lord of Wakasa after Sekigahara and developed the castle\'s stone walls.' },
+      {
+        ja: '山崎家盛', zhTw: '山崎家盛', en: 'Yamazaki Iemori',
+        desc: {
+          ja: '関ヶ原後に若桜藩主となり、城の石垣を整備した。',
+          zhTw: '關原後成為若櫻藩主，整備了城的石垣。',
+          en: 'became lord of Wakasa after Sekigahara and developed the castle\'s stone walls.',
+        },
+      },
     ],
     trivia: [
       { ja: '城跡からは氷ノ山をはじめとする中国山地の山々が一望でき、山岳展望が見事。', zhTw: '從城跡可一覽以冰之山為首的中國山地群山，山岳展望壯觀。', en: 'The ruins offer magnificent views of the Chūgoku Mountains, including Mt. Hyōno.' },
       { ja: '若桜町は鳥取県東部の小さな町だが、SL（蒸気機関車）の保存で鉄道ファンにも人気。', zhTw: '若櫻町是鳥取縣東部的小城鎮，以保存蒸汽機車深受鐵道迷歡迎。', en: 'Wakasa is a small town in eastern Tottori, also popular with rail fans for its preserved steam locomotive.' },
     ],
     highlights: [
-      { ja: '六角石垣 — 山頂に残る六角形の石垣は全国でも珍しい遺構。', zhTw: '六角石垣 — 殘存於山頂的六角形石垣是全國罕見的遺構。', en: 'Hexagonal stone walls — unusually shaped stonework surviving at the summit, rare anywhere in Japan.' },
-      { ja: '天守台 — 山崎氏時代の天守台が残り、因幡の山々の大パノラマが広がる。', zhTw: '天守台 — 山崎氏時代的天守台殘存，可見因幡群山的大全景。', en: 'Keep platform — the Yamazaki-era platform survives, with sweeping views of the Inaba mountains.' },
+      {
+        ja: '六角石垣', zhTw: '六角石垣', en: 'Hexagonal stone walls',
+        desc: {
+          ja: '山頂に残る六角形の石垣は全国でも珍しい遺構。',
+          zhTw: '殘存於山頂的六角形石垣是全國罕見的遺構。',
+          en: 'unusually shaped stonework surviving at the summit, rare anywhere in Japan.',
+        },
+      },
+      {
+        ja: '天守台', zhTw: '天守台', en: 'Keep platform',
+        desc: {
+          ja: '山崎氏時代の天守台が残り、因幡の山々の大パノラマが広がる。',
+          zhTw: '山崎氏時代的天守台殘存，可見因幡群山的大全景。',
+          en: 'the Yamazaki-era platform survives, with sweeping views of the Inaba mountains.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高452mの鶴尾山に築かれた山城。山崎氏時代に石垣造りの近世城郭に改修された。', zhTw: '建於標高452公尺鶴尾山的山城。山崎氏時代改建為石垣造的近世城郭。', en: 'A mountain castle on 452 m Tsuruo-yama, modernized with stone walls during the Yamazaki period.' },
@@ -6634,15 +9476,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '吉川広家 — 毛利元就の孫。関ヶ原で毛利本軍を動かさず、毛利家存続の恩人となった。', zhTw: '吉川廣家 — 毛利元就之孫。關原之戰中使毛利本軍不動，成為毛利家存續的恩人。', en: 'Kikkawa Hiroie — Mōri Motonari\'s grandson who kept the Mōri main army from fighting at Sekigahara, saving the clan.' },
+      {
+        ja: '吉川広家', zhTw: '吉川廣家', en: 'Kikkawa Hiroie',
+        desc: {
+          ja: '毛利元就の孫。関ヶ原で毛利本軍を動かさず、毛利家存続の恩人となった。',
+          zhTw: '毛利元就之孫。關原之戰中使毛利本軍不動，成為毛利家存續的恩人。',
+          en: 'Mōri Motonari\'s grandson who kept the Mōri main army from fighting at Sekigahara, saving the clan.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守台からは日本海・大山・中海が一望でき、「山陰随一の絶景城」と称される。', zhTw: '從天守台可一覽日本海、大山、中海，被稱為「山陰第一絕景城」。', en: 'The keep platform offers views of the Sea of Japan, Mt. Daisen, and Lake Nakaumi — "the San\'in\'s finest castle view."' },
       { ja: '米子城は天守が2基（四重と三重）並立していた珍しい城で、その天守台が両方残る。', zhTw: '米子城曾有兩座天守（四重和三重）並立的罕見城，兩座天守台都殘存。', en: 'Unusually, Yonago had two keeps (four-story and three-story) side by side — both platforms survive.' },
     ],
     highlights: [
-      { ja: '天守台からの大パノラマ — 大山・日本海・中海を見渡す山陰屈指の絶景。', zhTw: '從天守台的大全景 — 眺望大山、日本海、中海的山陰頂級絕景。', en: 'Panorama from the keep platform — a premier San\'in view spanning Mt. Daisen, the Sea of Japan, and Lake Nakaumi.' },
-      { ja: '二重の天守台 — 大天守と小天守の天守台が並ぶ珍しい遺構。', zhTw: '雙重天守台 — 大天守與小天守天守台並列的罕見遺構。', en: 'Twin keep platforms — the great keep and small keep platforms standing side by side, a rare sight.' },
+      {
+        ja: '天守台からの大パノラマ', zhTw: '從天守台的大全景', en: 'Panorama from the keep platform',
+        desc: {
+          ja: '大山・日本海・中海を見渡す山陰屈指の絶景。',
+          zhTw: '眺望大山、日本海、中海的山陰頂級絕景。',
+          en: 'a premier San\'in view spanning Mt. Daisen, the Sea of Japan, and Lake Nakaumi.',
+        },
+      },
+      {
+        ja: '二重の天守台', zhTw: '雙重天守台', en: 'Twin keep platforms',
+        desc: {
+          ja: '大天守と小天守の天守台が並ぶ珍しい遺構。',
+          zhTw: '大天守與小天守天守台並列的罕見遺構。',
+          en: 'the great keep and small keep platforms standing side by side, a rare sight.',
+        },
+      },
     ],
     architecture: [
       { ja: '湊山に築かれた平山城。山頂に天守曲輪、山麓に御殿を配した。', zhTw: '建於湊山的平山城。山頂配置天守曲輪，山麓配置御殿。', en: 'A hilltop castle on Minatoyama, with the keep enclosure on the summit and the palace at the base.' },
@@ -6687,15 +9550,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '古田重治 — 浜田藩初代藩主。日本海交易の要衝に城を築き、浜田の基礎を作った。', zhTw: '古田重治 — 濱田藩初代藩主。在日本海交易要衝築城，奠定濱田的基礎。', en: 'Furuta Shigeharu — first lord, who built the castle at a key Sea of Japan trading point and founded Hamada.' },
+      {
+        ja: '古田重治', zhTw: '古田重治', en: 'Furuta Shigeharu',
+        desc: {
+          ja: '浜田藩初代藩主。日本海交易の要衝に城を築き、浜田の基礎を作った。',
+          zhTw: '濱田藩初代藩主。在日本海交易要衝築城，奠定濱田的基礎。',
+          en: 'first lord, who built the castle at a key Sea of Japan trading point and founded Hamada.',
+        },
+      },
     ],
     trivia: [
       { ja: '浜田藩は密貿易事件（竹島事件）で知られ、幕府と外交問題を抱えた異色の藩。', zhTw: '濱田藩以走私貿易事件（竹島事件）聞名，是與幕府有外交問題的異色藩。', en: 'Hamada domain is known for the Takeshima smuggling incident, an unusual domain embroiled in diplomatic troubles with the Shōgunate.' },
       { ja: '長州戦争で自焼した数少ない城の一つで、幕末動乱の生々しい歴史を伝える。', zhTw: '作為長州戰爭中自焚的少數城之一，傳達幕末動亂的鮮明歷史。', en: 'One of the few castles burned by its own garrison in the Chōshū wars, vividly conveying Bakumatsu turmoil.' },
     ],
     highlights: [
-      { ja: '石垣と日本海の眺望 — 崖上の石垣から日本海の壮大な景色を楽しめる。', zhTw: '石垣與日本海眺望 — 從懸崖上的石垣欣賞日本海壯大景色。', en: 'Stone walls and Sea of Japan views — enjoy grand maritime scenery from the clifftop walls.' },
-      { ja: '津和野藩との境目 — 石見国内の藩境の歴史が感じられる。', zhTw: '與津和野藩的邊境 — 可感受石見國內藩境的歷史。', en: 'Border with Tsuwano domain — feel the history of provincial boundaries within Iwami.' },
+      {
+        ja: '石垣と日本海の眺望', zhTw: '石垣與日本海眺望', en: 'Stone walls and Sea of Japan views',
+        desc: {
+          ja: '崖上の石垣から日本海の壮大な景色を楽しめる。',
+          zhTw: '從懸崖上的石垣欣賞日本海壯大景色。',
+          en: 'enjoy grand maritime scenery from the clifftop walls.',
+        },
+      },
+      {
+        ja: '津和野藩との境目', zhTw: '與津和野藩的邊境', en: 'Border with Tsuwano domain',
+        desc: {
+          ja: '石見国内の藩境の歴史が感じられる。',
+          zhTw: '可感受石見國內藩境的歷史。',
+          en: 'feel the history of provincial boundaries within Iwami.',
+        },
+      },
     ],
     architecture: [
       { ja: '日本海に面した標高67mの丘陵に築かれた平山城。海に向かって石垣がそびえる。', zhTw: '建於面向日本海標高67公尺丘陵的平山城。石垣朝海聳立。', en: 'A hilltop castle on a 67 m hill facing the Sea of Japan, with stone walls rising toward the sea.' },
@@ -6747,9 +9631,30 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '清水宗治 — 城主として最後まで籠城し、秀吉の水攻めに屈した後、城兵の助命と引き換えに切腹した義将。', zhTw: '清水宗治 — 作為城主堅守至最後，屈服於秀吉水攻後，以城兵助命為交換而切腹的義將。', en: 'Shimizu Muneharu — held the castle to the end; after yielding to the flood, he took his life to save his garrison.' },
-      { ja: '羽柴秀吉 — 水攻めの発案者。大土木工事を12日で完成させた逸話は秀吉の実行力を示す。', zhTw: '羽柴秀吉 — 水攻的發案者。12天完成大型土木工程的軼事展示秀吉的執行力。', en: 'Hashiba Hideyoshi — devised the flooding; completing the massive earthworks in 12 days showcased his extraordinary execution.' },
-      { ja: '黒田官兵衛 — 水攻めを秀吉に進言した軍師。本能寺の変後の迅速な撤退も官兵衛の献策。', zhTw: '黑田官兵衛 — 向秀吉進言水攻的軍師。本能寺之變後迅速撤退也是官兵衛的獻策。', en: 'Kuroda Kanbei — the strategist who proposed the flooding, also advising the swift withdrawal after Honnō-ji.' },
+      {
+        ja: '清水宗治', zhTw: '清水宗治', en: 'Shimizu Muneharu',
+        desc: {
+          ja: '城主として最後まで籠城し、秀吉の水攻めに屈した後、城兵の助命と引き換えに切腹した義将。',
+          zhTw: '作為城主堅守至最後，屈服於秀吉水攻後，以城兵助命為交換而切腹的義將。',
+          en: 'held the castle to the end; after yielding to the flood, he took his life to save his garrison.',
+        },
+      },
+      {
+        ja: '羽柴秀吉', zhTw: '羽柴秀吉', en: 'Hashiba Hideyoshi',
+        desc: {
+          ja: '水攻めの発案者。大土木工事を12日で完成させた逸話は秀吉の実行力を示す。',
+          zhTw: '水攻的發案者。12天完成大型土木工程的軼事展示秀吉的執行力。',
+          en: 'devised the flooding; completing the massive earthworks in 12 days showcased his extraordinary execution.',
+        },
+      },
+      {
+        ja: '黒田官兵衛', zhTw: '黑田官兵衛', en: 'Kuroda Kanbei',
+        desc: {
+          ja: '水攻めを秀吉に進言した軍師。本能寺の変後の迅速な撤退も官兵衛の献策。',
+          zhTw: '向秀吉進言水攻的軍師。本能寺之變後迅速撤退也是官兵衛的獻策。',
+          en: 'the strategist who proposed the flooding, also advising the swift withdrawal after Honnō-ji.',
+        },
+      },
     ],
     trivia: [
       { ja: '清水宗治の切腹は「武士の鑑」として称えられ、小舟の上で辞世を詠み自刃した。', zhTw: '清水宗治的切腹被稱頌為「武士楷模」，在小舟上詠辭世詩後自刃。', en: 'Muneharu\'s seppuku is hailed as "the model of a samurai" — he composed a death poem on a small boat before cutting his belly.' },
@@ -6757,9 +9662,30 @@ export const castles = [
       { ja: '毎年6月に清水宗治の慰霊祭が行われ、地元では今も宗治の忠義が語り継がれている。', zhTw: '每年6月舉行清水宗治的慰靈祭，在當地至今仍傳頌宗治的忠義。', en: 'A memorial service for Muneharu is held each June; his loyalty is still celebrated locally.' },
     ],
     highlights: [
-      { ja: '清水宗治の首塚と辞世の碑 — 宗治の忠義を偲ぶ史跡。', zhTw: '清水宗治的首塚與辭世碑 — 追憶宗治忠義的史跡。', en: 'Muneharu\'s burial mound and death-poem monument — memorials to a loyal warrior.' },
-      { ja: '水攻め堤防跡 — 秀吉が築いた堤防の一部が残り、当時の土木技術を伝える。', zhTw: '水攻堤防跡 — 秀吉築建的堤防部分殘存，傳達當時的土木技術。', en: 'Flood embankment ruins — remnants of Hideyoshi\'s dam reveal the engineering of the era.' },
-      { ja: '蛙ヶ鼻築堤跡 — 最も保存状態の良い堤防遺構。国史跡。', zhTw: '蛙鼻築堤跡 — 保存狀態最佳的堤防遺構。國史跡。', en: 'Kawazu-ga-hana embankment — the best-preserved dam remnant, a National Historic Site.' },
+      {
+        ja: '清水宗治の首塚と辞世の碑', zhTw: '清水宗治的首塚與辭世碑', en: 'Muneharu\'s burial mound and death-poem monument',
+        desc: {
+          ja: '宗治の忠義を偲ぶ史跡。',
+          zhTw: '追憶宗治忠義的史跡。',
+          en: 'memorials to a loyal warrior.',
+        },
+      },
+      {
+        ja: '水攻め堤防跡', zhTw: '水攻堤防跡', en: 'Flood embankment ruins',
+        desc: {
+          ja: '秀吉が築いた堤防の一部が残り、当時の土木技術を伝える。',
+          zhTw: '秀吉築建的堤防部分殘存，傳達當時的土木技術。',
+          en: 'remnants of Hideyoshi\'s dam reveal the engineering of the era.',
+        },
+      },
+      {
+        ja: '蛙ヶ鼻築堤跡', zhTw: '蛙鼻築堤跡', en: 'Kawazu-ga-hana embankment',
+        desc: {
+          ja: '最も保存状態の良い堤防遺構。国史跡。',
+          zhTw: '保存狀態最佳的堤防遺構。國史跡。',
+          en: 'the best-preserved dam remnant, a National Historic Site.',
+        },
+      },
     ],
     architecture: [
       { ja: '低湿地に築かれた沼城で、周囲の沼と川が天然の水堀として機能した。', zhTw: '建於低濕地的沼城，周圍的沼澤與河川作為天然水壕發揮功能。', en: 'A marshland castle where surrounding swamps and rivers served as natural water moats.' },
@@ -6803,15 +9729,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '小早川隆景 — 毛利元就の三男。知略に優れ、瀬戸内海の水軍を統率した名将。', zhTw: '小早川隆景 — 毛利元就三男。智略優秀，統率瀨戶內海水軍的名將。', en: 'Kobayakawa Takakage — Motonari\'s third son, an acclaimed commander who led the Inland Sea naval forces.' },
+      {
+        ja: '小早川隆景', zhTw: '小早川隆景', en: 'Kobayakawa Takakage',
+        desc: {
+          ja: '毛利元就の三男。知略に優れ、瀬戸内海の水軍を統率した名将。',
+          zhTw: '毛利元就三男。智略優秀，統率瀨戶內海水軍的名將。',
+          en: 'Motonari\'s third son, an acclaimed commander who led the Inland Sea naval forces.',
+        },
+      },
     ],
     trivia: [
       { ja: 'JR山陽新幹線の三原駅が天守台の上に建てられており、「駅に飲み込まれた城」として有名。', zhTw: 'JR山陽新幹線三原站建在天守台上，以「被車站吞噬的城」聞名。', en: 'JR Mihara Station was built atop the keep platform — famously "the castle swallowed by a train station."' },
       { ja: '天守台は新幹線ホームのすぐ横にあり、電車を待ちながら石垣を見学できる珍風景。', zhTw: '天守台就在新幹線月台旁，等電車時就能參觀石垣的奇特風景。', en: 'The keep platform sits right beside the bullet-train platform — you can admire stone walls while waiting for your train.' },
     ],
     highlights: [
-      { ja: '天守台と新幹線 — 日本で唯一、新幹線の駅と一体化した天守台。', zhTw: '天守台與新幹線 — 日本唯一與新幹線車站一體化的天守台。', en: 'Keep platform and Shinkansen — Japan\'s only keep platform integrated with a bullet-train station.' },
-      { ja: '船入櫓跡 — 瀬戸内海に直結した水軍の船入り場の遺構。', zhTw: '船入櫓跡 — 直通瀨戶內海的水軍船入場遺構。', en: 'Ship-dock turret ruins — remains of the naval harbor directly connected to the Inland Sea.' },
+      {
+        ja: '天守台と新幹線', zhTw: '天守台與新幹線', en: 'Keep platform and Shinkansen',
+        desc: {
+          ja: '日本で唯一、新幹線の駅と一体化した天守台。',
+          zhTw: '日本唯一與新幹線車站一體化的天守台。',
+          en: 'Japan\'s only keep platform integrated with a bullet-train station.',
+        },
+      },
+      {
+        ja: '船入櫓跡', zhTw: '船入櫓跡', en: 'Ship-dock turret ruins',
+        desc: {
+          ja: '瀬戸内海に直結した水軍の船入り場の遺構。',
+          zhTw: '直通瀨戶內海的水軍船入場遺構。',
+          en: 'remains of the naval harbor directly connected to the Inland Sea.',
+        },
+      },
     ],
     architecture: [
       { ja: '瀬戸内海に面した海城で、満潮時には三方を海に囲まれる「浮城」と呼ばれた。', zhTw: '面向瀨戶內海的海城，漲潮時三面被海環繞，被稱為「浮城」。', en: 'A sea castle facing the Inland Sea; at high tide it was surrounded on three sides, earning the name "Floating Castle."' },
@@ -6855,15 +9802,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '小早川隆景 — 新高山城で約15年を過ごし、毛利家の瀬戸内海支配を確立した。', zhTw: '小早川隆景 — 在新高山城度過約15年，確立了毛利家的瀨戶內海支配。', en: 'Kobayakawa Takakage — spent about 15 years at Niitakayama, establishing Mōri control over the Inland Sea.' },
+      {
+        ja: '小早川隆景', zhTw: '小早川隆景', en: 'Kobayakawa Takakage',
+        desc: {
+          ja: '新高山城で約15年を過ごし、毛利家の瀬戸内海支配を確立した。',
+          zhTw: '在新高山城度過約15年，確立了毛利家的瀨戶內海支配。',
+          en: 'spent about 15 years at Niitakayama, establishing Mōri control over the Inland Sea.',
+        },
+      },
     ],
     trivia: [
       { ja: '対岸の高山城跡と合わせて国史跡に指定されており、二城一対の城郭として価値が高い。', zhTw: '與對岸高山城跡合併指定為國史跡，作為兩城一對的城郭價值極高。', en: 'Designated a National Historic Site together with Takayama across the river — valued as a paired castle set.' },
       { ja: '三原城への石材転用により石垣の痕跡が随所に残り、城の「引っ越し」の歴史が見える。', zhTw: '因石材轉用至三原城，各處殘留石垣痕跡，可見城「搬家」的歷史。', en: 'Stone-removal scars throughout the site tell the story of the castle\'s "move" to Mihara.' },
     ],
     highlights: [
-      { ja: '本丸跡からの沼田川の眺望 — 川を挟んで高山城跡と向かい合う歴史的景観。', zhTw: '從本丸跡眺望沼田川 — 隔河與高山城跡面對面的歷史景觀。', en: 'Nuta River views from the honmaru — a historic landscape facing Takayama Castle across the water.' },
-      { ja: '石垣の抜き取り痕跡 — 三原城に転用された石垣の痕跡が生々しく残る。', zhTw: '石垣拔取痕跡 — 轉用至三原城的石垣痕跡鮮明殘存。', en: 'Stone-removal scars — vivid traces where walls were dismantled for reuse at Mihara.' },
+      {
+        ja: '本丸跡からの沼田川の眺望', zhTw: '從本丸跡眺望沼田川', en: 'Nuta River views from the honmaru',
+        desc: {
+          ja: '川を挟んで高山城跡と向かい合う歴史的景観。',
+          zhTw: '隔河與高山城跡面對面的歷史景觀。',
+          en: 'a historic landscape facing Takayama Castle across the water.',
+        },
+      },
+      {
+        ja: '石垣の抜き取り痕跡', zhTw: '石垣拔取痕跡', en: 'Stone-removal scars',
+        desc: {
+          ja: '三原城に転用された石垣の痕跡が生々しく残る。',
+          zhTw: '轉用至三原城的石垣痕跡鮮明殘存。',
+          en: 'vivid traces where walls were dismantled for reuse at Mihara.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高197mの新高山に築かれた大規模山城。沼田川を天然の堀とし、対岸の高山城と連携した。', zhTw: '建於標高197公尺新高山的大規模山城。以沼田川為天然壕溝，與對岸高山城聯動。', en: 'A large mountain castle on 197 m Niitakayama, using the Nuta River as a moat and coordinating with Takayama across it.' },
@@ -6914,17 +9882,52 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '大内義隆 — 学問と芸術を愛した文化人大名。しかし政治を疎かにし謀反を招いた。', zhTw: '大內義隆 — 熱愛學問與藝術的文化人大名。但疏忽政治招致謀反。', en: 'Ōuchi Yoshitaka — a cultured lord who loved learning and art, but neglected politics and invited rebellion.' },
-      { ja: 'フランシスコ・ザビエル — 1551年に山口を訪れ、大内義隆の許可を得てキリスト教を布教した。', zhTw: '方濟各・沙勿略 — 1551年訪問山口，獲大內義隆許可傳教基督教。', en: 'Francis Xavier — visited Yamaguchi in 1551 and received Yoshitaka\'s permission to preach Christianity.' },
+      {
+        ja: '大内義隆', zhTw: '大內義隆', en: 'Ōuchi Yoshitaka',
+        desc: {
+          ja: '学問と芸術を愛した文化人大名。しかし政治を疎かにし謀反を招いた。',
+          zhTw: '熱愛學問與藝術的文化人大名。但疏忽政治招致謀反。',
+          en: 'a cultured lord who loved learning and art, but neglected politics and invited rebellion.',
+        },
+      },
+      {
+        ja: 'フランシスコ・ザビエル', zhTw: '方濟各・沙勿略', en: 'Francis Xavier',
+        desc: {
+          ja: '1551年に山口を訪れ、大内義隆の許可を得てキリスト教を布教した。',
+          zhTw: '1551年訪問山口，獲大內義隆許可傳教基督教。',
+          en: 'visited Yamaguchi in 1551 and received Yoshitaka\'s permission to preach Christianity.',
+        },
+      },
     ],
     trivia: [
       { ja: '応仁の乱で荒廃した京都から多くの公家・文化人が山口に避難し、「西の京」文化が花開いた。', zhTw: '應仁之亂中荒廢的京都有許多公卿、文化人避難至山口，「西之京」文化蓬勃發展。', en: 'After the Ōnin War devastated Kyoto, nobles and artists fled to Yamaguchi, creating the "Western Kyoto" culture.' },
       { ja: '大内氏館跡には現在龍福寺があり、発掘で池泉庭園や枯山水庭園が発見されている。', zhTw: '大內氏館跡現有龍福寺，發掘中發現了池泉庭園和枯山水庭園。', en: 'Ryūfuku-ji temple now stands on the residence site; excavations have uncovered pond and dry-landscape gardens.' },
     ],
     highlights: [
-      { ja: '大内氏館跡・龍福寺 — 復元された西門と発掘された庭園遺構。', zhTw: '大內氏館跡、龍福寺 — 復原的西門與發掘的庭園遺構。', en: 'Ōuchi Residence ruins / Ryūfuku-ji — the restored west gate and excavated garden remains.' },
-      { ja: '高嶺城跡 — 標高338mの山頂に石垣が残り、山口盆地を一望する。', zhTw: '高嶺城跡 — 標高338公尺山頂殘存石垣，一覽山口盆地。', en: 'Takamine Castle ruins — stone walls on a 338 m summit overlooking the Yamaguchi basin.' },
-      { ja: 'ザビエル記念聖堂 — 大内氏との縁を伝える記念教会。', zhTw: '沙勿略紀念聖堂 — 傳達與大內氏緣分的紀念教堂。', en: 'Xavier Memorial Church — a church commemorating the Ōuchi-Xavier connection.' },
+      {
+        ja: '大内氏館跡・龍福寺', zhTw: '大內氏館跡、龍福寺', en: 'Ōuchi Residence ruins / Ryūfuku-ji',
+        desc: {
+          ja: '復元された西門と発掘された庭園遺構。',
+          zhTw: '復原的西門與發掘的庭園遺構。',
+          en: 'the restored west gate and excavated garden remains.',
+        },
+      },
+      {
+        ja: '高嶺城跡', zhTw: '高嶺城跡', en: 'Takamine Castle ruins',
+        desc: {
+          ja: '標高338mの山頂に石垣が残り、山口盆地を一望する。',
+          zhTw: '標高338公尺山頂殘存石垣，一覽山口盆地。',
+          en: 'stone walls on a 338 m summit overlooking the Yamaguchi basin.',
+        },
+      },
+      {
+        ja: 'ザビエル記念聖堂', zhTw: '沙勿略紀念聖堂', en: 'Xavier Memorial Church',
+        desc: {
+          ja: '大内氏との縁を伝える記念教会。',
+          zhTw: '傳達與大內氏緣分的紀念教堂。',
+          en: 'a church commemorating the Ōuchi-Xavier connection.',
+        },
+      },
     ],
     architecture: [
       { ja: '大内氏館は平地の方形居館で、堀と土塁に囲まれた守護大名の典型的な居館形式。', zhTw: '大內氏館是平地方形居館，被壕溝和土壘環繞的守護大名典型居館形式。', en: 'The Ōuchi residence was a rectangular flatland manor surrounded by moats and earthworks — a typical shugo mansion.' },
@@ -6971,15 +9974,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '三好長慶 — 勝瑞城を拠点に畿内に進出し、室町幕府を凌駕する権力を握った天下人。', zhTw: '三好長慶 — 以勝瑞城為據點進出畿內，掌握凌駕室町幕府權力的天下人。', en: 'Miyoshi Nagayoshi — based at Shōzui, he advanced into the Kinai and seized power surpassing the Muromachi Shōgunate.' },
+      {
+        ja: '三好長慶', zhTw: '三好長慶', en: 'Miyoshi Nagayoshi',
+        desc: {
+          ja: '勝瑞城を拠点に畿内に進出し、室町幕府を凌駕する権力を握った天下人。',
+          zhTw: '以勝瑞城為據點進出畿內，掌握凌駕室町幕府權力的天下人。',
+          en: 'based at Shōzui, he advanced into the Kinai and seized power surpassing the Muromachi Shōgunate.',
+        },
+      },
     ],
     trivia: [
       { ja: '発掘調査で守護所に伴う庭園や中国・朝鮮からの輸入陶磁器が大量に出土した。', zhTw: '發掘調查中大量出土守護所伴隨的庭園以及從中國、朝鮮進口的陶瓷器。', en: 'Excavations unearthed gardens and masses of imported Chinese and Korean ceramics, reflecting its wealth.' },
       { ja: '「勝瑞」の地名は細川氏が京都の勝瑞寺にちなんで命名したとされる。', zhTw: '「勝瑞」地名據說是細川氏依據京都勝瑞寺而命名。', en: 'The name "Shōzui" reportedly derives from Shōzui-ji temple in Kyoto, chosen by the Hosokawa.' },
     ],
     highlights: [
-      { ja: '館跡の発掘遺構 — 守護所の庭園跡や井戸跡が発掘・公開されている。', zhTw: '館跡發掘遺構 — 守護所庭園跡和井戶跡已發掘公開。', en: 'Excavated residence ruins — the shugo garden and well remains are on display.' },
-      { ja: '勝瑞城跡の堀 — 水堀が現存し、中世の城の面影を伝える。', zhTw: '勝瑞城跡的壕溝 — 水壕現存，傳達中世城的風貌。', en: 'Shōzui Castle moat — a surviving water moat preserving the medieval castle\'s character.' },
+      {
+        ja: '館跡の発掘遺構', zhTw: '館跡發掘遺構', en: 'Excavated residence ruins',
+        desc: {
+          ja: '守護所の庭園跡や井戸跡が発掘・公開されている。',
+          zhTw: '守護所庭園跡和井戶跡已發掘公開。',
+          en: 'the shugo garden and well remains are on display.',
+        },
+      },
+      {
+        ja: '勝瑞城跡の堀', zhTw: '勝瑞城跡的壕溝', en: 'Shōzui Castle moat',
+        desc: {
+          ja: '水堀が現存し、中世の城の面影を伝える。',
+          zhTw: '水壕現存，傳達中世城的風貌。',
+          en: 'a surviving water moat preserving the medieval castle\'s character.',
+        },
+      },
     ],
     architecture: [
       { ja: '館（守護所）と城（防御施設）が隣接する中世守護大名居城の典型的な形態。', zhTw: '館（守護所）與城（防禦設施）相鄰的中世守護大名居城典型形態。', en: 'A classic medieval shugo layout with the residence (mansion) and defensive castle (fortification) adjacent.' },
@@ -7032,15 +10056,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '一宮成助 — 一宮城最後の城主。長宗我部軍に対し籠城戦を繰り広げた。', zhTw: '一宮成助 — 一宮城最後的城主。與長宗我部軍展開籠城戰。', en: 'Ichinomiya Narisuke — the castle\'s last lord, who waged a siege defense against the Chōsokabe forces.' },
+      {
+        ja: '一宮成助', zhTw: '一宮成助', en: 'Ichinomiya Narisuke',
+        desc: {
+          ja: '一宮城最後の城主。長宗我部軍に対し籠城戦を繰り広げた。',
+          zhTw: '一宮城最後的城主。與長宗我部軍展開籠城戰。',
+          en: 'the castle\'s last lord, who waged a siege defense against the Chōsokabe forces.',
+        },
+      },
     ],
     trivia: [
       { ja: '城跡への登山道は一宮神社から始まり、四国霊場第13番札所・大日寺にも近い。', zhTw: '城跡登山道從一宮神社開始，也靠近四國靈場第13番札所大日寺。', en: 'The trail starts from Ichinomiya Shrine, near the 13th temple of the Shikoku Pilgrimage.' },
       { ja: '本丸の石垣は徳島県内の山城としては最大規模で、四国山城の白眉とされる。', zhTw: '本丸石垣作為德島縣內山城為最大規模，被視為四國山城的翹楚。', en: 'The honmaru walls are the largest among Tokushima\'s mountain castles, considered Shikoku\'s finest.' },
     ],
     highlights: [
-      { ja: '本丸の石垣 — 阿波最大級の山城石垣。苔むした石垣が美しい。', zhTw: '本丸石垣 — 阿波最大級的山城石垣。長滿青苔的石垣很美。', en: 'Honmaru stone walls — Awa\'s largest mountain-castle walls, beautifully carpeted with moss.' },
-      { ja: '才蔵丸 — 本丸に次ぐ広さの曲輪。眺望も良く、城の規模を実感できる。', zhTw: '才藏丸 — 面積僅次於本丸的曲輪。眺望佳，可實感城的規模。', en: 'Saizō-maru — the second-largest enclosure with fine views, conveying the castle\'s grand scale.' },
+      {
+        ja: '本丸の石垣', zhTw: '本丸石垣', en: 'Honmaru stone walls',
+        desc: {
+          ja: '阿波最大級の山城石垣。苔むした石垣が美しい。',
+          zhTw: '阿波最大級的山城石垣。長滿青苔的石垣很美。',
+          en: 'Awa\'s largest mountain-castle walls, beautifully carpeted with moss.',
+        },
+      },
+      {
+        ja: '才蔵丸', zhTw: '才藏丸', en: 'Saizō-maru',
+        desc: {
+          ja: '本丸に次ぐ広さの曲輪。眺望も良く、城の規模を実感できる。',
+          zhTw: '面積僅次於本丸的曲輪。眺望佳，可實感城的規模。',
+          en: 'the second-largest enclosure with fine views, conveying the castle\'s grand scale.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高144mの山に本丸・才蔵丸・明神丸・小倉丸など多数の曲輪を配した大規模山城。', zhTw: '在標高144公尺的山上配置本丸、才藏丸、明神丸、小倉丸等多座曲輪的大規模山城。', en: 'A large mountain castle on a 144 m hill, with honmaru, Saizō-maru, Myōjin-maru, Ogura-maru, and more.' },
@@ -7084,15 +10129,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '仙石秀久 — 秀吉の四国攻め先鋒。引田の戦いで長宗我部軍に大敗した。', zhTw: '仙石秀久 — 秀吉四國攻略先鋒。引田之戰中慘敗於長宗我部軍。', en: 'Sengoku Hidehisa — Hideyoshi\'s Shikoku vanguard, badly defeated by the Chōsokabe at Hiketa.' },
+      {
+        ja: '仙石秀久', zhTw: '仙石秀久', en: 'Sengoku Hidehisa',
+        desc: {
+          ja: '秀吉の四国攻め先鋒。引田の戦いで長宗我部軍に大敗した。',
+          zhTw: '秀吉四國攻略先鋒。引田之戰中慘敗於長宗我部軍。',
+          en: 'Hideyoshi\'s Shikoku vanguard, badly defeated by the Chōsokabe at Hiketa.',
+        },
+      },
     ],
     trivia: [
       { ja: '引田の町並みは醤油醸造で栄えた商家が残り、讃岐東部の風情ある港町。', zhTw: '引田的街道保留因醬油釀造而繁榮的商家，是讚岐東部風情十足的港町。', en: 'Hiketa\'s streets retain old soy-sauce breweries — an atmospheric port town in eastern Sanuki.' },
       { ja: '城跡からは播磨灘が一望でき、海上交通の要衝としての立地を実感できる。', zhTw: '從城跡可一覽播磨灘，可實感海上交通要衝的選址。', en: 'The ruins overlook the Harima Sea, vividly demonstrating the site\'s command of maritime routes.' },
     ],
     highlights: [
-      { ja: '石垣群 — 近年の発掘で発見された近世的な石垣。讃岐の石垣技術を伝える。', zhTw: '石垣群 — 近年發掘發現的近世石垣。傳達讚岐的石垣技術。', en: 'Stone wall clusters — recently excavated early-modern walls showcasing Sanuki stonework.' },
-      { ja: '播磨灘の眺望 — 城跡から瀬戸内海を見渡す絶景。', zhTw: '播磨灘眺望 — 從城跡遠眺瀨戶內海的絕景。', en: 'Harima Sea views — a spectacular panorama of the Inland Sea from the ruins.' },
+      {
+        ja: '石垣群', zhTw: '石垣群', en: 'Stone wall clusters',
+        desc: {
+          ja: '近年の発掘で発見された近世的な石垣。讃岐の石垣技術を伝える。',
+          zhTw: '近年發掘發現的近世石垣。傳達讚岐的石垣技術。',
+          en: 'recently excavated early-modern walls showcasing Sanuki stonework.',
+        },
+      },
+      {
+        ja: '播磨灘の眺望', zhTw: '播磨灘眺望', en: 'Harima Sea views',
+        desc: {
+          ja: '城跡から瀬戸内海を見渡す絶景。',
+          zhTw: '從城跡遠眺瀨戶內海的絕景。',
+          en: 'a spectacular panorama of the Inland Sea from the ruins.',
+        },
+      },
     ],
     architecture: [
       { ja: '城山（標高82m）に築かれた海城型の山城。海と川を天然の堀として活用。', zhTw: '建於城山（標高82公尺）的海城型山城。以海與河為天然壕溝。', en: 'A sea-castle-type mountain castle on 82 m Shiroyama, using the sea and river as natural moats.' },
@@ -7135,16 +10201,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '村上武吉 — 能島村上氏の当主。瀬戸内海最強の海賊大名として恐れられた。', zhTw: '村上武吉 — 能島村上氏當主。作為瀨戶內海最強海賊大名被恐懼。', en: 'Murakami Takeyoshi — head of the Noshima Murakami, feared as the mightiest pirate lord of the Inland Sea.' },
+      {
+        ja: '村上武吉', zhTw: '村上武吉', en: 'Murakami Takeyoshi',
+        desc: {
+          ja: '能島村上氏の当主。瀬戸内海最強の海賊大名として恐れられた。',
+          zhTw: '能島村上氏當主。作為瀨戶內海最強海賊大名被恐懼。',
+          en: 'head of the Noshima Murakami, feared as the mightiest pirate lord of the Inland Sea.',
+        },
+      },
     ],
     trivia: [
       { ja: '2016年に「村上海賊」として日本遺産に認定。「海賊」という呼称が公式に使われている珍しい例。', zhTw: '2016年以「村上海賊」獲認定為日本遺產。「海賊」稱呼被正式使用的罕見例子。', en: 'Certified as a Japan Heritage site in 2016 under "Murakami Pirates" — a rare official use of the term "pirate."' },
       { ja: '能島周辺の潮流は最大10ノットにも達し、この急流が天然の防御となっていた。', zhTw: '能島周邊潮流最大達10節，此急流成為天然防禦。', en: 'Tidal currents around Noshima reach 10 knots — this rapid flow served as a natural defense.' },
     ],
     highlights: [
-      { ja: '能島への船旅 — 急潮流を体験しながら島に渡る船旅自体が冒険。', zhTw: '前往能島的船旅 — 體驗急潮流同時渡島的船旅本身就是冒險。', en: 'Boat trip to Noshima — the voyage through rapid tidal currents is an adventure in itself.' },
-      { ja: '島全体が城跡 — 小さな島全体に曲輪・岩礁ピット（船着場）が残る。', zhTw: '整座島就是城跡 — 小島全體殘存曲輪、岩礁坑（船著場）。', en: 'The entire island is a castle ruin — baileys and rock-cut boat docks survive across the small island.' },
-      { ja: '村上海賊ミュージアム — 大島にある村上水軍の歴史を伝える博物館。', zhTw: '村上海賊博物館 — 位於大島的村上水軍歷史博物館。', en: 'Murakami Pirate Museum — on Ōshima Island, telling the history of the Murakami navy.' },
+      {
+        ja: '能島への船旅', zhTw: '前往能島的船旅', en: 'Boat trip to Noshima',
+        desc: {
+          ja: '急潮流を体験しながら島に渡る船旅自体が冒険。',
+          zhTw: '體驗急潮流同時渡島的船旅本身就是冒險。',
+          en: 'the voyage through rapid tidal currents is an adventure in itself.',
+        },
+      },
+      {
+        ja: '島全体が城跡', zhTw: '整座島就是城跡', en: 'The entire island is a castle ruin',
+        desc: {
+          ja: '小さな島全体に曲輪・岩礁ピット（船着場）が残る。',
+          zhTw: '小島全體殘存曲輪、岩礁坑（船著場）。',
+          en: 'baileys and rock-cut boat docks survive across the small island.',
+        },
+      },
+      {
+        ja: '村上海賊ミュージアム', zhTw: '村上海賊博物館', en: 'Murakami Pirate Museum',
+        desc: {
+          ja: '大島にある村上水軍の歴史を伝える博物館。',
+          zhTw: '位於大島的村上水軍歷史博物館。',
+          en: 'on Ōshima Island, telling the history of the Murakami navy.',
+        },
+      },
     ],
     architecture: [
       { ja: '周囲約850mの小島全体を城郭化した海城。急潮流が天然の堀となる。', zhTw: '將周圍約850公尺的小島整體城郭化的海城。急潮流成為天然壕溝。', en: 'The entire island (850 m circumference) was fortified as a sea castle, with rapid tides as natural moats.' },
@@ -7188,15 +10282,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '河原渕氏 — 河後森城の築城者とされる南予の土豪。詳細は不明ながら城名に痕跡を残す。', zhTw: '河原渕氏 — 被認為是河後森城築城者的南予土豪。雖詳細不明但在城名留有痕跡。', en: 'The Kawarabuchi — reputed builders of Kagomori, southern Iyo warriors whose legacy survives in the castle\'s name.' },
+      {
+        ja: '河原渕氏', zhTw: '河原渕氏', en: 'The Kawarabuchi',
+        desc: {
+          ja: '河後森城の築城者とされる南予の土豪。詳細は不明ながら城名に痕跡を残す。',
+          zhTw: '被認為是河後森城築城者的南予土豪。雖詳細不明但在城名留有痕跡。',
+          en: 'reputed builders of Kagomori, southern Iyo warriors whose legacy survives in the castle\'s name.',
+        },
+      },
     ],
     trivia: [
       { ja: '発掘調査で馬屋が発見された数少ない城跡で、復元された馬屋は全国的にも珍しい。', zhTw: '發掘調查中發現馬屋的少數城跡之一，復原的馬屋在全國也很罕見。', en: 'One of few castle sites where a stable was excavated — the reconstructed stable is nationally rare.' },
       { ja: '四万十川の支流・広見川に面し、のどかな南予の山間部にひっそりと佇む。', zhTw: '面向四萬十川支流廣見川，靜靜佇立於恬靜的南予山間部。', en: 'Facing the Hiromi River (a Shimanto tributary), it sits quietly in the peaceful mountains of southern Iyo.' },
     ],
     highlights: [
-      { ja: '復元馬屋 — 発掘成果に基づき復元された全国でも珍しい中世の馬屋。', zhTw: '復原馬屋 — 根據發掘成果復原的全國罕見中世馬屋。', en: 'Reconstructed stable — a nationally rare medieval stable rebuilt based on excavation findings.' },
-      { ja: '本郭からの眺望 — 広見川流域と四国山地を見渡す穏やかな山城の風景。', zhTw: '從本郭眺望 — 俯瞰廣見川流域與四國山地的穩和山城風景。', en: 'Views from the main enclosure — peaceful mountain-castle scenery overlooking the Hiromi River and Shikoku mountains.' },
+      {
+        ja: '復元馬屋', zhTw: '復原馬屋', en: 'Reconstructed stable',
+        desc: {
+          ja: '発掘成果に基づき復元された全国でも珍しい中世の馬屋。',
+          zhTw: '根據發掘成果復原的全國罕見中世馬屋。',
+          en: 'a nationally rare medieval stable rebuilt based on excavation findings.',
+        },
+      },
+      {
+        ja: '本郭からの眺望', zhTw: '從本郭眺望', en: 'Views from the main enclosure',
+        desc: {
+          ja: '広見川流域と四国山地を見渡す穏やかな山城の風景。',
+          zhTw: '俯瞰廣見川流域與四國山地的穩和山城風景。',
+          en: 'peaceful mountain-castle scenery overlooking the Hiromi River and Shikoku mountains.',
+        },
+      },
     ],
     architecture: [
       { ja: '広見川に突き出た尾根に本郭・古城・新城を配した連郭式山城。', zhTw: '在突入廣見川的山脊上配置本郭、古城、新城的連郭式山城。', en: 'A linked-enclosure mountain castle with main, old, and new enclosures along a ridge jutting into the Hiromi River.' },
@@ -7239,17 +10354,52 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '長宗我部元親 — 「姫若子」と呼ばれた少年時代から一転、四国統一を目指した土佐の英雄。', zhTw: '長宗我部元親 — 從被稱為「姬若子」的少年時代一轉，目標四國統一的土佐英雄。', en: 'Chōsokabe Motochika — mocked as "the princess boy" in youth, he became Tosa\'s hero who nearly conquered all Shikoku.' },
-      { ja: '長宗我部国親 — 元親の父。衰退した長宗我部氏を再興し、土佐統一の基盤を築いた。', zhTw: '長宗我部國親 — 元親之父。復興衰退的長宗我部氏，奠定土佐統一的基盤。', en: 'Chōsokabe Kunichika — Motochika\'s father who revived the declining clan and laid the groundwork for Tosa\'s unification.' },
+      {
+        ja: '長宗我部元親', zhTw: '長宗我部元親', en: 'Chōsokabe Motochika',
+        desc: {
+          ja: '「姫若子」と呼ばれた少年時代から一転、四国統一を目指した土佐の英雄。',
+          zhTw: '從被稱為「姬若子」的少年時代一轉，目標四國統一的土佐英雄。',
+          en: 'mocked as "the princess boy" in youth, he became Tosa\'s hero who nearly conquered all Shikoku.',
+        },
+      },
+      {
+        ja: '長宗我部国親', zhTw: '長宗我部國親', en: 'Chōsokabe Kunichika',
+        desc: {
+          ja: '元親の父。衰退した長宗我部氏を再興し、土佐統一の基盤を築いた。',
+          zhTw: '元親之父。復興衰退的長宗我部氏，奠定土佐統一的基盤。',
+          en: 'Motochika\'s father who revived the declining clan and laid the groundwork for Tosa\'s unification.',
+        },
+      },
     ],
     trivia: [
       { ja: '城跡に隣接する高知県立歴史民俗資料館に長宗我部氏の貴重な資料が展示されている。', zhTw: '城跡鄰接的高知縣立歷史民俗資料館展示長宗我部氏的珍貴資料。', en: 'The Kōchi Prefectural Museum of History adjacent to the ruins exhibits precious Chōsokabe artifacts.' },
       { ja: '元親が初陣で見せた武勇により「鬼若子」と呼ばれるようになった逸話は有名。', zhTw: '元親初陣展現的武勇使他被改稱為「鬼若子」的軼事很有名。', en: 'Motochika\'s valor in his first battle earned him the new nickname "Demon Boy" — a famous anecdote.' },
     ],
     highlights: [
-      { ja: '詰の段（本丸） — 城の最高所。土佐平野を一望する眺望は元親が見た景色。', zhTw: '詰之段（本丸） — 城的最高處。一覽土佐平野的眺望是元親所見的景色。', en: 'Tsume-no-dan (honmaru) — the castle\'s highest point, with the same Tosa-plain view Motochika once saw.' },
-      { ja: '高知県立歴史民俗資料館 — 長宗我部氏と土佐の歴史を深く学べる博物館。', zhTw: '高知縣立歷史民俗資料館 — 可深入了解長宗我部氏與土佐歷史的博物館。', en: 'Kōchi Prefectural Museum of History — a museum for deep study of the Chōsokabe and Tosa.' },
-      { ja: '長宗我部元親像 — 城跡近くに建つ元親の銅像。初陣の姿を再現。', zhTw: '長宗我部元親像 — 建於城跡附近的元親銅像。再現初陣的姿態。', en: 'Motochika statue — a bronze figure near the ruins, depicting his legendary first battle.' },
+      {
+        ja: '詰の段（本丸）', zhTw: '詰之段（本丸）', en: 'Tsume-no-dan (honmaru)',
+        desc: {
+          ja: '城の最高所。土佐平野を一望する眺望は元親が見た景色。',
+          zhTw: '城的最高處。一覽土佐平野的眺望是元親所見的景色。',
+          en: 'the castle\'s highest point, with the same Tosa-plain view Motochika once saw.',
+        },
+      },
+      {
+        ja: '高知県立歴史民俗資料館', zhTw: '高知縣立歷史民俗資料館', en: 'Kōchi Prefectural Museum of History',
+        desc: {
+          ja: '長宗我部氏と土佐の歴史を深く学べる博物館。',
+          zhTw: '可深入了解長宗我部氏與土佐歷史的博物館。',
+          en: 'a museum for deep study of the Chōsokabe and Tosa.',
+        },
+      },
+      {
+        ja: '長宗我部元親像', zhTw: '長宗我部元親像', en: 'Motochika statue',
+        desc: {
+          ja: '城跡近くに建つ元親の銅像。初陣の姿を再現。',
+          zhTw: '建於城跡附近的元親銅像。再現初陣的姿態。',
+          en: 'a bronze figure near the ruins, depicting his legendary first battle.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高97mの丘陵に詰の段・二の段・三の段を階段状に配した土佐を代表する中世山城。', zhTw: '在標高97公尺丘陵上階梯狀配置詰之段、二之段、三之段的代表土佐的中世山城。', en: 'A classic Tosa medieval mountain castle on a 97 m hill, with main, second, and third enclosures in tiers.' },
@@ -7303,16 +10453,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '細川忠興 — 文武両道の名将。茶道にも通じ、妻・ガラシャとの悲劇的な物語でも知られる。', zhTw: '細川忠興 — 文武雙全的名將。精通茶道，也以妻子加拉莎的悲劇故事聞名。', en: 'Hosokawa Tadaoki — a lord of culture and war, famed in tea ceremony and for his tragic story with wife Gracia.' },
-      { ja: '宮本武蔵 — 小倉滞在中に佐々木小次郎との巌流島の決闘に臨んだ剣聖。', zhTw: '宮本武藏 — 在小倉逗留期間前往嚴流島與佐佐木小次郎決鬥的劍聖。', en: 'Miyamoto Musashi — the legendary swordsman who fought Sasaki Kojirō at Ganryū-jima while based in Kokura.' },
+      {
+        ja: '細川忠興', zhTw: '細川忠興', en: 'Hosokawa Tadaoki',
+        desc: {
+          ja: '文武両道の名将。茶道にも通じ、妻・ガラシャとの悲劇的な物語でも知られる。',
+          zhTw: '文武雙全的名將。精通茶道，也以妻子加拉莎的悲劇故事聞名。',
+          en: 'a lord of culture and war, famed in tea ceremony and for his tragic story with wife Gracia.',
+        },
+      },
+      {
+        ja: '宮本武蔵', zhTw: '宮本武藏', en: 'Miyamoto Musashi',
+        desc: {
+          ja: '小倉滞在中に佐々木小次郎との巌流島の決闘に臨んだ剣聖。',
+          zhTw: '在小倉逗留期間前往嚴流島與佐佐木小次郎決鬥的劍聖。',
+          en: 'the legendary swordsman who fought Sasaki Kojirō at Ganryū-jima while based in Kokura.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守は「唐造り」と呼ばれる最上階が下の階より大きい珍しい構造だった。', zhTw: '天守採「唐造」，最上層比下層大的罕見構造。', en: 'The keep had "kara-zukuri" (Chinese-style) construction — the top floor was larger than the one below, a rare design.' },
       { ja: '松本清張記念館が城跡に隣接し、小倉は推理小説の聖地としても知られる。', zhTw: '松本清張紀念館鄰接城跡，小倉也以推理小說聖地聞名。', en: 'The Matsumoto Seichō Memorial Museum sits next to the ruins — Kokura is also a mystery-fiction pilgrimage site.' },
     ],
     highlights: [
-      { ja: '復興天守 — 1959年に復興された唐造り風の天守。内部は歴史展示施設。', zhTw: '復興天守 — 1959年復興的唐造風天守。內部為歷史展示設施。', en: 'Reconstructed keep — a 1959 rebuild in kara-zukuri style, now housing historical exhibits.' },
-      { ja: '小倉城庭園 — 城に隣接する大名屋敷の庭園を再現した日本庭園。', zhTw: '小倉城庭園 — 鄰接城再現大名宅邸庭園的日本庭園。', en: 'Kokura Castle Garden — a Japanese garden recreating the daimyō residence gardens beside the castle.' },
+      {
+        ja: '復興天守', zhTw: '復興天守', en: 'Reconstructed keep',
+        desc: {
+          ja: '1959年に復興された唐造り風の天守。内部は歴史展示施設。',
+          zhTw: '1959年復興的唐造風天守。內部為歷史展示設施。',
+          en: 'a 1959 rebuild in kara-zukuri style, now housing historical exhibits.',
+        },
+      },
+      {
+        ja: '小倉城庭園', zhTw: '小倉城庭園', en: 'Kokura Castle Garden',
+        desc: {
+          ja: '城に隣接する大名屋敷の庭園を再現した日本庭園。',
+          zhTw: '鄰接城再現大名宅邸庭園的日本庭園。',
+          en: 'a Japanese garden recreating the daimyō residence gardens beside the castle.',
+        },
+      },
     ],
     architecture: [
       { ja: '紫川を外堀とする平城。天守は四層五階の唐造りで、最上階が張り出す独特の構造だった。', zhTw: '以紫川為外壕的平城。天守為四層五階的唐造，最上層突出的獨特構造。', en: 'A flatland castle using the Murasaki River as outer moat; the four-layer, five-story keep featured the unique kara-zukuri overhang.' },
@@ -7354,15 +10532,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '天智天皇 — 白村江の敗戦後、国防強化を推し進め水城の築造を命じた。', zhTw: '天智天皇 — 白村江敗戰後推進國防強化，命令築造水城。', en: 'Emperor Tenji — after the Baekgang defeat, he drove national defense strengthening and ordered Mizuki\'s construction.' },
+      {
+        ja: '天智天皇', zhTw: '天智天皇', en: 'Emperor Tenji',
+        desc: {
+          ja: '白村江の敗戦後、国防強化を推し進め水城の築造を命じた。',
+          zhTw: '白村江敗戰後推進國防強化，命令築造水城。',
+          en: 'after the Baekgang defeat, he drove national defense strengthening and ordered Mizuki\'s construction.',
+        },
+      },
     ],
     trivia: [
       { ja: '土塁の前面（博多側）には堀として幅60mの濠が設けられ、水をたたえていた。', zhTw: '土壘前面（博多側）設有寬60公尺的壕溝，蓄滿水。', en: 'A 60 m-wide water-filled moat stretched before the earthwork on the Hakata side.' },
       { ja: '現在もJR水城駅付近で土塁の断面を観察でき、古代の土木技術に驚かされる。', zhTw: '至今在JR水城站附近可觀察土壘斷面，對古代土木技術感到驚嘆。', en: 'Cross-sections of the earthwork are still visible near JR Mizuki Station, revealing astonishing ancient engineering.' },
     ],
     highlights: [
-      { ja: '土塁断面広場 — 土塁の断面が露出展示され、内部構造を観察できる。', zhTw: '土壘斷面廣場 — 土壘斷面露出展示，可觀察內部構造。', en: 'Earthwork Cross-Section Plaza — an exposed cross-section revealing the internal structure.' },
-      { ja: '水城跡の遊歩道 — 全長1.2kmの土塁に沿った散策路。', zhTw: '水城跡步道 — 沿全長1.2公里土壘的散步路。', en: 'Mizuki ruins walking path — a trail along the full 1.2 km earthwork.' },
+      {
+        ja: '土塁断面広場', zhTw: '土壘斷面廣場', en: 'Earthwork Cross-Section Plaza',
+        desc: {
+          ja: '土塁の断面が露出展示され、内部構造を観察できる。',
+          zhTw: '土壘斷面露出展示，可觀察內部構造。',
+          en: 'an exposed cross-section revealing the internal structure.',
+        },
+      },
+      {
+        ja: '水城跡の遊歩道', zhTw: '水城跡步道', en: 'Mizuki ruins walking path',
+        desc: {
+          ja: '全長1.2kmの土塁に沿った散策路。',
+          zhTw: '沿全長1.2公里土壘的散步路。',
+          en: 'a trail along the full 1.2 km earthwork.',
+        },
+      },
     ],
     architecture: [
       { ja: '博多湾から大宰府への通路を完全に遮断する東西1.2kmの巨大な土塁と水堀。', zhTw: '完全遮斷從博多灣到大宰府通路的東西1.2公里巨大土壘與水壕。', en: 'A colossal 1.2 km east-west earthwork and moat completely blocking the road from Hakata Bay to Dazaifu.' },
@@ -7407,15 +10606,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '有馬豊氏 — 久留米藩初代藩主。筑後の基盤を固め、城と城下町を整備した。', zhTw: '有馬豐氏 — 久留米藩初代藩主。鞏固筑後基盤，整備城與城下町。', en: 'Arima Toyouji — first lord of Kurume, who secured Chikugo and developed the castle and town.' },
+      {
+        ja: '有馬豊氏', zhTw: '有馬豐氏', en: 'Arima Toyouji',
+        desc: {
+          ja: '久留米藩初代藩主。筑後の基盤を固め、城と城下町を整備した。',
+          zhTw: '久留米藩初代藩主。鞏固筑後基盤，整備城與城下町。',
+          en: 'first lord of Kurume, who secured Chikugo and developed the castle and town.',
+        },
+      },
     ],
     trivia: [
       { ja: '城跡には篠山神社（有馬氏を祀る）があり、境内から筑後川を見下ろせる。', zhTw: '城跡有篠山神社（祭祀有馬氏），從境內可俯瞰筑後川。', en: 'Sasayama Shrine (dedicated to the Arima) sits on the ruins, with views of the Chikugo River from its grounds.' },
       { ja: '久留米はブリヂストン（石橋正二郎）発祥の地で、城下町の商業伝統が近代産業につながった。', zhTw: '久留米是普利司通（石橋正二郎）的發祥地，城下町的商業傳統連接到近代產業。', en: 'Kurume is the birthplace of Bridgestone (Ishibashi Shōjirō) — the castle town\'s commercial tradition fed modern industry.' },
     ],
     highlights: [
-      { ja: '高石垣 — 筑後川に面した本丸の高石垣は高さ約15mで九州屈指の規模。', zhTw: '高石垣 — 面向筑後川的本丸高石垣約15公尺高，為九州頂級規模。', en: 'Tall stone walls — the honmaru walls facing the Chikugo River rise about 15 m, among Kyūshū\'s tallest.' },
-      { ja: '筑後川の眺望 — 本丸から筑後川と筑紫平野を一望する雄大な景色。', zhTw: '筑後川眺望 — 從本丸一覽筑後川與筑紫平野的壯大景色。', en: 'Chikugo River views — magnificent panorama of the river and Tsukushi Plain from the honmaru.' },
+      {
+        ja: '高石垣', zhTw: '高石垣', en: 'Tall stone walls',
+        desc: {
+          ja: '筑後川に面した本丸の高石垣は高さ約15mで九州屈指の規模。',
+          zhTw: '面向筑後川的本丸高石垣約15公尺高，為九州頂級規模。',
+          en: 'the honmaru walls facing the Chikugo River rise about 15 m, among Kyūshū\'s tallest.',
+        },
+      },
+      {
+        ja: '筑後川の眺望', zhTw: '筑後川眺望', en: 'Chikugo River views',
+        desc: {
+          ja: '本丸から筑後川と筑紫平野を一望する雄大な景色。',
+          zhTw: '從本丸一覽筑後川與筑紫平野的壯大景色。',
+          en: 'magnificent panorama of the river and Tsukushi Plain from the honmaru.',
+        },
+      },
     ],
     architecture: [
       { ja: '筑後川に面した丘陵に築かれた平山城。本丸の高石垣は「扇の勾配」と呼ばれる美しい反りを持つ。', zhTw: '建於面向筑後川丘陵的平山城。本丸高石垣具有被稱為「扇之坡度」的優美弧度。', en: 'A hilltop castle on a bluff above the Chikugo River; the honmaru walls have the graceful "fan curve" batter.' },
@@ -7450,15 +10670,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '天智天皇 — 白村江の敗戦後、基肄城を含む西日本の防衛体制を構築した。', zhTw: '天智天皇 — 白村江敗戰後建構包含基肄城的西日本防衛體制。', en: 'Emperor Tenji — constructed western Japan\'s defense system including Kii Castle after the Baekgang defeat.' },
+      {
+        ja: '天智天皇', zhTw: '天智天皇', en: 'Emperor Tenji',
+        desc: {
+          ja: '白村江の敗戦後、基肄城を含む西日本の防衛体制を構築した。',
+          zhTw: '白村江敗戰後建構包含基肄城的西日本防衛體制。',
+          en: 'constructed western Japan\'s defense system including Kii Castle after the Baekgang defeat.',
+        },
+      },
     ],
     trivia: [
       { ja: '山頂からは水城と大野城を同時に見渡せ、古代防衛ラインの全体像を実感できる。', zhTw: '從山頂可同時眺望水城和大野城，實感古代防衛線的全貌。', en: 'From the summit you can see both Mizuki and Ōno Castle, grasping the full ancient defense line.' },
       { ja: '基山の草スキー場は基肄城の土塁跡を利用しており、遺跡の上で遊ぶ珍しい体験ができる。', zhTw: '基山的草滑雪場利用基肄城的土壘跡，可在遺跡上遊玩的罕見體驗。', en: 'Kiyama\'s grass-skiing slope uses the earthwork ruins — a rare experience of playing atop an ancient monument.' },
     ],
     highlights: [
-      { ja: '南水門跡 — 谷筋に築かれた石造水門は古代土木技術の傑作。', zhTw: '南水門跡 — 築建於谷筋的石造水門是古代土木技術的傑作。', en: 'South Water Gate ruins — a stone sluice gate built in a valley, a masterpiece of ancient engineering.' },
-      { ja: '山頂からの展望 — 筑紫平野と大宰府方面を一望。古代の防衛視界を体験。', zhTw: '從山頂展望 — 一覽筑紫平野與大宰府方面。體驗古代防衛視野。', en: 'Summit panorama — views of the Tsukushi Plain and Dazaifu area; experience the ancient defense perspective.' },
+      {
+        ja: '南水門跡', zhTw: '南水門跡', en: 'South Water Gate ruins',
+        desc: {
+          ja: '谷筋に築かれた石造水門は古代土木技術の傑作。',
+          zhTw: '築建於谷筋的石造水門是古代土木技術的傑作。',
+          en: 'a stone sluice gate built in a valley, a masterpiece of ancient engineering.',
+        },
+      },
+      {
+        ja: '山頂からの展望', zhTw: '從山頂展望', en: 'Summit panorama',
+        desc: {
+          ja: '筑紫平野と大宰府方面を一望。古代の防衛視界を体験。',
+          zhTw: '一覽筑紫平野與大宰府方面。體驗古代防衛視野。',
+          en: 'views of the Tsukushi Plain and Dazaifu area; experience the ancient defense perspective.',
+        },
+      },
     ],
     architecture: [
       { ja: '基山（標高405m）を中心に全周約3.5kmの土塁・石塁で山を囲む朝鮮式古代山城。', zhTw: '以基山（標高405公尺）為中心全周約3.5公里的土壘、石壘環山的朝鮮式古代山城。', en: 'A Korean-style ancient mountain castle encircling 405 m Kiyama with 3.5 km of earthen and stone ramparts.' },
@@ -7495,15 +10736,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '寺沢広高 — 秀吉の朝鮮出兵で名護屋城の普請奉行を務め、唐津の地に精通していた。', zhTw: '寺澤廣高 — 秀吉朝鮮出兵中擔任名護屋城普請奉行，精通唐津之地。', en: 'Terazawa Hirotaka — served as construction magistrate for Nagoya Castle during Hideyoshi\'s Korean campaigns, knowing Karatsu well.' },
+      {
+        ja: '寺沢広高', zhTw: '寺澤廣高', en: 'Terazawa Hirotaka',
+        desc: {
+          ja: '秀吉の朝鮮出兵で名護屋城の普請奉行を務め、唐津の地に精通していた。',
+          zhTw: '秀吉朝鮮出兵中擔任名護屋城普請奉行，精通唐津之地。',
+          en: 'served as construction magistrate for Nagoya Castle during Hideyoshi\'s Korean campaigns, knowing Karatsu well.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守台から見る虹の松原（特別名勝）は絶景で、城と松原の組み合わせは唐津の象徴。', zhTw: '從天守台看虹之松原（特別名勝）是絕景，城與松原的組合是唐津的象徵。', en: 'The view of Niji-no-Matsubara (Special Scenic Site) from the keep is spectacular — castle and pine grove together symbolize Karatsu.' },
       { ja: '唐津くんちは佐賀を代表する秋祭りで、華やかな曳山が城下を巡る。', zhTw: '唐津供日是代表佐賀的秋祭，華麗的曳山在城下巡遊。', en: 'Karatsu Kunchi is Saga\'s premier autumn festival, with splendid floats parading through the castle town.' },
     ],
     highlights: [
-      { ja: '模擬天守と虹の松原の眺望 — 天守台から虹の松原と玄界灘を一望する絶景。', zhTw: '模擬天守與虹之松原眺望 — 從天守台一覽虹之松原與玄界灘的絕景。', en: 'Mock keep and Niji-no-Matsubara — a breathtaking view of the pine grove and Genkai Sea from the tower.' },
-      { ja: '唐津くんち — 毎年11月、14台の漆塗り曳山が城下町を練り歩く壮大な祭り。', zhTw: '唐津供日 — 每年11月14台漆塗曳山在城下町遊行的壯大祭典。', en: 'Karatsu Kunchi — 14 lacquered floats parade through the castle town each November in a grand festival.' },
+      {
+        ja: '模擬天守と虹の松原の眺望', zhTw: '模擬天守與虹之松原眺望', en: 'Mock keep and Niji-no-Matsubara',
+        desc: {
+          ja: '天守台から虹の松原と玄界灘を一望する絶景。',
+          zhTw: '從天守台一覽虹之松原與玄界灘的絕景。',
+          en: 'a breathtaking view of the pine grove and Genkai Sea from the tower.',
+        },
+      },
+      {
+        ja: '唐津くんち', zhTw: '唐津供日', en: 'Karatsu Kunchi',
+        desc: {
+          ja: '毎年11月、14台の漆塗り曳山が城下町を練り歩く壮大な祭り。',
+          zhTw: '每年11月14台漆塗曳山在城下町遊行的壯大祭典。',
+          en: '14 lacquered floats parade through the castle town each November in a grand festival.',
+        },
+      },
     ],
     architecture: [
       { ja: '唐津湾に突き出た満島山に築かれ、左右に延びる砂浜が鶴の翼に見えることから「舞鶴城」の別名を持つ。', zhTw: '建於突入唐津灣的滿島山，左右延伸的沙灘像鶴翼般因此有「舞鶴城」別名。', en: 'Built on Manjima-yama jutting into Karatsu Bay; the beaches extending left and right resemble crane wings, hence "Maizuru Castle."' },
@@ -7546,15 +10808,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '天智天皇 — 国防体制の一環として対馬に金田城の築造を命じた。', zhTw: '天智天皇 — 作為國防體制一環命令在對馬築造金田城。', en: 'Emperor Tenji — ordered Kaneda\'s construction on Tsushima as part of the national defense system.' },
+      {
+        ja: '天智天皇', zhTw: '天智天皇', en: 'Emperor Tenji',
+        desc: {
+          ja: '国防体制の一環として対馬に金田城の築造を命じた。',
+          zhTw: '作為國防體制一環命令在對馬築造金田城。',
+          en: 'ordered Kaneda\'s construction on Tsushima as part of the national defense system.',
+        },
+      },
     ],
     trivia: [
       { ja: '城域は対馬の城山（標高276m）全体に及び、全長約2.8kmの石塁が山を囲む。', zhTw: '城域涵蓋對馬城山（標高276公尺）全體，全長約2.8公里石壘環山。', en: 'The castle covers the entire 276 m Jōyama, with 2.8 km of stone ramparts encircling the mountain.' },
       { ja: '対馬海峡を挟んで韓国が見える日もあり、古代の「国境の城」の意味を実感できる。', zhTw: '隔對馬海峽有時可見韓國，可實感古代「國境之城」的意義。', en: 'On clear days Korea is visible across the strait, vividly conveying the meaning of this ancient "border castle."' },
     ],
     highlights: [
-      { ja: '石塁群 — 1,350年以上前の石垣が驚くほど良好に残り、古代技術に圧倒される。', zhTw: '石壘群 — 1350年以上前的石垣保存驚人地好，令人對古代技術折服。', en: 'Stone ramparts — walls over 1,350 years old in astonishingly good condition, overwhelming in their ancient craftsmanship.' },
-      { ja: '城山山頂からの展望 — 対馬海峡と浅茅湾を一望する国防最前線の絶景。', zhTw: '從城山山頂展望 — 一覽對馬海峽與淺茅灣的國防最前線絕景。', en: 'Summit panorama — views of the Tsushima Strait and Asō Bay from the very front line of national defense.' },
+      {
+        ja: '石塁群', zhTw: '石壘群', en: 'Stone ramparts',
+        desc: {
+          ja: '1,350年以上前の石垣が驚くほど良好に残り、古代技術に圧倒される。',
+          zhTw: '1350年以上前的石垣保存驚人地好，令人對古代技術折服。',
+          en: 'walls over 1,350 years old in astonishingly good condition, overwhelming in their ancient craftsmanship.',
+        },
+      },
+      {
+        ja: '城山山頂からの展望', zhTw: '從城山山頂展望', en: 'Summit panorama',
+        desc: {
+          ja: '対馬海峡と浅茅湾を一望する国防最前線の絶景。',
+          zhTw: '一覽對馬海峽與淺茅灣的國防最前線絕景。',
+          en: 'views of the Tsushima Strait and Asō Bay from the very front line of national defense.',
+        },
+      },
     ],
     architecture: [
       { ja: '城山全体を石塁と土塁で囲む古代朝鮮式山城。複数の水門と城門を備える。', zhTw: '以石壘和土壘環繞城山全體的古代朝鮮式山城。配備多座水門和城門。', en: 'A Korean-style ancient mountain castle encircling the entire mountain with stone and earthen ramparts, multiple gates and sluices.' },
@@ -7599,15 +10882,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '五島盛徳 — 五島藩最後の藩主。海防のため幕末に新城を築いた先見の明を持つ藩主。', zhTw: '五島盛德 — 五島藩最後的藩主。為海防於幕末築新城的有先見之明的藩主。', en: 'Gotō Moritoku — last Gotō lord, a forward-thinking daimyō who built a new castle for coastal defense.' },
+      {
+        ja: '五島盛徳', zhTw: '五島盛德', en: 'Gotō Moritoku',
+        desc: {
+          ja: '五島藩最後の藩主。海防のため幕末に新城を築いた先見の明を持つ藩主。',
+          zhTw: '五島藩最後的藩主。為海防於幕末築新城的有先見之明的藩主。',
+          en: 'last Gotō lord, a forward-thinking daimyō who built a new castle for coastal defense.',
+        },
+      },
     ],
     trivia: [
       { ja: '「日本最後に築かれた城」として城郭ファンに特別な存在。', zhTw: '作為「日本最後築建的城」在城郭愛好者中具特殊地位。', en: 'As "Japan\'s last castle ever built," it holds a special place among castle enthusiasts.' },
       { ja: '五島列島は隠れキリシタンの島々として世界遺産に登録され、城下にも教会が点在する。', zhTw: '五島列島作為隱匿基督徒的島嶼登錄世界遺產，城下也散布教堂。', en: 'The Gotō Islands are a World Heritage Site for Hidden Christians, with churches dotting the castle town.' },
     ],
     highlights: [
-      { ja: '石垣と庭園 — 本丸跡は五島高校の敷地だが、石垣と五島氏庭園（国名勝）が見学可能。', zhTw: '石垣與庭園 — 本丸跡為五島高中校地，但石垣與五島氏庭園（國家名勝）可參觀。', en: 'Stone walls and garden — the honmaru is now a high school, but walls and the Gotō Garden (National Scenic Site) are open.' },
-      { ja: '五島氏庭園 — 築城時に造られた大名庭園。国の名勝に指定。', zhTw: '五島氏庭園 — 築城時建造的大名庭園。指定為國家名勝。', en: 'Gotō Garden — a daimyō garden created during construction, a designated National Place of Scenic Beauty.' },
+      {
+        ja: '石垣と庭園', zhTw: '石垣與庭園', en: 'Stone walls and garden',
+        desc: {
+          ja: '本丸跡は五島高校の敷地だが、石垣と五島氏庭園（国名勝）が見学可能。',
+          zhTw: '本丸跡為五島高中校地，但石垣與五島氏庭園（國家名勝）可參觀。',
+          en: 'the honmaru is now a high school, but walls and the Gotō Garden (National Scenic Site) are open.',
+        },
+      },
+      {
+        ja: '五島氏庭園', zhTw: '五島氏庭園', en: 'Gotō Garden',
+        desc: {
+          ja: '築城時に造られた大名庭園。国の名勝に指定。',
+          zhTw: '築城時建造的大名庭園。指定為國家名勝。',
+          en: 'a daimyō garden created during construction, a designated National Place of Scenic Beauty.',
+        },
+      },
     ],
     architecture: [
       { ja: '海に面した平城で、三方を海に囲まれた海城としての性格を持つ。', zhTw: '面向海的平城，具有三面被海環繞的海城性質。', en: 'A flatland castle facing the sea, with a sea-castle character — surrounded by ocean on three sides.' },
@@ -7659,7 +10963,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '天草四郎（益田時貞） — 島原の乱の象徴的指導者。わずか16歳でカリスマ的存在となった少年。', zhTw: '天草四郎（益田時貞） — 島原之亂的象徵性領導者。年僅16歲就成為有魅力的存在的少年。', en: 'Amakusa Shirō (Masuda Tokisada) — iconic leader of the rebellion, a charismatic boy of only 16.' },
+      {
+        ja: '天草四郎（益田時貞）', zhTw: '天草四郎（益田時貞）', en: 'Amakusa Shirō (Masuda Tokisada)',
+        desc: {
+          ja: '島原の乱の象徴的指導者。わずか16歳でカリスマ的存在となった少年。',
+          zhTw: '島原之亂的象徵性領導者。年僅16歲就成為有魅力的存在的少年。',
+          en: 'iconic leader of the rebellion, a charismatic boy of only 16.',
+        },
+      },
     ],
     trivia: [
       { ja: '2018年に「長崎と天草地方の潜伏キリシタン関連遺産」として世界遺産に登録された。', zhTw: '2018年以「長崎與天草地方潛伏基督徒相關遺產」登錄為世界遺產。', en: 'Listed as a World Heritage Site in 2018 as part of "Hidden Christian Sites in the Nagasaki Region."' },
@@ -7667,9 +10978,30 @@ export const castles = [
       { ja: '落城後、幕府は二度と籠城に使われぬよう徹底的に城を破壊し、石垣を埋めた。', zhTw: '落城後幕府為防止再被用於籠城而徹底破壞城郭、掩埋石垣。', en: 'After the fall, the Shōgunate thoroughly destroyed and buried the walls to prevent reuse as a fortress.' },
     ],
     highlights: [
-      { ja: '本丸跡 — 天草四郎の墓碑と、3万7千人の魂を慰める碑が立つ。', zhTw: '本丸跡 — 立有天草四郎墓碑與慰藉3萬7千人之魂的碑。', en: 'Honmaru ruins — Amakusa Shirō\'s tombstone and a monument consoling 37,000 souls stand here.' },
-      { ja: '発掘された石垣 — 幕府が埋めた石垣が発掘され、破壊の生々しさが伝わる。', zhTw: '發掘的石垣 — 幕府掩埋的石垣被發掘，傳達破壞的鮮明感。', en: 'Excavated walls — unearthed from where the Shōgunate buried them, conveying the rawness of destruction.' },
-      { ja: '有明海の眺望 — 城跡から有明海と天草諸島を望む穏やかな風景と悲劇の対比。', zhTw: '有明海眺望 — 從城跡眺望有明海與天草群島的穩和風景與悲劇的對比。', en: 'Ariake Sea views — peaceful scenery of the sea and Amakusa Islands, a poignant contrast to the tragedy.' },
+      {
+        ja: '本丸跡', zhTw: '本丸跡', en: 'Honmaru ruins',
+        desc: {
+          ja: '天草四郎の墓碑と、3万7千人の魂を慰める碑が立つ。',
+          zhTw: '立有天草四郎墓碑與慰藉3萬7千人之魂的碑。',
+          en: 'Amakusa Shirō\'s tombstone and a monument consoling 37,000 souls stand here.',
+        },
+      },
+      {
+        ja: '発掘された石垣', zhTw: '發掘的石垣', en: 'Excavated walls',
+        desc: {
+          ja: '幕府が埋めた石垣が発掘され、破壊の生々しさが伝わる。',
+          zhTw: '幕府掩埋的石垣被發掘，傳達破壞的鮮明感。',
+          en: 'unearthed from where the Shōgunate buried them, conveying the rawness of destruction.',
+        },
+      },
+      {
+        ja: '有明海の眺望', zhTw: '有明海眺望', en: 'Ariake Sea views',
+        desc: {
+          ja: '城跡から有明海と天草諸島を望む穏やかな風景と悲劇の対比。',
+          zhTw: '從城跡眺望有明海與天草群島的穩和風景與悲劇的對比。',
+          en: 'peaceful scenery of the sea and Amakusa Islands, a poignant contrast to the tragedy.',
+        },
+      },
     ],
     architecture: [
       { ja: '有明海に突き出た岬に築かれた海城。三方を海に囲まれた天然の要害。', zhTw: '建於突入有明海的岬角的海城。三面被海環繞的天然要害。', en: 'A sea castle on a cape jutting into the Ariake Sea, naturally defended by ocean on three sides.' },
@@ -7714,15 +11046,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '笠間時朝 — 佐白山の天然の要害を利用して築城した笠間氏の祖。', zhTw: '笠間時朝 — 利用佐白山天然要害築城的笠間氏之祖。', en: 'Kasama Tokitomo — founder of the Kasama clan, who exploited Mt. Sashiro\'s natural defenses for his castle.' },
+      {
+        ja: '笠間時朝', zhTw: '笠間時朝', en: 'Kasama Tokitomo',
+        desc: {
+          ja: '佐白山の天然の要害を利用して築城した笠間氏の祖。',
+          zhTw: '利用佐白山天然要害築城的笠間氏之祖。',
+          en: 'founder of the Kasama clan, who exploited Mt. Sashiro\'s natural defenses for his castle.',
+        },
+      },
     ],
     trivia: [
       { ja: '佐白山は花崗岩の巨岩が点在し、石倉と呼ばれる天然の岩盤を石垣に利用している。', zhTw: '佐白山花崗岩巨岩點綴，利用稱為石倉的天然岩盤作為石垣。', en: 'Granite boulders dot Mt. Sashiro, and natural rock formations called "ishikura" served as ready-made walls.' },
       { ja: '笠間稲荷神社は日本三大稲荷の一つで、城下町の守護神として城と共に発展した。', zhTw: '笠間稻荷神社是日本三大稻荷之一，作為城下町的守護神與城郭共同發展。', en: 'Kasama Inari Shrine, one of Japan\'s three great Inari shrines, grew alongside the castle as protector of the town.' },
     ],
     highlights: [
-      { ja: '八幡台櫓 — 唯一現存する建造物で、真浄寺に移築されている。', zhTw: '八幡台櫓 — 唯一現存的建築物，已移築至真淨寺。', en: 'Hachimandai Yagura — the only surviving structure, relocated to Shinjō-ji temple.' },
-      { ja: '石垣と巨岩 — 花崗岩の自然石と加工石垣が融合した独特の城郭遺構。', zhTw: '石垣與巨岩 — 花崗岩自然石與加工石垣融合的獨特城郭遺構。', en: 'Walls and boulders — a unique fusion of natural granite and crafted stone walls.' },
+      {
+        ja: '八幡台櫓', zhTw: '八幡台櫓', en: 'Hachimandai Yagura',
+        desc: {
+          ja: '唯一現存する建造物で、真浄寺に移築されている。',
+          zhTw: '唯一現存的建築物，已移築至真淨寺。',
+          en: 'the only surviving structure, relocated to Shinjō-ji temple.',
+        },
+      },
+      {
+        ja: '石垣と巨岩', zhTw: '石垣與巨岩', en: 'Walls and boulders',
+        desc: {
+          ja: '花崗岩の自然石と加工石垣が融合した独特の城郭遺構。',
+          zhTw: '花崗岩自然石與加工石垣融合的獨特城郭遺構。',
+          en: 'a unique fusion of natural granite and crafted stone walls.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高182mの佐白山山頂に本丸を置く連郭式山城。天守台の石垣が残る。', zhTw: '於標高182m的佐白山山頂設本丸的連郭式山城。天守台石垣殘存。', en: 'A renkaku-style mountain castle with honmaru atop 182m Mt. Sashiro; the tenshu-dai stone base survives.' },
@@ -7768,15 +11121,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '土屋数直 — 家光・家綱に仕えた老中で、土浦藩の基盤を築いた名君。', zhTw: '土屋數直 — 侍奉家光、家綱的老中，奠定土浦藩基礎的名君。', en: 'Tsuchiya Kazunao — a rōjū under Iemitsu and Ietsuna who laid the foundations of the Tsuchiura domain.' },
+      {
+        ja: '土屋数直', zhTw: '土屋數直', en: 'Tsuchiya Kazunao',
+        desc: {
+          ja: '家光・家綱に仕えた老中で、土浦藩の基盤を築いた名君。',
+          zhTw: '侍奉家光、家綱的老中，奠定土浦藩基礎的名君。',
+          en: 'a rōjū under Iemitsu and Ietsuna who laid the foundations of the Tsuchiura domain.',
+        },
+      },
     ],
     trivia: [
       { ja: '関東地方で唯一、櫓門が現存する貴重な城。太鼓櫓門は県指定文化財。', zhTw: '關東地方唯一現存櫓門的珍貴城郭。太鼓櫓門為縣指定文化財。', en: 'The only castle in Kantō with a surviving yagura-mon gate; the Taiko Yagura-mon is a prefectural cultural property.' },
       { ja: '霞ヶ浦の水を引き込んだ堀が亀の甲羅のように城を囲んでいたことから「亀城」と呼ばれた。', zhTw: '引入霞浦之水的護城河如龜甲般包圍城郭，因此被稱為「龜城」。', en: 'Moats fed by Lake Kasumigaura surrounded it like a turtle shell, earning the nickname "Turtle Castle."' },
     ],
     highlights: [
-      { ja: '太鼓櫓門 — 関東唯一の現存櫓門。二階に太鼓を置き時を告げた。', zhTw: '太鼓櫓門 — 關東唯一現存櫓門。二樓置太鼓報時。', en: 'Taiko Yagura-mon — Kantō\'s only surviving gate tower; a drum on the upper floor announced the hours.' },
-      { ja: '東櫓・西櫓 — 復元された二基の隅櫓が往時の姿を偲ばせる。', zhTw: '東櫓、西櫓 — 復元的兩座角櫓令人追憶往日風姿。', en: 'East and West Turrets — two restored corner turrets evoke the castle\'s former appearance.' },
+      {
+        ja: '太鼓櫓門', zhTw: '太鼓櫓門', en: 'Taiko Yagura-mon',
+        desc: {
+          ja: '関東唯一の現存櫓門。二階に太鼓を置き時を告げた。',
+          zhTw: '關東唯一現存櫓門。二樓置太鼓報時。',
+          en: 'Kantō\'s only surviving gate tower; a drum on the upper floor announced the hours.',
+        },
+      },
+      {
+        ja: '東櫓・西櫓', zhTw: '東櫓、西櫓', en: 'East and West Turrets',
+        desc: {
+          ja: '復元された二基の隅櫓が往時の姿を偲ばせる。',
+          zhTw: '復元的兩座角櫓令人追憶往日風姿。',
+          en: 'two restored corner turrets evoke the castle\'s former appearance.',
+        },
+      },
     ],
     architecture: [
       { ja: '霞ヶ浦の低湿地に築かれた輪郭式平城。本丸を二重の水堀が囲む。', zhTw: '建於霞浦低濕地的輪郭式平城。本丸被雙重水堀包圍。', en: 'A rinkaku-style flatland castle on Kasumigaura\'s marshes, the honmaru encircled by double water moats.' },
@@ -7826,15 +11200,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '藤原秀郷（俵藤太） — 平将門の乱を鎮圧した伝説的武将。大百足を退治した逸話で有名。', zhTw: '藤原秀鄉（俵藤太） — 鎮壓平將門之亂的傳奇武將。以退治大百足的逸話聞名。', en: 'Fujiwara no Hidesato (Tawara Tōta) — legendary warrior who suppressed Taira no Masakado\'s revolt, famed for slaying a giant centipede.' },
+      {
+        ja: '藤原秀郷（俵藤太）', zhTw: '藤原秀鄉（俵藤太）', en: 'Fujiwara no Hidesato (Tawara Tōta)',
+        desc: {
+          ja: '平将門の乱を鎮圧した伝説的武将。大百足を退治した逸話で有名。',
+          zhTw: '鎮壓平將門之亂的傳奇武將。以退治大百足的逸話聞名。',
+          en: 'legendary warrior who suppressed Taira no Masakado\'s revolt, famed for slaying a giant centipede.',
+        },
+      },
     ],
     trivia: [
       { ja: '本丸跡には唐沢山神社が鎮座し、藤原秀郷を祀っている。', zhTw: '本丸跡鎮座唐澤山神社，供奉藤原秀鄉。', en: 'Karasawayama Shrine sits on the honmaru ruins, enshrining Fujiwara no Hidesato.' },
       { ja: '城内には「猫の城」として知られ、多くの猫が暮らしており参拝者に人気。', zhTw: '城內以「貓之城」聞名，許多貓居住於此深受參拜者喜愛。', en: 'Known as "Cat Castle" — many cats live on the grounds and are beloved by visitors.' },
     ],
     highlights: [
-      { ja: '高石垣 — 関東の山城では珍しい総石垣造りの本丸。見事な野面積みが残る。', zhTw: '高石垣 — 關東山城罕見的全石垣構造本丸。殘存精美的野面積。', en: 'Tall stone walls — rare full-stone honmaru for a Kantō mountain castle, with superb nozura-zumi masonry.' },
-      { ja: '四つ目堀切 — 尾根筋を断ち切る4条の堀切が敵の侵入を阻んだ。', zhTw: '四重堀切 — 截斷稜線的4條堀切阻擋敵人入侵。', en: 'Quadruple moat-cuts — four horikiri trenches across the ridgeline blocked enemy advance.' },
+      {
+        ja: '高石垣', zhTw: '高石垣', en: 'Tall stone walls',
+        desc: {
+          ja: '関東の山城では珍しい総石垣造りの本丸。見事な野面積みが残る。',
+          zhTw: '關東山城罕見的全石垣構造本丸。殘存精美的野面積。',
+          en: 'rare full-stone honmaru for a Kantō mountain castle, with superb nozura-zumi masonry.',
+        },
+      },
+      {
+        ja: '四つ目堀切', zhTw: '四重堀切', en: 'Quadruple moat-cuts',
+        desc: {
+          ja: '尾根筋を断ち切る4条の堀切が敵の侵入を阻んだ。',
+          zhTw: '截斷稜線的4條堀切阻擋敵人入侵。',
+          en: 'four horikiri trenches across the ridgeline blocked enemy advance.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高242mの唐沢山山頂に本丸を置く連郭式山城。東西約600mの城域を持つ。', zhTw: '於標高242m的唐澤山山頂設本丸的連郭式山城。東西約600m城域。', en: 'A renkaku mountain castle with honmaru atop 242m Karasawayama, stretching 600m east to west.' },
@@ -7887,15 +11282,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '真田昌幸 — 「表裏比興の者」と評された智将。名胡桃城を沼田支配の要とした。', zhTw: '真田昌幸 — 被評為「表裏比興之者」的智將。以名胡桃城為沼田支配的要衝。', en: 'Sanada Masayuki — the "schemer of dual allegiances," who made Nagurumi the linchpin of Numata control.' },
+      {
+        ja: '真田昌幸', zhTw: '真田昌幸', en: 'Sanada Masayuki',
+        desc: {
+          ja: '「表裏比興の者」と評された智将。名胡桃城を沼田支配の要とした。',
+          zhTw: '被評為「表裏比興之者」的智將。以名胡桃城為沼田支配的要衝。',
+          en: 'the "schemer of dual allegiances," who made Nagurumi the linchpin of Numata control.',
+        },
+      },
     ],
     trivia: [
       { ja: '小さな城が天下の歴史を変えた稀有な例。名胡桃城事件がなければ小田原征伐の口実がなかった。', zhTw: '小城改變天下歷史的罕見案例。若無名胡桃城事件就沒有小田原征伐的藉口。', en: 'A rare case of a small castle changing national history — without this incident, Hideyoshi lacked a pretext for the Odawara campaign.' },
       { ja: '城を奪われた鈴木主水は責任を感じて自害。この報が真田昌幸から秀吉に伝えられた。', zhTw: '失城的鈴木主水深感責任自害。此報由真田昌幸傳達給秀吉。', en: 'Suzuki Mondo, who lost the castle, took his own life in shame; Masayuki relayed the news to Hideyoshi.' },
     ],
     highlights: [
-      { ja: '連郭式の曲輪群 — 般若郭・二の丸・本丸・三の丸・ささ郭が一直線に連なる。', zhTw: '連郭式曲輪群 — 般若郭、二之丸、本丸、三之丸、笹郭一直線排列。', en: 'Linear bailey array — Hannya, Ni-no-maru, Honmaru, San-no-maru, and Sasa baileys aligned in a row.' },
-      { ja: '利根川の眺望 — 河岸段丘の先端から利根川と沼田方面を一望できる戦略的眺望。', zhTw: '利根川眺望 — 從河岸階地前端一望利根川與沼田方面的戰略性眺望。', en: 'Tone River views — a strategic panorama of the river and Numata area from the terrace edge.' },
+      {
+        ja: '連郭式の曲輪群', zhTw: '連郭式曲輪群', en: 'Linear bailey array',
+        desc: {
+          ja: '般若郭・二の丸・本丸・三の丸・ささ郭が一直線に連なる。',
+          zhTw: '般若郭、二之丸、本丸、三之丸、笹郭一直線排列。',
+          en: 'Hannya, Ni-no-maru, Honmaru, San-no-maru, and Sasa baileys aligned in a row.',
+        },
+      },
+      {
+        ja: '利根川の眺望', zhTw: '利根川眺望', en: 'Tone River views',
+        desc: {
+          ja: '河岸段丘の先端から利根川と沼田方面を一望できる戦略的眺望。',
+          zhTw: '從河岸階地前端一望利根川與沼田方面的戰略性眺望。',
+          en: 'a strategic panorama of the river and Numata area from the terrace edge.',
+        },
+      },
     ],
     architecture: [
       { ja: '利根川北岸の河岸段丘を利用した連郭式崖端城。三方を断崖に守られた天然の要害。', zhTw: '利用利根川北岸河岸階地的連郭式崖端城。三面被斷崖守護的天然要害。', en: 'A renkaku cliff-edge castle on a river terrace above the Tone, naturally defended by cliffs on three sides.' },
@@ -7946,16 +11362,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '真田信之（信幸） — 昌幸の長男。関ヶ原で東軍につき、沼田藩を幕末まで存続させた。', zhTw: '真田信之（信幸） — 昌幸長子。關原之戰投東軍，使沼田藩存續至幕末。', en: 'Sanada Nobuyuki — Masayuki\'s eldest son, who sided with the Eastern Army at Sekigahara and kept Numata domain alive to the Bakumatsu.' },
-      { ja: '小松姫 — 本多忠勝の娘で信之の正室。関ヶ原前夜に舅・昌幸の入城を拒んだ逸話で有名。', zhTw: '小松姬 — 本多忠勝之女、信之正室。以關原前夜拒絕公公昌幸入城的逸話聞名。', en: 'Komatsu-hime — daughter of Honda Tadakatsu and Nobuyuki\'s wife, famous for refusing her father-in-law Masayuki entry on the eve of Sekigahara.' },
+      {
+        ja: '真田信之（信幸）', zhTw: '真田信之（信幸）', en: 'Sanada Nobuyuki',
+        desc: {
+          ja: '昌幸の長男。関ヶ原で東軍につき、沼田藩を幕末まで存続させた。',
+          zhTw: '昌幸長子。關原之戰投東軍，使沼田藩存續至幕末。',
+          en: 'Masayuki\'s eldest son, who sided with the Eastern Army at Sekigahara and kept Numata domain alive to the Bakumatsu.',
+        },
+      },
+      {
+        ja: '小松姫', zhTw: '小松姬', en: 'Komatsu-hime',
+        desc: {
+          ja: '本多忠勝の娘で信之の正室。関ヶ原前夜に舅・昌幸の入城を拒んだ逸話で有名。',
+          zhTw: '本多忠勝之女、信之正室。以關原前夜拒絕公公昌幸入城的逸話聞名。',
+          en: 'daughter of Honda Tadakatsu and Nobuyuki\'s wife, famous for refusing her father-in-law Masayuki entry on the eve of Sekigahara.',
+        },
+      },
     ],
     trivia: [
       { ja: '城は標高差70mの河岸段丘上にあり、「天空の城」と呼ばれることもある。', zhTw: '城位於標高差70m的河岸階地上，有時被稱為「天空之城」。', en: 'Sitting atop a 70m-high river terrace, it is sometimes called a "castle in the sky."' },
       { ja: '沼田は三国街道の要衝で、上野・越後を結ぶ交通の要所として重要だった。', zhTw: '沼田是三國街道的要衝，作為連結上野與越後的交通要地非常重要。', en: 'Numata was a vital post on the Mikuni-kaidō, the key route linking Kōzuke and Echigo provinces.' },
     ],
     highlights: [
-      { ja: '本丸の石垣と石段 — 発掘で出土した天守台の石垣が当時の壮大さを物語る。', zhTw: '本丸石垣與石階 — 發掘出土的天守台石垣訴說著當時的壯觀。', en: 'Honmaru stone walls and steps — excavated tenshu-dai walls testify to the castle\'s former grandeur.' },
-      { ja: '捨曲輪と堀切 — 西側の防御施設が山城としての堅固さを今に伝える。', zhTw: '捨曲輪與堀切 — 西側防禦設施傳達作為山城的堅固。', en: 'Sute-kuruwa and moat-cuts — western defenses conveying the mountain fortress\'s strength.' },
+      {
+        ja: '本丸の石垣と石段', zhTw: '本丸石垣與石階', en: 'Honmaru stone walls and steps',
+        desc: {
+          ja: '発掘で出土した天守台の石垣が当時の壮大さを物語る。',
+          zhTw: '發掘出土的天守台石垣訴說著當時的壯觀。',
+          en: 'excavated tenshu-dai walls testify to the castle\'s former grandeur.',
+        },
+      },
+      {
+        ja: '捨曲輪と堀切', zhTw: '捨曲輪與堀切', en: 'Sute-kuruwa and moat-cuts',
+        desc: {
+          ja: '西側の防御施設が山城としての堅固さを今に伝える。',
+          zhTw: '西側防禦設施傳達作為山城的堅固。',
+          en: 'western defenses conveying the mountain fortress\'s strength.',
+        },
+      },
     ],
     architecture: [
       { ja: '利根川北岸の河岸段丘上に築かれた平山城。5層の天守を有した壮大な城郭だった。', zhTw: '建於利根川北岸河岸階地上的平山城。擁有5層天守的壯大城郭。', en: 'A hilltop castle on a terrace above the Tone, once boasting a magnificent five-story tenshu.' },
@@ -8001,15 +11445,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '真田幸隆 — 真田昌幸の父。武田信玄の家臣として岩櫃城を攻略した。', zhTw: '真田幸隆 — 真田昌幸之父。作為武田信玄家臣攻略岩櫃城。', en: 'Sanada Yukitaka — Masayuki\'s father, who captured Iwabitsu as a vassal of Takeda Shingen.' },
+      {
+        ja: '真田幸隆', zhTw: '真田幸隆', en: 'Sanada Yukitaka',
+        desc: {
+          ja: '真田昌幸の父。武田信玄の家臣として岩櫃城を攻略した。',
+          zhTw: '真田昌幸之父。作為武田信玄家臣攻略岩櫃城。',
+          en: 'Masayuki\'s father, who captured Iwabitsu as a vassal of Takeda Shingen.',
+        },
+      },
     ],
     trivia: [
       { ja: '岩櫃山は断崖絶壁の岩山で、古くから修験道の霊場として知られていた。', zhTw: '岩櫃山是斷崖絕壁的岩山，自古以來作為修驗道靈場聞名。', en: 'Mt. Iwabitsu, a precipitous rocky peak, has long been known as a sacred site of Shugendō mountain asceticism.' },
       { ja: '真田三城（岩櫃城・上田城・沼田城）の一つとして真田ファンに人気の城。', zhTw: '作為真田三城（岩櫃城、上田城、沼田城）之一深受真田粉絲歡迎。', en: 'One of the "Three Sanada Castles" (Iwabitsu, Ueda, Numata), popular among Sanada fans.' },
     ],
     highlights: [
-      { ja: '竪堀群 — 山腹に刻まれた多数の竪堀が敵の横移動を封じる。', zhTw: '竪堀群 — 刻於山腹的多數竪堀封鎖敵人橫向移動。', en: 'Vertical trenches — numerous tate-bori carved into the slopes prevented lateral enemy movement.' },
-      { ja: '岩櫃山の絶景 — 本丸跡からの眺望は圧巻で、上州の山々を一望できる。', zhTw: '岩櫃山絕景 — 從本丸跡的眺望壓卷，可一望上州群山。', en: 'Mt. Iwabitsu panorama — the view from the honmaru is breathtaking, sweeping across Kōzuke\'s mountains.' },
+      {
+        ja: '竪堀群', zhTw: '竪堀群', en: 'Vertical trenches',
+        desc: {
+          ja: '山腹に刻まれた多数の竪堀が敵の横移動を封じる。',
+          zhTw: '刻於山腹的多數竪堀封鎖敵人橫向移動。',
+          en: 'numerous tate-bori carved into the slopes prevented lateral enemy movement.',
+        },
+      },
+      {
+        ja: '岩櫃山の絶景', zhTw: '岩櫃山絕景', en: 'Mt. Iwabitsu panorama',
+        desc: {
+          ja: '本丸跡からの眺望は圧巻で、上州の山々を一望できる。',
+          zhTw: '從本丸跡的眺望壓卷，可一望上州群山。',
+          en: 'the view from the honmaru is breathtaking, sweeping across Kōzuke\'s mountains.',
+        },
+      },
     ],
     architecture: [
       { ja: '岩櫃山中腹の急峻な地形を利用した山城。岩壁と谷に囲まれた天然の要害。', zhTw: '利用岩櫃山中腹急峻地形的山城。被岩壁與山谷環繞的天然要害。', en: 'A mountain castle exploiting Mt. Iwabitsu\'s steep mid-slopes, naturally fortified by cliffs and ravines.' },
@@ -8061,16 +11526,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '成田長親（のぼう様） — 領民に「でくのぼう」と呼ばれながらも絶大な人望を持ち、城を守り抜いた。', zhTw: '成田長親（傻瓜大人） — 被領民稱為「木偶」卻擁有絕大人望，守住城池。', en: 'Narita Nagachika ("Lord Nobō") — despite being called a "blockhead," he commanded immense popular support and defended the castle.' },
-      { ja: '石田三成 — 秀吉の命で水攻めを敢行したが失敗。この失敗が後の評判に影響した。', zhTw: '石田三成 — 奉秀吉之命進行水攻但失敗。此失敗影響了日後的評價。', en: 'Ishida Mitsunari — ordered by Hideyoshi to flood the castle, but his failure tarnished his later reputation.' },
+      {
+        ja: '成田長親（のぼう様）', zhTw: '成田長親（傻瓜大人）', en: 'Narita Nagachika ("Lord Nobō")',
+        desc: {
+          ja: '領民に「でくのぼう」と呼ばれながらも絶大な人望を持ち、城を守り抜いた。',
+          zhTw: '被領民稱為「木偶」卻擁有絕大人望，守住城池。',
+          en: 'despite being called a "blockhead," he commanded immense popular support and defended the castle.',
+        },
+      },
+      {
+        ja: '石田三成', zhTw: '石田三成', en: 'Ishida Mitsunari',
+        desc: {
+          ja: '秀吉の命で水攻めを敢行したが失敗。この失敗が後の評判に影響した。',
+          zhTw: '奉秀吉之命進行水攻但失敗。此失敗影響了日後的評價。',
+          en: 'ordered by Hideyoshi to flood the castle, but his failure tarnished his later reputation.',
+        },
+      },
     ],
     trivia: [
       { ja: '三成は忍沼の水を利用するため全長28kmの堤防「石田堤」を築いたが、決壊して失敗。', zhTw: '三成為利用忍沼之水築造全長28km的堤防「石田堤」，但決堤失敗。', en: 'Mitsunari built the 28km "Ishida Embankment" to flood the castle using local marshes, but it broke and the plan failed.' },
       { ja: '和田竜の小説「のぼうの城」(2007年)と映画化(2012年)で全国的に有名になった。', zhTw: '和田龍的小說《傻瓜之城》(2007年)與電影化(2012年)使其聞名全國。', en: 'Wada Ryō\'s novel "Nobō no Shiro" (2007) and its 2012 film adaptation brought the castle nationwide fame.' },
     ],
     highlights: [
-      { ja: '復元御三階櫓 — 本丸跡に建つ三層の御三階櫓（復元）。行田市郷土博物館を併設。', zhTw: '復元御三階櫓 — 建於本丸跡的三層御三階櫓（復元）。併設行田市鄉土博物館。', en: 'Restored Gosankai Yagura — a three-story turret on the honmaru, housing the Gyōda City Museum.' },
-      { ja: '水城の面影 — 周囲に残る沼地と堀が、かつての水城の姿を偲ばせる。', zhTw: '水城面影 — 周圍殘存的沼地與護城河令人追憶水城往日風姿。', en: 'Echoes of a water castle — surviving marshes and moats hint at the castle\'s former watery defenses.' },
+      {
+        ja: '復元御三階櫓', zhTw: '復元御三階櫓', en: 'Restored Gosankai Yagura',
+        desc: {
+          ja: '本丸跡に建つ三層の御三階櫓（復元）。行田市郷土博物館を併設。',
+          zhTw: '建於本丸跡的三層御三階櫓（復元）。併設行田市鄉土博物館。',
+          en: 'a three-story turret on the honmaru, housing the Gyōda City Museum.',
+        },
+      },
+      {
+        ja: '水城の面影', zhTw: '水城面影', en: 'Echoes of a water castle',
+        desc: {
+          ja: '周囲に残る沼地と堀が、かつての水城の姿を偲ばせる。',
+          zhTw: '周圍殘存的沼地與護城河令人追憶水城往日風姿。',
+          en: 'surviving marshes and moats hint at the castle\'s former watery defenses.',
+        },
+      },
     ],
     architecture: [
       { ja: '忍沼と呼ばれる広大な沼地の中の微高地に築かれた平城。周囲は水堀と沼沢で守られた。', zhTw: '建於稱為忍沼的廣大沼地中微高地的平城。周圍被水堀與沼澤守護。', en: 'A flatland castle on slightly elevated ground amid vast marshes called Oshi-numa, protected by water moats and swamps.' },
@@ -8114,15 +11607,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '築城者不詳 — 精緻な縄張りから高度な築城技術を持つ勢力の手によるものと推察される。', zhTw: '築城者不詳 — 從精緻的繩張推測為擁有高度築城技術的勢力所建。', en: 'Builder unknown — the sophisticated layout suggests a force with advanced fortification skills.' },
+      {
+        ja: '築城者不詳', zhTw: '築城者不詳', en: 'Builder unknown',
+        desc: {
+          ja: '精緻な縄張りから高度な築城技術を持つ勢力の手によるものと推察される。',
+          zhTw: '從精緻的繩張推測為擁有高度築城技術的勢力所建。',
+          en: 'the sophisticated layout suggests a force with advanced fortification skills.',
+        },
+      },
     ],
     trivia: [
       { ja: '発掘調査で15世紀末の遺物が出土し、北条氏以前の築城説が有力となった。', zhTw: '發掘調查出土15世紀末遺物，北條氏以前的築城說成為有力。', en: 'Excavations unearthed late-15th-century artifacts, supporting the theory it pre-dates the Hōjō.' },
       { ja: '比企城館跡群の一つとして国指定史跡。近くの菅谷館と合わせて見学するのが定番。', zhTw: '作為比企城館跡群之一被指定為國史跡。與附近菅谷館合併參觀為定番。', en: 'A national historic site as part of the Hiki castle cluster; visitors typically combine it with nearby Sugaya-yakata.' },
     ],
     highlights: [
-      { ja: '精緻な縄張り — 10の曲輪を堀切・横堀・竪堀で有機的に連結した芸術的城郭設計。', zhTw: '精緻繩張 — 以堀切、橫堀、竪堀有機連結10個曲輪的藝術性城郭設計。', en: 'Meticulous layout — ten baileys organically linked by horikiri, yokobori, and tatebori in an artistic design.' },
-      { ja: '折歪み — 横堀に設けられた折れが死角をなくし、側射を可能にする高度な技術。', zhTw: '折歪 — 橫堀設置的折彎消除死角，實現側射的高度技術。', en: 'Zigzag bends — turns in the lateral moats eliminated blind spots and enabled flanking fire.' },
+      {
+        ja: '精緻な縄張り', zhTw: '精緻繩張', en: 'Meticulous layout',
+        desc: {
+          ja: '10の曲輪を堀切・横堀・竪堀で有機的に連結した芸術的城郭設計。',
+          zhTw: '以堀切、橫堀、竪堀有機連結10個曲輪的藝術性城郭設計。',
+          en: 'ten baileys organically linked by horikiri, yokobori, and tatebori in an artistic design.',
+        },
+      },
+      {
+        ja: '折歪み', zhTw: '折歪', en: 'Zigzag bends',
+        desc: {
+          ja: '横堀に設けられた折れが死角をなくし、側射を可能にする高度な技術。',
+          zhTw: '橫堀設置的折彎消除死角，實現側射的高度技術。',
+          en: 'turns in the lateral moats eliminated blind spots and enabled flanking fire.',
+        },
+      },
     ],
     architecture: [
       { ja: '市野川北岸の丘陵上に築かれた山城。本郭を中心に10の曲輪を放射状に配置。', zhTw: '建於市野川北岸丘陵上的山城。以本郭為中心放射狀配置10個曲輪。', en: 'A mountain castle on a hill north of the Ichino River, with ten baileys radiating from the main enclosure.' },
@@ -8161,15 +11675,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '畠山重忠 — 源頼朝に仕えた坂東武者の名将。一ノ谷の戦いで馬を背負って崖を下った逸話で有名。', zhTw: '畠山重忠 — 侍奉源賴朝的坂東武者名將。以一之谷戰役中背馬下懸崖的逸話聞名。', en: 'Hatakeyama Shigetada — a celebrated Bandō warrior under Minamoto no Yoritomo, famed for carrying his horse down a cliff at Ichi-no-Tani.' },
+      {
+        ja: '畠山重忠', zhTw: '畠山重忠', en: 'Hatakeyama Shigetada',
+        desc: {
+          ja: '源頼朝に仕えた坂東武者の名将。一ノ谷の戦いで馬を背負って崖を下った逸話で有名。',
+          zhTw: '侍奉源賴朝的坂東武者名將。以一之谷戰役中背馬下懸崖的逸話聞名。',
+          en: 'a celebrated Bandō warrior under Minamoto no Yoritomo, famed for carrying his horse down a cliff at Ichi-no-Tani.',
+        },
+      },
     ],
     trivia: [
       { ja: '埼玉県立嵐山史跡の博物館が館跡に建ち、比企地域の中世史を紹介している。', zhTw: '埼玉縣立嵐山史跡博物館建於館跡，介紹比企地區的中世史。', en: 'The Saitama Ranzan Historical Museum stands on the grounds, introducing the medieval history of the Hiki area.' },
       { ja: '大河ドラマ「鎌倉殿の13人」で畠山重忠の悲劇が描かれ、注目度が急上昇した。', zhTw: '大河劇《鎌倉殿的13人》描繪畠山重忠的悲劇，關注度急遽上升。', en: 'The NHK drama "The 13 Lords of the Shōgun" depicted Shigetada\'s tragedy, boosting the site\'s popularity.' },
     ],
     highlights: [
-      { ja: '土塁と空堀 — 鎌倉期の居館から戦国期の城郭への変遷を示す重層的な遺構。', zhTw: '土壘與空堀 — 展示從鎌倉期居館到戰國期城郭變遷的重層遺構。', en: 'Earthworks and dry moats — layered remains showing the evolution from Kamakura-era residence to Sengoku-era fortress.' },
-      { ja: '都幾川の眺望 — 館跡から都幾川の清流と武蔵の丘陵地帯を望む。', zhTw: '都幾川眺望 — 從館跡眺望都幾川清流與武藏丘陵地帶。', en: 'Tokigawa views — a vista of the clear Tokigawa River and the Musashi hills from the grounds.' },
+      {
+        ja: '土塁と空堀', zhTw: '土壘與空堀', en: 'Earthworks and dry moats',
+        desc: {
+          ja: '鎌倉期の居館から戦国期の城郭への変遷を示す重層的な遺構。',
+          zhTw: '展示從鎌倉期居館到戰國期城郭變遷的重層遺構。',
+          en: 'layered remains showing the evolution from Kamakura-era residence to Sengoku-era fortress.',
+        },
+      },
+      {
+        ja: '都幾川の眺望', zhTw: '都幾川眺望', en: 'Tokigawa views',
+        desc: {
+          ja: '館跡から都幾川の清流と武蔵の丘陵地帯を望む。',
+          zhTw: '從館跡眺望都幾川清流與武藏丘陵地帶。',
+          en: 'a vista of the clear Tokigawa River and the Musashi hills from the grounds.',
+        },
+      },
     ],
     architecture: [
       { ja: '都幾川の段丘上に築かれた方形居館。戦国時代に外郭が増設され約13haの城域に発展。', zhTw: '建於都幾川階地上的方形居館。戰國時代增設外郭發展為約13ha城域。', en: 'A rectangular yakata on a terrace above the Tokigawa, expanded to about 13 hectares with outer defenses in the Sengoku period.' },
@@ -8213,14 +11748,35 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '千葉輔胤 — 千葉氏中興の祖。享徳の乱後に本佐倉城を築き、一族の再起を図った。', zhTw: '千葉輔胤 — 千葉氏中興之祖。享德之亂後築本佐倉城，圖謀一族再起。', en: 'Chiba Suketane — restorer of the Chiba clan, who built Moto-Sakura after the Kyōtoku War to revive his lineage.' },
+      {
+        ja: '千葉輔胤', zhTw: '千葉輔胤', en: 'Chiba Suketane',
+        desc: {
+          ja: '千葉氏中興の祖。享徳の乱後に本佐倉城を築き、一族の再起を図った。',
+          zhTw: '千葉氏中興之祖。享德之亂後築本佐倉城，圖謀一族再起。',
+          en: 'restorer of the Chiba clan, who built Moto-Sakura after the Kyōtoku War to revive his lineage.',
+        },
+      },
     ],
     trivia: [
       { ja: '2020年に国史跡に追加指定され、整備が進んでいる。往時の城域は東西約700m。', zhTw: '2020年追加指定為國史跡，整備持續進行。往時城域東西約700m。', en: 'Designated a national historic site in 2020; restoration is ongoing. The original grounds spanned about 700m east to west.' },
     ],
     highlights: [
-      { ja: '東山馬場 — 城の東側に広がる馬場跡で、千葉氏の武威を偲ばせる広大な空間。', zhTw: '東山馬場 — 城東側展開的馬場跡，令人追憶千葉氏武威的廣大空間。', en: 'Higashiyama riding ground — a vast open space east of the castle, evoking the Chiba clan\'s martial might.' },
-      { ja: '深い空堀 — 最大深度10m以上の空堀が曲輪間を隔て、戦国城郭の迫力を伝える。', zhTw: '深空堀 — 最大深度10m以上的空堀隔開曲輪，傳達戰國城郭的魄力。', en: 'Deep dry moats — karabori over 10m deep separate the baileys, conveying Sengoku-era fortification power.' },
+      {
+        ja: '東山馬場', zhTw: '東山馬場', en: 'Higashiyama riding ground',
+        desc: {
+          ja: '城の東側に広がる馬場跡で、千葉氏の武威を偲ばせる広大な空間。',
+          zhTw: '城東側展開的馬場跡，令人追憶千葉氏武威的廣大空間。',
+          en: 'a vast open space east of the castle, evoking the Chiba clan\'s martial might.',
+        },
+      },
+      {
+        ja: '深い空堀', zhTw: '深空堀', en: 'Deep dry moats',
+        desc: {
+          ja: '最大深度10m以上の空堀が曲輪間を隔て、戦国城郭の迫力を伝える。',
+          zhTw: '最大深度10m以上的空堀隔開曲輪，傳達戰國城郭的魄力。',
+          en: 'karabori over 10m deep separate the baileys, conveying Sengoku-era fortification power.',
+        },
+      },
     ],
     architecture: [
       { ja: '印旛沼に面した台地の先端に築かれた平山城。内郭と外郭からなる大規模な城郭。', zhTw: '建於面向印旛沼台地前端的平山城。由內郭與外郭組成的大規模城郭。', en: 'A hilltop castle on a plateau tip facing Lake Inba, a large fortress with inner and outer compounds.' },
@@ -8264,15 +11820,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '本多忠勝 — 生涯57度の戦に臨み一度も傷を負わなかったという伝説の猛将。名槍「蜻蛉切」を振るった。', zhTw: '本多忠勝 — 生涯經歷57場戰鬥未曾負傷的傳奇猛將。揮舞名槍「蜻蛉切」。', en: 'Honda Tadakatsu — a legendary warrior who fought 57 battles without a single wound, wielding the famed spear "Tonbogiri."' },
+      {
+        ja: '本多忠勝', zhTw: '本多忠勝', en: 'Honda Tadakatsu',
+        desc: {
+          ja: '生涯57度の戦に臨み一度も傷を負わなかったという伝説の猛将。名槍「蜻蛉切」を振るった。',
+          zhTw: '生涯經歷57場戰鬥未曾負傷的傳奇猛將。揮舞名槍「蜻蛉切」。',
+          en: 'a legendary warrior who fought 57 battles without a single wound, wielding the famed spear "Tonbogiri."',
+        },
+      },
     ],
     trivia: [
       { ja: '大多喜城の大井戸は周囲約17m・深さ約20mで、日本一の規模と言われる城郭の井戸。', zhTw: '大多喜城大井戶周長約17m、深約20m，據說是日本最大規模的城郭井戶。', en: 'Ōtaki\'s great well — about 17m in circumference and 20m deep — is said to be the largest castle well in Japan.' },
       { ja: '本多忠勝の騎馬像が城下町入口に建ち、大多喜のシンボルとなっている。', zhTw: '本多忠勝騎馬像建於城下町入口，成為大多喜的象徵。', en: 'An equestrian statue of Honda Tadakatsu at the castle town entrance is Ōtaki\'s symbol.' },
     ],
     highlights: [
-      { ja: '模擬天守 — 昭和50年に建てられた三層四階の天守型博物館。', zhTw: '模擬天守 — 昭和50年建造的三層四階天守型博物館。', en: 'Reconstructed tenshu — a three-story, four-floor museum built in 1975 in the style of a tenshu.' },
-      { ja: '薬医門 — 二の丸にあった薬医門が大多喜高校の敷地内に現存する。', zhTw: '藥醫門 — 二之丸的藥醫門現存於大多喜高校校地內。', en: 'Yakui-mon gate — the ni-no-maru\'s medicinal gate survives within Ōtaki High School grounds.' },
+      {
+        ja: '模擬天守', zhTw: '模擬天守', en: 'Reconstructed tenshu',
+        desc: {
+          ja: '昭和50年に建てられた三層四階の天守型博物館。',
+          zhTw: '昭和50年建造的三層四階天守型博物館。',
+          en: 'a three-story, four-floor museum built in 1975 in the style of a tenshu.',
+        },
+      },
+      {
+        ja: '薬医門', zhTw: '藥醫門', en: 'Yakui-mon gate',
+        desc: {
+          ja: '二の丸にあった薬医門が大多喜高校の敷地内に現存する。',
+          zhTw: '二之丸的藥醫門現存於大多喜高校校地內。',
+          en: 'the ni-no-maru\'s medicinal gate survives within Ōtaki High School grounds.',
+        },
+      },
     ],
     architecture: [
       { ja: '夷隅川の段丘上に築かれた平山城。本丸・二の丸・三の丸を階段状に配置。', zhTw: '建於夷隅川階地上的平山城。本丸、二之丸、三之丸階梯狀配置。', en: 'A hilltop castle on an Isumi River terrace, with honmaru, ni-no-maru, and san-no-maru in tiered arrangement.' },
@@ -8317,15 +11894,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '北条氏照 — 北条氏康の三男。滝山城を関東有数の大城郭に整備した。', zhTw: '北條氏照 — 北條氏康三子。將瀧山城整備為關東首屈一指的大城郭。', en: 'Hōjō Ujiteru — third son of Hōjō Ujiyasu, who developed Takiyama into one of Kantō\'s great fortresses.' },
+      {
+        ja: '北条氏照', zhTw: '北條氏照', en: 'Hōjō Ujiteru',
+        desc: {
+          ja: '北条氏康の三男。滝山城を関東有数の大城郭に整備した。',
+          zhTw: '北條氏康三子。將瀧山城整備為關東首屈一指的大城郭。',
+          en: 'third son of Hōjō Ujiyasu, who developed Takiyama into one of Kantō\'s great fortresses.',
+        },
+      },
     ],
     trivia: [
       { ja: '城域は約25haで東京ドーム5個分以上。都内にこれほどの中世城郭が残るのは奇跡的。', zhTw: '城域約25ha相當於5個以上東京巨蛋。都內殘存如此規模的中世城郭堪稱奇跡。', en: 'The 25-hectare grounds exceed five Tokyo Domes — it\'s miraculous that such a medieval fortress survives in Tokyo.' },
       { ja: '春は5000本の桜が城域を覆い、「続100名城で最も美しい桜の城」と称される。', zhTw: '春季5000棵櫻花覆蓋城域，被稱為「續100名城中最美的櫻花之城」。', en: 'In spring, 5,000 cherry trees blanket the grounds, earning it the title "most beautiful cherry blossom castle of the Continued 100."' },
     ],
     highlights: [
-      { ja: '本丸の馬出し — 角馬出と丸馬出が併存する珍しい構造。北条流築城術の粋。', zhTw: '本丸馬出 — 角馬出與丸馬出併存的珍稀構造。北條流築城術的精華。', en: 'Honmaru umadashi — a rare coexistence of square and round outworks, the essence of Hōjō fortification art.' },
-      { ja: '大堀切 — 二の丸と中の丸を隔てる大規模な堀切。城最大の防御施設。', zhTw: '大堀切 — 隔開二之丸與中之丸的大規模堀切。城內最大防禦設施。', en: 'Great moat-cut — a massive horikiri separating ni-no-maru from naka-no-maru, the castle\'s greatest defense.' },
+      {
+        ja: '本丸の馬出し', zhTw: '本丸馬出', en: 'Honmaru umadashi',
+        desc: {
+          ja: '角馬出と丸馬出が併存する珍しい構造。北条流築城術の粋。',
+          zhTw: '角馬出與丸馬出併存的珍稀構造。北條流築城術的精華。',
+          en: 'a rare coexistence of square and round outworks, the essence of Hōjō fortification art.',
+        },
+      },
+      {
+        ja: '大堀切', zhTw: '大堀切', en: 'Great moat-cut',
+        desc: {
+          ja: '二の丸と中の丸を隔てる大規模な堀切。城最大の防御施設。',
+          zhTw: '隔開二之丸與中之丸的大規模堀切。城內最大防禦設施。',
+          en: 'a massive horikiri separating ni-no-maru from naka-no-maru, the castle\'s greatest defense.',
+        },
+      },
     ],
     architecture: [
       { ja: '多摩川と秋川の合流点を見下ろす丘陵上の平山城。本丸を中心に放射状に曲輪を配置。', zhTw: '俯瞰多摩川與秋川匯流點的丘陵上平山城。以本丸為中心放射狀配置曲輪。', en: 'A hilltop castle overlooking the confluence of the Tama and Aki rivers, with baileys radiating from the honmaru.' },
@@ -8370,7 +11968,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '江川英龍（太郎左衛門） — 韮山代官。西洋砲術に精通し、台場の設計を担当した幕末の先覚者。', zhTw: '江川英龍（太郎左衛門） — 韮山代官。精通西洋砲術，負責台場設計的幕末先覺者。', en: 'Egawa Hidetatsu — Nirayama magistrate and Bakumatsu visionary, an expert in Western gunnery who designed the batteries.' },
+      {
+        ja: '江川英龍（太郎左衛門）', zhTw: '江川英龍（太郎左衛門）', en: 'Egawa Hidetatsu',
+        desc: {
+          ja: '韮山代官。西洋砲術に精通し、台場の設計を担当した幕末の先覚者。',
+          zhTw: '韮山代官。精通西洋砲術，負責台場設計的幕末先覺者。',
+          en: 'Nirayama magistrate and Bakumatsu visionary, an expert in Western gunnery who designed the batteries.',
+        },
+      },
     ],
     trivia: [
       { ja: 'お台場の地名は「御台場」に由来し、現在の東京臨海副都心の名称の起源。', zhTw: '台場地名源自「御台場」，是現在東京臨海副都心名稱的起源。', en: 'The place name "Odaiba" derives from "o-daiba" (honorable battery) — the origin of modern Odaiba\'s name.' },
@@ -8378,8 +11983,22 @@ export const castles = [
       { ja: '第六台場は非公開の無人島で、自然が回復した貴重な生態系が保全されている。', zhTw: '第六台場為非公開無人島，保全著自然恢復的珍貴生態系。', en: 'Battery No. 6 is an off-limits uninhabited island, preserving a valuable ecosystem that has naturally recovered.' },
     ],
     highlights: [
-      { ja: '第三台場 — 約160m四方の正方形砲台跡。石垣・土塁・陣屋跡・弾薬庫跡が残る。', zhTw: '第三台場 — 約160m四方的正方形砲台跡。石垣、土壘、陣屋跡、彈藥庫跡殘存。', en: 'Battery No. 3 — a square, 160m-per-side gun platform with surviving walls, earthworks, barracks, and magazine ruins.' },
-      { ja: 'レインボーブリッジの眺望 — 台場公園からレインボーブリッジと東京湾を間近に望む。', zhTw: '彩虹大橋眺望 — 從台場公園近距離眺望彩虹大橋與東京灣。', en: 'Rainbow Bridge views — a close-up panorama of Rainbow Bridge and Tokyo Bay from Daiba Park.' },
+      {
+        ja: '第三台場', zhTw: '第三台場', en: 'Battery No. 3',
+        desc: {
+          ja: '約160m四方の正方形砲台跡。石垣・土塁・陣屋跡・弾薬庫跡が残る。',
+          zhTw: '約160m四方的正方形砲台跡。石垣、土壘、陣屋跡、彈藥庫跡殘存。',
+          en: 'a square, 160m-per-side gun platform with surviving walls, earthworks, barracks, and magazine ruins.',
+        },
+      },
+      {
+        ja: 'レインボーブリッジの眺望', zhTw: '彩虹大橋眺望', en: 'Rainbow Bridge views',
+        desc: {
+          ja: '台場公園からレインボーブリッジと東京湾を間近に望む。',
+          zhTw: '從台場公園近距離眺望彩虹大橋與東京灣。',
+          en: 'a close-up panorama of Rainbow Bridge and Tokyo Bay from Daiba Park.',
+        },
+      },
     ],
     architecture: [
       { ja: '西洋式の海上砲台。正方形の人工島に石垣と土塁を築き、大砲を据えた。', zhTw: '西洋式海上砲台。在正方形人工島築石垣與土壘，設置大砲。', en: 'Western-style maritime batteries: square artificial islands fitted with stone walls, earthworks, and cannon emplacements.' },
@@ -8425,7 +12044,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '遠藤盛数 — 郡上一円を支配した武将で、東氏を滅ぼし八幡山に城を築いた。', zhTw: '遠藤盛數 — 支配郡上一帶的武將，滅東氏後於八幡山築城。', en: 'Endō Morikazu — a warlord who controlled all Gujō, destroyed the Tō clan, and built his castle on Mt. Hachiman.' },
+      {
+        ja: '遠藤盛数', zhTw: '遠藤盛數', en: 'Endō Morikazu',
+        desc: {
+          ja: '郡上一円を支配した武将で、東氏を滅ぼし八幡山に城を築いた。',
+          zhTw: '支配郡上一帶的武將，滅東氏後於八幡山築城。',
+          en: 'a warlord who controlled all Gujō, destroyed the Tō clan, and built his castle on Mt. Hachiman.',
+        },
+      },
     ],
     trivia: [
       { ja: '秋の紅葉シーズンには天守が雲海に浮かぶ「天空の城」として人気の撮影スポット。', zhTw: '秋季紅葉季節天守浮於雲海中的「天空之城」是熱門攝影景點。', en: 'In autumn, the tenshu floating above a sea of clouds is a popular "castle in the sky" photo spot.' },
@@ -8433,8 +12059,22 @@ export const castles = [
       { ja: '司馬遼太郎が「日本で最も美しい山城」と評したことで知られる。', zhTw: '以司馬遼太郎評為「日本最美的山城」而聞名。', en: 'Famous for being called "Japan\'s most beautiful mountain castle" by novelist Shiba Ryōtarō.' },
     ],
     highlights: [
-      { ja: '木造再建天守 — 1933年再建の4層5階天守。大垣城を参考に建てられた。', zhTw: '木造再建天守 — 1933年再建的4層5階天守。參考大垣城建造。', en: 'Wooden reconstructed tenshu — a four-story, five-floor keep rebuilt in 1933, modeled after Ōgaki Castle.' },
-      { ja: '城下町の眺望 — 天守からの眺めは絶景で、吉田川と城下町を一望できる。', zhTw: '城下町眺望 — 從天守的眺望絕景，可一望吉田川與城下町。', en: 'Castle town panorama — a breathtaking view from the tenshu, sweeping across the Yoshida River and town below.' },
+      {
+        ja: '木造再建天守', zhTw: '木造再建天守', en: 'Wooden reconstructed tenshu',
+        desc: {
+          ja: '1933年再建の4層5階天守。大垣城を参考に建てられた。',
+          zhTw: '1933年再建的4層5階天守。參考大垣城建造。',
+          en: 'a four-story, five-floor keep rebuilt in 1933, modeled after Ōgaki Castle.',
+        },
+      },
+      {
+        ja: '城下町の眺望', zhTw: '城下町眺望', en: 'Castle town panorama',
+        desc: {
+          ja: '天守からの眺めは絶景で、吉田川と城下町を一望できる。',
+          zhTw: '從天守的眺望絕景，可一望吉田川與城下町。',
+          en: 'a breathtaking view from the tenshu, sweeping across the Yoshida River and town below.',
+        },
+      },
     ],
     architecture: [
       { ja: '八幡山(標高354m)山頂に本丸を置く山城。山麓から山頂まで石垣が連なる。', zhTw: '於八幡山(標高354m)山頂設本丸的山城。從山腳到山頂石垣連綿。', en: 'A mountain castle with honmaru atop 354m Mt. Hachiman, stone walls running continuously from base to summit.' },
@@ -8477,16 +12117,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '遠山友政 — 関ヶ原の戦い後に苗木領を回復し、苗木藩の基盤を確立した。', zhTw: '遠山友政 — 關原之戰後恢復苗木領，確立苗木藩基礎。', en: 'Tōyama Tomomasa — recovered the Naegi domain after Sekigahara and established the Naegi han foundation.' },
+      {
+        ja: '遠山友政', zhTw: '遠山友政', en: 'Tōyama Tomomasa',
+        desc: {
+          ja: '関ヶ原の戦い後に苗木領を回復し、苗木藩の基盤を確立した。',
+          zhTw: '關原之戰後恢復苗木領，確立苗木藩基礎。',
+          en: 'recovered the Naegi domain after Sekigahara and established the Naegi han foundation.',
+        },
+      },
     ],
     trivia: [
       { ja: '天守台の巨岩には柱穴が残り、岩の上に直接建物を建てていた証拠が見られる。', zhTw: '天守台巨岩上殘留柱穴，可見直接在岩石上建造建物的證據。', en: 'Pillar holes in the tenshu-dai boulders remain as evidence that structures were built directly on the rock.' },
       { ja: '近年SNSで「天空の城」「絶景の城」として話題となり、訪問者が急増している。', zhTw: '近年在SNS上以「天空之城」「絕景之城」為話題，訪問者急增。', en: 'Recent social media buzz as a "castle in the sky" and "castle of stunning views" has brought a surge of visitors.' },
     ],
     highlights: [
-      { ja: '天守台の巨岩 — 自然の巨岩と石垣が融合した圧巻の天守台。展望台が設置されている。', zhTw: '天守台巨岩 — 自然巨岩與石垣融合的壓卷天守台。設有展望台。', en: 'Tenshu-dai boulders — a stunning fusion of natural rock and stone walls, now fitted with a viewing platform.' },
-      { ja: '木曽川の眺望 — 天守台から恵那山と木曽川の雄大な景色を一望。', zhTw: '木曾川眺望 — 從天守台一望惠那山與木曾川的雄壯景色。', en: 'Kiso River views — a majestic panorama of Mt. Ena and the Kiso River from the tenshu-dai.' },
-      { ja: '足軽長屋跡 — 山麓から本丸へ至る登城路沿いに点在する曲輪群。', zhTw: '足輕長屋跡 — 從山腳到本丸登城路沿途點綴的曲輪群。', en: 'Ashigaru barracks ruins — baileys dotting the climbing route from the base to the honmaru.' },
+      {
+        ja: '天守台の巨岩', zhTw: '天守台巨岩', en: 'Tenshu-dai boulders',
+        desc: {
+          ja: '自然の巨岩と石垣が融合した圧巻の天守台。展望台が設置されている。',
+          zhTw: '自然巨岩與石垣融合的壓卷天守台。設有展望台。',
+          en: 'a stunning fusion of natural rock and stone walls, now fitted with a viewing platform.',
+        },
+      },
+      {
+        ja: '木曽川の眺望', zhTw: '木曾川眺望', en: 'Kiso River views',
+        desc: {
+          ja: '天守台から恵那山と木曽川の雄大な景色を一望。',
+          zhTw: '從天守台一望惠那山與木曾川的雄壯景色。',
+          en: 'a majestic panorama of Mt. Ena and the Kiso River from the tenshu-dai.',
+        },
+      },
+      {
+        ja: '足軽長屋跡', zhTw: '足輕長屋跡', en: 'Ashigaru barracks ruins',
+        desc: {
+          ja: '山麓から本丸へ至る登城路沿いに点在する曲輪群。',
+          zhTw: '從山腳到本丸登城路沿途點綴的曲輪群。',
+          en: 'baileys dotting the climbing route from the base to the honmaru.',
+        },
+      },
     ],
     architecture: [
       { ja: '木曽川沿いの標高432mの岩山全体を城域とする山城。巨岩の上に懸造りで天守を築いた。', zhTw: '以木曾川沿岸標高432m岩山整體為城域的山城。在巨岩上以懸造築天守。', en: 'A mountain castle encompassing an entire 432m rocky peak above the Kiso River, with a tenshu built in overhang style atop boulders.' },
@@ -8531,16 +12199,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '森蘭丸（成利） — 信長の小姓として寵愛を受けた美少年。本能寺の変で信長と共に散った。', zhTw: '森蘭丸（成利） — 作為信長小姓受寵愛的美少年。本能寺之變中與信長一同殞命。', en: 'Mori Ranmaru (Naritoshi) — a beautiful youth favored as Nobunaga\'s page, who perished alongside his lord at Honnō-ji.' },
-      { ja: '森長可 — 「鬼武蔵」と呼ばれた猛将。小牧・長久手の戦いで戦死。', zhTw: '森長可 — 被稱為「鬼武藏」的猛將。小牧長久手之戰中戰死。', en: 'Mori Nagayoshi — the fierce "Demon of Musashi," killed in battle at Komaki-Nagakute.' },
+      {
+        ja: '森蘭丸（成利）', zhTw: '森蘭丸（成利）', en: 'Mori Ranmaru (Naritoshi)',
+        desc: {
+          ja: '信長の小姓として寵愛を受けた美少年。本能寺の変で信長と共に散った。',
+          zhTw: '作為信長小姓受寵愛的美少年。本能寺之變中與信長一同殞命。',
+          en: 'a beautiful youth favored as Nobunaga\'s page, who perished alongside his lord at Honnō-ji.',
+        },
+      },
+      {
+        ja: '森長可', zhTw: '森長可', en: 'Mori Nagayoshi',
+        desc: {
+          ja: '「鬼武蔵」と呼ばれた猛将。小牧・長久手の戦いで戦死。',
+          zhTw: '被稱為「鬼武藏」的猛將。小牧長久手之戰中戰死。',
+          en: 'the fierce "Demon of Musashi," killed in battle at Komaki-Nagakute.',
+        },
+      },
     ],
     trivia: [
       { ja: '「破城」の実態を示す貴重な遺跡。石垣が意図的に崩された痕跡が残る。', zhTw: '展示「破城」實態的珍貴遺跡。石垣被刻意毀壞的痕跡殘存。', en: 'A precious site showing deliberate castle demolition — traces of intentionally toppled stone walls survive.' },
       { ja: '可児市では森蘭丸を観光キャラクターとして活用し、「蘭丸ふる里の森」を整備している。', zhTw: '可兒市將森蘭丸作為觀光角色活用，整備「蘭丸故里之森」。', en: 'Kani City promotes Ranmaru as a tourism mascot and maintains "Ranmaru Furusato-no-Mori" park.' },
     ],
     highlights: [
-      { ja: '破城の痕跡 — 石垣が意図的に崩された「破城」の状態が良好に観察できる。', zhTw: '破城痕跡 — 石垣被刻意毀壞的「破城」狀態可良好觀察。', en: 'Demolition traces — intentionally toppled walls clearly visible, showing the "hashiro" (castle destruction) process.' },
-      { ja: '本丸跡からの眺望 — 可児市街と木曽川、濃尾平野を一望する絶景。', zhTw: '本丸跡眺望 — 一望可兒市街與木曾川、濃尾平野的絕景。', en: 'Honmaru panorama — a stunning view of Kani town, the Kiso River, and the Nōbi Plain.' },
+      {
+        ja: '破城の痕跡', zhTw: '破城痕跡', en: 'Demolition traces',
+        desc: {
+          ja: '石垣が意図的に崩された「破城」の状態が良好に観察できる。',
+          zhTw: '石垣被刻意毀壞的「破城」狀態可良好觀察。',
+          en: 'intentionally toppled walls clearly visible, showing the "hashiro" (castle destruction) process.',
+        },
+      },
+      {
+        ja: '本丸跡からの眺望', zhTw: '本丸跡眺望', en: 'Honmaru panorama',
+        desc: {
+          ja: '可児市街と木曽川、濃尾平野を一望する絶景。',
+          zhTw: '一望可兒市街與木曾川、濃尾平野的絕景。',
+          en: 'a stunning view of Kani town, the Kiso River, and the Nōbi Plain.',
+        },
+      },
     ],
     architecture: [
       { ja: '古城山山頂に本丸を置く連郭式山城。織豊系城郭の特徴を持つ総石垣の城。', zhTw: '於古城山山頂設本丸的連郭式山城。具有織豐系城郭特徵的全石垣之城。', en: 'A renkaku mountain castle with honmaru on Mt. Kojō summit, a fully stone-walled fortress in the Oda-Toyotomi style.' },
@@ -8583,15 +12279,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '北条早雲（伊勢宗瑞） — 戦国時代の幕を開けた先駆者。興国寺城から戦国大名への飛躍を遂げた。', zhTw: '北條早雲（伊勢宗瑞） — 開啟戰國時代的先驅。從興國寺城實現向戰國大名的飛躍。', en: 'Hōjō Sōun (Ise Sōzui) — a pioneer who ushered in the Sengoku era, leaping from Kōkokuji to become a great daimyō.' },
+      {
+        ja: '北条早雲（伊勢宗瑞）', zhTw: '北條早雲（伊勢宗瑞）', en: 'Hōjō Sōun (Ise Sōzui)',
+        desc: {
+          ja: '戦国時代の幕を開けた先駆者。興国寺城から戦国大名への飛躍を遂げた。',
+          zhTw: '開啟戰國時代的先驅。從興國寺城實現向戰國大名的飛躍。',
+          en: 'a pioneer who ushered in the Sengoku era, leaping from Kōkokuji to become a great daimyō.',
+        },
+      },
     ],
     trivia: [
       { ja: '「下剋上」の象徴的な城。身分の低い者が実力で天下を取る時代の始まりを告げた。', zhTw: '「下剋上」的象徵性城郭。宣告身分低微者以實力奪取天下時代的開始。', en: 'A symbolic castle of "gekokujō" — heralding the age when men of low birth could seize power through ability.' },
       { ja: '愛鷹山の裾野に位置し、富士山を間近に望む絶好のロケーション。', zhTw: '位於愛鷹山山腳，近距離望富士山的絕佳位置。', en: 'Located at the foot of Mt. Ashitaka, with a superb close-up view of Mt. Fuji.' },
     ],
     highlights: [
-      { ja: '大土塁と大空堀 — 本丸北側の高さ10m以上の大土塁と深い空堀が圧巻。', zhTw: '大土壘與大空堀 — 本丸北側高10m以上的大土壘與深空堀壓卷。', en: 'Great earthwork and dry moat — a towering 10m+ embankment and deep karabori north of the honmaru are breathtaking.' },
-      { ja: '天守台跡 — 石垣が残る天守台から愛鷹山と富士山を望む。', zhTw: '天守台跡 — 從殘存石垣的天守台眺望愛鷹山與富士山。', en: 'Tenshu-dai ruins — stone walls remain, offering views of Mt. Ashitaka and Mt. Fuji.' },
+      {
+        ja: '大土塁と大空堀', zhTw: '大土壘與大空堀', en: 'Great earthwork and dry moat',
+        desc: {
+          ja: '本丸北側の高さ10m以上の大土塁と深い空堀が圧巻。',
+          zhTw: '本丸北側高10m以上的大土壘與深空堀壓卷。',
+          en: 'a towering 10m+ embankment and deep karabori north of the honmaru are breathtaking.',
+        },
+      },
+      {
+        ja: '天守台跡', zhTw: '天守台跡', en: 'Tenshu-dai ruins',
+        desc: {
+          ja: '石垣が残る天守台から愛鷹山と富士山を望む。',
+          zhTw: '從殘存石垣的天守台眺望愛鷹山與富士山。',
+          en: 'stone walls remain, offering views of Mt. Ashitaka and Mt. Fuji.',
+        },
+      },
     ],
     architecture: [
       { ja: '愛鷹山南麓の舌状台地に築かれた平山城。本丸・二の丸・三の丸が南北に連なる。', zhTw: '建於愛鷹山南麓舌狀台地的平山城。本丸、二之丸、三之丸南北相連。', en: 'A hilltop castle on a tongue-shaped plateau at Mt. Ashitaka\'s southern foot, with honmaru, ni-no-maru, and san-no-maru aligned north to south.' },
@@ -8637,15 +12354,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '堀直奇 — 築城の名手として知られ、村上城の石垣を整備した。', zhTw: '堀直奇 — 以築城名手聞名，整備村上城石垣。', en: 'Hori Naoyori — a renowned castle-builder who developed Murakami\'s stone walls.' },
+      {
+        ja: '堀直奇', zhTw: '堀直奇', en: 'Hori Naoyori',
+        desc: {
+          ja: '築城の名手として知られ、村上城の石垣を整備した。',
+          zhTw: '以築城名手聞名，整備村上城石垣。',
+          en: 'a renowned castle-builder who developed Murakami\'s stone walls.',
+        },
+      },
     ],
     trivia: [
       { ja: '村上は鮭の町として有名で、独自の鮭文化（塩引き鮭・鮭の酒びたし）が城下町に根付く。', zhTw: '村上以鮭魚之町聞名，獨自的鮭魚文化（鹽引鮭、鮭魚酒浸）紮根於城下町。', en: 'Murakami is famous for salmon, with unique salmon culture (shiobiki-zake, sake-no-sakubitashi) rooted in the castle town.' },
       { ja: '幕末の戊辰戦争では村上藩は奥羽越列藩同盟に参加し、新政府軍と戦った。', zhTw: '幕末戊辰戰爭中村上藩參加奧羽越列藩同盟，與新政府軍交戰。', en: 'During the Boshin War, Murakami domain joined the Ōuetsu Reppan Dōmei alliance and fought the Meiji government forces.' },
     ],
     highlights: [
-      { ja: '総石垣の山城 — 山頂から山麓まで連なる石垣群は東北・北陸随一の規模。', zhTw: '全石垣山城 — 從山頂到山腳連綿的石垣群為東北、北陸第一規模。', en: 'Fully stone-walled mountain castle — the wall arrays from summit to base are unmatched in Tōhoku and Hokuriku.' },
-      { ja: '臥牛山からの眺望 — 日本海と村上市街を一望する絶景。', zhTw: '臥牛山眺望 — 一望日本海與村上市街的絕景。', en: 'Mt. Gagyū views — a stunning panorama of the Sea of Japan and Murakami city.' },
+      {
+        ja: '総石垣の山城', zhTw: '全石垣山城', en: 'Fully stone-walled mountain castle',
+        desc: {
+          ja: '山頂から山麓まで連なる石垣群は東北・北陸随一の規模。',
+          zhTw: '從山頂到山腳連綿的石垣群為東北、北陸第一規模。',
+          en: 'the wall arrays from summit to base are unmatched in Tōhoku and Hokuriku.',
+        },
+      },
+      {
+        ja: '臥牛山からの眺望', zhTw: '臥牛山眺望', en: 'Mt. Gagyū views',
+        desc: {
+          ja: '日本海と村上市街を一望する絶景。',
+          zhTw: '一望日本海與村上市街的絕景。',
+          en: 'a stunning panorama of the Sea of Japan and Murakami city.',
+        },
+      },
     ],
     architecture: [
       { ja: '臥牛山山頂に本丸を置く平山城。山頂部は総石垣で、山麓には居館を配した。', zhTw: '於臥牛山山頂設本丸的平山城。山頂部全石垣，山腳配置居館。', en: 'A hilltop castle with honmaru atop Mt. Gagyū; the summit is fully stone-walled, with a residence at the base.' },
@@ -8682,15 +12420,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '日根野高吉 — 豊臣秀吉の家臣。諏訪湖の地形を活かした水城を設計した築城の名手。', zhTw: '日根野高吉 — 豐臣秀吉家臣。活用諏訪湖地形設計水城的築城名手。', en: 'Hineno Takayoshi — Hideyoshi\'s vassal, a master builder who designed the water castle exploiting Lake Suwa\'s terrain.' },
+      {
+        ja: '日根野高吉', zhTw: '日根野高吉', en: 'Hineno Takayoshi',
+        desc: {
+          ja: '豊臣秀吉の家臣。諏訪湖の地形を活かした水城を設計した築城の名手。',
+          zhTw: '豐臣秀吉家臣。活用諏訪湖地形設計水城的築城名手。',
+          en: 'Hideyoshi\'s vassal, a master builder who designed the water castle exploiting Lake Suwa\'s terrain.',
+        },
+      },
     ],
     trivia: [
       { ja: '干拓により諏訪湖から離れたが、かつては三方を湖水に囲まれた水城だった。', zhTw: '因圍墾離開諏訪湖，但過去三面被湖水環繞的水城。', en: 'Land reclamation separated it from the lake, but it was once a water castle surrounded on three sides by Lake Suwa.' },
       { ja: '「日本三大湖城」の一つに数えられる（松江城・膳所城と共に）。', zhTw: '被列為「日本三大湖城」之一（與松江城、膳所城並列）。', en: 'Counted among Japan\'s "Three Great Lakeside Castles" (alongside Matsue and Zeze castles).' },
     ],
     highlights: [
-      { ja: '復興天守 — 1970年に復興された三層の天守。内部は諏訪の歴史資料を展示。', zhTw: '復興天守 — 1970年復興的三層天守。內部展示諏訪歷史資料。', en: 'Restored tenshu — a three-story keep rebuilt in 1970, displaying Suwa\'s historical materials inside.' },
-      { ja: '諏訪湖の眺望 — 天守から諏訪湖と八ヶ岳・霧ヶ峰を一望する信州の絶景。', zhTw: '諏訪湖眺望 — 從天守一望諏訪湖與八岳、霧峰的信州絕景。', en: 'Lake Suwa panorama — a quintessential Shinshū view of Lake Suwa, Yatsugatake, and Kirigamine from the tenshu.' },
+      {
+        ja: '復興天守', zhTw: '復興天守', en: 'Restored tenshu',
+        desc: {
+          ja: '1970年に復興された三層の天守。内部は諏訪の歴史資料を展示。',
+          zhTw: '1970年復興的三層天守。內部展示諏訪歷史資料。',
+          en: 'a three-story keep rebuilt in 1970, displaying Suwa\'s historical materials inside.',
+        },
+      },
+      {
+        ja: '諏訪湖の眺望', zhTw: '諏訪湖眺望', en: 'Lake Suwa panorama',
+        desc: {
+          ja: '天守から諏訪湖と八ヶ岳・霧ヶ峰を一望する信州の絶景。',
+          zhTw: '從天守一望諏訪湖與八岳、霧峰的信州絕景。',
+          en: 'a quintessential Shinshū view of Lake Suwa, Yatsugatake, and Kirigamine from the tenshu.',
+        },
+      },
     ],
     architecture: [
       { ja: '諏訪湖畔に築かれた輪郭式平城。本丸を水堀が囲み、三方を湖水が守った。', zhTw: '建於諏訪湖畔的輪郭式平城。本丸被水堀環繞，三面由湖水守護。', en: 'A rinkaku flatland castle on the Lake Suwa shore, its honmaru ringed by water moats, with the lake guarding three sides.' },
@@ -8734,15 +12493,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '佐々成政 — 信長に仕えた猛将。秀吉に対抗するため厳冬の立山を越えた「さらさら越え」で知られる。', zhTw: '佐佐成政 — 侍奉信長的猛將。以對抗秀吉而在嚴冬翻越立山的「沙沙越」聞名。', en: 'Sassa Narimasa — a fierce Nobunaga vassal, famed for his "Sarasara-goe" crossing of Mt. Tateyama in deep winter to resist Hideyoshi.' },
+      {
+        ja: '佐々成政', zhTw: '佐佐成政', en: 'Sassa Narimasa',
+        desc: {
+          ja: '信長に仕えた猛将。秀吉に対抗するため厳冬の立山を越えた「さらさら越え」で知られる。',
+          zhTw: '侍奉信長的猛將。以對抗秀吉而在嚴冬翻越立山的「沙沙越」聞名。',
+          en: 'a fierce Nobunaga vassal, famed for his "Sarasara-goe" crossing of Mt. Tateyama in deep winter to resist Hideyoshi.',
+        },
+      },
     ],
     trivia: [
       { ja: '富山の売薬（置き薬）文化は富山藩時代に始まり、城下町の経済を支えた。', zhTw: '富山賣藥（置藥）文化始於富山藩時代，支撐城下町經濟。', en: 'Toyama\'s traveling medicine tradition (okigusuri) began in the domain era and sustained the castle town\'s economy.' },
       { ja: '1945年の富山大空襲で市街地は壊滅したが、1954年に模擬天守が再建された。', zhTw: '1945年富山大空襲市區毀滅，但1954年重建模擬天守。', en: 'The 1945 Toyama air raid devastated the city, but a replica tenshu was rebuilt in 1954.' },
     ],
     highlights: [
-      { ja: '模擬天守 — 1954年再建。犬山城を模した三層四階の天守型博物館。', zhTw: '模擬天守 — 1954年重建。仿犬山城的三層四階天守型博物館。', en: 'Replica tenshu — rebuilt in 1954 as a three-story, four-floor museum modeled after Inuyama Castle.' },
-      { ja: '千歳御門 — 富山藩時代の薬医門で、唯一現存する富山城の建造物。', zhTw: '千歲御門 — 富山藩時代的藥醫門，唯一現存的富山城建築物。', en: 'Chitose Gomon — a yakui-mon gate from the domain era, the castle\'s only surviving original structure.' },
+      {
+        ja: '模擬天守', zhTw: '模擬天守', en: 'Replica tenshu',
+        desc: {
+          ja: '1954年再建。犬山城を模した三層四階の天守型博物館。',
+          zhTw: '1954年重建。仿犬山城的三層四階天守型博物館。',
+          en: 'rebuilt in 1954 as a three-story, four-floor museum modeled after Inuyama Castle.',
+        },
+      },
+      {
+        ja: '千歳御門', zhTw: '千歲御門', en: 'Chitose Gomon',
+        desc: {
+          ja: '富山藩時代の薬医門で、唯一現存する富山城の建造物。',
+          zhTw: '富山藩時代的藥醫門，唯一現存的富山城建築物。',
+          en: 'a yakui-mon gate from the domain era, the castle\'s only surviving original structure.',
+        },
+      },
     ],
     architecture: [
       { ja: '神通川を天然の外堀とした輪郭式平城。本丸を二重の堀で囲む。', zhTw: '以神通川為天然外堀的輪郭式平城。本丸以雙重堀環繞。', en: 'A rinkaku flatland castle using the Jinzū River as a natural outer moat, the honmaru enclosed by double moats.' },
@@ -8786,15 +12566,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '神保長職 — 越中守護代。増山城を拠点に越中の支配を図ったが、上杉謙信に敗れた。', zhTw: '神保長職 — 越中守護代。以增山城為據點圖謀支配越中，但敗於上杉謙信。', en: 'Jinbō Nagamoto — Etchū deputy governor who based his rule at Masuyama but was defeated by Uesugi Kenshin.' },
+      {
+        ja: '神保長職', zhTw: '神保長職', en: 'Jinbō Nagamoto',
+        desc: {
+          ja: '越中守護代。増山城を拠点に越中の支配を図ったが、上杉謙信に敗れた。',
+          zhTw: '越中守護代。以增山城為據點圖謀支配越中，但敗於上杉謙信。',
+          en: 'Etchū deputy governor who based his rule at Masuyama but was defeated by Uesugi Kenshin.',
+        },
+      },
     ],
     trivia: [
       { ja: '越中三大山城（増山城・松倉城・守山城）の中で最も遺構の保存状態が良い。', zhTw: '越中三大山城（增山城、松倉城、守山城）中遺構保存狀態最好。', en: 'Of the Three Great Mountain Castles of Etchū (Masuyama, Matsukura, Moriyama), Masuyama\'s remains are best preserved.' },
       { ja: '和田川のダム湖に面しており、湖面に映る城山の風景が美しい。', zhTw: '面向和田川水庫湖，映於湖面的城山風景優美。', en: 'Facing a Wada River reservoir, the castle mountain reflected on the lake makes a beautiful scene.' },
     ],
     highlights: [
-      { ja: '一の丸の大堀切 — 二の丸との間を断ち切る幅20m以上の大堀切。', zhTw: '一之丸大堀切 — 截斷與二之丸之間寬20m以上的大堀切。', en: 'Ichi-no-maru great moat-cut — a massive horikiri over 20m wide severing the connection to ni-no-maru.' },
-      { ja: '複合的な曲輪群 — 一の丸・二の丸・三の丸・安室屋敷など多数の曲輪が残る。', zhTw: '複合曲輪群 — 一之丸、二之丸、三之丸、安室屋敷等多數曲輪殘存。', en: 'Complex bailey array — ichi-no-maru, ni-no-maru, san-no-maru, Amuro-yashiki, and many more baileys survive.' },
+      {
+        ja: '一の丸の大堀切', zhTw: '一之丸大堀切', en: 'Ichi-no-maru great moat-cut',
+        desc: {
+          ja: '二の丸との間を断ち切る幅20m以上の大堀切。',
+          zhTw: '截斷與二之丸之間寬20m以上的大堀切。',
+          en: 'a massive horikiri over 20m wide severing the connection to ni-no-maru.',
+        },
+      },
+      {
+        ja: '複合的な曲輪群', zhTw: '複合曲輪群', en: 'Complex bailey array',
+        desc: {
+          ja: '一の丸・二の丸・三の丸・安室屋敷など多数の曲輪が残る。',
+          zhTw: '一之丸、二之丸、三之丸、安室屋敷等多數曲輪殘存。',
+          en: 'ichi-no-maru, ni-no-maru, san-no-maru, Amuro-yashiki, and many more baileys survive.',
+        },
+      },
     ],
     architecture: [
       { ja: '和田川右岸の丘陵上に築かれた連郭式山城。東西約1.2kmの広大な城域を持つ。', zhTw: '建於和田川右岸丘陵上的連郭式山城。東西約1.2km的廣大城域。', en: 'A renkaku mountain castle on hills above the Wada River\'s right bank, with grounds spanning 1.2km east to west.' },
@@ -8838,15 +12639,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '柴田勝家 — 織田家筆頭家老。「鬼柴田」「かかれ柴田」と恐れられた猛将。', zhTw: '柴田勝家 — 織田家首席家老。被畏懼為「鬼柴田」「衝鋒柴田」的猛將。', en: 'Shibata Katsuie — Oda clan chief retainer, a fierce warrior feared as "Demon Shibata" and "Charging Shibata."' },
+      {
+        ja: '柴田勝家', zhTw: '柴田勝家', en: 'Shibata Katsuie',
+        desc: {
+          ja: '織田家筆頭家老。「鬼柴田」「かかれ柴田」と恐れられた猛将。',
+          zhTw: '織田家首席家老。被畏懼為「鬼柴田」「衝鋒柴田」的猛將。',
+          en: 'Oda clan chief retainer, a fierce warrior feared as "Demon Shibata" and "Charging Shibata."',
+        },
+      },
     ],
     trivia: [
       { ja: '陣城（一時的な軍事拠点）としては日本最大級・最高傑作と評される。', zhTw: '作為陣城（臨時軍事據點）被評為日本最大級、最高傑作。', en: 'Regarded as the largest and finest "jin-jiro" (temporary military fortification) in Japan.' },
       { ja: '柴田勝家の本陣跡が明瞭に残り、土塁・堀切・虎口の保存状態が極めて良好。', zhTw: '柴田勝家本陣跡明瞭殘存，土壘、堀切、虎口保存狀態極為良好。', en: 'Katsuie\'s headquarters are clearly preserved, with earthworks, moat-cuts, and gates in exceptional condition.' },
     ],
     highlights: [
-      { ja: '本丸の馬出し — 本丸前面に設けられた大規模な馬出しが圧巻。', zhTw: '本丸馬出 — 本丸前面設置的大規模馬出壓卷。', en: 'Honmaru umadashi — a magnificent large-scale outwork before the honmaru.' },
-      { ja: '土塁と堀切 — 約400年前の陣城の遺構がほぼ完全な形で残る奇跡。', zhTw: '土壘與堀切 — 約400年前陣城遺構幾乎完整保存的奇蹟。', en: 'Earthworks and moat-cuts — a miraculous near-complete preservation of a 400-year-old field fortress.' },
+      {
+        ja: '本丸の馬出し', zhTw: '本丸馬出', en: 'Honmaru umadashi',
+        desc: {
+          ja: '本丸前面に設けられた大規模な馬出しが圧巻。',
+          zhTw: '本丸前面設置的大規模馬出壓卷。',
+          en: 'a magnificent large-scale outwork before the honmaru.',
+        },
+      },
+      {
+        ja: '土塁と堀切', zhTw: '土壘與堀切', en: 'Earthworks and moat-cuts',
+        desc: {
+          ja: '約400年前の陣城の遺構がほぼ完全な形で残る奇跡。',
+          zhTw: '約400年前陣城遺構幾乎完整保存的奇蹟。',
+          en: 'a miraculous near-complete preservation of a 400-year-old field fortress.',
+        },
+      },
     ],
     architecture: [
       { ja: '内中尾山山頂(標高460m)に築かれた陣城。本丸を中心に放射状に曲輪を配置。', zhTw: '築於內中尾山山頂(標高460m)的陣城。以本丸為中心放射狀配置曲輪。', en: 'A field fortress atop 460m Mt. Uchinakao, with baileys radiating from the honmaru.' },
@@ -8872,15 +12694,36 @@ export const castles = [
       { year: 1579, event: { ja: '乱の終結後、鮫ケ尾城は廃城となり、上杉景勝が越後を統一した。', zhTw: '亂終結後鮫尾城廢城，上杉景勝統一越後。', en: 'After the conflict ended, Samegao was abandoned and Uesugi Kagekatsu unified Echigo.' } },
     ],
     figures: [
-      { ja: '上杉景虎 — 北条氏康の七男で上杉謙信の養子。御館の乱で景勝に敗れ鮫ケ尾城で自刃した悲運の武将。', zhTw: '上杉景虎 — 北條氏康七子、上杉謙信養子。御館之亂敗於景勝，在鮫尾城自盡的悲運武將。', en: 'Uesugi Kagetora — seventh son of Hōjō Ujiyasu, adopted by Uesugi Kenshin. A tragic warrior who fell to Kagekatsu and died at Samegao.' },
+      {
+        ja: '上杉景虎', zhTw: '上杉景虎', en: 'Uesugi Kagetora',
+        desc: {
+          ja: '北条氏康の七男で上杉謙信の養子。御館の乱で景勝に敗れ鮫ケ尾城で自刃した悲運の武将。',
+          zhTw: '北條氏康七子、上杉謙信養子。御館之亂敗於景勝，在鮫尾城自盡的悲運武將。',
+          en: 'seventh son of Hōjō Ujiyasu, adopted by Uesugi Kenshin. A tragic warrior who fell to Kagekatsu and died at Samegao.',
+        },
+      },
     ],
     trivia: [
       { ja: '御館の乱は上杉謙信の死後に養子二人が後継を争った戦国有数の内紛。', zhTw: '御館之亂是上杉謙信死後兩名養子爭奪繼承的戰國著名內鬥。', en: 'The Otate no Ran was one of the Sengoku period\'s most notable civil wars — two adopted sons fighting over Kenshin\'s succession.' },
       { ja: '城跡一帯はカタクリの群生地として知られ、春には紫色の花が斜面を覆う。', zhTw: '城跡一帶以片栗花群生地聞名，春天紫色花朵覆蓋斜面。', en: 'The castle ruins are known for colonies of dogtooth violets — purple flowers blanket the slopes in spring.' },
     ],
     highlights: [
-      { ja: '堀切と土塁 — 尾根筋に大規模な堀切が連続し、中世山城の防御技術を体感できる。', zhTw: '堀切與土壘 — 稜線上連續大規模堀切，可體驗中世山城的防禦技術。', en: 'Trenches and earthworks — massive continuous trenches along the ridgeline showcase medieval mountain castle defenses.' },
-      { ja: '本丸跡からの眺望 — 妙高山や頸城平野を一望できる絶景ポイント。', zhTw: '本丸跡眺望 — 可一覽妙高山和頸城平野的絕景地點。', en: 'Panoramic views from the honmaru — a stunning vantage point overlooking Mt. Myōkō and the Kubiki Plain.' },
+      {
+        ja: '堀切と土塁', zhTw: '堀切與土壘', en: 'Trenches and earthworks',
+        desc: {
+          ja: '尾根筋に大規模な堀切が連続し、中世山城の防御技術を体感できる。',
+          zhTw: '稜線上連續大規模堀切，可體驗中世山城的防禦技術。',
+          en: 'massive continuous trenches along the ridgeline showcase medieval mountain castle defenses.',
+        },
+      },
+      {
+        ja: '本丸跡からの眺望', zhTw: '本丸跡眺望', en: 'Panoramic views from the honmaru',
+        desc: {
+          ja: '妙高山や頸城平野を一望できる絶景ポイント。',
+          zhTw: '可一覽妙高山和頸城平野的絕景地點。',
+          en: 'a stunning vantage point overlooking Mt. Myōkō and the Kubiki Plain.',
+        },
+      },
     ],
     architecture: [
       { ja: '尾根上に本丸・二の丸・三の丸を連ねた連郭式山城。大規模な堀切で各郭を分断している。', zhTw: '於稜線上連接本丸、二之丸、三之丸的連郭式山城。以大規模堀切分隔各郭。', en: 'A renkaku-style mountain castle with honmaru, ni-no-maru, and san-no-maru aligned along a ridge, separated by large trenches.' },
@@ -8924,15 +12767,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '粟屋勝久 — 若狭武田氏の重臣。朝倉氏の大軍を少数の兵で何度も退けた知勇兼備の武将。', zhTw: '粟屋勝久 — 若狹武田氏重臣。以少數兵力多次擊退朝倉氏大軍的智勇兼備武將。', en: 'Awaya Katsuhisa — a Wakasa Takeda retainer who repelled Asakura armies repeatedly with a small garrison, combining wisdom and valor.' },
+      {
+        ja: '粟屋勝久', zhTw: '粟屋勝久', en: 'Awaya Katsuhisa',
+        desc: {
+          ja: '若狭武田氏の重臣。朝倉氏の大軍を少数の兵で何度も退けた知勇兼備の武将。',
+          zhTw: '若狹武田氏重臣。以少數兵力多次擊退朝倉氏大軍的智勇兼備武將。',
+          en: 'a Wakasa Takeda retainer who repelled Asakura armies repeatedly with a small garrison, combining wisdom and valor.',
+        },
+      },
     ],
     trivia: [
       { ja: '2017年に若狭国吉城歴史資料館が開館し、城跡の整備が急速に進んでいる。', zhTw: '2017年若狹國吉城歷史資料館開館，城跡整備迅速推進。', en: 'The Wakasa Kuniyoshi Castle History Museum opened in 2017, accelerating site preservation efforts.' },
       { ja: '城跡からは若狭湾を一望でき、「海が見える山城」として人気が高まっている。', zhTw: '從城跡可一望若狹灣，作為「看得見海的山城」人氣日增。', en: 'The ruins offer panoramic views of Wakasa Bay, growing popular as "a mountain castle with ocean views."' },
     ],
     highlights: [
-      { ja: '連郭式の曲輪群 — 山頂の主郭から尾根に沿って曲輪が連なる。', zhTw: '連郭式曲輪群 — 從山頂主郭沿稜線連綿的曲輪。', en: 'Linear baileys — enclosures extending along the ridge from the summit\'s main compound.' },
-      { ja: '若狭湾の眺望 — 山頂からのリアス海岸と若狭湾の絶景。', zhTw: '若狹灣眺望 — 從山頂眺望溺灣海岸與若狹灣的絕景。', en: 'Wakasa Bay panorama — a breathtaking view of the ria coast and Wakasa Bay from the mountaintop.' },
+      {
+        ja: '連郭式の曲輪群', zhTw: '連郭式曲輪群', en: 'Linear baileys',
+        desc: {
+          ja: '山頂の主郭から尾根に沿って曲輪が連なる。',
+          zhTw: '從山頂主郭沿稜線連綿的曲輪。',
+          en: 'enclosures extending along the ridge from the summit\'s main compound.',
+        },
+      },
+      {
+        ja: '若狭湾の眺望', zhTw: '若狹灣眺望', en: 'Wakasa Bay panorama',
+        desc: {
+          ja: '山頂からのリアス海岸と若狭湾の絶景。',
+          zhTw: '從山頂眺望溺灣海岸與若狹灣的絕景。',
+          en: 'a breathtaking view of the ria coast and Wakasa Bay from the mountaintop.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高197mの城山山頂に主郭を置く山城。山麓に居館跡が残る。', zhTw: '於標高197m城山山頂設主郭的山城。山腳殘存居館跡。', en: 'A mountain castle with its main compound atop 197m Castle Hill, with residence ruins at the base.' },
@@ -8975,15 +12839,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '天智天皇 — 白村江の敗戦後、唐・新羅の侵攻に備えて西日本各地に古代山城を築いた。', zhTw: '天智天皇 — 白村江戰敗後為防備唐、新羅侵攻在西日本各地築造古代山城。', en: 'Emperor Tenji — after Baekgang, he ordered ancient mountain fortresses across western Japan to guard against Tang and Silla invasion.' },
+      {
+        ja: '天智天皇', zhTw: '天智天皇', en: 'Emperor Tenji',
+        desc: {
+          ja: '白村江の敗戦後、唐・新羅の侵攻に備えて西日本各地に古代山城を築いた。',
+          zhTw: '白村江戰敗後為防備唐、新羅侵攻在西日本各地築造古代山城。',
+          en: 'after Baekgang, he ordered ancient mountain fortresses across western Japan to guard against Tang and Silla invasion.',
+        },
+      },
     ],
     trivia: [
       { ja: '復元された八角形建物が鞠智城のシンボル。古代の倉庫または見張り台と考えられている。', zhTw: '復元的八角形建物為鞠智城象徵。被認為是古代倉庫或瞭望台。', en: 'A restored octagonal building is Kikuchi\'s symbol, thought to be an ancient storehouse or watchtower.' },
       { ja: '城域は約55haと広大で、72棟の建物跡が発掘されている。', zhTw: '城域約55ha廣大，已發掘72棟建物遺跡。', en: 'The vast 55-hectare grounds have yielded the remains of 72 buildings in excavations.' },
     ],
     highlights: [
-      { ja: '復元八角形建物 — 古代の鼓楼を復元した鞠智城を象徴する建造物。', zhTw: '復元八角形建物 — 復元古代鼓樓的鞠智城象徵建築。', en: 'Restored octagonal building — an iconic reconstruction of an ancient drum tower symbolizing the castle.' },
-      { ja: '温故創生館 — 鞠智城の歴史と出土品を展示する資料館。', zhTw: '溫故創生館 — 展示鞠智城歷史與出土品的資料館。', en: 'Onko Sōsei-kan — a museum displaying the castle\'s history and excavated artifacts.' },
+      {
+        ja: '復元八角形建物', zhTw: '復元八角形建物', en: 'Restored octagonal building',
+        desc: {
+          ja: '古代の鼓楼を復元した鞠智城を象徴する建造物。',
+          zhTw: '復元古代鼓樓的鞠智城象徵建築。',
+          en: 'an iconic reconstruction of an ancient drum tower symbolizing the castle.',
+        },
+      },
+      {
+        ja: '温故創生館', zhTw: '溫故創生館', en: 'Onko Sōsei-kan',
+        desc: {
+          ja: '鞠智城の歴史と出土品を展示する資料館。',
+          zhTw: '展示鞠智城歷史與出土品的資料館。',
+          en: 'a museum displaying the castle\'s history and excavated artifacts.',
+        },
+      },
     ],
     architecture: [
       { ja: '阿蘇外輪山の丘陵上に築かれた古代山城。土塁と石垣で約3.5kmの外周を囲む。', zhTw: '建於阿蘇外輪山丘陵上的古代山城。以土壘與石垣環繞約3.5km外周。', en: 'An ancient mountain fortress on the Aso outer rim hills, its 3.5km perimeter enclosed by earthworks and stone walls.' },
@@ -9021,15 +12906,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '松井興長 — 細川氏の筆頭家老として八代城を預かり、名君として治世を行った。', zhTw: '松井興長 — 作為細川氏首席家老掌管八代城，以名君進行治世。', en: 'Matsui Okinaga — as chief retainer of the Hosokawa, he governed Yatsushiro Castle wisely and justly.' },
+      {
+        ja: '松井興長', zhTw: '松井興長', en: 'Matsui Okinaga',
+        desc: {
+          ja: '細川氏の筆頭家老として八代城を預かり、名君として治世を行った。',
+          zhTw: '作為細川氏首席家老掌管八代城，以名君進行治世。',
+          en: 'as chief retainer of the Hosokawa, he governed Yatsushiro Castle wisely and justly.',
+        },
+      },
     ],
     trivia: [
       { ja: '石垣が美しい「石の城」。特に本丸石垣の切込接ぎは熊本城に匹敵する精巧さ。', zhTw: '石垣精美的「石之城」。特別是本丸石垣的切込接ぎ精巧度堪比熊本城。', en: 'A "castle of stone" with beautiful walls — the honmaru\'s kirikomi-hagi masonry rivals Kumamoto Castle\'s precision.' },
       { ja: '八代は畳表の原料「い草」の日本一の産地で、城下町から続く伝統産業。', zhTw: '八代是榻榻米原料「藺草」的日本第一產地，延續自城下町的傳統產業。', en: 'Yatsushiro is Japan\'s top producer of "igusa" (rush) for tatami mats — a tradition from the castle town era.' },
     ],
     highlights: [
-      { ja: '本丸石垣 — 切込接ぎの美しい石垣が水堀に映る姿は九州屈指の美景。', zhTw: '本丸石垣 — 切込接ぎ精美石垣映於水堀的姿態為九州首屈一指的美景。', en: 'Honmaru walls — the beautiful kirikomi-hagi walls reflected in the water moat create one of Kyūshū\'s finest vistas.' },
-      { ja: '大天守台 — 5層の天守が建っていた巨大な天守台の石垣が残る。', zhTw: '大天守台 — 曾建有5層天守的巨大天守台石垣殘存。', en: 'Great tenshu-dai — the massive stone base that once supported a five-story tenshu survives.' },
+      {
+        ja: '本丸石垣', zhTw: '本丸石垣', en: 'Honmaru walls',
+        desc: {
+          ja: '切込接ぎの美しい石垣が水堀に映る姿は九州屈指の美景。',
+          zhTw: '切込接ぎ精美石垣映於水堀的姿態為九州首屈一指的美景。',
+          en: 'the beautiful kirikomi-hagi walls reflected in the water moat create one of Kyūshū\'s finest vistas.',
+        },
+      },
+      {
+        ja: '大天守台', zhTw: '大天守台', en: 'Great tenshu-dai',
+        desc: {
+          ja: '5層の天守が建っていた巨大な天守台の石垣が残る。',
+          zhTw: '曾建有5層天守的巨大天守台石垣殘存。',
+          en: 'the massive stone base that once supported a five-story tenshu survives.',
+        },
+      },
     ],
     architecture: [
       { ja: '球磨川河口の低地に築かれた輪郭式平城。本丸・二の丸・三の丸を水堀が囲む。', zhTw: '建於球磨川河口低地的輪郭式平城。本丸、二之丸、三之丸被水堀環繞。', en: 'A rinkaku flatland castle on the Kuma River estuary, with water moats encircling honmaru, ni-no-maru, and san-no-maru.' },
@@ -9073,16 +12979,44 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '黒田官兵衛（孝高/如水） — 秀吉の天下取りを支えた稀代の軍師。中津城を自ら設計した。', zhTw: '黑田官兵衛（孝高/如水） — 支撐秀吉奪天下的稀代軍師。親自設計中津城。', en: 'Kuroda Kanbei (Yoshitaka/Josui) — the peerless strategist behind Hideyoshi\'s rise, who designed Nakatsu Castle himself.' },
-      { ja: '福沢諭吉 — 中津藩出身の思想家・教育者。「学問のすゝめ」の著者で慶應義塾の創設者。', zhTw: '福澤諭吉 — 中津藩出身的思想家、教育家。《勸學篇》作者、慶應義塾創設者。', en: 'Fukuzawa Yukichi — a thinker and educator from Nakatsu domain, author of "An Encouragement of Learning" and founder of Keio University.' },
+      {
+        ja: '黒田官兵衛（孝高/如水）', zhTw: '黑田官兵衛（孝高/如水）', en: 'Kuroda Kanbei (Yoshitaka/Josui)',
+        desc: {
+          ja: '秀吉の天下取りを支えた稀代の軍師。中津城を自ら設計した。',
+          zhTw: '支撐秀吉奪天下的稀代軍師。親自設計中津城。',
+          en: 'the peerless strategist behind Hideyoshi\'s rise, who designed Nakatsu Castle himself.',
+        },
+      },
+      {
+        ja: '福沢諭吉', zhTw: '福澤諭吉', en: 'Fukuzawa Yukichi',
+        desc: {
+          ja: '中津藩出身の思想家・教育者。「学問のすゝめ」の著者で慶應義塾の創設者。',
+          zhTw: '中津藩出身的思想家、教育家。《勸學篇》作者、慶應義塾創設者。',
+          en: 'a thinker and educator from Nakatsu domain, author of "An Encouragement of Learning" and founder of Keio University.',
+        },
+      },
     ],
     trivia: [
       { ja: '黒田官兵衛が築いた石垣と細川忠興が増築した石垣で積み方が異なり、時代の違いが一目で分かる。', zhTw: '黑田官兵衛築造的石垣與細川忠興增築的石垣堆法不同，一眼可見時代差異。', en: 'Kanbei\'s original walls and Tadaoki\'s additions use different masonry styles — the era difference is visible at a glance.' },
       { ja: '福沢諭吉の旧居が城下町に残り、一万円札の肖像でも知られる。', zhTw: '福澤諭吉舊居殘存於城下町，也以一萬圓紙鈔的肖像聞名。', en: 'Fukuzawa Yukichi\'s former home remains in the castle town — he is also known as the face of the 10,000-yen note.' },
     ],
     highlights: [
-      { ja: '二つの時代の石垣 — 黒田期の野面積みと細川期の打込接ぎが隣り合う珍しい光景。', zhTw: '兩個時代的石垣 — 黑田期野面積與細川期打込接相鄰的珍稀光景。', en: 'Walls of two eras — Kuroda-era nozura-zumi and Hosokawa-era uchikomi-hagi masonry side by side.' },
-      { ja: '模擬天守 — 1964年に建てられた五層の模擬天守。内部は中津の歴史資料館。', zhTw: '模擬天守 — 1964年建造的五層模擬天守。內部為中津歷史資料館。', en: 'Replica tenshu — a five-story replica built in 1964, housing a museum of Nakatsu\'s history.' },
+      {
+        ja: '二つの時代の石垣', zhTw: '兩個時代的石垣', en: 'Walls of two eras',
+        desc: {
+          ja: '黒田期の野面積みと細川期の打込接ぎが隣り合う珍しい光景。',
+          zhTw: '黑田期野面積與細川期打込接相鄰的珍稀光景。',
+          en: 'Kuroda-era nozura-zumi and Hosokawa-era uchikomi-hagi masonry side by side.',
+        },
+      },
+      {
+        ja: '模擬天守', zhTw: '模擬天守', en: 'Replica tenshu',
+        desc: {
+          ja: '1964年に建てられた五層の模擬天守。内部は中津の歴史資料館。',
+          zhTw: '1964年建造的五層模擬天守。內部為中津歷史資料館。',
+          en: 'a five-story replica built in 1964, housing a museum of Nakatsu\'s history.',
+        },
+      },
     ],
     architecture: [
       { ja: '中津川河口に築かれた水城。周防灘の潮の干満を利用した堀が特徴。', zhTw: '建於中津川河口的水城。利用周防灘潮汐的護城河為特徵。', en: 'A water castle at the Nakatsu River mouth, with moats that exploited the tides of the Suō Sea.' },
@@ -9125,15 +13059,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '久留島通嘉 — 久留島氏の藩主。玖珠の発展に尽力し、童話の里づくりの基盤を築いた。', zhTw: '久留島通嘉 — 久留島氏藩主。致力於玖珠的發展，奠定童話之里建設的基礎。', en: 'Kurushima Michiyoshi — a Kurushima lord who developed Kusu and laid the groundwork for its "Fairy Tale Village."' },
+      {
+        ja: '久留島通嘉', zhTw: '久留島通嘉', en: 'Kurushima Michiyoshi',
+        desc: {
+          ja: '久留島氏の藩主。玖珠の発展に尽力し、童話の里づくりの基盤を築いた。',
+          zhTw: '久留島氏藩主。致力於玖珠的發展，奠定童話之里建設的基礎。',
+          en: 'a Kurushima lord who developed Kusu and laid the groundwork for its "Fairy Tale Village."',
+        },
+      },
     ],
     trivia: [
       { ja: '玖珠町は「日本のアンデルセン」久留島武彦の出身地で、「童話の里」として知られる。', zhTw: '玖珠町是「日本的安徒生」久留島武彥的出生地，以「童話之里」聞名。', en: 'Kusu is the birthplace of Kurushima Takehiko, "Japan\'s Andersen," and is known as the "Land of Fairy Tales."' },
       { ja: 'テーブル状の独特な山容「伐株山」を背景に、風光明媚な城跡が広がる。', zhTw: '以桌狀獨特山容「伐株山」為背景，風光明媚的城跡展開。', en: 'The scenic ruins spread beneath the distinctive table-shaped Mt. Kirikabu in the background.' },
     ],
     highlights: [
-      { ja: '穴太積みの石垣 — 二の丸に残る穴太衆の手による見事な石垣。', zhTw: '穴太積石垣 — 殘存於二之丸的穴太眾精美石垣。', en: 'Anō-zumi walls — superb stonework by the Anō masons surviving at the ni-no-maru.' },
-      { ja: '三島公園 — 城跡が公園として整備され、久留島武彦の記念館がある。', zhTw: '三島公園 — 城跡整備為公園，設有久留島武彥紀念館。', en: 'Mishima Park — the castle ruins are maintained as a park, with a Kurushima Takehiko memorial hall.' },
+      {
+        ja: '穴太積みの石垣', zhTw: '穴太積石垣', en: 'Anō-zumi walls',
+        desc: {
+          ja: '二の丸に残る穴太衆の手による見事な石垣。',
+          zhTw: '殘存於二之丸的穴太眾精美石垣。',
+          en: 'superb stonework by the Anō masons surviving at the ni-no-maru.',
+        },
+      },
+      {
+        ja: '三島公園', zhTw: '三島公園', en: 'Mishima Park',
+        desc: {
+          ja: '城跡が公園として整備され、久留島武彦の記念館がある。',
+          zhTw: '城跡整備為公園，設有久留島武彥紀念館。',
+          en: 'the castle ruins are maintained as a park, with a Kurushima Takehiko memorial hall.',
+        },
+      },
     ],
     architecture: [
       { ja: '角埋山の山頂部に本丸を置く山城。二の丸の穴太積み石垣が特筆される。', zhTw: '於角埋山山頂設本丸的山城。二之丸的穴太積石垣特別值得一書。', en: 'A mountain castle with honmaru on the summit of Mt. Tsunomure; the ni-no-maru\'s Anō-style walls are particularly noteworthy.' },
@@ -9177,15 +13132,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '大友宗麟 — 豊後の王として九州に覇を唱えたキリシタン大名。洗礼名フランシスコ。', zhTw: '大友宗麟 — 作為豐後之王稱霸九州的基督徒大名。洗禮名法蘭西斯科。', en: 'Ōtomo Sōrin — a Christian daimyō who reigned over Kyūshū as the "King of Bungo," baptized as Francisco.' },
+      {
+        ja: '大友宗麟', zhTw: '大友宗麟', en: 'Ōtomo Sōrin',
+        desc: {
+          ja: '豊後の王として九州に覇を唱えたキリシタン大名。洗礼名フランシスコ。',
+          zhTw: '作為豐後之王稱霸九州的基督徒大名。洗禮名法蘭西斯科。',
+          en: 'a Christian daimyō who reigned over Kyūshū as the "King of Bungo," baptized as Francisco.',
+        },
+      },
     ],
     trivia: [
       { ja: '臼杵石仏（国宝）は大友氏時代に造られた磨崖仏群で、城下町の文化的深層を物語る。', zhTw: '臼杵石佛（國寶）是大友氏時代製造的磨崖佛群，述說城下町的文化深層。', en: 'Usuki Stone Buddhas (National Treasure) — cliff-carved Buddhas from the Ōtomo era, testifying to the castle town\'s cultural depth.' },
       { ja: '干拓により陸続きになったが、かつては海に浮かぶ島城で「丹生島城」とも呼ばれた。', zhTw: '因圍墾變為陸連，但過去是浮於海上的島城，也稱「丹生島城」。', en: 'Land reclamation connected it to the mainland, but it was once an island castle known as "Niujima-jō."' },
     ],
     highlights: [
-      { ja: '畳櫓 — 現存する二重櫓で、臼杵城唯一の現存建造物。', zhTw: '畳櫓 — 現存的二重櫓，臼杵城唯一的現存建築。', en: 'Tatami Yagura — a surviving two-story turret, the only original structure remaining at Usuki Castle.' },
-      { ja: '大門櫓 — 復元された城の正門で、臼杵の街並みを見下ろす。', zhTw: '大門櫓 — 復元的城正門，俯瞰臼杵街景。', en: 'Daimon Yagura — a restored main gate overlooking the streets of Usuki.' },
+      {
+        ja: '畳櫓', zhTw: '畳櫓', en: 'Tatami Yagura',
+        desc: {
+          ja: '現存する二重櫓で、臼杵城唯一の現存建造物。',
+          zhTw: '現存的二重櫓，臼杵城唯一的現存建築。',
+          en: 'a surviving two-story turret, the only original structure remaining at Usuki Castle.',
+        },
+      },
+      {
+        ja: '大門櫓', zhTw: '大門櫓', en: 'Daimon Yagura',
+        desc: {
+          ja: '復元された城の正門で、臼杵の街並みを見下ろす。',
+          zhTw: '復元的城正門，俯瞰臼杵街景。',
+          en: 'a restored main gate overlooking the streets of Usuki.',
+        },
+      },
     ],
     architecture: [
       { ja: '臼杵湾に浮かぶ丹生島全体を城域とした海城。三方を海に囲まれた天然の要害。', zhTw: '以浮於臼杵灣的丹生島整體為城域的海城。三面被海環繞的天然要害。', en: 'A sea castle encompassing the entire island of Niujima in Usuki Bay, naturally defended by ocean on three sides.' },
@@ -9229,15 +13205,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '毛利高政 — 豊臣秀吉・徳川家康に仕え、佐伯藩の基盤を築いた初代藩主。', zhTw: '毛利高政 — 侍奉豐臣秀吉、德川家康，奠定佐伯藩基礎的初代藩主。', en: 'Mōri Takamasa — serving both Hideyoshi and Ieyasu, the first lord who laid Saiki domain\'s foundations.' },
+      {
+        ja: '毛利高政', zhTw: '毛利高政', en: 'Mōri Takamasa',
+        desc: {
+          ja: '豊臣秀吉・徳川家康に仕え、佐伯藩の基盤を築いた初代藩主。',
+          zhTw: '侍奉豐臣秀吉、德川家康，奠定佐伯藩基礎的初代藩主。',
+          en: 'serving both Hideyoshi and Ieyasu, the first lord who laid Saiki domain\'s foundations.',
+        },
+      },
     ],
     trivia: [
       { ja: '佐伯は「佐伯寿司」で有名な寿司の街。城下町の食文化が今も根付く。', zhTw: '佐伯以「佐伯壽司」聞名的壽司之街。城下町的飲食文化至今紮根。', en: 'Saiki is a sushi town famous for "Saiki sushi," with castle-town food culture still alive today.' },
       { ja: '登城路は「登城の道」として整備され、約20分の登山で本丸に到達できる。', zhTw: '登城路整備為「登城之道」，約20分鐘登山可到達本丸。', en: 'The approach is maintained as the "Path of Ascent," reaching the honmaru in about a 20-minute climb.' },
     ],
     highlights: [
-      { ja: '三の丸御門（櫓門） — 山麓に残る現存櫓門。佐伯市の文化財。', zhTw: '三之丸御門（櫓門） — 殘存於山腳的現存櫓門。佐伯市文化財。', en: 'San-no-maru Gomon (Yagura-mon) — a surviving gate-tower at the base, a Saiki City cultural property.' },
-      { ja: '本丸からの眺望 — 番匠川と佐伯市街、豊後水道を望む絶景。', zhTw: '本丸眺望 — 眺望番匠川與佐伯市街、豐後水道的絕景。', en: 'Honmaru views — a stunning panorama of the Banshō River, Saiki city, and the Bungo Channel.' },
+      {
+        ja: '三の丸御門（櫓門）', zhTw: '三之丸御門（櫓門）', en: 'San-no-maru Gomon (Yagura-mon)',
+        desc: {
+          ja: '山麓に残る現存櫓門。佐伯市の文化財。',
+          zhTw: '殘存於山腳的現存櫓門。佐伯市文化財。',
+          en: 'a surviving gate-tower at the base, a Saiki City cultural property.',
+        },
+      },
+      {
+        ja: '本丸からの眺望', zhTw: '本丸眺望', en: 'Honmaru views',
+        desc: {
+          ja: '番匠川と佐伯市街、豊後水道を望む絶景。',
+          zhTw: '眺望番匠川與佐伯市街、豐後水道的絕景。',
+          en: 'a stunning panorama of the Banshō River, Saiki city, and the Bungo Channel.',
+        },
+      },
     ],
     architecture: [
       { ja: '城山山頂に本丸、中腹に二の丸、山麓に三の丸御殿を配した山城。', zhTw: '城山山頂設本丸、中腹設二之丸、山腳配置三之丸御殿的山城。', en: 'A mountain castle with honmaru on the summit, ni-no-maru mid-slope, and san-no-maru palace at the base.' },
@@ -9282,15 +13279,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '内藤政挙 — 最後の延岡藩主。廃藩後も延岡の教育・産業振興に尽力した名君。', zhTw: '內藤政舉 — 最後的延岡藩主。廢藩後也致力於延岡的教育、產業振興的名君。', en: 'Naitō Masataka — the last Nobeoka lord, who devoted himself to education and industry even after the domain was abolished.' },
+      {
+        ja: '内藤政挙', zhTw: '內藤政舉', en: 'Naitō Masataka',
+        desc: {
+          ja: '最後の延岡藩主。廃藩後も延岡の教育・産業振興に尽力した名君。',
+          zhTw: '最後的延岡藩主。廢藩後也致力於延岡的教育、產業振興的名君。',
+          en: 'the last Nobeoka lord, who devoted himself to education and industry even after the domain was abolished.',
+        },
+      },
     ],
     trivia: [
       { ja: '「千人殺しの石垣」と呼ばれる高さ22mの石垣は、要石を一つ外すと全体が崩れる伝説がある。', zhTw: '被稱為「千人殺石垣」的高22m石垣，傳說拔掉一個關鍵石整體就會崩塌。', en: 'The 22m-tall "Sennin-goroshi" (Thousand-Killer) wall is said to collapse entirely if one keystone is removed.' },
       { ja: '西南戦争の際、延岡城は西郷隆盛最後の本営となった。', zhTw: '西南戰爭之際延岡城成為西鄉隆盛最後的本營。', en: 'During the Satsuma Rebellion, Nobeoka Castle served as Saigō Takamori\'s final headquarters.' },
     ],
     highlights: [
-      { ja: '千人殺しの石垣 — 高さ22mの巨大な石垣。延岡城最大の見どころ。', zhTw: '千人殺石垣 — 高22m的巨大石垣。延岡城最大看點。', en: 'Sennin-goroshi wall — a 22m-tall massive stone wall, Nobeoka Castle\'s greatest attraction.' },
-      { ja: '北大手門 — 復元された城の正門で、石垣と調和した姿が美しい。', zhTw: '北大手門 — 復元的城正門，與石垣調和的姿態優美。', en: 'Kita Ōte-mon — the restored main gate, its form beautifully harmonizing with the stone walls.' },
+      {
+        ja: '千人殺しの石垣', zhTw: '千人殺石垣', en: 'Sennin-goroshi wall',
+        desc: {
+          ja: '高さ22mの巨大な石垣。延岡城最大の見どころ。',
+          zhTw: '高22m的巨大石垣。延岡城最大看點。',
+          en: 'a 22m-tall massive stone wall, Nobeoka Castle\'s greatest attraction.',
+        },
+      },
+      {
+        ja: '北大手門', zhTw: '北大手門', en: 'Kita Ōte-mon',
+        desc: {
+          ja: '復元された城の正門で、石垣と調和した姿が美しい。',
+          zhTw: '復元的城正門，與石垣調和的姿態優美。',
+          en: 'the restored main gate, its form beautifully harmonizing with the stone walls.',
+        },
+      },
     ],
     architecture: [
       { ja: '五ヶ瀬川と大瀬川の合流点の丘陵上に築かれた平山城。天然の水堀に守られた。', zhTw: '建於五瀨川與大瀨川匯流點丘陵上的平山城。受天然水堀守護。', en: 'A hilltop castle on a hill at the confluence of the Gokase and Ōse rivers, protected by natural water moats.' },
@@ -9334,15 +13352,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '島津家久 — 島津四兄弟の末弟。耳川の戦い・沖田畷の戦いで軍功を挙げた名将。', zhTw: '島津家久 — 島津四兄弟的么弟。在耳川之戰、沖田畷之戰中立下軍功的名將。', en: 'Shimazu Iehisa — the youngest of four Shimazu brothers, distinguished at the Battles of Mimigawa and Okitanawate.' },
+      {
+        ja: '島津家久', zhTw: '島津家久', en: 'Shimazu Iehisa',
+        desc: {
+          ja: '島津四兄弟の末弟。耳川の戦い・沖田畷の戦いで軍功を挙げた名将。',
+          zhTw: '島津四兄弟的么弟。在耳川之戰、沖田畷之戰中立下軍功的名將。',
+          en: 'the youngest of four Shimazu brothers, distinguished at the Battles of Mimigawa and Okitanawate.',
+        },
+      },
     ],
     trivia: [
       { ja: '佐土原人形は江戸時代から続く伝統工芸で、城下町の文化を今に伝える。', zhTw: '佐土原人偶是江戶時代延續的傳統工藝，將城下町文化傳承至今。', en: 'Sadowara dolls, a traditional craft since the Edo period, carry forward the castle town\'s culture.' },
       { ja: '2006年の発掘で山頂部から天守台の石垣が発見され、天守の存在が確認された。', zhTw: '2006年發掘中從山頂發現天守台石垣，確認天守的存在。', en: 'In 2006, excavations on the hilltop uncovered tenshu-dai stone walls, confirming the existence of a keep.' },
     ],
     highlights: [
-      { ja: '鶴松館 — 山麓に復元された御殿建築で、佐土原藩の歴史を展示。', zhTw: '鶴松館 — 山腳復元的御殿建築，展示佐土原藩歷史。', en: 'Tsurushō-kan — a restored palace at the base, exhibiting Sadowara domain\'s history.' },
-      { ja: '山上の城跡 — 天守台跡と曲輪群が山頂に残り、日向灘を一望できる。', zhTw: '山上城跡 — 天守台跡與曲輪群殘存於山頂，可一望日向灘。', en: 'Hilltop ruins — tenshu-dai remains and baileys on the summit, with views of the Hyūga Sea.' },
+      {
+        ja: '鶴松館', zhTw: '鶴松館', en: 'Tsurushō-kan',
+        desc: {
+          ja: '山麓に復元された御殿建築で、佐土原藩の歴史を展示。',
+          zhTw: '山腳復元的御殿建築，展示佐土原藩歷史。',
+          en: 'a restored palace at the base, exhibiting Sadowara domain\'s history.',
+        },
+      },
+      {
+        ja: '山上の城跡', zhTw: '山上城跡', en: 'Hilltop ruins',
+        desc: {
+          ja: '天守台跡と曲輪群が山頂に残り、日向灘を一望できる。',
+          zhTw: '天守台跡與曲輪群殘存於山頂，可一望日向灘。',
+          en: 'tenshu-dai remains and baileys on the summit, with views of the Hyūga Sea.',
+        },
+      },
     ],
     architecture: [
       { ja: '城山(標高70m)山頂に本丸、山麓に御殿を配した山城。山上と山麓の二元構造。', zhTw: '城山(標高70m)山頂設本丸、山腳配置御殿的山城。山上與山腳的二元構造。', en: 'A mountain castle with honmaru on 70m Castle Hill and a palace at the base — a dual summit-and-valley structure.' },
@@ -9386,15 +13425,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '新納忠元 — 「鬼武蔵」と呼ばれた島津氏の猛将。志布志を拠点に大隅を支配した。', zhTw: '新納忠元 — 被稱為「鬼武藏」的島津氏猛將。以志布志為據點支配大隅。', en: 'Niiro Tadamoto — the fierce "Demon of Musashi" of the Shimazu, who controlled Ōsumi from Shibushi.' },
+      {
+        ja: '新納忠元', zhTw: '新納忠元', en: 'Niiro Tadamoto',
+        desc: {
+          ja: '「鬼武蔵」と呼ばれた島津氏の猛将。志布志を拠点に大隅を支配した。',
+          zhTw: '被稱為「鬼武藏」的島津氏猛將。以志布志為據點支配大隅。',
+          en: 'the fierce "Demon of Musashi" of the Shimazu, who controlled Ōsumi from Shibushi.',
+        },
+      },
     ],
     trivia: [
       { ja: '南九州特有のシラス台地を削り込んだ空堀群は日本最大級の規模を誇る。', zhTw: '削入南九州特有白砂台地的空堀群規模為日本最大級。', en: 'The dry moats carved into Shirasu (volcanic ash) plateaus unique to southern Kyūshū are among Japan\'s largest.' },
       { ja: '志布志市は「志布志市志布志町志布志」という日本一長い住所で話題になった。', zhTw: '志布志市以「志布志市志布志町志布志」的日本最長地址成為話題。', en: 'Shibushi City became famous for having Japan\'s longest address: "Shibushi-shi Shibushi-chō Shibushi."' },
     ],
     highlights: [
-      { ja: 'シラス台地の空堀 — 深さ10m以上の巨大な空堀群が圧巻。シラスの白い断面が美しい。', zhTw: '白砂台地空堀 — 深10m以上的巨大空堀群壓卷。白砂白色斷面優美。', en: 'Shirasu dry moats — massive karabori over 10m deep are stunning, with beautiful white volcanic ash cross-sections.' },
-      { ja: '内城の曲輪群 — 主郭を中心に多数の曲輪が放射状に配置された精緻な縄張り。', zhTw: '內城曲輪群 — 以主郭為中心多數曲輪放射狀配置的精緻繩張。', en: 'Uchi-jō baileys — a meticulous layout with multiple enclosures radiating from the main compound.' },
+      {
+        ja: 'シラス台地の空堀', zhTw: '白砂台地空堀', en: 'Shirasu dry moats',
+        desc: {
+          ja: '深さ10m以上の巨大な空堀群が圧巻。シラスの白い断面が美しい。',
+          zhTw: '深10m以上的巨大空堀群壓卷。白砂白色斷面優美。',
+          en: 'massive karabori over 10m deep are stunning, with beautiful white volcanic ash cross-sections.',
+        },
+      },
+      {
+        ja: '内城の曲輪群', zhTw: '內城曲輪群', en: 'Uchi-jō baileys',
+        desc: {
+          ja: '主郭を中心に多数の曲輪が放射状に配置された精緻な縄張り。',
+          zhTw: '以主郭為中心多數曲輪放射狀配置的精緻繩張。',
+          en: 'a meticulous layout with multiple enclosures radiating from the main compound.',
+        },
+      },
     ],
     architecture: [
       { ja: 'シラス台地の丘陵群に築かれた複合的山城群。4つの独立した城が尾根続きで連結する。', zhTw: '建於白砂台地丘陵群的複合山城群。4座獨立城郭以稜線連結。', en: 'A complex of mountain castles on Shirasu plateau hills — four independent forts linked along ridgelines.' },
@@ -9432,15 +13492,36 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '佐多氏 — 知覧を代々治めた島津分家。武家屋敷群の美しい庭園を造営した。', zhTw: '佐多氏 — 代代治理知覽的島津分家。營造武家屋敷群的優美庭園。', en: 'The Sata clan — a Shimazu branch that ruled Chiran for generations, building the beautiful samurai residence gardens.' },
+      {
+        ja: '佐多氏', zhTw: '佐多氏', en: 'The Sata clan',
+        desc: {
+          ja: '知覧を代々治めた島津分家。武家屋敷群の美しい庭園を造営した。',
+          zhTw: '代代治理知覽的島津分家。營造武家屋敷群的優美庭園。',
+          en: 'a Shimazu branch that ruled Chiran for generations, building the beautiful samurai residence gardens.',
+        },
+      },
     ],
     trivia: [
       { ja: '知覧武家屋敷群の庭園は国の名勝に指定され、「薩摩の小京都」と呼ばれる。', zhTw: '知覽武家屋敷群庭園被指定為國家名勝，被稱為「薩摩的小京都」。', en: 'Chiran\'s samurai garden district is a national scenic site, called "the Little Kyoto of Satsuma."' },
       { ja: '太平洋戦争末期の特攻基地として知られ、知覧特攻平和会館が戦争の悲劇を伝える。', zhTw: '以太平洋戰爭末期特攻基地聞名，知覽特攻和平會館傳達戰爭悲劇。', en: 'Known as a kamikaze base in the final days of WWII; the Chiran Peace Museum commemorates the war\'s tragedy.' },
     ],
     highlights: [
-      { ja: 'シラスの空堀群 — 深さ10-15mの空堀が曲輪を区切る壮大な景観。', zhTw: '白砂空堀群 — 深10-15m的空堀區隔曲輪的壯觀景觀。', en: 'Shirasu dry moats — moats 10–15m deep dividing the baileys in a magnificent landscape.' },
-      { ja: '本丸跡 — シラス台地上の広い本丸跡から開聞岳を望む。', zhTw: '本丸跡 — 從白砂台地上廣闊的本丸跡眺望開聞岳。', en: 'Honmaru ruins — wide honmaru grounds on the Shirasu plateau, with views of Mt. Kaimon.' },
+      {
+        ja: 'シラスの空堀群', zhTw: '白砂空堀群', en: 'Shirasu dry moats',
+        desc: {
+          ja: '深さ10-15mの空堀が曲輪を区切る壮大な景観。',
+          zhTw: '深10-15m的空堀區隔曲輪的壯觀景觀。',
+          en: 'moats 10–15m deep dividing the baileys in a magnificent landscape.',
+        },
+      },
+      {
+        ja: '本丸跡', zhTw: '本丸跡', en: 'Honmaru ruins',
+        desc: {
+          ja: 'シラス台地上の広い本丸跡から開聞岳を望む。',
+          zhTw: '從白砂台地上廣闊的本丸跡眺望開聞岳。',
+          en: 'wide honmaru grounds on the Shirasu plateau, with views of Mt. Kaimon.',
+        },
+      },
     ],
     architecture: [
       { ja: 'シラス台地を深く掘り込んだ空堀で区画された連郭式山城。5つの曲輪が連なる。', zhTw: '以深掘白砂台地的空堀區劃的連郭式山城。5個曲輪相連。', en: 'A renkaku mountain castle with baileys partitioned by deep moats carved into Shirasu plateaus, five enclosures in a chain.' },
@@ -9485,7 +13566,14 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '護佐丸 — 琉球王国随一の築城名人。座喜味城・中城城を築いた伝説的按司。', zhTw: '護佐丸 — 琉球王國首屈一指的築城名人。築造座喜味城、中城城的傳奇按司。', en: 'Gosamaru — Ryūkyū\'s foremost castle-builder, the legendary aji who constructed both Zakimi and Nakagusuku.' },
+      {
+        ja: '護佐丸', zhTw: '護佐丸', en: 'Gosamaru',
+        desc: {
+          ja: '琉球王国随一の築城名人。座喜味城・中城城を築いた伝説的按司。',
+          zhTw: '琉球王國首屈一指的築城名人。築造座喜味城、中城城的傳奇按司。',
+          en: 'Ryūkyū\'s foremost castle-builder, the legendary aji who constructed both Zakimi and Nakagusuku.',
+        },
+      },
     ],
     trivia: [
       { ja: '沖縄のグスクで最も美しい曲線の石垣を持つとされ、「グスクの華」と呼ばれる。', zhTw: '被認為擁有沖繩城堡中最美曲線石垣，被稱為「城堡之華」。', en: 'Said to have the most beautiful curved walls of any Okinawan gusuku, called the "Flower of Gusuku."' },
@@ -9493,9 +13581,30 @@ export const castles = [
       { ja: '沖縄の世界遺産グスクの中で唯一、入場無料で24時間見学可能。', zhTw: '沖繩世界遺產城堡中唯一免費入場、24小時可參觀。', en: 'The only World Heritage gusuku in Okinawa that is free and accessible 24 hours a day.' },
     ],
     highlights: [
-      { ja: '曲線美の石垣 — 琉球石灰岩の相方積み石垣が描く優雅な曲線美は沖縄随一。', zhTw: '曲線美石垣 — 琉球石灰岩相方積石垣描繪的優雅曲線美為沖繩第一。', en: 'Curved wall beauty — the elegant curves of aibata-zumi limestone walls are Okinawa\'s finest.' },
-      { ja: 'アーチ門 — 沖縄最古の石造アーチ門。精巧な楔石の技術が見られる。', zhTw: '拱門 — 沖繩最古老的石造拱門。可見精巧的楔石技術。', en: 'Arch gate — Okinawa\'s oldest stone arch gate, showcasing exquisite keystone craftsmanship.' },
-      { ja: '城壁上からの眺望 — 東シナ海と読谷の海岸線を一望する絶景の夕日スポット。', zhTw: '城牆上眺望 — 一望東海與讀谷海岸線的絕景夕陽景點。', en: 'Wall-top views — a stunning sunset spot overlooking the East China Sea and Yomitan\'s coastline.' },
+      {
+        ja: '曲線美の石垣', zhTw: '曲線美石垣', en: 'Curved wall beauty',
+        desc: {
+          ja: '琉球石灰岩の相方積み石垣が描く優雅な曲線美は沖縄随一。',
+          zhTw: '琉球石灰岩相方積石垣描繪的優雅曲線美為沖繩第一。',
+          en: 'the elegant curves of aibata-zumi limestone walls are Okinawa\'s finest.',
+        },
+      },
+      {
+        ja: 'アーチ門', zhTw: '拱門', en: 'Arch gate',
+        desc: {
+          ja: '沖縄最古の石造アーチ門。精巧な楔石の技術が見られる。',
+          zhTw: '沖繩最古老的石造拱門。可見精巧的楔石技術。',
+          en: 'Okinawa\'s oldest stone arch gate, showcasing exquisite keystone craftsmanship.',
+        },
+      },
+      {
+        ja: '城壁上からの眺望', zhTw: '城牆上眺望', en: 'Wall-top views',
+        desc: {
+          ja: '東シナ海と読谷の海岸線を一望する絶景の夕日スポット。',
+          zhTw: '一望東海與讀谷海岸線的絕景夕陽景點。',
+          en: 'a stunning sunset spot overlooking the East China Sea and Yomitan\'s coastline.',
+        },
+      },
     ],
     architecture: [
       { ja: '標高127mの丘陵上に築かれた二重の城壁を持つグスク。琉球石灰岩の相方積み。', zhTw: '建於標高127m丘陵上擁有雙重城壁的城堡。琉球石灰岩相方積。', en: 'A gusuku with double walls on a 127m hill, built with Ryūkyūan limestone in aibata-zumi style.' },
@@ -9540,8 +13649,22 @@ export const castles = [
       },
     ],
     figures: [
-      { ja: '阿麻和利 — 勝連按司。海外貿易で財力を蓄え、琉球王府に反旗を翻した野心的な按司。', zhTw: '阿麻和利 — 勝連按司。以海外貿易積蓄財力，對琉球王府叛旗的野心按司。', en: 'Amawari — the Katsuren aji who amassed wealth through overseas trade and raised a rebellion against the Ryūkyū court.' },
-      { ja: '百度踏揚 — 琉球国王の娘で阿麻和利の妻。夫の謀反を王府に密告した悲劇の王女。', zhTw: '百度踏揚 — 琉球國王之女、阿麻和利之妻。向王府密告丈夫謀反的悲劇王女。', en: 'Momoto Fumiagari — a Ryūkyū princess and Amawari\'s wife, who tragically informed the court of her husband\'s plot.' },
+      {
+        ja: '阿麻和利', zhTw: '阿麻和利', en: 'Amawari',
+        desc: {
+          ja: '勝連按司。海外貿易で財力を蓄え、琉球王府に反旗を翻した野心的な按司。',
+          zhTw: '勝連按司。以海外貿易積蓄財力，對琉球王府叛旗的野心按司。',
+          en: 'the Katsuren aji who amassed wealth through overseas trade and raised a rebellion against the Ryūkyū court.',
+        },
+      },
+      {
+        ja: '百度踏揚', zhTw: '百度踏揚', en: 'Momoto Fumiagari',
+        desc: {
+          ja: '琉球国王の娘で阿麻和利の妻。夫の謀反を王府に密告した悲劇の王女。',
+          zhTw: '琉球國王之女、阿麻和利之妻。向王府密告丈夫謀反的悲劇王女。',
+          en: 'a Ryūkyū princess and Amawari\'s wife, who tragically informed the court of her husband\'s plot.',
+        },
+      },
     ],
     trivia: [
       { ja: '発掘調査で中国・日本・東南アジアの陶磁器やローマ帝国のコインが出土し、国際交易拠点だったことが判明。', zhTw: '發掘調查出土中國、日本、東南亞陶瓷器及羅馬帝國硬幣，證實為國際交易據點。', en: 'Excavations yielded Chinese, Japanese, and Southeast Asian ceramics plus Roman coins — proof of an international trading hub.' },
@@ -9549,9 +13672,30 @@ export const castles = [
       { ja: '城跡からは中城湾と太平洋を一望でき、沖縄で最も眺望が美しいグスクとされる。', zhTw: '從城跡可一望中城灣與太平洋，被認為是沖繩眺望最美的城堡。', en: 'The ruins offer panoramic views of Nakagusuku Bay and the Pacific, considered Okinawa\'s most beautiful gusuku vista.' },
     ],
     highlights: [
-      { ja: '一の曲輪からの絶景 — 最高所からの360度パノラマ。中城湾・太平洋・知念半島を一望。', zhTw: '一之曲輪絕景 — 最高處的360度全景。一望中城灣、太平洋、知念半島。', en: 'Ichi-no-kuruwa panorama — a 360-degree view from the highest point, sweeping Nakagusuku Bay, the Pacific, and Chinen Peninsula.' },
-      { ja: '石垣の曲線美 — 琉球石灰岩の美しい曲線を描く城壁が丘陵に沿って連なる。', zhTw: '石垣曲線美 — 琉球石灰岩描繪美麗曲線的城壁沿丘陵連綿。', en: 'Curved wall artistry — limestone walls tracing beautiful curves along the hillside.' },
-      { ja: '四の曲輪 — 城の入口にあたる広い曲輪で、石畳の道が往時の威厳を伝える。', zhTw: '四之曲輪 — 城入口的寬廣曲輪，石板路傳達往日威嚴。', en: 'Yon-no-kuruwa — the broad entrance bailey, where stone-paved roads convey the grandeur of old.' },
+      {
+        ja: '一の曲輪からの絶景', zhTw: '一之曲輪絕景', en: 'Ichi-no-kuruwa panorama',
+        desc: {
+          ja: '最高所からの360度パノラマ。中城湾・太平洋・知念半島を一望。',
+          zhTw: '最高處的360度全景。一望中城灣、太平洋、知念半島。',
+          en: 'a 360-degree view from the highest point, sweeping Nakagusuku Bay, the Pacific, and Chinen Peninsula.',
+        },
+      },
+      {
+        ja: '石垣の曲線美', zhTw: '石垣曲線美', en: 'Curved wall artistry',
+        desc: {
+          ja: '琉球石灰岩の美しい曲線を描く城壁が丘陵に沿って連なる。',
+          zhTw: '琉球石灰岩描繪美麗曲線的城壁沿丘陵連綿。',
+          en: 'limestone walls tracing beautiful curves along the hillside.',
+        },
+      },
+      {
+        ja: '四の曲輪', zhTw: '四之曲輪', en: 'Yon-no-kuruwa',
+        desc: {
+          ja: '城の入口にあたる広い曲輪で、石畳の道が往時の威厳を伝える。',
+          zhTw: '城入口的寬廣曲輪，石板路傳達往日威嚴。',
+          en: 'the broad entrance bailey, where stone-paved roads convey the grandeur of old.',
+        },
+      },
     ],
     architecture: [
       { ja: '勝連半島の丘陵(標高約100m)に築かれた5つの曲輪からなるグスク。階段状に曲輪が連なる。', zhTw: '建於勝連半島丘陵(標高約100m)由5個曲輪組成的城堡。曲輪階梯狀相連。', en: 'A gusuku of five enclosures on a 100m hill of the Katsuren Peninsula, with baileys cascading in tiers.' },
